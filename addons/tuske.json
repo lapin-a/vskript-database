@@ -1,0 +1,43 @@
+{
+  "TuSKe:open_virtual_chest": {
+    "name": "open virtual chest",
+    "added": ["2.5.2"],
+    "addon": "TuSKe",
+    "type": "effect",
+    "patterns": [
+      "open virtual [chest] [inventory] [with] size %number% [named %string%] to %players%",
+      "open virtual [chest] [inventory] [with] %number% row[s] [named %string%] to %players%"
+    ],
+    "description": {
+      "en": ["Opens a virtual chest inventory that does not exist physically."],
+      "ko": "플레이어에게 물리적으로 존재하지 않는 안전한 가상 상자 인벤토리(GUI) 창을 오픈합니다."
+    }
+  },
+  "TuSKe:format_gui_slot": {
+    "name": "format gui slot",
+    "added": ["2.5.2"],
+    "addon": "TuSKe",
+    "type": "effect",
+    "patterns": [
+      "format gui slot %number% of %player% with %itemstack% to [run|close|keep]",
+      "format gui slot %number% of %player% with %itemstack% to run %string%/command[s] [by %string%]"
+    ],
+    "description": {
+      "en": ["Formats an advanced virtual GUI slot using TuSKe advanced matrix engine."],
+      "ko": "가상 상자의 특정 슬롯을 아이템으로 지정하고, 클릭 시 실행할 람다 액션(Run/Close/Keep)이나 명령어를 바인딩합니다."
+    }
+  },
+  "TuSKe:unformat_gui_slot": {
+    "name": "unformat gui slot",
+    "added": ["2.5.2"],
+    "addon": "TuSKe",
+    "type": "effect",
+    "patterns": [
+      "unformat gui slot %number% of %player%"
+    ],
+    "description": {
+      "en": ["Removes all formatted actions and items from a specific virtual slot."],
+      "ko": "지정된 가상 슬롯에 걸려있는 모든 아이템 포맷과 클릭 이벤트 링크를 초기화하여 해제합니다."
+    }
+  }
+}
