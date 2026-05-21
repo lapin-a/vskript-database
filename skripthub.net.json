@@ -1,0 +1,847 @@
+[
+  {
+    "name": "skript-mirror",
+    "url": "https://github.com/btk5h/skript-mirror",
+    "author": "eyesniper2"
+  },
+  {
+    "name": "skript-db",
+    "url": "https://github.com/btk5h/skript-db",
+    "author": "eyesniper2"
+  },
+  {
+    "name": "skript-json",
+    "url": "https://github.com/btk5h/skript-json",
+    "author": "eyesniper2"
+  },
+  {
+    "name": "Reqn",
+    "url": "https://github.com/btk5h/reqn",
+    "author": "eyesniper2"
+  },
+  {
+    "name": "PlayerMention",
+    "url": "https://www.spigotmc.org/resources/playermention-completely-recoded.8963/",
+    "author": "HYPExMon5ter"
+  },
+  {
+    "name": "SKPermissionsEx",
+    "url": "https://github.com/DevonPalma/SKPermissionsEx/releases",
+    "author": "cheatchki"
+  },
+  {
+    "name": "FunkySk",
+    "url": "https://forums.skunity.com/resources/funkysk.394/",
+    "author": "LimeGlass"
+  },
+  {
+    "name": "Conquer",
+    "url": "https://forums.skunity.com/resources/conquer.233/",
+    "author": "thatandrew28"
+  },
+  {
+    "name": "skript-npc",
+    "url": "https://forums.skunity.com/resources/skript-npc.444/",
+    "author": "Nano"
+  },
+  {
+    "name": "Ticker",
+    "url": "https://forums.skunity.com/resources/ticker.428/",
+    "author": "LimeGlass"
+  },
+  {
+    "name": "MundoSK",
+    "url": "https://forums.skunity.com/resources/mundosk.69/",
+    "author": "Tlatoani"
+  },
+  {
+    "name": "Skraper",
+    "url": "https://forums.skunity.com/resources/418",
+    "author": "Nano"
+  },
+  {
+    "name": "skript-ping",
+    "url": "https://forums.skunity.com/resources/skript-ping.414/",
+    "author": "WheezyGold7931"
+  },
+  {
+    "name": "QuarSK",
+    "url": "https://forums.skunity.com/resources/25/",
+    "author": "Syst3ms"
+  },
+  {
+    "name": "skript-math",
+    "url": "https://forums.skunity.com/resources/.271/",
+    "author": "Syst3ms"
+  },
+  {
+    "name": "LiteBansSk",
+    "url": "https://forums.skunity.com/resources/litebanssk.391/",
+    "author": "Pugabyte"
+  },
+  {
+    "name": "PurpleSk",
+    "url": "https://forums.skunity.com/resources/purplesk.38/",
+    "author": "Pugabyte"
+  },
+  {
+    "name": "skDragon",
+    "url": "https://forums.skunity.com/resources/skdragon-emotes-particles.20/",
+    "author": "Sashie"
+  },
+  {
+    "name": "skript-yaml",
+    "url": "https://forums.skunity.com/resources/skript-yaml.362/",
+    "author": "Sashie"
+  },
+  {
+    "name": "Biosphere2",
+    "url": "https://github.com/bi0qaw/biosphere2",
+    "author": "bi0qaw"
+  },
+  {
+    "name": "Ersatz",
+    "url": "https://forums.skunity.com/resources/ersatz.355/",
+    "author": "Pikachu"
+  },
+  {
+    "name": "TuSKe",
+    "url": "https://github.com/Tuke-Nuke/TuSKe/releases",
+    "author": "Tuke_Nuke"
+  },
+  {
+    "name": "BungeeMaster",
+    "url": "https://bm.tonymaster21.me",
+    "author": "TonyMaster21"
+  },
+  {
+    "name": "SharpSK",
+    "url": "https://github.com/Sharpjaws/SharpSK/releases/",
+    "author": "sharpjaws"
+  },
+  {
+    "name": "skLib",
+    "url": "https://github.com/WheezyGold7931/skLib",
+    "author": "WheezyGold7931"
+  },
+  {
+    "name": "skGlide",
+    "url": "https://github.com/tim740/skGlide/releases",
+    "author": "tim740"
+  },
+  {
+    "name": "skProfession",
+    "url": "https://github.com/tim740/skProfession",
+    "author": "tim740"
+  },
+  {
+    "name": "skWhitelist",
+    "url": "https://github.com/tim740/skWhitelist",
+    "author": "tim740"
+  },
+  {
+    "name": "Skellett",
+    "url": "https://forums.skunity.com/resources/skellett-the-addon-with-a-beast-name.24/",
+    "author": "LimeGlass"
+  },
+  {
+    "name": "BoringSK",
+    "url": "https://forums.skunity.com/resources/boringsk.326/",
+    "author": "Viberent"
+  },
+  {
+    "name": "skUtilities",
+    "url": "https://forums.skunity.com/resources/skutilities.26/",
+    "author": "tim740"
+  },
+  {
+    "name": "skRayFall",
+    "url": "https://dev.bukkit.org/projects/skrayfall",
+    "author": "eyesniper2"
+  },
+  {
+    "name": "skript-gui",
+    "url": "https://github.com/APickledWalrus/skript-gui/releases",
+    "author": "APickledWalrus"
+  },
+  {
+    "name": "TranSKator",
+    "url": "https://www.spigotmc.org/resources/transkator.74112/",
+    "author": "Moderocky"
+  },
+  {
+    "name": "MiSK",
+    "url": "https://www.spigotmc.org/resources/misk-addon-1-14-1.67507/",
+    "author": "Moderocky"
+  },
+  {
+    "name": "skript-holo",
+    "url": "https://github.com/Blueyescat/skript-holo",
+    "author": "Blueyescat"
+  },
+  {
+    "name": "MorkazSk",
+    "url": "https://github.com/MorkaZ/MorkazSk/releases",
+    "author": "Morkaz"
+  },
+  {
+    "name": "HyperSK",
+    "url": "https://docs.skunity.com/addon/HyperSK",
+    "author": "Alexander"
+  },
+  {
+    "name": "WebSKT",
+    "url": "https://forums.skunity.com/resources/webskt.728/",
+    "author": "Tlatoani"
+  },
+  {
+    "name": "Kosmos",
+    "url": "https://forums.skunity.com/resources/kosmos.726/",
+    "author": "Tlatoani"
+  },
+  {
+    "name": "Tablisknu",
+    "url": "https://forums.skunity.com/resources/tablisknu.727/",
+    "author": "Tlatoani"
+  },
+  {
+    "name": "GameAPI",
+    "url": "https://github.com/Olyno/Gamet",
+    "author": "Olyno"
+  },
+  {
+    "name": "Skematic",
+    "url": "https://github.com/Efnilite/Skematic/",
+    "author": "Efnilite"
+  },
+  {
+    "name": "skript-logs",
+    "url": "https://github.com/Blueyescat/skript-logs",
+    "author": "Blueyescat"
+  },
+  {
+    "name": "Fawesk",
+    "url": "https://forums.skunity.com/resources/fawesk.586/",
+    "author": "LimeGlass"
+  },
+  {
+    "name": "Skore",
+    "url": "https://forums.skunity.com/resources/skore-the-scoreboard-addon.617/",
+    "author": "LimeGlass"
+  },
+  {
+    "name": "SkVault",
+    "url": "https://github.com/OfficialDonut/SkVault",
+    "author": "Donut"
+  },
+  {
+    "name": "skript-packet",
+    "url": "https://github.com/Anarchick/skript-packet/releases",
+    "author": "Anarchick"
+  },
+  {
+    "name": "Skirt",
+    "url": "https://github.com/MrsDarth/Skirt/releases",
+    "author": "MrsDarth"
+  },
+  {
+    "name": "McQQBot",
+    "url": "https://gitee.com/msg_dw/McQQBot-Skript/releases",
+    "author": "msg_dw"
+  },
+  {
+    "name": "SkJade",
+    "url": "https://forums.skunity.com/resources/skjade.1267/",
+    "author": "Ankoki"
+  },
+  {
+    "name": "Parties",
+    "url": "https://www.spigotmc.org/resources/parties-an-advanced-parties-manager.3709/",
+    "author": "AlessioDP"
+  },
+  {
+    "name": "skScraft",
+    "url": "https://github.com/scraft-official/skScraft/releases",
+    "author": "scraft_official"
+  },
+  {
+    "name": "SkImage",
+    "url": "https://github.com/SkyCraft78/SkImage/releases",
+    "author": "SkyCraft78"
+  },
+  {
+    "name": "Skript-Towny",
+    "url": "https://github.com/TheLimeGlass/skript-towny/releases",
+    "author": "LimeGlass"
+  },
+  {
+    "name": "BeastTokenSk",
+    "url": "https://www.spigotmc.org/resources/skript-addon-beasttokensk.86157/",
+    "author": "Ankoki"
+  },
+  {
+    "name": "MongoSK",
+    "url": "https://github.com/Romitou/MongoSK",
+    "author": "Romitou"
+  },
+  {
+    "name": "SkDynmap",
+    "url": "https://github.com/Skylyxx/skdynmap/",
+    "author": "Skylyxx"
+  },
+  {
+    "name": "Pesk",
+    "url": "https://www.spigotmc.org/resources/pesk-addon.84062/",
+    "author": "BluBoy3ch0"
+  },
+  {
+    "name": "skript-reflect",
+    "url": "https://github.com/TPGamesNL/skript-reflect",
+    "author": "TPGamesNL"
+  },
+  {
+    "name": "SkScoreboard",
+    "url": "https://www.spigotmc.org/resources/80983/",
+    "author": "mruniverse0"
+  },
+  {
+    "name": "Skacket",
+    "url": "https://github.com/TheLimeGlass/Skacket",
+    "author": "LimeGlass"
+  },
+  {
+    "name": "Sky",
+    "url": "https://github.com/TheLimeGlass/Sky",
+    "author": "LimeGlass"
+  },
+  {
+    "name": "Skester",
+    "url": "https://github.com/Olyno/skester/",
+    "author": "Olyno"
+  },
+  {
+    "name": "SkQuery",
+    "url": "https://github.com/SkQuery/SkQuery/releases",
+    "author": "LimeGlass"
+  },
+  {
+    "name": "ThatPacketAddon",
+    "url": "http://tlatoani.us/thatpacketaddon",
+    "author": "Tlatoani"
+  },
+  {
+    "name": "Skent",
+    "url": "https://github.com/Olyno/skent",
+    "author": "Olyno"
+  },
+  {
+    "name": "Skungee",
+    "url": "https://forums.skunity.com/resources/skungee.87/",
+    "author": "LimeGlass"
+  },
+  {
+    "name": "SkUniversal",
+    "url": "https://www.spigotmc.org/resources/skuniversal.45392/",
+    "author": "Donut"
+  },
+  {
+    "name": "Skript",
+    "url": "https://github.com/SkriptLang/Skript",
+    "author": "Sovde"
+  },
+  {
+    "name": "Neon",
+    "url": "https://modrinth.com/plugin/neon-core",
+    "author": "notazex"
+  },
+  {
+    "name": "SkNMS",
+    "url": "https://github.com/ShaneBeee/SkNMS/releases",
+    "author": "ShaneBee"
+  },
+  {
+    "name": "SkriptLanguage (Addon)",
+    "url": "https://github.com/J-ak-e/SkriptLanguage-Addon",
+    "author": "J__00"
+  },
+  {
+    "name": "PermSk",
+    "url": "https://forums.skunity.com/resources/permsk.1485/",
+    "author": "iPlexy"
+  },
+  {
+    "name": "PoaSK",
+    "url": "https://www.spigotmc.org/resources/poask-skript-addon.104512/",
+    "author": "Poa"
+  },
+  {
+    "name": "Hippo",
+    "url": "https://github.com/Pesekjak/Hippo",
+    "author": "pesekjak"
+  },
+  {
+    "name": "Khoryl",
+    "url": "https://forums.skunity.com/resources/khoryl.871/",
+    "author": "LimeGlass"
+  },
+  {
+    "name": "skript-bossbar",
+    "url": "https://www.spigotmc.org/resources/skript-bossbar.101239/",
+    "author": "_tud"
+  },
+  {
+    "name": "skript-storage",
+    "url": "https://github.com/SkyCraft78/skript-storage/releases",
+    "author": "SkyCraft78"
+  },
+  {
+    "name": "Plosk",
+    "url": "https://github.com/ReportCardsMC/Plosk/releases/",
+    "author": "eliza"
+  },
+  {
+    "name": "Skream",
+    "url": "https://www.spigotmc.org/resources/addon-skream.97081/",
+    "author": "hapily"
+  },
+  {
+    "name": "skript-advancements",
+    "url": "https://github.com/hotpoc/skript-advancements/releases/latest",
+    "author": "hotpocket184"
+  },
+  {
+    "name": "SkMore",
+    "url": "https://github.com/tarna/SkMore/releases",
+    "author": "Tarna256"
+  },
+  {
+    "name": "SkUtils",
+    "url": "https://github.com/SkyCraft78/SkUtils/releases",
+    "author": "SkyCraft78"
+  },
+  {
+    "name": "skGlow",
+    "url": "https://github.com/MinecraftMan1013number2/skGlow/releases",
+    "author": "MinecraftMan1013"
+  },
+  {
+    "name": "skript-teams",
+    "url": "https://www.spigotmc.org/resources/skript-addon-skript-teams.96023/",
+    "author": "hapily"
+  },
+  {
+    "name": "SkNebula",
+    "url": "https://github.com/iGalaxyYT/SkNebula/releases",
+    "author": "iGalaxy"
+  },
+  {
+    "name": "Wildfuskator",
+    "url": "https://github.com/hapily04/Wildfuskator/releases",
+    "author": "hapily"
+  },
+  {
+    "name": "Skonic",
+    "url": "https://modrinth.com/plugin/skonic/versions",
+    "author": "Nagasonic"
+  },
+  {
+    "name": "SkArclight",
+    "url": "https://github.com/ShaneBeee/SkArclight/releases",
+    "author": "ShaneBee"
+  },
+  {
+    "name": "Skript-Particle",
+    "url": "https://github.com/sovdeeth/skript-particle/releases/latest",
+    "author": "Sovde"
+  },
+  {
+    "name": "Skript-Citizens",
+    "url": "https://github.com/nylhus/skript-citizens/releases",
+    "author": "nylhus"
+  },
+  {
+    "name": "SkMaze",
+    "url": "https://github.com/ShaneBeee/maze-runner",
+    "author": "ShaneBee"
+  },
+  {
+    "name": "SkBriggy",
+    "url": "https://github.com/ShaneBeee/SkBriggy/releases",
+    "author": "ShaneBee"
+  },
+  {
+    "name": "skript-oraxen",
+    "url": "https://github.com/Asleeepp/skript-oraxen/releases",
+    "author": "asleepp"
+  },
+  {
+    "name": "Linky",
+    "url": "https://github.com/linkymc/Plugin/releases/tag/latest",
+    "author": "astrid"
+  },
+  {
+    "name": "Skript-AnvilGUI",
+    "url": "https://github.com/DereWah/Skript-AnvilGUI/releases",
+    "author": "DereWah"
+  },
+  {
+    "name": "Skelegram",
+    "url": "https://github.com/DereWah/Skelegram/releases",
+    "author": "DereWah"
+  },
+  {
+    "name": "Skript-GPT",
+    "url": "https://github.com/DereWah/Skript-GPT/releases",
+    "author": "DereWah"
+  },
+  {
+    "name": "Skript-Merchants",
+    "url": "https://github.com/hotpocket184/Skript-Merchants/releases",
+    "author": "hotpocket184"
+  },
+  {
+    "name": "skGoat",
+    "url": "https://github.com/cooffeeRequired/skGoat/releases",
+    "author": "F0cus"
+  },
+  {
+    "name": "ZulfBungee",
+    "url": "https://github.com/Zulfen/ZulfBungee/releases",
+    "author": "zulfen"
+  },
+  {
+    "name": "SkMaps",
+    "url": "https://github.com/WyvernX-YT/SkMaps/releases",
+    "author": "Wyvern"
+  },
+  {
+    "name": "skJson",
+    "url": "https://github.com/SkJsonTeam/skJson",
+    "author": "F0cus"
+  },
+  {
+    "name": "Skitch",
+    "url": "https://github.com/TrasonCo/Skitch",
+    "author": "trason"
+  },
+  {
+    "name": "Diskuise",
+    "url": "https://www.spigotmc.org/resources/diskuise.101529/",
+    "author": "_tud"
+  },
+  {
+    "name": "SKull",
+    "url": "https://www.spigotmc.org/resources/skull-give-custom-head-with-url-value.103281/",
+    "author": "Deglam"
+  },
+  {
+    "name": "WolfSk2",
+    "url": "https://www.spigotmc.org/resources/foxsk.93426/",
+    "author": "AJONX"
+  },
+  {
+    "name": "BungeeSK",
+    "url": "https://github.com/ZorgBtw/BungeeSK/releases/latest",
+    "author": "Zorg"
+  },
+  {
+    "name": "skript-utility",
+    "url": "https://github.com/honkling/skript-utility/releases",
+    "author": "Goose"
+  },
+  {
+    "name": "SkBee",
+    "url": "https://github.com/ShaneBeee/SkBee/",
+    "author": "ShaneBee"
+  },
+  {
+    "name": "EventCore",
+    "url": "https://github.com/aabssmc/EventCore/releases",
+    "author": "Aabsss"
+  },
+  {
+    "name": "SkBlockify",
+    "url": "https://github.com/Kooperlol/SkBlockify/releases",
+    "author": "kooperlol"
+  },
+  {
+    "name": "LabySK",
+    "url": "https://www.spigotmc.org/resources/labysk.116590/",
+    "author": "pqtriick"
+  },
+  {
+    "name": "NoteSK",
+    "url": "https://github.com/byPixelTV/NoteSK/releases",
+    "author": "bypixeltv"
+  },
+  {
+    "name": "SkCloudnet",
+    "url": "https://github.com/byPixelTV/SkCloudnet",
+    "author": "bypixeltv"
+  },
+  {
+    "name": "unsafe-skript",
+    "url": "https://www.github.com/Skriptness/unsafe-skript",
+    "author": "_tud"
+  },
+  {
+    "name": "SkCheez",
+    "url": "https://github.com/cheeezburga/SkCheez/releases",
+    "author": "cheezburga"
+  },
+  {
+    "name": "SkHttp",
+    "url": "https://github.com/aabssmc/SkHttp",
+    "author": "Aabsss"
+  },
+  {
+    "name": "SkMail",
+    "url": "https://github.com/cooffeeRequired/SkriptMail/releases",
+    "author": "F0cus"
+  },
+  {
+    "name": "skript-itemsadder",
+    "url": "https://github.com/AsleeppMC/skript-itemsadder/releases",
+    "author": "asleepp"
+  },
+  {
+    "name": "SkLogs",
+    "url": "https://github.com/EquipableMC/SkLogs/releases",
+    "author": "Equip"
+  },
+  {
+    "name": "skCord",
+    "url": "https://github.com/Fedox-die-Ente/skCord-v3",
+    "author": "fedox69"
+  },
+  {
+    "name": "SkCoAPI",
+    "url": "https://github.com/takejohn/SkCoAPI/releases",
+    "author": "takejohn"
+  },
+  {
+    "name": "SkCheese",
+    "url": "https://forums.skunity.com/resources/skcheese.1666/",
+    "author": "eren."
+  },
+  {
+    "name": "SkAnimation",
+    "url": "https://github.com/Fusezion/SkAnimation/releases",
+    "author": "Fusezion"
+  },
+  {
+    "name": "SetTickRateAddon",
+    "url": "https://github.com/GodModed/SetTickRateAddon/releases",
+    "author": "GodModed"
+  },
+  {
+    "name": "skript-scoreboards",
+    "url": "https://github.com/UnderscoreTud/skript-scoreboards/releases",
+    "author": "_tud"
+  },
+  {
+    "name": "PotatoSK",
+    "url": "https://github.com/MCdragonmasters/PotatoSK/releases",
+    "author": "mcdragonmasters"
+  },
+  {
+    "name": "SkEssentials (Legacy)",
+    "url": "https://github.com/Tandhjulet/SkEssentials",
+    "author": "Tandhjulet"
+  },
+  {
+    "name": "skript-votifier-hook",
+    "url": "https://github.com/RezzedUp/skript-votifier-hook/releases",
+    "author": "Rezz"
+  },
+  {
+    "name": "SkriptWebAPI",
+    "url": "https://github.com/faketunaPrivateCamp/SkriptWebAPI",
+    "author": "faketuna"
+  },
+  {
+    "name": "skript-simple-voice-chat",
+    "url": "https://github.com/TheLimeGlass/skript-simple-voice-chat/releases",
+    "author": "LimeGlass"
+  },
+  {
+    "name": "Animated-Skript",
+    "url": "https://github.com/DRAGNIL68/animated-skript/releases",
+    "author": "DRAGNIL68"
+  },
+  {
+    "name": "SKNoise",
+    "url": "https://github.com/ReportCardsMC/SKNoise/releases/",
+    "author": "eliza"
+  },
+  {
+    "name": "skript-placeholders",
+    "url": "https://github.com/APickledWalrus/skript-placeholders",
+    "author": "APickledWalrus"
+  },
+  {
+    "name": "Skript-Translate",
+    "url": "https://github.com/NagasonicDev/Skript-Translate/releases",
+    "author": "Nagasonic"
+  },
+  {
+    "name": "FancySK",
+    "url": "https://github.com/lostsucks/FancySK/releases",
+    "author": "lostsucks"
+  },
+  {
+    "name": "skript-nexo",
+    "url": "https://github.com/finder1793/skript-nexo/releases",
+    "author": "finder17"
+  },
+  {
+    "name": "SkDisaster",
+    "url": "https://github.com/DjDisaster/SkDisaster/releases/latest",
+    "author": "DjDisaster"
+  },
+  {
+    "name": "SkFilter",
+    "url": "https://github.com/Succubu3/SkFilter/releases",
+    "author": "succubu3"
+  },
+  {
+    "name": "skGull",
+    "url": "https://github.com/SerratedGull401/skGull/releases",
+    "author": "SerratedGull"
+  },
+  {
+    "name": "SlimeLink",
+    "url": "https://github.com/danielmillar/SlimeLink/releases",
+    "author": "danielmillar"
+  },
+  {
+    "name": "SkProtobuf",
+    "url": "https://github.com/OfficialDonut/SkProtobuf/releases",
+    "author": "Donut"
+  },
+  {
+    "name": "SkRedis",
+    "url": "https://github.com/byPixelTV/SkRedis/releases",
+    "author": "bypixeltv"
+  },
+  {
+    "name": "skript-worldedit",
+    "url": "https://github.com/cheeezburga/SkWE/releases",
+    "author": "cheezburga"
+  },
+  {
+    "name": "SkEmail",
+    "url": "https://github.com/Olyno/SkEmail/",
+    "author": "Olyno"
+  },
+  {
+    "name": "skript-pk",
+    "url": "https://github.com/AnxeloK/skript-pk/releases",
+    "author": "anxhelokojku"
+  },
+  {
+    "name": "oopsk",
+    "url": "https://github.com/sovdeeth/oopsk/releases",
+    "author": "Sovde"
+  },
+  {
+    "name": "HolographicDisplaysAddon",
+    "url": "https://forums.skunity.com/resources/holographicdisplaysaddon.393/",
+    "author": "LimeGlass"
+  },
+  {
+    "name": "SkGrpc",
+    "url": "https://github.com/OfficialDonut/SkGrpc/releases",
+    "author": "Donut"
+  },
+  {
+    "name": "Skcrew",
+    "url": "https://gitlab.crewpvp.xyz/skript/skcrew/-/releases",
+    "author": "avesatanaa"
+  },
+  {
+    "name": "SkEssentials",
+    "url": "https://github.com/EquipableMC/SkEssentials/releases",
+    "author": "Equip"
+  },
+  {
+    "name": "Lusk",
+    "url": "https://github.com/JakeGBLP/Lusk",
+    "author": "J__00"
+  },
+  {
+    "name": "Skriptor",
+    "url": "https://github.com/avesatanaa/Skriptor/releases",
+    "author": "avesatanaa"
+  },
+  {
+    "name": "DisplayEntityUtils",
+    "url": "https://github.com/PZDonny/DisplayEntityUtils/releases",
+    "author": "donnypz"
+  },
+  {
+    "name": "SkProxy",
+    "url": "https://modrinth.com/plugin/skproxy",
+    "author": "tylad"
+  },
+  {
+    "name": "Skelocity",
+    "url": "https://github.com/TyladYT/Skelocity/releases",
+    "author": "tylad"
+  },
+  {
+    "name": "SkriptPDC",
+    "url": "https://github.com/3Fendi3/SkriptPDC-API/releases",
+    "author": "3_fendi_3"
+  },
+  {
+    "name": "RotateSk",
+    "url": "https://modrinth.com/plugin/rotatesk",
+    "author": "nlaocs"
+  },
+  {
+    "name": "PriSKm",
+    "url": "https://modrinth.com/plugin/priskm",
+    "author": "pryzmm."
+  },
+  {
+    "name": "JobsSK",
+    "url": "https://github.com/Antasia-Network-FR/JobsSK/releases",
+    "author": "tgbhy"
+  },
+  {
+    "name": "PxMusic",
+    "url": "https://modrinth.com/plugin/pxmusic",
+    "author": "im.hermes"
+  },
+  {
+    "name": "SkVelo",
+    "url": "https://github.com/EindreistigerMcM/skript-velocity/releases",
+    "author": "eindreistiger"
+  },
+  {
+    "name": "xiaojie-gui",
+    "url": "https://github.com/heyhey123-git/xiaojie-gui/releases",
+    "author": "heyhey123"
+  },
+  {
+    "name": "Schema-Validator",
+    "url": "https://forums.skunity.com/resources/schema-validator.1872/",
+    "author": "maicon_jh"
+  },
+  {
+    "name": "skkaemok",
+    "url": "https://github.com/kkaemok/Skkaemok/releases",
+    "author": "kkaemok"
+  },
+  {
+    "name": "PacketEventsSK",
+    "url": "https://modrinth.com/plugin/packeteventssk",
+    "author": "3add"
+  },
+  {
+    "name": "Skript-LuckPerms",
+    "url": "https://modrinth.com/plugin/skript-luckperms",
+    "author": "OwlBe"
+  }
+]

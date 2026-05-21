@@ -1,103 +1,177 @@
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 
 // ==========================================
-// [설정 구역] 수집한 원천 파일과 사출할 타겟 경로
+// [설정 구역] 경로 인프라 정의
 // ==========================================
-const RAW_DATA_PATH = path.join(__dirname, 'raw_addon_data.json'); // 글로벌 사이트에서 긁어온 원본 파일
-const TARGET_ADDON_NAME = 'tuske'; // 사출할 애드온 파일명 (소문자 권장)
-const OUTPUT_PATH = path.join(__dirname, `${TARGET_ADDON_NAME}.json`);
+const MASTER_MAP_PATH = path.join(__dirname, 'skripthub.net.json'); 
+const ADDONS_DIR = path.join(__dirname, 'addons');
 
 /**
- * 🌟 [유저 기획 원천 반영]
- * 수천 개의 글로벌 로우 데이터를 우리 인텔리센스 및 버전 호환성 매트릭스 규격으로 자동 세척
+ * 🌐 원격 서버망에서 실시간으로 데이터를 다운로드하는 쉘 브릿지
  */
-function transformDatabase() {
-    if (!fs.existsSync(RAW_DATA_PATH)) {
-        console.error(`❌ [에러] 원천 데이터 파일이 존재하지 않습니다: ${RAW_DATA_PATH}`);
-        console.info(`💡 팁: 글로벌 아카이브에서 덤프한 로우 데이터를 해당 경로에 먼저 배치해 주세요.`);
-        return;
-    }
-
+function requestUrl(url) {
     try {
-        const rawContent = fs.readFileSync(RAW_DATA_PATH, 'utf-8');
-        const rawJson = JSON.parse(rawContent);
-        
-        // 사출될 무결점 초경량 데이터베이스 객체
-        const polishedDatabase = {};
-
-        // 글로벌 소스들의 다양한 배열/객체 형태를 안전하게 순회하기 위한 타겟 풀 확보
-        const rawSyntaxes = Array.isArray(rawJson) ? rawJson : (rawJson.data || rawJson.syntaxes || []);
-
-        rawSyntaxes.forEach((item, index) => {
-            // 필수 필드가 누락된 노이즈 데이터는 방어막 가동하여 스킵
-            if (!item || (!item.name && !item.id)) return;
-
-            const name = (item.name || item.id).trim();
-            const addon = item.addon || item.plugin || 'UnknownAddon';
-            const type = (item.type || item.node_type || 'effect').toLowerCase();
-            
-            // patterns 배열 안전성 정제 (생략 부호, 정규식 노이즈 1차 마사지)
-            let patterns = [];
-            if (Array.isArray(item.patterns)) {
-                patterns = item.patterns.map(p => String(p).trim());
-            } else if (item.pattern) {
-                patterns = [String(item.pattern).trim()];
-            }
-
-            if (patterns.length === 0) return; // 타이핑 양식이 없으면 자동완성이 불가능하므로 제외
-
-            // 🌟 [중복 방지 유니크 키 매핑] -> "애드온명:구문대표명" 규격 수립
-            const uniqueKey = `${addon}:${name.replace(/\s+/g, '_')}`;
-
-            // 🌟 [버전 크로스 체크 매트릭스 보정]
-            // Skript 코어에 언제 흡수(내장)되었는지 기록하는 배열 필드 확보
-            let addedVersions = ["1.0"];
-            if (item.added) {
-                addedVersions = Array.isArray(item.added) ? item.added : [String(item.added)];
-            } else if (item.absorbed_in_core_version) {
-                addedVersions = [String(item.absorbed_in_core_version)];
-            }
-
-            // 도움말 가이드라인 래핑 및 포맷 조율
-            let descriptionEn = "";
-            if (item.description) {
-                descriptionEn = Array.isArray(item.description) 
-                    ? item.description.map(d => String(d)) 
-                    : [String(item.description)];
-            } else {
-                descriptionEn = [`No default description provided for ${name}.`];
-            }
-
-            // 한국어 설명 필드 폴백 라인 생성 (나중에 번역기를 태우거나 수집할 때 대응)
-            const descriptionKo = item.description_ko || `[${addon}] 해당 구문의 한국어 번역 가이드가 등록되지 않았습니다.`;
-
-            // 우리 엔진 규격 규격에 맞게 데이터 최종 조립 및 패킹
-            polishedDatabase[uniqueKey] = {
-                "name": name,
-                "added": addedVersions,
-                "addon": addon,
-                "type": type,
-                "patterns": patterns,
-                "description": {
-                    "en": descriptionEn,
-                    "ko": descriptionKo
-                }
-            };
-        });
-
-        // 결과물을 물리 파일로 일괄 사출 (JSON 가독성 포맷 적용)
-        fs.writeFileSync(OUTPUT_PATH, JSON.stringify(polishedDatabase, null, 2), 'utf-8');
-        
-        const resultCount = Object.keys(polishedDatabase).length;
-        console.log(`\n🟢 [변환 완료] 데이터베이스 대성공!`);
-        console.log(`📊 총 ${resultCount}개의 구문이 우리 플랫폼 규격으로 무결점 세척되었습니다.`);
-        console.log(`💾 사출된 파일: ${OUTPUT_PATH}\n`);
-
-    } catch (error) {
-        console.error(`🚨 [치명적 실패] JSON 파싱 및 데이터 변환 중 에러 발생:`, error);
+        let rawData = "";
+        if (process.platform === 'win32') {
+            rawData = execSync(`powershell -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-RestMethod -Uri '${url}'"`, { encoding: 'utf-8', maxBuffer: 1024 * 1024 * 50 });
+        } else {
+            rawData = execSync(`curl -s -L "${url}"`, { encoding: 'utf-8', maxBuffer: 1024 * 1024 * 50 });
+        }
+        return rawData.trim();
+    } catch (err) {
+        return null;
     }
 }
 
-// 스크립트 실행
-transformDatabase();
+/**
+ * 🛠️ 원천 데이터를 VSkript 규격 매트릭스로 정밀 세척
+ */
+function cleanAndFormat(rawJson, defaultAddonName) {
+    const polishedDatabase = {};
+    const rawSyntaxes = Array.isArray(rawJson) ? rawJson : (rawJson.data || rawJson.syntaxes || []);
+
+    rawSyntaxes.forEach((item) => {
+        if (!item || (!item.name && !item.id)) return;
+
+        const name = (item.name || item.id).trim();
+        const addon = item.addon || item.plugin || defaultAddonName;
+        const type = (item.type || item.node_type || 'effect').toLowerCase();
+        
+        let patterns = [];
+        if (Array.isArray(item.patterns)) {
+            patterns = item.patterns.map(p => String(p).trim());
+        } else if (item.pattern) {
+            patterns = [String(item.pattern).trim()];
+        }
+
+        if (patterns.length === 0) return;
+
+        const uniqueKey = `${addon}:${name.replace(/\s+/g, '_')}`;
+        let addedVersions = ["1.0"];
+        if (item.added) {
+            addedVersions = Array.isArray(item.added) ? item.added : [String(item.added)];
+        }
+
+        let descriptionEn = item.description ? (Array.isArray(item.description) ? item.description.map(d => String(d)) : [String(item.description)]) : [`No description.`];
+
+        polishedDatabase[uniqueKey] = {
+            "name": name,
+            "added": addedVersions,
+            "addon": addon,
+            "type": type,
+            "patterns": patterns,
+            "description": {
+                "en": descriptionEn,
+                "ko": `[${addon}] 한국어 가이드팩 미정치 상태`
+            }
+        };
+    });
+
+    return polishedDatabase;
+}
+
+/**
+ * 🔒 변경 사항이 발생한 자원만 깃허브 클라우드로 엄선 사출
+ */
+function pushChangesToGitHub(updatedCount) {
+    if (updatedCount === 0) {
+        console.log(`\n😎 [안내] 깃허브 원격 서버와 로컬 데이터가 100% 일치합니다. 푸시를 생략합니다.`);
+        return;
+    }
+
+    console.log(`\n📦 [4단계] 총 ${updatedCount}개의 수정된 파일 발견! 깃허브(lapin-a/vskript-database) 푸시 시작...`);
+    try {
+        if (!fs.existsSync(path.join(__dirname, '.git'))) {
+            execSync(`git init`, { stdio: 'ignore' });
+            execSync(`git remote add origin https://github.com/lapin-a/vskript-database.git`, { stdio: 'ignore' });
+            execSync(`git branch -M main`, { stdio: 'ignore' });
+        }
+
+        execSync(`git add .`);
+        execSync(`git commit -m "data: update ${updatedCount} changed/new addons through smart incremental database pipeline"`, { stdio: 'ignore' });
+        execSync(`git push origin main`);
+        console.log(`🟢 [마스터 동기화 완공] 변경된 항목만 클라우드망에 완벽하게 업데이트되었습니다!`);
+    } catch (gitErr) {
+        console.error(`❌ Git 일괄 배포 중 에러 발생:`, gitErr.message);
+    }
+}
+
+// ==========================================
+// 마스터 파이프라인 스케줄러 실행
+// ==========================================
+(function main() {
+    console.log(`🏁 [VSkript 스마트 증분 업데이트 데이터베이스 엔진 기동]`);
+
+    if (!fs.existsSync(ADDONS_DIR)) {
+        fs.mkdirSync(ADDONS_DIR, { recursive: true });
+    }
+
+    // 1️⃣ [마스터 지도 자동 갱신] 주기적 업데이트를 위해 인터넷에서 skripthub 마스터 목록 가로채기
+    console.log(`📡 [1단계] 최신 마스터 지도(skripthub.net.json) 원격지에서 로드 중...`);
+    const remoteMasterData = requestUrl('https://skripthub.net/api/v1/addon/');
+    
+    if (remoteMasterData) {
+        fs.writeFileSync(MASTER_MAP_PATH, JSON.stringify(JSON.parse(remoteMasterData), null, 2), 'utf-8');
+        console.log(`💾 마스터 지도 최신 사양으로 로컬 리프레시 완착.`);
+    } else if (!fs.existsSync(MASTER_MAP_PATH)) {
+        console.error(`❌ 원격 통신 실패 및 로컬에 기존 지도 파일이 없습니다. 공정을 중단합니다.`);
+        return;
+    } else {
+        console.log(`⚠️ 원격 지도 획득 실패 -> 로컬에 보존되어 있던 기존 마스터 지도로 우회 스캔을 가동합니다.`);
+    }
+
+    const addonList = JSON.parse(fs.readFileSync(MASTER_MAP_PATH, 'utf-8'));
+    console.log(`📊 현재 포착된 글로벌 애드온 총 개수: ${addonList.length}개\n`);
+
+    let updatedCount = 0;
+
+    // 2️⃣ [스마트 딥 대조 루프] 전수조사를 돌되, 과거 파일과 현재 상태를 대조하여 갱신된 것만 수정
+    addonList.forEach((addon, index) => {
+        const simulatedId = index + 1;
+        const cleanFileName = addon.name.toLowerCase().replace(/[^a-z0-9]/g, '');
+        const targetFilePath = path.join(ADDONS_DIR, `${cleanFileName}.json`);
+
+        console.log(`[${index + 1}/${addonList.length}] 🔍 [${addon.name}] 상태 정밀 추적 중...`);
+
+        // 인터넷에서 해당 애드온의 진짜 원천 syntax 데이터 가져오기
+        const rawDataStr = requestUrl(`https://skripthub.net/api/v1/syntax/?addon=${simulatedId}`);
+        if (!rawDataStr) return;
+
+        // 우리 규격으로 일단 메모리 상에서 세척 수행
+        const freshPolishedData = cleanAndFormat(JSON.parse(rawDataStr), addon.name);
+        const hasFreshData = Object.keys(freshPolishedData).length > 0;
+
+        // 🌟 [유저 기획의 핵심: 과거 파일과 현재 파일 비교 분기점]
+        if (fs.existsSync(targetFilePath)) {
+            if (!hasFreshData) return; // 원격 데이터가 유실되었거나 없으면 기존 로컬 영구 파일 보존
+
+            const existingDataStr = fs.readFileSync(targetFilePath, 'utf-8');
+            const freshDataStr = JSON.stringify(freshPolishedData, null, 2);
+
+            // 문자열 대조를 통해 완벽하게 내용물이 일치하는지 체크 (용량/수정 검증)
+            if (existingDataStr === freshDataStr) {
+                console.log(`   └─ ✅ 변동 사항 없음 [Skip]`);
+                return; // 0ms 스킵 가동! 불필요한 디스크 쓰기 및 업데이트를 싹 차단합니다.
+            }
+        }
+
+        // 과거 파일과 내용이 다르거나, 아예 새로 태어난 파일일 경우에만 업데이트 처리 수행!
+        if (hasFreshData) {
+            fs.writeFileSync(targetFilePath, JSON.stringify(freshPolishedData, null, 2), 'utf-8');
+            updatedCount++;
+            console.log(`   └─ 🔥 [수정/신규] 변경 사항 감지되어 데이터 갱신 완료! (${cleanFileName}.json)`);
+        } else {
+            // 원천지에 문법이 아예 없는데 템플릿도 없는 경우만 방어막 작동
+            if (!fs.existsSync(targetFilePath)) {
+                fs.writeFileSync(targetFilePath, JSON.stringify({}, null, 2), 'utf-8');
+            }
+        }
+    });
+
+    console.log(`\n📊 [검사 종료] 스캔 완료. 최종 수정 및 추가된 애드온 파일 개수: ${updatedCount}개`);
+
+    // 3️⃣ 변경 사항이 감지된 항목이 1개라도 있을 때만 깃허브 실시간 배포 집행
+    pushChangesToGitHub(updatedCount);
+})();
