@@ -1,127 +1,280 @@
 {
   "syntax_4531": {
     "id": 4531,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Player Has Max Tokens",
+    "description": "Returns if the player has the maximum amount of BeastTokens",
+    "syntax_pattern": "[the ]max[imum][ amount of] [beast[ ]]tokens",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "BeastTokenSk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4531",
+    "created_at": "2020-12-08T11:32:48.987301Z",
+    "updated_at": "2020-12-08T11:32:48.987326Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns if the player has the maximum amount of BeastTokens"
       ],
       "ko": [
-        "[BeastTokenSk] 한국어 가이드팩 준비 중"
+        "[BEASTTOKENSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4532": {
     "id": 4532,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Block Token Drop",
+    "description": "Fired when a block drops BeastTokens.",
+    "syntax_pattern": "[beast[ ]token[[']s]] block [beast[ ]]token[s] (drop|dropping)",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "BeastTokenSk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player\r\nevent-tokens\r\nevent-multiplier\r\nevent-block\r\nevent-location\r\nevent-world",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=4532",
+    "created_at": "2020-12-08T11:35:31.699896Z",
+    "updated_at": "2020-12-08T11:35:31.699920Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Fired when a block drops BeastTokens."
       ],
       "ko": [
-        "[BeastTokenSk] 한국어 가이드팩 준비 중"
+        "[BEASTTOKENSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4533": {
     "id": 4533,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Farming Token Drop",
+    "description": "Fired when a crop drops BeastTokens.",
+    "syntax_pattern": "[beast[ ]token[[']s]] (farm[ing]|crop[s]) [beast[ ]]token[s] (drop|dropping)",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "BeastTokenSk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player\r\nevent-tokens\r\nevent-multiplier\r\nevent-block\r\nevent-location\r\nevent-world",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=4533",
+    "created_at": "2020-12-08T11:36:00.326052Z",
+    "updated_at": "2020-12-08T11:36:00.326075Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Fired when a crop drops BeastTokens."
       ],
       "ko": [
-        "[BeastTokenSk] 한국어 가이드팩 준비 중"
+        "[BEASTTOKENSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4534": {
     "id": 4534,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Mob Token Drop",
+    "description": "Fired when a monster drops BeastTokens.",
+    "syntax_pattern": "[beast[ ]token[[']s]] (mob[s]|monster[s]) [beast[ ]]token[s] (drop|dropping)",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "BeastTokenSk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player\r\nevent-tokens\r\nevent-multiplier\r\nevent-entity\r\nevent-location\r\nevent-world",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=4534",
+    "created_at": "2020-12-08T11:37:00.809430Z",
+    "updated_at": "2020-12-08T11:37:00.809459Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Fired when a monster drops BeastTokens."
       ],
       "ko": [
-        "[BeastTokenSk] 한국어 가이드팩 준비 중"
+        "[BEASTTOKENSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4535": {
     "id": 4535,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "MythicMob",
+    "description": "Fired when a MythicMob drops BeastTokens.",
+    "syntax_pattern": "mythic (mob[[']s]|monster[[']s]) [beast[ ]]token[[']s] drop",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "BeastTokenSk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player\r\nevent-tokens\r\nevent-multiplier\r\nevent-entity\r\nevent-location\r\nevent-world",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=4535",
+    "created_at": "2020-12-08T11:37:46.075650Z",
+    "updated_at": "2020-12-08T11:37:46.075671Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Fired when a MythicMob drops BeastTokens."
       ],
       "ko": [
-        "[BeastTokenSk] 한국어 가이드팩 준비 중"
+        "[BEASTTOKENSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4536": {
     "id": 4536,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Token Redeem",
+    "description": "Fired when a player uses an item to redeem BeastTokens.",
+    "syntax_pattern": "[beast[ ]token[[']s]] token[[']s] redeem",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "BeastTokenSk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player\r\nevent-tokens\r\nevent-location\r\nevent-item",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=4536",
+    "created_at": "2020-12-08T11:43:51.265235Z",
+    "updated_at": "2020-12-08T11:43:51.265260Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Fired when a player uses an item to redeem BeastTokens."
       ],
       "ko": [
-        "[BeastTokenSk] 한국어 가이드팩 준비 중"
+        "[BEASTTOKENSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4537": {
     "id": 4537,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Max Tokens",
+    "description": "Gets the max amount of BeastTokens a player can have.",
+    "syntax_pattern": "(max[imum][ poss[ible]]|total poss[ible]) [beast[ ]]token[s]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "BeastTokenSk",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4537",
+    "created_at": "2020-12-08T11:45:52.467321Z",
+    "updated_at": "2020-12-08T11:45:52.467355Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the max amount of BeastTokens a player can have."
       ],
       "ko": [
-        "[BeastTokenSk] 한국어 가이드팩 준비 중"
+        "[BEASTTOKENSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4538": {
     "id": 4538,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Player Tokens",
+    "description": "Gets the amount of a players BeastTokens.",
+    "syntax_pattern": "(%player%'s [beast][ ]token[s]|[beast][ ]token[']s of %player%)",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "BeastTokenSk",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4538",
+    "created_at": "2020-12-08T11:47:04.527526Z",
+    "updated_at": "2020-12-08T11:47:04.527553Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the amount of a players BeastTokens."
       ],
       "ko": [
-        "[BeastTokenSk] 한국어 가이드팩 준비 중"
+        "[BEASTTOKENSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4539": {
     "id": 4539,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Token Slip",
+    "description": "Returns a BeastToken slip worth the amount that you input.",
+    "syntax_pattern": "a [beast[ ]]token slip worth %number%",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "BeastTokenSk",
+    "type_usage": null,
+    "return_type": "ItemType",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4539",
+    "created_at": "2020-12-08T11:47:52.400192Z",
+    "updated_at": "2020-12-08T11:47:52.400216Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a BeastToken slip worth the amount that you input."
       ],
       "ko": [
-        "[BeastTokenSk] 한국어 가이드팩 준비 중"
+        "[BEASTTOKENSK] 한국어 가이드 번역 대기 중"
       ]
     }
   }

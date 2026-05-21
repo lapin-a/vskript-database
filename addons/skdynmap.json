@@ -1,743 +1,1613 @@
 {
   "syntax_4996": {
     "id": 4996,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "On SkDynmap render",
+    "description": "",
+    "syntax_pattern": "[on] [[sk]dynmap] [map] render",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=4996",
+    "created_at": "2021-03-17T17:45:52.932107Z",
+    "updated_at": "2021-03-17T17:45:52.932137Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkDynmap] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4997": {
     "id": 4997,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Is player visible",
+    "description": "Check if a player is visible on the map",
+    "syntax_pattern": "%player% is visible\n%player% isn't visible",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4997",
+    "created_at": "2021-03-17T17:45:53.040679Z",
+    "updated_at": "2021-03-17T17:57:38.982106Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if a player is visible on the map"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4998": {
     "id": 4998,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Corners of chunks",
+    "description": "Get the locations from a list of chunks, to be used with locations of areas",
+    "syntax_pattern": "corners of %chunks%",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4998",
+    "created_at": "2021-03-17T17:45:53.061175Z",
+    "updated_at": "2021-03-17T17:57:38.989696Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the locations from a list of chunks, to be used with locations of areas"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4999": {
     "id": 4999,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Visibility of player",
+    "description": "Get the visibility of a player on the map.\nIt can be set or reset.",
+    "syntax_pattern": "[the] visibility of %player%\n%player%'[s] visibility",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4999",
+    "created_at": "2021-03-17T17:45:53.067463Z",
+    "updated_at": "2021-03-17T17:57:38.995705Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get the visibility of a player on the map.",
-        "It can be set or reset."
+        "Get the visibility of a player on the map.\nIt can be set or reset."
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4415": {
     "id": 4415,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Line opacity",
+    "description": "Returns the line-opacity property of the provided style.",
+    "syntax_pattern": "[the] line(-| )opacity of %areastyle%\n%areastyle%'[s] line(-| )opacity",
+    "compatible_addon_version": "1.0-beta02",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "double",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4415",
+    "created_at": "2020-10-13T17:39:40.124392Z",
+    "updated_at": "2021-02-16T18:09:13.269819Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the line-opacity property of the provided style."
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4409": {
     "id": 4409,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "SkDynmap - Render an area",
+    "description": "This effect allow you to render an area on the map. This can be used when auto-rendering is disabled",
+    "syntax_pattern": "[make] render [of] (%dynmaparea%|all [existing] areas)",
+    "compatible_addon_version": "1.0-beta02",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4409",
+    "created_at": "2020-10-13T17:39:40.087960Z",
+    "updated_at": "2020-10-13T17:39:40.087980Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This effect allow you to render an area on the map. This can be used when auto-rendering is disabled"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4411": {
     "id": 4411,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "SkDynmap - Dynmap Area",
+    "description": "This expression will search, and return the requested area. (Return a %dynmaparea%)",
+    "syntax_pattern": "[dynmap] area (named|with name) %string% in %world%",
+    "compatible_addon_version": "1.0-beta02",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "Dynmap Area",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4411",
+    "created_at": "2020-10-13T17:39:40.100280Z",
+    "updated_at": "2020-10-13T17:39:40.100298Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This expression will search, and return the requested area. (Return a %dynmaparea%)"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4412": {
     "id": 4412,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Fill color",
+    "description": "Returns the fill-color property of the provided style.",
+    "syntax_pattern": "[the] fill(-| )color of %areastyle%\n%areastyle%'[s] fill(-| )color",
+    "compatible_addon_version": "1.0-beta02",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4412",
+    "created_at": "2020-10-13T17:39:40.106440Z",
+    "updated_at": "2021-02-16T18:09:13.227199Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the fill-color property of the provided style."
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4413": {
     "id": 4413,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Fill opacity",
+    "description": "Returns the fill-opacity property of the provided style.",
+    "syntax_pattern": "[the] fill(-| )opacity of %areastyle%\n%areastyle%'[s] fill(-| )opacity",
+    "compatible_addon_version": "1.0-beta02",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "double",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4413",
+    "created_at": "2020-10-13T17:39:40.112313Z",
+    "updated_at": "2021-02-16T18:09:13.236771Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the fill-opacity property of the provided style."
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4414": {
     "id": 4414,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Line color",
+    "description": "Returns the line-color property of the provided style.",
+    "syntax_pattern": "[the] line(-| )color of %areastyle%\n%areastyle%'[s] line(-| )color",
+    "compatible_addon_version": "1.0-beta02",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4414",
+    "created_at": "2020-10-13T17:39:40.118697Z",
+    "updated_at": "2021-02-16T18:09:13.263616Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the line-color property of the provided style."
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4408": {
     "id": 4408,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Delete area",
+    "description": "Delete an existent area",
+    "syntax_pattern": "delete area [from] %dynmaparea%",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4408",
+    "created_at": "2020-10-13T17:39:40.079272Z",
+    "updated_at": "2021-02-16T18:09:13.168224Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Delete an existent area"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4410": {
     "id": 4410,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Default style",
+    "description": "Returns the default style defined in the config.",
+    "syntax_pattern": "default [area] style",
+    "compatible_addon_version": "1.0-beta02",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "SkDynmap AreaStyle",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4410",
+    "created_at": "2020-10-13T17:39:40.093990Z",
+    "updated_at": "2021-02-16T18:09:13.214012Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the default style defined in the config."
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4416": {
     "id": 4416,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Line weight",
+    "description": "Returns the line-weight property of the provided style.",
+    "syntax_pattern": "[the] line(-| )weight of %areastyle%\n%areastyle%'[s] line(-| )weight",
+    "compatible_addon_version": "1.0-beta02",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4416",
+    "created_at": "2020-10-13T17:39:40.130266Z",
+    "updated_at": "2021-02-16T18:09:13.279323Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the line-weight property of the provided style."
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4419": {
     "id": 4419,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "SkDynmap AreaStyle",
+    "description": "SkDynmap's AreaStyle object",
+    "syntax_pattern": "[dynmap ]area[-| ]style",
+    "compatible_addon_version": "1.0-beta02",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4419",
+    "created_at": "2020-10-13T17:39:40.148564Z",
+    "updated_at": "2021-02-16T18:09:13.343430Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "SkDynmap's AreaStyle object"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4418": {
     "id": 4418,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "SkDynmap DynmapArea",
+    "description": "SkDynmap's DynmapArea object",
+    "syntax_pattern": "[dynmap ]area",
+    "compatible_addon_version": "1.0-beta02",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4418",
+    "created_at": "2020-10-13T17:39:40.142542Z",
+    "updated_at": "2021-02-16T18:09:13.353004Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "SkDynmap's DynmapArea object"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4417": {
     "id": 4417,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "SkDynmap - Style of area",
+    "description": "This expression returns the style of an area or an area builder.\nYou can use this expression to define the style of an area or an area builder.",
+    "syntax_pattern": "[the] [[sk]dynmap] style of %dynmaparea/areabuilder%\n%dynmaparea/areabuilder%'[s] [[sk]dynmap] style",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "Dynmap Area Style",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4417",
+    "created_at": "2020-10-13T17:39:40.136651Z",
+    "updated_at": "2020-11-12T18:15:28.530093Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "This expression returns the style of an area or an area builder.",
-        "You can use this expression to define the style of an area or an area builder."
+        "This expression returns the style of an area or an area builder.\nYou can use this expression to define the style of an area or an area builder."
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4471": {
     "id": 4471,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "SkDynmap - Description of area",
+    "description": "This expression returns the description of an area or an area builder.\nYou can use this expression to define the description of an area or an area builder.",
+    "syntax_pattern": "[the] [[sk]dynmap] description of %dynmaparea/areabuilder%\n%dynmaparea/areabuilder%'[s] [[sk]dynmap] description",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4471",
+    "created_at": "2020-11-12T18:13:14.156434Z",
+    "updated_at": "2020-11-12T18:15:28.489676Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "This expression returns the description of an area or an area builder.",
-        "You can use this expression to define the description of an area or an area builder."
+        "This expression returns the description of an area or an area builder.\nYou can use this expression to define the description of an area or an area builder."
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4476": {
     "id": 4476,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "SkDynmap - The area",
+    "description": "If it's inside of an area scope, this expression returns the area that belong to that scope",
+    "syntax_pattern": "[the] area",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "Dynmap Area Builder",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4476",
+    "created_at": "2020-11-12T18:13:14.232885Z",
+    "updated_at": "2020-11-12T18:13:14.232905Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "If it's inside of an area scope, this expression returns the area that belong to that scope"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4472": {
     "id": 4472,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "SkDynmap - Locations of area",
+    "description": "This expression returns the locations of an area or an area builder.\nYou can use this expression to define the locations of an area or an area builder.",
+    "syntax_pattern": "[all] [the] [[sk]dynmap] location[s] of %dynmaparea/areabuilder%\n[all] [the] %dynmaparea/areabuilder%'[s] [[sk]dynmap] location[s]",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4472",
+    "created_at": "2020-11-12T18:13:14.193746Z",
+    "updated_at": "2020-11-12T18:15:28.497216Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "This expression returns the locations of an area or an area builder.",
-        "You can use this expression to define the locations of an area or an area builder."
+        "This expression returns the locations of an area or an area builder.\nYou can use this expression to define the locations of an area or an area builder."
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4473": {
     "id": 4473,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "SkDynmap - Name of area",
+    "description": "This expression returns the world of an area or an area builder.\nYou can use this expression to define the world of an area or an area builder.",
+    "syntax_pattern": "[the] [[sk]dynmap] world of %dynmaparea/areabuilder%\n%dynmaparea/areabuilder%'[s] [[sk]dynmap] world",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "World",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4473",
+    "created_at": "2020-11-12T18:13:14.199947Z",
+    "updated_at": "2020-11-12T18:15:28.504576Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "This expression returns the world of an area or an area builder.",
-        "You can use this expression to define the world of an area or an area builder."
+        "This expression returns the world of an area or an area builder.\nYou can use this expression to define the world of an area or an area builder."
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4474": {
     "id": 4474,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "SkDynmap - Name of area",
+    "description": "This expression returns the name of an area or an area builder.\nYou can use this expression to define the name of an area or an area builder.",
+    "syntax_pattern": "[the] [[sk]dynmap] name of %dynmaparea/areabuilder%\n%dynmaparea/areabuilder%'[s] [[sk]dynmap] name",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4474",
+    "created_at": "2020-11-12T18:13:14.205899Z",
+    "updated_at": "2020-11-12T18:15:28.523664Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "This expression returns the name of an area or an area builder.",
-        "You can use this expression to define the name of an area or an area builder."
+        "This expression returns the name of an area or an area builder.\nYou can use this expression to define the name of an area or an area builder."
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4407": {
     "id": 4407,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Create area",
+    "description": "Create an area and show it on the map",
+    "syntax_pattern": "create area [from] %areabuilder%",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4407",
+    "created_at": "2020-10-13T17:39:39.979179Z",
+    "updated_at": "2021-02-16T18:09:13.155013Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create an area and show it on the map"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4475": {
     "id": 4475,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Area builder",
+    "description": "The constructor for a future area",
+    "syntax_pattern": "new [dynmap] area named %string% at %locations%\nnew [dynmap] area named %string% at %locations% with [style] %areastyle%\nnew [dynmap] area named %string% with description %string% at %locations%\nnew [dynmap] area named %string% with description %string% at %locations% with [style] %areastyle%\nnew [dynmap] area with id %string% named %string% at %locations%\nnew [dynmap] area with id %string% named %string% at %locations% with [style] %areastyle%\nnew [dynmap] area with id %string% named %string% with description %string% at %locations%\nnew [dynmap] area with id %string% named %string% with description %string% at %locations% with [style] %areastyle%",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "SkDynmap AreaBuilder",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4475",
+    "created_at": "2020-11-12T18:13:14.216054Z",
+    "updated_at": "2021-02-16T18:09:13.201384Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The constructor for a future area"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4470": {
     "id": 4470,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Make Area",
+    "description": "This is a scope that allows you to create areas easily",
+    "syntax_pattern": "make [new] [dynmap] area",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4470",
+    "created_at": "2020-11-12T18:13:14.136092Z",
+    "updated_at": "2021-03-17T17:45:53.046918Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This is a scope that allows you to create areas easily"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4477": {
     "id": 4477,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "The area",
+    "description": "This expression returns the last generated area using area scope",
+    "syntax_pattern": "[the] [last] [(generated|created)] area",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "SkDynmap AreaBuilder",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4477",
+    "created_at": "2020-11-12T18:13:14.238977Z",
+    "updated_at": "2021-02-16T18:09:13.322259Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This expression returns the last generated area using area scope"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4478": {
     "id": 4478,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "SkDynmap AreaBuilder",
+    "description": "SkDynmap's AreaBuilder object",
+    "syntax_pattern": "[dynmap ]area[-| ]builder",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4478",
+    "created_at": "2020-11-12T18:13:14.254507Z",
+    "updated_at": "2021-02-16T18:09:13.336521Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "SkDynmap's AreaBuilder object"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4713": {
     "id": 4713,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Make Marker",
+    "description": "This is a scope that allows you to create markers easily",
+    "syntax_pattern": "make [new] [dynmap] marker",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4713",
+    "created_at": "2021-02-16T18:09:13.142245Z",
+    "updated_at": "2021-03-17T17:45:53.054328Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This is a scope that allows you to create markers easily"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4714": {
     "id": 4714,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Clear renders",
+    "description": "Clear all areas and markers on the map",
+    "syntax_pattern": "(wipe|clear) [sk]dynmap render[s]",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4714",
+    "created_at": "2021-02-16T18:09:13.148621Z",
+    "updated_at": "2021-02-16T18:09:13.148641Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Clear all areas and markers on the map"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4715": {
     "id": 4715,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Create marker",
+    "description": "Create a marker and show it on the map",
+    "syntax_pattern": "create marker [from] %markerbuilder%",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4715",
+    "created_at": "2021-02-16T18:09:13.162183Z",
+    "updated_at": "2021-02-16T18:09:13.162203Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create a marker and show it on the map"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4716": {
     "id": 4716,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Delete marker",
+    "description": "Delete an existent marker",
+    "syntax_pattern": "delete marker [from] %dynmapmarker%",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4716",
+    "created_at": "2021-02-16T18:09:13.174489Z",
+    "updated_at": "2021-02-16T18:09:13.174510Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Delete an existent marker"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4717": {
     "id": 4717,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Make render",
+    "description": "Make the render of areas or markers or a global render",
+    "syntax_pattern": "[make] render [of] %dynmapareas/dynmapmarkers%\n[make] global render [of [sk]dynmap]",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4717",
+    "created_at": "2021-02-16T18:09:13.180943Z",
+    "updated_at": "2021-02-16T18:09:13.180963Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make the render of areas or markers or a global render"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4718": {
     "id": 4718,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "All areas",
+    "description": "Return a list with all created areas",
+    "syntax_pattern": "all [dynmap] areas",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "SkDynmap DynmapArea",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4718",
+    "created_at": "2021-02-16T18:09:13.187082Z",
+    "updated_at": "2021-02-16T18:09:13.187104Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return a list with all created areas"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4719": {
     "id": 4719,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "All markers",
+    "description": "Return a list with all created markers",
+    "syntax_pattern": "all [dynmap] markers",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "SkDynmap DynmapMarker",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4719",
+    "created_at": "2021-02-16T18:09:13.192828Z",
+    "updated_at": "2021-02-16T18:09:13.192849Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return a list with all created markers"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4720": {
     "id": 4720,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Area with id",
+    "description": "Get an area from its id",
+    "syntax_pattern": "[dynmap] area with id %string%",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "SkDynmap DynmapArea",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4720",
+    "created_at": "2021-02-16T18:09:13.208037Z",
+    "updated_at": "2021-02-16T18:09:13.208057Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get an area from its id"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4721": {
     "id": 4721,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Description of area",
+    "description": "Returns the description of an area/areabuilder\nIt can be get, set, reset or removed.",
+    "syntax_pattern": "[the] description of %dynmaparea/areabuilder%\n%dynmaparea/areabuilder%'[s] description",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4721",
+    "created_at": "2021-02-16T18:09:13.220445Z",
+    "updated_at": "2021-02-16T18:09:13.220465Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the description of an area/areabuilder",
-        "It can be get, set, reset or removed."
+        "Returns the description of an area/areabuilder\nIt can be get, set, reset or removed."
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4722": {
     "id": 4722,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Icon of marker",
+    "description": "Returns the icon of a marker/markerbuilder\nIt can be get, set or reset.\nThere is a list of all default dynmap icons: https://github.com/webbukkit/dynmap/wiki/Using-markers#marker-icons",
+    "syntax_pattern": "[the] icon of %dynmapmarker/markerbuilder%\n%dynmapmarker/markerbuilder%'[s] icon",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4722",
+    "created_at": "2021-02-16T18:09:13.248835Z",
+    "updated_at": "2021-02-16T18:09:13.248857Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the icon of a marker/markerbuilder",
-        "It can be get, set or reset.",
-        "There is a list of all default dynmap icons: https://github.com/webbukkit/dynmap/wiki/Using-markers#marker-icons"
+        "Returns the icon of a marker/markerbuilder\nIt can be get, set or reset.\nThere is a list of all default dynmap icons: https://github.com/webbukkit/dynmap/wiki/Using-markers#marker-icons"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4723": {
     "id": 4723,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Id of Area/Marker",
+    "description": "Returns the id of a area/areabuilder/marker/markerbuilder\nIt can be get, or set",
+    "syntax_pattern": "[the] id of %dynmaparea/areabuilder/dynmapmarker/markerbuilder%\n%dynmaparea/areabuilder/dynmapmarker/markerbuilder%'[s] id",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4723",
+    "created_at": "2021-02-16T18:09:13.257745Z",
+    "updated_at": "2021-02-16T18:09:13.257765Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the id of a area/areabuilder/marker/markerbuilder",
-        "It can be get, or set"
+        "Returns the id of a area/areabuilder/marker/markerbuilder\nIt can be get, or set"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4724": {
     "id": 4724,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Location of marker",
+    "description": "Returns the location of a marker/markerbuilder\nIt can be get, or set.",
+    "syntax_pattern": "[the] location of %dynmapmarker/markerbuilder%\n%dynmapmarker/markerbuilder%'[s] location",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4724",
+    "created_at": "2021-02-16T18:09:13.285590Z",
+    "updated_at": "2021-02-16T18:09:13.285610Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the location of a marker/markerbuilder",
-        "It can be get, or set."
+        "Returns the location of a marker/markerbuilder\nIt can be get, or set."
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4725": {
     "id": 4725,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Locations of area",
+    "description": "Returns the locations of an area/areabuilder\nIt can be get, and set.",
+    "syntax_pattern": "[all] [the] locations of %dynmaparea/areabuilder%\n[all] [the] %dynmaparea/areabuilder%'[s] locations",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4725",
+    "created_at": "2021-02-16T18:09:13.291823Z",
+    "updated_at": "2021-02-16T18:09:13.291843Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the locations of an area/areabuilder",
-        "It can be get, and set."
+        "Returns the locations of an area/areabuilder\nIt can be get, and set."
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4726": {
     "id": 4726,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Marker builder",
+    "description": "The constructor for a future marker",
+    "syntax_pattern": "new [dynmap] marker named %string% at %locations%\nnew [dynmap] marker named %string% at %locations% with [icon] %string%\nnew [dynmap] marker with id %string% named %string% at %locations%\nnew [dynmap] marker with id %string% named %string% at %locations% with [icon] %string%",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "SkDynmap MarkerBuilder",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4726",
+    "created_at": "2021-02-16T18:09:13.297936Z",
+    "updated_at": "2021-02-16T18:09:13.297959Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The constructor for a future marker"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4727": {
     "id": 4727,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Marker with id",
+    "description": "Get an marker from its id",
+    "syntax_pattern": "[dynmap] marker with id %string%",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "SkDynmap DynmapMarker",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4727",
+    "created_at": "2021-02-16T18:09:13.303981Z",
+    "updated_at": "2021-02-16T18:09:13.304000Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get an marker from its id"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4728": {
     "id": 4728,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Name of Area/Marker",
+    "description": "Returns the name of a area/areabuilder/marker/markerbuilder\nIt can be get, or set",
+    "syntax_pattern": "[the] name of %dynmaparea/areabuilder/dynmapmarker/markerbuilder%\n%dynmaparea/areabuilder/dynmapmarker/markerbuilder%'[s] name",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4728",
+    "created_at": "2021-02-16T18:09:13.310520Z",
+    "updated_at": "2021-02-16T18:09:13.310539Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the name of a area/areabuilder/marker/markerbuilder",
-        "It can be get, or set"
+        "Returns the name of a area/areabuilder/marker/markerbuilder\nIt can be get, or set"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4729": {
     "id": 4729,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "Style of area",
+    "description": "Returns the style of an area/areabuilder\nIt can be get, set or reset.",
+    "syntax_pattern": "[the] [area]style of %dynmaparea/areabuilder%\n%dynmaparea/areabuilder%'[s] [area]style",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "SkDynmap AreaStyle",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4729",
+    "created_at": "2021-02-16T18:09:13.316241Z",
+    "updated_at": "2021-02-16T18:09:13.316262Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the style of an area/areabuilder",
-        "It can be get, set or reset."
+        "Returns the style of an area/areabuilder\nIt can be get, set or reset."
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4730": {
     "id": 4730,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "The marker",
+    "description": "This expression returns the last generated marker using marker scope",
+    "syntax_pattern": "[the] [last] [(generated|created)] marker",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": "SkDynmap MarkerBuilder",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4730",
+    "created_at": "2021-02-16T18:09:13.329363Z",
+    "updated_at": "2021-02-16T18:09:13.329383Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This expression returns the last generated marker using marker scope"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4731": {
     "id": 4731,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "SkDynmap DynmapMarker",
+    "description": "SkDynmap's DynmapMarker object",
+    "syntax_pattern": "[dynmap ]marker",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4731",
+    "created_at": "2021-02-16T18:09:13.359408Z",
+    "updated_at": "2021-02-16T18:09:13.359429Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "SkDynmap's DynmapMarker object"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4732": {
     "id": 4732,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "SkDynmap MarkerBuilder",
+    "description": "SkDynmap's MarkerBuilder object",
+    "syntax_pattern": "[dynmap ]marker[-| ]builder",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4732",
+    "created_at": "2021-02-16T18:09:13.365699Z",
+    "updated_at": "2021-02-16T18:09:13.365719Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "SkDynmap's MarkerBuilder object"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5604": {
     "id": 5604,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "On SkDynmap render",
+    "description": "Called each time the SkDynmap layer is rendered. Cancellable event.",
+    "syntax_pattern": "[[sk]dynmap] [map] render",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=5604",
+    "created_at": "2021-06-13T13:21:15.914262Z",
+    "updated_at": "2021-06-13T13:21:15.914286Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called each time the SkDynmap layer is rendered. Cancellable event."
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5605": {
     "id": 5605,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "SkDynmap DynmapArea",
+    "description": "SkDynmap's DynmapArea object",
+    "syntax_pattern": "dynmaparea",
+    "compatible_addon_version": "1.0-beta02",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5605",
+    "created_at": "2021-06-13T13:21:15.962643Z",
+    "updated_at": "2021-06-13T13:21:15.962659Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "SkDynmap's DynmapArea object"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5606": {
     "id": 5606,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "SkDynmap AreaStyle",
+    "description": "SkDynmap's AreaStyle object",
+    "syntax_pattern": "areastyle",
+    "compatible_addon_version": "1.0-beta02",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5606",
+    "created_at": "2021-06-13T13:21:15.971745Z",
+    "updated_at": "2021-06-13T13:21:15.971761Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "SkDynmap's AreaStyle object"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5607": {
     "id": 5607,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "SkDynmap AreaBuilder",
+    "description": "SkDynmap's AreaBuilder object",
+    "syntax_pattern": "areabuilder",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5607",
+    "created_at": "2021-06-13T13:21:15.982441Z",
+    "updated_at": "2021-06-13T13:21:15.982456Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "SkDynmap's AreaBuilder object"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5608": {
     "id": 5608,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "SkDynmap MarkerBuilder",
+    "description": "SkDynmap's MarkerBuilder object",
+    "syntax_pattern": "markerbuilder",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5608",
+    "created_at": "2021-06-13T13:21:15.991694Z",
+    "updated_at": "2021-06-13T13:21:15.991709Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "SkDynmap's MarkerBuilder object"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5609": {
     "id": 5609,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Skylyxx",
+    "title": "SkDynmap DynmapMarker",
+    "description": "SkDynmap's DynmapMarker object",
+    "syntax_pattern": "dynmapmarker",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkDynmap",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5609",
+    "created_at": "2021-06-13T13:21:16.002220Z",
+    "updated_at": "2021-06-13T13:21:16.002237Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "SkDynmap's DynmapMarker object"
       ],
       "ko": [
-        "[SkDynmap] 한국어 가이드팩 준비 중"
+        "[SKDYNMAP] 한국어 가이드 번역 대기 중"
       ]
     }
   }

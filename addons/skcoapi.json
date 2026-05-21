@@ -1,463 +1,993 @@
 {
   "syntax_10010": {
     "id": 10010,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "On Logging Action",
+    "description": "Fired when a CoreProtect logger is about to log an action.\nCancellable.",
+    "syntax_pattern": "[on] [on] CoreProtect log[ging] [(for %strings%|[an] action [by %strings%])] [with priority (lowest|low|normal|high|highest|monitor)]",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-string",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=10010",
+    "created_at": "2023-12-27T04:22:32.287806Z",
+    "updated_at": "2023-12-27T04:22:32.287829Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Fired when a CoreProtect logger is about to log an action.",
-        "Cancellable."
+        "Fired when a CoreProtect logger is about to log an action.\nCancellable."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10011": {
     "id": 10011,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "CoreProtect Is Enabled",
+    "description": "Checks if the server has the CoreProtect API enabled, and false if it does not.",
+    "syntax_pattern": "[the] CoreProtect API is[(n't| not)] (enabled|disabled)",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10011",
+    "created_at": "2023-12-27T04:22:32.298557Z",
+    "updated_at": "2023-12-27T04:22:32.298572Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if the server has the CoreProtect API enabled, and false if it does not."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10012": {
     "id": 10012,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Has Broken/Removed",
+    "description": "Checks if a user has already removed a block at the location within the specified time limit.",
+    "syntax_pattern": "%string% has[(n't| not)] (broken|removed) %block% in [last] %timespan% [(until|till) %timespan%]",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10012",
+    "created_at": "2023-12-27T04:22:32.307316Z",
+    "updated_at": "2023-12-27T04:22:32.307330Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a user has already removed a block at the location within the specified time limit."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10013": {
     "id": 10013,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Has Placed/Built",
+    "description": "Checks if a user has already placed a block at the location within the specified time limit.",
+    "syntax_pattern": "%string% has[(n't| not)] (placed|built) %block% in [last] %timespan% [(until|till) %timespan%]",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10013",
+    "created_at": "2023-12-27T04:22:32.316557Z",
+    "updated_at": "2023-12-27T04:22:32.316571Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a user has already placed a block at the location within the specified time limit."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10014": {
     "id": 10014,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Is Rolled Back",
+    "description": "Checks If the block is currently rolled back or not.",
+    "syntax_pattern": "%coreprotectlog% is[(n't| not)] rolled back",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10014",
+    "created_at": "2023-12-27T04:22:32.325803Z",
+    "updated_at": "2023-12-27T04:22:32.325818Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks If the block is currently rolled back or not."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10015": {
     "id": 10015,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Logging Succeeded",
+    "description": "Checks if the log said/executed/placed/broke/container transaction/interaction effect lastly ran was successful.",
+    "syntax_pattern": "logging (succeeded|did(n't| not) fail)\nlogging (failed|din(n't| not) succeed)",
+    "compatible_addon_version": "0.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10015",
+    "created_at": "2023-12-27T04:22:32.334962Z",
+    "updated_at": "2023-12-27T04:22:32.334976Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if the log said/executed/placed/broke/container transaction/interaction effect lastly ran was successful."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10016": {
     "id": 10016,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Log Broke/Removed",
+    "description": "Logs a block as being removed/broken, and log the block's inventory (if applicable).",
+    "syntax_pattern": "log [that] %string% (broke|removed) %material/blockdata% at %location%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10016",
+    "created_at": "2023-12-27T04:22:32.344083Z",
+    "updated_at": "2023-12-27T04:22:32.344099Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Logs a block as being removed/broken, and log the block's inventory (if applicable)."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10017": {
     "id": 10017,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Log Container Transaction",
+    "description": "Logs any transactions made to a block's inventory immediately after calling the method.",
+    "syntax_pattern": "log [that] %string% made [a] transaction [to [a] container] at %location%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10017",
+    "created_at": "2023-12-27T04:22:32.356760Z",
+    "updated_at": "2023-12-27T04:22:32.356779Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Logs any transactions made to a block's inventory immediately after calling the method."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10018": {
     "id": 10018,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Log Executed",
+    "description": "Logs a command as having been executed by a player.",
+    "syntax_pattern": "log [that] %player% executed [[the] command] %string%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10018",
+    "created_at": "2023-12-27T04:22:32.365926Z",
+    "updated_at": "2023-12-27T04:22:32.365942Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Logs a command as having been executed by a player."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10019": {
     "id": 10019,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Log Interaction",
+    "description": "Logs a block as having been interacted with.",
+    "syntax_pattern": "log [that] %string% interacted [[a] block] at %location%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10019",
+    "created_at": "2023-12-27T04:22:32.374996Z",
+    "updated_at": "2023-12-27T04:22:32.375012Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Logs a block as having been interacted with."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10020": {
     "id": 10020,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Log Placement",
+    "description": "Logs a block as being placed.",
+    "syntax_pattern": "log [that] %string% (placed|built) %material/blockdata% at %location%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10020",
+    "created_at": "2023-12-27T04:22:32.383916Z",
+    "updated_at": "2023-12-27T04:22:32.383929Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Logs a block as being placed."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10021": {
     "id": 10021,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Log Said",
+    "description": "Logs a message as having been send by a player.",
+    "syntax_pattern": "log [that] %player% (said|sent [the] message) %string%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10021",
+    "created_at": "2023-12-27T04:22:32.392771Z",
+    "updated_at": "2023-12-27T04:22:32.392785Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Logs a message as having been send by a player."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10022": {
     "id": 10022,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Purge CoreProtect Data",
+    "description": "Performs a purge on the CoreProtect database.",
+    "syntax_pattern": "(purge|delete) [(any|all)] CoreProtect (data|logs) older than %timespan%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10022",
+    "created_at": "2023-12-27T04:22:32.402052Z",
+    "updated_at": "2023-12-27T04:22:32.402066Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Performs a purge on the CoreProtect database."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10023": {
     "id": 10023,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Test CoreProtect API",
+    "description": "Prints out \"[CoreProtect] API Test Successful.\" in the server console.",
+    "syntax_pattern": "test [the] CoreProtect API",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10023",
+    "created_at": "2023-12-27T04:22:32.410924Z",
+    "updated_at": "2023-12-27T04:22:32.410937Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Prints out \"[CoreProtect] API Test Successful.\" in the server console."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10024": {
     "id": 10024,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Action ID",
+    "description": "Get the action ID. (0=removed, 1=placed, 2=interaction)",
+    "syntax_pattern": "[the] [CoreProtect] action ID[s] of %coreprotectlog%\n%coreprotectlog%'[s] [CoreProtect] action ID[s]",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10024",
+    "created_at": "2023-12-27T04:22:32.419532Z",
+    "updated_at": "2023-12-27T04:22:32.419545Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the action ID. (0=removed, 1=placed, 2=interaction)"
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10025": {
     "id": 10025,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Action String",
+    "description": "Get the action as a string. (Removal, Placement, Interaction)",
+    "syntax_pattern": "[the] [CoreProtect] action [(string|text)][s] of %coreprotectlog%\n%coreprotectlog%'[s] [CoreProtect] action [(string|text)][s]",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10025",
+    "created_at": "2023-12-27T04:22:32.428632Z",
+    "updated_at": "2023-12-27T04:22:32.428644Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the action as a string. (Removal, Placement, Interaction)"
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10026": {
     "id": 10026,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Block Location",
+    "description": "The location of the block.",
+    "syntax_pattern": "[the] [CoreProtect] block (location|position)[s] of %coreprotectlog%\n%coreprotectlog%'[s] [CoreProtect] block (location|position)[s]",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10026",
+    "created_at": "2023-12-27T04:22:32.437168Z",
+    "updated_at": "2023-12-27T04:22:32.437181Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The location of the block."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10027": {
     "id": 10027,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Block Type",
+    "description": "The Material of the block.",
+    "syntax_pattern": "[the] [CoreProtect] block type[s] of %coreprotectlog%\n%coreprotectlog%'[s] [CoreProtect] block type[s]",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": "Item Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10027",
+    "created_at": "2023-12-27T04:22:32.445864Z",
+    "updated_at": "2023-12-27T04:22:32.445877Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The Material of the block."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10028": {
     "id": 10028,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "CoreProtect API Version",
+    "description": "The version of CoreProtect API.",
+    "syntax_pattern": "[the] CoreProtect API['s] version\n[the] version of CoreProtect API",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10028",
+    "created_at": "2023-12-27T04:22:32.454392Z",
+    "updated_at": "2023-12-27T04:22:32.454406Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The version of CoreProtect API."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10029": {
     "id": 10029,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Date",
+    "description": "The time of the action.",
+    "syntax_pattern": "[the] [CoreProtect] date[s] of %coreprotectlog%\n%coreprotectlog%'[s] [CoreProtect] date[s]",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": "Date",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10029",
+    "created_at": "2023-12-27T04:22:32.463259Z",
+    "updated_at": "2023-12-27T04:22:32.463272Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The time of the action."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10030": {
     "id": 10030,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Logged Block Data",
+    "description": "The BlockData of the block.",
+    "syntax_pattern": "[the] CoreProtect block data[s] of %coreprotectlog%\n%coreprotectlog%'[s] CoreProtect block data[s]",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": "Block Data",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10030",
+    "created_at": "2023-12-27T04:22:32.471900Z",
+    "updated_at": "2023-12-27T04:22:32.471914Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The BlockData of the block."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10031": {
     "id": 10031,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Logged World Name",
+    "description": "The name of the world the block is located in.",
+    "syntax_pattern": "[the] CoreProtect world name[s] of %coreprotectlog%\n%coreprotectlog%'[s] CoreProtect world name[s]",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10031",
+    "created_at": "2023-12-27T04:22:32.482055Z",
+    "updated_at": "2023-12-27T04:22:32.482072Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The name of the world the block is located in."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10032": {
     "id": 10032,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Lookup On Block",
+    "description": "Performs a full lookup on a single block.",
+    "syntax_pattern": "lookup [action] (data|logs) on %block% in [last] %timespan%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": "CoreProtect Log",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10032",
+    "created_at": "2023-12-27T04:22:32.491174Z",
+    "updated_at": "2023-12-27T04:22:32.491188Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Performs a full lookup on a single block."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10033": {
     "id": 10033,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Lookup Queue",
+    "description": "Searches the consumer queue for changes on a block not yet saved in the database.",
+    "syntax_pattern": "lookup [consumer] queue on %block%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": "CoreProtect Log",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10033",
+    "created_at": "2023-12-27T04:22:32.502445Z",
+    "updated_at": "2023-12-27T04:22:32.502459Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Searches the consumer queue for changes on a block not yet saved in the database."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10034": {
     "id": 10034,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Lookup Sessions",
+    "description": "Performs a session lookup on a single player.",
+    "syntax_pattern": "lookup session[s] [(data|logs)] for %string% in [last] %timespan%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": "CoreProtect Log",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10034",
+    "created_at": "2023-12-27T04:22:32.511284Z",
+    "updated_at": "2023-12-27T04:22:32.511298Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Performs a session lookup on a single player."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10035": {
     "id": 10035,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Results",
+    "description": "Usable only in lookup / rollback / restore effect sections.\nReturns the result of the lookup.",
+    "syntax_pattern": "[CoreProtect] results",
+    "compatible_addon_version": "0.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": "CoreProtect Log",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10035",
+    "created_at": "2023-12-27T04:22:32.520396Z",
+    "updated_at": "2023-12-27T04:22:32.520409Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Usable only in lookup / rollback / restore effect sections.",
-        "Returns the result of the lookup."
+        "Usable only in lookup / rollback / restore effect sections.\nReturns the result of the lookup."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10036": {
     "id": 10036,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "User/Player Name",
+    "description": "Usable only in CoreProtect logging event.\nThe name of the user under which this action will be logged.\nThis value can be changed.\nThis can be referred as 'event-string', which only the getter is provided.",
+    "syntax_pattern": "[the] (user[ ]|player )name",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10036",
+    "created_at": "2023-12-27T04:22:32.529419Z",
+    "updated_at": "2023-12-27T04:22:32.529433Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Usable only in CoreProtect logging event.",
-        "The name of the user under which this action will be logged.",
-        "This value can be changed.",
-        "This can be referred as 'event-string', which only the getter is provided."
+        "Usable only in CoreProtect logging event.\nThe name of the user under which this action will be logged.\nThis value can be changed.\nThis can be referred as 'event-string', which only the getter is provided."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10037": {
     "id": 10037,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "User/Player Name of Log",
+    "description": "The username as a string.",
+    "syntax_pattern": "[the] [CoreProtect] (player |user[ ])name[s] of %coreprotectlog%\n%coreprotectlog%'[s] [CoreProtect] (player |user[ ])name[s]",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10037",
+    "created_at": "2023-12-27T04:22:32.538062Z",
+    "updated_at": "2023-12-27T04:22:32.538078Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The username as a string."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10038": {
     "id": 10038,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "CoreProtect Log",
+    "description": "A result of lookup on CoreProtect logs.",
+    "syntax_pattern": "[Cc]ore[Pp]rotect[ ]log[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10038",
+    "created_at": "2023-12-27T04:22:32.547089Z",
+    "updated_at": "2023-12-27T04:22:32.547102Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A result of lookup on CoreProtect logs."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10039": {
     "id": 10039,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Lookup",
+    "description": "Performs a lookup.\nThis effect causes a delay of the script execution.\nObjects specified with 'on' and 'expect on' can be Entity Data, Entity Types, Item Types or Block Data.\nUse 'results' in this section to get the results of the lookup.",
+    "syntax_pattern": "lookup [action] (data|logs) in [last] %timespan% [for %strings%] [except for %strings%] [on %objects%] [except on %objects%] [with ([an] action|actions) %integers%] [in radius %integer%] [at %location%]",
+    "compatible_addon_version": "0.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10039",
+    "created_at": "2023-12-27T04:22:32.556141Z",
+    "updated_at": "2023-12-27T04:22:32.556154Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Performs a lookup.",
-        "This effect causes a delay of the script execution.",
-        "Objects specified with 'on' and 'expect on' can be Entity Data, Entity Types, Item Types or Block Data.",
-        "Use 'results' in this section to get the results of the lookup."
+        "Performs a lookup.\nThis effect causes a delay of the script execution.\nObjects specified with 'on' and 'expect on' can be Entity Data, Entity Types, Item Types or Block Data.\nUse 'results' in this section to get the results of the lookup."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10040": {
     "id": 10040,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Restore",
+    "description": "Performs a restore.\nThis effect causes a delay of the script execution.\nObjects specified with 'on' and 'expect on' can be Entity Data, Entity Types, Item Types or Block Data.\nUse 'results' in this section to get the results of the restore.",
+    "syntax_pattern": "restore [action] (data|logs) in [last] %timespan% [for %strings%] [except for %strings%] [on %objects%] [except on %objects%] [with ([an] action|actions) %integers%] [in radius %integer%] [at %location%]",
+    "compatible_addon_version": "0.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10040",
+    "created_at": "2023-12-27T04:22:32.565280Z",
+    "updated_at": "2023-12-27T04:22:32.565293Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Performs a restore.",
-        "This effect causes a delay of the script execution.",
-        "Objects specified with 'on' and 'expect on' can be Entity Data, Entity Types, Item Types or Block Data.",
-        "Use 'results' in this section to get the results of the restore."
+        "Performs a restore.\nThis effect causes a delay of the script execution.\nObjects specified with 'on' and 'expect on' can be Entity Data, Entity Types, Item Types or Block Data.\nUse 'results' in this section to get the results of the restore."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10041": {
     "id": 10041,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "takejohn",
+    "title": "Rollback",
+    "description": "Performs a rollback.\nThis effect causes a delay of the script execution.\nObjects specified with 'on' and 'expect on' can be Entity Types, Item Types or Block Data.\nUse 'results' in this section to get the results of the rollback.",
+    "syntax_pattern": "rollback [action] (data|logs) in [last] %timespan% [for %strings%] [except for %strings%] [on %objects%] [except on %objects%] [with ([an] action|actions) %integers%] [in radius %integer%] [at %location%]",
+    "compatible_addon_version": "0.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "SkCoAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10041",
+    "created_at": "2023-12-27T04:22:32.574238Z",
+    "updated_at": "2023-12-27T04:22:32.574252Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Performs a rollback.",
-        "This effect causes a delay of the script execution.",
-        "Objects specified with 'on' and 'expect on' can be Entity Types, Item Types or Block Data.",
-        "Use 'results' in this section to get the results of the rollback."
+        "Performs a rollback.\nThis effect causes a delay of the script execution.\nObjects specified with 'on' and 'expect on' can be Entity Types, Item Types or Block Data.\nUse 'results' in this section to get the results of the rollback."
       ],
       "ko": [
-        "[SkCoAPI] 한국어 가이드팩 준비 중"
+        "[SKCOAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   }

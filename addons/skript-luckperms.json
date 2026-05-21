@@ -1,598 +1,1210 @@
 {
   "syntax_14921": {
     "id": 14921,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "On User Lose Group",
+    "description": "Called when a user loses a group.\n\n`event-group` = The group the user lost.\n\n",
+    "syntax_pattern": "[on] [luckperm[s]] user lose group",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-types.luckpermsgroup, event-world",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14921",
+    "created_at": "2026-05-08T18:00:04.149031Z",
+    "updated_at": "2026-05-10T00:32:17.035596Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a user loses a group.",
-        "`event-group` = The group the user lost."
+        "Called when a user loses a group.\n\n`event-group` = The group the user lost.\n\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14922": {
     "id": 14922,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "On User Lose Permission",
+    "description": "Called when a user loses a permission.\n\n`event-permission` = The permission the user lost.\n\n",
+    "syntax_pattern": "[on] [luckperm[s]] user lose perm[ission]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-text, event-world",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14922",
+    "created_at": "2026-05-08T18:00:04.157700Z",
+    "updated_at": "2026-05-10T00:32:17.042770Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a user loses a permission.",
-        "`event-permission` = The permission the user lost."
+        "Called when a user loses a permission.\n\n`event-permission` = The permission the user lost.\n\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14924": {
     "id": 14924,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "On User Meta Set",
+    "description": "Called when the meta of a user is set.\nOnly called when meta is SET not unset etc for that case use `user meta remove`\n\n`event-key` = The key e.g. \"prefix\" or \"suffix\"\n`event-value` = The result that key was set to.\n\n",
+    "syntax_pattern": "[on] [luckperm[s]] user meta set",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-text, event-world",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14924",
+    "created_at": "2026-05-08T18:00:04.175328Z",
+    "updated_at": "2026-05-10T00:32:17.057641Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when the meta of a user is set.",
-        "Only called when meta is SET not unset etc for that case use `user meta remove`",
-        "`event-key` = The key e.g. \"prefix\" or \"suffix\"",
-        "`event-value` = The result that key was set to."
+        "Called when the meta of a user is set.\nOnly called when meta is SET not unset etc for that case use `user meta remove`\n\n`event-key` = The key e.g. \"prefix\" or \"suffix\"\n`event-value` = The result that key was set to.\n\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14928": {
     "id": 14928,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Has LuckPerms Group",
+    "description": "Returns whether a user has/doesn't have a group.\nThis is different from Skript's has group condition as with `user` this supports offline players.\n",
+    "syntax_pattern": "%luckpermsuser% has luckperm[s] group %luckpermsgroup%\n%luckpermsuser% (doesn't|does not) have luckperm[s] group %luckpermsgroup%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14928",
+    "created_at": "2026-05-08T18:00:04.208814Z",
+    "updated_at": "2026-05-08T18:00:04.208828Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns whether a user has/doesn't have a group.",
-        "This is different from Skript's has group condition as with `user` this supports offline players."
+        "Returns whether a user has/doesn't have a group.\nThis is different from Skript's has group condition as with `user` this supports offline players.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14929": {
     "id": 14929,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Has LuckPerms Permission",
+    "description": "Returns whether a user has/doesn't have a permission.\nThis is different from Skript's has permission condition as with `user` this supports offline players.\n",
+    "syntax_pattern": "%luckpermsuser% has luckperm[s] perm[ission] %string%\n%luckpermsuser% (doesn't|does not) have luckperm[s] perm[ission] %string%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14929",
+    "created_at": "2026-05-08T18:00:04.216995Z",
+    "updated_at": "2026-05-08T18:00:04.217010Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns whether a user has/doesn't have a permission.",
-        "This is different from Skript's has permission condition as with `user` this supports offline players."
+        "Returns whether a user has/doesn't have a permission.\nThis is different from Skript's has permission condition as with `user` this supports offline players.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14930": {
     "id": 14930,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Demote User",
+    "description": "Demotes a user along a track.\nIf the user is not on the track nothing will happen.\n",
+    "syntax_pattern": "demote [user] [%luckpermsuser%] (along|on) track %luckpermstrack%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14930",
+    "created_at": "2026-05-08T18:00:04.224783Z",
+    "updated_at": "2026-05-08T18:00:04.224797Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Demotes a user along a track.",
-        "If the user is not on the track nothing will happen."
+        "Demotes a user along a track.\nIf the user is not on the track nothing will happen.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14931": {
     "id": 14931,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Grant Group",
+    "description": "Adds a group to a user.",
+    "syntax_pattern": "(grant|add) luckperm[s] group %luckpermsgroup% [to %luckpermsuser%] [for %timespan%]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14931",
+    "created_at": "2026-05-08T18:00:04.232482Z",
+    "updated_at": "2026-05-08T18:00:04.232496Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Adds a group to a user."
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14932": {
     "id": 14932,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Grant Permission",
+    "description": "Adds a permission to a user.",
+    "syntax_pattern": "(grant|add) [luckperm[s]] perm[ission] %string% [to %luckpermsuser%] [for %timespan%]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14932",
+    "created_at": "2026-05-08T18:00:04.239888Z",
+    "updated_at": "2026-05-08T18:00:04.239902Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Adds a permission to a user."
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14935": {
     "id": 14935,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Load Player",
+    "description": "Loads a LuckPerms user.\nThis is required for basically everything relating to users.\n",
+    "syntax_pattern": "(fetch|get) luckperm[s] user [from] %offlineplayer% and store (it|the result) in %objects%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14935",
+    "created_at": "2026-05-08T18:00:04.281875Z",
+    "updated_at": "2026-05-08T18:00:04.281889Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Loads a LuckPerms user.",
-        "This is required for basically everything relating to users."
+        "Loads a LuckPerms user.\nThis is required for basically everything relating to users.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14936": {
     "id": 14936,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Promote User",
+    "description": "Promotes a user along a track.\nIf the user is not on the track or is at end of track, nothing will happen.\n",
+    "syntax_pattern": "promote [user] [%luckpermsuser%] (along|on) track %luckpermstrack%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14936",
+    "created_at": "2026-05-08T18:00:04.292361Z",
+    "updated_at": "2026-05-08T18:00:04.292375Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Promotes a user along a track.",
-        "If the user is not on the track or is at end of track, nothing will happen."
+        "Promotes a user along a track.\nIf the user is not on the track or is at end of track, nothing will happen.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14937": {
     "id": 14937,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Revoke Group",
+    "description": "Removes a group from a user.",
+    "syntax_pattern": "(revoke|remove) luckperm[s] group [%luckpermsgroup%] [from %luckpermsuser%]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14937",
+    "created_at": "2026-05-08T18:00:04.300949Z",
+    "updated_at": "2026-05-08T18:00:04.300963Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Removes a group from a user."
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14938": {
     "id": 14938,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Revoke Permission",
+    "description": "Removes a permission from a user.",
+    "syntax_pattern": "(revoke|remove) [luckperm[s]] perm[ission] %string% [from %luckpermsuser%]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14938",
+    "created_at": "2026-05-08T18:00:04.320159Z",
+    "updated_at": "2026-05-08T18:00:04.320174Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Removes a permission from a user."
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14940": {
     "id": 14940,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "All Tracks",
+    "description": "returns a list of all tracks.\n",
+    "syntax_pattern": "all [of the] luckperm[s] tracks",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14940",
+    "created_at": "2026-05-08T18:00:04.345156Z",
+    "updated_at": "2026-05-10T00:32:17.114194Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "returns a list of all tracks."
+        "returns a list of all tracks.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14941": {
     "id": 14941,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Chat Meta Builder",
+    "description": "Creates a builder for a prefix/suffix.\nYou can add said prefix/suffix to a user or a group via the prefix or suffix expression.\n",
+    "syntax_pattern": "a [new] (prefix|suffix) builder",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": "LuckPerms ChatMeta",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14941",
+    "created_at": "2026-05-08T18:00:04.355026Z",
+    "updated_at": "2026-05-08T18:00:04.355040Z",
+    "entries": "[{\"name\": \"value\", \"isRequired\": true, \"isSection\": false}, {\"name\": \"priority\", \"isRequired\": true, \"isSection\": false}, {\"name\": \"duration\", \"isRequired\": false, \"isSection\": false}]",
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a builder for a prefix/suffix.",
-        "You can add said prefix/suffix to a user or a group via the prefix or suffix expression."
+        "Creates a builder for a prefix/suffix.\nYou can add said prefix/suffix to a user or a group via the prefix or suffix expression.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14942": {
     "id": 14942,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Chat Meta Priority",
+    "description": "Represents the priority of a chat meta node.\n",
+    "syntax_pattern": "[the] [luckperm[s]] (prefix|suffix) priority of %luckpermschatmeta%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14942",
+    "created_at": "2026-05-08T18:00:04.396738Z",
+    "updated_at": "2026-05-08T18:00:04.396754Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Represents the priority of a chat meta node."
+        "Represents the priority of a chat meta node.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14943": {
     "id": 14943,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Chat Meta Source",
+    "description": "Represents the source of a chatmeta.\nIf inherited directly (not from a group) it will return the user's UUID.\n",
+    "syntax_pattern": "[the] [luckperm[s]] (prefix|suffix) source of %luckpermschatmeta%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14943",
+    "created_at": "2026-05-08T18:00:04.404509Z",
+    "updated_at": "2026-05-08T18:00:04.404523Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Represents the source of a chatmeta.",
-        "If inherited directly (not from a group) it will return the user's UUID."
+        "Represents the source of a chatmeta.\nIf inherited directly (not from a group) it will return the user's UUID.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14947": {
     "id": 14947,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Prefix",
+    "description": "Returns the primary prefix of a user/group.\nIf `prefixes` is used it will return a sorted list of all prefixes of the user/group.\nUse `ExprChatMetaPriority` to get priority of a prefix.\n",
+    "syntax_pattern": "[the] [luckperm[s]] prefix[es] of group %luckpermsgroup%\n[the] [luckperm[s]] prefix[es] of user %luckpermsuser%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": "LuckPerms ChatMeta",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14947",
+    "created_at": "2026-05-08T18:00:04.460846Z",
+    "updated_at": "2026-05-08T18:00:04.460859Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the primary prefix of a user/group.",
-        "If `prefixes` is used it will return a sorted list of all prefixes of the user/group.",
-        "Use `ExprChatMetaPriority` to get priority of a prefix."
+        "Returns the primary prefix of a user/group.\nIf `prefixes` is used it will return a sorted list of all prefixes of the user/group.\nUse `ExprChatMetaPriority` to get priority of a prefix.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14948": {
     "id": 14948,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Suffix",
+    "description": "Returns the primary suffix of a user/group.\nIf `suffixes` is used it will return a sorted list of all suffixes of the user/group.\nUse `ExprChatMetaPriority` to get priority of a suffix.\n",
+    "syntax_pattern": "[the] [luckperm[s]] suffix[es] of group %luckpermsgroup%\n[the] [luckperm[s]] suffix[es] of user %luckpermsuser%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": "LuckPerms ChatMeta",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14948",
+    "created_at": "2026-05-08T18:00:04.469481Z",
+    "updated_at": "2026-05-08T18:00:04.469494Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the primary suffix of a user/group.",
-        "If `suffixes` is used it will return a sorted list of all suffixes of the user/group.",
-        "Use `ExprChatMetaPriority` to get priority of a suffix."
+        "Returns the primary suffix of a user/group.\nIf `suffixes` is used it will return a sorted list of all suffixes of the user/group.\nUse `ExprChatMetaPriority` to get priority of a suffix.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14949": {
     "id": 14949,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "LuckPerms ChatMeta",
+    "description": "A LuckPerms prefix or suffix node.",
+    "syntax_pattern": "luckperms[ ]chatmeta[s]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14949",
+    "created_at": "2026-05-08T18:00:04.478934Z",
+    "updated_at": "2026-05-08T18:00:04.478948Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A LuckPerms prefix or suffix node."
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14950": {
     "id": 14950,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "LuckPerms Group",
+    "description": "A LuckPerms group.",
+    "syntax_pattern": "luckperms[ ]group[s]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14950",
+    "created_at": "2026-05-08T18:00:04.487389Z",
+    "updated_at": "2026-05-08T18:00:04.487403Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A LuckPerms group."
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14951": {
     "id": 14951,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "LuckPerms Track",
+    "description": "A LuckPerms track.",
+    "syntax_pattern": "luckperms[ ]track[s]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14951",
+    "created_at": "2026-05-08T18:00:04.499977Z",
+    "updated_at": "2026-05-08T18:00:04.499991Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A LuckPerms track."
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14952": {
     "id": 14952,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "LuckPerms User",
+    "description": "A LuckPerms user.",
+    "syntax_pattern": "luckperms[ ]user[s]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14952",
+    "created_at": "2026-05-08T18:00:04.509023Z",
+    "updated_at": "2026-05-08T18:00:04.509037Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A LuckPerms user."
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14953": {
     "id": 14953,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Edit Group",
+    "description": "Creates a section that allows you to modify the properties of the provided group.\nAfter the code in the section has finished the group will be saved asynchronously.\n",
+    "syntax_pattern": "edit [the] group %string%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14953",
+    "created_at": "2026-05-08T18:00:04.518030Z",
+    "updated_at": "2026-05-08T18:00:04.518044Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a section that allows you to modify the properties of the provided group.",
-        "After the code in the section has finished the group will be saved asynchronously."
+        "Creates a section that allows you to modify the properties of the provided group.\nAfter the code in the section has finished the group will be saved asynchronously.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14954": {
     "id": 14954,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Edit User",
+    "description": "Creates a section that allows you to modify the properties of the provided user.\nAfter the code in the section has finished the user will be saved asynchronously.\n",
+    "syntax_pattern": "edit [the] user %luckpermsuser%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14954",
+    "created_at": "2026-05-08T18:00:04.528615Z",
+    "updated_at": "2026-05-08T18:00:04.528630Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a section that allows you to modify the properties of the provided user.",
-        "After the code in the section has finished the user will be saved asynchronously."
+        "Creates a section that allows you to modify the properties of the provided user.\nAfter the code in the section has finished the user will be saved asynchronously.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14916": {
     "id": 14916,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "On Group Lose Permission",
+    "description": "Called when a group loses a permission.\n\n`event-permission` = The permission that was removed.\n`event-group` = The group that lost the permission.\n",
+    "syntax_pattern": "[on] [luckperm[s]] group lose perm[ission]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-text, event-types.luckpermsgroup",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14916",
+    "created_at": "2026-05-08T18:00:04.093279Z",
+    "updated_at": "2026-05-10T00:32:16.993440Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a group loses a permission.",
-        "`event-permission` = The permission that was removed.",
-        "`event-group` = The group that lost the permission."
+        "Called when a group loses a permission.\n\n`event-permission` = The permission that was removed.\n`event-group` = The group that lost the permission.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14917": {
     "id": 14917,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "On Group Meta Remove",
+    "description": "Called when the meta of a group is removed.\nOnly called when meta is REMOVED not set/added to for that case use `group meta set`\n\n`event-key` = The key e.g. \"prefix\" or \"suffix\"\n`event-value` = The result that key was set to.\n`event-group` = The group that lost said meta.\n\n",
+    "syntax_pattern": "[on] [luckperm[s]] group meta remove",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-text, event-types.luckpermsgroup",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14917",
+    "created_at": "2026-05-08T18:00:04.110138Z",
+    "updated_at": "2026-05-10T00:32:17.004186Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when the meta of a group is removed.",
-        "Only called when meta is REMOVED not set/added to for that case use `group meta set`",
-        "`event-key` = The key e.g. \"prefix\" or \"suffix\"",
-        "`event-value` = The result that key was set to.",
-        "`event-group` = The group that lost said meta."
+        "Called when the meta of a group is removed.\nOnly called when meta is REMOVED not set/added to for that case use `group meta set`\n\n`event-key` = The key e.g. \"prefix\" or \"suffix\"\n`event-value` = The result that key was set to.\n`event-group` = The group that lost said meta.\n\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14918": {
     "id": 14918,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "On Group Meta Set",
+    "description": "Called when the meta of a group is set.\nOnly called when meta is SET not unset etc for that case use `group meta remove`\n\n`event-key` = The key e.g. \"prefix\" or \"suffix\"\n`event-value` = The result that key was set to.\n`event-group` = The group that received the meta.\n\n",
+    "syntax_pattern": "[on] [luckperm[s]] group meta set",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-text, event-types.luckpermsgroup",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14918",
+    "created_at": "2026-05-08T18:00:04.118609Z",
+    "updated_at": "2026-05-10T00:32:17.012568Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when the meta of a group is set.",
-        "Only called when meta is SET not unset etc for that case use `group meta remove`",
-        "`event-key` = The key e.g. \"prefix\" or \"suffix\"",
-        "`event-value` = The result that key was set to.",
-        "`event-group` = The group that received the meta."
+        "Called when the meta of a group is set.\nOnly called when meta is SET not unset etc for that case use `group meta remove`\n\n`event-key` = The key e.g. \"prefix\" or \"suffix\"\n`event-value` = The result that key was set to.\n`event-group` = The group that received the meta.\n\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14919": {
     "id": 14919,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "On Group Receive Permission",
+    "description": "Called when a group receives a permission.\nIf the permission duration is infinite %event-timespan% will return 0 seconds.\n\n`event-permission` = The permission the group received.\n`event-group` = The group that received the permission.\n`event-timespan` = The duration the group will have the permission for.\n",
+    "syntax_pattern": "[on] [luckperm[s]] group receive perm[ission]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-text, event-time span, event-types.luckpermsgroup",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14919",
+    "created_at": "2026-05-08T18:00:04.129524Z",
+    "updated_at": "2026-05-10T00:32:17.020476Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a group receives a permission.",
-        "If the permission duration is infinite %event-timespan% will return 0 seconds.",
-        "`event-permission` = The permission the group received.",
-        "`event-group` = The group that received the permission.",
-        "`event-timespan` = The duration the group will have the permission for."
+        "Called when a group receives a permission.\nIf the permission duration is infinite %event-timespan% will return 0 seconds.\n\n`event-permission` = The permission the group received.\n`event-group` = The group that received the permission.\n`event-timespan` = The duration the group will have the permission for.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14920": {
     "id": 14920,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "On User Demote",
+    "description": "Called when a group of a player is updated via a demotion on a.\n\n`event-group` = The group the user was demoted to.\n`past event-group` = The group the user had on the track.\n`event-track` = The track that the demotion happened on.\n\n",
+    "syntax_pattern": "[on] [luckperm[s]] user demote[d]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-text, event-types.luckpermsgroup, event-world, past event-types.luckpermsgroup",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14920",
+    "created_at": "2026-05-08T18:00:04.138053Z",
+    "updated_at": "2026-05-10T00:32:17.027831Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a group of a player is updated via a demotion on a.",
-        "`event-group` = The group the user was demoted to.",
-        "`past event-group` = The group the user had on the track.",
-        "`event-track` = The track that the demotion happened on."
+        "Called when a group of a player is updated via a demotion on a.\n\n`event-group` = The group the user was demoted to.\n`past event-group` = The group the user had on the track.\n`event-track` = The track that the demotion happened on.\n\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14923": {
     "id": 14923,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "On User Meta Remove",
+    "description": "Called when the meta of a user is removed.\nNote: This event may be called multiple times if you clear a meta.\n\n`event-key` = The key e.g. \"prefix\" or \"suffix\"\n`event-value` = The result that key was set to.\n\n",
+    "syntax_pattern": "[on] [luckperm[s]] user meta remove",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-text, event-world",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14923",
+    "created_at": "2026-05-08T18:00:04.167017Z",
+    "updated_at": "2026-05-10T00:32:17.050053Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when the meta of a user is removed.",
-        "Note: This event may be called multiple times if you clear a meta.",
-        "`event-key` = The key e.g. \"prefix\" or \"suffix\"",
-        "`event-value` = The result that key was set to."
+        "Called when the meta of a user is removed.\nNote: This event may be called multiple times if you clear a meta.\n\n`event-key` = The key e.g. \"prefix\" or \"suffix\"\n`event-value` = The result that key was set to.\n\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14925": {
     "id": 14925,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "On User Promote",
+    "description": "Called when a group of a player is updated via a promotion on a track (/lp user notch promote staff)\")\nDo note that %past event-group% will be unset if player didn't previously have a group on that track.\n\n`event-group` = The group the user was promoted to.\n`past event-group` = The group the user previously had on the track.\n\n",
+    "syntax_pattern": "[on] [luckperm[s]] user promote[d]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-text, event-types.luckpermsgroup, event-world, past event-types.luckpermsgroup",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14925",
+    "created_at": "2026-05-08T18:00:04.185160Z",
+    "updated_at": "2026-05-10T00:32:17.065046Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a group of a player is updated via a promotion on a track (/lp user notch promote staff)\")",
-        "Do note that %past event-group% will be unset if player didn't previously have a group on that track.",
-        "`event-group` = The group the user was promoted to.",
-        "`past event-group` = The group the user previously had on the track."
+        "Called when a group of a player is updated via a promotion on a track (/lp user notch promote staff)\")\nDo note that %past event-group% will be unset if player didn't previously have a group on that track.\n\n`event-group` = The group the user was promoted to.\n`past event-group` = The group the user previously had on the track.\n\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14926": {
     "id": 14926,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "On User Receive Group",
+    "description": "Called when a user receives a group.\nIf the group duration is infinite %event-timespan% will return 0 seconds.\n\n`event-group` = The group the user received.\n`event-timespan` = The duration the user will have the group for.\n\n",
+    "syntax_pattern": "[on] [luckperm[s]] user receive group",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-time span, event-types.luckpermsgroup, event-world",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14926",
+    "created_at": "2026-05-08T18:00:04.192857Z",
+    "updated_at": "2026-05-10T00:32:17.074436Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a user receives a group.",
-        "If the group duration is infinite %event-timespan% will return 0 seconds.",
-        "`event-group` = The group the user received.",
-        "`event-timespan` = The duration the user will have the group for."
+        "Called when a user receives a group.\nIf the group duration is infinite %event-timespan% will return 0 seconds.\n\n`event-group` = The group the user received.\n`event-timespan` = The duration the user will have the group for.\n\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14927": {
     "id": 14927,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "On User Receive Permission",
+    "description": "Called when a user receives a permission.\nIf the permission duration is infinite %event-timespan% will return 0 seconds.\n\n`event-permission` = The permission that the user received.\n`event-timespan` = The duration the user will have the permission for.\n\n",
+    "syntax_pattern": "[on] [luckperm[s]] user receive perm[ission]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-text, event-time span, event-world",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14927",
+    "created_at": "2026-05-08T18:00:04.200695Z",
+    "updated_at": "2026-05-10T00:32:17.083509Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a user receives a permission.",
-        "If the permission duration is infinite %event-timespan% will return 0 seconds.",
-        "`event-permission` = The permission that the user received.",
-        "`event-timespan` = The duration the user will have the permission for."
+        "Called when a user receives a permission.\nIf the permission duration is infinite %event-timespan% will return 0 seconds.\n\n`event-permission` = The permission that the user received.\n`event-timespan` = The duration the user will have the permission for.\n\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14934": {
     "id": 14934,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Group Members",
+    "description": "Returns a list of UUIDS of users who have the specified group.\nShould be relatively fast depending on how many users have a group.\n",
+    "syntax_pattern": "(fetch|get) [the] [luckperm[s]] (members|players) (of|in) group %luckpermsgroup% and store (it|the result) in %objects%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14934",
+    "created_at": "2026-05-08T18:00:04.266220Z",
+    "updated_at": "2026-05-10T00:32:17.091293Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns a list of UUIDS of users who have the specified group.",
-        "Should be relatively fast depending on how many users have a group."
+        "Returns a list of UUIDS of users who have the specified group.\nShould be relatively fast depending on how many users have a group.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14933": {
     "id": 14933,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Permission Members",
+    "description": "Returns a list of UUIDS of users who have the specified permission.\nShould be relatively fast depending on how many users have said permission.\n",
+    "syntax_pattern": "(fetch|get) [the] [luckperm[s]] (users|players) with perm[ission] %string% and store (it|the result) in %objects%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14933",
+    "created_at": "2026-05-08T18:00:04.247961Z",
+    "updated_at": "2026-05-10T00:32:17.098875Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns a list of UUIDS of users who have the specified permission.",
-        "Should be relatively fast depending on how many users have said permission."
+        "Returns a list of UUIDS of users who have the specified permission.\nShould be relatively fast depending on how many users have said permission.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14939": {
     "id": 14939,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "All Groups",
+    "description": "returns a list of all groups.\nThis expression will require `luckperms` in it until Skript deprecates their `groups of`.\n",
+    "syntax_pattern": "all [of the] luckperm[s] groups",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14939",
+    "created_at": "2026-05-08T18:00:04.335639Z",
+    "updated_at": "2026-05-10T00:32:17.106397Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "returns a list of all groups.",
-        "This expression will require `luckperms` in it until Skript deprecates their `groups of`."
+        "returns a list of all groups.\nThis expression will require `luckperms` in it until Skript deprecates their `groups of`.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14945": {
     "id": 14945,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Groups Of",
+    "description": "Represents the groups of a user.\nThis expression will require `luckperms` in it until Skript deprecates their `groups of`.\n",
+    "syntax_pattern": "luckperm[s] groups of %luckpermsusers%\n%luckpermsusers%'s luckperm[s] groups",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14945",
+    "created_at": "2026-05-08T18:00:04.441925Z",
+    "updated_at": "2026-05-10T00:32:17.121692Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Represents the groups of a user.",
-        "This expression will require `luckperms` in it until Skript deprecates their `groups of`."
+        "Represents the groups of a user.\nThis expression will require `luckperms` in it until Skript deprecates their `groups of`.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14944": {
     "id": 14944,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Permissions Of",
+    "description": "Represents the permissions of a user.\n",
+    "syntax_pattern": "[luckperm[s]] (perms|permissions) of %luckpermsusers%\n%luckpermsusers%'s luckperm[s] (perms|permissions)",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14944",
+    "created_at": "2026-05-08T18:00:04.430696Z",
+    "updated_at": "2026-05-10T00:32:17.129534Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Represents the permissions of a user."
+        "Represents the permissions of a user.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14946": {
     "id": 14946,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "OwlBe",
+    "title": "Permissions Of",
+    "description": "Represents the permissions of a user.\n",
+    "syntax_pattern": "[luckperm[s]] group weight of [group] [%luckpermsgroup%]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-LuckPerms",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14946",
+    "created_at": "2026-05-08T18:00:04.452208Z",
+    "updated_at": "2026-05-10T00:32:17.137288Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Represents the permissions of a user."
+        "Represents the permissions of a user.\n"
       ],
       "ko": [
-        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+        "[SKRIPT-LUCKPERMS] 한국어 가이드 번역 대기 중"
       ]
     }
   }

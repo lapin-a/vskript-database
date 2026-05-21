@@ -1,449 +1,993 @@
 {
   "syntax_10179": {
     "id": 10179,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "If Not",
+    "description": "Checks if a condition doesn't pass.",
+    "syntax_pattern": "\\!(<.+>)",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10179",
+    "created_at": "2024-01-24T15:47:53.868766Z",
+    "updated_at": "2024-03-05T17:46:05.627743Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a condition doesn't pass."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11055": {
     "id": 11055,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "WrappedList - Unwrap List",
+    "description": "Unwraps a wrapped list inside a list variable.",
+    "syntax_pattern": "unwrap %wrappedlist% into %objects%",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11055",
+    "created_at": "2024-03-05T17:46:05.642305Z",
+    "updated_at": "2024-03-05T17:46:05.642319Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Unwraps a wrapped list inside a list variable."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11056": {
     "id": 11056,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "WrappedList - New Wrapped List",
+    "description": "Converts a list variable to a wrapped list.",
+    "syntax_pattern": "wrapped %objects%",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": "Wrapped List",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11056",
+    "created_at": "2024-03-05T17:46:05.652152Z",
+    "updated_at": "2024-03-05T17:46:05.652166Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Converts a list variable to a wrapped list."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11057": {
     "id": 11057,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Wrapped List",
+    "description": "Represents a wrapped list.",
+    "syntax_pattern": "wrappedlist",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11057",
+    "created_at": "2024-03-05T17:46:05.660223Z",
+    "updated_at": "2024-03-05T17:46:05.660237Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a wrapped list."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11972": {
     "id": 11972,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Evaluate",
+    "description": "Runs Skript code from a string as if you used effect commands. This shouldn't be used in production.",
+    "syntax_pattern": "eval[uate] %strings% [as %commandsender%]",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11972",
+    "created_at": "2024-09-18T14:59:46.347270Z",
+    "updated_at": "2024-09-18T14:59:46.347295Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Runs Skript code from a string as if you used effect commands. This shouldn't be used in production."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11973": {
     "id": 11973,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Bits - Bit of Number",
+    "description": "Gets the bit at index in a number.",
+    "syntax_pattern": "[the] %integer%(st|nd|rd|th) bit (in|of) %numbers%\nbit %integer% (in|of) %numbers%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11973",
+    "created_at": "2024-09-18T14:59:46.379347Z",
+    "updated_at": "2024-09-18T14:59:46.379362Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the bit at index in a number."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11974": {
     "id": 11974,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Bits - Bitwise Operation",
+    "description": "",
+    "syntax_pattern": "%number% \\& %number%\n%number% \\| %number%\n%number% \\^\\^ %number%\n\\~%number%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11974",
+    "created_at": "2024-09-18T14:59:46.387917Z",
+    "updated_at": "2024-09-18T14:59:46.387931Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkCheese] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11975": {
     "id": 11975,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Bits - Shift",
+    "description": "",
+    "syntax_pattern": "%number% \\<\\< %number%\n%number% \\>\\> %number%\n%number% \\>\\>\\> %number%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11975",
+    "created_at": "2024-09-18T14:59:46.395666Z",
+    "updated_at": "2024-09-18T14:59:46.395682Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkCheese] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11976": {
     "id": 11976,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Binary and Hexadecimal Numbers",
+    "description": "Allows the use of hexadecimal and binary formats to represent literal numbers.",
+    "syntax_pattern": "0(x|X)<[A-Fa-f0-9]+>\n0(b|B)<[0-1]+>",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11976",
+    "created_at": "2024-09-18T14:59:46.403807Z",
+    "updated_at": "2026-02-04T19:36:15.784522Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows the use of hexadecimal and binary formats to represent literal numbers."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10098": {
     "id": 10098,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Labels - Goto",
+    "description": "Jumps to a label.",
+    "syntax_pattern": "(go|jump)[ ]to %string%",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10098",
+    "created_at": "2023-12-31T13:48:30.887113Z",
+    "updated_at": "2024-01-24T15:47:53.898976Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Jumps to a label."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10099": {
     "id": 10099,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Labels - New Label",
+    "description": "Creates a label that you can jump to later on.",
+    "syntax_pattern": "label <.+>",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10099",
+    "created_at": "2023-12-31T13:48:30.896747Z",
+    "updated_at": "2024-01-24T15:47:53.908925Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a label that you can jump to later on."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10085": {
     "id": 10085,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Parsed As Type",
+    "description": "Parse a string as a type. The type can be a non-literal unlike vanilla Skript.",
+    "syntax_pattern": "%string% parsed as type %classinfo%",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10085",
+    "created_at": "2023-12-28T17:35:03.921778Z",
+    "updated_at": "2023-12-28T17:35:03.921791Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Parse a string as a type. The type can be a non-literal unlike vanilla Skript."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10086": {
     "id": 10086,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Reverted Boolean",
+    "description": "Returns the opposite of a boolean.",
+    "syntax_pattern": "!%boolean%",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10086",
+    "created_at": "2023-12-28T17:35:03.930625Z",
+    "updated_at": "2023-12-28T17:35:03.930638Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the opposite of a boolean."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10084": {
     "id": 10084,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Tree of List Variable",
+    "description": "Returns all indices of a list variable. In vanilla Skript, if you set \"{_var::a::b}\" and loop {_var::*} nothing would be looped but this expression recursively gets all indices.",
+    "syntax_pattern": "tree of %objects%",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10084",
+    "created_at": "2023-12-28T17:35:03.912880Z",
+    "updated_at": "2023-12-28T19:51:50.289543Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns all indices of a list variable. In vanilla Skript, if you set \"{_var::a::b}\" and loop {_var::*} nothing would be looped but this expression recursively gets all indices."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10087": {
     "id": 10087,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Run Function (Section)",
+    "description": "Executes a function using a section. Pass parameters by doing 'parameter name as value'",
+    "syntax_pattern": "(execute|run) function <.+> [with arg[ument]s]",
+    "compatible_addon_version": "1.0 (1.7 Breaking Syntax Change)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10087",
+    "created_at": "2023-12-28T17:35:03.939518Z",
+    "updated_at": "2026-02-04T19:36:15.815769Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Executes a function using a section. Pass parameters by doing 'parameter name as value'"
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10178": {
     "id": 10178,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "All True?",
+    "description": "Checks if a list of booleans are all true.",
+    "syntax_pattern": "%booleans%\\?",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10178",
+    "created_at": "2024-01-24T15:47:53.668076Z",
+    "updated_at": "2024-01-24T15:47:53.668095Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a list of booleans are all true."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10180": {
     "id": 10180,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Futures - Complete Future",
+    "description": "Completes a future with the given value.",
+    "syntax_pattern": "complete [future] %future% with %objects%",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10180",
+    "created_at": "2024-01-24T15:47:53.878922Z",
+    "updated_at": "2024-01-24T15:47:53.878936Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Completes a future with the given value."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10181": {
     "id": 10181,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Futures - Wait for Future",
+    "description": "Waits for a future until it is completed or it timeouts.",
+    "syntax_pattern": "wait for [future] %future% and store the result in %object%",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10181",
+    "created_at": "2024-01-24T15:47:53.887723Z",
+    "updated_at": "2024-01-24T15:47:53.887736Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Waits for a future until it is completed or it timeouts."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10183": {
     "id": 10183,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "String Builder - Last String",
+    "description": "Represents the last string created by the string builder, if it wasn't stored anywhere.",
+    "syntax_pattern": "last string",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10183",
+    "created_at": "2024-01-24T15:47:53.927973Z",
+    "updated_at": "2024-01-24T15:47:53.927986Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents the last string created by the string builder, if it wasn't stored anywhere."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10184": {
     "id": 10184,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Future",
+    "description": "Represents a completable future.",
+    "syntax_pattern": "future",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10184",
+    "created_at": "2024-01-24T15:47:53.937128Z",
+    "updated_at": "2024-01-24T15:47:53.937142Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a completable future."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10185": {
     "id": 10185,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "String Builder - New String Builder",
+    "description": "Creates a new string that is joined by a new line by default.",
+    "syntax_pattern": "new string [joined with %string%] [stored in %object%]",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10185",
+    "created_at": "2024-01-24T15:47:53.947118Z",
+    "updated_at": "2024-01-24T15:47:53.947134Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a new string that is joined by a new line by default."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10182": {
     "id": 10182,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Futures - New Future",
+    "description": "Creates a new future that can be waited for.",
+    "syntax_pattern": "[new] future with %timespan% timeout",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": "Future",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10182",
+    "created_at": "2024-01-24T15:47:53.918330Z",
+    "updated_at": "2024-01-26T07:21:26.770772Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a new future that can be waited for."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11467": {
     "id": 11467,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Pairs - Value of Pair",
+    "description": "Gets the first/second value of a pair.",
+    "syntax_pattern": "(first|second) value of %pair%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11467",
+    "created_at": "2024-05-05T12:20:43.459381Z",
+    "updated_at": "2024-09-18T14:59:46.411584Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the first/second value of a pair."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11468": {
     "id": 11468,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Pair",
+    "description": "A pair is a single value that can hold 2 objects at once.",
+    "syntax_pattern": "pair",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11468",
+    "created_at": "2024-05-05T12:20:43.471715Z",
+    "updated_at": "2024-05-05T12:20:43.471729Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A pair is a single value that can hold 2 objects at once."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11469": {
     "id": 11469,
-    "type": "function",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "pair",
+    "description": "Creates a new pair.",
+    "syntax_pattern": "pair(first: object, second: object)",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "function",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": "Pair",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11469",
+    "created_at": "2024-05-05T12:20:43.481444Z",
+    "updated_at": "2024-05-05T12:26:34.883560Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a new pair."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11059": {
     "id": 11059,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Switch Case",
+    "description": "The switch case executes one statement from multiple ones. Thus, it is like an if-else-if ladder statement. The switch statement is used to test the equality of a variable against several values specified in the tests cases.",
+    "syntax_pattern": "switch %object%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11059",
+    "created_at": "2024-03-05T17:46:05.677163Z",
+    "updated_at": "2024-03-05T17:46:05.677176Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The switch case executes one statement from multiple ones. Thus, it is like an if-else-if ladder statement. The switch statement is used to test the equality of a variable against several values specified in the tests cases."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14472": {
     "id": 14472,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Inverted Boolean",
+    "description": "Returns the opposite of a boolean.",
+    "syntax_pattern": "!%boolean%",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14472",
+    "created_at": "2026-02-04T19:36:15.800216Z",
+    "updated_at": "2026-02-04T19:36:15.800230Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the opposite of a boolean."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14473": {
     "id": 14473,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Run Function (Expression Section)",
+    "description": "Runs a function with the specified arguments.",
+    "syntax_pattern": "[the] function <.+> with [the] arg[ument][s]",
+    "compatible_addon_version": "1.7",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14473",
+    "created_at": "2026-02-04T19:36:15.807885Z",
+    "updated_at": "2026-02-04T19:36:15.807898Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Runs a function with the specified arguments."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14474": {
     "id": 14474,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "SecSwitchCase",
+    "description": "",
+    "syntax_pattern": "case %objects%\ncase (none|not set)\ndefault",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14474",
+    "created_at": "2026-02-04T19:36:15.824085Z",
+    "updated_at": "2026-02-04T19:36:15.824097Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkCheese] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14469": {
     "id": 14469,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Assert",
+    "description": "Checks if a condition is true, otherwise throws an error or a warning with a custom message and stops the code.",
+    "syntax_pattern": "assert <.+> with (error|warning) [message] %string%",
+    "compatible_addon_version": "1.7",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14469",
+    "created_at": "2026-02-04T19:36:15.766989Z",
+    "updated_at": "2026-02-04T19:36:15.767005Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a condition is true, otherwise throws an error or a warning with a custom message and stops the code."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14470": {
     "id": 14470,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "Runtime Error / Warning",
+    "description": "Throws a runtime error or warning.",
+    "syntax_pattern": "throw runtime (warning|error) %string%",
+    "compatible_addon_version": "1.6",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14470",
+    "created_at": "2026-02-04T19:36:15.777532Z",
+    "updated_at": "2026-02-04T19:36:15.777562Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Throws a runtime error or warning."
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14471": {
     "id": 14471,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eren.",
+    "title": "ExprSecNewString",
+    "description": "",
+    "syntax_pattern": "new string [joined with %string%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCheese",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14471",
+    "created_at": "2026-02-04T19:36:15.792761Z",
+    "updated_at": "2026-02-04T19:36:15.792790Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkCheese] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkCheese] 한국어 가이드팩 준비 중"
+        "[SKCHEESE] 한국어 가이드 번역 대기 중"
       ]
     }
   }

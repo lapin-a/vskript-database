@@ -1,564 +1,1179 @@
 {
   "syntax_11810": {
     "id": 11810,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Block LabyAddon",
+    "description": "Adds the addon to the list which then can be sent to the player via another syntax",
+    "syntax_pattern": "add addon with id %string% to blocked list",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11810",
+    "created_at": "2024-07-26T21:40:08.352584Z",
+    "updated_at": "2024-07-26T21:40:08.352601Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Adds the addon to the list which then can be sent to the player via another syntax"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11811": {
     "id": 11811,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Send Disabled Addons",
+    "description": "Send the disabled addons to the player which can be added via another syntax",
+    "syntax_pattern": "disable added addons for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11811",
+    "created_at": "2024-07-26T21:41:05.500313Z",
+    "updated_at": "2024-07-26T21:41:05.500333Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Send the disabled addons to the player which can be added via another syntax"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12288": {
     "id": 12288,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Get Blocked Addons",
+    "description": "Returns all blocked addons that have been added via the block addons syntax.",
+    "syntax_pattern": "list of blocked addons",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12288",
+    "created_at": "2024-10-20T15:23:01.778224Z",
+    "updated_at": "2024-10-20T15:23:01.778247Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns all blocked addons that have been added via the block addons syntax."
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12289": {
     "id": 12289,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Get Remaining Mute Time",
+    "description": "Returns the remaining mute time (Integer) in minutes. If the player isn't muted, the variable will return <none>",
+    "syntax_pattern": "remaining voicechat mute time of %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": "Integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12289",
+    "created_at": "2024-10-20T15:24:25.774165Z",
+    "updated_at": "2024-10-20T15:24:25.774184Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the remaining mute time (Integer) in minutes. If the player isn't muted, the variable will return <none>"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12290": {
     "id": 12290,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Get Mute Reason",
+    "description": "Returns the given reason when the player got muted via the Voicechat mute Syntax. Will return <none> if the player isn't muted.",
+    "syntax_pattern": "reason of voicechat mute of %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12290",
+    "created_at": "2024-10-20T15:25:26.703661Z",
+    "updated_at": "2024-10-20T15:25:26.703678Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the given reason when the player got muted via the Voicechat mute Syntax. Will return <none> if the player isn't muted."
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11947": {
     "id": 11947,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Mute Player",
+    "description": "Mutes the player from the voicechat for the given reason and time (Only works if the player isn't already muted)",
+    "syntax_pattern": "mute %player% from voice chat due to %string% for %integer% minutes",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11947",
+    "created_at": "2024-08-24T23:21:44.915307Z",
+    "updated_at": "2024-08-24T23:21:44.915325Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Mutes the player from the voicechat for the given reason and time (Only works if the player isn't already muted)"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11948": {
     "id": 11948,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Unmute Player",
+    "description": "Unmutes the player from voice chat  (Only works if the player is muted)",
+    "syntax_pattern": "unmute %player% from voicechat",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11948",
+    "created_at": "2024-08-24T23:22:19.064821Z",
+    "updated_at": "2024-10-16T16:43:52.592239Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Unmutes the player from voice chat  (Only works if the player is muted)"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11460": {
     "id": 11460,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Send Addon Recommendation",
+    "description": "Sends a request to the player which shows optimal or required addons to play on the server. This works only for offical published LabyMod Addons",
+    "syntax_pattern": "send addon with id %string% to be (\"required\"/\"optional\") to %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11460",
+    "created_at": "2024-05-04T08:59:35.376969Z",
+    "updated_at": "2025-01-17T20:51:55.073721Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sends a request to the player which shows optimal or required addons to play on the server. This works only for offical published LabyMod Addons"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12914": {
     "id": 12914,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Add Default Laby RPC",
+    "description": "Edits the default LabyMod Discord RPC with custom Title",
+    "syntax_pattern": "create Discord RPC named %string% for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12914",
+    "created_at": "2025-01-18T22:30:52.335995Z",
+    "updated_at": "2025-01-18T22:30:52.336015Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Edits the default LabyMod Discord RPC with custom Title"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12915": {
     "id": 12915,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Add Discord RPC with end time",
+    "description": "Edits the default LabyMod Discord RPC with custom Title and an end time",
+    "syntax_pattern": "create Discord RPC named %string% with end time of %integer% minutes for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12915",
+    "created_at": "2025-01-18T22:31:56.094460Z",
+    "updated_at": "2025-01-18T22:31:56.094478Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Edits the default LabyMod Discord RPC with custom Title and an end time"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12916": {
     "id": 12916,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Add Laby RPC with timer",
+    "description": "Edits the default LabyMod Discord RPC with custom Title and a new timer",
+    "syntax_pattern": "create Discord RPC named %string% with timer for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12916",
+    "created_at": "2025-01-18T22:32:49.112687Z",
+    "updated_at": "2025-01-18T22:32:49.112703Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Edits the default LabyMod Discord RPC with custom Title and a new timer"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12917": {
     "id": 12917,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Reset Laby RPC",
+    "description": "Resets the Discord RPC to laby default",
+    "syntax_pattern": "reset Discord RPC for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12917",
+    "created_at": "2025-01-18T22:33:24.321352Z",
+    "updated_at": "2025-01-18T22:33:33.291283Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Resets the Discord RPC to laby default"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11464": {
     "id": 11464,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Remove Subtitle",
+    "description": "Removes the subtitle of the player if one is present.",
+    "syntax_pattern": "remove subtitle of %player% for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11464",
+    "created_at": "2024-05-04T09:04:43.424665Z",
+    "updated_at": "2024-05-11T12:31:32.454876Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Removes the subtitle of the player if one is present."
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11466": {
     "id": 11466,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Labymod Join Event",
+    "description": "With this event you can check if the player is using labymod and use all kind of related labymod stuff like the playing gamemode expression",
+    "syntax_pattern": "on join with labymod:",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11466",
+    "created_at": "2024-05-04T19:40:34.977673Z",
+    "updated_at": "2025-01-04T10:42:03.068736Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "With this event you can check if the player is using labymod and use all kind of related labymod stuff like the playing gamemode expression"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12539": {
     "id": 12539,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Set marker send type",
+    "description": "Sets how the markers (when the player sends one) will be handled on the server.\r\n\r\nValid types:\r\n\r\nFRIENDS\r\nBLOCKED\r\n\r\nFRIENDS -> Normal behavior, the markers will be sent to all labymod friends of the player.\r\nBLOCKED -> No one on the server will recieve the marker even when they are friends with the player.",
+    "syntax_pattern": "set marker send type of %player% to %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12539",
+    "created_at": "2024-12-22T22:50:10.404434Z",
+    "updated_at": "2024-12-22T22:50:10.404456Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Sets how the markers (when the player sends one) will be handled on the server.",
-        "Valid types:",
-        "FRIENDS",
-        "BLOCKED",
-        "FRIENDS -> Normal behavior, the markers will be sent to all labymod friends of the player.",
-        "BLOCKED -> No one on the server will recieve the marker even when they are friends with the player."
+        "Sets how the markers (when the player sends one) will be handled on the server.\r\n\r\nValid types:\r\n\r\nFRIENDS\r\nBLOCKED\r\n\r\nFRIENDS -> Normal behavior, the markers will be sent to all labymod friends of the player.\r\nBLOCKED -> No one on the server will recieve the marker even when they are friends with the player."
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12540": {
     "id": 12540,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Send marker at location",
+    "description": "This Effect \"summons\" an marker at the given location on the server for everyone that has markers active in their options.\r\n\r\nParameters:\r\n%player% - The player that will recieve the summoned marker (Can also be loop-players)\r\n\r\n1st %integer% - The x-Position of the marker\r\n2nd %integer% - The y-Position of the marker\r\n3rd %integer% - The z-Position of the marker",
+    "syntax_pattern": "send marker to %player% at location %integer%, %integer%, %integer%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12540",
+    "created_at": "2024-12-22T22:52:29.441382Z",
+    "updated_at": "2024-12-22T22:52:29.441402Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "This Effect \"summons\" an marker at the given location on the server for everyone that has markers active in their options.",
-        "Parameters:",
-        "%player% - The player that will recieve the summoned marker (Can also be loop-players)",
-        "1st %integer% - The x-Position of the marker",
-        "2nd %integer% - The y-Position of the marker",
-        "3rd %integer% - The z-Position of the marker"
+        "This Effect \"summons\" an marker at the given location on the server for everyone that has markers active in their options.\r\n\r\nParameters:\r\n%player% - The player that will recieve the summoned marker (Can also be loop-players)\r\n\r\n1st %integer% - The x-Position of the marker\r\n2nd %integer% - The y-Position of the marker\r\n3rd %integer% - The z-Position of the marker"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11989": {
     "id": 11989,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Create Input Prompt",
+    "description": "Create a LabyMod input prompt. This effect only creates the prompt and does not automatically open it for the player.\r\nIf another input prompt with the same ID is created the old one gets deleted.\r\n\r\nValid Colornames: BLACK, DARK\\_BLUE, DARK\\_GREEN, DARK\\_AQUA, DARK\\_RED, DARK\\_PURPLE, GOLD, GRAY, DARK\\_GRAY, BLUE, GREEN, AQUA, RED, LIGHT\\_PURPLE, YELLOW; WHITE\r\n\r\nValid Decoration: OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINED, ITALIC",
+    "syntax_pattern": "create new input prompt with id %string% with colorname %string%, decoration %string% and placeholder %string% with default value %string% and maximum length %integer%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11989",
+    "created_at": "2024-10-05T13:03:23.029010Z",
+    "updated_at": "2024-10-05T13:03:23.029033Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Create a LabyMod input prompt. This effect only creates the prompt and does not automatically open it for the player.",
-        "If another input prompt with the same ID is created the old one gets deleted.",
-        "Valid Colornames: BLACK, DARK\\_BLUE, DARK\\_GREEN, DARK\\_AQUA, DARK\\_RED, DARK\\_PURPLE, GOLD, GRAY, DARK\\_GRAY, BLUE, GREEN, AQUA, RED, LIGHT\\_PURPLE, YELLOW; WHITE",
-        "Valid Decoration: OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINED, ITALIC"
+        "Create a LabyMod input prompt. This effect only creates the prompt and does not automatically open it for the player.\r\nIf another input prompt with the same ID is created the old one gets deleted.\r\n\r\nValid Colornames: BLACK, DARK\\_BLUE, DARK\\_GREEN, DARK\\_AQUA, DARK\\_RED, DARK\\_PURPLE, GOLD, GRAY, DARK\\_GRAY, BLUE, GREEN, AQUA, RED, LIGHT\\_PURPLE, YELLOW; WHITE\r\n\r\nValid Decoration: OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINED, ITALIC"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11990": {
     "id": 11990,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Open Inputprompt",
+    "description": "Opens the input prompt with the specific id for the player if it was created before.",
+    "syntax_pattern": "open inputprompt with id %string% for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11990",
+    "created_at": "2024-10-05T13:04:21.652046Z",
+    "updated_at": "2024-10-05T13:04:21.652065Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Opens the input prompt with the specific id for the player if it was created before."
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11991": {
     "id": 11991,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Get Player Input",
+    "description": "Returns the input value after clicking the submit button of the input prompt. The value will be saved internally until the player sends another input or the server restarts / reloads.",
+    "syntax_pattern": "input of %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11991",
+    "created_at": "2024-10-05T13:06:01.131828Z",
+    "updated_at": "2024-10-05T13:06:01.131851Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the input value after clicking the submit button of the input prompt. The value will be saved internally until the player sends another input or the server restarts / reloads."
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11461": {
     "id": 11461,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Send to Server",
+    "description": "Sends the player to another server. The preview shows additional Informations like the Server's Server Icon and MOTD",
+    "syntax_pattern": "send %player% to server %string% titled %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11461",
+    "created_at": "2024-05-04T09:01:00.547633Z",
+    "updated_at": "2024-07-05T20:52:37.953669Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sends the player to another server. The preview shows additional Informations like the Server's Server Icon and MOTD"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11463": {
     "id": 11463,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Set Subtitle",
+    "description": "Sets the subtitle of the player to the given text and size.\nAccepted Sizes: 0.8 - 1.6 (0.8 Is Minecraft Default Size)",
+    "syntax_pattern": "set the subtitle of %player% to %string% with size %double% for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11463",
+    "created_at": "2024-05-04T09:04:17.517200Z",
+    "updated_at": "2024-05-09T18:15:55.600276Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Sets the subtitle of the player to the given text and size.",
-        "Accepted Sizes: 0.8 - 1.6 (0.8 Is Minecraft Default Size)"
+        "Sets the subtitle of the player to the given text and size.\nAccepted Sizes: 0.8 - 1.6 (0.8 Is Minecraft Default Size)"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11459": {
     "id": 11459,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Send playing gamemode",
+    "description": "Shows the playing gamemode to all LabyMod friends in the top right corner if activated in the player's profile settings.",
+    "syntax_pattern": "make %player% send playing gamemode with name %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11459",
+    "created_at": "2024-05-04T08:56:13.530770Z",
+    "updated_at": "2024-05-04T08:56:13.530789Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Shows the playing gamemode to all LabyMod friends in the top right corner if activated in the player's profile settings."
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11462": {
     "id": 11462,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Send Server Banner",
+    "description": "Sends a Server Banner to the player which is displayed over the Tablist.\r\nRecommended Resolution: 5:1 // 1280x256\r\nNote: You need to copy the picture address (which mostly ends with .png oder .jpeg)",
+    "syntax_pattern": "send server banner %string% to %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11462",
+    "created_at": "2024-05-04T09:03:28.080137Z",
+    "updated_at": "2024-05-04T09:03:28.080157Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Sends a Server Banner to the player which is displayed over the Tablist.",
-        "Recommended Resolution: 5:1 // 1280x256",
-        "Note: You need to copy the picture address (which mostly ends with .png oder .jpeg)"
+        "Sends a Server Banner to the player which is displayed over the Tablist.\r\nRecommended Resolution: 5:1 // 1280x256\r\nNote: You need to copy the picture address (which mostly ends with .png oder .jpeg)"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11465": {
     "id": 11465,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Set Economy display",
+    "description": "Sets the cash and bank display in the top right corner of the screen with a smooth transition for the player.",
+    "syntax_pattern": "set cash display to %integer% and bank display to %integer% for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11465",
+    "created_at": "2024-05-04T19:39:44.193155Z",
+    "updated_at": "2024-05-04T19:39:44.193176Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the cash and bank display in the top right corner of the screen with a smooth transition for the player."
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11487": {
     "id": 11487,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Create NPC",
+    "description": "Creates a valid NPC for playing LabyMod Emotes.\r\nThe created NPC is created via Citizens which means that it can be used with the features of the Citizens Plugin.\r\n\r\nNote: Every NPC needs to have an other ID!",
+    "syntax_pattern": "create npc with name %string% with skin of %string% with id %integer% at %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11487",
+    "created_at": "2024-05-09T18:09:51.049997Z",
+    "updated_at": "2024-05-09T18:09:51.050053Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a valid NPC for playing LabyMod Emotes.",
-        "The created NPC is created via Citizens which means that it can be used with the features of the Citizens Plugin.",
-        "Note: Every NPC needs to have an other ID!"
+        "Creates a valid NPC for playing LabyMod Emotes.\r\nThe created NPC is created via Citizens which means that it can be used with the features of the Citizens Plugin.\r\n\r\nNote: Every NPC needs to have an other ID!"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11488": {
     "id": 11488,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Play random laby emote",
+    "description": "Plays a random LabyMod Emote for the NPC with given ID. \r\nNPC needs to be created via the Create NPC Effect and also needs a valid ID.",
+    "syntax_pattern": "play random laby emote for npc with id %integer% for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11488",
+    "created_at": "2024-05-09T18:10:57.009291Z",
+    "updated_at": "2024-05-09T18:10:57.009312Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Plays a random LabyMod Emote for the NPC with given ID.",
-        "NPC needs to be created via the Create NPC Effect and also needs a valid ID."
+        "Plays a random LabyMod Emote for the NPC with given ID. \r\nNPC needs to be created via the Create NPC Effect and also needs a valid ID."
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11563": {
     "id": 11563,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Send Actions to player",
+    "description": "Send the actions which can be added with the add action syntax to the given player\r\n\r\nImportant: If the server is getting restarted / Stopped or the player is getting kicked / leaves then all actions which have been added to the player will be deleted.",
+    "syntax_pattern": "send added actions to %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11563",
+    "created_at": "2024-05-24T12:22:37.318708Z",
+    "updated_at": "2024-05-24T12:24:28.532929Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Send the actions which can be added with the add action syntax to the given player",
-        "Important: If the server is getting restarted / Stopped or the player is getting kicked / leaves then all actions which have been added to the player will be deleted."
+        "Send the actions which can be added with the add action syntax to the given player\r\n\r\nImportant: If the server is getting restarted / Stopped or the player is getting kicked / leaves then all actions which have been added to the player will be deleted."
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11561": {
     "id": 11561,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Add / Remove Actions",
+    "description": "Adds / Removes actions from the action menu for the player.\r\nThis Syntax ONLY ADDS actions. TO send actions to the player you need to use another syntax!!\r\nIt is important to use one of the following action types, otherwise it won't work:\r\n\r\nCLIPBOARD\r\nRUN\\_COMMAND\r\nSUGGEST\\_COMMAND\r\nOPEN\\_BROWSER\r\n\r\nThis Action also has an inbuilt detection for duplication of elements\r\n(Remove feature doesn't work for version 1.8 Sorry!)",
+    "syntax_pattern": "(add|remove) action with name %string% and value %string% as type %string% for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11561",
+    "created_at": "2024-05-22T16:47:20.238169Z",
+    "updated_at": "2024-05-24T12:24:58.763846Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Adds / Removes actions from the action menu for the player.",
-        "This Syntax ONLY ADDS actions. TO send actions to the player you need to use another syntax!!",
-        "It is important to use one of the following action types, otherwise it won't work:",
-        "CLIPBOARD",
-        "RUN\\_COMMAND",
-        "SUGGEST\\_COMMAND",
-        "OPEN\\_BROWSER",
-        "This Action also has an inbuilt detection for duplication of elements",
-        "(Remove feature doesn't work for version 1.8 Sorry!)"
+        "Adds / Removes actions from the action menu for the player.\r\nThis Syntax ONLY ADDS actions. TO send actions to the player you need to use another syntax!!\r\nIt is important to use one of the following action types, otherwise it won't work:\r\n\r\nCLIPBOARD\r\nRUN\\_COMMAND\r\nSUGGEST\\_COMMAND\r\nOPEN\\_BROWSER\r\n\r\nThis Action also has an inbuilt detection for duplication of elements\r\n(Remove feature doesn't work for version 1.8 Sorry!)"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11560": {
     "id": 11560,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Send country flag",
+    "description": "Sends the country flag from the given player to the other player(s). Will show in tablist and at above player's head the flag of their country.\r\n\r\n!! Doesn't work on localhost server !!",
+    "syntax_pattern": "send country flag from %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11560",
+    "created_at": "2024-05-18T14:49:55.529087Z",
+    "updated_at": "2024-07-05T20:38:26.848491Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Sends the country flag from the given player to the other player(s). Will show in tablist and at above player's head the flag of their country.",
-        "!! Doesn't work on localhost server !!"
+        "Sends the country flag from the given player to the other player(s). Will show in tablist and at above player's head the flag of their country.\r\n\r\n!! Doesn't work on localhost server !!"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11489": {
     "id": 11489,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Play laby emote",
+    "description": "Plays the given LabyMod Emote for the NPC with given ID. \r\nNPC needs to be created via the Create NPC Effect and also needs a valid ID.\r\n\r\nList of valid Emotes: https://docs.labymod.net/pages/server/labymod/emote_api/",
+    "syntax_pattern": "play laby emote %integer% for npc with id %integer% for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11489",
+    "created_at": "2024-05-09T18:11:57.557394Z",
+    "updated_at": "2024-07-05T22:22:37.413943Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Plays the given LabyMod Emote for the NPC with given ID.",
-        "NPC needs to be created via the Create NPC Effect and also needs a valid ID.",
-        "List of valid Emotes: https://docs.labymod.net/pages/server/labymod/emote_api/"
+        "Plays the given LabyMod Emote for the NPC with given ID. \r\nNPC needs to be created via the Create NPC Effect and also needs a valid ID.\r\n\r\nList of valid Emotes: https://docs.labymod.net/pages/server/labymod/emote_api/"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14318": {
     "id": 14318,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Send Server Badge",
+    "description": "Sends the badge with the given id for the player",
+    "syntax_pattern": "send server badge with id %integer% to %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14318",
+    "created_at": "2025-11-26T19:04:06.225391Z",
+    "updated_at": "2025-11-26T19:04:06.225413Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sends the badge with the given id for the player"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13899": {
     "id": 13899,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Set Betterperspective camera state",
+    "description": "Sets if the given player is allowed to unlock his camera or not",
+    "syntax_pattern": "(allow|deny) betterperspective camera for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13899",
+    "created_at": "2025-07-27T16:58:52.116756Z",
+    "updated_at": "2025-07-27T16:58:52.116775Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets if the given player is allowed to unlock his camera or not"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14031": {
     "id": 14031,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Open voicechat channels",
+    "description": "Opens voicechat channels for the given player. Only works if the player is using the voicechat addon",
+    "syntax_pattern": "open laby voicechat channels for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14031",
+    "created_at": "2025-09-23T14:07:51.701794Z",
+    "updated_at": "2025-09-23T14:07:51.701810Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Opens voicechat channels for the given player. Only works if the player is using the voicechat addon"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14032": {
     "id": 14032,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Allow / Deny Permission",
+    "description": "Allows / denies specific permissions for the player. Currently only autotext is implemented by the labymod server api",
+    "syntax_pattern": "(allow/deny) laby autotext for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14032",
+    "created_at": "2025-09-23T14:08:56.980063Z",
+    "updated_at": "2025-09-23T14:08:56.980082Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows / denies specific permissions for the player. Currently only autotext is implemented by the labymod server api"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14033": {
     "id": 14033,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Get Labymod Version of player",
+    "description": "Gets the current labymod version of the player.",
+    "syntax_pattern": "labymod version of %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14033",
+    "created_at": "2025-09-23T14:09:44.223444Z",
+    "updated_at": "2025-09-23T14:09:44.223463Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the current labymod version of the player."
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14034": {
     "id": 14034,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Get Labymod addons of player",
+    "description": "Gets all current installed labymod addons of the player. The namespace and the version will be displayed",
+    "syntax_pattern": "labymod addons of %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14034",
+    "created_at": "2025-09-23T14:10:30.460342Z",
+    "updated_at": "2025-09-23T14:10:30.460358Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets all current installed labymod addons of the player. The namespace and the version will be displayed"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14316": {
     "id": 14316,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Enable / Disable Laby badges",
+    "description": "Sets if the badges should be displayed right next of the name of the player",
+    "syntax_pattern": "(enable|disable) badges for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14316",
+    "created_at": "2025-11-26T19:02:39.259576Z",
+    "updated_at": "2025-11-26T19:02:39.259593Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets if the badges should be displayed right next of the name of the player"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14319": {
     "id": 14319,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pqtriick",
+    "title": "Create Laby badge",
+    "description": "Creates a new badge. The Id needs to be a number. The Color needs to be a String with a hex color in it for example \"#FFFFFF\".  The Image needs to be a image link  with a .png or .jpg ending",
+    "syntax_pattern": "create badge with id %integer% color %color% and image %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "LabySK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14319",
+    "created_at": "2025-11-26T19:05:58.802889Z",
+    "updated_at": "2025-11-26T19:05:58.802906Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a new badge. The Id needs to be a number. The Color needs to be a String with a hex color in it for example \"#FFFFFF\".  The Image needs to be a image link  with a .png or .jpg ending"
       ],
       "ko": [
-        "[LabySK] 한국어 가이드팩 준비 중"
+        "[LABYSK] 한국어 가이드 번역 대기 중"
       ]
     }
   }

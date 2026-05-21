@@ -1,729 +1,1613 @@
 {
   "syntax_4133": {
     "id": 4133,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Email Service",
+    "description": "A email service like Gmail. Store smtp and imap, port and address.",
+    "syntax_pattern": "email[ ]service",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4133",
+    "created_at": "2020-05-01T21:59:13.107633Z",
+    "updated_at": "2020-05-01T21:59:13.107652Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A email service like Gmail. Store smtp and imap, port and address."
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4134": {
     "id": 4134,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Folder Type",
+    "description": "",
+    "syntax_pattern": "folder|dir|box",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4134",
+    "created_at": "2020-05-01T21:59:13.113789Z",
+    "updated_at": "2020-05-01T21:59:13.113808Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4135": {
     "id": 4135,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "IAddress",
+    "description": "",
+    "syntax_pattern": "i\\[-]address",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4135",
+    "created_at": "2020-05-01T21:59:13.119675Z",
+    "updated_at": "2020-05-01T21:59:13.119694Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4136": {
     "id": 4136,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Internet Address Type",
+    "description": "",
+    "syntax_pattern": "[e]mail( |-|_)internet( |-|_)address",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4136",
+    "created_at": "2020-05-01T21:59:13.125869Z",
+    "updated_at": "2020-05-01T21:59:13.125887Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4137": {
     "id": 4137,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Recipient Type",
+    "description": "",
+    "syntax_pattern": "recipient[ |-][type]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4137",
+    "created_at": "2020-05-01T21:59:13.131842Z",
+    "updated_at": "2020-05-01T21:59:13.131861Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4138": {
     "id": 4138,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Session Type",
+    "description": "",
+    "syntax_pattern": "[e]mail( |-|_)session",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4138",
+    "created_at": "2020-05-01T21:59:13.138075Z",
+    "updated_at": "2020-05-01T21:59:13.138095Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4124": {
     "id": 4124,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Name of Email Service",
+    "description": "Returns the name of an email service. Can be set in a email service scope",
+    "syntax_pattern": "[the] service name of %emailservice%\n%emailservice%'[s] service name",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4124",
+    "created_at": "2020-05-01T21:59:13.053028Z",
+    "updated_at": "2020-05-02T19:19:37.616637Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the name of an email service. Can be set in a email service scope"
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8909": {
     "id": 8909,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Email Removed Event",
+    "description": "",
+    "syntax_pattern": "[e]mail (remove|delete)[d]",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8909",
+    "created_at": "2023-03-21T22:11:10.708637Z",
+    "updated_at": "2023-03-21T22:11:10.708649Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8910": {
     "id": 8910,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Email Sent Event",
+    "description": "",
+    "syntax_pattern": "[e]mail (sent|transport)",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8910",
+    "created_at": "2023-03-21T22:11:10.717024Z",
+    "updated_at": "2023-03-21T22:11:10.717036Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4103": {
     "id": 4103,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Email Sent Event",
+    "description": "",
+    "syntax_pattern": "[on] [e]mail (sent|transport)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-email",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4103",
+    "created_at": "2020-05-01T21:59:12.920664Z",
+    "updated_at": "2020-05-01T21:59:12.920694Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4104": {
     "id": 4104,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Mail Connection Event",
+    "description": "",
+    "syntax_pattern": "[on] [e]mail connect(ed|ion)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4104",
+    "created_at": "2020-05-01T21:59:12.928166Z",
+    "updated_at": "2020-05-01T21:59:12.928188Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4105": {
     "id": 4105,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Mail Disconnection Event",
+    "description": "",
+    "syntax_pattern": "[on] [e]mail disconnect(ed|ion)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4105",
+    "created_at": "2020-05-01T21:59:12.934342Z",
+    "updated_at": "2020-05-01T21:59:12.934361Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4106": {
     "id": 4106,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Mail Folder Created Event",
+    "description": "",
+    "syntax_pattern": "[on] [[e]mail] folder created",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-folder",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4106",
+    "created_at": "2020-05-01T21:59:12.940562Z",
+    "updated_at": "2020-05-01T21:59:12.940581Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4107": {
     "id": 4107,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Mail Folder Deleted Event",
+    "description": "",
+    "syntax_pattern": "[on] [[e]mail] folder deleted",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-folder",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4107",
+    "created_at": "2020-05-01T21:59:12.947152Z",
+    "updated_at": "2020-05-01T21:59:12.947171Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4108": {
     "id": 4108,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Mail Folder Renamed Event",
+    "description": "",
+    "syntax_pattern": "[on] [[e]mail] folder renamed",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-folder",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4108",
+    "created_at": "2020-05-01T21:59:12.953526Z",
+    "updated_at": "2020-05-01T21:59:12.953546Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4109": {
     "id": 4109,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Scope Email Creation",
+    "description": "Scope for mail creation",
+    "syntax_pattern": "(make|do|create) [new] [e]mail [(using|with|for) [account] (%-session%|%-string%)]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4109",
+    "created_at": "2020-05-01T21:59:12.960745Z",
+    "updated_at": "2023-03-21T22:11:10.833130Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Scope for mail creation"
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4111": {
     "id": 4111,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Disconnection",
+    "description": "Disconnection from one of your connected account.",
+    "syntax_pattern": "[(sync|async)] (logout|disconnect) %string% [from [all] connected [e]mail[s]]",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4111",
+    "created_at": "2020-05-01T21:59:12.973385Z",
+    "updated_at": "2023-03-21T22:11:10.733536Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Disconnection from one of your connected account."
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4112": {
     "id": 4112,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Send Email",
+    "description": "Send an email",
+    "syntax_pattern": "[(sync|async)] send %email% [to %-string%] [(using|with) (%-session%|%-string%)]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4112",
+    "created_at": "2020-05-01T21:59:12.979394Z",
+    "updated_at": "2023-03-21T22:11:10.741342Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Send an email"
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4113": {
     "id": 4113,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Attach files of Email",
+    "description": "Returns attach files of an email. Can be set in a email scope",
+    "syntax_pattern": "%email%['s] (attached file|attachment)[s]\n(attached file|attachment)[s] of %email%",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4113",
+    "created_at": "2020-05-01T21:59:12.985334Z",
+    "updated_at": "2020-05-01T21:59:12.985353Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns attach files of an email. Can be set in a email scope"
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4114": {
     "id": 4114,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Author/From part of Email",
+    "description": "Returns the author/from part of an email. Can be set in a email scope",
+    "syntax_pattern": "(author[s]|from[s] part) of %email%\n%email%'s (author[s]|from[s] part)",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": "Address Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4114",
+    "created_at": "2020-05-01T21:59:12.991365Z",
+    "updated_at": "2020-05-01T21:59:12.991396Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the author/from part of an email. Can be set in a email scope"
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4115": {
     "id": 4115,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Body of Email",
+    "description": "Returns the body of an email. Can be set in a email scope",
+    "syntax_pattern": "[the] (body|content) of %email%\n%email%'[s] (body|content)",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4115",
+    "created_at": "2020-05-01T21:59:12.997347Z",
+    "updated_at": "2020-05-01T21:59:12.997364Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the body of an email. Can be set in a email scope"
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4116": {
     "id": 4116,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Email expression",
+    "description": "If it isn't inside an email scope, this expression returns a new Email. If it is inside of an email scope, it returns the email that belongs to that scope.",
+    "syntax_pattern": "[(the|an|[a] new|this|that)] [e]mail [(creator|build[er])]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": "Email",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4116",
+    "created_at": "2020-05-01T21:59:13.003606Z",
+    "updated_at": "2020-05-01T21:59:13.003625Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "If it isn't inside an email scope, this expression returns a new Email. If it is inside of an email scope, it returns the email that belongs to that scope."
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4117": {
     "id": 4117,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "IAddress",
+    "description": "Returns a internet address from a string.",
+    "syntax_pattern": "%string% as %recipienttype%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": "IAddress",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4117",
+    "created_at": "2020-05-01T21:59:13.009884Z",
+    "updated_at": "2020-05-01T21:59:13.009903Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a internet address from a string."
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4118": {
     "id": 4118,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "IMAP Address of Email Service",
+    "description": "Returns the imap address of an email service. Can be set in a email service scope",
+    "syntax_pattern": "[the] imap(-|_| )address of %emailservice%\n%emailservice%'[s] imap(-|_| )address",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4118",
+    "created_at": "2020-05-01T21:59:13.016194Z",
+    "updated_at": "2020-05-01T21:59:13.016213Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the imap address of an email service. Can be set in a email service scope"
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4119": {
     "id": 4119,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "IMAP Port of Email Service",
+    "description": "Returns the imap port of an email service. Can be set in a email service scope",
+    "syntax_pattern": "[the] imap(-|_| )port of %emailservice%\n%emailservice%'[s] imap(-|_| )port",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4119",
+    "created_at": "2020-05-01T21:59:13.022483Z",
+    "updated_at": "2020-05-01T21:59:13.022502Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the imap port of an email service. Can be set in a email service scope"
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4120": {
     "id": 4120,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Last Connection",
+    "description": "Returns the last account connected.",
+    "syntax_pattern": "[the] last[ly] [connected] (account|session)",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": "Session Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4120",
+    "created_at": "2020-05-01T21:59:13.028661Z",
+    "updated_at": "2020-05-01T21:59:13.028679Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the last account connected."
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4121": {
     "id": 4121,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Last Email Created",
+    "description": "Returns the email that was last made in a email scope",
+    "syntax_pattern": "[the] last[ly] [e]mail (made|created|did)",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": "Email",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4121",
+    "created_at": "2020-05-01T21:59:13.034649Z",
+    "updated_at": "2020-05-01T21:59:13.034667Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the email that was last made in a email scope"
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4122": {
     "id": 4122,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Last Email Sent",
+    "description": "Returns the email that was last sent.",
+    "syntax_pattern": "[the] last[ly] [e]mail (sent|transported)",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": "Email",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4122",
+    "created_at": "2020-05-01T21:59:13.040740Z",
+    "updated_at": "2020-05-01T21:59:13.040759Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the email that was last sent."
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4125": {
     "id": 4125,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Object of Email",
+    "description": "Returns the object of an email. Can be set in a email scope",
+    "syntax_pattern": "[the] (title|subject|object) of %email%\n%email%'[s] (title|subject|object)",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4125",
+    "created_at": "2020-05-01T21:59:13.059365Z",
+    "updated_at": "2020-05-01T21:59:13.059384Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the object of an email. Can be set in a email scope"
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4126": {
     "id": 4126,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Receiver/Recipients of Email",
+    "description": "Returns the receivers/recipients of an email. Can be set in a email scope",
+    "syntax_pattern": "%email%'s (receiver|recipient)[s]\n(receiver|recipient)[s] of %email%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": "Address Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4126",
+    "created_at": "2020-05-01T21:59:13.065650Z",
+    "updated_at": "2020-05-01T21:59:13.065670Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the receivers/recipients of an email. Can be set in a email scope"
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4127": {
     "id": 4127,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "SMTP Address of Email Service",
+    "description": "Returns the smtp address of an email service. Can be set in a email service scope",
+    "syntax_pattern": "[the] smtp(-|_| )address of %emailservice%\n%emailservice%'[s] smtp(-|_| )address",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4127",
+    "created_at": "2020-05-01T21:59:13.071962Z",
+    "updated_at": "2020-05-01T21:59:13.071982Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the smtp address of an email service. Can be set in a email service scope"
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4128": {
     "id": 4128,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "SMTP Port of Email Service",
+    "description": "Returns the smtp port of an email service. Can be set in a email service scope",
+    "syntax_pattern": "[the] smtp(-|_| )port of %emailservice%\n%emailservice%'[s] smtp(-|_| )port",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4128",
+    "created_at": "2020-05-01T21:59:13.077877Z",
+    "updated_at": "2020-05-01T21:59:13.077899Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the smtp port of an email service. Can be set in a email service scope"
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4129": {
     "id": 4129,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Sent Date of Email",
+    "description": "Returns the sent date of an email. Can be set in a email scope",
+    "syntax_pattern": "[the] sent date of %email%\n%email%'[s] sent date",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4129",
+    "created_at": "2020-05-01T21:59:13.084164Z",
+    "updated_at": "2020-05-01T21:59:13.084183Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the sent date of an email. Can be set in a email scope"
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4130": {
     "id": 4130,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Service",
+    "description": "Returns the specified mail service. This service must to be loaded before use it.",
+    "syntax_pattern": "[new] <\\w+> (service|session)",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": "Email Service",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4130",
+    "created_at": "2020-05-01T21:59:13.090012Z",
+    "updated_at": "2020-05-01T21:59:13.090031Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the specified mail service. This service must to be loaded before use it."
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4131": {
     "id": 4131,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Address Type",
+    "description": "",
+    "syntax_pattern": "[e]mail( |-|_)address",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4131",
+    "created_at": "2020-05-01T21:59:13.095738Z",
+    "updated_at": "2020-05-01T21:59:13.095756Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4132": {
     "id": 4132,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Email",
+    "description": "",
+    "syntax_pattern": "[e]mail",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4132",
+    "created_at": "2020-05-01T21:59:13.101744Z",
+    "updated_at": "2020-05-01T21:59:13.101762Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8903": {
     "id": 8903,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Mail Connection Event",
+    "description": "",
+    "syntax_pattern": "[e]mail connect(ed|ion)",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8903",
+    "created_at": "2023-03-21T22:11:10.656793Z",
+    "updated_at": "2023-03-21T22:11:10.656812Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8904": {
     "id": 8904,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Mail Disconnection Event",
+    "description": "",
+    "syntax_pattern": "[e]mail disconnect(ed|ion)",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8904",
+    "created_at": "2023-03-21T22:11:10.667304Z",
+    "updated_at": "2023-03-21T22:11:10.667315Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8905": {
     "id": 8905,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Mail Folder Created Event",
+    "description": "",
+    "syntax_pattern": "[[e]mail] folder created",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8905",
+    "created_at": "2023-03-21T22:11:10.675349Z",
+    "updated_at": "2023-03-21T22:11:10.675362Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8906": {
     "id": 8906,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Mail Folder Renamed Event",
+    "description": "",
+    "syntax_pattern": "[[e]mail] folder renamed",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8906",
+    "created_at": "2023-03-21T22:11:10.683666Z",
+    "updated_at": "2023-03-21T22:11:10.683677Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8907": {
     "id": 8907,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Mail Folder Deleted Event",
+    "description": "",
+    "syntax_pattern": "[[e]mail] folder deleted",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8907",
+    "created_at": "2023-03-21T22:11:10.691798Z",
+    "updated_at": "2023-03-21T22:11:10.691810Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8908": {
     "id": 8908,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Email Received Event",
+    "description": "",
+    "syntax_pattern": "[e]mail receive[d]",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8908",
+    "created_at": "2023-03-21T22:11:10.700294Z",
+    "updated_at": "2023-03-21T22:11:10.700305Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4110": {
     "id": 4110,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Connection",
+    "description": "Connect to your email account.",
+    "syntax_pattern": "[(sync|async)] (login|connect) to %emailservice% [(account|session)] [(with|as|from) (address|user[name]|[e]mail)] %string% (and|using) [with] [pass[word]] %string% [as %-string%] [and store [it] in %-objects%]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4110",
+    "created_at": "2020-05-01T21:59:12.967022Z",
+    "updated_at": "2023-03-21T22:11:10.725100Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Connect to your email account."
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4123": {
     "id": 4123,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Last Emails",
+    "description": "Return last received mails in a box.",
+    "syntax_pattern": "last[ly] [%-integer%] [e]mail[s] [in [(folder|dir)] (%-string%|%-folder%)] [(using|with) (%-session%|%-string%)]\n[e]mail[s] from %integer% to %integer% [in [(folder|dir)] (%-string%|%-folder%)] [(using|with) (%-session%|%-string%)]",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4123",
+    "created_at": "2020-05-01T21:59:13.046845Z",
+    "updated_at": "2023-03-21T22:11:10.755021Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return last received mails in a box."
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8911": {
     "id": 8911,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Email",
+    "description": "",
+    "syntax_pattern": "email",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8911",
+    "created_at": "2023-03-21T22:11:10.763047Z",
+    "updated_at": "2023-03-21T22:11:10.763058Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8912": {
     "id": 8912,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Internet Address Type",
+    "description": "",
+    "syntax_pattern": "internetaddress",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8912",
+    "created_at": "2023-03-21T22:11:10.770723Z",
+    "updated_at": "2023-03-21T22:11:10.770734Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8913": {
     "id": 8913,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Session Type",
+    "description": "",
+    "syntax_pattern": "session",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8913",
+    "created_at": "2023-03-21T22:11:10.779868Z",
+    "updated_at": "2023-03-21T22:11:10.779879Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8914": {
     "id": 8914,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Address Type",
+    "description": "",
+    "syntax_pattern": "address",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8914",
+    "created_at": "2023-03-21T22:11:10.787693Z",
+    "updated_at": "2023-03-21T22:11:10.787705Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8915": {
     "id": 8915,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Folder Type",
+    "description": "",
+    "syntax_pattern": "folder",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8915",
+    "created_at": "2023-03-21T22:11:10.795495Z",
+    "updated_at": "2023-03-21T22:11:10.795506Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8916": {
     "id": 8916,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Recipient Type",
+    "description": "",
+    "syntax_pattern": "recipienttype",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8916",
+    "created_at": "2023-03-21T22:11:10.805755Z",
+    "updated_at": "2023-03-21T22:11:10.805767Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8917": {
     "id": 8917,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Email Service",
+    "description": "A email service like Gmail. Store smtp and imap, port and address.",
+    "syntax_pattern": "emailservice",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8917",
+    "created_at": "2023-03-21T22:11:10.814853Z",
+    "updated_at": "2023-03-21T22:11:10.814864Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A email service like Gmail. Store smtp and imap, port and address."
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8918": {
     "id": 8918,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "IAddress",
+    "description": "",
+    "syntax_pattern": "iaddress",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkEmail",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8918",
+    "created_at": "2023-03-21T22:11:10.825299Z",
+    "updated_at": "2023-03-21T22:11:10.825311Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEmail] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEmail] 한국어 가이드팩 준비 중"
+        "[SKEMAIL] 한국어 가이드 번역 대기 중"
       ]
     }
   }

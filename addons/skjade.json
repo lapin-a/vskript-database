@@ -1,1604 +1,3535 @@
 {
   "syntax_4735": {
     "id": 4735,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "On Prolonged Spell Cancel",
+    "description": "",
+    "syntax_pattern": "[on] [elementals] [prolonged] spell cancel",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-long, event-player, event-spell",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4735",
+    "created_at": "2021-02-18T10:31:47.187801Z",
+    "updated_at": "2021-02-18T10:31:47.187821Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkJade] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4736": {
     "id": 4736,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "On Spell Cast",
+    "description": "",
+    "syntax_pattern": "[on] [any] spell cast",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-long, event-entity, event-player, event-spell",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=4736",
+    "created_at": "2021-02-18T10:31:47.193512Z",
+    "updated_at": "2021-02-18T10:31:47.193532Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkJade] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4737": {
     "id": 4737,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Boolean",
+    "description": "Shortens statements such as true = true to just true.",
+    "syntax_pattern": "%booleans%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4737",
+    "created_at": "2021-02-18T10:31:47.199429Z",
+    "updated_at": "2021-02-18T10:31:47.199447Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Shortens statements such as true = true to just true."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4739": {
     "id": 4739,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Can Cast Spell",
+    "description": "Checks if a player can cast the spell specified",
+    "syntax_pattern": "%player% can cast %spell%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4739",
+    "created_at": "2021-02-18T10:31:47.238870Z",
+    "updated_at": "2021-02-18T10:31:47.238890Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a player can cast the spell specified"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4741": {
     "id": 4741,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "CondIsProlonged",
+    "description": "",
+    "syntax_pattern": "%spells% (is|are) [elementals] prolonged [spell]\n%spells% (isn't|is not|aren't|are not) [elementals] prolonged [spell]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4741",
+    "created_at": "2021-02-18T10:31:47.254428Z",
+    "updated_at": "2021-02-18T10:31:47.254448Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkJade] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4742": {
     "id": 4742,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Hologram is Interactable/Clickable/Touchable",
+    "description": "Checks if a hologram is interactable, clickable, or touchable",
+    "syntax_pattern": "%hologramline% is (interactable|clickable|touchable)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4742",
+    "created_at": "2021-02-18T10:31:47.260086Z",
+    "updated_at": "2021-02-18T10:31:47.260106Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a hologram is interactable, clickable, or touchable"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4743": {
     "id": 4743,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Is A Hologram",
+    "description": "Checks if an entity is a hologram",
+    "syntax_pattern": "%entity% is a [(hd|holographic displays)] hologram",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4743",
+    "created_at": "2021-02-18T10:31:47.265903Z",
+    "updated_at": "2021-02-18T10:31:47.265944Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if an entity is a hologram"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4744": {
     "id": 4744,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Location is Within",
+    "description": "Checks if a location is between two locations",
+    "syntax_pattern": "%locations% (is|are) within [[the] location] %location% and [[the] location] %location%\n%locations% (isn't|is not|aren't|are not) within [[the] location] %location% and [[the] location] %location%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4744",
+    "created_at": "2021-02-18T10:31:47.271707Z",
+    "updated_at": "2021-02-18T10:31:47.271727Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a location is between two locations"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4746": {
     "id": 4746,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Slime Chunk",
+    "description": "Checks if a chunk is a slime chunk.",
+    "syntax_pattern": "%chunks% (is|are) slime(y|chunk)\n%chunks% (isn't|is not|aren't|are not) slime(y|chunk)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4746",
+    "created_at": "2021-02-18T10:31:47.283363Z",
+    "updated_at": "2021-02-18T10:31:47.283383Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a chunk is a slime chunk."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4747": {
     "id": 4747,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Spell Exists",
+    "description": "Checks if an elementals spell exists.",
+    "syntax_pattern": "%spell% (is a valid spell|exists)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4747",
+    "created_at": "2021-02-18T10:31:47.289126Z",
+    "updated_at": "2021-02-18T10:31:47.289146Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if an elementals spell exists."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4748": {
     "id": 4748,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Spell Type",
+    "description": "Checks if the spell is either generic, entity, prolonged generic, or prolonged entity.",
+    "syntax_pattern": "%spell% is [a[n]] (generic|entity|prolonged generic|prolonged entity) [spell]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4748",
+    "created_at": "2021-02-18T10:31:47.294990Z",
+    "updated_at": "2021-02-18T10:31:47.295014Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if the spell is either generic, entity, prolonged generic, or prolonged entity."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4749": {
     "id": 4749,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Within World Border",
+    "description": "Checks if the given location is within the world border.",
+    "syntax_pattern": "%locations% (is|are) (within|inside) [the] world[(-| )]border\n%locations% (isn't|is not|aren't|are not) (within|inside) [the] world[(-| )]border",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4749",
+    "created_at": "2021-02-18T10:31:47.301131Z",
+    "updated_at": "2021-02-18T10:31:47.301152Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if the given location is within the world border."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4750": {
     "id": 4750,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Add Item Line",
+    "description": "Adds an item to the hologram.",
+    "syntax_pattern": "add [[the] item] %itemstack% to %hologram%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4750",
+    "created_at": "2021-02-18T10:31:47.307174Z",
+    "updated_at": "2021-02-18T10:31:47.307194Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Adds an item to the hologram."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4752": {
     "id": 4752,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Build Paste",
+    "description": "Create's a pastebin paste. You should only call this once per paste. The developer key is linked to your pastebin account and found at this website: https://pastebin.com/doc_api#1",
+    "syntax_pattern": "build [the] [paste] %paste% with the dev[eloper] key %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4752",
+    "created_at": "2021-02-18T10:31:47.318589Z",
+    "updated_at": "2021-02-18T10:31:47.318610Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create's a pastebin paste. You should only call this once per paste. The developer key is linked to your pastebin account and found at this website: https://pastebin.com/doc_api#1"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4784": {
     "id": 4784,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Glowing ItemStack",
+    "description": "Makes a glowing(enchanted with no enchant flag) item.",
+    "syntax_pattern": "glowing %itemstack%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Item / Material",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4784",
+    "created_at": "2021-02-18T10:31:47.512905Z",
+    "updated_at": "2021-02-18T10:31:47.512925Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Makes a glowing(enchanted with no enchant flag) item."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4734": {
     "id": 4734,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "On Hologram Line Touch",
+    "description": "",
+    "syntax_pattern": "[on] [(holographic[ ]displays|hd)] holo[gram] [line] touch",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-hologramline, event-hologram",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=4734",
+    "created_at": "2021-02-18T10:31:47.181583Z",
+    "updated_at": "2021-06-30T23:23:31.292207Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkJade] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4738": {
     "id": 4738,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Can Break Block",
+    "description": "Checks if an item type can break a block.",
+    "syntax_pattern": "%itemtype% can((not|[']t)|) break %block%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4738",
+    "created_at": "2021-02-18T10:31:47.207889Z",
+    "updated_at": "2021-05-14T05:23:54.220938Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if an item type can break a block."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4740": {
     "id": 4740,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Can See",
+    "description": "Checks if a living entity can see another living entity.",
+    "syntax_pattern": "%entity% can see %entity%\n%entity% can([']t|not) see %entity%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4740",
+    "created_at": "2021-02-18T10:31:47.247258Z",
+    "updated_at": "2021-05-14T05:23:54.228567Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a living entity can see another living entity."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4751": {
     "id": 4751,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Add Text Line",
+    "description": "Adds a line of text to the hologram.",
+    "syntax_pattern": "add [the] [text] [line[s]] %strings% to %hologram%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4751",
+    "created_at": "2021-02-18T10:31:47.312873Z",
+    "updated_at": "2021-05-14T05:23:54.254798Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Adds a line of text to the hologram."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4733": {
     "id": 4733,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "On Hologram Line Click",
+    "description": "",
+    "syntax_pattern": "[on] [(holographic displays|hd)] holo[gram] [line] click",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-hologramline, event-hologram",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=4733",
+    "created_at": "2021-02-18T10:31:46.867145Z",
+    "updated_at": "2021-06-30T23:23:31.281722Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkJade] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4753": {
     "id": 4753,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Create Hologram",
+    "description": "Creates a hologram at the specified location with the id specified. The ID must be unique.\nIMPORTANT: Holograms are not persistant over restart (for the moment), so make sure to recreate the holograms on script load!",
+    "syntax_pattern": "create [a] [(hd|holographic[ ]displays)] holo[gram] at %location% [with [the]] id %string% (to be (hidden|invisible) [by default]|) ([and] [to] not (allow|accept|show|translate) placeholders|)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4753",
+    "created_at": "2021-02-18T10:31:47.324572Z",
+    "updated_at": "2021-02-18T10:31:47.324591Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a hologram at the specified location with the id specified. The ID must be unique.",
-        "IMPORTANT: Holograms are not persistant over restart (for the moment), so make sure to recreate the holograms on script load!"
+        "Creates a hologram at the specified location with the id specified. The ID must be unique.\nIMPORTANT: Holograms are not persistant over restart (for the moment), so make sure to recreate the holograms on script load!"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4754": {
     "id": 4754,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Create Paste",
+    "description": "Creates a new pastebin paste. The ID must be unique.",
+    "syntax_pattern": "create [a] [new] paste[bin[ paste]] with [the] id %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4754",
+    "created_at": "2021-02-18T10:31:47.332403Z",
+    "updated_at": "2021-02-18T10:31:47.332422Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a new pastebin paste. The ID must be unique."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4755": {
     "id": 4755,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Delete Hologram",
+    "description": "Deletes a hologram",
+    "syntax_pattern": "delete [(hd|holographic[ ]displays)] %hologram%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4755",
+    "created_at": "2021-02-18T10:31:47.339047Z",
+    "updated_at": "2021-02-18T10:31:47.339067Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Deletes a hologram"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4758": {
     "id": 4758,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Enchant Item",
+    "description": "Add an elementals spell to an item",
+    "syntax_pattern": "add %spell% to %itemstack%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4758",
+    "created_at": "2021-02-18T10:31:47.356374Z",
+    "updated_at": "2021-02-18T10:31:47.356394Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Add an elementals spell to an item"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4759": {
     "id": 4759,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Evaluate Effect",
+    "description": "Execute a Skript effect from a string.",
+    "syntax_pattern": "(eval[uate]|execute) %strings%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4759",
+    "created_at": "2021-02-18T10:31:47.361903Z",
+    "updated_at": "2021-02-18T10:31:47.361942Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Execute a Skript effect from a string."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4760": {
     "id": 4760,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Fake Damage",
+    "description": "Makes a player look like they took damage.",
+    "syntax_pattern": "make %players% take fake damage [for %players%]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4760",
+    "created_at": "2021-02-18T10:31:47.367697Z",
+    "updated_at": "2021-02-18T10:31:47.367717Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Makes a player look like they took damage."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4761": {
     "id": 4761,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Force Sleep",
+    "description": "Forces a player to sleep at a location as long as there is a bed at that location.",
+    "syntax_pattern": "(force|make) %players% [to] sleep at %location%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4761",
+    "created_at": "2021-02-18T10:31:47.374000Z",
+    "updated_at": "2021-02-18T10:31:47.374021Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Forces a player to sleep at a location as long as there is a bed at that location."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4762": {
     "id": 4762,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Force Wake",
+    "description": "Forces a player to wake up if they are sleeping.",
+    "syntax_pattern": "(force|make) %players% [to] wake[ ]up [(and set spawn[[ ]point])]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4762",
+    "created_at": "2021-02-18T10:31:47.380146Z",
+    "updated_at": "2021-02-18T10:31:47.380167Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Forces a player to wake up if they are sleeping."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4764": {
     "id": 4764,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Refresh Chunks",
+    "description": "Refeshes the chunks given asynchronously.",
+    "syntax_pattern": "(reload|refresh) [the] [chunk[s]] %chunks%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4764",
+    "created_at": "2021-02-18T10:31:47.391840Z",
+    "updated_at": "2021-02-18T10:31:47.391861Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Refeshes the chunks given asynchronously."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4765": {
     "id": 4765,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Register Elementals Spell",
+    "description": "Registers a new elementals spell which can be cast.\nThe spell name and id has to be unique, or the spell will not be created.\nIMPORTANT: The function has to return a boolean, and return true where you want the cooldown to be applied, and false where not.",
+    "syntax_pattern": "(create|make|register) a[n] [new] (generic|entity) [elementals] spell named %string% with [the] id %number% to run [[the] function] [on cast] <(.+)>([<.*?>]) with [(a|the)] cooldown [of] %number% seconds",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4765",
+    "created_at": "2021-02-18T10:31:47.397600Z",
+    "updated_at": "2021-02-18T10:31:47.397620Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Registers a new elementals spell which can be cast.",
-        "The spell name and id has to be unique, or the spell will not be created.",
-        "IMPORTANT: The function has to return a boolean, and return true where you want the cooldown to be applied, and false where not."
+        "Registers a new elementals spell which can be cast.\nThe spell name and id has to be unique, or the spell will not be created.\nIMPORTANT: The function has to return a boolean, and return true where you want the cooldown to be applied, and false where not."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4766": {
     "id": 4766,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Register Placeholder",
+    "description": "Registers a placeholder for HolographicDisplays only.\nIMPORTANT: If a hologram is created before a placeholder is registered, you need to recreate the placeholder.",
+    "syntax_pattern": "register [[a] holo[graphic[ displays]]] placeholder %string% to run [[the] function] <(.+)>([<.*?>])",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4766",
+    "created_at": "2021-02-18T10:31:47.403487Z",
+    "updated_at": "2021-02-18T10:31:47.403508Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Registers a placeholder for HolographicDisplays only.",
-        "IMPORTANT: If a hologram is created before a placeholder is registered, you need to recreate the placeholder."
+        "Registers a placeholder for HolographicDisplays only.\nIMPORTANT: If a hologram is created before a placeholder is registered, you need to recreate the placeholder."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4767": {
     "id": 4767,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Remove Line",
+    "description": "Removes a line from a hologram",
+    "syntax_pattern": "remove %hologramlines%\nremove [the] (%number%(st|nd|rd|th) line|line %number%) from %hologram%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4767",
+    "created_at": "2021-02-18T10:31:47.409340Z",
+    "updated_at": "2021-02-18T10:31:47.409360Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Removes a line from a hologram"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4768": {
     "id": 4768,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Reset Visibility",
+    "description": "Resets the visibility of a hologram to its default visibility.",
+    "syntax_pattern": "reset [the] visibility of %holograms% [(for all players|for [the] [player] %player%)]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4768",
+    "created_at": "2021-02-18T10:31:47.415180Z",
+    "updated_at": "2021-02-18T10:31:47.415201Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Resets the visibility of a hologram to its default visibility."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4769": {
     "id": 4769,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Rotate Player",
+    "description": "Rotates a player without teleportation.",
+    "syntax_pattern": "rotate %players% by %number% [horizontally] [[and] %number% [vertically]]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4769",
+    "created_at": "2021-02-18T10:31:47.421137Z",
+    "updated_at": "2021-02-18T10:31:47.421160Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Rotates a player without teleportation."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4770": {
     "id": 4770,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Set Paste Format",
+    "description": "Sets the formattinng of a paste. You can find more about the formatting options here: https://pastebin.com/doc_api#5",
+    "syntax_pattern": "set [the] [text] format[ting] of %pastes% to %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4770",
+    "created_at": "2021-02-18T10:31:47.427399Z",
+    "updated_at": "2021-02-18T10:31:47.427424Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the formattinng of a paste. You can find more about the formatting options here: https://pastebin.com/doc_api#5"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4772": {
     "id": 4772,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Set Paste Title",
+    "description": "Sets the title of a paste.",
+    "syntax_pattern": "set [the] title of %pastes% to %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4772",
+    "created_at": "2021-02-18T10:31:47.439879Z",
+    "updated_at": "2021-02-18T10:31:47.439899Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the title of a paste."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4773": {
     "id": 4773,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Set Paste Visibility",
+    "description": "Sets the visibility of a paste.",
+    "syntax_pattern": "make %pastes% be (public|private|unlisted)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4773",
+    "created_at": "2021-02-18T10:31:47.445768Z",
+    "updated_at": "2021-02-18T10:31:47.445788Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the visibility of a paste."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4774": {
     "id": 4774,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Set Paste to Expire",
+    "description": "Set when a paste will expire.",
+    "syntax_pattern": "set %pastes% to never expire\nset %pastes% to expire in (a|1|one) year\nset %pastes% to expire in (6|six) months\nset %pastes% to expire in (a|1|one) month\nset %pastes% to expire in (2|two) weeks\nset %pastes% to expire in (a|1|one) week\nset %pastes% to expire in (a|1|one) day\nset %pastes% to expire in (an|1|one) hour\nset %pastes% to expire in (ten|10) min[ute]s",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4774",
+    "created_at": "2021-02-18T10:31:47.451566Z",
+    "updated_at": "2021-02-18T10:31:47.451586Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set when a paste will expire."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4775": {
     "id": 4775,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Set Visibility",
+    "description": "Sets the visibility of a hologram to show or hide certain players.",
+    "syntax_pattern": "(show|hide) %holograms% (to|from) %players%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4775",
+    "created_at": "2021-02-18T10:31:47.457195Z",
+    "updated_at": "2021-02-18T10:31:47.457214Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the visibility of a hologram to show or hide certain players."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4776": {
     "id": 4776,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Unregister Placeholder",
+    "description": "Unregisters a Holographic Displays placeholder.",
+    "syntax_pattern": "unregister [holo[grahpic[ displays]]] placeholder %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4776",
+    "created_at": "2021-02-18T10:31:47.462971Z",
+    "updated_at": "2021-02-18T10:31:47.462991Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Unregisters a Holographic Displays placeholder."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4777": {
     "id": 4777,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Chunk at Location",
+    "description": "Returns the chunk in a world from the x and y coordinates.",
+    "syntax_pattern": "chunk %number%(, | and) %number% of %world%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Chunk",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4777",
+    "created_at": "2021-02-18T10:31:47.468742Z",
+    "updated_at": "2021-02-18T10:31:47.468761Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the chunk in a world from the x and y coordinates."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4778": {
     "id": 4778,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Circle",
+    "description": "Returns the points of the outline of a circle which ",
+    "syntax_pattern": "[a] circle (at|from) %location% with [a] radius [of] %number% [and %number% total (points|blocks|locations)]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4778",
+    "created_at": "2021-02-18T10:31:47.474607Z",
+    "updated_at": "2021-02-18T10:31:47.474627Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the points of the outline of a circle which"
+        "Returns the points of the outline of a circle which "
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4779": {
     "id": 4779,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "English Plural",
+    "description": "Returns the english plural of a word. This may be inaccurate.",
+    "syntax_pattern": "[the] [english] plural of %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4779",
+    "created_at": "2021-02-18T10:31:47.480463Z",
+    "updated_at": "2021-02-18T10:31:47.480482Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the english plural of a word. This may be inaccurate."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4783": {
     "id": 4783,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Flipped Boolean",
+    "description": "Returns the flipped value of a boolean",
+    "syntax_pattern": "(flipped |toggled |inverted |!)%boolean%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4783",
+    "created_at": "2021-02-18T10:31:47.507059Z",
+    "updated_at": "2021-02-18T10:31:47.507079Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the flipped value of a boolean"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4771": {
     "id": 4771,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Set Paste Text",
+    "description": "Sets the text of a paste.",
+    "syntax_pattern": "set [the] [raw] text of %pastes% to %strings%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4771",
+    "created_at": "2021-02-18T10:31:47.433375Z",
+    "updated_at": "2021-05-14T05:23:54.331371Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the text of a paste."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4780": {
     "id": 4780,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Border Slots",
+    "description": "Returns the border slots of an inventory.",
+    "syntax_pattern": "border slots of [the] [inventory] %inventory%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4780",
+    "created_at": "2021-02-18T10:31:47.486303Z",
+    "updated_at": "2021-05-14T05:23:54.392671Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the border slots of an inventory."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4781": {
     "id": 4781,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Midnight",
+    "description": "Returns the date of midnight.",
+    "syntax_pattern": "midnight",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Date",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4781",
+    "created_at": "2021-02-18T10:31:47.492075Z",
+    "updated_at": "2021-05-14T05:23:54.524185Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the date of midnight."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4757": {
     "id": 4757,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Show Demo",
+    "description": "Shows the minecraft demonstration screen to a player.",
+    "syntax_pattern": "show [the] demo[nstration] screen to %players%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4757",
+    "created_at": "2021-02-18T10:31:47.350622Z",
+    "updated_at": "2021-06-30T23:23:31.349922Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Shows the minecraft demonstration screen to a player."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4785": {
     "id": 4785,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Hologram",
+    "description": "A HolographicDisplays Hologram. The ID of every hologram should be unique.",
+    "syntax_pattern": "[the] holo[gram] with [the] id %string%\nevent(-| )holo[gram]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Hologram",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4785",
+    "created_at": "2021-02-18T10:31:47.518672Z",
+    "updated_at": "2021-02-18T10:31:47.518692Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A HolographicDisplays Hologram. The ID of every hologram should be unique."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4787": {
     "id": 4787,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Last Built Paste",
+    "description": "Returns the link of the last built pastebin. If you build a new paste, this will be overridden.",
+    "syntax_pattern": "[the] [(link|url) of] [the] last built paste[bin [paste]]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4787",
+    "created_at": "2021-02-18T10:31:47.530237Z",
+    "updated_at": "2021-02-18T10:31:47.530257Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the link of the last built pastebin. If you build a new paste, this will be overridden."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4789": {
     "id": 4789,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Paste",
+    "description": "Returns the pastebin paste with that id if it exists, else, it will be null.",
+    "syntax_pattern": "[the] paste[builder] with [the] id %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Paste",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4789",
+    "created_at": "2021-02-18T10:31:47.541568Z",
+    "updated_at": "2021-02-18T10:31:47.541587Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the pastebin paste with that id if it exists, else, it will be null."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4790": {
     "id": 4790,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Paste Response",
+    "description": "Returns the raw text from a pastebin. The developer key is linked to your pastebin account and found at this website: https://pastebin.com/doc_api#1",
+    "syntax_pattern": "[the] [raw] [paste] (response|text) from [[the] paste] %string% with the dev[eloper] key %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4790",
+    "created_at": "2021-02-18T10:31:47.547296Z",
+    "updated_at": "2021-02-18T10:31:47.547315Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the raw text from a pastebin. The developer key is linked to your pastebin account and found at this website: https://pastebin.com/doc_api#1"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4792": {
     "id": 4792,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Spell",
+    "description": "An elemental spell",
+    "syntax_pattern": "[the] [elementals] spell [(named|with [the] name)] %string%\nevent[(-| )]spell",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Spell",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4792",
+    "created_at": "2021-02-18T10:31:47.559478Z",
+    "updated_at": "2021-02-18T10:31:47.559499Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "An elemental spell"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4793": {
     "id": 4793,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Spell Book",
+    "description": "An elemental spell book with the spell name",
+    "syntax_pattern": "[a[n]] [elementals] spell[[ ]book] with %spell%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Item Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4793",
+    "created_at": "2021-02-18T10:31:47.565365Z",
+    "updated_at": "2021-02-18T10:31:47.565385Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "An elemental spell book with the spell name"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4794": {
     "id": 4794,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Spell's ID",
+    "description": "An elemental spells ID.",
+    "syntax_pattern": "[the] id of %spell%\n%spell%'s id",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4794",
+    "created_at": "2021-02-18T10:31:47.571175Z",
+    "updated_at": "2021-02-18T10:31:47.571195Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "An elemental spells ID."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4796": {
     "id": 4796,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Time at Player",
+    "description": "Returns the player's time.",
+    "syntax_pattern": "[the] time at [(player|the player)] %player%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Time",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4796",
+    "created_at": "2021-02-18T10:31:47.582875Z",
+    "updated_at": "2021-02-18T10:31:47.582895Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the player's time."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4797": {
     "id": 4797,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Hologram",
+    "description": "A Hologram created with Holographic displays.",
+    "syntax_pattern": "holo[gram][s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4797",
+    "created_at": "2021-02-18T10:31:47.589182Z",
+    "updated_at": "2021-02-18T10:31:47.589201Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A Hologram created with Holographic displays."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4798": {
     "id": 4798,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Hologram Line",
+    "description": "A line of a Hologram.",
+    "syntax_pattern": "holo[gram][ |-]line[s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4798",
+    "created_at": "2021-02-18T10:31:47.594806Z",
+    "updated_at": "2021-02-18T10:31:47.594826Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A line of a Hologram."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4799": {
     "id": 4799,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Paste",
+    "description": "A PasteBuilder created with SkJade.",
+    "syntax_pattern": "past[e][s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4799",
+    "created_at": "2021-02-18T10:31:47.601036Z",
+    "updated_at": "2021-02-18T10:31:47.601056Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A PasteBuilder created with SkJade."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4800": {
     "id": 4800,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Spell",
+    "description": "An elementals spell",
+    "syntax_pattern": "spel[l][s]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4800",
+    "created_at": "2021-02-18T10:31:47.607329Z",
+    "updated_at": "2021-02-18T10:31:47.607350Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "An elementals spell"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4745": {
     "id": 4745,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Multiple Conditions",
+    "description": "Allows you to use multiple conditions.",
+    "syntax_pattern": "<.+> && <.+>\n<.+> \\|\\| <.+>",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4745",
+    "created_at": "2021-02-18T10:31:47.277632Z",
+    "updated_at": "2021-05-14T05:23:54.246953Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to use multiple conditions."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4788": {
     "id": 4788,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Nearest Entity",
+    "description": "Returns the nearest entity to a location.",
+    "syntax_pattern": "[the] (nearest|closest) ([entity of type] %entitytype%|entity) to %entity%\n[the] (nearest|closest) entity ([entity of type] %entitytype%|entity) to %location%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Entity",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4788",
+    "created_at": "2021-02-18T10:31:47.536076Z",
+    "updated_at": "2021-05-14T05:23:54.532497Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the nearest entity to a location."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4791": {
     "id": 4791,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Rainbow Text",
+    "description": "Returns the specified text in rainbow.\nJust a note this looks crazy in console, but theres nothing we can do about it:p (like this: \"\")",
+    "syntax_pattern": "(pastel rainbow|monochrome |[normal ]rainbow ) %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4791",
+    "created_at": "2021-02-18T10:31:47.553503Z",
+    "updated_at": "2021-05-14T05:23:54.548421Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the specified text in rainbow.",
-        "Just a note this looks crazy in console, but theres nothing we can do about it:p (like this: \"\")"
+        "Returns the specified text in rainbow.\nJust a note this looks crazy in console, but theres nothing we can do about it:p (like this: \"\")"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4795": {
     "id": 4795,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Star",
+    "description": "Returns the points of the outline of a star from the center, radius, and density",
+    "syntax_pattern": "[(all [[of] the]|the)] [(loc[ation]s|points) of] [a] star (at|from) %location% with %number% points(,| and) [with] [a] radius [of] %number%(,| and) [a] density [of] %number%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4795",
+    "created_at": "2021-02-18T10:31:47.576850Z",
+    "updated_at": "2021-05-14T05:23:54.566815Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the points of the outline of a star from the center, radius, and density"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4786": {
     "id": 4786,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Hologram Line",
+    "description": "The hologram line of a specified hologram",
+    "syntax_pattern": "[all] [the] lines of %holograms%\nline %number% of [the] [holo[gram]] %hologram%\nevent( |-)[holo[gram]][(-| )]line",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Hologram Line",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4786",
+    "created_at": "2021-02-18T10:31:47.524544Z",
+    "updated_at": "2021-06-30T23:23:31.389461Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The hologram line of a specified hologram"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5449": {
     "id": 5449,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "On Async PreLogin",
+    "description": "",
+    "syntax_pattern": "[on] [async] [player] pre( |-)login",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-object",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5449",
+    "created_at": "2021-05-14T05:23:54.183085Z",
+    "updated_at": "2021-05-14T05:23:54.183108Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkJade] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5450": {
     "id": 5450,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "On real time",
+    "description": "",
+    "syntax_pattern": "[on] (at|when it([']s| is)) %times% (((in|of) [the] real world|irl)|GMT)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5450",
+    "created_at": "2021-05-14T05:23:54.213592Z",
+    "updated_at": "2021-05-14T05:23:54.213607Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkJade] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5452": {
     "id": 5452,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Change the Sky Colour",
+    "description": "Changes the sky colour for players. The maximum number is 200 to make sure clients aren't crashed.",
+    "syntax_pattern": "change [the] sky colo[u]r to %number% for %players%",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5452",
+    "created_at": "2021-05-14T05:23:54.262539Z",
+    "updated_at": "2021-05-14T05:23:54.262554Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Changes the sky colour for players. The maximum number is 200 to make sure clients aren't crashed."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4756": {
     "id": 4756,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Drop Item",
+    "description": "Makes the player drop one of their current item, or their inventory.",
+    "syntax_pattern": "make %players% drop ([their] [current] item|all [the] items in [their] hand|their [(whole|entire)] inv[entory])",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4756",
+    "created_at": "2021-02-18T10:31:47.344903Z",
+    "updated_at": "2021-05-14T05:23:54.278447Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Makes the player drop one of their current item, or their inventory."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5454": {
     "id": 5454,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Force Rain",
+    "description": "Make it start/stop raining for players.",
+    "syntax_pattern": "((force [it] to rain|force it to stop raining)|make it (|stop) rain[ing]) for %players%",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5454",
+    "created_at": "2021-05-14T05:23:54.286435Z",
+    "updated_at": "2021-05-14T05:23:54.286450Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make it start/stop raining for players."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5456": {
     "id": 5456,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Lasagna",
+    "description": "Lasagna.",
+    "syntax_pattern": "(lasagna|an Italian dish made of stacked layers of thin flat pasta alternating with fillings and other vegetables, cheese and seasonings and spices)",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5456",
+    "created_at": "2021-05-14T05:23:54.301545Z",
+    "updated_at": "2021-05-14T05:23:54.301561Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Lasagna."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5458": {
     "id": 5458,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Reset World Border",
+    "description": "Resets the world border of a world.",
+    "syntax_pattern": "[skjade] reset ([the] [world[ ]]border [of] %worlds%|%worlds%'s world border)",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5458",
+    "created_at": "2021-05-14T05:23:54.316820Z",
+    "updated_at": "2021-05-14T05:23:54.316835Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Resets the world border of a world."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5461": {
     "id": 5461,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Show Mining Stage",
+    "description": "Shows the block break animation/stage to players.",
+    "syntax_pattern": "(show|play) (mining|block break) (stage|animation) %number% at %locations% [to %players%] [(with [the] [entity] id %number%|)]\nremove [the] (mining|block break) (stage|animation) at %locations% [for %players%] [(with [the] [entity] id %number%|)]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5461",
+    "created_at": "2021-05-14T05:23:54.354447Z",
+    "updated_at": "2021-05-14T05:23:54.354462Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Shows the block break animation/stage to players."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5464": {
     "id": 5464,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "World Border Size Over Time",
+    "description": "Sets the worldborder of a world over time.",
+    "syntax_pattern": "set [skjade] [world[ ]]border size of %world% to %number% over %timespan%\nset [skjade] %world%'s [world[ ]]border size to %number% over %timespan%",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5464",
+    "created_at": "2021-05-14T05:23:54.376807Z",
+    "updated_at": "2021-05-14T05:23:54.376822Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the worldborder of a world over time."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5465": {
     "id": 5465,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "All Holograms",
+    "description": "Returns all holograms created by SkJade.",
+    "syntax_pattern": "all [of] [the] [skjade[s]] holograms",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Hologram",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5465",
+    "created_at": "2021-05-14T05:23:54.385001Z",
+    "updated_at": "2021-05-14T05:23:54.385016Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns all holograms created by SkJade."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5466": {
     "id": 5466,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Character",
+    "description": "A single character.",
+    "syntax_pattern": "'<(.)>'",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Character",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5466",
+    "created_at": "2021-05-14T05:23:54.400757Z",
+    "updated_at": "2021-05-14T05:23:54.400772Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A single character."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5467": {
     "id": 5467,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Cone",
+    "description": "Returns a list of locations to make up a cone.",
+    "syntax_pattern": "[a] cone (with [a] cent(re|er) [of]|around) %location%(,| and) [a] radius [of] %number%[(,| and)] [a] height [of] %number%[(,| and)] [a] density [of] %number%",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5467",
+    "created_at": "2021-05-14T05:23:54.418446Z",
+    "updated_at": "2021-05-14T05:23:54.418463Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a list of locations to make up a cone."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5468": {
     "id": 5468,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Core/Primary World",
+    "description": "Returns the main world, aka the fallback world.",
+    "syntax_pattern": "[the] (core|main|original|primary) world [of [the] server]",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "World",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5468",
+    "created_at": "2021-05-14T05:23:54.425871Z",
+    "updated_at": "2021-05-14T05:23:54.425886Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the main world, aka the fallback world."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5469": {
     "id": 5469,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Exact Target Block",
+    "description": "Gets the exact target block of an entity.",
+    "syntax_pattern": "%entity%'s exact target[ed] block\n%entity%'s exact target[ed] block including ([only ]source|[any] [type of]) fluid[s]",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Block",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5469",
+    "created_at": "2021-05-14T05:23:54.438329Z",
+    "updated_at": "2021-05-14T05:23:54.438344Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the exact target block of an entity."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5470": {
     "id": 5470,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Formatted Number",
+    "description": "Formats a number over 999 to be in readable form, such as 2000 -> 2,000.",
+    "syntax_pattern": "[the] formatted number %number%",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5470",
+    "created_at": "2021-05-14T05:23:54.446221Z",
+    "updated_at": "2021-05-14T05:23:54.446236Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Formats a number over 999 to be in readable form, such as 2000 -> 2,000."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5471": {
     "id": 5471,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Hardcore World",
+    "description": "Gets and sets wether or not a world is hardcore.",
+    "syntax_pattern": "[the] hardcore (value|mode|state) of %world%\n[the] %world%'s hardcore (value|mode|state)",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5471",
+    "created_at": "2021-05-14T05:23:54.453839Z",
+    "updated_at": "2021-05-14T05:23:54.453854Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets and sets wether or not a world is hardcore."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5472": {
     "id": 5472,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "ID of Entity",
+    "description": "Returns the id of an entity.",
+    "syntax_pattern": "%entity%'s id\nthe id of %entity%",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5472",
+    "created_at": "2021-05-14T05:23:54.461694Z",
+    "updated_at": "2021-05-14T05:23:54.461709Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the id of an entity."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5474": {
     "id": 5474,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Image Lines",
+    "description": "Returns all the lines to make up an image. Max width is 150 and the image should be in the SkJade plugin folder.",
+    "syntax_pattern": "[hologram] lines of [the] image %string% with [(a|the)] width [of] %number%\n[hologram] lines of [the] image from [the] url %string% with [(a|the)] width [of] %number%",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5474",
+    "created_at": "2021-05-14T05:23:54.477326Z",
+    "updated_at": "2021-05-14T05:23:54.477342Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns all the lines to make up an image. Max width is 150 and the image should be in the SkJade plugin folder."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5475": {
     "id": 5475,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Inet Address",
+    "description": "Used for event-address in the AsyncPlayerPreLoginEvent",
+    "syntax_pattern": "event(-| )[inet]address",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5475",
+    "created_at": "2021-05-14T05:23:54.485144Z",
+    "updated_at": "2021-05-14T05:23:54.485160Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Used for event-address in the AsyncPlayerPreLoginEvent"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5477": {
     "id": 5477,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Kick Message",
+    "description": "Gets/sets the kick message in an AsyncPlayerPreLoginEvent",
+    "syntax_pattern": "[event(-| )]kick[( |-)]message",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5477",
+    "created_at": "2021-05-14T05:23:54.500560Z",
+    "updated_at": "2021-05-14T05:23:54.500575Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets/sets the kick message in an AsyncPlayerPreLoginEvent"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5479": {
     "id": 5479,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Login Result",
+    "description": "Gets/sets the login result for an async prelogin event. Please note this can only be set to \"kick other\", \"allowed\", \"kick banned\", \"kick full\", or \"kick whitelist\"",
+    "syntax_pattern": "event( |-)login[( |-)]result",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5479",
+    "created_at": "2021-05-14T05:23:54.516588Z",
+    "updated_at": "2021-05-14T05:23:54.516604Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets/sets the login result for an async prelogin event. Please note this can only be set to \"kick other\", \"allowed\", \"kick banned\", \"kick full\", or \"kick whitelist\""
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5451": {
     "id": 5451,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Is Wet",
+    "description": "Checks if a player (1.1.0) or an entity (1.3.2) is in any type of liquid.",
+    "syntax_pattern": "%player% is((n[']t| not)|) [standing] in water",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5451",
+    "created_at": "2021-05-14T05:23:54.238703Z",
+    "updated_at": "2021-06-30T23:23:31.300213Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a player (1.1.0) or an entity (1.3.2) is in any type of liquid."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5459": {
     "id": 5459,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "EffShowBrand",
+    "description": "",
+    "syntax_pattern": "(send|show) [server] brand %string% (to|for) %players%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5459",
+    "created_at": "2021-05-14T05:23:54.324126Z",
+    "updated_at": "2021-06-30T23:23:31.317474Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkJade] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5455": {
     "id": 5455,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Hide Entity",
+    "description": "Hides an entity from a player or all players.",
+    "syntax_pattern": "[skjade] (hide|destory|send [a] destroy packet for) [[the] entity] %entities% ((from|for) %players%|)",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5455",
+    "created_at": "2021-05-14T05:23:54.294073Z",
+    "updated_at": "2021-06-30T23:23:31.324809Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Hides an entity from a player or all players."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5473": {
     "id": 5473,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "ID of a Hologram",
+    "description": "Returns the ID of a hologram.",
+    "syntax_pattern": "[the] (id|key) of [the [hologram]] %hologram%\n%hologram%[']s (id|key)",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5473",
+    "created_at": "2021-05-14T05:23:54.469357Z",
+    "updated_at": "2021-06-30T23:23:31.397414Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the ID of a hologram."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5476": {
     "id": 5476,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Item Cooldown",
+    "description": "Gets and sets the cooldown for a material for a player.",
+    "syntax_pattern": "[the] cooldown of %itemtypes% for %player%",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Timespan",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5476",
+    "created_at": "2021-05-14T05:23:54.492893Z",
+    "updated_at": "2021-06-30T23:23:31.405122Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets and sets the cooldown for a material for a player."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5480": {
     "id": 5480,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Nearest Structure",
+    "description": "Find the closest nearby structure of a given structure type. Will not be set if not found. Finding unexplored structures can, and will, block if the world is looking in chunks that gave not generated yet. This can lead to the world temporarily freezing while locating an unexplored structure.\nThe radius is not a rigid square radius. Each structure may alter how many chunks to check for each iteration. Do not assume that only a radius x radius chunk area will be checked. For example, a woodland mansion can potentially check up to 20,000 blocks away (or more) regardless of the radius used.\nThis will not load or generate chunks. This can also lead to instances where the server can hang if you are only looking for unexplored structures. This is because it will keep looking further and further out in order to find the structure.",
+    "syntax_pattern": "[the] (nearest|closest) ((not |un)(explored|discovered)|) [structure [of]] %structure% (in|within) [a] radius [of] %number% (around|at|from|of) %location%",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5480",
+    "created_at": "2021-05-14T05:23:54.540611Z",
+    "updated_at": "2021-05-14T05:23:54.540627Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Find the closest nearby structure of a given structure type. Will not be set if not found. Finding unexplored structures can, and will, block if the world is looking in chunks that gave not generated yet. This can lead to the world temporarily freezing while locating an unexplored structure.",
-        "The radius is not a rigid square radius. Each structure may alter how many chunks to check for each iteration. Do not assume that only a radius x radius chunk area will be checked. For example, a woodland mansion can potentially check up to 20,000 blocks away (or more) regardless of the radius used.",
-        "This will not load or generate chunks. This can also lead to instances where the server can hang if you are only looking for unexplored structures. This is because it will keep looking further and further out in order to find the structure."
+        "Find the closest nearby structure of a given structure type. Will not be set if not found. Finding unexplored structures can, and will, block if the world is looking in chunks that gave not generated yet. This can lead to the world temporarily freezing while locating an unexplored structure.\nThe radius is not a rigid square radius. Each structure may alter how many chunks to check for each iteration. Do not assume that only a radius x radius chunk area will be checked. For example, a woodland mansion can potentially check up to 20,000 blocks away (or more) regardless of the radius used.\nThis will not load or generate chunks. This can also lead to instances where the server can hang if you are only looking for unexplored structures. This is because it will keep looking further and further out in order to find the structure."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4782": {
     "id": 4782,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Roman Numerals",
+    "description": "Returns the given number in roman numerals.",
+    "syntax_pattern": "[[the] value of] %number% in roman numeral[s]\n[the] roman numeral[s] [value] of %number%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4782",
+    "created_at": "2021-02-18T10:31:47.501407Z",
+    "updated_at": "2021-05-14T05:23:54.557952Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the given number in roman numerals."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5482": {
     "id": 5482,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Text Between",
+    "description": "Gets the text between two characters.",
+    "syntax_pattern": "[the] text between %character% and %character% (from|in) %string%",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5482",
+    "created_at": "2021-05-14T05:23:54.582730Z",
+    "updated_at": "2021-05-14T05:23:54.582746Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the text between two characters."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5483": {
     "id": 5483,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Timespan in Ticks",
+    "description": "Converts a timespan into ticks.",
+    "syntax_pattern": "%timespan% in ticks\nticks of %timespan%\n[the] amount of ticks in %timespan%",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5483",
+    "created_at": "2021-05-14T05:23:54.590428Z",
+    "updated_at": "2021-05-14T05:23:54.590445Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Converts a timespan into ticks."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5484": {
     "id": 5484,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Torus/Giant Donut",
+    "description": "Returns the locations to make up a giant donut/torus.",
+    "syntax_pattern": "[a] (torus|[giant ]donut) (at|around) %location% with [a] major radius [of] %number% and [a] minor radius [of] %number% [with [a] density [of] %number%]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5484",
+    "created_at": "2021-05-14T05:23:54.598154Z",
+    "updated_at": "2021-05-14T05:23:54.598169Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the locations to make up a giant donut/torus."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5485": {
     "id": 5485,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Unary Value",
+    "description": "Returns the unary value of a number.",
+    "syntax_pattern": "(-|unary [value of ])%number%",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5485",
+    "created_at": "2021-05-14T05:23:54.606038Z",
+    "updated_at": "2021-05-14T05:23:54.606054Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the unary value of a number."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5486": {
     "id": 5486,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "World Border Center",
+    "description": "Allows you to get and set the center of a world border.",
+    "syntax_pattern": "[skjade] [world[ ]]border cent(er|re) of %world%\n[skjade] [the] %world%'s [world[ ]]border cent(re|er)\n[skjade] [the] center of %world%'s [world[ ]]border",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5486",
+    "created_at": "2021-05-14T05:23:54.614001Z",
+    "updated_at": "2021-05-14T05:23:54.614018Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get and set the center of a world border."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5487": {
     "id": 5487,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "World Border Damage Amount",
+    "description": "Allows you to get and set the damage amount of a world border.",
+    "syntax_pattern": "[skjade] [world[ ]]border damage amount of %world%\n[skjade] %world%'s [world[ ]]border damage amount\n[skjade] [the] damage amount of %world%'s [world[ ]]border",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5487",
+    "created_at": "2021-05-14T05:23:54.624124Z",
+    "updated_at": "2021-05-14T05:23:54.624140Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get and set the damage amount of a world border."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5488": {
     "id": 5488,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "World Border Damage Buffer",
+    "description": "Allows you to get and set the damage buffer of a world border.",
+    "syntax_pattern": "[skjade] [world[ ]]border damage buffer of %world%\n[skjade] %world%'s [world[ ]]border damage buffer\n[skjade] [the] damage buffer of %world%'s [world[ ]]border",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5488",
+    "created_at": "2021-05-14T05:23:54.632663Z",
+    "updated_at": "2021-05-14T05:23:54.632679Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get and set the damage buffer of a world border."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5489": {
     "id": 5489,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "World Border Size",
+    "description": "Allows you to get and set the size of a world border.",
+    "syntax_pattern": "[skjade] [world[ ]]border size of %world%\n[skjade] %world%'s [world[ ]]border size\n[skjade] [the] size of %world%'s [world[ ]]border",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5489",
+    "created_at": "2021-05-14T05:23:54.640712Z",
+    "updated_at": "2021-05-14T05:23:54.640728Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get and set the size of a world border."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5490": {
     "id": 5490,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "World Border Warning Distance",
+    "description": "Allows you to get and set the warning distance of a world border.",
+    "syntax_pattern": "[skjade] [world[ ]]border warning distance of %world%\n[skjade] %world%'s [world[ ]]border warning distance\n[skjade] [the] warning distance of %world%'s [world[ ]]border",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5490",
+    "created_at": "2021-05-14T05:23:54.648739Z",
+    "updated_at": "2021-05-14T05:23:54.648755Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get and set the warning distance of a world border."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5491": {
     "id": 5491,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "World Border Warning Time",
+    "description": "Allows you to get and set the warning time of a world border.",
+    "syntax_pattern": "[skjade] [world[ ]]border warning time of %world%\n[skjade] %world%'s [world[ ]]border warning time\n[skjade] [the] warning time of %world%'s [world[ ]]border",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Timespan",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5491",
+    "created_at": "2021-05-14T05:23:54.656765Z",
+    "updated_at": "2021-05-14T05:23:54.656780Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get and set the warning time of a world border."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5492": {
     "id": 5492,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Structure Type",
+    "description": "A specified structure type.",
+    "syntax_pattern": "(building)structur[e][s]",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5492",
+    "created_at": "2021-05-14T05:23:54.664995Z",
+    "updated_at": "2021-05-14T05:23:54.665011Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A specified structure type."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5654": {
     "id": 5654,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Create Laser/Guardian Beam",
+    "description": "Creates a laser/guardian beam. Does NOT show it. For an infinite beam, use -1 seconds.",
+    "syntax_pattern": "create [a] [new] (la(s|z)er [beam]|guardian beam) from %location% to %location% for %timespan% with [the] id %string%",
+    "compatible_addon_version": "1.3.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5654",
+    "created_at": "2021-06-30T23:23:31.308133Z",
+    "updated_at": "2021-06-30T23:23:31.308150Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a laser/guardian beam. Does NOT show it. For an infinite beam, use -1 seconds."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4763": {
     "id": 4763,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Interactive Hologram Line",
+    "description": "Makes a line of a hologram clickable(triggers the on hologram click), touchable(triggers on hologram touch),and interact(triggers on both)",
+    "syntax_pattern": "(make|set) [the] line %numbers% of %hologram% [to be] [((un|non[(-| )])|)]clickable\n(make|set) [the] line %numbers% of %hologram% [to be] [((un|non[(-| )])|)]touchable\n(make|set) [the] line %numbers% of %hologram% [to be] [((un|non[(-| )])|)]interactable",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4763",
+    "created_at": "2021-02-18T10:31:47.385769Z",
+    "updated_at": "2021-06-30T23:23:31.332420Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Makes a line of a hologram clickable(triggers the on hologram click), touchable(triggers on hologram touch),and interact(triggers on both)"
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5655": {
     "id": 5655,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Make Laser Change Colour",
+    "description": "Makes a laser change colour. You cannot specify this coloUr.",
+    "syntax_pattern": "(force|make) %lasers% [to] change colo[u]r[[']s]",
+    "compatible_addon_version": "1.3.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5655",
+    "created_at": "2021-06-30T23:23:31.341512Z",
+    "updated_at": "2021-06-30T23:23:31.341527Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Makes a laser change colour. You cannot specify this coloUr."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5656": {
     "id": 5656,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Show Laser/Guardian Beam",
+    "description": "Shows a guardiam beam between two points.",
+    "syntax_pattern": "show [a] [new] (la(s|z)er [beam]|guardian beam) from %location% to %location% for %timespan% [for %players%]",
+    "compatible_addon_version": "1.3.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5656",
+    "created_at": "2021-06-30T23:23:31.358879Z",
+    "updated_at": "2021-06-30T23:23:31.358894Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Shows a guardiam beam between two points."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5657": {
     "id": 5657,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Start Laser/Beam",
+    "description": "Starts a stored laser.",
+    "syntax_pattern": "start %laser% [for %players%]",
+    "compatible_addon_version": "1.3.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5657",
+    "created_at": "2021-06-30T23:23:31.366751Z",
+    "updated_at": "2021-06-30T23:23:31.366766Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Starts a stored laser."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5658": {
     "id": 5658,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Stop Laser",
+    "description": "Stops any lasers in progress.",
+    "syntax_pattern": "stop %lasers%",
+    "compatible_addon_version": "1.3.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5658",
+    "created_at": "2021-06-30T23:23:31.374287Z",
+    "updated_at": "2021-06-30T23:23:31.374304Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Stops any lasers in progress."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5659": {
     "id": 5659,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Contents of Hologram Line",
+    "description": "Returns the text of a hologram line, or an itemstack.",
+    "syntax_pattern": "[skjade] [the] (content[s]|text|item) (of|in|at) [[the] holo[gram]] %hologramline%",
+    "compatible_addon_version": "1.3.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5659",
+    "created_at": "2021-06-30T23:23:31.381947Z",
+    "updated_at": "2021-06-30T23:23:31.381962Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the text of a hologram line, or an itemstack."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5660": {
     "id": 5660,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Laser/Guardian Beam",
+    "description": "Gets the laser/beam with the given id.",
+    "syntax_pattern": "[the] (la(s|z)er [beam]|guardian beam) with [the] id %string%",
+    "compatible_addon_version": "1.3.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Laser",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5660",
+    "created_at": "2021-06-30T23:23:31.412745Z",
+    "updated_at": "2021-06-30T23:23:31.412760Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the laser/beam with the given id."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5661": {
     "id": 5661,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Player's Spawn Point",
+    "description": "Gets and sets the spawn point of a player.",
+    "syntax_pattern": "[the] %player%[']s spawn[ point]\n[the] spawn [point] of %player%",
+    "compatible_addon_version": "1.3.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5661",
+    "created_at": "2021-06-30T23:23:31.420862Z",
+    "updated_at": "2021-06-30T23:23:31.420877Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets and sets the spawn point of a player."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5662": {
     "id": 5662,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Ankoki",
+    "title": "Start Location of a Laser",
+    "description": "Returns the start or end location of a laser.",
+    "syntax_pattern": "[the] (start|end)[ing] [loc[ation]] of %laser%",
+    "compatible_addon_version": "1.3.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkJade",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5662",
+    "created_at": "2021-06-30T23:23:31.428396Z",
+    "updated_at": "2021-06-30T23:23:31.428411Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the start or end location of a laser."
       ],
       "ko": [
-        "[SkJade] 한국어 가이드팩 준비 중"
+        "[SKJADE] 한국어 가이드 번역 대기 중"
       ]
     }
   }

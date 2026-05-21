@@ -1,2012 +1,4372 @@
 {
   "syntax_14523": {
     "id": 14523,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Animation Camera Remove Player",
+    "description": "Called when an animation camera has a player removed from it.",
+    "syntax_pattern": "[on] [deu] animation camera player remove[d]",
+    "compatible_addon_version": "3.3.6",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-players, event-activegroup, event-deuanimation, event-uuid",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14523",
+    "created_at": "2026-03-24T22:36:11.419681Z",
+    "updated_at": "2026-03-24T22:36:11.419703Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when an animation camera has a player removed from it."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14524": {
     "id": 14524,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Animation Camera Start",
+    "description": "Called when an animation camera begins for players.",
+    "syntax_pattern": "[on] [deu] animation camera start[ed]",
+    "compatible_addon_version": "3.3.6",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-players, event-activegroup, event-deuanimation, event-displayanimator, event-uuid",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14524",
+    "created_at": "2026-03-24T22:36:11.428765Z",
+    "updated_at": "2026-03-24T22:36:11.428779Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when an animation camera begins for players."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14525": {
     "id": 14525,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Animation Camera Stop",
+    "description": "Called when an animation camera stops for all of its players.",
+    "syntax_pattern": "[on] [deu] animation camera (stop[ped]|complete[d]|end[ed])",
+    "compatible_addon_version": "3.3.6",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-players, event-activegroup, event-deuanimation, event-uuid",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14525",
+    "created_at": "2026-03-24T22:36:11.436160Z",
+    "updated_at": "2026-03-24T22:36:11.436174Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when an animation camera stops for all of its players."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14526": {
     "id": 14526,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Animation Complete",
+    "description": "Called at the completion of an animation. This is not called for looping animations/animators",
+    "syntax_pattern": "[on] [deu] anim[ation] (complete[d]|end[ed])",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-activegroup, event-deuanimation, event-displayanimator",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14526",
+    "created_at": "2026-03-24T22:36:11.443332Z",
+    "updated_at": "2026-03-24T22:36:11.443346Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called at the completion of an animation. This is not called for looping animations/animators"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14527": {
     "id": 14527,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Animation Frame End",
+    "description": "Called when a frame ends animating on an active group.\nIgnores frame delay and is called after translation of parts",
+    "syntax_pattern": "[on] [deu] anim[ation] frame (complete[d]|end[ed])",
+    "compatible_addon_version": "2.6.2, 3.5.0 (Frame Id)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-activegroup, event-deuanimation, event-deuanimationframe, event-displayanimator, event-frameid",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14527",
+    "created_at": "2026-03-24T22:36:11.450394Z",
+    "updated_at": "2026-03-24T22:36:11.450408Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a frame ends animating on an active group.",
-        "Ignores frame delay and is called after translation of parts"
+        "Called when a frame ends animating on an active group.\nIgnores frame delay and is called after translation of parts"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14528": {
     "id": 14528,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Animation Frame Start",
+    "description": "Called when a frame begins animating on an active group",
+    "syntax_pattern": "[on] [deu] anim[ation] frame start[ed]",
+    "compatible_addon_version": "2.6.2, 3.5.0 (Frame Id)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-activegroup, event-deuanimation, event-deuanimationframe, event-displayanimator, event-frameid",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14528",
+    "created_at": "2026-03-24T22:36:11.457435Z",
+    "updated_at": "2026-03-24T22:36:11.457449Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a frame begins animating on an active group"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14529": {
     "id": 14529,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Animation Loop Start",
+    "description": "Called when a display animator begins a new animation loop",
+    "syntax_pattern": "[on] [deu] anim[ation] loop start[ed]",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-activegroup, event-deuanimation, event-displayanimator",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14529",
+    "created_at": "2026-03-24T22:36:11.465843Z",
+    "updated_at": "2026-03-24T22:36:11.465857Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a display animator begins a new animation loop"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14530": {
     "id": 14530,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Animation Start",
+    "description": "Called when a display animator starts playing an animation",
+    "syntax_pattern": "[on] [deu] anim[ation] start[ed]",
+    "compatible_addon_version": "3.2.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-deuanimation, event-displayanimator, event-spawnedgroup",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14530",
+    "created_at": "2026-03-24T22:36:11.472543Z",
+    "updated_at": "2026-03-24T22:36:11.472557Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a display animator starts playing an animation"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14531": {
     "id": 14531,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Chunk Register Group",
+    "description": "Called when a chunk loads a spawned group and registers it",
+    "syntax_pattern": "[on] chunk register[ing] [spawned] [display] group",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-chunk, event-spawnedgroup",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14531",
+    "created_at": "2026-03-24T22:36:11.479778Z",
+    "updated_at": "2026-03-24T22:36:11.479791Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a chunk loads a spawned group and registers it"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14532": {
     "id": 14532,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Entity Ride Group",
+    "description": "Called when an entity is mounted on a spawned group",
+    "syntax_pattern": "[on] entity (mount|ride) [spawned[-| ]]group",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-entity, event-spawnedgroup",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14532",
+    "created_at": "2026-03-24T22:36:11.486563Z",
+    "updated_at": "2026-03-24T22:36:11.486577Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when an entity is mounted on a spawned group"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14533": {
     "id": 14533,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Group Registered",
+    "description": "Called when a spawned group is registered by when automatically detected, nearby selection, or spawned from a saved group",
+    "syntax_pattern": "[on] [spawned] [display] group register[ed]",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-spawnedgroup",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14533",
+    "created_at": "2026-03-24T22:36:11.493630Z",
+    "updated_at": "2026-03-24T22:36:11.493644Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a spawned group is registered by when automatically detected, nearby selection, or spawned from a saved group"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14534": {
     "id": 14534,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Group Ride Entity",
+    "description": "Called when a spawned group is mounted on an entity",
+    "syntax_pattern": "[on] [spawned[-| ]]group (mount|ride) entity",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-entity, event-spawnedgroup",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14534",
+    "created_at": "2026-03-24T22:36:11.500665Z",
+    "updated_at": "2026-03-24T22:36:11.500677Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a spawned group is mounted on an entity"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14535": {
     "id": 14535,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Group Spawned",
+    "description": "Called when a spawned group is spawned from a saved group",
+    "syntax_pattern": "[on] [spawned] [display] group spawn[ed]",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-group spawn reason, event-spawnedgroup",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14535",
+    "created_at": "2026-03-24T22:36:11.508271Z",
+    "updated_at": "2026-03-24T22:36:11.508283Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a spawned group is spawned from a saved group"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14536": {
     "id": 14536,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Group Unregistered",
+    "description": "Called when a spawned based group is unregistered",
+    "syntax_pattern": "[on] [spawned] [display] group unregister[ed]",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-spawnedgroup",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14536",
+    "created_at": "2026-03-24T22:36:11.515492Z",
+    "updated_at": "2026-03-24T22:36:11.515504Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a spawned based group is unregistered"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14537": {
     "id": 14537,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Interaction Click",
+    "description": "Called when an interaction entity is clicked. Interaction commands can only be retrieved AFTER version 2.7.7",
+    "syntax_pattern": "[on] interaction [entity] click[ed]",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-entity, event-interaction click type, event-player, event-interactioncommand",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14537",
+    "created_at": "2026-03-24T22:36:11.522986Z",
+    "updated_at": "2026-03-24T22:36:11.523000Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when an interaction entity is clicked. Interaction commands can only be retrieved AFTER version 2.7.7"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14538": {
     "id": 14538,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Item Place Group Event",
+    "description": "Called when a player places a packet-based using an item",
+    "syntax_pattern": "[on] item place[d] [packet] [display] group",
+    "compatible_addon_version": "3.4.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-item stack, event-player, event-activegroup",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14538",
+    "created_at": "2026-03-24T22:36:11.530132Z",
+    "updated_at": "2026-03-24T22:36:11.530146Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a player places a packet-based using an item"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14539": {
     "id": 14539,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Packet Animation Complete",
+    "description": "Called at the completion of a packet-based animation. This is not called for looping animations/animators.\nIf players are not specified, the animation is shown to all players who can see the group.",
+    "syntax_pattern": "[on] [deu] packet anim[ation] (complete[d]|end[ed])",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-players, event-activegroup, event-deuanimation, event-displayanimator",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14539",
+    "created_at": "2026-03-24T22:36:11.537086Z",
+    "updated_at": "2026-03-24T22:36:11.537099Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called at the completion of a packet-based animation. This is not called for looping animations/animators.",
-        "If players are not specified, the animation is shown to all players who can see the group."
+        "Called at the completion of a packet-based animation. This is not called for looping animations/animators.\nIf players are not specified, the animation is shown to all players who can see the group."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14540": {
     "id": 14540,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Packet Animation Frame End",
+    "description": "Called when a frame ends animating on an active group.\nIgnores frame delay and is called after translation of parts.\nIf players are not specified, the animation is shown to all players who can see the group.",
+    "syntax_pattern": "[on] [deu] packet anim[ation] frame (complete[d]|end[ed])",
+    "compatible_addon_version": "3.0.0, 3.5.0 (Frame Id)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-players, event-activegroup, event-deuanimation, event-deuanimationframe, event-displayanimator, event-frameid",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14540",
+    "created_at": "2026-03-24T22:36:11.544729Z",
+    "updated_at": "2026-03-24T22:36:11.544743Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a frame ends animating on an active group.",
-        "Ignores frame delay and is called after translation of parts.",
-        "If players are not specified, the animation is shown to all players who can see the group."
+        "Called when a frame ends animating on an active group.\nIgnores frame delay and is called after translation of parts.\nIf players are not specified, the animation is shown to all players who can see the group."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14541": {
     "id": 14541,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Packet Animation Frame Start",
+    "description": "Called when a frame begins animating on a spawned group using packets.\nIf players are not specified, the animation is shown to all players who can see the group.",
+    "syntax_pattern": "[on] [deu] packet anim[ation] frame start[ed]",
+    "compatible_addon_version": "3.0.0, 3.5.0 (Frame Id)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-players, event-activegroup, event-deuanimation, event-deuanimationframe, event-displayanimator, event-frameid",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14541",
+    "created_at": "2026-03-24T22:36:11.552079Z",
+    "updated_at": "2026-03-24T22:36:11.552092Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a frame begins animating on a spawned group using packets.",
-        "If players are not specified, the animation is shown to all players who can see the group."
+        "Called when a frame begins animating on a spawned group using packets.\nIf players are not specified, the animation is shown to all players who can see the group."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14542": {
     "id": 14542,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Packet Animation Loop Start",
+    "description": "Called when a display animator begins a new animation loop using packets.\nIf players are not specified, the animation is shown to all players who can see the group.",
+    "syntax_pattern": "[on] [deu] packet anim[ation] loop start[ed]",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-players, event-activegroup, event-deuanimation, event-displayanimator",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14542",
+    "created_at": "2026-03-24T22:36:11.559475Z",
+    "updated_at": "2026-03-24T22:36:11.559489Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a display animator begins a new animation loop using packets.",
-        "If players are not specified, the animation is shown to all players who can see the group."
+        "Called when a display animator begins a new animation loop using packets.\nIf players are not specified, the animation is shown to all players who can see the group."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14543": {
     "id": 14543,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Packet Animation Start",
+    "description": "Called when a display animator starts playing an animation using packets.\nIf players are not specified, the animation is shown to all players who can see the group",
+    "syntax_pattern": "[on] [deu] packet anim[ation] start[ed]",
+    "compatible_addon_version": "3.2.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-players, event-deuanimation, event-displayanimator, event-spawnedgroup",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14543",
+    "created_at": "2026-03-24T22:36:11.566591Z",
+    "updated_at": "2026-03-24T22:36:11.566605Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a display animator starts playing an animation using packets.",
-        "If players are not specified, the animation is shown to all players who can see the group"
+        "Called when a display animator starts playing an animation using packets.\nIf players are not specified, the animation is shown to all players who can see the group"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14544": {
     "id": 14544,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Packet Group Destroyed",
+    "description": "Called when a packet-based group is hidden from players",
+    "syntax_pattern": "[on] packet [display] group (destroy[ed]|remove[d]|hid(e|den))",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-players, event-packetgroup",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14544",
+    "created_at": "2026-03-24T22:36:11.573956Z",
+    "updated_at": "2026-03-24T22:36:11.573970Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a packet-based group is hidden from players"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14545": {
     "id": 14545,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Packet Group Send",
+    "description": "Called when a packet-based group is sent to players",
+    "syntax_pattern": "[on] packet [display] group (spawn[ed]|sent|create[d])",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-group spawn reason, event-players, event-packetgroup",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14545",
+    "created_at": "2026-03-24T22:36:11.581310Z",
+    "updated_at": "2026-03-24T22:36:11.581331Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a packet-based group is sent to players"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14546": {
     "id": 14546,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Pre Group Spawned",
+    "description": "Called before a spawned group is spawned and created",
+    "syntax_pattern": "[on] pre [spawned] [display] group spawn[ed]",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-group spawn reason, event-savedgroup",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14546",
+    "created_at": "2026-03-24T22:36:11.588462Z",
+    "updated_at": "2026-03-24T22:36:11.588475Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called before a spawned group is spawned and created"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14547": {
     "id": 14547,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Pre Interaction Click",
+    "description": "Called when an interaction entity is clicked before the Interaction Click Event, but does not load commands",
+    "syntax_pattern": "[on] pre interaction [entity] click[ed]",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-entity, event-interaction click type, event-player",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14547",
+    "created_at": "2026-03-24T22:36:11.595660Z",
+    "updated_at": "2026-03-24T22:36:11.595674Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when an interaction entity is clicked before the Interaction Click Event, but does not load commands"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14548": {
     "id": 14548,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Pre Item Place Group Event",
+    "description": "Called before a player places a packet-based using an item",
+    "syntax_pattern": "[on] pre item place[d] [packet] [display] group",
+    "compatible_addon_version": "3.4.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-item stack, event-player, event-text",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14548",
+    "created_at": "2026-03-24T22:36:11.602955Z",
+    "updated_at": "2026-03-24T22:36:11.602969Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called before a player places a packet-based using an item"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14549": {
     "id": 14549,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "On Pre Packet Group Created",
+    "description": "Called before a packet-based group is created",
+    "syntax_pattern": "[on] pre packet [display] group (created[ed]|spawn[ed])",
+    "compatible_addon_version": "3.3.6",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-group spawn reason, event-savedgroup",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14549",
+    "created_at": "2026-03-24T22:36:11.610291Z",
+    "updated_at": "2026-03-24T22:36:11.610327Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called before a packet-based group is created"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14550": {
     "id": 14550,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Group Is Animating?",
+    "description": "Check if an active group is animating",
+    "syntax_pattern": "%activegroup% (is|is(n't| not)) animating",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14550",
+    "created_at": "2026-03-24T22:36:11.617420Z",
+    "updated_at": "2026-03-24T22:36:11.617434Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if an active group is animating"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14551": {
     "id": 14551,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Group Is Persistent",
+    "description": "Check if a spawned group is persistent",
+    "syntax_pattern": "deu [group] %activegroup% (is|is(n't| not)) persistent",
+    "compatible_addon_version": "2.6.2, 3.3.4 (Packet-Group)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14551",
+    "created_at": "2026-03-24T22:36:11.624585Z",
+    "updated_at": "2026-03-24T22:36:11.624599Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if a spawned group is persistent"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14552": {
     "id": 14552,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Group Is Registered?",
+    "description": "Check if an active group is registered and usable",
+    "syntax_pattern": "deu [group] %activegroup% (is|is(n't| not)) registered",
+    "compatible_addon_version": "2.6.2, 3.5.0 (Packet)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14552",
+    "created_at": "2026-03-24T22:36:11.631684Z",
+    "updated_at": "2026-03-24T22:36:11.631698Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if an active group is registered and usable"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14553": {
     "id": 14553,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Group/Part/Filter is Packet Based?",
+    "description": "Check if an active group/part/filter is packet-based",
+    "syntax_pattern": "%activegroup/partfilter/activepart% (is|is(n't| not)) packet [based]",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14553",
+    "created_at": "2026-03-24T22:36:11.639018Z",
+    "updated_at": "2026-03-24T22:36:11.639032Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if an active group/part/filter is packet-based"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14554": {
     "id": 14554,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "DisplayAnimator is animating ActiveGroup?",
+    "description": "Check if a displayanimator is animating an active group",
+    "syntax_pattern": "%displayanimator% (is|is(n't| not)) (animating|[a[n]] active animation) [on|of] %activegroup%",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14554",
+    "created_at": "2026-03-24T22:36:11.645884Z",
+    "updated_at": "2026-03-24T22:36:11.645898Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if a displayanimator is animating an active group"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14555": {
     "id": 14555,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Group/Animation Has Tag?",
+    "description": "Check if a saved or spawned group/animation has a tag",
+    "syntax_pattern": "%activegroup/savedgroup/deuanimation% (has|(has no|does(n't| not) have)) [a] tag",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14555",
+    "created_at": "2026-03-24T22:36:11.652986Z",
+    "updated_at": "2026-03-24T22:36:11.653000Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if a saved or spawned group/animation has a tag"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14556": {
     "id": 14556,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Interaction Command Type",
+    "description": "Check if a saved or spawned group has a tag",
+    "syntax_pattern": "%interactioncommand% (is|is(n't| not)) (player|console) c(ommand|md)",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14556",
+    "created_at": "2026-03-24T22:36:11.660020Z",
+    "updated_at": "2026-03-24T22:36:11.660034Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if a saved or spawned group has a tag"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14557": {
     "id": 14557,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Interaction Part Has Commands?",
+    "description": "Check if an interaction part/entity has commands that will run when clicked",
+    "syntax_pattern": "%activepart/entity% (has|(has no|does(n't| not) have)) [click] commands",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14557",
+    "created_at": "2026-03-24T22:36:11.666813Z",
+    "updated_at": "2026-03-24T22:36:11.666827Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if an interaction part/entity has commands that will run when clicked"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14558": {
     "id": 14558,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Is Display Animator Looping",
+    "description": "Check if an animator is looping",
+    "syntax_pattern": "%displayanimator%['s] anim[ation] type (is|is(n't| not)) looping",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14558",
+    "created_at": "2026-03-24T22:36:11.673822Z",
+    "updated_at": "2026-03-24T22:36:11.673837Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if an animator is looping"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14559": {
     "id": 14559,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Is Interaction Part Responsive?",
+    "description": "Check if an interaction part/entity is responsive",
+    "syntax_pattern": "%activepart/entity% (is|is(n't| not)) deu responsive",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14559",
+    "created_at": "2026-03-24T22:36:11.680870Z",
+    "updated_at": "2026-03-24T22:36:11.680883Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if an interaction part/entity is responsive"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14560": {
     "id": 14560,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Is Part Master/Parent?",
+    "description": "Check if an active part or a display entity is the master/parent part of an active group",
+    "syntax_pattern": "%activepart/display% (is|is(n't| not)) [the] (master|parent) part [of a [active] group]",
+    "compatible_addon_version": "2.6.2, 3.5.0 (parent)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14560",
+    "created_at": "2026-03-24T22:36:11.687740Z",
+    "updated_at": "2026-03-24T22:36:11.687754Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if an active part or a display entity is the master/parent part of an active group"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14561": {
     "id": 14561,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Is Part of Display Type?",
+    "description": "Check if an active part is of a display entity type (block, item, text)",
+    "syntax_pattern": "%activepart% (is|is(n't| not)) a display [entity] part",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14561",
+    "created_at": "2026-03-24T22:36:11.694740Z",
+    "updated_at": "2026-03-24T22:36:11.694754Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if an active part is of a display entity type (block, item, text)"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14562": {
     "id": 14562,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Is Player In Animation Camera?",
+    "description": "Check if a player is in an animation camera",
+    "syntax_pattern": "%player% (is|is(n't| not)) in [a[n]] animation camera",
+    "compatible_addon_version": "3.3.6",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14562",
+    "created_at": "2026-03-24T22:36:11.701662Z",
+    "updated_at": "2026-03-24T22:36:11.701676Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if a player is in an animation camera"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14563": {
     "id": 14563,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Player can see Active Group/Part?",
+    "description": "Check if a player can see an active group or active part",
+    "syntax_pattern": "%player% (can|can(t|( )not)) see [the] deu %activegroup/activepart%",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14563",
+    "created_at": "2026-03-24T22:36:11.708606Z",
+    "updated_at": "2026-03-24T22:36:11.708619Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if a player can see an active group or active part"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14564": {
     "id": 14564,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Spawned Group Is In Loaded Chunk?",
+    "description": "Check if a spawned group is in a loaded chunk",
+    "syntax_pattern": "%spawnedgroup% (is|is(n't| not)) in [a] loaded chunk",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14564",
+    "created_at": "2026-03-24T22:36:11.716038Z",
+    "updated_at": "2026-03-24T22:36:11.716052Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if a spawned group is in a loaded chunk"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14565": {
     "id": 14565,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Spawned Group Is Spawned?",
+    "description": "Check if a spawned group is present in the game world",
+    "syntax_pattern": "%spawnedgroup% (is|is(n't| not)) spawned",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14565",
+    "created_at": "2026-03-24T22:36:11.722966Z",
+    "updated_at": "2026-03-24T22:36:11.722979Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if a spawned group is present in the game world"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14566": {
     "id": 14566,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Spawned Group Is Visible By Default?",
+    "description": "Check if a spawned group is visible by default",
+    "syntax_pattern": "deu [group] %activegroup% (is|is(n't| not)) visible by default",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14566",
+    "created_at": "2026-03-24T22:36:11.730045Z",
+    "updated_at": "2026-03-24T22:36:11.730059Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if a spawned group is visible by default"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14567": {
     "id": 14567,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Spawned Group Persistence Override",
+    "description": "Check if a spawned group allows chunk loading to override its persistence",
+    "syntax_pattern": "%spawnedgroup% ((is|allows)|(is(n't| not) [allowing])) [chunk] persistence override",
+    "compatible_addon_version": "2.6.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14567",
+    "created_at": "2026-03-24T22:36:11.737189Z",
+    "updated_at": "2026-03-24T22:36:11.737202Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if a spawned group allows chunk loading to override its persistence"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14568": {
     "id": 14568,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Text Display Part Shadowed?",
+    "description": "Check if an text display part's text has shadows",
+    "syntax_pattern": "%activepart% ((is|has)|is(n't| not)) deu [text] [drop] shadow[ed|s]",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14568",
+    "created_at": "2026-03-24T22:36:11.744345Z",
+    "updated_at": "2026-03-24T22:36:11.744358Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if an text display part's text has shadows"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14569": {
     "id": 14569,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Text Display Part Visible Through Blocks?",
+    "description": "Check if an text display part is visible through blocks",
+    "syntax_pattern": "%activepart% (is|is(n't| not)) deu visible through (blocks|walls)",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14569",
+    "created_at": "2026-03-24T22:36:11.753445Z",
+    "updated_at": "2026-03-24T22:36:11.753459Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if an text display part is visible through blocks"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14570": {
     "id": 14570,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Group Persistence",
+    "description": "Change the persistence state of a active group.\nPersisting a packet-based group causes it to be saved in chunk data and it cannot ride entities.\nAny changes made to a persistent packet-based group must be applied using \"\"",
+    "syntax_pattern": "deu (force|make) %activegroups% [to] [not] persist[ent]",
+    "compatible_addon_version": "2.6.3, 3.3.4 (Packet)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14570",
+    "created_at": "2026-03-24T22:36:11.760161Z",
+    "updated_at": "2026-03-24T22:36:11.760175Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Change the persistence state of a active group.",
-        "Persisting a packet-based group causes it to be saved in chunk data and it cannot ride entities.",
-        "Any changes made to a persistent packet-based group must be applied using \"\""
+        "Change the persistence state of a active group.\nPersisting a packet-based group causes it to be saved in chunk data and it cannot ride entities.\nAny changes made to a persistent packet-based group must be applied using \"\""
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14571": {
     "id": 14571,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Group Respect Entity Direction",
+    "description": "Make an active group respect an entity's looking direction, matching its body yaw, pitch and/or yaw. \nIN VERSIONS BELOW v3.3.5, EACH TYPE IS PREFIXED WITH \"ft\": \"ft_body\", \"ft_pitch\", \"ft_yaw\", and \"ft_pitch_and_yaw\"!\n3.4.2+ replaces \"pitch_and_yaw\" with \"pitch and yaw\"",
+    "syntax_pattern": "make %activegroups% (follow|respect) %entity% (with|using) (pitch|yaw|pitch and yaw|body [yaw]) [ [and] flip group] [ [and] (with|using) (teleport[ation] duration|smoothness) [of] %number%] [ [and] [after death] despawn after %timespan%]",
+    "compatible_addon_version": "3.2.1, 3.3.5 (No \"ft\" prefix)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14571",
+    "created_at": "2026-03-24T22:36:11.767653Z",
+    "updated_at": "2026-03-24T22:36:11.767666Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Make an active group respect an entity's looking direction, matching its body yaw, pitch and/or yaw.",
-        "IN VERSIONS BELOW v3.3.5, EACH TYPE IS PREFIXED WITH \"ft\": \"ft_body\", \"ft_pitch\", \"ft_yaw\", and \"ft_pitch_and_yaw\"!",
-        "3.4.2+ replaces \"pitch_and_yaw\" with \"pitch and yaw\""
+        "Make an active group respect an entity's looking direction, matching its body yaw, pitch and/or yaw. \nIN VERSIONS BELOW v3.3.5, EACH TYPE IS PREFIXED WITH \"ft\": \"ft_body\", \"ft_pitch\", \"ft_yaw\", and \"ft_pitch_and_yaw\"!\n3.4.2+ replaces \"pitch_and_yaw\" with \"pitch and yaw\""
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14572": {
     "id": 14572,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Group Ride",
+    "description": "Make an active group ride an entity or vice versa",
+    "syntax_pattern": "[deu] make %activegroup/entity% (mount|ride) %activegroup/entity% [using controller [with id] %string%]",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14572",
+    "created_at": "2026-03-24T22:36:11.774644Z",
+    "updated_at": "2026-03-24T22:36:11.774658Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make an active group ride an entity or vice versa"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14573": {
     "id": 14573,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Group Stop Respecting Entity",
+    "description": "Make an active group stop respecting an entity's looking direction",
+    "syntax_pattern": "make %activegroups% (stop|end) (follow|respect)[ing] [entit(y|ies)]",
+    "compatible_addon_version": "3.2.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14573",
+    "created_at": "2026-03-24T22:36:11.781815Z",
+    "updated_at": "2026-03-24T22:36:11.781829Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make an active group stop respecting an entity's looking direction"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14574": {
     "id": 14574,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Group show Animation Frame",
+    "description": "Show an animation frame on an active group, optionally with custom duration and delay.",
+    "syntax_pattern": "show frame with id %number% on %activegroup% (with|from) [anim[ation]] %deuanimation% [[and] with duration %timespan% and delay %timespan%] [for %players%]",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14574",
+    "created_at": "2026-03-24T22:36:11.788940Z",
+    "updated_at": "2026-03-24T22:36:11.788952Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Show an animation frame on an active group, optionally with custom duration and delay."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14575": {
     "id": 14575,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Add/Remove Part Tag",
+    "description": "Add/Remove a part tag from an active part",
+    "syntax_pattern": "(add|remove) [part][-| ]tag[s] %strings% (to|from) %activeparts%",
+    "compatible_addon_version": "2.6.2, 3.3.4 (Packet-Parts)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14575",
+    "created_at": "2026-03-24T22:36:11.796948Z",
+    "updated_at": "2026-03-24T22:36:11.796961Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Add/Remove a part tag from an active part"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14577": {
     "id": 14577,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Clone Active Group",
+    "description": "Create a clone of an active group",
+    "syntax_pattern": "deu clone %activegroup% [at %location%] [[and] store[d] [it |the result] in %objects%]",
+    "compatible_addon_version": "2.6.2, 3.3.1 (Packet)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14577",
+    "created_at": "2026-03-24T22:36:11.811007Z",
+    "updated_at": "2026-03-24T22:36:11.811021Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create a clone of an active group"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14578": {
     "id": 14578,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Dismount Active Group",
+    "description": "Make an active group stop riding an entity",
+    "syntax_pattern": "deu dismount %activegroup%",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14578",
+    "created_at": "2026-03-24T22:36:11.818038Z",
+    "updated_at": "2026-03-24T22:36:11.818051Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make an active group stop riding an entity"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14579": {
     "id": 14579,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Glow",
+    "description": "Set the glowing of an active group/part/filter",
+    "syntax_pattern": "deu make %activegroups/activeparts/partfilters% (glow[ing] [for %timespan%] [for %players%]|unglow[ing] [for %players%])",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14579",
+    "created_at": "2026-03-24T22:36:11.824905Z",
+    "updated_at": "2026-03-24T22:36:11.824918Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set the glowing of an active group/part/filter"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14580": {
     "id": 14580,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Interaction Part's Responsiveness",
+    "description": "Set whether a interaction part should be visible through walls",
+    "syntax_pattern": "deu make %activeparts% [interaction] responsive\ndeu (stop|prevent|block) %activeparts% from being [interaction] responsive",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14580",
+    "created_at": "2026-03-24T22:36:11.831992Z",
+    "updated_at": "2026-03-24T22:36:11.832006Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set whether a interaction part should be visible through walls"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14581": {
     "id": 14581,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Merge Spawned Groups",
+    "description": "Merge two non-packet based groups as a single group",
+    "syntax_pattern": "deu (merge|combine) %spawnedgroup% with %spawnedgroup%",
+    "compatible_addon_version": "3.3.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14581",
+    "created_at": "2026-03-24T22:36:11.839130Z",
+    "updated_at": "2026-03-24T22:36:11.839144Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Merge two non-packet based groups as a single group"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14582": {
     "id": 14582,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Override Group Unregister Despawn",
+    "description": "Override the possible despawning of part entities when a non-packet group is unregistered",
+    "syntax_pattern": "[deu] [dis]allow group despawn",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14582",
+    "created_at": "2026-03-24T22:36:11.846054Z",
+    "updated_at": "2026-03-24T22:36:11.846067Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Override the possible despawning of part entities when a non-packet group is unregistered"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14583": {
     "id": 14583,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Packet Group Autoshow/Visibility",
+    "description": "Determine if a Packet Group should automatically reveal itself to players",
+    "syntax_pattern": "make %packetgroups% [stop] autoshow[ing] [and hide from current [players|viewers]]",
+    "compatible_addon_version": "3.2.0, 3.3.4 (Hide)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14583",
+    "created_at": "2026-03-24T22:36:11.852985Z",
+    "updated_at": "2026-03-24T22:36:11.852998Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Determine if a Packet Group should automatically reveal itself to players"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14584": {
     "id": 14584,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Part Filter Items/Blocks",
+    "description": "Set the items/blocks that should be filtered in a partfilter",
+    "syntax_pattern": "deu filter %partfilter% with[out] (block|item)[s] %itemtypes%",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14584",
+    "created_at": "2026-03-24T22:36:11.860100Z",
+    "updated_at": "2026-03-24T22:36:11.860114Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set the items/blocks that should be filtered in a partfilter"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14585": {
     "id": 14585,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Part Filter Part Tags",
+    "description": "Filter parts by part tags in a partfilter",
+    "syntax_pattern": "deu filter %partfilter% [with [part( |-)?]tag[s] %strings%] [[and ]without [part( |-)?]tag[s] %strings%]",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14585",
+    "created_at": "2026-03-24T22:36:11.866982Z",
+    "updated_at": "2026-03-24T22:36:11.866996Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Filter parts by part tags in a partfilter"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14576": {
     "id": 14576,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Spawn BDEngine Model from File",
+    "description": "Spawn a BDEngine Model, from a file, at a location, with specified options\n**Entries**\n`packet` = whether the group should be packet-based. False by default\n`teleport-duration` = the teleport-duration of display entities in the group. 0 by default\n`billboard` = the billboard of display entities in the group. FIXED by default\n`persistent` = the persistence of **all** entities in the group. True by default\n`visible` = whether the group should be visible. True by default\n`brightness` = the brightness of display entities in the group. Use `-1 and -1` for default brightness\n`spawnanimation` = whether the group should play its spawn animation. True by default\n\nIf a group is packet-based it's persistence cannot be set within the section and must be set afterwards.",
+    "syntax_pattern": "deu spawn bde[ngine] model %string% at %location% [[and] store[d] [it |the result] in %objects%]",
+    "compatible_addon_version": "3.3.0, 3.5.0 (New Syntax), 3.5.1 (Section)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14576",
+    "created_at": "2026-03-24T22:36:11.803887Z",
+    "updated_at": "2026-04-02T11:12:50.763248Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Spawn a BDEngine Model, from a file, at a location, with specified options",
-        "**Entries**",
-        "`packet` = whether the group should be packet-based. False by default",
-        "`teleport-duration` = the teleport-duration of display entities in the group. 0 by default",
-        "`billboard` = the billboard of display entities in the group. FIXED by default",
-        "`persistent` = the persistence of **all** entities in the group. True by default",
-        "`visible` = whether the group should be visible. True by default",
-        "`brightness` = the brightness of display entities in the group. Use `-1 and -1` for default brightness",
-        "`spawnanimation` = whether the group should play its spawn animation. True by default",
-        "If a group is packet-based it's persistence cannot be set within the section and must be set afterwards."
+        "Spawn a BDEngine Model, from a file, at a location, with specified options\n**Entries**\n`packet` = whether the group should be packet-based. False by default\n`teleport-duration` = the teleport-duration of display entities in the group. 0 by default\n`billboard` = the billboard of display entities in the group. FIXED by default\n`persistent` = the persistence of **all** entities in the group. True by default\n`visible` = whether the group should be visible. True by default\n`brightness` = the brightness of display entities in the group. Use `-1 and -1` for default brightness\n`spawnanimation` = whether the group should play its spawn animation. True by default\n\nIf a group is packet-based it's persistence cannot be set within the section and must be set afterwards."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14586": {
     "id": 14586,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Part Filter Part Types",
+    "description": "Set the part types of parts that should be filtered in a partfilter",
+    "syntax_pattern": "deu filter %partfilter% with[out] type[s] %parttypes%",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14586",
+    "created_at": "2026-03-24T22:36:11.873869Z",
+    "updated_at": "2026-03-24T22:36:11.873883Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set the part types of parts that should be filtered in a partfilter"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14587": {
     "id": 14587,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Part Filter Reset/Refresh/Remove",
+    "description": "Reset, refresh, or remove a partfilter",
+    "syntax_pattern": "(refresh|reset|remove) %partfilters%",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14587",
+    "created_at": "2026-03-24T22:36:11.880921Z",
+    "updated_at": "2026-03-24T22:36:11.880934Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Reset, refresh, or remove a partfilter"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14588": {
     "id": 14588,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Play Animation",
+    "description": "Play an animation on an active group with a display animator",
+    "syntax_pattern": "(start|play) [packet] anim[ation] on %activegroup% (using|with) %displayanimator% [[starting] (at|on) frame %number%] [for %players% [and (with|us(e|ing)) cam[era]]]",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet), 3.3.6 (Animation Camera)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14588",
+    "created_at": "2026-03-24T22:36:11.887650Z",
+    "updated_at": "2026-03-24T22:36:11.887663Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Play an animation on an active group with a display animator"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14589": {
     "id": 14589,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Play Animation Camera",
+    "description": "Make players follow an animation's camera on an active group using a display animator or animation",
+    "syntax_pattern": "(start|play) [anim[ation]] camera on %activegroup% (using|with) %displayanimator/deuanimation% [[starting] (at|on) frame %number%] for %players% [[and] [with] [a[n]] start[ing] transition of %timespan%] [[and] [with] [a[n]] end[ing] delay of %timespan%]",
+    "compatible_addon_version": "3.3.6",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14589",
+    "created_at": "2026-03-24T22:36:11.894570Z",
+    "updated_at": "2026-03-24T22:36:11.894601Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make players follow an animation's camera on an active group using a display animator or animation"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14590": {
     "id": 14590,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Rotate Active Group/Part",
+    "description": "Update the axis rotation of an active group/part, in degrees. \nThis only applies to display entity parts and display entities in groups",
+    "syntax_pattern": "deu rotate [world] (x|y|z) of %activegroup/activepart% by %number%",
+    "compatible_addon_version": "3.4.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14590",
+    "created_at": "2026-03-24T22:36:11.901647Z",
+    "updated_at": "2026-03-24T22:36:11.901661Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Update the axis rotation of an active group/part, in degrees.",
-        "This only applies to display entity parts and display entities in groups"
+        "Update the axis rotation of an active group/part, in degrees. \nThis only applies to display entity parts and display entities in groups"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14591": {
     "id": 14591,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Scale Active Group",
+    "description": "Change the scale multiplier of an active group",
+    "syntax_pattern": "deu scale %activegroup%['s] by [multiplier] %number% (for %players%|(for|over) %timespan%) [and [scale] interactions]",
+    "compatible_addon_version": "2.6.3, 3.0.0 (Packet), 3.5.0 (Player)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14591",
+    "created_at": "2026-03-24T22:36:11.909071Z",
+    "updated_at": "2026-03-24T22:36:11.909085Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Change the scale multiplier of an active group"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14592": {
     "id": 14592,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Show/Hide Active Group/Part/Filter",
+    "description": "Show or hide an active group/part/filter to/from a player",
+    "syntax_pattern": "deu ((show|reveal)|hide) %activegroups/activeparts/partfilters% (to|from) %players%",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14592",
+    "created_at": "2026-03-24T22:36:11.916470Z",
+    "updated_at": "2026-03-24T22:36:11.916483Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Show or hide an active group/part/filter to/from a player"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14593": {
     "id": 14593,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Stop All Animations",
+    "description": "Stop all animations playing on an active group",
+    "syntax_pattern": "stop [all] animations on %activegroup% [[and ]remove from [state] machine]",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14593",
+    "created_at": "2026-03-24T22:36:11.924010Z",
+    "updated_at": "2026-03-24T22:36:11.924024Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Stop all animations playing on an active group"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14594": {
     "id": 14594,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Stop Animation",
+    "description": "Stop an animation playing on an active group",
+    "syntax_pattern": "stop [packet] animation on %activegroup% from %displayanimator% [for %players%] [and (stop|end) cam[era]]",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet), 3.3.6 (Animation Camera)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14594",
+    "created_at": "2026-03-24T22:36:11.930946Z",
+    "updated_at": "2026-03-24T22:36:11.930959Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Stop an animation playing on an active group"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14595": {
     "id": 14595,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Stop Animation Camera",
+    "description": "Stop players from viewing an animation camera",
+    "syntax_pattern": "stop [animation] camera for %players%",
+    "compatible_addon_version": "3.3.6",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14595",
+    "created_at": "2026-03-24T22:36:11.938652Z",
+    "updated_at": "2026-03-24T22:36:11.938665Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Stop players from viewing an animation camera"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14596": {
     "id": 14596,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Stop Animations for Player",
+    "description": "Stop all packet animations playing on an active group for a player",
+    "syntax_pattern": "stop [all] packet animations from %displayanimator% for %players%",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14596",
+    "created_at": "2026-03-24T22:36:11.945818Z",
+    "updated_at": "2026-03-24T22:36:11.945847Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Stop all packet animations playing on an active group for a player"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14597": {
     "id": 14597,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Teleport Active Group",
+    "description": "Teleport an Active Group to a location",
+    "syntax_pattern": "deu teleport %activegroups% to %location% [[and] (keep|respect) group (facing|direction|orientation)]",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet), 3.3.5 (Plural)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14597",
+    "created_at": "2026-03-24T22:36:11.952724Z",
+    "updated_at": "2026-03-24T22:36:11.952738Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Teleport an Active Group to a location"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14598": {
     "id": 14598,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Text Display Part See Through Blocks",
+    "description": "Set whether a text display part should be visible through walls",
+    "syntax_pattern": "deu make %activeparts% visible through (blocks|walls)\ndeu (stop|prevent|block) %activeparts% from being (visible|seen) through (blocks|walls)",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14598",
+    "created_at": "2026-03-24T22:36:11.959598Z",
+    "updated_at": "2026-03-24T22:36:11.959612Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set whether a text display part should be visible through walls"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14599": {
     "id": 14599,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Text Display Part Shadow",
+    "description": "Set whether a text display part's text should have a shadow",
+    "syntax_pattern": "deu (apply|add) (drop|text) shadow to %activeparts%['s] text\ndeu (remove|clear) (drop|text) shadow from %activeparts%['s] text",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14599",
+    "created_at": "2026-03-24T22:36:11.966861Z",
+    "updated_at": "2026-03-24T22:36:11.966873Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set whether a text display part's text should have a shadow"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14600": {
     "id": 14600,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Toggle Animation Texture Changes",
+    "description": "Toggle whether textures should be updated during an animation. (Player Head Changes during animation, etc.)",
+    "syntax_pattern": "(dis|en)able texture change[s] for %deuanimations%",
+    "compatible_addon_version": "3.3.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14600",
+    "created_at": "2026-03-24T22:36:11.974147Z",
+    "updated_at": "2026-03-24T22:36:11.974161Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Toggle whether textures should be updated during an animation. (Player Head Changes during animation, etc.)"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14601": {
     "id": 14601,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Translate Active Group/Parts/Filter",
+    "description": "Change the translation of an active group/filter's parts, or of an active part",
+    "syntax_pattern": "add %vector% to %activegroups/activeparts/partfilters%['s] translation [(for|over|with) [duration] %timespan%]",
+    "compatible_addon_version": "2.7.3, 3.0.0 (Packet)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14601",
+    "created_at": "2026-03-24T22:36:11.981161Z",
+    "updated_at": "2026-03-24T22:36:11.981175Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Change the translation of an active group/filter's parts, or of an active part"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14602": {
     "id": 14602,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Unregister Active Group",
+    "description": "Unregister an active group, making the group unusable. Packet based groups do not require forced chunk loading, and will always despawn.",
+    "syntax_pattern": "[deu] unregister %activegroup% [[and ]despawn [[with|and] forced [chunk loading]]]",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14602",
+    "created_at": "2026-03-24T22:36:11.988357Z",
+    "updated_at": "2026-03-24T22:36:11.988372Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Unregister an active group, making the group unusable. Packet based groups do not require forced chunk loading, and will always despawn."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14603": {
     "id": 14603,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Update Persistent Packet Group",
+    "description": "Confirm any changes made to a persistent packet group, making them persist in future game sessions. \nThis does nothing if the packet group is not persistent.",
+    "syntax_pattern": "(update|confirm) persistent [packet group] %packetgroups%",
+    "compatible_addon_version": "3.3.4, 3.5.0 (confirm)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14603",
+    "created_at": "2026-03-24T22:36:11.995158Z",
+    "updated_at": "2026-03-24T22:36:11.995172Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Confirm any changes made to a persistent packet group, making them persist in future game sessions.",
-        "This does nothing if the packet group is not persistent."
+        "Confirm any changes made to a persistent packet group, making them persist in future game sessions. \nThis does nothing if the packet group is not persistent."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14604": {
     "id": 14604,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Group From Part/Filter/Entity",
+    "description": "Get the active group of a active part, part filter, or an eligible part entity",
+    "syntax_pattern": "[the] active[ |-]group of %activeparts/partfilters/entities%\n%activeparts/partfilters/entities%'[s] active[ |-]group",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet), 3.3.2 (Plural)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Active Group",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14604",
+    "created_at": "2026-03-24T22:36:12.001923Z",
+    "updated_at": "2026-03-24T22:36:12.001937Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the active group of a active part, part filter, or an eligible part entity"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14605": {
     "id": 14605,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Group From Placed Block",
+    "description": "Get the active group manually placed down at a block by a player. A player must have been holding a placeable group block item for the group at the specified block location to return the appropriate group.",
+    "syntax_pattern": "[player] placed [active] group at %location%",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Active Group",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14605",
+    "created_at": "2026-03-24T22:36:12.009782Z",
+    "updated_at": "2026-03-24T22:36:12.009796Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the active group manually placed down at a block by a player. A player must have been holding a placeable group block item for the group at the specified block location to return the appropriate group."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14606": {
     "id": 14606,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Group Location",
+    "description": "Get the location of an active group",
+    "syntax_pattern": "[the] deu [true] location of %activegroups%\n%activegroups%'[s] deu [true] location",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14606",
+    "created_at": "2026-03-24T22:36:12.018537Z",
+    "updated_at": "2026-03-24T22:36:12.018558Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the location of an active group"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14607": {
     "id": 14607,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Group Parts Filter",
+    "description": "Create a selection of parts from an active group, which can later be filtered",
+    "syntax_pattern": "[a] [new] part[ |-](filter|selection) [from|using|of] %activegroup%",
+    "compatible_addon_version": "2.6.2, 3.3.4 (Filter Syntax)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Part Filter",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14607",
+    "created_at": "2026-03-24T22:36:12.029694Z",
+    "updated_at": "2026-03-24T22:36:12.029708Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create a selection of parts from an active group, which can later be filtered"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14608": {
     "id": 14608,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Group Ride Offset",
+    "description": "Get or set the translation offset to apply to a group when its riding an entity. This should be used before making a group ride any entities",
+    "syntax_pattern": "[the] deu (rid(ing|e)|mount) [translation] offset of %activegroups%\n%activegroups%'[s] deu (rid(ing|e)|mount) [translation] offset",
+    "compatible_addon_version": "3.4.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14608",
+    "created_at": "2026-03-24T22:36:12.038207Z",
+    "updated_at": "2026-03-24T22:36:12.038220Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get or set the translation offset to apply to a group when its riding an entity. This should be used before making a group ride any entities"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14609": {
     "id": 14609,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Group/Part/Filter Interpolation",
+    "description": "Get/Set the interpolation duration/delay of an active group/part/filter",
+    "syntax_pattern": "[the] deu interpolation (duration|delay) of %activegroups/activeparts/partfilters%\n%activegroups/activeparts/partfilters%'[s] deu interpolation (duration|delay)",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14609",
+    "created_at": "2026-03-24T22:36:12.046377Z",
+    "updated_at": "2026-03-24T22:36:12.046391Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get/Set the interpolation duration/delay of an active group/part/filter"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14610": {
     "id": 14610,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Group/Part/Filter Teleport Duration",
+    "description": "Get/Set the teleportation duration of an active group, part or parts in a part filter. Get the duration on an active group/part.",
+    "syntax_pattern": "[the] deu teleport[ation][ |-]duration of %activegroups/activeparts/partfilters%\n%activegroups/activeparts/partfilters%'[s] deu teleport[ation][ |-]duration",
+    "compatible_addon_version": "2.7.2, 3.0.0 (Packet), 3.3.2 (Plural)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14610",
+    "created_at": "2026-03-24T22:36:12.053799Z",
+    "updated_at": "2026-03-24T22:36:12.053813Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get/Set the teleportation duration of an active group, part or parts in a part filter. Get the duration on an active group/part."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14611": {
     "id": 14611,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Group/Part/Filter View Range",
+    "description": "Get/Set the view range of an active group/part/filter",
+    "syntax_pattern": "[the] deu view range [multiplier] of %activegroups/activeparts/partfilters%\n%activegroups/activeparts/partfilters%'[s] deu view range [multiplier]",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14611",
+    "created_at": "2026-03-24T22:36:12.069511Z",
+    "updated_at": "2026-03-24T22:36:12.069526Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get/Set the view range of an active group/part/filter"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14612": {
     "id": 14612,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Part's Part UUID",
+    "description": "Get the part uuid of an active part, used to identify the part in its group and for animations. \nThis is different than the uuid of the entity a part represents.\nPart UUIDs are typically used to identify which part is which internally for animations",
+    "syntax_pattern": "[the] part uuid of %activeparts%\n%activeparts%'[s] part uuid",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet), 3.3.2 (Plural)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "UUID",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14612",
+    "created_at": "2026-03-24T22:36:12.077183Z",
+    "updated_at": "2026-03-24T22:36:12.077197Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get the part uuid of an active part, used to identify the part in its group and for animations.",
-        "This is different than the uuid of the entity a part represents.",
-        "Part UUIDs are typically used to identify which part is which internally for animations"
+        "Get the part uuid of an active part, used to identify the part in its group and for animations. \nThis is different than the uuid of the entity a part represents.\nPart UUIDs are typically used to identify which part is which internally for animations"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14613": {
     "id": 14613,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Part's Tags",
+    "description": "Get all the tags of a part",
+    "syntax_pattern": "[the] [active] part tags of %activeparts%\n%activeparts%'[s] [active] part tags",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet), 3.3.2 (Plural)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14613",
+    "created_at": "2026-03-24T22:36:12.086077Z",
+    "updated_at": "2026-03-24T22:36:12.086091Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get all the tags of a part"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14614": {
     "id": 14614,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Part's Type",
+    "description": "Get the active part's type",
+    "syntax_pattern": "[the] [active] part[- | ]type of %activeparts%\n%activeparts%'[s] [active] part[- | ]type",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet), 3.3.2 (Plural)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Part Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14614",
+    "created_at": "2026-03-24T22:36:12.093699Z",
+    "updated_at": "2026-03-24T22:36:12.093714Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the active part's type"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14615": {
     "id": 14615,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Parts of Group / Part Filter",
+    "description": "Get the parts of a group or part filter",
+    "syntax_pattern": "[the] [active] parts of %activegroups/partfilters%\n%activegroups/partfilters%'[s] [active] parts",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet), 3.3.2 (Plural)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Active Part",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14615",
+    "created_at": "2026-03-24T22:36:12.100446Z",
+    "updated_at": "2026-03-24T22:36:12.100460Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the parts of a group or part filter"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14616": {
     "id": 14616,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Animation of Display Animator",
+    "description": "Get the animation set for a display animator.",
+    "syntax_pattern": "[the] deu animation of %displayanimators%\n%displayanimators%'[s] deu animation",
+    "compatible_addon_version": "3.3.1, 3.3.2 (Plural)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Animation",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14616",
+    "created_at": "2026-03-24T22:36:12.107168Z",
+    "updated_at": "2026-03-24T22:36:12.107182Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the animation set for a display animator."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14617": {
     "id": 14617,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Billboard",
+    "description": "Get/Set the billboard of an active group/part/filter",
+    "syntax_pattern": "[the] deu billboard of %activegroups/activeparts/partfilters%\n%activegroups/activeparts/partfilters%'[s] deu billboard",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet Types), 3.5.0 (Plural)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Display Billboard",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14617",
+    "created_at": "2026-03-24T22:36:12.113864Z",
+    "updated_at": "2026-03-24T22:36:12.113878Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get/Set the billboard of an active group/part/filter"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14618": {
     "id": 14618,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Block Display Part's Block",
+    "description": "Set the block of a block display part.",
+    "syntax_pattern": "[the] deu block [data] of %activeparts/displays%\n%activeparts/displays%'[s] deu block [data]",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Block Data",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14618",
+    "created_at": "2026-03-24T22:36:12.120521Z",
+    "updated_at": "2026-03-24T22:36:12.120535Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set the block of a block display part."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14619": {
     "id": 14619,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Create Display Animator",
+    "description": "Create a display animator to play animations on an active group",
+    "syntax_pattern": "[a] [new] (linear|loop[ing]) [display] animator using [anim[ation]] %deuanimation%",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "DisplayAnimator",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14619",
+    "created_at": "2026-03-24T22:36:12.127077Z",
+    "updated_at": "2026-03-24T22:36:12.127091Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create a display animator to play animations on an active group"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14620": {
     "id": 14620,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Direction (Pitch, Yaw, Pivot)",
+    "description": "Get/Set the pitch and yaw of an active group/part/filter. Optionally pivot interactions",
+    "syntax_pattern": "[the] deu (yaw [with [interaction] pivot]|pitch) of %activegroups/activeparts/partfilters%\n%activegroups/activeparts/partfilters%'[s] deu (yaw [with [interaction] pivot]|pitch)",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14620",
+    "created_at": "2026-03-24T22:36:12.133980Z",
+    "updated_at": "2026-03-24T22:36:12.133994Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get/Set the pitch and yaw of an active group/part/filter. Optionally pivot interactions"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14621": {
     "id": 14621,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Entity Id of Active Part",
+    "description": "Get the entity id of an active part. This can be used in packet operations.",
+    "syntax_pattern": "[the] [deu] entity id of %activeparts%\n%activeparts%'[s] [deu] entity id",
+    "compatible_addon_version": "3.2.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14621",
+    "created_at": "2026-03-24T22:36:12.140985Z",
+    "updated_at": "2026-03-24T22:36:12.140999Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the entity id of an active part. This can be used in packet operations."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14622": {
     "id": 14622,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Entity of Spawned Part",
+    "description": "Get the Display or Interaction entity that a part represents. \nThis should only be done on non-packet based parts",
+    "syntax_pattern": "[the] [true] [spawned] part entity of %spawnedparts%\n%spawnedparts%'[s] [true] [spawned] part entity",
+    "compatible_addon_version": "2.6.2, 3.3.2 (Plural)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Entity",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14622",
+    "created_at": "2026-03-24T22:36:12.148194Z",
+    "updated_at": "2026-03-24T22:36:12.148208Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get the Display or Interaction entity that a part represents.",
-        "This should only be done on non-packet based parts"
+        "Get the Display or Interaction entity that a part represents. \nThis should only be done on non-packet based parts"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14623": {
     "id": 14623,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Frame Point Relative Location",
+    "description": "Get the location of a Frame Point relative to a group or location. \nThe provided location is more accurate when used on an Active Group since group scale is included in calculation.",
+    "syntax_pattern": "%framepoint% location relative [to|of] %activegroup/location%",
+    "compatible_addon_version": "3.2.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14623",
+    "created_at": "2026-03-24T22:36:12.154941Z",
+    "updated_at": "2026-03-24T22:36:12.154955Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get the location of a Frame Point relative to a group or location.",
-        "The provided location is more accurate when used on an Active Group since group scale is included in calculation."
+        "Get the location of a Frame Point relative to a group or location. \nThe provided location is more accurate when used on an Active Group since group scale is included in calculation."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14624": {
     "id": 14624,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Frame Point from Animation Frame",
+    "description": "Get a Frame Point, of a given tag, from an Animation Frame",
+    "syntax_pattern": "[frame[ |-]]point with tag %string% from %deuanimationframe%",
+    "compatible_addon_version": "3.2.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Frame Point",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14624",
+    "created_at": "2026-03-24T22:36:12.161839Z",
+    "updated_at": "2026-03-24T22:36:12.161853Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get a Frame Point, of a given tag, from an Animation Frame"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14625": {
     "id": 14625,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Frame Points from Animation Frame",
+    "description": "Get the Frame Points of an animation frame",
+    "syntax_pattern": "[the] anim[ation] [frame[ |-]]points of %deuanimationframes%\n%deuanimationframes%'[s] anim[ation] [frame[ |-]]points",
+    "compatible_addon_version": "3.2.1, 3.3.2 (Plural)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Frame Point",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14625",
+    "created_at": "2026-03-24T22:36:12.168726Z",
+    "updated_at": "2026-03-24T22:36:12.168738Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the Frame Points of an animation frame"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14626": {
     "id": 14626,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Get Group/Animation From Storage",
+    "description": "Get a saved group/animation from a load method (local, mongodb, mysql)",
+    "syntax_pattern": "(saved group|anim[ation]) [tagged] %string% from (local|mysql|mongo[db]) [storage]",
+    "compatible_addon_version": "3.3.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14626",
+    "created_at": "2026-03-24T22:36:12.175636Z",
+    "updated_at": "2026-03-24T22:36:12.175649Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get a saved group/animation from a load method (local, mongodb, mysql)"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14627": {
     "id": 14627,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Glow Color",
+    "description": "Set the glow color of a active or packet-based group, part, or part filter. Or get the glow color of a active group",
+    "syntax_pattern": "[the] deu glow[ing] colo[u]r [override] of %activegroups/activeparts/partfilters%\n%activegroups/activeparts/partfilters%'[s] deu glow[ing] colo[u]r [override]",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet), 3.3.2 (Plural)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Color",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14627",
+    "created_at": "2026-03-24T22:36:12.182561Z",
+    "updated_at": "2026-03-24T22:36:12.182575Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set the glow color of a active or packet-based group, part, or part filter. Or get the glow color of a active group"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14628": {
     "id": 14628,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Group Passengers",
+    "description": "Get the non-packet based groups riding an entity",
+    "syntax_pattern": "[the] spawned[ |-]group passengers of %entities%\n%entities%'[s] spawned[ |-]group passengers",
+    "compatible_addon_version": "2.6.2, 3.3.2 (Plural)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Spawned Group",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14628",
+    "created_at": "2026-03-24T22:36:12.189466Z",
+    "updated_at": "2026-03-24T22:36:12.189480Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the non-packet based groups riding an entity"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14629": {
     "id": 14629,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Group/Animation/Frame Point Tag",
+    "description": "Get or set the tag of a group/animation. Only the tag of a active group/animation can be changed",
+    "syntax_pattern": "[the] deu tag of %activegroups/savedgroups/deuanimations/framepoints%\n%activegroups/savedgroups/deuanimations/framepoints%'[s] deu tag",
+    "compatible_addon_version": "2.6.2, 3.0.0 (Packet), 3.2.1 (Frame Point), 3.3.2 (Plural)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14629",
+    "created_at": "2026-03-24T22:36:12.196239Z",
+    "updated_at": "2026-03-24T22:36:12.196253Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get or set the tag of a group/animation. Only the tag of a active group/animation can be changed"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14630": {
     "id": 14630,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Interaction Part's Height/Width",
+    "description": "Get/Set the height or width of an interaction part.",
+    "syntax_pattern": "[the] deu interaction (height|width) of %activeparts/entities%\n%activeparts/entities%'[s] deu interaction (height|width)",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14630",
+    "created_at": "2026-03-24T22:36:12.202931Z",
+    "updated_at": "2026-03-24T22:36:12.202945Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get/Set the height or width of an interaction part."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14631": {
     "id": 14631,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Item Display Part's Item",
+    "description": "Set the item of a item display part.",
+    "syntax_pattern": "[the] deu item [display] [item] of %activeparts/displays%\n%activeparts/displays%'[s] deu item [display] [item]",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Item",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14631",
+    "created_at": "2026-03-24T22:36:12.209898Z",
+    "updated_at": "2026-03-24T22:36:12.209912Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set the item of a item display part."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14632": {
     "id": 14632,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Item Display Part's Transform",
+    "description": "Set the item display transform of a part, if it's of a item display type.",
+    "syntax_pattern": "[the] deu item [display] transform of %activeparts/displays%\n%activeparts/displays%'[s] deu item [display] transform",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Item Display Transforms",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14632",
+    "created_at": "2026-03-24T22:36:12.216791Z",
+    "updated_at": "2026-03-24T22:36:12.216804Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set the item display transform of a part, if it's of a item display type."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14633": {
     "id": 14633,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Master/Parent Part of Active Group",
+    "description": "Get the master/parent part of an active group, which all other parts are passengers of",
+    "syntax_pattern": "[the] (parent|master) [active] part of %activegroups%\n%activegroups%'[s] (parent|master) [active] part",
+    "compatible_addon_version": "3.3.2, 3.0.0 (Packet), 3.3.2 (Plural)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Active Part",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14633",
+    "created_at": "2026-03-24T22:36:12.223862Z",
+    "updated_at": "2026-03-24T22:36:12.223878Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the master/parent part of an active group, which all other parts are passengers of"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14634": {
     "id": 14634,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Persistent Packet Group From Id",
+    "description": "Get a persistent packet-based Group from its ID",
+    "syntax_pattern": "persistent packet group (from|with) [global] id %string%",
+    "compatible_addon_version": "3.3.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Packet Group",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14634",
+    "created_at": "2026-03-24T22:36:12.231145Z",
+    "updated_at": "2026-03-24T22:36:12.231159Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get a persistent packet-based Group from its ID"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14635": {
     "id": 14635,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Persistent Packet Group Id",
+    "description": "Get the id of a persistent packet-based group, which can be used to get the group at the later time, even in different sessions.",
+    "syntax_pattern": "[the] persistent [global] id of %packetgroup%\n%packetgroup%'[s] persistent [global] id",
+    "compatible_addon_version": "3.3.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14635",
+    "created_at": "2026-03-24T22:36:12.238532Z",
+    "updated_at": "2026-03-24T22:36:12.238545Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the id of a persistent packet-based group, which can be used to get the group at the later time, even in different sessions."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14636": {
     "id": 14636,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Player's Selected Animation",
+    "description": "Get/Set the selected animation of a player",
+    "syntax_pattern": "[the] selected anim[ation] of %players%\n%players%'[s] selected anim[ation]",
+    "compatible_addon_version": "2.6.3, 3.3.2 (Plural)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Animation",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14636",
+    "created_at": "2026-03-24T22:36:12.246087Z",
+    "updated_at": "2026-03-24T22:36:12.246099Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get/Set the selected animation of a player"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14637": {
     "id": 14637,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Player's Selected Group",
+    "description": "Get/Set the selected active group of a player",
+    "syntax_pattern": "[the] selected [active] [display] [entity] group of %players%\n%players%'[s] selected [active] [display] [entity] group",
+    "compatible_addon_version": "2.6.2, 3.3.2 (Plural), 3.3.4 (Packet Group)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Active Group",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14637",
+    "created_at": "2026-03-24T22:36:12.252994Z",
+    "updated_at": "2026-03-24T22:36:12.253008Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get/Set the selected active group of a player"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14638": {
     "id": 14638,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Player's Selected Part",
+    "description": "Get the selected active part of a player",
+    "syntax_pattern": "[the] selected [active] part of %players%\n%players%'[s] selected [active] part",
+    "compatible_addon_version": "3.4.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Active Part",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14638",
+    "created_at": "2026-03-24T22:36:12.259994Z",
+    "updated_at": "2026-03-24T22:36:12.260007Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the selected active part of a player"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14639": {
     "id": 14639,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Save Active Group",
+    "description": "Get an unmodifiable version of an Active Group",
+    "syntax_pattern": "%activegroup% as saved[ |-]group",
+    "compatible_addon_version": "3.3.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Saved Group",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14639",
+    "created_at": "2026-03-24T22:36:12.267009Z",
+    "updated_at": "2026-03-24T22:36:12.267021Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get an unmodifiable version of an Active Group"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14640": {
     "id": 14640,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Spawned Group Near Location",
+    "description": "Get, and optionally register, the nearest or all nearby non-packet groups within a location",
+    "syntax_pattern": "(all|nearest) [registered] spawned[ |-]group[s] within %number% [block[s]] of %location%",
+    "compatible_addon_version": "2.6.2, 3.4.3 (Registered)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Spawned Group",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14640",
+    "created_at": "2026-03-24T22:36:12.273941Z",
+    "updated_at": "2026-03-24T22:36:12.273954Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get, and optionally register, the nearest or all nearby non-packet groups within a location"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14641": {
     "id": 14641,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Spawned Part of Entity",
+    "description": "Get the spawned part that represents a part-eligible entity",
+    "syntax_pattern": "[the] deu part of %entities%\n%entities%'[s] deu part",
+    "compatible_addon_version": "2.6.2, 3.3.2 (Plural)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Spawned Part",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14641",
+    "created_at": "2026-03-24T22:36:12.280689Z",
+    "updated_at": "2026-03-24T22:36:12.280718Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the spawned part that represents a part-eligible entity"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14642": {
     "id": 14642,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Text Display Part's Line Width",
+    "description": "Set the line width of a text display part.",
+    "syntax_pattern": "[the] deu text [display] line width of %activeparts%\n%activeparts%'[s] deu text [display] line width",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14642",
+    "created_at": "2026-03-24T22:36:12.288232Z",
+    "updated_at": "2026-03-24T22:36:12.288245Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set the line width of a text display part."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14643": {
     "id": 14643,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Text Display Part's Opacity",
+    "description": "Set the opacity of a text display part.",
+    "syntax_pattern": "[the] deu [text] [display] opacity of %activeparts%\n%activeparts%'[s] deu [text] [display] opacity",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14643",
+    "created_at": "2026-03-24T22:36:12.295066Z",
+    "updated_at": "2026-03-24T22:36:12.295080Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set the opacity of a text display part."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14644": {
     "id": 14644,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Text Display Part's Text",
+    "description": "Set the text of a text display part.",
+    "syntax_pattern": "[the] deu text [display] [text] of %activeparts%\n%activeparts%'[s] deu text [display] [text]",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14644",
+    "created_at": "2026-03-24T22:36:12.302154Z",
+    "updated_at": "2026-03-24T22:36:12.302169Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set the text of a text display part."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14645": {
     "id": 14645,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Translated Location of Active Part / Entity",
+    "description": "Get the location relative to a active part's true location, based off of its translation.",
+    "syntax_pattern": "[the] translated location of %activeparts/displays%\n%activeparts/displays%'[s] translated location",
+    "compatible_addon_version": "3.1.2, 3.3.2 (Plural)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14645",
+    "created_at": "2026-03-24T22:36:12.309516Z",
+    "updated_at": "2026-03-24T22:36:12.309530Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the location relative to a active part's true location, based off of its translation."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14646": {
     "id": 14646,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Group",
+    "description": "An ambiguous representation of a Spawned Group or Packet Group",
+    "syntax_pattern": "active[ |-](group|model)[s]",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14646",
+    "created_at": "2026-03-24T22:36:12.316856Z",
+    "updated_at": "2026-03-24T22:36:12.316869Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "An ambiguous representation of a Spawned Group or Packet Group"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14647": {
     "id": 14647,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Active Part",
+    "description": "Represents an entity from an active Display Entity Group/Model.\n\nThis can be packet-based.",
+    "syntax_pattern": "active[ |-]part[s]",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14647",
+    "created_at": "2026-03-24T22:36:12.323733Z",
+    "updated_at": "2026-03-24T22:36:12.323746Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Represents an entity from an active Display Entity Group/Model.",
-        "This can be packet-based."
+        "Represents an entity from an active Display Entity Group/Model.\n\nThis can be packet-based."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14648": {
     "id": 14648,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Animation",
+    "description": "Represents an animation that can be played on an activegroup",
+    "syntax_pattern": "deu[ |-]anim[ation]",
+    "compatible_addon_version": "3.3.1 (animation), 3.5.0 (deuanimation)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14648",
+    "created_at": "2026-03-24T22:36:12.330758Z",
+    "updated_at": "2026-03-24T22:36:12.330771Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an animation that can be played on an activegroup"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14649": {
     "id": 14649,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Animation Frame",
+    "description": "Represents an Animation Frame from an Animation",
+    "syntax_pattern": "deu[ |-][anim(ation][ |-][)]frame",
+    "compatible_addon_version": "3.3.1 (animationframe), 3.5.0 (deuanimationframe)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14649",
+    "created_at": "2026-03-24T22:36:12.337846Z",
+    "updated_at": "2026-03-24T22:36:12.337859Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an Animation Frame from an Animation"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14650": {
     "id": 14650,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "DisplayAnimator",
+    "description": "Used to play an animation on activegroups",
+    "syntax_pattern": "[display]animator",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14650",
+    "created_at": "2026-03-24T22:36:12.344744Z",
+    "updated_at": "2026-03-24T22:36:12.344758Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Used to play an animation on activegroups"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14651": {
     "id": 14651,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Frame Id",
+    "description": "Represents the frame id of ab Animation Frame",
+    "syntax_pattern": "frame[ |-]id",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14651",
+    "created_at": "2026-03-24T22:36:12.351701Z",
+    "updated_at": "2026-03-24T22:36:12.351714Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents the frame id of ab Animation Frame"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14652": {
     "id": 14652,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Frame Point",
+    "description": "Represents a Frame Point from an Animation Frame",
+    "syntax_pattern": "frame[ |-]point",
+    "compatible_addon_version": "3.2.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14652",
+    "created_at": "2026-03-24T22:36:12.358736Z",
+    "updated_at": "2026-03-24T22:36:12.358749Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a Frame Point from an Animation Frame"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14653": {
     "id": 14653,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Group Spawn Reason",
+    "description": "Represents a spawn reason when a saved Group/Model is spawned.",
+    "syntax_pattern": "group[ |-]spawn[ |-]reason",
+    "compatible_addon_version": "2.6.2, 3.0.0 (INTERNAL)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": "gsr_chunk_load_placed, gsr_clone, gsr_command, gsr_custom, gsr_display_controller, gsr_internal, gsr_itemstack, gsr_player_sent_chunk, gsr_player_sent_passenger_group, gsr_skript",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14653",
+    "created_at": "2026-03-24T22:36:12.365824Z",
+    "updated_at": "2026-03-24T22:36:12.365838Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a spawn reason when a saved Group/Model is spawned."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14654": {
     "id": 14654,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Interaction Click Type",
+    "description": "Represents a interaction click type of LEFT or RIGHT",
+    "syntax_pattern": "i[nteraction][ | -]click[ | -]type",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": "iclicktype_left, iclicktype_right",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14654",
+    "created_at": "2026-03-24T22:36:12.372985Z",
+    "updated_at": "2026-03-24T22:36:12.372999Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a interaction click type of LEFT or RIGHT"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14655": {
     "id": 14655,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Interaction Command",
+    "description": "Represents an Interaction Command stored on an Interaction Entity",
+    "syntax_pattern": "interaction[ |-]c(ommand|md)",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14655",
+    "created_at": "2026-03-24T22:36:12.379734Z",
+    "updated_at": "2026-03-24T22:36:12.379747Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an Interaction Command stored on an Interaction Entity"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14656": {
     "id": 14656,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Packet Group",
+    "description": "Represents a packet-based Display Entity Group/Model",
+    "syntax_pattern": "packet[ |-](group|model)[s]",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14656",
+    "created_at": "2026-03-24T22:36:12.386632Z",
+    "updated_at": "2026-03-24T22:36:12.386645Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a packet-based Display Entity Group/Model"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14657": {
     "id": 14657,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Packet Part",
+    "description": "Represents an individual entity from a packet-based active group.",
+    "syntax_pattern": "packet[ |-]part[s]",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14657",
+    "created_at": "2026-03-24T22:36:12.393457Z",
+    "updated_at": "2026-03-24T22:36:12.393471Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an individual entity from a packet-based active group."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14658": {
     "id": 14658,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Part Filter",
+    "description": "Represents a selection of filtered parts from an Active Group. This may be packet based.",
+    "syntax_pattern": "part[ |-]filter[s]",
+    "compatible_addon_version": "3.1.1 (multipartselection), 3.3.4 (multipartfilter), 3.5.0 (partfilter)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14658",
+    "created_at": "2026-03-24T22:36:12.400369Z",
+    "updated_at": "2026-03-24T22:36:12.400383Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a selection of filtered parts from an Active Group. This may be packet based."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14659": {
     "id": 14659,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Part Type",
+    "description": "Represents a part's (display, interaction, etc.) type",
+    "syntax_pattern": "part[ | -]type",
+    "compatible_addon_version": "2.6.2, 3.3.6 (Removed \"parttype_\" prefix), 3.4.0 (Mannequin)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": "block_display, deu_interaction, deu_mannequin, item_display, text_display",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14659",
+    "created_at": "2026-03-24T22:36:12.407322Z",
+    "updated_at": "2026-03-24T22:36:12.407336Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a part's (display, interaction, etc.) type"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14660": {
     "id": 14660,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Saved Group",
+    "description": "Represents a saved Display Entity Group/Model",
+    "syntax_pattern": "saved[ |-](group|model)[s]",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14660",
+    "created_at": "2026-03-24T22:36:12.414498Z",
+    "updated_at": "2026-03-24T22:36:12.414511Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a saved Display Entity Group/Model"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14661": {
     "id": 14661,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Spawned Group",
+    "description": "Represents a Display Entity Group/Model spawned in the game world",
+    "syntax_pattern": "spawned[ |-](group|model)[s]",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14661",
+    "created_at": "2026-03-24T22:36:12.421240Z",
+    "updated_at": "2026-03-24T22:36:12.421253Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a Display Entity Group/Model spawned in the game world"
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14662": {
     "id": 14662,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Spawned Part",
+    "description": "Represents an individual entity from an active Display Entity Group/Model.\nA spawned part can be used as an entity in other expressions, effects, etc.",
+    "syntax_pattern": "spawned[ |-]part[s]",
+    "compatible_addon_version": "2.6.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14662",
+    "created_at": "2026-03-24T22:36:12.428532Z",
+    "updated_at": "2026-03-24T22:36:12.428545Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Represents an individual entity from an active Display Entity Group/Model.",
-        "A spawned part can be used as an entity in other expressions, effects, etc."
+        "Represents an individual entity from an active Display Entity Group/Model.\nA spawned part can be used as an entity in other expressions, effects, etc."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14663": {
     "id": 14663,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "donnypz",
+    "title": "Spawn Group",
+    "description": "Spawn a DEU Group/Model at a location, with specified options\n**Entries**\n`packet` = whether the group should be packet-based. False by default\n`teleport-duration` = the teleport-duration of display entities in the group. 0 by default\n`billboard` = the billboard of display entities in the group. FIXED by default\n`persistent` = the persistence of **all** entities in the group. True by default\n`visible` = whether the group should be visible. True by default\n`brightness` = the brightness of display entities in the group. Use `-1 and -1` for default brightness\n`spawnanimation` = whether the group should play its spawn animation. True by default\n\nIf a group is packet-based it's persistence cannot be set within the section and must be set afterwards.",
+    "syntax_pattern": "deu spawn %savedgroup% at %location% [[and] store[d] [it |the result] in %objects%]",
+    "compatible_addon_version": "3.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "DisplayEntityUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14663",
+    "created_at": "2026-03-24T22:36:12.435803Z",
+    "updated_at": "2026-04-02T11:12:50.773170Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Spawn a DEU Group/Model at a location, with specified options",
-        "**Entries**",
-        "`packet` = whether the group should be packet-based. False by default",
-        "`teleport-duration` = the teleport-duration of display entities in the group. 0 by default",
-        "`billboard` = the billboard of display entities in the group. FIXED by default",
-        "`persistent` = the persistence of **all** entities in the group. True by default",
-        "`visible` = whether the group should be visible. True by default",
-        "`brightness` = the brightness of display entities in the group. Use `-1 and -1` for default brightness",
-        "`spawnanimation` = whether the group should play its spawn animation. True by default",
-        "If a group is packet-based it's persistence cannot be set within the section and must be set afterwards."
+        "Spawn a DEU Group/Model at a location, with specified options\n**Entries**\n`packet` = whether the group should be packet-based. False by default\n`teleport-duration` = the teleport-duration of display entities in the group. 0 by default\n`billboard` = the billboard of display entities in the group. FIXED by default\n`persistent` = the persistence of **all** entities in the group. True by default\n`visible` = whether the group should be visible. True by default\n`brightness` = the brightness of display entities in the group. Use `-1 and -1` for default brightness\n`spawnanimation` = whether the group should play its spawn animation. True by default\n\nIf a group is packet-based it's persistence cannot be set within the section and must be set afterwards."
       ],
       "ko": [
-        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+        "[DISPLAYENTITYUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   }

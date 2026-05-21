@@ -1,1535 +1,3349 @@
 {
   "syntax_12720": {
     "id": 12720,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "On Citizen Click",
+    "description": "Called when a Citizens NPC is clicked by a player.",
+    "syntax_pattern": "[on] (citizen|npc) click",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-npc, event-player",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=12720",
+    "created_at": "2025-01-05T05:37:21.233918Z",
+    "updated_at": "2025-01-05T05:37:21.233941Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a Citizens NPC is clicked by a player."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12744": {
     "id": 12744,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Forcefield",
+    "description": "Creates a forcefield around the NPCs with the specified width, height, strength and vertical strength.",
+    "syntax_pattern": "make %npcs% have %npcforcefield%\nremove forcefield of %npcs%\nremove %npcs%['s] forcefield",
+    "compatible_addon_version": "1.2.1-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12744",
+    "created_at": "2025-01-05T05:37:21.467466Z",
+    "updated_at": "2025-01-19T09:21:45.461953Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a forcefield around the NPCs with the specified width, height, strength and vertical strength."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12725": {
     "id": 12725,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "On Citizen Damage by Block",
+    "description": "Called when a Citizens NPC is damaged by a block.\nExample: Lava, Fire",
+    "syntax_pattern": "[on] (citizen|npc) damage by [a] block",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-block, event-damage cause, event-npc, event-number",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=12725",
+    "created_at": "2025-01-05T05:37:21.316411Z",
+    "updated_at": "2025-06-24T05:52:31.386263Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a Citizens NPC is damaged by a block.",
-        "Example: Lava, Fire"
+        "Called when a Citizens NPC is damaged by a block.\nExample: Lava, Fire"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12728": {
     "id": 12728,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "On Citizen Despawn",
+    "description": "Called when a Citizens NPC despawns.",
+    "syntax_pattern": "[on] (citizen|npc) despawn",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-npc, event-npc despawn reason",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=12728",
+    "created_at": "2025-01-05T05:37:21.340543Z",
+    "updated_at": "2025-06-24T05:52:31.410699Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a Citizens NPC despawns."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12729": {
     "id": 12729,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "On Citizen Left Click",
+    "description": "Called when a Citizens NPC is left clicked by a player.\nOnly is called if NPC is not vulnerable.",
+    "syntax_pattern": "[on] (citizen|npc) left click",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-npc, event-player",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=12729",
+    "created_at": "2025-01-05T05:37:21.348738Z",
+    "updated_at": "2025-01-05T05:37:21.348753Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a Citizens NPC is left clicked by a player.",
-        "Only is called if NPC is not vulnerable."
+        "Called when a Citizens NPC is left clicked by a player.\nOnly is called if NPC is not vulnerable."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12730": {
     "id": 12730,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "On Citizen Remove",
+    "description": "Called when a Citizens NPC is removed.",
+    "syntax_pattern": "[on] (citizen|npc) (delete|remove)",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-npc",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12730",
+    "created_at": "2025-01-05T05:37:21.356437Z",
+    "updated_at": "2025-01-05T05:37:21.356452Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a Citizens NPC is removed."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12731": {
     "id": 12731,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "On Citizen Right Click",
+    "description": "Called when a Citizens NPC is right clicked by a player",
+    "syntax_pattern": "[on] (citizen|npc) right click",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-npc, event-player",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=12731",
+    "created_at": "2025-01-05T05:37:21.364339Z",
+    "updated_at": "2025-01-05T05:37:21.364353Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a Citizens NPC is right clicked by a player"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12735": {
     "id": 12735,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Is Paused",
+    "description": "Whether the navigator of a Citizens NPC is paused.",
+    "syntax_pattern": "(citizen|npc)[s] %npcs% (is|are) paused\n(citizen|npc)[s] %npcs% (isn't|is not|aren't|are not) paused",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12735",
+    "created_at": "2025-01-05T05:37:21.395621Z",
+    "updated_at": "2025-09-10T07:44:37.443651Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether the navigator of a Citizens NPC is paused."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12736": {
     "id": 12736,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Is Targetable",
+    "description": "Make a Citizens NPC targetable by other mobs.",
+    "syntax_pattern": "(citizen|npc)[s] %npcs% (is|can be|are) target(able|ed)\n(citizen|npc)[s] %npcs% (is(n't| not)|are(n't| not)|can('t|not be)) target(able|ed)",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12736",
+    "created_at": "2025-01-05T05:37:21.403833Z",
+    "updated_at": "2025-09-10T07:44:37.451827Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make a Citizens NPC targetable by other mobs."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12742": {
     "id": 12742,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Change Skin",
+    "description": "Changes the skin of a player.",
+    "syntax_pattern": "(change|set) %player%['s] skin to %skin%\n(change|set) skin of %player% to %skin%",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12742",
+    "created_at": "2025-01-05T05:37:21.452315Z",
+    "updated_at": "2025-01-05T05:37:21.452330Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Changes the skin of a player."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12743": {
     "id": 12743,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Attack",
+    "description": "Make a citizen attack an entityWill also stop any pathfinding.",
+    "syntax_pattern": "make (npc|citizen)[s] %npcs% (attack|fight) %entity%\nstop (npc|citizen)[s] %npcs% from (attacking|fighting) %entity%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12743",
+    "created_at": "2025-01-05T05:37:21.459919Z",
+    "updated_at": "2026-04-03T01:00:24.416993Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make a citizen attack an entityWill also stop any pathfinding."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12746": {
     "id": 12746,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Delete Citizen",
+    "description": "Destroy a citizen by id.",
+    "syntax_pattern": "delete (citizen|npc)[s] %npcs%",
+    "compatible_addon_version": "1.0.0, 1.2.2-b1 (multiple)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12746",
+    "created_at": "2025-01-05T05:37:21.482999Z",
+    "updated_at": "2025-09-10T07:44:37.485340Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Destroy a citizen by id."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12747": {
     "id": 12747,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Despawn/Respawn Citizen",
+    "description": "Despawn or respawn a citizen.",
+    "syntax_pattern": "[citizens|npc] despawn %npcs%\n[citizens|npc] respawn %npcs% %direction% %location%",
+    "compatible_addon_version": "1.0.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12747",
+    "created_at": "2025-01-05T05:37:21.490603Z",
+    "updated_at": "2025-01-05T05:37:21.490617Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Despawn or respawn a citizen."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12748": {
     "id": 12748,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Download Player Skin",
+    "description": "Downloads a skin",
+    "syntax_pattern": "(download|save) %skin%",
+    "compatible_addon_version": "1.0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12748",
+    "created_at": "2025-01-05T05:37:21.500455Z",
+    "updated_at": "2025-01-05T05:37:21.500470Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Downloads a skin"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12751": {
     "id": 12751,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Make Citizen Collidable",
+    "description": "Changes whether a Citizens NPC can be collided with by entities or fluids.",
+    "syntax_pattern": "make (npc|citizen) %npc% [not] (collidable|pushable) [(with|by) fluids]",
+    "compatible_addon_version": "1.2.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12751",
+    "created_at": "2025-01-05T05:37:21.525722Z",
+    "updated_at": "2026-04-03T01:00:24.462537Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Changes whether a Citizens NPC can be collided with by entities or fluids."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12756": {
     "id": 12756,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Pause Citizen",
+    "description": "Pauses or unpauses the citizens if they are navigating.",
+    "syntax_pattern": "[un]pause [the] [[citizen|npc] navigation] [of] (npc|citizen)[s] %npcs%",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12756",
+    "created_at": "2025-01-05T05:37:21.564237Z",
+    "updated_at": "2026-04-03T01:00:24.505691Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Pauses or unpauses the citizens if they are navigating."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12761": {
     "id": 12761,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "All Citizens",
+    "description": "Expression of all citizens.",
+    "syntax_pattern": "all (citizens|npcs)",
+    "compatible_addon_version": "1.0.7",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Citizens NPC",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12761",
+    "created_at": "2025-01-05T05:37:21.611623Z",
+    "updated_at": "2025-01-05T05:37:21.611649Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Expression of all citizens."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12760": {
     "id": 12760,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Spawn Citizen",
+    "description": "Spawn a customisable citizen with:\n* Name\n* Direction\n* Location\n* Entity Type",
+    "syntax_pattern": "spawn [a[n]] [%entitydata%] (citizen|npc) [named %string%] %direction% %location%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12760",
+    "created_at": "2025-01-05T05:37:21.601766Z",
+    "updated_at": "2025-01-28T05:54:00.544604Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Spawn a customisable citizen with:",
-        "* Name",
-        "* Direction",
-        "* Location",
-        "* Entity Type"
+        "Spawn a customisable citizen with:\n* Name\n* Direction\n* Location\n* Entity Type"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12758": {
     "id": 12758,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Set Citizen Skin - Skin",
+    "description": "Sets the skin of the npc to the given skin.",
+    "syntax_pattern": "(change|set) (npc|citizen)[s] %npcs%['s] skin to %skin%\n(change|set) skin of (npc|citizen)[s] %npcs% to %skin%",
+    "compatible_addon_version": "1.0.7",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12758",
+    "created_at": "2025-01-05T05:37:21.584266Z",
+    "updated_at": "2025-09-10T07:44:37.502603Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the skin of the npc to the given skin."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12759": {
     "id": 12759,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Set Citizen Skin - URL",
+    "description": "Sets the citizen with the id specified to the skin linked on the url.",
+    "syntax_pattern": "(change|set) (npc|citizen)[s] %npcs%['s] skin to url %string%\n(change|set) skin of (npc|citizen)[s] %npcs% to url %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12759",
+    "created_at": "2025-01-05T05:37:21.594099Z",
+    "updated_at": "2025-09-10T07:44:37.511271Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the citizen with the id specified to the skin linked on the url."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12763": {
     "id": 12763,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Forcefield Height",
+    "description": "The height of a forcefield.",
+    "syntax_pattern": "[the] forcefield height [of %npcforcefield%]\n%npcforcefield%'[s] forcefield height",
+    "compatible_addon_version": "1.2.1-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12763",
+    "created_at": "2025-01-05T05:37:21.628152Z",
+    "updated_at": "2025-01-19T09:21:45.482879Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The height of a forcefield."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12767": {
     "id": 12767,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen ID",
+    "description": "Get the ID of a citizen",
+    "syntax_pattern": "[the] id of %npc%\n%npc%'[s] id",
+    "compatible_addon_version": "1.0.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12767",
+    "created_at": "2025-01-05T05:37:21.665237Z",
+    "updated_at": "2025-01-05T05:37:21.665251Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the ID of a citizen"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12768": {
     "id": 12768,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Look Close",
+    "description": "The look close trait of the citizen.\nWhether the citizen should or should not look at the closest player.",
+    "syntax_pattern": "[the] look close [trait] of %npcs%\n%npcs%'[s] look close [trait]",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12768",
+    "created_at": "2025-01-05T05:37:21.674988Z",
+    "updated_at": "2025-01-05T05:37:21.675001Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "The look close trait of the citizen.",
-        "Whether the citizen should or should not look at the closest player."
+        "The look close trait of the citizen.\nWhether the citizen should or should not look at the closest player."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12769": {
     "id": 12769,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Name",
+    "description": "Get the name of a citizen",
+    "syntax_pattern": "[the] (citizen|npc) name of %npcs%\n%npcs%'[s] (citizen|npc) name",
+    "compatible_addon_version": "1.0.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12769",
+    "created_at": "2025-01-05T05:37:21.684201Z",
+    "updated_at": "2025-01-05T05:37:21.684215Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the name of a citizen"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12770": {
     "id": 12770,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Pose",
+    "description": "The pose of a Citizens NPC",
+    "syntax_pattern": "[the] (citizen|npc) [entity] pose of %npcs%\n%npcs%'[s] (citizen|npc) [entity] pose",
+    "compatible_addon_version": "1.2.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Citizens Entity Pose",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12770",
+    "created_at": "2025-01-05T05:37:21.693026Z",
+    "updated_at": "2025-01-05T05:37:21.693040Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The pose of a Citizens NPC"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12771": {
     "id": 12771,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen With ID",
+    "description": "Gets the citizen with the given ID",
+    "syntax_pattern": "(citizen|npc) with id %number%",
+    "compatible_addon_version": "1.0.7",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Citizens NPC",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12771",
+    "created_at": "2025-01-05T05:37:21.701385Z",
+    "updated_at": "2025-01-05T05:37:21.701398Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the citizen with the given ID"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12773": {
     "id": 12773,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Head from Name",
+    "description": "Gets a head by player name",
+    "syntax_pattern": "(head|skull) from name %string%",
+    "compatible_addon_version": "1.0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Item",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12773",
+    "created_at": "2025-01-05T05:37:21.717915Z",
+    "updated_at": "2025-01-05T05:37:21.717930Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets a head by player name"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12774": {
     "id": 12774,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Head from Player",
+    "description": "Gets a head by player",
+    "syntax_pattern": "(head|skull) from %player%\n%player%['s] (head|skull)",
+    "compatible_addon_version": "1.0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Item",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12774",
+    "created_at": "2025-01-05T05:37:21.725585Z",
+    "updated_at": "2025-01-05T05:37:21.725600Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets a head by player"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12775": {
     "id": 12775,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Head from Skin",
+    "description": "Gets a head by skin.",
+    "syntax_pattern": "(head|skull) from %skin%",
+    "compatible_addon_version": "1.0.7",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Item",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12775",
+    "created_at": "2025-01-05T05:37:21.733163Z",
+    "updated_at": "2025-01-05T05:37:21.733178Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets a head by skin."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12745": {
     "id": 12745,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Pathfind",
+    "description": "Makes the citizen attempt to pathfind to the given location.If that location is linked to an entity, it will not move with the entity.",
+    "syntax_pattern": "make (citizen|npc)[s] %npcs% (pathfind|move|walk) to[wards] %location% [in [a] [straight] line]",
+    "compatible_addon_version": "1.0.7, 1.2.2-b1 (straight line)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12745",
+    "created_at": "2025-01-05T05:37:21.475015Z",
+    "updated_at": "2026-04-03T01:00:24.428280Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Makes the citizen attempt to pathfind to the given location.If that location is linked to an entity, it will not move with the entity."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12776": {
     "id": 12776,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Head from URL",
+    "description": "Gets a head by URL",
+    "syntax_pattern": "(head|skull) from url %string%",
+    "compatible_addon_version": "1.0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Item",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12776",
+    "created_at": "2025-01-05T05:37:21.741185Z",
+    "updated_at": "2025-01-05T05:37:21.741198Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets a head by URL"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12777": {
     "id": 12777,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Head from UUID",
+    "description": "Gets a head by player UUID",
+    "syntax_pattern": "(head|skull) from uuid %string%",
+    "compatible_addon_version": "1.0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Item",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12777",
+    "created_at": "2025-01-05T05:37:21.749407Z",
+    "updated_at": "2025-01-05T05:37:21.749420Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets a head by player UUID"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12778": {
     "id": 12778,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Head from Value",
+    "description": "Gets a head by value.",
+    "syntax_pattern": "(head|skull) from value %string%",
+    "compatible_addon_version": "1.0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Item",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12778",
+    "created_at": "2025-01-05T05:37:21.757284Z",
+    "updated_at": "2025-01-05T05:37:21.757298Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets a head by value."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12779": {
     "id": 12779,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Last Created Citizen",
+    "description": "The last created citizen.Only applicable if the citizen is created via this addon. Will not save when server restarts.",
+    "syntax_pattern": "last (spawned|created) (citizen|npc)",
+    "compatible_addon_version": "1.0.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Citizens NPC",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12779",
+    "created_at": "2025-01-05T05:37:21.769703Z",
+    "updated_at": "2025-01-05T05:37:21.769716Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The last created citizen.Only applicable if the citizen is created via this addon. Will not save when server restarts."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12780": {
     "id": 12780,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Owner of Head",
+    "description": "Gets the owner of a player head.Will only work if the head is from a player.",
+    "syntax_pattern": "[the] owner of %itemstack%\n%itemstack%'[s] owner",
+    "compatible_addon_version": "1.0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12780",
+    "created_at": "2025-01-05T05:37:21.777883Z",
+    "updated_at": "2025-01-05T05:37:21.777898Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the owner of a player head.Will only work if the head is from a player."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12781": {
     "id": 12781,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Player's Skin",
+    "description": "Gets the player's skin.Cannot be set, to set, use 'Change Player Skin' effect.",
+    "syntax_pattern": "[the] skin of %player%\n%player%'[s] skin",
+    "compatible_addon_version": "1.0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Skin",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12781",
+    "created_at": "2025-01-05T05:37:21.786619Z",
+    "updated_at": "2025-01-05T05:37:21.786633Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the player's skin.Cannot be set, to set, use 'Change Player Skin' effect."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12782": {
     "id": 12782,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Skin Signature",
+    "description": "Gets the signature of a skin.",
+    "syntax_pattern": "[the] [skin] signature of %skin%\n%skin%'[s] [skin] signature",
+    "compatible_addon_version": "1.0.7",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12782",
+    "created_at": "2025-01-05T05:37:21.796372Z",
+    "updated_at": "2025-01-05T05:37:21.796386Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the signature of a skin."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12784": {
     "id": 12784,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Skin With",
+    "description": "Used to create a skin.",
+    "syntax_pattern": "skin with value %string% and signature %string%",
+    "compatible_addon_version": "1.0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Skin",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12784",
+    "created_at": "2025-01-05T05:37:21.811661Z",
+    "updated_at": "2025-01-05T05:37:21.811675Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Used to create a skin."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12785": {
     "id": 12785,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Skin from URL",
+    "description": "Gets a skin from a url.URL must link directly to an image.",
+    "syntax_pattern": "skin from url %string%",
+    "compatible_addon_version": "1.0.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Skin",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12785",
+    "created_at": "2025-01-05T05:37:21.819174Z",
+    "updated_at": "2025-01-05T05:37:21.819188Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets a skin from a url.URL must link directly to an image."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12786": {
     "id": 12786,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Skin from UUID",
+    "description": "Gets a skin from player's uuid.",
+    "syntax_pattern": "skin from uuid %string%",
+    "compatible_addon_version": "1.0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Skin",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12786",
+    "created_at": "2025-01-05T05:37:21.826266Z",
+    "updated_at": "2025-01-05T05:37:21.826280Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets a skin from player's uuid."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12787": {
     "id": 12787,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "URL In Value",
+    "description": "Retrieves the url within a skin value",
+    "syntax_pattern": "[skin] url within value %string%",
+    "compatible_addon_version": "1.0.7",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12787",
+    "created_at": "2025-01-05T05:37:21.833784Z",
+    "updated_at": "2025-01-05T05:37:21.833799Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Retrieves the url within a skin value"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12788": {
     "id": 12788,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "URL of Head",
+    "description": "Gets the URL of a head",
+    "syntax_pattern": "[the] url of %itemstack%\n%itemstack%'[s] url",
+    "compatible_addon_version": "1.0.7",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12788",
+    "created_at": "2025-01-05T05:37:21.841189Z",
+    "updated_at": "2025-01-05T05:37:21.841203Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the URL of a head"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12789": {
     "id": 12789,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Value of Head",
+    "description": "Gets the value of a head",
+    "syntax_pattern": "[the] value of %itemstack%\n%itemstack%'[s] value",
+    "compatible_addon_version": "1.0.7",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12789",
+    "created_at": "2025-01-05T05:37:21.849579Z",
+    "updated_at": "2025-01-05T05:37:21.849593Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the value of a head"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12790": {
     "id": 12790,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizens Despawn Reason",
+    "description": "Represents the reasons a Citizen will despawn.",
+    "syntax_pattern": "npc[ ]despawn[ ]reason[s]",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": "chunk unload, reload, death, plugin, removal, world unload, pending respawn",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12790",
+    "created_at": "2025-01-05T05:37:21.859180Z",
+    "updated_at": "2025-01-05T05:37:21.859194Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents the reasons a Citizen will despawn."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12791": {
     "id": 12791,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizens Entity Pose",
+    "description": "Represents the 'pose' of a Citizens NPC.\nEssentially different animations, depending on the entity type of the NPC.",
+    "syntax_pattern": "npc[ ]entity[ ]pose[s]",
+    "compatible_addon_version": "1.2.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": "sliding, fall flying, roaring, shooting, digging, sleeping, spin attack, standing, swimming, crouching, dying, croaking, using tongue, long jumping, sniffing, emerging, inhaling, sitting",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12791",
+    "created_at": "2025-01-05T05:37:21.866582Z",
+    "updated_at": "2025-01-05T05:37:21.866595Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Represents the 'pose' of a Citizens NPC.",
-        "Essentially different animations, depending on the entity type of the NPC."
+        "Represents the 'pose' of a Citizens NPC.\nEssentially different animations, depending on the entity type of the NPC."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12792": {
     "id": 12792,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizens NPC",
+    "description": "Represents a Citizens NPC.",
+    "syntax_pattern": "npc[s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12792",
+    "created_at": "2025-01-05T05:37:21.874131Z",
+    "updated_at": "2025-01-05T05:37:21.874146Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a Citizens NPC."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12793": {
     "id": 12793,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizens Spawn Reason",
+    "description": "Represents the reasons a Citizen will spawn.",
+    "syntax_pattern": "npc[ ]spawn[ ]reason[s]",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": "respawn, timed respawn, plugin, create, chunk load, command",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12793",
+    "created_at": "2025-01-05T05:37:21.881655Z",
+    "updated_at": "2025-01-05T05:37:21.881669Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents the reasons a Citizen will spawn."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12794": {
     "id": 12794,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Skin",
+    "description": "Represents a Skin.",
+    "syntax_pattern": "ski[n]",
+    "compatible_addon_version": "1.0.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12794",
+    "created_at": "2025-01-05T05:37:21.896551Z",
+    "updated_at": "2025-01-05T05:37:21.896565Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a Skin."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12765": {
     "id": 12765,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Forcefield Vertical Strength",
+    "description": "The vertical strength of a Citizen NPC's forcefield.",
+    "syntax_pattern": "[the] forcefield vertical strength [of %npcforcefield%]\n%npcforcefield%'[s] forcefield vertical strength",
+    "compatible_addon_version": "1.2.1-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12765",
+    "created_at": "2025-01-05T05:37:21.648388Z",
+    "updated_at": "2025-01-19T09:21:45.500032Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The vertical strength of a Citizen NPC's forcefield."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12766": {
     "id": 12766,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Forcefield Width",
+    "description": "The width of a Citizen NPC's forcefield.",
+    "syntax_pattern": "[the] forcefield width [of %npcforcefield%]\n%npcforcefield%'[s] forcefield width",
+    "compatible_addon_version": "1.2.1-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12766",
+    "created_at": "2025-01-05T05:37:21.656843Z",
+    "updated_at": "2025-01-19T09:21:45.508487Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The width of a Citizen NPC's forcefield."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12988": {
     "id": 12988,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Enchanted Book With Enchantments",
+    "description": "Returns an enchanted book with the given enchantments.",
+    "syntax_pattern": "%itemstack% (with|containing) %enchantmenttypes%",
+    "compatible_addon_version": "1.2.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Item",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12988",
+    "created_at": "2025-01-19T09:21:45.517042Z",
+    "updated_at": "2025-01-19T09:21:45.517056Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns an enchanted book with the given enchantments."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12741": {
     "id": 12741,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Is Flyable",
+    "description": "Whether a Citizens NPC is flyable.",
+    "syntax_pattern": "(citizen|npc)[s] %npcs% (is|are|can) fly[able]\n(citizen|npc)[s] %npcs% (is(n't| not)|are(n't| not)|can('t|not| not)) fly[able]",
+    "compatible_addon_version": "1.2.1-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12741",
+    "created_at": "2025-01-05T05:37:21.442888Z",
+    "updated_at": "2025-09-10T07:44:37.417349Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether a Citizens NPC is flyable."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12858": {
     "id": 12858,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Forcefield",
+    "description": "Represesnts a Citizens Forcefield",
+    "syntax_pattern": "npc[ ]forcefield[s]",
+    "compatible_addon_version": "1.2.1-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12858",
+    "created_at": "2025-01-13T22:05:28.280746Z",
+    "updated_at": "2025-01-19T09:21:45.542339Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represesnts a Citizens Forcefield"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12857": {
     "id": 12857,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Entity Is a Citizen",
+    "description": "Whether an entity is a Citizens NPC.",
+    "syntax_pattern": "%livingentities% (is|are) [a[n]] (citizen|npc)[s]\n%livingentities% (is(n't| not)|are(n't|not)) [a[n]] (citizen|npc)[s]",
+    "compatible_addon_version": "1.2.1-b2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12857",
+    "created_at": "2025-01-13T22:05:28.260143Z",
+    "updated_at": "2025-01-28T05:54:00.479731Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether an entity is a Citizens NPC."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12750": {
     "id": 12750,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Make Citizen Break Block",
+    "description": "Make a Citizens NPC break a block in a radius.\nRadius is how close the npc has to be to break the block.",
+    "syntax_pattern": "make (npc|citizen) %npc% break %block% [with radius %number%]",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12750",
+    "created_at": "2025-01-05T05:37:21.518210Z",
+    "updated_at": "2026-04-03T01:00:24.454276Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Make a Citizens NPC break a block in a radius.",
-        "Radius is how close the npc has to be to break the block."
+        "Make a Citizens NPC break a block in a radius.\nRadius is how close the npc has to be to break the block."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12754": {
     "id": 12754,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Make Citizen Targetable",
+    "description": "Make a citizen targetable to other mobs.\nOr you can stop this process.",
+    "syntax_pattern": "make (citizen|npc) %npc% [[able to] be] target(ed|able) [temporarily]\nmake (citizen|npc) %npc% not [[able to] be] target(ed|able) [temporarily]",
+    "compatible_addon_version": "1.2, 1.2.2-b1 (temporary)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12754",
+    "created_at": "2025-01-05T05:37:21.548707Z",
+    "updated_at": "2025-01-28T05:54:00.523370Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Make a citizen targetable to other mobs.",
-        "Or you can stop this process."
+        "Make a citizen targetable to other mobs.\nOr you can stop this process."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12755": {
     "id": 12755,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Make Citizen Vulnerable",
+    "description": "Changes whether a Citizens NPC can be attacked or not.",
+    "syntax_pattern": "make (citizen|npc) %npcs% [in]vulnerable\nmake (citizen|npc) %npcs% [un]protected",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12755",
+    "created_at": "2025-01-05T05:37:21.556164Z",
+    "updated_at": "2025-01-28T05:54:00.533314Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Changes whether a Citizens NPC can be attacked or not."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12989": {
     "id": 12989,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Smelted Form",
+    "description": "Returns the smelted form of an itemtype.\nIf it cannot be smelted, it will return the same itemtype.",
+    "syntax_pattern": "[the] smelt[ed] [(result|form) of] %itemtypes%\n%itemtypes%'[s] smelted [(result|form)]\n%itemtypes% smelted",
+    "compatible_addon_version": "1.2.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Item Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12989",
+    "created_at": "2025-01-19T09:21:45.533699Z",
+    "updated_at": "2025-01-19T09:21:45.533714Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the smelted form of an itemtype.",
-        "If it cannot be smelted, it will return the same itemtype."
+        "Returns the smelted form of an itemtype.\nIf it cannot be smelted, it will return the same itemtype."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12764": {
     "id": 12764,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Forcefield Strength",
+    "description": "The strength of a forcefield",
+    "syntax_pattern": "[the] forcefield strength [of %npcforcefield%]\n%npcforcefield%'[s] forcefield strength",
+    "compatible_addon_version": "1.2.1-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12764",
+    "created_at": "2025-01-05T05:37:21.637101Z",
+    "updated_at": "2025-01-28T05:54:00.552687Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The strength of a forcefield"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13042": {
     "id": 13042,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Gamemode",
+    "description": "The gamemode of a Citizens NPC. Only applicable if the Citizen's entity type is a Player.",
+    "syntax_pattern": "[the] (citizen|npc) game[ ]mode of %npcs%\n%npcs%'[s] (citizen|npc) game[ ]mode",
+    "compatible_addon_version": "1.2.2-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Game Mode",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13042",
+    "created_at": "2025-01-28T05:54:00.567813Z",
+    "updated_at": "2025-01-28T05:54:00.567827Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The gamemode of a Citizens NPC. Only applicable if the Citizen's entity type is a Player."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13043": {
     "id": 13043,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Glow Color",
+    "description": "The glow color of a Citizens NPC, in the Chat Color class.",
+    "syntax_pattern": "[the] (citizen|npc) glow colo[u]r of %npcs%\n%npcs%'[s] (citizen|npc) glow colo[u]r",
+    "compatible_addon_version": "1.2.2-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Chat Color",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13043",
+    "created_at": "2025-01-28T05:54:00.577455Z",
+    "updated_at": "2025-01-28T05:54:00.577471Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The glow color of a Citizens NPC, in the Chat Color class."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13044": {
     "id": 13044,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Gravity",
+    "description": "Whether the Citizens NPC is affected by gravity",
+    "syntax_pattern": "[the] (citizen|npc) gravity of %npcs%\n%npcs%'[s] (citizen|npc) gravity",
+    "compatible_addon_version": "1.2.2-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13044",
+    "created_at": "2025-01-28T05:54:00.586367Z",
+    "updated_at": "2025-01-28T05:54:00.586382Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether the Citizens NPC is affected by gravity"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13045": {
     "id": 13045,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Hitbox",
+    "description": "The hitbox of a Citizens NPC",
+    "syntax_pattern": "[the] (citizen|npc) hitbox of %npc%\n%npc%'[s] (citizen|npc) hitbox",
+    "compatible_addon_version": "1.2.2-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Citizen Hitbox",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13045",
+    "created_at": "2025-01-28T05:54:00.594743Z",
+    "updated_at": "2025-01-28T05:54:00.594757Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The hitbox of a Citizens NPC"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13046": {
     "id": 13046,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Hitbox Height",
+    "description": "The height of a Citizen hitbox.",
+    "syntax_pattern": "[the] hitbox height [of %npchitbox%]\n%npchitbox%'[s] hitbox height",
+    "compatible_addon_version": "1.2.2-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13046",
+    "created_at": "2025-01-28T05:54:00.603056Z",
+    "updated_at": "2025-01-28T05:54:00.603071Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The height of a Citizen hitbox."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13047": {
     "id": 13047,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Hitbox Scale",
+    "description": "The scale/multiplier of a Citizen Hitbox.",
+    "syntax_pattern": "[the] hitbox scale [of %npchitbox%]\n%npchitbox%'[s] hitbox scale",
+    "compatible_addon_version": "1.2.2-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13047",
+    "created_at": "2025-01-28T05:54:00.611119Z",
+    "updated_at": "2025-01-28T05:54:00.611133Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The scale/multiplier of a Citizen Hitbox."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13048": {
     "id": 13048,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Hitbox Width",
+    "description": "The width of a Citizen Hitbox.",
+    "syntax_pattern": "[the] hitbox width [of %npchitbox%]\n%npchitbox%'[s] hitbox width",
+    "compatible_addon_version": "1.2.2-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13048",
+    "created_at": "2025-01-28T05:54:00.619469Z",
+    "updated_at": "2025-01-28T05:54:00.619483Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The width of a Citizen Hitbox."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13049": {
     "id": 13049,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Skin",
+    "description": "Returns the skin of a Citizen.",
+    "syntax_pattern": "[the] (citizen|npc) skin of %npc%\n%npc%'[s] (citizen|npc) skin",
+    "compatible_addon_version": "1.2.2-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Skin",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13049",
+    "created_at": "2025-01-28T05:54:00.627103Z",
+    "updated_at": "2025-01-28T05:54:00.627118Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the skin of a Citizen."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14878": {
     "id": 14878,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen is Owned By",
+    "description": "Returns if a Citizens NPC is owned by a specific player.",
+    "syntax_pattern": "(citizen|npc)[s] %npcs% is owned by %player%\n(citizen|npc)[s] %npcs% (is(n't| not)) owned by %player%",
+    "compatible_addon_version": "1.2.8",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14878",
+    "created_at": "2026-05-02T07:33:09.225418Z",
+    "updated_at": "2026-05-02T07:33:09.225439Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns if a Citizens NPC is owned by a specific player."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14879": {
     "id": 14879,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Mirror",
+    "description": "Enable/Disable a Citizens NPC's Mirror Trait",
+    "syntax_pattern": "enable (npc|citizen)[s] %npcs% mirror [with name] [[and] with equipment]\ndisable (npc|citizen)[s] %npcs% mirror",
+    "compatible_addon_version": "1.2.8",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14879",
+    "created_at": "2026-05-02T07:33:09.236482Z",
+    "updated_at": "2026-05-02T07:33:09.236496Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Enable/Disable a Citizens NPC's Mirror Trait"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12772": {
     "id": 12772,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Forcefield - Create",
+    "description": "Expression to create a Citizens Forcefield. Default values are 1.",
+    "syntax_pattern": "[a] forcefield [with width %number%[,| and]] [[with] height %number%[,| and]] [[with] strength %number%[,| and]] [[with] vertical strength %number%]",
+    "compatible_addon_version": "1.2.1-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Citizen Forcefield",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12772",
+    "created_at": "2025-01-05T05:37:21.710391Z",
+    "updated_at": "2025-01-28T05:54:00.635332Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Expression to create a Citizens Forcefield. Default values are 1."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13050": {
     "id": 13050,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Hitbox With",
+    "description": "A Citizen Hitbox with the given components.\nScale is a multiplier for the hitbox. For example, if the width was 1 and the height was 2, then if the scale was 2, the hitbox's effective dimenstions would be 2 width and 4 height.\nDefault values are:\n- Scale: 1\n- Width: 1\n- Height: 2",
+    "syntax_pattern": "[a] hitbox [with scale %number%[,| and]] [[with] width %number%[,| and]] [[with] height %number%]",
+    "compatible_addon_version": "1.2.2-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Citizen Hitbox",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13050",
+    "created_at": "2025-01-28T05:54:00.643297Z",
+    "updated_at": "2025-01-28T05:54:00.643330Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "A Citizen Hitbox with the given components.",
-        "Scale is a multiplier for the hitbox. For example, if the width was 1 and the height was 2, then if the scale was 2, the hitbox's effective dimenstions would be 2 width and 4 height.",
-        "Default values are:",
-        "- Scale: 1",
-        "- Width: 1",
-        "- Height: 2"
+        "A Citizen Hitbox with the given components.\nScale is a multiplier for the hitbox. For example, if the width was 1 and the height was 2, then if the scale was 2, the hitbox's effective dimenstions would be 2 width and 4 height.\nDefault values are:\n- Scale: 1\n- Width: 1\n- Height: 2"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13052": {
     "id": 13052,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Forcefield",
+    "description": "Represesnts a Citizens Forcefield",
+    "syntax_pattern": "npc[ ]forcefield[s]",
+    "compatible_addon_version": "1.2.1-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13052",
+    "created_at": "2025-01-28T05:54:00.659321Z",
+    "updated_at": "2025-01-28T05:54:00.659335Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represesnts a Citizens Forcefield"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13053": {
     "id": 13053,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Hitbox",
+    "description": "Represesnts a Citizens Hitbox",
+    "syntax_pattern": "npc[ ]hitboxe[s]",
+    "compatible_addon_version": "1.2.2-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13053",
+    "created_at": "2025-01-28T05:54:00.675010Z",
+    "updated_at": "2025-01-28T05:54:00.675025Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represesnts a Citizens Hitbox"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13051": {
     "id": 13051,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Chat Color",
+    "description": "Represents a Chat Color, different from Skript's Color class.\nAlthough not a Citizens type, the only current use is in the Citizen Glow effect.",
+    "syntax_pattern": "chat[ ]colo[u]r[s]",
+    "compatible_addon_version": "1.2.2-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": "magic, dark green, green, underline, black, yellow, dark red, dark purple, light purple, bold, italic, gold, dark gray, red, aqua, gray, blue, white, reset, strikethrough, dark aqua, dark blue",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13051",
+    "created_at": "2025-01-28T05:54:00.651713Z",
+    "updated_at": "2026-05-02T07:33:09.259796Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Represents a Chat Color, different from Skript's Color class.",
-        "Although not a Citizens type, the only current use is in the Citizen Glow effect."
+        "Represents a Chat Color, different from Skript's Color class.\nAlthough not a Citizens type, the only current use is in the Citizen Glow effect."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14880": {
     "id": 14880,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Owner (UUID)",
+    "description": "The 'owner' of a Citizens NPC, if null, then it is owned by the server, else a player.",
+    "syntax_pattern": "[the] (citizen|npc) owner [uuid] of %npcs%\n%npcs%'[s] (citizen|npc) owner [uuid]",
+    "compatible_addon_version": "1.2.8",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "UUID",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14880",
+    "created_at": "2026-05-02T07:33:09.244009Z",
+    "updated_at": "2026-05-02T07:33:09.244022Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The 'owner' of a Citizens NPC, if null, then it is owned by the server, else a player."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12783": {
     "id": 12783,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Skin Value",
+    "description": "Gets the texture value of a skin",
+    "syntax_pattern": "[the] texture value of %skin%\n%skin%'[s] texture value",
+    "compatible_addon_version": "1.0.7",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12783",
+    "created_at": "2025-01-05T05:37:21.804235Z",
+    "updated_at": "2026-05-02T07:33:09.251478Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the texture value of a skin"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13080": {
     "id": 13080,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Target",
+    "description": "The target of a Citizens NPC. Setting is done via the Citizen Attack effect.",
+    "syntax_pattern": "[the] (citizen|npc) target of %npc%\n%npc%'[s] (citizen|npc) target",
+    "compatible_addon_version": "1.2.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Entity",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13080",
+    "created_at": "2025-02-02T03:24:37.139217Z",
+    "updated_at": "2025-02-02T03:24:37.139234Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The target of a Citizens NPC. Setting is done via the Citizen Attack effect."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12740": {
     "id": 12740,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Is Collidable",
+    "description": "Whether a Citizens NPC is collidable. By entities or fluids.",
+    "syntax_pattern": "(citizen|npc)[s] %npcs% (is|are) (collidable|pushable) [(with|by) fluids]\n(citizen|npc)[s] %npcs% (are(n't| not)|is(n't| not)) (collidable|pushable) [(with|by) fluids]",
+    "compatible_addon_version": "1.2.1-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12740",
+    "created_at": "2025-01-05T05:37:21.435069Z",
+    "updated_at": "2025-09-10T07:44:37.408638Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether a Citizens NPC is collidable. By entities or fluids."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12749": {
     "id": 12749,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Make Citizen Aggressive",
+    "description": "Make a Citizens NPC aggressive.",
+    "syntax_pattern": "make (citizen|npc) %npc% aggressive\nmake (citizen|npc) %npc% passive",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12749",
+    "created_at": "2025-01-05T05:37:21.509383Z",
+    "updated_at": "2026-04-03T01:00:24.445669Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make a Citizens NPC aggressive."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12752": {
     "id": 12752,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Make Citizen Flyable",
+    "description": "Makes a Citizens NPC flyable.\nSome entity types are always flyable (e.g bat), therefore will always be flyable.",
+    "syntax_pattern": "make (npc|citizen) %npc% [not |un]flyable",
+    "compatible_addon_version": "1.2.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12752",
+    "created_at": "2025-01-05T05:37:21.533909Z",
+    "updated_at": "2026-04-03T01:00:24.470288Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Makes a Citizens NPC flyable.",
-        "Some entity types are always flyable (e.g bat), therefore will always be flyable."
+        "Makes a Citizens NPC flyable.\nSome entity types are always flyable (e.g bat), therefore will always be flyable."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12753": {
     "id": 12753,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Make Citizen Load Chunks",
+    "description": "Changes whether a citizen will load chunks.\nTemporarily means that it won't continue after server is restarted.",
+    "syntax_pattern": "make (npc|citizen) %npc% [un]able to load chunks [temporarily]",
+    "compatible_addon_version": "1.2.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12753",
+    "created_at": "2025-01-05T05:37:21.541360Z",
+    "updated_at": "2026-04-03T01:00:24.478529Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Changes whether a citizen will load chunks.",
-        "Temporarily means that it won't continue after server is restarted."
+        "Changes whether a citizen will load chunks.\nTemporarily means that it won't continue after server is restarted."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14697": {
     "id": 14697,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Modify Citizen Metadata",
+    "description": "Modify the metadata of a Citizens NPC",
+    "syntax_pattern": "(modify|set) [persistent] (citizen|npc) %npcmetadata% [metadata] of %npcs% to (%boolean%|%number%)\n(modify|set) %npcs%['s] [persistent] (citizen|npc) %npcmetadata% [metadata] to (%boolean%|%number%)",
+    "compatible_addon_version": "1.2.7",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14697",
+    "created_at": "2026-04-03T01:00:24.496692Z",
+    "updated_at": "2026-04-03T01:00:24.496705Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Modify the metadata of a Citizens NPC"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14698": {
     "id": 14698,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Metadata",
+    "description": "The value of a Citizen's metadata.",
+    "syntax_pattern": "%npcmetadata% (citizen|npc) ([meta]data) of %npc%\n(citizen|npc) ([meta]data) %npcmetadata% of %npc%",
+    "compatible_addon_version": "1.2.7",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14698",
+    "created_at": "2026-04-03T01:00:24.514152Z",
+    "updated_at": "2026-04-03T01:00:24.514166Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The value of a Citizen's metadata."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14312": {
     "id": 14312,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Metadata",
+    "description": "Represents the different Metadata keys of a Citizens",
+    "syntax_pattern": "npc[ ]metadata",
+    "compatible_addon_version": "1.2.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": "remove from playerlist, spawn nodamage ticks, keep chunk loaded, pathfinder open doors, fluid pushable, using held item, knockback, reset yaw on spawn, flyable, death sound, reset pitch on tick, bounding box function, aggressive, tracking range, npc spawning in progress, text display component, pickup items, damage others, silent, hurt sound, nameplate visible, water speed modifier, always use name hologram, hologram renderer, item id, ambient sound, respawn delay, minecart offset, remove from tablist, should save, activation range, collidable, item amount, using offhand item, glowing, villager block trades, default protected, packet update delay, item data, jump power supplier, drops items, scoreboard fake team name, use minecraft ai, force packet update, leash protected, swim, disable default stuck action",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14312",
+    "created_at": "2025-11-20T09:13:26.350121Z",
+    "updated_at": "2026-04-03T01:00:24.522239Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents the different Metadata keys of a Citizens"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12721": {
     "id": 12721,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "On Citizen Create",
+    "description": "Called when a Citizens NPC is created by the server or an external service (Such as this plugin).",
+    "syntax_pattern": "[on] (citizen|npc) create",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-command sender, event-npc, event-player",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12721",
+    "created_at": "2025-01-05T05:37:21.273506Z",
+    "updated_at": "2025-06-24T05:52:31.342440Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a Citizens NPC is created by the server or an external service (Such as this plugin)."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12722": {
     "id": 12722,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "On Citizen Create by CommandSender",
+    "description": "Called when a Citizens NPC is created via a command.",
+    "syntax_pattern": "[on] (citizen|npc) create by [a] command [sender]",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-command sender, event-npc, event-player",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=12722",
+    "created_at": "2025-01-05T05:37:21.286342Z",
+    "updated_at": "2025-06-24T05:52:31.360954Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a Citizens NPC is created via a command."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12723": {
     "id": 12723,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "On Citizen Create by Player",
+    "description": "Called when a Citizens NPC is created by a player.",
+    "syntax_pattern": "[on] (citizen|npc) create by [a] player",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-command sender, event-npc, event-player",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=12723",
+    "created_at": "2025-01-05T05:37:21.300833Z",
+    "updated_at": "2025-06-24T05:52:31.369477Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a Citizens NPC is created by a player."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12724": {
     "id": 12724,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "On Citizen Damage",
+    "description": "Called when a Citizens NPC is damaged\nDoes not include damage by entity or damage by block, use their respective events for that.",
+    "syntax_pattern": "[on] (citizen|npc) damage",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-block, event-damage cause, event-entity, event-npc, event-number",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=12724",
+    "created_at": "2025-01-05T05:37:21.308481Z",
+    "updated_at": "2025-06-24T05:52:31.377893Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a Citizens NPC is damaged",
-        "Does not include damage by entity or damage by block, use their respective events for that."
+        "Called when a Citizens NPC is damaged\nDoes not include damage by entity or damage by block, use their respective events for that."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12726": {
     "id": 12726,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "On Citizen Damage by Entity",
+    "description": "Called when a Citizens NPC is damaged by an entity.",
+    "syntax_pattern": "[on] (citizen|npc) damage by [an] entity",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-damage cause, event-entity, event-npc, event-number",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=12726",
+    "created_at": "2025-01-05T05:37:21.324369Z",
+    "updated_at": "2025-06-24T05:52:31.394318Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a Citizens NPC is damaged by an entity."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12727": {
     "id": 12727,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "On Citizen Death",
+    "description": "Called when a Citizens NPC dies.",
+    "syntax_pattern": "[on] (citizen|npc) death",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-damage cause, event-npc, event-player",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12727",
+    "created_at": "2025-01-05T05:37:21.332938Z",
+    "updated_at": "2025-06-24T05:52:31.402540Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a Citizens NPC dies."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12732": {
     "id": 12732,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "On Citizen Spawn",
+    "description": "Called when a Citizens NPC is spawned.",
+    "syntax_pattern": "[on] (citizen|npc) spawn",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-location, event-npc, event-npc spawn reason",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=12732",
+    "created_at": "2025-01-05T05:37:21.372160Z",
+    "updated_at": "2025-06-24T05:52:31.418982Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a Citizens NPC is spawned."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13759": {
     "id": 13759,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Lock Citizen Age",
+    "description": "Stops the aging process of a Citizens NPC",
+    "syntax_pattern": "[un]lock %npcs%['s] age\n[un]lock [the] age of %npcs%",
+    "compatible_addon_version": "1.2.3-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13759",
+    "created_at": "2025-06-24T05:52:31.428248Z",
+    "updated_at": "2025-06-24T05:52:31.428262Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Stops the aging process of a Citizens NPC"
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13760": {
     "id": 13760,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Activation Range",
+    "description": "The activation range of a citizen.",
+    "syntax_pattern": "[the] (citizen|npc) activation range of %npcs%\n%npcs%'[s] (citizen|npc) activation range",
+    "compatible_addon_version": "1.2.3-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13760",
+    "created_at": "2025-06-24T05:52:31.437190Z",
+    "updated_at": "2025-06-24T05:52:31.437204Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The activation range of a citizen."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13761": {
     "id": 13761,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Age",
+    "description": "The age of a citizen.\n- Ordered between -24000 and 0. Any negative integer being a baby, and 0 being an adult.",
+    "syntax_pattern": "[the] (citizen|npc) age of %npcs%\n%npcs%'[s] (citizen|npc) age",
+    "compatible_addon_version": "1.2.3-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13761",
+    "created_at": "2025-06-24T05:52:31.445170Z",
+    "updated_at": "2025-06-24T05:52:31.445184Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "The age of a citizen.",
-        "- Ordered between -24000 and 0. Any negative integer being a baby, and 0 being an adult."
+        "The age of a citizen.\n- Ordered between -24000 and 0. Any negative integer being a baby, and 0 being an adult."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13764": {
     "id": 13764,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Make Citizen Use Minecraft AI",
+    "description": "Changes whether a Citizens NPC uses Minecraft's built-in AI or Citizens AI.",
+    "syntax_pattern": "(make|set) (npc|citizen)[s] %npcs% [to] use (minecraft|normal) (ai|AI)\n(make|set) (npc|citizen)[s] %npcs% [to] not use (minecraft|normal) (ai|AI)",
+    "compatible_addon_version": "1.2.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13764",
+    "created_at": "2025-06-26T09:48:21.207876Z",
+    "updated_at": "2026-04-03T01:00:24.488192Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Changes whether a Citizens NPC uses Minecraft's built-in AI or Citizens AI."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13763": {
     "id": 13763,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Uses Minecraft AI",
+    "description": "Whether a Citizens NPC is using Minecraft's built-in AI or Citizens AI.",
+    "syntax_pattern": "(citizen|npc)[s] %npcs% (use[s]|(is|are) using) (minecraft|normal) (ai|AI)\n(citizen|npc)[s] %npcs% (is(n't| not) using|are(n't| not) using|do(n't| not) use) (minecraft|normal) (ai|AI)",
+    "compatible_addon_version": "1.2.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13763",
+    "created_at": "2025-06-26T09:48:21.197544Z",
+    "updated_at": "2025-09-10T07:44:37.468349Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether a Citizens NPC is using Minecraft's built-in AI or Citizens AI."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12762": {
     "id": 12762,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Entity Type",
+    "description": "Get the entity type of a citizen\nFor most entitytypes, you have to put 'minecraft:' in front of it for it to work.",
+    "syntax_pattern": "[the] (citizen|npc) entity type of %npcs%\n%npcs%'[s] (citizen|npc) entity type",
+    "compatible_addon_version": "1.0.4, 1.0.5 (setting)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12762",
+    "created_at": "2025-01-05T05:37:21.620046Z",
+    "updated_at": "2025-09-10T07:44:37.519643Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get the entity type of a citizen",
-        "For most entitytypes, you have to put 'minecraft:' in front of it for it to work."
+        "Get the entity type of a citizen\nFor most entitytypes, you have to put 'minecraft:' in front of it for it to work."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13041": {
     "id": 13041,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Start/Stop Glowing",
+    "description": "Makes a Citizens NPC start or stop glowing, with color.",
+    "syntax_pattern": "make (npc|citizen)[s] %npcs% (start|stop) glowing [[with colo[u]r] %chatcolor%]\n(start|stop) (npc|citizen)[s] %npcs% [from] glowing [[with colo[u]r] %chatcolor%]",
+    "compatible_addon_version": "1.2.2-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13041",
+    "created_at": "2025-01-28T05:54:00.496857Z",
+    "updated_at": "2026-04-03T01:00:24.437708Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Makes a Citizens NPC start or stop glowing, with color."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12738": {
     "id": 12738,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Can Load Chunks",
+    "description": "Whether a Citizens NPC can load chunks.",
+    "syntax_pattern": "(citizen|npc)[s] %npcs% (can|is able to) load chunk[s]\n(citizen|npc)[s] %npcs% (can('t|not| not)|is('nt| not) able to|is unable to) load chunk[s]",
+    "compatible_addon_version": "1.2.1-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12738",
+    "created_at": "2025-01-05T05:37:21.419176Z",
+    "updated_at": "2025-09-10T07:44:37.375468Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether a Citizens NPC can load chunks."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12739": {
     "id": 12739,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Has Forcefield",
+    "description": "Whether a Citizens NPC has a forcefield.",
+    "syntax_pattern": "(citizen|npc)[s] %npcs% (has|have) [a] forcefield\n(citizen|npc)[s] %npcs% (do(n't| not|esn't|es not)) (has|have) [a] forcefield",
+    "compatible_addon_version": "1.2.1-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12739",
+    "created_at": "2025-01-05T05:37:21.426897Z",
+    "updated_at": "2025-09-10T07:44:37.390316Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether a Citizens NPC has a forcefield."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12733": {
     "id": 12733,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Is Aggressive",
+    "description": "Returns the bool of whether the citizen is aggressive.",
+    "syntax_pattern": "(citizen|npc)[s] %npcs% (is|are) aggressive\n(citizen|npc)[s] %npcs% (is(n't| not)|are(n't| not)) aggressive\n(citizen|npc)[s] %npcs% (is|are) passive",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12733",
+    "created_at": "2025-01-05T05:37:21.379966Z",
+    "updated_at": "2025-09-10T07:44:37.400407Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the bool of whether the citizen is aggressive."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13040": {
     "id": 13040,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Is Glowing",
+    "description": "Checks whether a Citizens NPC is glowing.",
+    "syntax_pattern": "(citizen|npc)[s] %npcs% (is|are) glowing [%chatcolor%]\n(citizen|npc)[s] %npcs% (is(n't| not)|are(n't| not)) glowing [%chatcolor%]",
+    "compatible_addon_version": "1.2.2-b1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13040",
+    "created_at": "2025-01-28T05:54:00.462073Z",
+    "updated_at": "2025-09-10T07:44:37.425933Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks whether a Citizens NPC is glowing."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12734": {
     "id": 12734,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Is Navigating",
+    "description": "Returns the bool of whether the citizen is pathfinding.",
+    "syntax_pattern": "(citizen|npc)[s] %npcs% (is|are) navigating [to %location%]\n(citizen|npc)[s] %npcs% (is(n't| not)|are(n't| not)) navigating [to %location%]",
+    "compatible_addon_version": "1.0.7, 1.2.3(location)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12734",
+    "created_at": "2025-01-05T05:37:21.387782Z",
+    "updated_at": "2025-09-10T07:44:37.435091Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the bool of whether the citizen is pathfinding."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12737": {
     "id": 12737,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Is Vulnerable",
+    "description": "Returns whether the Citizen can be attacked or not.",
+    "syntax_pattern": "(citizen|npc)[s] %npcs% (is|are) vulnerable\n(citizen|npc)[s] %npcs% (is|are) protected",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12737",
+    "created_at": "2025-01-05T05:37:21.411571Z",
+    "updated_at": "2025-09-10T07:44:37.460135Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns whether the Citizen can be attacked or not."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12757": {
     "id": 12757,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Set Citizen Skin - Name",
+    "description": "Set a citizen's skin by name.Only works if citizen is a player.",
+    "syntax_pattern": "(set|change) (citizen|npc)[s] %npcs%['s] skin to %string%\n(set|change) skin of (citizen|npc)[s] %npcs% to %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12757",
+    "created_at": "2025-01-05T05:37:21.572682Z",
+    "updated_at": "2025-09-10T07:44:37.493768Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set a citizen's skin by name.Only works if citizen is a player."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14309": {
     "id": 14309,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Clone Citizen",
+    "description": "Clones a citizen and spawns a copy at the given location.",
+    "syntax_pattern": "(copy|clone) (npc|citizen) %npc% (to|at) %location% [[with] new name %string%]",
+    "compatible_addon_version": "1.2.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14309",
+    "created_at": "2025-11-20T09:13:26.321374Z",
+    "updated_at": "2025-11-20T09:13:26.321397Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Clones a citizen and spawns a copy at the given location."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14310": {
     "id": 14310,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Citizen Nametag Visibility",
+    "description": "Whether a Citizens NPC's nameplate is visible.",
+    "syntax_pattern": "[the] (citizen|npc) name[ ][tag|plate] visibility of %npcs%\n%npcs%'[s] (citizen|npc) name[ ][tag|plate] visibility",
+    "compatible_addon_version": "1.2.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14310",
+    "created_at": "2025-11-20T09:13:26.333942Z",
+    "updated_at": "2025-11-20T09:13:26.333958Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether a Citizens NPC's nameplate is visible."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14311": {
     "id": 14311,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nagasonic",
+    "title": "Skin from File",
+    "description": "Creates a skin instance from an image file stored in the skins/ folder within the plugin folder.",
+    "syntax_pattern": "[slim] skin from file %string%",
+    "compatible_addon_version": "1.2.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skonic",
+    "type_usage": null,
+    "return_type": "Skin",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14311",
+    "created_at": "2025-11-20T09:13:26.342303Z",
+    "updated_at": "2025-11-20T09:13:26.342317Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a skin instance from an image file stored in the skins/ folder within the plugin folder."
       ],
       "ko": [
-        "[Skonic] 한국어 가이드팩 준비 중"
+        "[SKONIC] 한국어 가이드 번역 대기 중"
       ]
     }
   }

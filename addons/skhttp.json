@@ -1,1032 +1,2264 @@
 {
   "syntax_12283": {
     "id": 12283,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Is Terminated",
+    "description": "Returns true if the http client has been closed/shutdown.\nRequired Java 21+",
+    "syntax_pattern": "%httpclients% (is|are) terminated\n%httpclients% (isn't|is not|aren't|are not) terminated",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12283",
+    "created_at": "2024-10-14T04:04:55.574458Z",
+    "updated_at": "2024-10-14T04:04:55.574482Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns true if the http client has been closed/shutdown.",
-        "Required Java 21+"
+        "Returns true if the http client has been closed/shutdown.\nRequired Java 21+"
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12284": {
     "id": 12284,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Close Http Client",
+    "description": "Closes/shutdowns an http client\nRequired Java 21+",
+    "syntax_pattern": "(close|shutdown [now]) http[ ]client %httpclients%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12284",
+    "created_at": "2024-10-14T04:04:55.589555Z",
+    "updated_at": "2024-10-14T04:04:55.589571Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Closes/shutdowns an http client",
-        "Required Java 21+"
+        "Closes/shutdowns an http client\nRequired Java 21+"
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11686": {
     "id": 11686,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Http Server Lifecycle",
+    "description": "Stops/starts a http server.",
+    "syntax_pattern": "start [http[ server]] %httpservers%\n(stop|shut[ ]down) [http[ server]] %httpservers% [with delay %integer%]\nclose http[ ]exchange %httpexchanges%",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11686",
+    "created_at": "2024-06-28T02:56:34.214349Z",
+    "updated_at": "2024-10-14T04:04:55.607549Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Stops/starts a http server."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12285": {
     "id": 12285,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "HTTP Parameter by Key",
+    "description": "Gets a parameter by it's key.",
+    "syntax_pattern": "(parameter|arg[ument]) of %httpexchange% (with|by|from) key %string%",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12285",
+    "created_at": "2024-10-14T04:04:55.640100Z",
+    "updated_at": "2024-10-14T04:04:55.640115Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets a parameter by it's key."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12286": {
     "id": 12286,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "HTTP Client Builder",
+    "description": "Builds a HTTP client.",
+    "syntax_pattern": "http client [builder] stored in %object%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12286",
+    "created_at": "2024-10-14T04:04:55.737362Z",
+    "updated_at": "2024-10-14T04:04:55.737377Z",
+    "entries": "[{\"name\": \"timeout\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"null\"}, {\"name\": \"follow redirects\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"null\"}, {\"name\": \"priority\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"null\"}, {\"name\": \"version\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"null\"}, {\"name\": \"executor\", \"isRequired\": false, \"isSection\": true, \"defaultValue\": \"null\"}]",
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Builds a HTTP client."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12287": {
     "id": 12287,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Send Websocket Builder",
+    "description": "Creates a new websocket.\n# Note:\nUse WebsocketOpenEvent in order to do actions when opened.",
+    "syntax_pattern": "(register|make|send) [a] [new] websocket request with [ur(l|i)] %string% and store it in %object%",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12287",
+    "created_at": "2024-10-14T04:04:55.746327Z",
+    "updated_at": "2024-10-14T04:04:55.746341Z",
+    "entries": "[{\"name\": \"headers\", \"isRequired\": false, \"isSection\": true, \"defaultValue\": \"null\"}]",
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a new websocket.",
-        "# Note:",
-        "Use WebsocketOpenEvent in order to do actions when opened."
+        "Creates a new websocket.\n# Note:\nUse WebsocketOpenEvent in order to do actions when opened."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11132": {
     "id": 11132,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Http Url",
+    "description": "Returns the url of a http response or request.",
+    "syntax_pattern": "[the] [repsonse|request] ur(l|i) of %httpresponses/httprequests%\n%httpresponses/httprequests%'[s] [repsonse|request] ur(l|i)",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11132",
+    "created_at": "2024-03-10T00:18:19.412547Z",
+    "updated_at": "2024-03-10T00:18:19.412561Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the url of a http response or request."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11134": {
     "id": 11134,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Last Http Response",
+    "description": "Returns the last http response.",
+    "syntax_pattern": "[the] last [http] response",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Http Response",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11134",
+    "created_at": "2024-03-10T00:18:19.431462Z",
+    "updated_at": "2024-03-10T00:18:19.431477Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the last http response."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11135": {
     "id": 11135,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "New HTTP Client",
+    "description": "Returns a new HTTP client.",
+    "syntax_pattern": "[a] [new] [empty] http client",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Http Client",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11135",
+    "created_at": "2024-03-10T00:18:19.439138Z",
+    "updated_at": "2024-03-10T00:18:19.439152Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a new HTTP client."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11136": {
     "id": 11136,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Previous HTTP Response",
+    "description": "Returns the previous HTTP response of another httpresponse.",
+    "syntax_pattern": "[the] previous [http] response of %httpresponses%\n%httpresponses%'[s] previous [http] response",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Http Response",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11136",
+    "created_at": "2024-03-10T00:18:19.448482Z",
+    "updated_at": "2024-03-10T00:18:19.448497Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the previous HTTP response of another httpresponse."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11139": {
     "id": 11139,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Http Client",
+    "description": "Represents an http client.",
+    "syntax_pattern": "http[ ]client[s]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11139",
+    "created_at": "2024-03-10T00:18:19.475972Z",
+    "updated_at": "2024-03-10T00:18:19.475985Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an http client."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11140": {
     "id": 11140,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Http Request",
+    "description": "Represents an http request.",
+    "syntax_pattern": "http[ ]request[s]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11140",
+    "created_at": "2024-03-10T00:18:19.484202Z",
+    "updated_at": "2024-03-10T00:18:19.484216Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an http request."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11141": {
     "id": 11141,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Http Response",
+    "description": "Represents an http response.",
+    "syntax_pattern": "http[ ]request[s]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11141",
+    "created_at": "2024-03-10T00:18:19.492478Z",
+    "updated_at": "2024-03-10T00:18:19.492492Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an http response."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11133": {
     "id": 11133,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Http Version",
+    "description": "Returns the version of a http response, request or client.",
+    "syntax_pattern": "[the] [repsonse|request] version of %httpresponses/httprequests/httpclients%\n%httpresponses/httprequests/httpclients%'[s] [repsonse|request] version",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11133",
+    "created_at": "2024-03-10T00:18:19.421016Z",
+    "updated_at": "2024-03-10T00:19:08.680181Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the version of a http response, request or client."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11143": {
     "id": 11143,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Send Discord Webhook",
+    "description": "Sends strings to a discord webhook.",
+    "syntax_pattern": "(send|post) %discordwebhook/string% to [discord] webhook with url %string%",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11143",
+    "created_at": "2024-03-11T05:21:14.297862Z",
+    "updated_at": "2024-03-11T05:21:14.297884Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sends strings to a discord webhook."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11145": {
     "id": 11145,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Embed Field",
+    "description": "Makes a new optionally inlined embed field with a name and a value",
+    "syntax_pattern": "[a] [new] [inline[d]] [embed] field named %string% [and] with value %string%",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Discord Field",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11145",
+    "created_at": "2024-03-11T05:21:14.329695Z",
+    "updated_at": "2024-06-27T06:18:23.791973Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Makes a new optionally inlined embed field with a name and a value"
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11144": {
     "id": 11144,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Embed Author",
+    "description": "Makes a new embed author with a text, url and an icon.",
+    "syntax_pattern": "[a] [new] [embed] author with [text] %string% [and] with url %string% [[and] with icon [url] %string%]",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Discord Author",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11144",
+    "created_at": "2024-03-11T05:21:14.321519Z",
+    "updated_at": "2024-03-11T05:21:14.321533Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Makes a new embed author with a text, url and an icon."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11146": {
     "id": 11146,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Embed Footer",
+    "description": "Makes a new embed footer with a text and an icon.",
+    "syntax_pattern": "[a] [new] [embed] footer with [text] %string% [[and] with icon [url] %string%]",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Discord Footer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11146",
+    "created_at": "2024-03-11T05:21:14.338303Z",
+    "updated_at": "2024-03-11T05:21:14.338323Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Makes a new embed footer with a text and an icon."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11147": {
     "id": 11147,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Discord Author",
+    "description": "Represents a discord embed author.",
+    "syntax_pattern": "discord[ ]author[s]",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11147",
+    "created_at": "2024-03-11T05:21:14.346528Z",
+    "updated_at": "2024-03-11T05:21:14.346543Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a discord embed author."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11148": {
     "id": 11148,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Discord Embed",
+    "description": "Represents a discord embed.",
+    "syntax_pattern": "discord[ ]embed[s]",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11148",
+    "created_at": "2024-03-11T05:21:14.355621Z",
+    "updated_at": "2024-03-11T05:21:14.355635Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a discord embed."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11149": {
     "id": 11149,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Discord Field",
+    "description": "Represents a discord embed field.",
+    "syntax_pattern": "discord[ ]field[s]",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11149",
+    "created_at": "2024-03-11T05:21:14.364430Z",
+    "updated_at": "2024-03-11T05:21:14.364444Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a discord embed field."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11150": {
     "id": 11150,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Discord Footer",
+    "description": "Represents a discord embed footer.",
+    "syntax_pattern": "discord[ ]footer[s]",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11150",
+    "created_at": "2024-03-11T05:21:14.377869Z",
+    "updated_at": "2024-03-11T05:21:14.377900Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a discord embed footer."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11151": {
     "id": 11151,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Discord Webhook",
+    "description": "Represents a discord webhook.",
+    "syntax_pattern": "discord[ ]webhook[s]",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11151",
+    "created_at": "2024-03-11T05:21:14.391858Z",
+    "updated_at": "2024-03-11T05:21:14.391872Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a discord webhook."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11152": {
     "id": 11152,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Discord Webhook Builder",
+    "description": "Builds a discord webhook.",
+    "syntax_pattern": "discord webhook [builder]",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11152",
+    "created_at": "2024-03-11T05:21:14.401149Z",
+    "updated_at": "2024-03-11T05:21:14.401163Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Builds a discord webhook."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11153": {
     "id": 11153,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Discord Webhook Embed Builder",
+    "description": "Builds a discord webhook embed.",
+    "syntax_pattern": "discord [webhook] embed [builder]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11153",
+    "created_at": "2024-03-11T05:21:14.409437Z",
+    "updated_at": "2024-03-11T05:21:14.409451Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Builds a discord webhook embed."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11131": {
     "id": 11131,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Http Method",
+    "description": "Returns the method of a http request/exchange.",
+    "syntax_pattern": "[the] [request] method of %httprequests/httpexchanges%\n%httprequests/httpexchanges%'[s] [request] method",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11131",
+    "created_at": "2024-03-10T00:18:19.404582Z",
+    "updated_at": "2024-06-28T02:56:34.306478Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the method of a http request/exchange."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11138": {
     "id": 11138,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Response Status Code",
+    "description": "Returns the status code of a response/exchange.",
+    "syntax_pattern": "[the] (status|response) code of %httpresponses/httpexchanges%\n%httpresponses/httpexchanges%'[s] (status|response) code",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11138",
+    "created_at": "2024-03-10T00:18:19.465216Z",
+    "updated_at": "2024-06-28T02:56:34.374357Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the status code of a response/exchange."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11137": {
     "id": 11137,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Response/Request Body",
+    "description": "Returns the body of a response/exchange.",
+    "syntax_pattern": "[the] [request|response] body of %httpresponses/httpexchanges%\n%httpresponses/httpexchanges%'[s] [request|response] body",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11137",
+    "created_at": "2024-03-10T00:18:19.456899Z",
+    "updated_at": "2024-06-28T02:56:34.382607Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the body of a response/exchange."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11142": {
     "id": 11142,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "HTTP Request Builder",
+    "description": "Builds a HTTP request.",
+    "syntax_pattern": "http request [builder] stored in %object%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11142",
+    "created_at": "2024-03-10T00:18:19.502756Z",
+    "updated_at": "2024-07-16T23:39:43.628384Z",
+    "entries": "[{\"name\": \"url\", \"isRequired\": true, \"isSection\": false, \"defaultValue\": \"null\"}, {\"name\": \"method\", \"isRequired\": true, \"isSection\": false, \"defaultValue\": \"null\"}, {\"name\": \"body\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"null\"}, {\"name\": \"timeout\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"null\"}, {\"name\": \"headers\", \"isRequired\": false, \"isSection\": true, \"defaultValue\": \"null\"}]",
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Builds a HTTP request."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11680": {
     "id": 11680,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "On Websocket Open Event",
+    "description": "Called whenever a websocket opens.",
+    "syntax_pattern": "[on] websocket open[ed|s]",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-websocket",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11680",
+    "created_at": "2024-06-28T02:56:34.160748Z",
+    "updated_at": "2024-06-28T02:56:34.160763Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called whenever a websocket opens."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11681": {
     "id": 11681,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "On Websocket Ping Event",
+    "description": "Called whenever a ping get received.",
+    "syntax_pattern": "[on] websocket ping[ed]",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-string, event-websocket",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11681",
+    "created_at": "2024-06-28T02:56:34.169488Z",
+    "updated_at": "2024-06-28T02:56:34.169503Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called whenever a ping get received."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11682": {
     "id": 11682,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "On Websocket Pong Event",
+    "description": "Called whenever a pong gets sent out.",
+    "syntax_pattern": "[on] websocket pong[ed]",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-string, event-websocket",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11682",
+    "created_at": "2024-06-28T02:56:34.177808Z",
+    "updated_at": "2024-06-28T02:56:34.177823Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called whenever a pong gets sent out."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11683": {
     "id": 11683,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "On Websocket Text Event",
+    "description": "Called whenever a websocket sends out a text to all listeners.",
+    "syntax_pattern": "[on] websocket text [receive[ed]]",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-boolean, event-string, event-websocket",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11683",
+    "created_at": "2024-06-28T02:56:34.187546Z",
+    "updated_at": "2024-06-28T02:56:34.187560Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called whenever a websocket sends out a text to all listeners."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11672": {
     "id": 11672,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Download file from URL",
+    "description": "Downloads all data from a website and will be stored as a file with any given extension\nWill be stored in the data folder.",
+    "syntax_pattern": "download file from %httpresponse/httprequest/string% to [file] %string%",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11672",
+    "created_at": "2024-06-27T06:18:23.771980Z",
+    "updated_at": "2024-07-16T23:39:43.580108Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Downloads all data from a website and will be stored as a file with any given extension",
-        "Will be stored in the data folder."
+        "Downloads all data from a website and will be stored as a file with any given extension\nWill be stored in the data folder."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11673": {
     "id": 11673,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "HTTP Headers",
+    "description": "Returns the headers of a http response of request.",
+    "syntax_pattern": "[the] [http] headers of %httpresponses/httprequests%\n%httpresponses/httprequests%'[s] [http] headers",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11673",
+    "created_at": "2024-06-27T06:18:23.801740Z",
+    "updated_at": "2024-06-27T06:18:23.801755Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the headers of a http response of request."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11674": {
     "id": 11674,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "HTTP Response",
+    "description": "Returns the http response in a send async http event.",
+    "syntax_pattern": "[the] [event-][http[ |-]]response",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Http Response",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11674",
+    "created_at": "2024-06-27T06:18:23.809712Z",
+    "updated_at": "2024-06-27T06:18:23.809727Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the http response in a send async http event."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11675": {
     "id": 11675,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Http Request",
+    "description": "Represents an http request.",
+    "syntax_pattern": "http[ ]request[s]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11675",
+    "created_at": "2024-06-27T06:18:23.817759Z",
+    "updated_at": "2024-06-27T06:18:23.817774Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an http request."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11677": {
     "id": 11677,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "On Websocket Binary Event",
+    "description": "Called whenever a binary data was received.",
+    "syntax_pattern": "[on] websocket binary [receive[d]]",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-boolean, event-string, event-websocket",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11677",
+    "created_at": "2024-06-28T02:56:34.127347Z",
+    "updated_at": "2024-06-28T02:56:34.127368Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called whenever a binary data was received."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11678": {
     "id": 11678,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "On Websocket Close Event",
+    "description": "Called whenever a websocket was closed.",
+    "syntax_pattern": "[on] websocket close[d]",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-integer, event-string, event-websocket",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11678",
+    "created_at": "2024-06-28T02:56:34.143729Z",
+    "updated_at": "2024-06-28T02:56:34.143745Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called whenever a websocket was closed."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11679": {
     "id": 11679,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "On Websocket Error Event",
+    "description": "Called whenever a error is received.",
+    "syntax_pattern": "[on] websocket error [receive[d]]",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-string, event-websocket",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11679",
+    "created_at": "2024-06-28T02:56:34.152295Z",
+    "updated_at": "2024-06-28T02:56:34.152314Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called whenever a error is received."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11684": {
     "id": 11684,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Is Input/Output Closed",
+    "description": "Returns true if either the input or output is closed.",
+    "syntax_pattern": "%websockets% (is|are) (output|input) closed\n%websockets% (isn't|is not|aren't|are not) (output|input) closed",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11684",
+    "created_at": "2024-06-28T02:56:34.196466Z",
+    "updated_at": "2024-06-28T02:56:34.196481Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns true if either the input or output is closed."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11685": {
     "id": 11685,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Exchange Respond",
+    "description": "Sends a response to the endpoint/context.",
+    "syntax_pattern": "respond with [response] code %integer% [and message %object%] [using %httpexchange%]\n(send|post) [response] code %integer% [and message %object%] [using %httpexchange%]",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11685",
+    "created_at": "2024-06-28T02:56:34.205850Z",
+    "updated_at": "2024-06-28T02:56:34.205865Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sends a response to the endpoint/context."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11687": {
     "id": 11687,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Remove Server Endpoint",
+    "description": "Removes a server http endpoint/context.",
+    "syntax_pattern": "(remove|delete) endpoint %httpcontexts/strings% from [http[server]] %httpserver%",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11687",
+    "created_at": "2024-06-28T02:56:34.224629Z",
+    "updated_at": "2024-06-28T02:56:34.224644Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Removes a server http endpoint/context."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11688": {
     "id": 11688,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Websocket Abort",
+    "description": "Aborts a websocket.",
+    "syntax_pattern": "abort %websockets%",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11688",
+    "created_at": "2024-06-28T02:56:34.237356Z",
+    "updated_at": "2024-06-28T02:56:34.237372Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Aborts a websocket."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11689": {
     "id": 11689,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Websocket Request",
+    "description": "Requests a websocket.",
+    "syntax_pattern": "request %websockets%",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11689",
+    "created_at": "2024-06-28T02:56:34.245316Z",
+    "updated_at": "2024-06-28T02:56:34.245344Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Requests a websocket."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11690": {
     "id": 11690,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Websocket Send Status",
+    "description": "Sends a websocket status.",
+    "syntax_pattern": "(send|post) close with status code %integer% and reason %string% (with|by|using) [websocket] %websockets%\n(send|post) [last] binary message %string% (with|by|using) [websocket] %websockets%\n(send|post) ping message %string% (with|by|using) [websocket] %websockets%\n(send|post) pong message %string% (with|by|using) [websocket] %websockets%\n(send|post) [last] (text|message) %string% (with|by|using) [websocket] %websockets%",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11690",
+    "created_at": "2024-06-28T02:56:34.254470Z",
+    "updated_at": "2024-06-28T02:56:34.254487Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sends a websocket status."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11693": {
     "id": 11693,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "HTTP Header By Key",
+    "description": "Gets a header by it's key.",
+    "syntax_pattern": "header of %httpresponses/httprequests/httpexchanges% (with|by|from) key %string%",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11693",
+    "created_at": "2024-06-28T02:56:34.280508Z",
+    "updated_at": "2024-06-28T02:56:34.280523Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets a header by it's key."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11695": {
     "id": 11695,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Http Address",
+    "description": "Returns the inetaddress of either a http server or http exchange.",
+    "syntax_pattern": "[the] [local|remote] address of %httpexchanges/httpservers%\n%httpexchanges/httpservers%'[s] [local|remote] address",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11695",
+    "created_at": "2024-06-28T02:56:34.299001Z",
+    "updated_at": "2024-06-28T02:56:34.299016Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the inetaddress of either a http server or http exchange."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11696": {
     "id": 11696,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Http Path",
+    "description": "Returns the path of either a http context or http exchange.",
+    "syntax_pattern": "[the] [full] [ur(l|i)] path of %httpcontexts/httpexchanges%\n%httpcontexts/httpexchanges%'[s] [full] [ur(l|i)] path",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11696",
+    "created_at": "2024-06-28T02:56:34.316606Z",
+    "updated_at": "2024-06-28T02:56:34.316620Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the path of either a http context or http exchange."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11701": {
     "id": 11701,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Last Http Websocket",
+    "description": "Returns the last http websocket.",
+    "syntax_pattern": "[the] last [http] websocket",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Websocket",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11701",
+    "created_at": "2024-06-28T02:56:34.358642Z",
+    "updated_at": "2024-06-28T02:56:34.358657Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the last http websocket."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11691": {
     "id": 11691,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "HTTP Attribute by Key",
+    "description": "Gets a attribute by it's key.",
+    "syntax_pattern": "attribute of %httpexchange% (with|by|from) key %string%",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11691",
+    "created_at": "2024-06-28T02:56:34.263474Z",
+    "updated_at": "2024-10-14T04:04:55.621284Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets a attribute by it's key."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11707": {
     "id": 11707,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Json Array",
+    "description": "Represents a json array.",
+    "syntax_pattern": "json[ ]array[s]",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11707",
+    "created_at": "2024-06-28T02:56:34.425008Z",
+    "updated_at": "2024-06-28T02:56:34.425023Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a json array."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11709": {
     "id": 11709,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Json Object",
+    "description": "Represents a json object.",
+    "syntax_pattern": "json[ ]object[s]",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11709",
+    "created_at": "2024-06-28T02:56:34.441147Z",
+    "updated_at": "2024-06-28T02:56:34.441162Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a json object."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11711": {
     "id": 11711,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Websocket",
+    "description": "Represents a websocket.",
+    "syntax_pattern": "[http ]websocket[s]",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11711",
+    "created_at": "2024-06-28T02:56:34.457486Z",
+    "updated_at": "2024-06-28T02:56:34.457501Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a websocket."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11712": {
     "id": 11712,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Create Endpoint",
+    "description": "Creates a new endpoint.",
+    "syntax_pattern": "(create|make) [a] [new] (endpoint|context) using %httpserver%",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11712",
+    "created_at": "2024-06-28T02:56:34.466528Z",
+    "updated_at": "2024-06-28T02:56:34.466542Z",
+    "entries": "[{\"name\": \"method\", \"isRequired\": true, \"isSection\": false, \"defaultValue\": \"null\"}, {\"name\": \"path\", \"isRequired\": true, \"isSection\": false, \"defaultValue\": \"null\"}, {\"name\": \"trigger\", \"isRequired\": true, \"isSection\": true, \"defaultValue\": \"null\"}]",
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a new endpoint."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11713": {
     "id": 11713,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Send Websocket Builder",
+    "description": "Creates a new websocket.\n# Note:\nUse WebsocketOpenEvent in order to do actions when opened.",
+    "syntax_pattern": "(register|make) [a] [new] websocket with [ur(l|i)] %string% and store it in %object%",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11713",
+    "created_at": "2024-06-28T02:56:34.477145Z",
+    "updated_at": "2024-06-28T02:56:34.477160Z",
+    "entries": "[{\"name\": \"headers\", \"isRequired\": false, \"isSection\": true, \"defaultValue\": \"null\"}]",
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a new websocket.",
-        "# Note:",
-        "Use WebsocketOpenEvent in order to do actions when opened."
+        "Creates a new websocket.\n# Note:\nUse WebsocketOpenEvent in order to do actions when opened."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11692": {
     "id": 11692,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "HTTP Exchange",
+    "description": "Returns the http exchange in a create endpoint event.",
+    "syntax_pattern": "[the] [event-][http[s][ |-]]exchange",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Http Exchange",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11692",
+    "created_at": "2024-06-28T02:56:34.271732Z",
+    "updated_at": "2024-10-14T04:04:55.630690Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the http exchange in a create endpoint event."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11694": {
     "id": 11694,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "HTTP Protocol",
+    "description": "Gets the protocol of the http exchange.",
+    "syntax_pattern": "[the] [http[s]] protocol of %httpexchanges%\n%httpexchanges%'[s] [http[s]] protocol",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11694",
+    "created_at": "2024-06-28T02:56:34.290626Z",
+    "updated_at": "2024-10-14T04:04:55.648726Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the protocol of the http exchange."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11697": {
     "id": 11697,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Http Server from Http Context",
+    "description": "Gets thee http server from a context.",
+    "syntax_pattern": "[the] http[s] server of %httpcontexts%\n%httpcontexts%'[s] http[s] server",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Http Server",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11697",
+    "created_at": "2024-06-28T02:56:34.325673Z",
+    "updated_at": "2024-10-14T04:04:55.658197Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets thee http server from a context."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11698": {
     "id": 11698,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Last Http Context",
+    "description": "Returns the last http context.",
+    "syntax_pattern": "[the] last [http[s]] context",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Http Context",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11698",
+    "created_at": "2024-06-28T02:56:34.334366Z",
+    "updated_at": "2024-10-14T04:04:55.666020Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the last http context."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11699": {
     "id": 11699,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Last Http Exchange",
+    "description": "Returns the last http exchange.",
+    "syntax_pattern": "[the] last [http[s]] exchange",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Http Exchange",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11699",
+    "created_at": "2024-06-28T02:56:34.342396Z",
+    "updated_at": "2024-10-14T04:04:55.673886Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the last http exchange."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11700": {
     "id": 11700,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Last Http Server",
+    "description": "Returns the last http server.",
+    "syntax_pattern": "[the] last [http[s]] server",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Http Server",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11700",
+    "created_at": "2024-06-28T02:56:34.350659Z",
+    "updated_at": "2024-10-14T04:04:55.683265Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the last http server."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11703": {
     "id": 11703,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Http Context",
+    "description": "Represents a http context.",
+    "syntax_pattern": "http[s][ ]context[s]",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11703",
+    "created_at": "2024-06-28T02:56:34.391284Z",
+    "updated_at": "2024-10-14T04:04:55.702229Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a http context."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11704": {
     "id": 11704,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Http Exchange",
+    "description": "Represents a http exchange.",
+    "syntax_pattern": "http[s][ ]exchange[s]",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11704",
+    "created_at": "2024-06-28T02:56:34.400163Z",
+    "updated_at": "2024-10-14T04:04:55.711995Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a http exchange."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11705": {
     "id": 11705,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Http Handler",
+    "description": "Represents a http handler.",
+    "syntax_pattern": "http[s][ ]handler[s]",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11705",
+    "created_at": "2024-06-28T02:56:34.408666Z",
+    "updated_at": "2024-10-14T04:04:55.720951Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a http handler."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11706": {
     "id": 11706,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Http Server",
+    "description": "Represents a http server.",
+    "syntax_pattern": "http[s][ ]server[s]",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11706",
+    "created_at": "2024-06-28T02:56:34.417356Z",
+    "updated_at": "2024-10-14T04:04:55.728918Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a http server."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11800": {
     "id": 11800,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Json - Has Element",
+    "description": "Returns true if the json has the specified value or key",
+    "syntax_pattern": "%jsonarrays/jsonobjects% (has|contains) (value|key) %object%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11800",
+    "created_at": "2024-07-16T23:39:43.567547Z",
+    "updated_at": "2024-07-16T23:39:43.567569Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns true if the json has the specified value or key"
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11802": {
     "id": 11802,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Json - Json Edit",
+    "description": "Adds/Removes elements from a json object/array",
+    "syntax_pattern": "(put|add) [[key] %string% [and]] [value] %object% in %jsonobjects/jsonarrays%\nremove [first|all] %object% in %jsonarrays/jsonobjects%\nremove [object at] index [of] %integer% in %jsonarrays/jsonobjects%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11802",
+    "created_at": "2024-07-16T23:39:43.597440Z",
+    "updated_at": "2024-07-16T23:39:43.597455Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Adds/Removes elements from a json object/array"
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11803": {
     "id": 11803,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Json - Get Object from Json",
+    "description": "Gets an object from a json object/array",
+    "syntax_pattern": "key %string% (from|of) [json[[ ](object|array)]] %jsonobjects/jsonarrays%\nindex %integer% (from|of) [json[[ ](object|array)]] %jsonobjects/jsonarrays%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11803",
+    "created_at": "2024-07-16T23:39:43.605127Z",
+    "updated_at": "2024-07-16T23:39:43.605141Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets an object from a json object/array"
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11804": {
     "id": 11804,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Json - New Json Object/Array",
+    "description": "Gets a new json object or array",
+    "syntax_pattern": "[a] [new] json[ ](object|array)\njson[[ ](object|array)] from [string|object] %objects%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11804",
+    "created_at": "2024-07-16T23:39:43.613080Z",
+    "updated_at": "2024-07-16T23:39:43.613095Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets a new json object or array"
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11805": {
     "id": 11805,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "Send Http Request",
+    "description": "Sends an, optionally async, http request.\n# Note:\nIf you are sending an async request, you will have to use the section in order to get the response on time.",
+    "syntax_pattern": "(send|post) [[a]sync[hronous]] [http] request using [[client] %httpclient% and] [request] %httprequest%\n(send|post) [http] request using [[client] %httpclient% and] [request] %httprequest% [a]synchronously",
+    "compatible_addon_version": "1.0, 1.2 (effect section)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11805",
+    "created_at": "2024-07-16T23:39:43.636371Z",
+    "updated_at": "2024-07-16T23:39:43.636386Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Sends an, optionally async, http request.",
-        "# Note:",
-        "If you are sending an async request, you will have to use the section in order to get the response on time."
+        "Sends an, optionally async, http request.\n# Note:\nIf you are sending an async request, you will have to use the section in order to get the response on time."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11702": {
     "id": 11702,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "New Http Server",
+    "description": "Returns a new http server with an optional specified port.",
+    "syntax_pattern": "[a] [new] http[s] server [with port %integer%]",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": "Http Server",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11702",
+    "created_at": "2024-06-28T02:56:34.366654Z",
+    "updated_at": "2024-10-14T04:04:55.691538Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a new http server with an optional specified port."
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11801": {
     "id": 11801,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Aabsss",
+    "title": "EffPublishHttpSite",
+    "description": "",
+    "syntax_pattern": "(publish|make|create) [a] [new] [web]site using %httpserver% (from|at) [path] %string% [and] (from|with) [folder|file[s]] %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkHttp",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11801",
+    "created_at": "2024-07-16T23:39:43.589546Z",
+    "updated_at": "2024-10-14T04:04:55.598570Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkHttp] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkHttp] 한국어 가이드팩 준비 중"
+        "[SKHTTP] 한국어 가이드 번역 대기 중"
       ]
     }
   }

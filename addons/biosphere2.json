@@ -1,715 +1,1582 @@
 {
   "syntax_2174": {
     "id": 2174,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Box",
+    "description": "Creates a list of locations in the shape of a box (only the corners!).",
+    "syntax_pattern": "box between %location% and %location%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2174",
+    "created_at": "2018-01-20T17:33:47.424821Z",
+    "updated_at": "2018-01-20T17:33:47.424840Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of locations in the shape of a box (only the corners!)."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2175": {
     "id": 2175,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Box Outline",
+    "description": "Creates a list of vectors in the shape of a box including corners and edges. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block.",
+    "syntax_pattern": "box outline between %location% and %location% with density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2175",
+    "created_at": "2018-01-20T17:33:47.432978Z",
+    "updated_at": "2018-01-20T17:33:47.432997Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of vectors in the shape of a box including corners and edges. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2176": {
     "id": 2176,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Box",
+    "description": "Creates a list of vectors in the shape of a box (only the corners!).",
+    "syntax_pattern": "vector box between %vector% and %vector%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2176",
+    "created_at": "2018-01-20T17:33:47.613780Z",
+    "updated_at": "2018-01-20T17:33:47.613800Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of vectors in the shape of a box (only the corners!)."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2177": {
     "id": 2177,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Box Outline",
+    "description": "Creates a list of vectors in the shape of a box including corners and edges. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block.",
+    "syntax_pattern": "vector box outline between %vector% and %vector% with density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2177",
+    "created_at": "2018-01-20T17:33:47.621816Z",
+    "updated_at": "2018-01-20T17:33:47.621847Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of vectors in the shape of a box including corners and edges. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1330": {
     "id": 1330,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Frame of Entity",
+    "description": "Gives the reference frame of an entity. The reference frame is used to get locations with respect to the entities orientation.",
+    "syntax_pattern": "frame of %entity%\n%entity%['s] frame",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Frame",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1330",
+    "created_at": "2017-11-15T20:58:48.166442Z",
+    "updated_at": "2018-01-20T17:33:47.417120Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gives the reference frame of an entity. The reference frame is used to get locations with respect to the entities orientation."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1332": {
     "id": 1332,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Cube",
+    "description": "Creates a list of locations in the shape of a cube (only the corners!). To get a list of locations including the cube edges use cube outline.",
+    "syntax_pattern": "cube[s] at %locations% with radius %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1332",
+    "created_at": "2017-11-15T20:58:48.182893Z",
+    "updated_at": "2018-01-20T17:33:47.451002Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of locations in the shape of a cube (only the corners!). To get a list of locations including the cube edges use cube outline."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1333": {
     "id": 1333,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Cube Outline",
+    "description": "Creates a list of locations in the shape of a cube, including the corners and vertices of the cube. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block.",
+    "syntax_pattern": "cube[s] outline[s] at %locations% with radius %number%(,| and) density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1333",
+    "created_at": "2017-11-15T20:58:48.190473Z",
+    "updated_at": "2018-01-20T17:33:47.458340Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of locations in the shape of a cube, including the corners and vertices of the cube. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1338": {
     "id": 1338,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Link All",
+    "description": "Creates a list of locations linking multiple locations with lines. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block.",
+    "syntax_pattern": "%locations% (linked|connected) with density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1338",
+    "created_at": "2017-11-15T20:58:48.230836Z",
+    "updated_at": "2018-01-20T17:33:47.496759Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of locations linking multiple locations with lines. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1339": {
     "id": 1339,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Midpoint",
+    "description": "Gives the midpoint between locations.",
+    "syntax_pattern": "[location ]midpoint of %locations%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1339",
+    "created_at": "2017-11-15T20:58:48.238472Z",
+    "updated_at": "2018-01-20T17:33:47.504743Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gives the midpoint between locations."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1340": {
     "id": 1340,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Move",
+    "description": "Moves a list of locations from one location to another.",
+    "syntax_pattern": "%locations% with center %location% (moved|shifted) to %location%\n%locations% with center %location% (moved|shifted) to %location%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1340",
+    "created_at": "2017-11-15T20:58:48.245820Z",
+    "updated_at": "2018-01-20T17:33:47.512374Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Moves a list of locations from one location to another."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1341": {
     "id": 1341,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Offset",
+    "description": "Calculates the offset of locations from vectors.",
+    "syntax_pattern": "[location[s]] %locations% offset by %vectors%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1341",
+    "created_at": "2017-11-15T20:58:48.256491Z",
+    "updated_at": "2018-01-20T17:33:47.520396Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Calculates the offset of locations from vectors."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1342": {
     "id": 1342,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Polygon",
+    "description": "Creates a list of locations in the shape of a polygon (only the corners!). If you want a polygon with edges use polygon outline.",
+    "syntax_pattern": "polygon[s] at %locations% with %number% (vertex|vertices|vertexes|points)(,| and) radius %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1342",
+    "created_at": "2017-11-15T20:58:48.267265Z",
+    "updated_at": "2018-01-20T17:33:47.535989Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of locations in the shape of a polygon (only the corners!). If you want a polygon with edges use polygon outline."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1343": {
     "id": 1343,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Polygon Outline",
+    "description": "Creates a list of locations in the shape of a polygon including corners and edges. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block.",
+    "syntax_pattern": "polygon[s] outline[s] at %locations% with %number% (vertex|vertices|vertexes|points)(,| and) radius %number%(,| and) density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1343",
+    "created_at": "2017-11-15T20:58:48.275459Z",
+    "updated_at": "2018-01-20T17:33:47.543743Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of locations in the shape of a polygon including corners and edges. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1327": {
     "id": 1327,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Degree to Radian",
+    "description": "Converts degree to radian",
+    "syntax_pattern": "%number% [in] rad[ian]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1327",
+    "created_at": "2017-11-15T20:58:48.141131Z",
+    "updated_at": "2018-01-20T17:33:47.390904Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Converts degree to radian"
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1328": {
     "id": 1328,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Frame Yaw and Pitch",
+    "description": "Yaw and pitch of a frame. Mainly used to rotate or incline reference frames",
+    "syntax_pattern": "frame (0¦yaw|1¦pitch) of %frame%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1328",
+    "created_at": "2017-11-15T20:58:48.150693Z",
+    "updated_at": "2018-01-20T17:33:47.400643Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Yaw and pitch of a frame. Mainly used to rotate or incline reference frames"
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1334": {
     "id": 1334,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Cylinder Coordinate",
+    "description": "Gives locations in a cylindrical coordinate system.",
+    "syntax_pattern": "cylinder coordinate[s] at %locations% with radius %number%(,| and) yaw %number%(,| and) height %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1334",
+    "created_at": "2017-11-15T20:58:48.199587Z",
+    "updated_at": "2018-01-20T17:33:47.466273Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gives locations in a cylindrical coordinate system."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1335": {
     "id": 1335,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Helix",
+    "description": "Creates a list of locations in the shape of a helix. The step parameter determines how many blocks the helix will go upwards in one rotation. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block.",
+    "syntax_pattern": "heli(x|xes|ces) at %locations% with radius %number%(,| and) height %number%(,| and) step[(height|size)] %number%(,| and) density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1335",
+    "created_at": "2017-11-15T20:58:48.207384Z",
+    "updated_at": "2018-01-20T17:33:47.474013Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of locations in the shape of a helix. The step parameter determines how many blocks the helix will go upwards in one rotation. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1336": {
     "id": 1336,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Line",
+    "description": "Creates a list of locations in the shape of a line. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block.",
+    "syntax_pattern": "line[s] (between|from) %locations% (and|to) %location% with density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1336",
+    "created_at": "2017-11-15T20:58:48.216224Z",
+    "updated_at": "2018-01-20T17:33:47.481953Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of locations in the shape of a line. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1337": {
     "id": 1337,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Line Coordinate",
+    "description": "Gives a location on the line between two locations. The number parameter describes how far the point is from the first location. A value of 0 corresponds the the start (first location). A value of 1 corresponds to the end (location 2). 0.5 is the midpoint between the two locations.",
+    "syntax_pattern": "line[ar] (coordinate[s]|position[s]|location[s]) %number% from %locations% to %location%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1337",
+    "created_at": "2017-11-15T20:58:48.223160Z",
+    "updated_at": "2018-01-20T17:33:47.489041Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gives a location on the line between two locations. The number parameter describes how far the point is from the first location. A value of 0 corresponds the the start (first location). A value of 1 corresponds to the end (location 2). 0.5 is the midpoint between the two locations."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1329": {
     "id": 1329,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Frame from Yaw and Pitch",
+    "description": "Creates a reference frame from a yaw and a pitch.",
+    "syntax_pattern": "frame with yaw %number% and pitch %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Frame",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1329",
+    "created_at": "2017-11-15T20:58:48.159188Z",
+    "updated_at": "2018-01-20T17:33:47.408619Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a reference frame from a yaw and a pitch."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1346": {
     "id": 1346,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Rotate",
+    "description": "Rotates locations around a rotation center and a rotation axis by an angle.",
+    "syntax_pattern": "%locations% rotated around %vector% at %location% (with angle|by) %number%[ degree[s]]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1346",
+    "created_at": "2017-11-15T20:58:48.301874Z",
+    "updated_at": "2018-01-20T17:33:47.567992Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Rotates locations around a rotation center and a rotation axis by an angle."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1347": {
     "id": 1347,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Rotate XYZ",
+    "description": "Rotates locations around a rotation center and rotation axis by an angle.",
+    "syntax_pattern": "%locations% rotated around (1¦x|2¦y|3¦z)(-| )axis at %location% (with angle|by) %number%[ degree[s]]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1347",
+    "created_at": "2017-11-15T20:58:48.309034Z",
+    "updated_at": "2018-01-20T17:33:47.575738Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Rotates locations around a rotation center and rotation axis by an angle."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1348": {
     "id": 1348,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Scale",
+    "description": "Scales locations from a center by a scaling factor. The direction parameter adds an additional scaling along the x-, y- and z-axis.",
+    "syntax_pattern": "%locations% scaled at %location% by %number%[ (in|with|and) direction [of ]%-vector%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1348",
+    "created_at": "2017-11-15T20:58:48.317090Z",
+    "updated_at": "2018-01-20T17:33:47.583272Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Scales locations from a center by a scaling factor. The direction parameter adds an additional scaling along the x-, y- and z-axis."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1354": {
     "id": 1354,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Cube Outline",
+    "description": "Creates a list of vectors in the shape of a polygon including corners and edges. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block.",
+    "syntax_pattern": "[vector ]cube outline with radius %number%(,| and) density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1354",
+    "created_at": "2017-11-15T20:58:48.362266Z",
+    "updated_at": "2018-01-20T17:33:47.645033Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of vectors in the shape of a polygon including corners and edges. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1356": {
     "id": 1356,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Line",
+    "description": "Creates a list of vectors in the shape of a line. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block.",
+    "syntax_pattern": "[vector ]line with length %number%(,| and) density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1356",
+    "created_at": "2017-11-15T20:58:48.377884Z",
+    "updated_at": "2018-01-20T17:33:47.661063Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of vectors in the shape of a line. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1357": {
     "id": 1357,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Line Between Vectors",
+    "description": "Creates a list of vectors in the shape of a line between the two given vectors. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block.",
+    "syntax_pattern": "vector line (between|from) %vector% (and|to) %vector% with density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1357",
+    "created_at": "2017-11-15T20:58:48.386499Z",
+    "updated_at": "2018-01-20T17:33:47.668796Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of vectors in the shape of a line between the two given vectors. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1358": {
     "id": 1358,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Link All",
+    "description": "Creates a list of vectors linking multiple vectors with lines. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block.",
+    "syntax_pattern": "vector[s] %vectors% (linked|connected) with density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1358",
+    "created_at": "2017-11-15T20:58:48.395266Z",
+    "updated_at": "2018-01-20T17:33:47.675955Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of vectors linking multiple vectors with lines. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1359": {
     "id": 1359,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Midpoint",
+    "description": "Gives the midpoint between vectors.",
+    "syntax_pattern": "vector midpoint of %vectors%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1359",
+    "created_at": "2017-11-15T20:58:48.403642Z",
+    "updated_at": "2018-01-20T17:33:47.683219Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gives the midpoint between vectors."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1361": {
     "id": 1361,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Polygon",
+    "description": "Creates a list of vectors in the shape of a polygon (only the corners!). If you want a polygon with edges use polygon outline.",
+    "syntax_pattern": "[vector ]polygon with %number% (vertex|vertices|vertexes|points)(,| and) radius %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1361",
+    "created_at": "2017-11-15T20:58:48.418591Z",
+    "updated_at": "2018-01-20T17:33:47.712365Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of vectors in the shape of a polygon (only the corners!). If you want a polygon with edges use polygon outline."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1362": {
     "id": 1362,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Polygon Outline",
+    "description": "Creates a list of vectors in the shape of a polygon including corners and edges. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block.",
+    "syntax_pattern": "[vector ]polygon outline with %number% (vertex|vertices|vertexes|points)(,| and) radius %number%(,|and) density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1362",
+    "created_at": "2017-11-15T20:58:48.426124Z",
+    "updated_at": "2018-01-20T17:33:47.720041Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of vectors in the shape of a polygon including corners and edges. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1363": {
     "id": 1363,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Random Sphere",
+    "description": "Creates a list of vectors in the shape of a sphere. The locations are randomly distributed on the sphere surface.",
+    "syntax_pattern": "[vector ]random sphere with radius %number%(,| and) density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1363",
+    "created_at": "2017-11-15T20:58:48.434035Z",
+    "updated_at": "2018-01-20T17:33:47.733540Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of vectors in the shape of a sphere. The locations are randomly distributed on the sphere surface."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1364": {
     "id": 1364,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Reflection",
+    "description": "Mirrors vectors in another vector. The direction parameter applies an additional scaling for each axis.",
+    "syntax_pattern": "vector[s] %vectors% (mirrored|reflected) at %vector%[ (in|with) direction [of ]%-vector%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1364",
+    "created_at": "2017-11-15T20:58:48.442347Z",
+    "updated_at": "2018-01-20T17:33:47.740858Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Mirrors vectors in another vector. The direction parameter applies an additional scaling for each axis."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1365": {
     "id": 1365,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Rotate",
+    "description": "Rotates vectors around a rotation center and a rotation axis by an angle.",
+    "syntax_pattern": "[vector[s] ]%vectors% rotated around %vector% (with angle|by) %number%[ degree[s]]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1365",
+    "created_at": "2017-11-15T20:58:48.450057Z",
+    "updated_at": "2018-01-20T17:33:47.748611Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Rotates vectors around a rotation center and a rotation axis by an angle."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1366": {
     "id": 1366,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Rotate XYZ",
+    "description": "Rotates vectors around a rotation center and rotation axis by an angle.",
+    "syntax_pattern": "[vector[s] ]%vectors% rotated around (1¦x|2¦y|3¦z)(-| )axis (with angle|by) %number%[ degree[s]]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1366",
+    "created_at": "2017-11-15T20:58:48.457227Z",
+    "updated_at": "2018-01-20T17:33:47.757171Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Rotates vectors around a rotation center and rotation axis by an angle."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1367": {
     "id": 1367,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Scale",
+    "description": "Scales vectors by a scaling factor and an optional direction. The direction parameter adds an additional scaling along the x-, y- and z-axis.",
+    "syntax_pattern": "[vector[s] ]%vectors% scaled by %number%[ (in|with|and) direction [of ]%-vector%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1367",
+    "created_at": "2017-11-15T20:58:48.465619Z",
+    "updated_at": "2018-01-20T17:33:47.766208Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Scales vectors by a scaling factor and an optional direction. The direction parameter adds an additional scaling along the x-, y- and z-axis."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1345": {
     "id": 1345,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Reflection",
+    "description": "Mirrors locations in another location. The direction parameter applies an additional scaling for each axis.",
+    "syntax_pattern": "%locations% (mirrored|reflected) at %location%[ (in|with) direction [of ]%-vector%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1345",
+    "created_at": "2017-11-15T20:58:48.291961Z",
+    "updated_at": "2018-01-20T17:33:47.560014Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Mirrors locations in another location. The direction parameter applies an additional scaling for each axis."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1349": {
     "id": 1349,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Sphere",
+    "description": "Creates a list of locations in the shape of a sphere. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block.",
+    "syntax_pattern": "sphere[s] at %locations% with radius %number%(,| and) density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1349",
+    "created_at": "2017-11-15T20:58:48.324063Z",
+    "updated_at": "2018-01-20T17:33:47.591199Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of locations in the shape of a sphere. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1350": {
     "id": 1350,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Sphere Coordinate",
+    "description": "Gives locations in a spherical coordinate system.",
+    "syntax_pattern": "spher(e|ic[al]) (coordinate[s]|position[s]|location[s]) at %locations% with radius %number%(,| and) yaw %number%(,| and) pitch %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1350",
+    "created_at": "2017-11-15T20:58:48.331391Z",
+    "updated_at": "2018-01-20T17:33:47.598449Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gives locations in a spherical coordinate system."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1351": {
     "id": 1351,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Radian to Degree",
+    "description": "Converts radian to degree",
+    "syntax_pattern": "%number% [in] deg[ree]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1351",
+    "created_at": "2017-11-15T20:58:48.339481Z",
+    "updated_at": "2018-01-20T17:33:47.606135Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Converts radian to degree"
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1353": {
     "id": 1353,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Cube",
+    "description": "Creates a list of vectors in the shape of a cube (only the corners!). To get a list of locations including the cube edges use cube outline.",
+    "syntax_pattern": "[vector ]cube with radius %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1353",
+    "created_at": "2017-11-15T20:58:48.353975Z",
+    "updated_at": "2018-01-20T17:33:47.637216Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of vectors in the shape of a cube (only the corners!). To get a list of locations including the cube edges use cube outline."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1360": {
     "id": 1360,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Offset",
+    "description": "Offset vectors by other vectors.",
+    "syntax_pattern": "[vector[s] ]%vectors% moved by %vectors%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1360",
+    "created_at": "2017-11-15T20:58:48.411685Z",
+    "updated_at": "2018-01-20T17:33:47.697785Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Offset vectors by other vectors."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1352": {
     "id": 1352,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Circle",
+    "description": "Creates a list of vectors in the shape of a circle",
+    "syntax_pattern": "[vector ]circle with radius %number%(,| and) density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1352",
+    "created_at": "2017-11-15T20:58:48.346319Z",
+    "updated_at": "2018-01-20T17:33:47.629392Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of vectors in the shape of a circle"
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1370": {
     "id": 1370,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Frame",
+    "description": "Reference frame that can be used to get vectors relative to some direction.",
+    "syntax_pattern": "frame[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": "frame of %entity%\nframe with yaw %number% and pitch %number%",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1370",
+    "created_at": "2017-11-15T20:58:48.488755Z",
+    "updated_at": "2018-01-20T17:33:47.791052Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Reference frame that can be used to get vectors relative to some direction."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1369": {
     "id": 1369,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector in Frame",
+    "description": "Converts a vector in a reference frame to the standard Minecraft coordinates.",
+    "syntax_pattern": "[vector ]%vectors% in %frame%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1369",
+    "created_at": "2017-11-15T20:58:48.481275Z",
+    "updated_at": "2018-01-20T17:33:47.782081Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Converts a vector in a reference frame to the standard Minecraft coordinates."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1344": {
     "id": 1344,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Random Sphere",
+    "description": "Creates a list of locations in the shape of a sphere. The locations are randomly distributed on the sphere surface.",
+    "syntax_pattern": "random sphere[s] at %locations% with radius %number%(,| and) density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1344",
+    "created_at": "2017-11-15T20:58:48.282970Z",
+    "updated_at": "2018-01-20T17:33:47.552159Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of locations in the shape of a sphere. The locations are randomly distributed on the sphere surface."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1531": {
     "id": 1531,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Path",
+    "description": "Creates a path between the locations. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block.",
+    "syntax_pattern": "[location ]path between %locations% with density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1531",
+    "created_at": "2017-11-25T17:09:01.963093Z",
+    "updated_at": "2018-01-20T17:33:47.528190Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a path between the locations. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1368": {
     "id": 1368,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Sphere",
+    "description": "Creates a list of vectors in the shape of a sphere. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block.",
+    "syntax_pattern": "[vector ]sphere with radius %number%(,| and) density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1368",
+    "created_at": "2017-11-15T20:58:48.473383Z",
+    "updated_at": "2018-01-20T17:33:47.774412Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of vectors in the shape of a sphere. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1331": {
     "id": 1331,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Location Circle",
+    "description": "Creates a list of locations in the shape of a circle. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block.",
+    "syntax_pattern": "circle[s] at %locations%[ with] radius %number%(,| and) density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1331",
+    "created_at": "2017-11-15T20:58:48.175636Z",
+    "updated_at": "2018-01-20T17:33:47.441619Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of locations in the shape of a circle. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1532": {
     "id": 1532,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Offset",
+    "description": "Adds each offset to all vectors",
+    "syntax_pattern": "vector[s] %vectors% offset by %vectors%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1532",
+    "created_at": "2017-11-25T17:09:02.110509Z",
+    "updated_at": "2018-01-20T17:33:47.690319Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Adds each offset to all vectors"
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1533": {
     "id": 1533,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Path",
+    "description": "Creates a path between vectors. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block.",
+    "syntax_pattern": "vector[s] path between %vectors% with density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1533",
+    "created_at": "2017-11-25T17:09:02.126794Z",
+    "updated_at": "2018-01-20T17:33:47.705036Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a path between vectors. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1355": {
     "id": 1355,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "bi0qaw",
+    "title": "Vector Helix",
+    "description": "Creates a list of vectors in the shape of a helix. The step parameter determines how many blocks the helix will go upwards in one rotation. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block.",
+    "syntax_pattern": "[vector ]helix with radius %number%(,| and) height %number%(,| and) step[(height|size)] %number%(,| and) density %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Biosphere2",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1355",
+    "created_at": "2017-11-15T20:58:48.369887Z",
+    "updated_at": "2018-01-20T17:33:47.652712Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a list of vectors in the shape of a helix. The step parameter determines how many blocks the helix will go upwards in one rotation. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
       ],
       "ko": [
-        "[Biosphere2] 한국어 가이드팩 준비 중"
+        "[BIOSPHERE2] 한국어 가이드 번역 대기 중"
       ]
     }
   }

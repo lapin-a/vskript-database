@@ -1,311 +1,683 @@
 {
   "syntax_4075": {
     "id": 4075,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Island Contains",
+    "description": "Check if locations are within the islands bounds.",
+    "syntax_pattern": "%locations% (is|are) (within|on) %islands%\n%locations% (isn't|is not|aren't|are not) (within|on) %islands%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4075",
+    "created_at": "2020-03-28T04:06:56.352188Z",
+    "updated_at": "2020-03-28T04:06:56.352214Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if locations are within the islands bounds."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4076": {
     "id": 4076,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Island At Location",
+    "description": "Returns the islands found at locations.",
+    "syntax_pattern": "island[s] at %locations%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Island",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4076",
+    "created_at": "2020-03-28T04:06:56.384539Z",
+    "updated_at": "2020-03-28T04:06:56.384559Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the islands found at locations."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4077": {
     "id": 4077,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Island Biome",
+    "description": "Returns the biomes of the islands.",
+    "syntax_pattern": "[the] [island] biome of %islands%\n%islands%'[s] [island] biome",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Biome",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4077",
+    "created_at": "2020-03-28T04:06:56.391466Z",
+    "updated_at": "2020-03-28T04:06:56.391484Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the biomes of the islands."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4078": {
     "id": 4078,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Island Leader",
+    "description": "Returns the leader of the islands.",
+    "syntax_pattern": "[the] [island] (owner|leader) of %islands%\n%islands%'[s] [island] (owner|leader)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Offline Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4078",
+    "created_at": "2020-03-28T04:06:56.397826Z",
+    "updated_at": "2020-03-28T04:06:56.397843Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the leader of the islands."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4079": {
     "id": 4079,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Island Leader Name",
+    "description": "Returns the username of the leader.",
+    "syntax_pattern": "[the] [island] (owner|leader)['s] name of %islands%\n%islands%'[s] [island] (owner|leader)['s] name",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4079",
+    "created_at": "2020-03-28T04:06:56.404366Z",
+    "updated_at": "2020-03-28T04:06:56.404384Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the username of the leader."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4080": {
     "id": 4080,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Island Level",
+    "description": "Returns the level of the islands.",
+    "syntax_pattern": "[the] [island] level of %islands%\n%islands%'[s] [island] level",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4080",
+    "created_at": "2020-03-28T04:06:56.410926Z",
+    "updated_at": "2020-03-28T04:06:56.410946Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the level of the islands."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4081": {
     "id": 4081,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Island Location",
+    "description": "Returns the locations of the islands.",
+    "syntax_pattern": "[the] [island] (center [location]|location) of %islands%\n%islands%'[s] [island] (center [location]|location)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4081",
+    "created_at": "2020-03-28T04:06:56.417605Z",
+    "updated_at": "2020-03-28T04:06:56.417624Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the locations of the islands."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4082": {
     "id": 4082,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Island Online Members",
+    "description": "Returns the online members of the islands.",
+    "syntax_pattern": "[(all [[of] the]|the)] online [island] members (from|of) %islands%\n[(all [[of] the]|the)] %islands%'[s] online [island] members",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4082",
+    "created_at": "2020-03-28T04:06:56.423726Z",
+    "updated_at": "2020-03-28T04:06:56.423746Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the online members of the islands."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4083": {
     "id": 4083,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Island Spawnpoint",
+    "description": "Returns the spawnpoints of the islands.",
+    "syntax_pattern": "[the] [island] (spawn|warp)[ ]point of %islands%\n%islands%'[s] [island] (spawn|warp)[ ]point",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4083",
+    "created_at": "2020-03-28T04:06:56.430042Z",
+    "updated_at": "2020-03-28T04:06:56.430062Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the spawnpoints of the islands."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4084": {
     "id": 4084,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Player Island",
+    "description": "Returns the islands of the players.",
+    "syntax_pattern": "[the] island[s] of %offlineplayers% [in %world%]\n%offlineplayers%'[s] island[s] [in %world%]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Island",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4084",
+    "created_at": "2020-03-28T04:06:56.436365Z",
+    "updated_at": "2023-01-24T02:43:47.363767Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the islands of the players."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4085": {
     "id": 4085,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Player Trusted Islands",
+    "description": "Returns all the islands the players are trusted on.",
+    "syntax_pattern": "[(all [[of] the]|the)] trusted islands (from|of) %offlineplayers%\n[(all [[of] the]|the)] %offlineplayers%'[s] trusted islands",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Offline Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4085",
+    "created_at": "2020-03-28T04:06:56.442682Z",
+    "updated_at": "2020-03-28T04:06:56.442702Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns all the islands the players are trusted on."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8420": {
     "id": 8420,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Island Contains",
+    "description": "Check if locations are within the islands bounds.",
+    "syntax_pattern": "%locations% (is|are) (within|on) %islands%\n%locations% (isn't|is not|aren't|are not) (within|on) %islands%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8420",
+    "created_at": "2023-01-11T03:30:41.451112Z",
+    "updated_at": "2023-01-11T03:30:41.451132Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if locations are within the islands bounds."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8421": {
     "id": 8421,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Island Purge Protection",
+    "description": "Check if islands have purge protection.\nBentoBox or ASkyBlock exclusive",
+    "syntax_pattern": "%islands% (is|are) purge protected\n%islands% (isn't|is not|aren't|are not) purge protected",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8421",
+    "created_at": "2023-01-11T03:30:41.465474Z",
+    "updated_at": "2023-01-11T03:30:41.465486Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Check if islands have purge protection.",
-        "BentoBox or ASkyBlock exclusive"
+        "Check if islands have purge protection.\nBentoBox or ASkyBlock exclusive"
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8422": {
     "id": 8422,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Challenge Completions",
+    "description": "Returns the amount of completions a challenge has been done.",
+    "syntax_pattern": "[the] [challenge] completions of %challenges%\n%challenges%'[s] [challenge] completions",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8422",
+    "created_at": "2023-01-11T03:30:41.473483Z",
+    "updated_at": "2023-01-11T03:30:41.473495Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the amount of completions a challenge has been done."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8423": {
     "id": 8423,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Challenge Name",
+    "description": "Returns the name of the challenge.",
+    "syntax_pattern": "[the] [challenge] name of %challenges%\n%challenges%'[s] [challenge] name",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8423",
+    "created_at": "2023-01-11T03:30:41.481836Z",
+    "updated_at": "2023-01-11T03:30:41.481848Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the name of the challenge."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8424": {
     "id": 8424,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Challenge Owner",
+    "description": "Returns the owner of the challenge.",
+    "syntax_pattern": "[the] [challenge] owner of %challenges%\n%challenges%'[s] [challenge] owner",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8424",
+    "created_at": "2023-01-11T03:30:41.489910Z",
+    "updated_at": "2023-01-11T03:30:41.489921Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the owner of the challenge."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8425": {
     "id": 8425,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Island Creation Date",
+    "description": "Returns the creation date of the islands.\nASkyBlock exclusive",
+    "syntax_pattern": "[the] [island] creation date of %islands%\n%islands%'[s] [island] creation date",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Date",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8425",
+    "created_at": "2023-01-11T03:30:41.498023Z",
+    "updated_at": "2023-01-11T03:30:41.498034Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the creation date of the islands.",
-        "ASkyBlock exclusive"
+        "Returns the creation date of the islands.\nASkyBlock exclusive"
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8426": {
     "id": 8426,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Island Members",
+    "description": "Returns the members of the islands.",
+    "syntax_pattern": "[(all [[of] the]|the)] [island] members (from|of) %islands%\n[(all [[of] the]|the)] %islands%'[s] [island] members",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Offline Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8426",
+    "created_at": "2023-01-11T03:30:41.506019Z",
+    "updated_at": "2023-01-11T03:30:41.506030Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the members of the islands."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8427": {
     "id": 8427,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Island Name",
+    "description": "Returns the names of the islands.",
+    "syntax_pattern": "[the] [island] name of %islands%\n%islands%'[s] [island] name",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8427",
+    "created_at": "2023-01-11T03:30:41.516924Z",
+    "updated_at": "2023-01-11T03:30:41.516936Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the names of the islands."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8428": {
     "id": 8428,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Player Island Home",
+    "description": "Returns the island homes of the players.",
+    "syntax_pattern": "[island] home[s] of %offlineplayers%\n%offlineplayers%'[s] [island] home[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8428",
+    "created_at": "2023-01-11T03:30:41.526618Z",
+    "updated_at": "2023-01-11T03:30:41.526634Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the island homes of the players."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8429": {
     "id": 8429,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Skyblock Challenges",
+    "description": "Returns the challenges of a player.",
+    "syntax_pattern": "[(all [[of] the]|the)] [(island|sky[ ]block)] challenges (from|of) %players/strings%\n[(all [[of] the]|the)] %players/strings%'[s] [(island|sky[ ]block)] challenges",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Challenge",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8429",
+    "created_at": "2023-01-11T03:30:41.534484Z",
+    "updated_at": "2023-01-11T03:30:41.534496Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the challenges of a player."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8511": {
     "id": 8511,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Islands Of World",
+    "description": "Returns the islands of the defined worlds.",
+    "syntax_pattern": "[the] islands (in|of) %worlds%\n%worlds%'[s] islands",
+    "compatible_addon_version": "1.0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Sky",
+    "type_usage": null,
+    "return_type": "Island",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8511",
+    "created_at": "2023-01-24T02:43:47.354097Z",
+    "updated_at": "2023-01-24T02:43:47.354114Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the islands of the defined worlds."
       ],
       "ko": [
-        "[Sky] 한국어 가이드팩 준비 중"
+        "[SKY] 한국어 가이드 번역 대기 중"
       ]
     }
   }

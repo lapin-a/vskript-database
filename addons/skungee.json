@@ -1,253 +1,559 @@
 {
   "syntax_6043": {
     "id": 6043,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Server is Online",
+    "description": "Check if a server is online.",
+    "syntax_pattern": "%skungeeservers% (is|are) online\n%skungeeservers% (isn't|is not|aren't|are not) online",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skungee",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6043",
+    "created_at": "2021-08-31T01:35:28.411750Z",
+    "updated_at": "2021-08-31T01:35:28.411766Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if a server is online."
       ],
       "ko": [
-        "[Skungee] 한국어 가이드팩 준비 중"
+        "[SKUNGEE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6042": {
     "id": 6042,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "On signal",
+    "description": "",
+    "syntax_pattern": "[on] signal[s] receive",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skungee",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6042",
+    "created_at": "2021-08-31T01:35:28.317647Z",
+    "updated_at": "2021-09-09T05:33:21.750038Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[Skungee] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[Skungee] 한국어 가이드팩 준비 중"
+        "[SKUNGEE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2556": {
     "id": 2556,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Blueyescat",
+    "title": "Bungee Player Command",
+    "description": "Force a player to chat or execute a command, add a slash / to make it a command.",
+    "syntax_pattern": "execute [[prox(ied|y)] players] %skungeeplayers% command %strings%\nmake [[prox(ied|y)] players] %skungeeplayers% (say|chat) %strings%",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skungee",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2556",
+    "created_at": "2018-05-16T16:01:30.904134Z",
+    "updated_at": "2021-08-31T01:35:28.420407Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Force a player to chat or execute a command, add a slash / to make it a command."
       ],
       "ko": [
-        "[Skungee] 한국어 가이드팩 준비 중"
+        "[SKUNGEE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6044": {
     "id": 6044,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Connect Player To Server",
+    "description": "Send a player to another server on the proxy.",
+    "syntax_pattern": "(connect|send) [[prox(ied|y)] players] %skungeeplayers% to [proxy] %skungeeserver%",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skungee",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6044",
+    "created_at": "2021-08-31T01:35:28.435493Z",
+    "updated_at": "2021-08-31T01:35:28.435509Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Send a player to another server on the proxy."
       ],
       "ko": [
-        "[Skungee] 한국어 가이드팩 준비 중"
+        "[SKUNGEE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6045": {
     "id": 6045,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Proxy Actionbar",
+    "description": "Send an actionbar to any player on the proxy.",
+    "syntax_pattern": "(send|display|show) [an] action[ ]bar [with [(text|message)]] %string% to [prox(ied|y)] [(player|uuid)[s]] %skungeeplayers%",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skungee",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6045",
+    "created_at": "2021-08-31T01:35:28.446295Z",
+    "updated_at": "2021-08-31T01:35:28.446314Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Send an actionbar to any player on the proxy."
       ],
       "ko": [
-        "[Skungee] 한국어 가이드팩 준비 중"
+        "[SKUNGEE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6046": {
     "id": 6046,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Proxy Message",
+    "description": "Send a message to any players on the proxy.",
+    "syntax_pattern": "(message|send) %strings% to [(all [[of] the]|the)] prox(ied|y) [players] [%skungeeplayers%]",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skungee",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6046",
+    "created_at": "2021-08-31T01:35:28.455156Z",
+    "updated_at": "2021-08-31T01:35:28.455174Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Send a message to any players on the proxy."
       ],
       "ko": [
-        "[Skungee] 한국어 가이드팩 준비 중"
+        "[SKUNGEE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6047": {
     "id": 6047,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Server Command",
+    "description": "Execute a command on another server.",
+    "syntax_pattern": "execute command %strings% on %skungeeservers%",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skungee",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6047",
+    "created_at": "2021-08-31T01:35:28.463738Z",
+    "updated_at": "2021-08-31T01:35:28.463754Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Execute a command on another server."
       ],
       "ko": [
-        "[Skungee] 한국어 가이드팩 준비 중"
+        "[SKUNGEE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6048": {
     "id": 6048,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Signal",
+    "description": "Send a signal to another server. Signals act like a messaging system to talk between servers. Use the signal event to listen to the signal for the other servers.",
+    "syntax_pattern": "[send] signal[s] [message[s]] %strings% [to %skungeeservers%]",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skungee",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6048",
+    "created_at": "2021-08-31T01:35:28.474893Z",
+    "updated_at": "2021-08-31T01:35:28.474908Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Send a signal to another server. Signals act like a messaging system to talk between servers. Use the signal event to listen to the signal for the other servers."
       ],
       "ko": [
-        "[Skungee] 한국어 가이드팩 준비 중"
+        "[SKUNGEE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2378": {
     "id": 2378,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Blueyescat",
+    "title": "Network Variable",
+    "description": "A variable that is shared between all proxy servers on the network, can be set, added, removed etc. Acts just like a normal variable.",
+    "syntax_pattern": "(network|proxy) variable %objects%",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skungee",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2378",
+    "created_at": "2018-04-04T18:31:20.393886Z",
+    "updated_at": "2021-08-31T01:35:28.484260Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A variable that is shared between all proxy servers on the network, can be set, added, removed etc. Acts just like a normal variable."
       ],
       "ko": [
-        "[Skungee] 한국어 가이드팩 준비 중"
+        "[SKUNGEE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6049": {
     "id": 6049,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Player Server",
+    "description": "Grabs the name of the server the defined players are on.",
+    "syntax_pattern": "[the] [(current|connected)] server[s] of %skungeeplayers%\n%skungeeplayers%'[s] [(current|connected)] server[s]",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skungee",
+    "type_usage": null,
+    "return_type": "Skungee Server",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6049",
+    "created_at": "2021-08-31T01:35:28.494686Z",
+    "updated_at": "2021-08-31T01:35:28.494705Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Grabs the name of the server the defined players are on."
       ],
       "ko": [
-        "[Skungee] 한국어 가이드팩 준비 중"
+        "[SKUNGEE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6050": {
     "id": 6050,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Proxied Players",
+    "description": "Grab a SkungeePlayer instance of players from the network.",
+    "syntax_pattern": "[(all [[of] the]|the)] prox(ied|y) players [o(f|n) %skungeeservers%]",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skungee",
+    "type_usage": null,
+    "return_type": "Skungee Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6050",
+    "created_at": "2021-08-31T01:35:28.503186Z",
+    "updated_at": "2021-08-31T01:35:28.503201Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Grab a SkungeePlayer instance of players from the network."
       ],
       "ko": [
-        "[Skungee] 한국어 가이드팩 준비 중"
+        "[SKUNGEE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6051": {
     "id": 6051,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Proxy Servers",
+    "description": "Grab all the proxy servers.",
+    "syntax_pattern": "[(all [[of] the]|the)] [prox(ied|y)] servers",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skungee",
+    "type_usage": null,
+    "return_type": "Skungee Server",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6051",
+    "created_at": "2021-08-31T01:35:28.511802Z",
+    "updated_at": "2021-08-31T01:35:28.511819Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Grab all the proxy servers."
       ],
       "ko": [
-        "[Skungee] 한국어 가이드팩 준비 중"
+        "[SKUNGEE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6052": {
     "id": 6052,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Server",
+    "description": "Grab a server by name or none if not present.",
+    "syntax_pattern": "[proxy] server[s] %strings%",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skungee",
+    "type_usage": null,
+    "return_type": "Skungee Server",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6052",
+    "created_at": "2021-08-31T01:35:28.520510Z",
+    "updated_at": "2021-08-31T01:35:28.520528Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Grab a server by name or none if not present."
       ],
       "ko": [
-        "[Skungee] 한국어 가이드팩 준비 중"
+        "[SKUNGEE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6053": {
     "id": 6053,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Server MOTD",
+    "description": "Grabs the motd of servers on the proxy.",
+    "syntax_pattern": "[the] (message of the day|motd) of %skungeeservers%\n%skungeeservers%'[s] (message of the day|motd)",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skungee",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6053",
+    "created_at": "2021-08-31T01:35:28.528949Z",
+    "updated_at": "2021-08-31T01:35:28.528965Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Grabs the motd of servers on the proxy."
       ],
       "ko": [
-        "[Skungee] 한국어 가이드팩 준비 중"
+        "[SKUNGEE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6054": {
     "id": 6054,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Server Max Players",
+    "description": "Grabs the max players of servers on the proxy.",
+    "syntax_pattern": "[the] (max[imum] player count|[max[imum]] player limit) of %skungeeservers%\n%skungeeservers%'[s] (max[imum] player count|[max[imum]] player limit)",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skungee",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6054",
+    "created_at": "2021-08-31T01:35:28.536931Z",
+    "updated_at": "2021-08-31T01:35:28.536946Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Grabs the max players of servers on the proxy."
       ],
       "ko": [
-        "[Skungee] 한국어 가이드팩 준비 중"
+        "[SKUNGEE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6055": {
     "id": 6055,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Server Version",
+    "description": "Grabs the version of servers on the proxy.",
+    "syntax_pattern": "[the] version of %skungeeservers%\n%skungeeservers%'[s] version",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skungee",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6055",
+    "created_at": "2021-08-31T01:35:28.545275Z",
+    "updated_at": "2021-08-31T01:35:28.545290Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Grabs the version of servers on the proxy."
       ],
       "ko": [
-        "[Skungee] 한국어 가이드팩 준비 중"
+        "[SKUNGEE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6056": {
     "id": 6056,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Server Whitelisted",
+    "description": "Grabs the whitelisted players of servers on the proxy.",
+    "syntax_pattern": "[(all [[of] the]|the)] whitelisted players of [server[s]] %skungeeservers%\n[(all [[of] the]|the)] [server[s]] %skungeeservers%'[s] whitelisted players",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skungee",
+    "type_usage": null,
+    "return_type": "Offline Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6056",
+    "created_at": "2021-08-31T01:35:28.554732Z",
+    "updated_at": "2021-08-31T01:35:28.554747Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Grabs the whitelisted players of servers on the proxy."
       ],
       "ko": [
-        "[Skungee] 한국어 가이드팩 준비 중"
+        "[SKUNGEE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6057": {
     "id": 6057,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "LimeGlass",
+    "title": "Signals Event Expression",
+    "description": "An expression that contains a list of the signal messages used in the on signal receive event.",
+    "syntax_pattern": "[event-]signal[s] [messages]",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skungee",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6057",
+    "created_at": "2021-08-31T01:35:28.564051Z",
+    "updated_at": "2021-08-31T01:35:28.564067Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "An expression that contains a list of the signal messages used in the on signal receive event."
       ],
       "ko": [
-        "[Skungee] 한국어 가이드팩 준비 중"
+        "[SKUNGEE] 한국어 가이드 번역 대기 중"
       ]
     }
   }

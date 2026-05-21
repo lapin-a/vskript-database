@@ -1,155 +1,342 @@
 {
   "syntax_1568": {
     "id": 1568,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Text of element",
+    "description": "Get the text of an element.",
+    "syntax_pattern": "[the] [html] text of %htmlelement%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skraper",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1568",
+    "created_at": "2018-01-03T18:23:59.685066Z",
+    "updated_at": "2018-01-07T18:56:57.816565Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the text of an element."
       ],
       "ko": [
-        "[Skraper] 한국어 가이드팩 준비 중"
+        "[SKRAPER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1565": {
     "id": 1565,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Tag name of element",
+    "description": "Get the tag name of an element.",
+    "syntax_pattern": "[the] [html] tag [name] of %htmlelement%",
+    "compatible_addon_version": "1.0-BETA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skraper",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1565",
+    "created_at": "2018-01-02T19:18:11.840478Z",
+    "updated_at": "2018-01-02T19:18:11.840498Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the tag name of an element."
       ],
       "ko": [
-        "[Skraper] 한국어 가이드팩 준비 중"
+        "[SKRAPER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1564": {
     "id": 1564,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Last received document",
+    "description": "Get the last document received from the document request effect.",
+    "syntax_pattern": "[the] [last[ly]] [received] [html] doc[ument]",
+    "compatible_addon_version": "1.0-BETA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skraper",
+    "type_usage": null,
+    "return_type": "htmldocument",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1564",
+    "created_at": "2018-01-02T19:18:11.833313Z",
+    "updated_at": "2018-01-07T18:56:57.799586Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the last document received from the document request effect."
       ],
       "ko": [
-        "[Skraper] 한국어 가이드팩 준비 중"
+        "[SKRAPER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1566": {
     "id": 1566,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Elements from document or element",
+    "description": "Get the specified elements of a document or an element.",
+    "syntax_pattern": "[the] element[s] %string% (of|from) (0¦[[html] doc[ument]] %-htmldocument%|1¦[[html] element] %-htmlelement%)",
+    "compatible_addon_version": "1.0-BETA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skraper",
+    "type_usage": null,
+    "return_type": "htmlelement",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1566",
+    "created_at": "2018-01-03T18:23:59.660532Z",
+    "updated_at": "2018-01-07T18:56:57.771924Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the specified elements of a document or an element."
       ],
       "ko": [
-        "[Skraper] 한국어 가이드팩 준비 중"
+        "[SKRAPER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1562": {
     "id": 1562,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Attribute of element",
+    "description": "Get the specified attribute of an element.",
+    "syntax_pattern": "[the] attribute %string% of [[html] element] %htmlelement%",
+    "compatible_addon_version": "1.0-BETA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skraper",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1562",
+    "created_at": "2018-01-02T19:18:11.817881Z",
+    "updated_at": "2018-01-07T18:56:57.751939Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the specified attribute of an element."
       ],
       "ko": [
-        "[Skraper] 한국어 가이드팩 준비 중"
+        "[SKRAPER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1561": {
     "id": 1561,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Request document",
+    "description": "Request a html document from a website with optional user agent, timeout and referer.",
+    "syntax_pattern": "request [html] doc[ument] (of|from) [url] %string% [(with|using) user agent %-string% [and] timeout %-integer% [and] refer[r]er %-string%]",
+    "compatible_addon_version": "1.0-BETA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skraper",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1561",
+    "created_at": "2018-01-02T19:18:11.808997Z",
+    "updated_at": "2018-01-07T18:56:57.731613Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Request a html document from a website with optional user agent, timeout and referer."
       ],
       "ko": [
-        "[Skraper] 한국어 가이드팩 준비 중"
+        "[SKRAPER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1589": {
     "id": 1589,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Body of document",
+    "description": "Get the html body of a document as an element.",
+    "syntax_pattern": "[html] body (of|from) [document] %htmldocument%",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skraper",
+    "type_usage": null,
+    "return_type": "htmlelement",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1589",
+    "created_at": "2018-01-07T18:56:57.761997Z",
+    "updated_at": "2018-01-07T18:56:57.762016Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the html body of a document as an element."
       ],
       "ko": [
-        "[Skraper] 한국어 가이드팩 준비 중"
+        "[SKRAPER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1590": {
     "id": 1590,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Head of document",
+    "description": "Get the html head of a document as an element.",
+    "syntax_pattern": "[html] head (of|from) [document] %htmldocument%",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skraper",
+    "type_usage": null,
+    "return_type": "htmlelement",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1590",
+    "created_at": "2018-01-07T18:56:57.781483Z",
+    "updated_at": "2018-01-07T18:56:57.781500Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the html head of a document as an element."
       ],
       "ko": [
-        "[Skraper] 한국어 가이드팩 준비 중"
+        "[SKRAPER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1591": {
     "id": 1591,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Inner/outer html of element",
+    "description": "Get the inner or outer html of a htmlelement as a htmldocument.",
+    "syntax_pattern": "(0¦inner|1¦outer) html (of|from) [element] %htmlelement%",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skraper",
+    "type_usage": null,
+    "return_type": "htmldocument",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1591",
+    "created_at": "2018-01-07T18:56:57.790279Z",
+    "updated_at": "2018-01-07T18:56:57.790297Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the inner or outer html of a htmlelement as a htmldocument."
       ],
       "ko": [
-        "[Skraper] 한국어 가이드팩 준비 중"
+        "[SKRAPER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1592": {
     "id": 1592,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Tag name of element",
+    "description": "Get the tag name of an element.",
+    "syntax_pattern": "[the] [html] tag [name] of %htmlelement%",
+    "compatible_addon_version": "1.0-BETA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skraper",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1592",
+    "created_at": "2018-01-07T18:56:57.808116Z",
+    "updated_at": "2018-01-07T18:56:57.808135Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the tag name of an element."
       ],
       "ko": [
-        "[Skraper] 한국어 가이드팩 준비 중"
+        "[SKRAPER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1593": {
     "id": 1593,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Title of document",
+    "description": "Get the html title of a document.",
+    "syntax_pattern": "[html] title (of|from) %htmldocument%",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skraper",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1593",
+    "created_at": "2018-01-07T18:56:57.826144Z",
+    "updated_at": "2018-01-07T18:56:57.826163Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the html title of a document."
       ],
       "ko": [
-        "[Skraper] 한국어 가이드팩 준비 중"
+        "[SKRAPER] 한국어 가이드 번역 대기 중"
       ]
     }
   }

@@ -1,57 +1,125 @@
 {
   "syntax_14221": {
     "id": 14221,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "tylad",
+    "title": "Get player count of server",
+    "description": "Gets the player count of a server on the proxy",
+    "syntax_pattern": "player count of %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkProxy",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14221",
+    "created_at": "2025-10-27T01:51:10.189178Z",
+    "updated_at": "2025-10-27T15:25:31.273589Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the player count of a server on the proxy"
       ],
       "ko": [
-        "[SkProxy] 한국어 가이드팩 준비 중"
+        "[SKPROXY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14222": {
     "id": 14222,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "tylad",
+    "title": "Get status of server",
+    "description": "Gets the status of a server on the proxy",
+    "syntax_pattern": "status of %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkProxy",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14222",
+    "created_at": "2025-10-27T01:53:22.998431Z",
+    "updated_at": "2025-10-27T15:25:36.616425Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the status of a server on the proxy"
       ],
       "ko": [
-        "[SkProxy] 한국어 가이드팩 준비 중"
+        "[SKPROXY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14223": {
     "id": 14223,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "tylad",
+    "title": "Get total proxy player count",
+    "description": "Gets the total player count across the whole proxy",
+    "syntax_pattern": "proxy player count",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkProxy",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14223",
+    "created_at": "2025-10-27T01:54:07.671349Z",
+    "updated_at": "2025-10-27T15:25:41.723611Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the total player count across the whole proxy"
       ],
       "ko": [
-        "[SkProxy] 한국어 가이드팩 준비 중"
+        "[SKPROXY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14220": {
     "id": 14220,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "tylad",
+    "title": "Connect player to server",
+    "description": "Connects a player to a server on the proxy",
+    "syntax_pattern": "connect player to %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkProxy",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14220",
+    "created_at": "2025-10-27T01:49:57.061554Z",
+    "updated_at": "2025-10-27T01:49:57.061574Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Connects a player to a server on the proxy"
       ],
       "ko": [
-        "[SkProxy] 한국어 가이드팩 준비 중"
+        "[SKPROXY] 한국어 가이드 번역 대기 중"
       ]
     }
   }

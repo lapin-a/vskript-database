@@ -4,12 +4,13 @@
     "type": "event",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-08-14T13:51:56.998952Z",
     "guide": {
       "en": [
         "Called when a player gets a group added."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -18,12 +19,13 @@
     "type": "condition",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-04-30T13:37:50.632169Z",
     "guide": {
       "en": [
         "Checks if string matches a specific regex."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -32,12 +34,13 @@
     "type": "event",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-04-30T13:42:47.466143Z",
     "guide": {
       "en": [
         "Called upon Essentials balance change."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -46,12 +49,13 @@
     "type": "expression",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-04-30T13:48:59.957982Z",
     "guide": {
       "en": [
         "Reverses the elements of a list"
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -60,12 +64,13 @@
     "type": "effect",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-04-30T13:39:26.339378Z",
     "guide": {
       "en": [
         "Restores the players full inventory (including armor) to the player."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -74,12 +79,13 @@
     "type": "effect",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-04-30T13:39:37.288425Z",
     "guide": {
       "en": [
         "Send an action bar to the specified player(s)."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -88,12 +94,13 @@
     "type": "effect",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-04-30T13:40:55.822797Z",
     "guide": {
       "en": [
         "Caches an object making it retrievable by the specified key. Will remain in cache until server is stopped or the cache has been deleted."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -102,12 +109,13 @@
     "type": "expression",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-04-30T13:44:03.705424Z",
     "guide": {
       "en": [
         "Returns a list of all the players inventory and armor (full equipment)."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -116,12 +124,13 @@
     "type": "expression",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-04-30T13:44:49.424535Z",
     "guide": {
       "en": [
         "Caches an object to be retrieved at a later time."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -130,12 +139,13 @@
     "type": "expression",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-04-30T13:47:02.582415Z",
     "guide": {
       "en": [
         "Finds the index by value in a variable."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -144,12 +154,13 @@
     "type": "expression",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-04-30T13:47:42.884058Z",
     "guide": {
       "en": [
         "Regex replaces in the specified string"
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -158,12 +169,13 @@
     "type": "expression",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-04-30T13:48:13.937641Z",
     "guide": {
       "en": [
         "Splits a string by the specified regex-pattern."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -172,12 +184,13 @@
     "type": "expression",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-04-30T13:49:50.148646Z",
     "guide": {
       "en": [
         "Sorts a list variable. Can be passed a helper function to sort better."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -186,12 +199,13 @@
     "type": "expression",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-04-30T13:51:12.496898Z",
     "guide": {
       "en": [
         "Retrieves data from the nodes that the sorted-syntax (https://skripthub.net/docs/?id=9187) makes."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -200,12 +214,13 @@
     "type": "event",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-08-14T13:52:56.842956Z",
     "guide": {
       "en": [
         "Called when a player gets a group removed."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -214,12 +229,13 @@
     "type": "event",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-08-14T13:53:40.156979Z",
     "guide": {
       "en": [
         "Called when a player gets a group added or removed."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -228,12 +244,13 @@
     "type": "event",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-08-14T13:54:29.597903Z",
     "guide": {
       "en": [
         "Called when a player or group gets a permission added."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -242,12 +259,13 @@
     "type": "event",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-08-14T13:55:05.500799Z",
     "guide": {
       "en": [
         "Called when a player or group gets a permission removed."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -256,12 +274,13 @@
     "type": "expression",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-08-14T13:56:29.978676Z",
     "guide": {
       "en": [
         "Expression that returns the permission added or removed in a Permission add/remove event."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -270,12 +289,13 @@
     "type": "expression",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-08-14T13:57:07.561009Z",
     "guide": {
       "en": [
         "Expression that returns the name of a group in a group change/add/remove event."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -284,12 +304,13 @@
     "type": "effect",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-12-21T14:17:42.651224Z",
     "guide": {
       "en": [
         "Plays a chest open or close animation for the specified players, at the specified location."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -298,12 +319,13 @@
     "type": "effect",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-12-21T14:18:36.612570Z",
     "guide": {
       "en": [
         "Opens a sign inventory to the specified player."
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -312,12 +334,13 @@
     "type": "expression",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-12-21T14:22:03.872773Z",
     "guide": {
       "en": [
         "Returns the lines of the sign that has been updated through a custom sign created through SkEssentials (See https://skripthub.net/docs/?id=10008 and https://skripthub.net/docs/?id=10007)"
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
@@ -326,12 +349,13 @@
     "type": "event",
     "patterns": [],
     "added": "2.0",
+    "updated_at": "2023-12-21T14:24:40.822748Z",
     "guide": {
       "en": [
         "Called when a custom sign inventory (created by SkEssentials) is closed"
       ],
       "ko": [
-        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALSLEGACY] 한국어 가이드 번역 대기 중"
       ]
     }
   }

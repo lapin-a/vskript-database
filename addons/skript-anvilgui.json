@@ -1,113 +1,249 @@
 {
   "syntax_9231": {
     "id": 9231,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "New Anvil GUI",
+    "description": "Returns a new anvil gui. If no title and default text are specified, it will use some placeholder text. If  you choose to specify the name or the text, you have to specify both.",
+    "syntax_pattern": "new anvil gui\n[a] new anvil gui (named|with title) %string% with [default] text %string%",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-AnvilGUI",
+    "type_usage": null,
+    "return_type": "Anvil GUI",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9231",
+    "created_at": "2023-05-23T15:51:10.391648Z",
+    "updated_at": "2023-05-23T15:51:10.391659Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a new anvil gui. If no title and default text are specified, it will use some placeholder text. If  you choose to specify the name or the text, you have to specify both."
       ],
       "ko": [
-        "[Skript-AnvilGUI] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ANVILGUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9228": {
     "id": 9228,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Anvil GUI",
+    "description": "This type holds all the information about an AnvilGUI inventory. You can create a new object with the new anvil gui expression and edit its content (such as the items) with the specific expressions.",
+    "syntax_pattern": "%virtualanvil%\nvirtual anvil\nevent-virtual anvil",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skript-AnvilGUI",
+    "type_usage": "This type holds all the information about an AnvilGUI inventory.",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9228",
+    "created_at": "2023-05-23T15:46:30.436258Z",
+    "updated_at": "2023-10-11T08:00:57.254872Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This type holds all the information about an AnvilGUI inventory. You can create a new object with the new anvil gui expression and edit its content (such as the items) with the specific expressions."
       ],
       "ko": [
-        "[Skript-AnvilGUI] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ANVILGUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9233": {
     "id": 9233,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Anvil GUI Text",
+    "description": "Access the default text of an AnvilGUI. This will be filled when the anvil is opened to a player.",
+    "syntax_pattern": "text of %virtualanvil%",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-AnvilGUI",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9233",
+    "created_at": "2023-05-23T15:52:26.379555Z",
+    "updated_at": "2023-10-11T07:59:03.991598Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Access the default text of an AnvilGUI. This will be filled when the anvil is opened to a player."
       ],
       "ko": [
-        "[Skript-AnvilGUI] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ANVILGUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9232": {
     "id": 9232,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Anvil GUI Title",
+    "description": "Access the title (inventory name) of an Anvil GUI. In 1.12.2, the name of the AnvilGUI will not change when displayed. This is not really an issue (other than for aesthetic) as the title is still saved and can be accessed (to check for specific anvil GUIs in events).",
+    "syntax_pattern": "[the] title of %virtualanvil%",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-AnvilGUI",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9232",
+    "created_at": "2023-05-23T15:51:43.838294Z",
+    "updated_at": "2023-10-11T07:59:22.377720Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Access the title (inventory name) of an Anvil GUI. In 1.12.2, the name of the AnvilGUI will not change when displayed. This is not really an issue (other than for aesthetic) as the title is still saved and can be accessed (to check for specific anvil GUIs in events)."
       ],
       "ko": [
-        "[Skript-AnvilGUI] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ANVILGUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9230": {
     "id": 9230,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Anvil GUI Close",
+    "description": "Fires whenever an anvil gui created with this addon is closed. You can access the following values from this event: event-text (content of the GUI when the GUI was closed), event-anvil gui (the original anvil object. You can access items in the anvil GUI or its inventory title with expressions below.)",
+    "syntax_pattern": "on anvil gui close",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skript-AnvilGUI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-text (Text input in the ANVIL)\r\nevent-virtual anvil (Original opened anvil)",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=9230",
+    "created_at": "2023-05-23T15:49:51.473631Z",
+    "updated_at": "2023-10-11T07:59:46.325083Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Fires whenever an anvil gui created with this addon is closed. You can access the following values from this event: event-text (content of the GUI when the GUI was closed), event-anvil gui (the original anvil object. You can access items in the anvil GUI or its inventory title with expressions below.)"
       ],
       "ko": [
-        "[Skript-AnvilGUI] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ANVILGUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9227": {
     "id": 9227,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Open Anvil GUI",
+    "description": "Open an Anvil GUI to a player. Note that once the AnvilGUI is opened to a player, you can't change it \"live\" while it's being shown. Therefore you first must set the slots of the GUI, and then open it to the player.",
+    "syntax_pattern": "open (anvilgui|anvil gui) %virtualanvil% to %players%",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skript-AnvilGUI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9227",
+    "created_at": "2023-05-23T15:45:07.081341Z",
+    "updated_at": "2023-10-11T08:00:02.290117Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Open an Anvil GUI to a player. Note that once the AnvilGUI is opened to a player, you can't change it \"live\" while it's being shown. Therefore you first must set the slots of the GUI, and then open it to the player."
       ],
       "ko": [
-        "[Skript-AnvilGUI] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ANVILGUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9229": {
     "id": 9229,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Anvil GUI Click",
+    "description": "Fires whenever an anvil gui created with this addon is clicked. You can access the following values from this event: event-integer (index of slot that was clicked), event-text (content of the GUI when the GUI was clicked), event-anvil gui (the original anvil object. You can access items in the anvil GUI or its inventory title with expressions below.)",
+    "syntax_pattern": "on anvil gui click",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skript-AnvilGUI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-integer (ID of clicked slot)\r\nevent-text (Text input in the ANVIL)\r\nevent-virtual anvil (Original opened anvil)",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9229",
+    "created_at": "2023-05-23T15:47:44.095920Z",
+    "updated_at": "2023-10-11T08:00:18.773550Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Fires whenever an anvil gui created with this addon is clicked. You can access the following values from this event: event-integer (index of slot that was clicked), event-text (content of the GUI when the GUI was clicked), event-anvil gui (the original anvil object. You can access items in the anvil GUI or its inventory title with expressions below.)"
       ],
       "ko": [
-        "[Skript-AnvilGUI] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ANVILGUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9234": {
     "id": 9234,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Anvil GUI Slot",
+    "description": "Access a specific item in the anvil GUI. You can set these to any itemstack. Please note that the server wipes and overwrites the items in the output GUI when opened, so as of right now only changing the left and right item works.",
+    "syntax_pattern": "(left|right|output) (item|slot) of %virtualanvil%",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-AnvilGUI",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9234",
+    "created_at": "2023-05-23T15:53:05.387434Z",
+    "updated_at": "2023-10-11T07:58:36.844454Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Access a specific item in the anvil GUI. You can set these to any itemstack. Please note that the server wipes and overwrites the items in the output GUI when opened, so as of right now only changing the left and right item works."
       ],
       "ko": [
-        "[Skript-AnvilGUI] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ANVILGUI] 한국어 가이드 번역 대기 중"
       ]
     }
   }

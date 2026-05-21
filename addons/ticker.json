@@ -1,155 +1,342 @@
 {
   "syntax_2036": {
     "id": 2036,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On AverageTpsChangeEvent",
+    "description": "",
+    "syntax_pattern": "[on] [Ticker] average tps change [to %-number%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Ticker",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "past event-number, event-number, future event-number",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2036",
+    "created_at": "2018-01-11T20:20:21.304448Z",
+    "updated_at": "2018-01-11T20:20:21.304475Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[Ticker] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[Ticker] 한국어 가이드팩 준비 중"
+        "[TICKER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2037": {
     "id": 2037,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On TpsChangeEvent",
+    "description": "",
+    "syntax_pattern": "[on] [Ticker] tps change [to %-number%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Ticker",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "past event-number, event-number, future event-number",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2037",
+    "created_at": "2018-01-11T20:20:21.314339Z",
+    "updated_at": "2018-01-11T20:20:21.314359Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[Ticker] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[Ticker] 한국어 가이드팩 준비 중"
+        "[TICKER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2038": {
     "id": 2038,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Bukkit Tps String",
+    "description": "Returns the server's tps from Bukkit.",
+    "syntax_pattern": "[the] bukkit[[']s] tps [string]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Ticker",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2038",
+    "created_at": "2018-01-11T20:20:21.322992Z",
+    "updated_at": "2018-01-11T20:20:21.323012Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the server's tps from Bukkit."
       ],
       "ko": [
-        "[Ticker] 한국어 가이드팩 준비 중"
+        "[TICKER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2039": {
     "id": 2039,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Last Tps",
+    "description": "Returns the server's last tps from 20 ticks ago.",
+    "syntax_pattern": "[the] [server[[']s]] last tps",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Ticker",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2039",
+    "created_at": "2018-01-11T20:20:21.332203Z",
+    "updated_at": "2018-01-11T20:20:21.332223Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the server's last tps from 20 ticks ago."
       ],
       "ko": [
-        "[Ticker] 한국어 가이드팩 준비 중"
+        "[TICKER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2040": {
     "id": 2040,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Past Average Tps",
+    "description": "Returns the server's past average tps in the average tps change event.",
+    "syntax_pattern": "[the] [server[[']s]] (past|previous) average tps",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Ticker",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2040",
+    "created_at": "2018-01-11T20:20:21.341741Z",
+    "updated_at": "2018-01-11T20:20:21.341762Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the server's past average tps in the average tps change event."
       ],
       "ko": [
-        "[Ticker] 한국어 가이드팩 준비 중"
+        "[TICKER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2041": {
     "id": 2041,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Past Tps",
+    "description": "Returns the server's past tps in the tps change event.",
+    "syntax_pattern": "[the] [server[[']s]] (past|previous) tps",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Ticker",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2041",
+    "created_at": "2018-01-11T20:20:21.350024Z",
+    "updated_at": "2018-01-11T20:20:21.350042Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the server's past tps in the tps change event."
       ],
       "ko": [
-        "[Ticker] 한국어 가이드팩 준비 중"
+        "[TICKER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2042": {
     "id": 2042,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Time Tps",
+    "description": "Returns the server's tps at a time.",
+    "syntax_pattern": "[(all [[of] the]|the)] [the] [server[[']s]] tps[s] (of|from) [date[s]] %date%\n%date%['s] [date[s]] [the] [server[[']s]] tps[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Ticker",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2042",
+    "created_at": "2018-01-11T20:20:21.358740Z",
+    "updated_at": "2018-01-11T20:20:21.358760Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the server's tps at a time."
       ],
       "ko": [
-        "[Ticker] 한국어 가이드팩 준비 중"
+        "[TICKER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2043": {
     "id": 2043,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Tps",
+    "description": "Returns the server's tps.",
+    "syntax_pattern": "[the] [server[[']s]] tps",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Ticker",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2043",
+    "created_at": "2018-01-11T20:20:21.367300Z",
+    "updated_at": "2018-01-11T20:20:21.367320Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the server's tps."
       ],
       "ko": [
-        "[Ticker] 한국어 가이드팩 준비 중"
+        "[TICKER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2044": {
     "id": 2044,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Tps Average",
+    "description": "Returns the server's average tps.",
+    "syntax_pattern": "[the] [server[[']s]] average tps",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Ticker",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2044",
+    "created_at": "2018-01-11T20:20:21.375860Z",
+    "updated_at": "2018-01-11T20:20:21.375878Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the server's average tps."
       ],
       "ko": [
-        "[Ticker] 한국어 가이드팩 준비 중"
+        "[TICKER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2045": {
     "id": 2045,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Tps Average String",
+    "description": "Returns the server's average tps with colour.",
+    "syntax_pattern": "[the] [server[[']s]] average tps string",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Ticker",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2045",
+    "created_at": "2018-01-11T20:20:21.384665Z",
+    "updated_at": "2018-01-11T20:20:21.384684Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the server's average tps with colour."
       ],
       "ko": [
-        "[Ticker] 한국어 가이드팩 준비 중"
+        "[TICKER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2046": {
     "id": 2046,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Tps String",
+    "description": "Returns the server's tps with colour.",
+    "syntax_pattern": "[the] [server[[']s]] tps string",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Ticker",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2046",
+    "created_at": "2018-01-11T20:20:21.393173Z",
+    "updated_at": "2018-01-11T20:20:21.393190Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the server's tps with colour."
       ],
       "ko": [
-        "[Ticker] 한국어 가이드팩 준비 중"
+        "[TICKER] 한국어 가이드 번역 대기 중"
       ]
     }
   }

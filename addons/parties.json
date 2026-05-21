@@ -1,561 +1,1241 @@
 {
   "syntax_4675": {
     "id": 4675,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "On Party Post Create",
+    "description": "Called when a player has created a party.",
+    "syntax_pattern": "[on] [player] [post] create[s] [a] party",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-partyplayer, event-commandsender, event-party",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4675",
+    "created_at": "2021-01-19T22:34:39.267276Z",
+    "updated_at": "2022-03-16T23:03:09.644819Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a player has created a party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4677": {
     "id": 4677,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "On Party Post Rename",
+    "description": "Called when a player renamed a party. \"event-partyplayer\" can be null if executed by console.",
+    "syntax_pattern": "[on] [player] [post] rename[s] [a] party",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-partyplayer, event-commandsender, event-party, event-string",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4677",
+    "created_at": "2021-01-19T22:34:39.278525Z",
+    "updated_at": "2022-03-16T23:03:09.751747Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a player renamed a party. \"event-partyplayer\" can be null if executed by console."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4673": {
     "id": 4673,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "On Party Get Experience",
+    "description": "Called when a party gets experience.",
+    "syntax_pattern": "[on] party get[s] experience",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-party, event-number",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4673",
+    "created_at": "2021-01-19T22:34:39.252448Z",
+    "updated_at": "2021-01-19T22:34:39.252479Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a party gets experience."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4674": {
     "id": 4674,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "On Party Level Up",
+    "description": "Called when a party levels up.",
+    "syntax_pattern": "[on] party level[s] up",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-party, event-number",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4674",
+    "created_at": "2021-01-19T22:34:39.261528Z",
+    "updated_at": "2021-01-19T22:34:39.261547Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a party levels up."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4685": {
     "id": 4685,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party Exists",
+    "description": "Checks if a party exists.",
+    "syntax_pattern": "[the] party [with name] %string% exist[s]\n[the] party with id %string% exist[s]\n[the] party [with name] %string% (not|does not|doesn't) exist[s]\n[the] party with id %string% (not|does not|doesn't) exist[s]",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4685",
+    "created_at": "2021-01-19T22:34:39.323655Z",
+    "updated_at": "2021-01-19T22:34:39.323673Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a party exists."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4676": {
     "id": 4676,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "On Party Post Delete",
+    "description": "Called when a player has deleted a party.",
+    "syntax_pattern": "[on] [player] [post] delete[s] [a] party",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-partyplayer, event-commandsender, event-party",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4676",
+    "created_at": "2021-01-19T22:34:39.272902Z",
+    "updated_at": "2022-03-16T23:03:09.740512Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a player has deleted a party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4678": {
     "id": 4678,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "On Party Pre Create",
+    "description": "Called when a player is creating a party. Cancellable.",
+    "syntax_pattern": "[on] [player] pre create[s] [a] party",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-partyplayer, event-commandsender, event-string",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=4678",
+    "created_at": "2021-01-19T22:34:39.284140Z",
+    "updated_at": "2022-03-16T23:03:09.760036Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a player is creating a party. Cancellable."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4679": {
     "id": 4679,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "On Party Pre Delete",
+    "description": "Called when a player is deleting a party. Cancellable.",
+    "syntax_pattern": "[on] [player] pre delete[s] [a] party",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-partyplayer, event-commandsender, event-party",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=4679",
+    "created_at": "2021-01-19T22:34:39.289769Z",
+    "updated_at": "2022-03-16T23:03:09.767883Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a player is deleting a party. Cancellable."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4680": {
     "id": 4680,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "On Party Pre Rename",
+    "description": "Called when a player is renaming a party. \"event-partyplayer\" can be null if executed by console. Cancellable.",
+    "syntax_pattern": "[on] [player] pre rename[s] [a] party",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-partyplayer, event-commandsender, event-party, event-string",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=4680",
+    "created_at": "2021-01-19T22:34:39.295324Z",
+    "updated_at": "2022-03-16T23:03:09.775589Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a player is renaming a party. \"event-partyplayer\" can be null if executed by console. Cancellable."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4681": {
     "id": 4681,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "On PartyPlayer Post Join Party",
+    "description": "Called when a player joined a party.",
+    "syntax_pattern": "[on] [player] [post] join[s] [a] party",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-partyplayer, event-commandsender, event-party",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4681",
+    "created_at": "2021-01-19T22:34:39.300967Z",
+    "updated_at": "2022-03-16T23:03:09.783105Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a player joined a party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4682": {
     "id": 4682,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "On PartyPlayer Post Leave Party",
+    "description": "Called when a player left a party.",
+    "syntax_pattern": "[on] [player] [post] leave[s] [a] party",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-partyplayer, event-commandsender, event-party",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4682",
+    "created_at": "2021-01-19T22:34:39.307047Z",
+    "updated_at": "2022-03-16T23:03:09.790932Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a player left a party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4683": {
     "id": 4683,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "On PartyPlayer Pre Join Party",
+    "description": "Called when a player is joining a party.",
+    "syntax_pattern": "[on] [player] pre join[s] [a] party",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-partyplayer, event-commandsender, event-party",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=4683",
+    "created_at": "2021-01-19T22:34:39.312555Z",
+    "updated_at": "2022-03-16T23:03:09.798608Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a player is joining a party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4684": {
     "id": 4684,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "On PartyPlayer Pre Leave Party",
+    "description": "Called when a player is leaving a party.",
+    "syntax_pattern": "[on] [player] pre leave[s] [a] party",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-partyplayer, event-commandsender, event-party",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=4684",
+    "created_at": "2021-01-19T22:34:39.318041Z",
+    "updated_at": "2022-03-16T23:03:09.806481Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a player is leaving a party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4686": {
     "id": 4686,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party Player is Leader",
+    "description": "Checks if the partyplayer is leader.",
+    "syntax_pattern": "%partyplayer% (is|are) leader\n%partyplayer% (isn't|is not|aren't|are not) leader",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4686",
+    "created_at": "2021-01-19T22:34:39.329474Z",
+    "updated_at": "2021-01-19T22:34:39.329495Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if the partyplayer is leader."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4687": {
     "id": 4687,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party is Fixed",
+    "description": "Checks if a party is fixed.",
+    "syntax_pattern": "%party% (is|are) fixed\n%party% (isn't|is not|aren't|are not) fixed",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4687",
+    "created_at": "2021-01-19T22:34:39.335561Z",
+    "updated_at": "2021-01-19T22:34:39.335581Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a party is fixed."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4688": {
     "id": 4688,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party is Friendly Fire Protected",
+    "description": "Checks if a party is friendly fire protected.",
+    "syntax_pattern": "%party% (is|are) [friendly[-]fire] protected [from friendly[-]fire]\n%party% (isn't|is not|aren't|are not) [friendly[-]fire] protected [from friendly[-]fire]",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4688",
+    "created_at": "2021-01-19T22:34:39.341501Z",
+    "updated_at": "2021-01-19T22:34:39.341521Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a party is friendly fire protected."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4689": {
     "id": 4689,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party is Full",
+    "description": "Checks if a party is full.",
+    "syntax_pattern": "%party% (is|are) full\n%party% (isn't|is not|aren't|are not) full",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4689",
+    "created_at": "2021-01-19T22:34:39.347285Z",
+    "updated_at": "2021-01-19T22:34:39.347304Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a party is full."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4690": {
     "id": 4690,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Player is in Party",
+    "description": "Checks if a player is in party.",
+    "syntax_pattern": "%offlineplayers% (is|are) in [a] party\n%offlineplayers% (isn't|is not|aren't|are not) in [a] party",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4690",
+    "created_at": "2021-01-19T22:34:39.353266Z",
+    "updated_at": "2021-01-19T22:34:39.353287Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a player is in party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4691": {
     "id": 4691,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Add To Party",
+    "description": "Add the player to the party.",
+    "syntax_pattern": "add %offlineplayers% to %party%\nadd %partyplayer% to %party%",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4691",
+    "created_at": "2021-01-19T22:34:39.359156Z",
+    "updated_at": "2021-01-19T22:34:39.359175Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Add the player to the party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4692": {
     "id": 4692,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Create Party",
+    "description": "Create a party with the given name and player as leader.",
+    "syntax_pattern": "(create|make) [a] party [with name] %string% (and|with) leader %offlineplayer%\n(create|make) [a] party [with name] %string% (and|with) leader %partyplayer%",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4692",
+    "created_at": "2021-01-19T22:34:39.365056Z",
+    "updated_at": "2021-01-19T22:34:39.365075Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create a party with the given name and player as leader."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4694": {
     "id": 4694,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Remove From Party",
+    "description": "Remove the player from the party.",
+    "syntax_pattern": "(remove|kick) %offlineplayers% from party\n(remove|kick) %partyplayer% from party",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4694",
+    "created_at": "2021-01-19T22:34:39.377284Z",
+    "updated_at": "2021-01-19T22:34:39.377303Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Remove the player from the party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4695": {
     "id": 4695,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Get Party",
+    "description": "Get the party with the given name/id.",
+    "syntax_pattern": "[get|the] party [with name] %string%\n[get|the] party with id %string%",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": "Party",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4695",
+    "created_at": "2021-01-19T22:34:39.383029Z",
+    "updated_at": "2021-01-19T22:34:39.383047Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the party with the given name/id."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4696": {
     "id": 4696,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Get Party Of Player",
+    "description": "Get the party of the given player.",
+    "syntax_pattern": "[get|the] party of [the] [player] %offlineplayer%\n[get|the] party of [the] [player] %partyplayer%",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": "Party",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4696",
+    "created_at": "2021-01-19T22:34:39.388780Z",
+    "updated_at": "2021-01-19T22:34:39.388799Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the party of the given player."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4697": {
     "id": 4697,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Get Party Player",
+    "description": "Get the partyplayer of the given player.",
+    "syntax_pattern": "[get|the] party(player|member|-player|-member) [of] %offlineplayer%",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": "PartyPlayer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4697",
+    "created_at": "2021-01-19T22:34:39.394882Z",
+    "updated_at": "2021-01-19T22:34:39.394902Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the partyplayer of the given player."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4698": {
     "id": 4698,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party Description",
+    "description": "Get the description of the given party.",
+    "syntax_pattern": "[the] desc[ription] of %party%\n%party%'[s] desc[ription]",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4698",
+    "created_at": "2021-01-19T22:34:39.401364Z",
+    "updated_at": "2021-01-19T22:34:39.401383Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the description of the given party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4699": {
     "id": 4699,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party Experience",
+    "description": "Get the experience of the given party.",
+    "syntax_pattern": "[the] exp[erience] of %party%\n%party%'[s] exp[erience]",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": "double",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4699",
+    "created_at": "2021-01-19T22:34:39.407296Z",
+    "updated_at": "2021-01-19T22:34:39.407318Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the experience of the given party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4700": {
     "id": 4700,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party ID",
+    "description": "Get the id of the given party.",
+    "syntax_pattern": "[the] [uu]id of %party%\n%party%'[s] [uu]id",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4700",
+    "created_at": "2021-01-19T22:34:39.412908Z",
+    "updated_at": "2021-01-19T22:34:39.412929Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the id of the given party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4701": {
     "id": 4701,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party Kills",
+    "description": "Get the kills number of the given party.",
+    "syntax_pattern": "[the] kills of %party%\n%party%'[s] kills",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4701",
+    "created_at": "2021-01-19T22:34:39.418935Z",
+    "updated_at": "2021-01-19T22:34:39.418959Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the kills number of the given party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4702": {
     "id": 4702,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party Leader",
+    "description": "Get the leader as partyplayer of the given party.",
+    "syntax_pattern": "[the] leader of %party%\n%party%'[s] leader",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": "PartyPlayer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4702",
+    "created_at": "2021-01-19T22:34:39.424654Z",
+    "updated_at": "2021-01-19T22:34:39.424673Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the leader as partyplayer of the given party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4703": {
     "id": 4703,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party Level",
+    "description": "Get the level number of the given party.",
+    "syntax_pattern": "[the] level of %party%\n%party%'[s] level",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4703",
+    "created_at": "2021-01-19T22:34:39.430454Z",
+    "updated_at": "2021-01-19T22:34:39.430473Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the level number of the given party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4704": {
     "id": 4704,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party MOTD",
+    "description": "Get the motd of the given party.",
+    "syntax_pattern": "[the] motd of %party%\n%party%'[s] motd",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4704",
+    "created_at": "2021-01-19T22:34:39.437189Z",
+    "updated_at": "2021-01-19T22:34:39.437207Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the motd of the given party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4705": {
     "id": 4705,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party Members",
+    "description": "Get the member list of the given party.",
+    "syntax_pattern": "[the] [party(-| )](members|players) of %party%",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": "PartyPlayer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4705",
+    "created_at": "2021-01-19T22:34:39.443322Z",
+    "updated_at": "2021-01-19T22:34:39.443341Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the member list of the given party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4706": {
     "id": 4706,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party Name",
+    "description": "Get the name of the given party.",
+    "syntax_pattern": "[the] name of %party%\n%party%'[s] name",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4706",
+    "created_at": "2021-01-19T22:34:39.449477Z",
+    "updated_at": "2021-01-19T22:34:39.449496Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the name of the given party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4707": {
     "id": 4707,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party Password",
+    "description": "Get the password of the given party. The password is hashed, if you set one you must insert a plain password.",
+    "syntax_pattern": "[the] password of %party%\n%party%'[s] password",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4707",
+    "created_at": "2021-01-19T22:34:39.455374Z",
+    "updated_at": "2021-01-19T22:34:39.455395Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the password of the given party. The password is hashed, if you set one you must insert a plain password."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4708": {
     "id": 4708,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party Player Name",
+    "description": "Get the name of the given partyplayer.",
+    "syntax_pattern": "[the] name of %partyplayer%\n%partyplayer%'[s] name",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4708",
+    "created_at": "2021-01-19T22:34:39.461799Z",
+    "updated_at": "2021-01-19T22:34:39.461818Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the name of the given partyplayer."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4709": {
     "id": 4709,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party Player Rank",
+    "description": "Get the rank of the given partyplayer.",
+    "syntax_pattern": "[the] rank of %partyplayer%\n%partyplayer%'[s] rank",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4709",
+    "created_at": "2021-01-19T22:34:39.467502Z",
+    "updated_at": "2021-01-19T22:34:39.467521Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the rank of the given partyplayer."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4710": {
     "id": 4710,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party Tag",
+    "description": "Get the tag of the given party.",
+    "syntax_pattern": "[the] tag of %party%\n%party%'[s] tag",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4710",
+    "created_at": "2021-01-19T22:34:39.473219Z",
+    "updated_at": "2021-01-19T22:34:39.473239Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the tag of the given party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4711": {
     "id": 4711,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Party",
+    "description": "Represents a party entity handled by Parties plugin.",
+    "syntax_pattern": "party",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4711",
+    "created_at": "2021-01-19T22:34:39.478673Z",
+    "updated_at": "2021-01-19T22:34:39.478692Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a party entity handled by Parties plugin."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4712": {
     "id": 4712,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "PartyPlayer",
+    "description": "Represents a party-player entity handled by Parties plugin.",
+    "syntax_pattern": "party[-](player|member)",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4712",
+    "created_at": "2021-01-19T22:34:39.484315Z",
+    "updated_at": "2021-01-19T22:34:39.484334Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a party-player entity handled by Parties plugin."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4693": {
     "id": 4693,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "AlessioDP",
+    "title": "Delete Party",
+    "description": "Delete the party.",
+    "syntax_pattern": "delete %party%",
+    "compatible_addon_version": "3.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Parties",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4693",
+    "created_at": "2021-01-19T22:34:39.371311Z",
+    "updated_at": "2021-02-12T02:54:17.131282Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Delete the party."
       ],
       "ko": [
-        "[Parties] 한국어 가이드팩 준비 중"
+        "[PARTIES] 한국어 가이드 번역 대기 중"
       ]
     }
   }

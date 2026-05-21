@@ -1,113 +1,249 @@
 {
   "syntax_11965": {
     "id": 11965,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "succubu3",
+    "title": "Whitelist Words",
+    "description": "Whitelist words that can bypass the filter from filtered words.",
+    "syntax_pattern": "whitelist word %string%",
+    "compatible_addon_version": "v1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkFilter",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11965",
+    "created_at": "2024-09-18T05:04:45.679194Z",
+    "updated_at": "2024-09-18T05:15:15.735100Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whitelist words that can bypass the filter from filtered words."
       ],
       "ko": [
-        "[SkFilter] 한국어 가이드팩 준비 중"
+        "[SKFILTER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11966": {
     "id": 11966,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "succubu3",
+    "title": "Blacklist Links",
+    "description": "Blacklist a link from being said in the chat.",
+    "syntax_pattern": "blacklist link %string%",
+    "compatible_addon_version": "v1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkFilter",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11966",
+    "created_at": "2024-09-18T05:07:26.395148Z",
+    "updated_at": "2024-09-18T05:15:03.546398Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Blacklist a link from being said in the chat."
       ],
       "ko": [
-        "[SkFilter] 한국어 가이드팩 준비 중"
+        "[SKFILTER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11964": {
     "id": 11964,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "succubu3",
+    "title": "Add Word To Filter",
+    "description": "Add words to your servers filter.",
+    "syntax_pattern": "add %string% to filter",
+    "compatible_addon_version": "v1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkFilter",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11964",
+    "created_at": "2024-09-18T05:00:35.888465Z",
+    "updated_at": "2024-09-18T05:14:55.912413Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Add words to your servers filter."
       ],
       "ko": [
-        "[SkFilter] 한국어 가이드팩 준비 중"
+        "[SKFILTER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11967": {
     "id": 11967,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "succubu3",
+    "title": "Whitelist Links",
+    "description": "Whitelist links on your server",
+    "syntax_pattern": "whitelist link %string%",
+    "compatible_addon_version": "v1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkFilter",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11967",
+    "created_at": "2024-09-18T05:11:13.895487Z",
+    "updated_at": "2024-09-18T05:14:49.739395Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whitelist links on your server"
       ],
       "ko": [
-        "[SkFilter] 한국어 가이드팩 준비 중"
+        "[SKFILTER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11968": {
     "id": 11968,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "succubu3",
+    "title": "Toggle All Links",
+    "description": "Toggle on or off the blacklist for all links on the server.",
+    "syntax_pattern": "set global link blacklist to %boolean%",
+    "compatible_addon_version": "v1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkFilter",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11968",
+    "created_at": "2024-09-18T05:13:12.483216Z",
+    "updated_at": "2024-09-18T05:14:43.367493Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Toggle on or off the blacklist for all links on the server."
       ],
       "ko": [
-        "[SkFilter] 한국어 가이드팩 준비 중"
+        "[SKFILTER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11969": {
     "id": 11969,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "succubu3",
+    "title": "Link Is Blocked",
+    "description": "Check if a link is blocked",
+    "syntax_pattern": "if link is blocked",
+    "compatible_addon_version": "v1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkFilter",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11969",
+    "created_at": "2024-09-18T05:14:30.150208Z",
+    "updated_at": "2024-09-18T05:14:30.150231Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if a link is blocked"
       ],
       "ko": [
-        "[SkFilter] 한국어 가이드팩 준비 중"
+        "[SKFILTER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11970": {
     "id": 11970,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "succubu3",
+    "title": "Message Contains Links",
+    "description": "Check if the message contains a link",
+    "syntax_pattern": "if message contains a link",
+    "compatible_addon_version": "v1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkFilter",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11970",
+    "created_at": "2024-09-18T05:17:17.762610Z",
+    "updated_at": "2024-09-18T05:17:17.762630Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if the message contains a link"
       ],
       "ko": [
-        "[SkFilter] 한국어 가이드팩 준비 중"
+        "[SKFILTER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11971": {
     "id": 11971,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "succubu3",
+    "title": "Caught By Filter",
+    "description": "Check if the message is caught by the filter",
+    "syntax_pattern": "if message is caught by filter",
+    "compatible_addon_version": "v1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkFilter",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11971",
+    "created_at": "2024-09-18T05:18:09.977594Z",
+    "updated_at": "2024-09-18T05:18:09.977612Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if the message is caught by the filter"
       ],
       "ko": [
-        "[SkFilter] 한국어 가이드팩 준비 중"
+        "[SKFILTER] 한국어 가이드 번역 대기 중"
       ]
     }
   }

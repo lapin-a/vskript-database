@@ -1,519 +1,1148 @@
 {
   "syntax_13454": {
     "id": 13454,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "gRPC Metadata Keys",
+    "description": "",
+    "syntax_pattern": "[all] [g]rpc metadata keys (in|of) %grpcmetadata%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "gRPC Metadata Key",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13454",
+    "created_at": "2025-04-13T17:37:59.422318Z",
+    "updated_at": "2025-04-13T17:37:59.422332Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13455": {
     "id": 13455,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "gRPC Metadata Value",
+    "description": "",
+    "syntax_pattern": "[g]rpc metadata value[s] of %grpcmetadatakey% in %grpcmetadata%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13455",
+    "created_at": "2025-04-13T17:37:59.431167Z",
+    "updated_at": "2025-04-13T17:37:59.431182Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13456": {
     "id": 13456,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "gRPC Server Interceptor",
+    "description": "",
+    "syntax_pattern": "[[g]rpc] server interceptor",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "gRPC Server Interceptor",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13456",
+    "created_at": "2025-04-13T17:37:59.450337Z",
+    "updated_at": "2025-04-13T17:37:59.450352Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13457": {
     "id": 13457,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "gRPC Metadata",
+    "description": "",
+    "syntax_pattern": "grpc[ ]metadata",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13457",
+    "created_at": "2025-04-13T17:37:59.458506Z",
+    "updated_at": "2025-04-13T17:37:59.458520Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13458": {
     "id": 13458,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "gRPC Metadata Key",
+    "description": "",
+    "syntax_pattern": "grpc[ ]metadata[ ]key[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13458",
+    "created_at": "2025-04-13T17:37:59.466791Z",
+    "updated_at": "2025-04-13T17:37:59.466806Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13257": {
     "id": 13257,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "Complete gRPC Stream",
+    "description": "",
+    "syntax_pattern": "(complete|close) [g]rpc stream %grpcstream% [with error %grpcstatus%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13257",
+    "created_at": "2025-03-17T21:27:47.882114Z",
+    "updated_at": "2025-03-17T21:27:47.882137Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13258": {
     "id": 13258,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "Return gRPC Response",
+    "description": "",
+    "syntax_pattern": "return [g]rpc response[s] %protobufmessages%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13258",
+    "created_at": "2025-03-17T21:27:47.892132Z",
+    "updated_at": "2025-03-17T21:27:47.892147Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13259": {
     "id": 13259,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "Send gRPC Stream Message",
+    "description": "",
+    "syntax_pattern": "send %protobufmessages% (on|to) [g]rpc stream %grpcstream%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13259",
+    "created_at": "2025-03-17T21:27:47.900747Z",
+    "updated_at": "2025-03-17T21:27:47.900761Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13260": {
     "id": 13260,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "Shutdown gRPC Channel",
+    "description": "",
+    "syntax_pattern": "(shutdown|close) [g]rpc channel %grpcchannel%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13260",
+    "created_at": "2025-03-17T21:27:47.909467Z",
+    "updated_at": "2025-03-17T21:27:47.909482Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13261": {
     "id": 13261,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "Shutdown gRPC Server",
+    "description": "",
+    "syntax_pattern": "(shutdown|close) [g]rpc server %grpcserver%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13261",
+    "created_at": "2025-03-17T21:27:47.917832Z",
+    "updated_at": "2025-03-17T21:27:47.917846Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13262": {
     "id": 13262,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "Start gRPC Server",
+    "description": "",
+    "syntax_pattern": "start [g]rpc server %grpcserver%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13262",
+    "created_at": "2025-03-17T21:27:47.925983Z",
+    "updated_at": "2025-03-17T21:27:47.925998Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13264": {
     "id": 13264,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "Insecure gRPC Channel Credentials",
+    "description": "",
+    "syntax_pattern": "insecure [[g]rpc] channel credentials",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "gRPC Channel Credentials",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13264",
+    "created_at": "2025-03-17T21:27:47.958822Z",
+    "updated_at": "2025-03-17T21:27:47.958850Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13265": {
     "id": 13265,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "Insecure gRPC Server Credentials",
+    "description": "",
+    "syntax_pattern": "insecure [[g]rpc] server credentials",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "gRPC Server Credentials",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13265",
+    "created_at": "2025-03-17T21:27:47.967530Z",
+    "updated_at": "2025-03-17T21:27:47.967545Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13268": {
     "id": 13268,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "TLS gRPC Channel Credentials",
+    "description": "",
+    "syntax_pattern": "(tls|ssl) [[g]rpc] channel credentials [trusting [root] cert[ificate] %string%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "gRPC Channel Credentials",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13268",
+    "created_at": "2025-03-17T21:27:47.992331Z",
+    "updated_at": "2025-03-17T21:27:47.992346Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13269": {
     "id": 13269,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "TLS gRPC Server Credentials",
+    "description": "",
+    "syntax_pattern": "(tls|ssl) [[g]rpc] server credentials using cert[ificate] [chain] %string% [and] [private] key %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "gRPC Server Credentials",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13269",
+    "created_at": "2025-03-17T21:27:48.007619Z",
+    "updated_at": "2025-03-17T21:27:48.007644Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13271": {
     "id": 13271,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "gRPC Status",
+    "description": "",
+    "syntax_pattern": "[g]rpc status %grpcstatuscode% [with description %string%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "gRPC Status",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13271",
+    "created_at": "2025-03-17T21:27:48.025089Z",
+    "updated_at": "2025-03-17T21:27:48.025103Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13272": {
     "id": 13272,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "gRPC Status Code",
+    "description": "",
+    "syntax_pattern": "[the] code of %grpcstatus%\n%grpcstatus%'[s] code",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "gRPC Status Code",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13272",
+    "created_at": "2025-03-17T21:27:48.035317Z",
+    "updated_at": "2025-03-17T21:27:48.035333Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13273": {
     "id": 13273,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "gRPC Status Description",
+    "description": "",
+    "syntax_pattern": "[the] description of %grpcstatus%\n%grpcstatus%'[s] description",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13273",
+    "created_at": "2025-03-17T21:27:48.044114Z",
+    "updated_at": "2025-03-17T21:27:48.044129Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13263": {
     "id": 13263,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "Async gRPC Request Stream",
+    "description": "",
+    "syntax_pattern": "[async] [request] stream for [g]rpc %*string% using %grpcchannel% [with %grpccalloptions%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "gRPC Stream",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13263",
+    "created_at": "2025-03-17T21:27:47.936260Z",
+    "updated_at": "2025-04-13T17:37:59.310038Z",
+    "entries": "[{\"name\": \"on next\", \"isRequired\": false, \"isSection\": true}, {\"name\": \"on error\", \"isRequired\": false, \"isSection\": true}, {\"name\": \"on complete\", \"isRequired\": false, \"isSection\": true}, {\"name\": \"on ready\", \"isRequired\": false, \"isSection\": true}]",
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13266": {
     "id": 13266,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "New gRPC Channel",
+    "description": "",
+    "syntax_pattern": "[new] [g]rpc channel",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "gRPC Channel",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13266",
+    "created_at": "2025-03-17T21:27:47.976196Z",
+    "updated_at": "2025-04-13T17:37:59.327607Z",
+    "entries": "[{\"name\": \"host\", \"isRequired\": true, \"isSection\": false}, {\"name\": \"port\", \"isRequired\": true, \"isSection\": false}, {\"name\": \"credentials\", \"isRequired\": false, \"isSection\": false}, {\"name\": \"interceptors\", \"isRequired\": false, \"isSection\": false}, {\"name\": \"max inbound message size\", \"isRequired\": false, \"isSection\": false}, {\"name\": \"max inbound metadata size\", \"isRequired\": false, \"isSection\": false}]",
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13267": {
     "id": 13267,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "New gRPC Server",
+    "description": "",
+    "syntax_pattern": "[new] [g]rpc server with service[s] %*strings%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "gRPC Server",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13267",
+    "created_at": "2025-03-17T21:27:47.984203Z",
+    "updated_at": "2025-04-13T17:37:59.355034Z",
+    "entries": "[{\"name\": \"port\", \"isRequired\": true, \"isSection\": false}, {\"name\": \"credentials\", \"isRequired\": true, \"isSection\": false}, {\"name\": \"interceptors\", \"isRequired\": false, \"isSection\": false}, {\"name\": \"max inbound message size\", \"isRequired\": false, \"isSection\": false}, {\"name\": \"max inbound metadata size\", \"isRequired\": false, \"isSection\": false}]",
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13270": {
     "id": 13270,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "gRPC Response",
+    "description": "",
+    "syntax_pattern": "response[s] of [g]rpc %*string% for [request] %protobufmessage% using %grpcchannel% [with %grpccalloptions%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "Protobuf Message",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13270",
+    "created_at": "2025-03-17T21:27:48.017107Z",
+    "updated_at": "2025-04-13T17:37:59.439841Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13274": {
     "id": 13274,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "Async gRPC Request",
+    "description": "",
+    "syntax_pattern": "[async] [g]rpc %*string% for [request] %protobufmessage% using %grpcchannel% [with %grpccalloptions%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13274",
+    "created_at": "2025-03-17T21:27:48.053292Z",
+    "updated_at": "2025-04-13T17:37:59.477534Z",
+    "entries": "[{\"name\": \"on next\", \"isRequired\": false, \"isSection\": true}, {\"name\": \"on error\", \"isRequired\": false, \"isSection\": true}, {\"name\": \"on complete\", \"isRequired\": false, \"isSection\": true}]",
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13275": {
     "id": 13275,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "gRPC Handler",
+    "description": "",
+    "syntax_pattern": "[g]rpc %*string% handler for %grpcserver%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13275",
+    "created_at": "2025-03-17T21:27:48.061060Z",
+    "updated_at": "2025-04-13T17:37:59.487311Z",
+    "entries": "[{\"name\": \"response\", \"isRequired\": false, \"isSection\": true}, {\"name\": \"on next\", \"isRequired\": false, \"isSection\": true}, {\"name\": \"on error\", \"isRequired\": false, \"isSection\": true}, {\"name\": \"on complete\", \"isRequired\": false, \"isSection\": true}, {\"name\": \"on connect\", \"isRequired\": false, \"isSection\": true}, {\"name\": \"on ready\", \"isRequired\": false, \"isSection\": true}, {\"name\": \"on cancel\", \"isRequired\": false, \"isSection\": true}, {\"name\": \"on close\", \"isRequired\": false, \"isSection\": true}]",
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13450": {
     "id": 13450,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "gRPC Call Options",
+    "description": "",
+    "syntax_pattern": "[[g]rpc] call options",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "gRPC Call Options",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13450",
+    "created_at": "2025-04-13T17:37:59.372580Z",
+    "updated_at": "2025-04-13T17:37:59.372595Z",
+    "entries": "[{\"name\": \"authority\", \"isRequired\": false, \"isSection\": false}, {\"name\": \"call credentials\", \"isRequired\": false, \"isSection\": false}, {\"name\": \"compression\", \"isRequired\": false, \"isSection\": false}, {\"name\": \"deadline\", \"isRequired\": false, \"isSection\": false}, {\"name\": \"max inbound message size\", \"isRequired\": false, \"isSection\": false}, {\"name\": \"max outbound message size\", \"isRequired\": false, \"isSection\": false}, {\"name\": \"ready threshold\", \"isRequired\": false, \"isSection\": false}, {\"name\": \"wait for ready\", \"isRequired\": false, \"isSection\": false}]",
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13451": {
     "id": 13451,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "gRPC Client Interceptor",
+    "description": "",
+    "syntax_pattern": "[[g]rpc] client interceptor",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "gRPC Client Interceptor",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13451",
+    "created_at": "2025-04-13T17:37:59.381954Z",
+    "updated_at": "2025-04-13T17:37:59.381968Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13441": {
     "id": 13441,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "gRPC Metadata Key Is Set",
+    "description": "",
+    "syntax_pattern": "[g]rpc metadata key[s] %grpcmetadatakeys% (is|are) set in %grpcmetadata%\n[g]rpc metadata key[s] %grpcmetadatakeys% (isn't|is not|aren't|are not) set in %grpcmetadata%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13441",
+    "created_at": "2025-04-13T17:37:59.262336Z",
+    "updated_at": "2025-04-13T17:37:59.262359Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13442": {
     "id": 13442,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "Attach to gRPC Client Call",
+    "description": "",
+    "syntax_pattern": "attach %grpcmetadata/grpccalloptions% to [intercepted] client call",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13442",
+    "created_at": "2025-04-13T17:37:59.273058Z",
+    "updated_at": "2025-04-13T17:37:59.273072Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13443": {
     "id": 13443,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "Attach to gRPC Server Call",
+    "description": "",
+    "syntax_pattern": "attach %grpccontext% to [intercepted] server call",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13443",
+    "created_at": "2025-04-13T17:37:59.281818Z",
+    "updated_at": "2025-04-13T17:37:59.281832Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13444": {
     "id": 13444,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "Close gRPC Server Call",
+    "description": "",
+    "syntax_pattern": "close [intercepted] server call with [status] %grpcstatus% and [trailers] %grpcmetadata%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13444",
+    "created_at": "2025-04-13T17:37:59.290752Z",
+    "updated_at": "2025-04-13T17:37:59.290767Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13445": {
     "id": 13445,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "gRPC Return Call Credentials Result",
+    "description": "",
+    "syntax_pattern": "return [[g]rpc] call credentials result %grpcmetadata/grpcstatus%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13445",
+    "created_at": "2025-04-13T17:37:59.301273Z",
+    "updated_at": "2025-04-13T17:37:59.301289Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13446": {
     "id": 13446,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "Current gRPC Context",
+    "description": "",
+    "syntax_pattern": "current [g]rpc context",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "gRPC Context",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13446",
+    "created_at": "2025-04-13T17:37:59.318859Z",
+    "updated_at": "2025-04-13T17:37:59.318872Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13447": {
     "id": 13447,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "New gRPC Context Key",
+    "description": "",
+    "syntax_pattern": "[new] [g]rpc context key %string% [with default [value] %object%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "gRPC Context Key",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13447",
+    "created_at": "2025-04-13T17:37:59.339259Z",
+    "updated_at": "2025-04-13T17:37:59.339274Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13448": {
     "id": 13448,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "New gRPC Metadata",
+    "description": "",
+    "syntax_pattern": "[new] [g]rpc metadata",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "gRPC Metadata",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13448",
+    "created_at": "2025-04-13T17:37:59.347255Z",
+    "updated_at": "2025-04-13T17:37:59.347269Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13449": {
     "id": 13449,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "gRPC Call Credentials",
+    "description": "",
+    "syntax_pattern": "[async] [[g]rpc] call credentials",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "gRPC Call Credentials",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13449",
+    "created_at": "2025-04-13T17:37:59.363131Z",
+    "updated_at": "2025-04-13T17:37:59.363145Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13452": {
     "id": 13452,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "gRPC Context Key Value",
+    "description": "",
+    "syntax_pattern": "value of [g]rpc context key %grpccontextkey% [in %grpccontext%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13452",
+    "created_at": "2025-04-13T17:37:59.405311Z",
+    "updated_at": "2025-04-13T17:37:59.405327Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13453": {
     "id": 13453,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "gRPC Context With Key Value",
+    "description": "",
+    "syntax_pattern": "[new] g[rpc] context from %grpccontext% with %grpccontextkey% set to %object%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkGrpc",
+    "type_usage": null,
+    "return_type": "gRPC Context",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13453",
+    "created_at": "2025-04-13T17:37:59.414269Z",
+    "updated_at": "2025-04-13T17:37:59.414283Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkGrpc] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkGrpc] 한국어 가이드팩 준비 중"
+        "[SKGRPC] 한국어 가이드 번역 대기 중"
       ]
     }
   }

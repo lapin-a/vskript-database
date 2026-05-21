@@ -1,113 +1,249 @@
 {
   "syntax_2831": {
     "id": 2831,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On Vault Request - Balance Deposit (Return: economy response)",
+    "description": "Called when Vault requests to deposit currency into a player's balance",
+    "syntax_pattern": "[on] [vault] [player] [bal[ance]] deposit request",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkVault",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-number, event-offlineplayer",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2831",
+    "created_at": "2018-07-25T16:13:50.629986Z",
+    "updated_at": "2020-03-22T19:48:07.145146Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when Vault requests to deposit currency into a player's balance"
       ],
       "ko": [
-        "[SkVault] 한국어 가이드팩 준비 중"
+        "[SKVAULT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2832": {
     "id": 2832,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On Vault Request - Balance Withdraw (Return: economy response)",
+    "description": "Called when Vault requests to withdraw currency from a player's balance",
+    "syntax_pattern": "[on] [vault] [player] [bal[ance]] withdraw request",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkVault",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-number, event-offlineplayer",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2832",
+    "created_at": "2018-07-25T16:13:50.640351Z",
+    "updated_at": "2020-03-22T19:48:07.161628Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when Vault requests to withdraw currency from a player's balance"
       ],
       "ko": [
-        "[SkVault] 한국어 가이드팩 준비 중"
+        "[SKVAULT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2833": {
     "id": 2833,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On Vault Request - Check Balance (Return: boolean)",
+    "description": "Called when Vault requests to know if a player's balance is greater than a certain amount",
+    "syntax_pattern": "[on] [vault] check [player] bal[ance] request",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkVault",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-number, event-offlineplayer",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2833",
+    "created_at": "2018-07-25T16:13:50.648668Z",
+    "updated_at": "2020-03-22T19:48:07.168945Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when Vault requests to know if a player's balance is greater than a certain amount"
       ],
       "ko": [
-        "[SkVault] 한국어 가이드팩 준비 중"
+        "[SKVAULT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2839": {
     "id": 2839,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On Vault Request - Has Account (Return: boolean)",
+    "description": "Called when Vault requests to know if a player has an economy account",
+    "syntax_pattern": "[on] [vault] [player] has [eco[nomy]] account request",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkVault",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-offlineplayer",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2839",
+    "created_at": "2018-07-25T16:13:50.692841Z",
+    "updated_at": "2020-03-22T19:48:07.184652Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when Vault requests to know if a player has an economy account"
       ],
       "ko": [
-        "[SkVault] 한국어 가이드팩 준비 중"
+        "[SKVAULT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2840": {
     "id": 2840,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On Vault Request - Player Balance (Return: number)",
+    "description": "Called when Vault requests a player's balance",
+    "syntax_pattern": "[on] [vault] [player] bal[ance] [value] request",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkVault",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-offlineplayer",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2840",
+    "created_at": "2018-07-25T16:13:50.701182Z",
+    "updated_at": "2020-03-22T19:48:07.191222Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when Vault requests a player's balance"
       ],
       "ko": [
-        "[SkVault] 한국어 가이드팩 준비 중"
+        "[SKVAULT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2834": {
     "id": 2834,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On Vault Request - Create Account (Return: boolean)",
+    "description": "Called when Vault requests a player economy account to be created",
+    "syntax_pattern": "[on] [vault] create [player] [eco[nomy]] account request",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkVault",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-offlineplayer",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2834",
+    "created_at": "2018-07-25T16:13:50.656004Z",
+    "updated_at": "2020-03-22T19:48:07.176104Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when Vault requests a player economy account to be created"
       ],
       "ko": [
-        "[SkVault] 한국어 가이드팩 준비 중"
+        "[SKVAULT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4074": {
     "id": 4074,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Donut",
+    "title": "Economy Response",
+    "description": "",
+    "syntax_pattern": "[a] [new] eco[nomy] response [with] [amount [modified]] %number%, [new] [bal[ance]] %number%, [[response] type] (success|failure|not implemented), [and] [error [message]] %string% [to [the] [vault] request]",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkVault",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4074",
+    "created_at": "2020-03-22T19:48:07.206172Z",
+    "updated_at": "2020-03-22T19:52:36.120362Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkVault] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkVault] 한국어 가이드팩 준비 중"
+        "[SKVAULT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2851": {
     "id": 2851,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Vault Request - Return Value",
+    "description": "Returns a value to a request from Vault",
+    "syntax_pattern": "return %object% [to [the] [vault] request]",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkVault",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2851",
+    "created_at": "2018-07-25T16:13:50.786157Z",
+    "updated_at": "2020-03-22T19:48:07.197602Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a value to a request from Vault"
       ],
       "ko": [
-        "[SkVault] 한국어 가이드팩 준비 중"
+        "[SKVAULT] 한국어 가이드 번역 대기 중"
       ]
     }
   }

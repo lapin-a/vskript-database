@@ -1,267 +1,590 @@
 {
   "syntax_11222": {
     "id": 11222,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "On Custom Note Block Break",
+    "description": "",
+    "syntax_pattern": "[on] break of (custom|oraxen) (music|note) block [%string%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-block",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=11222",
+    "created_at": "2024-04-06T12:11:38.042127Z",
+    "updated_at": "2024-04-06T12:11:38.042150Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11223": {
     "id": 11223,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "On Custom Note Block Damage",
+    "description": "",
+    "syntax_pattern": "[on] damage of (custom|oraxen) (music|note) block [%string%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-block",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=11223",
+    "created_at": "2024-04-06T12:11:38.054652Z",
+    "updated_at": "2024-04-06T12:11:38.054669Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11224": {
     "id": 11224,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "On Custom Note Block Interact",
+    "description": "",
+    "syntax_pattern": "[on] interact with (custom|oraxen) (music|note) block [%string%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-block",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=11224",
+    "created_at": "2024-04-06T12:11:38.068055Z",
+    "updated_at": "2024-04-06T12:11:38.068070Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11225": {
     "id": 11225,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "On Custom Note Block Place",
+    "description": "",
+    "syntax_pattern": "[on] place of (custom|oraxen) (music|note) block [%string%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-block",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=11225",
+    "created_at": "2024-04-06T12:11:38.077539Z",
+    "updated_at": "2024-04-06T12:11:38.077554Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11226": {
     "id": 11226,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "On Furniture Break",
+    "description": "",
+    "syntax_pattern": "[on] break of (custom|oraxen) furniture [%string%]\n[on] interact with (custom|oraxen) furniture [%string%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=11226",
+    "created_at": "2024-04-06T12:11:38.086834Z",
+    "updated_at": "2024-04-06T12:11:38.086847Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11227": {
     "id": 11227,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "On Furniture Damage",
+    "description": "",
+    "syntax_pattern": "[on] (hurt|damage) of (custom|oraxen) furniture [%string%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=11227",
+    "created_at": "2024-04-06T12:11:38.096956Z",
+    "updated_at": "2024-04-06T12:11:38.096970Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11228": {
     "id": 11228,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "On Furniture Place",
+    "description": "",
+    "syntax_pattern": "[on] place of (custom|oraxen) furniture [%string%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-itemstack",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=11228",
+    "created_at": "2024-04-06T12:11:38.106566Z",
+    "updated_at": "2024-04-06T12:11:38.106580Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11229": {
     "id": 11229,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "On String Block Break",
+    "description": "",
+    "syntax_pattern": "[on] break of (custom|oraxen) string block [%string%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-object, event-player, event-block",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=11229",
+    "created_at": "2024-04-06T12:11:38.116834Z",
+    "updated_at": "2024-04-06T12:11:38.116849Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11230": {
     "id": 11230,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "On String Block Damage",
+    "description": "",
+    "syntax_pattern": "[on] damage of (custom|oraxen) string block [%string%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-block",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=11230",
+    "created_at": "2024-04-06T12:11:38.126982Z",
+    "updated_at": "2024-04-06T12:11:38.126996Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11231": {
     "id": 11231,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "On String Block Interact",
+    "description": "",
+    "syntax_pattern": "[on] interact with (custom|oraxen) string block [%string%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-blockface, event-block",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=11231",
+    "created_at": "2024-04-06T12:11:38.137244Z",
+    "updated_at": "2024-04-06T12:11:38.137257Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11232": {
     "id": 11232,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "On String Block Place",
+    "description": "",
+    "syntax_pattern": "[on] break of (custom|oraxen) string block [%string%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-itemstack, event-block",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=11232",
+    "created_at": "2024-04-06T12:11:38.145885Z",
+    "updated_at": "2024-04-06T12:11:38.145912Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11233": {
     "id": 11233,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "Is Custom Block",
+    "description": "",
+    "syntax_pattern": "%blocks% (is [a[n]]|are) (custom|oraxen) block[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11233",
+    "created_at": "2024-04-06T12:11:38.154867Z",
+    "updated_at": "2024-04-06T12:11:38.154880Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11234": {
     "id": 11234,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "Is Custom Item",
+    "description": "",
+    "syntax_pattern": "%itemtypes% (is [a[n]]|are) (custom|oraxen) block[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11234",
+    "created_at": "2024-04-06T12:11:38.163636Z",
+    "updated_at": "2024-04-06T12:11:38.163649Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11235": {
     "id": 11235,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "Is Hand",
+    "description": "",
+    "syntax_pattern": "(interaction) (was [with]) [the[ir]] (:right|:left) (arm|hand)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11235",
+    "created_at": "2024-04-06T12:11:38.172405Z",
+    "updated_at": "2024-04-06T12:11:38.172421Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11236": {
     "id": 11236,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "Place Oraxen Block",
+    "description": "",
+    "syntax_pattern": "(set|place) block at %locations% to (custom|oraxen) block %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11236",
+    "created_at": "2024-04-06T12:11:38.181043Z",
+    "updated_at": "2024-04-06T12:11:38.181056Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11237": {
     "id": 11237,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "Place Furniture",
+    "description": "",
+    "syntax_pattern": "(set|place) (custom|oraxen) furniture %string% at %location%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11237",
+    "created_at": "2024-04-06T12:11:38.190669Z",
+    "updated_at": "2024-04-06T12:11:38.190683Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11238": {
     "id": 11238,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "Remove Furniture",
+    "description": "",
+    "syntax_pattern": "remove [the] [custom|oraxen] furniture at %location%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11238",
+    "created_at": "2024-04-06T12:11:38.202769Z",
+    "updated_at": "2024-04-06T12:11:38.202785Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11239": {
     "id": 11239,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "Set Oraxen Blocks Between",
+    "description": "",
+    "syntax_pattern": "(set|place) [all] blocks within %location% and %location% to (custom|oraxen) block %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11239",
+    "created_at": "2024-04-06T12:11:38.213262Z",
+    "updated_at": "2024-04-06T12:11:38.213277Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11240": {
     "id": 11240,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "asleepp",
+    "title": "Get Custom Item",
+    "description": "",
+    "syntax_pattern": "(custom|oraxen) item %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-oraxen",
+    "type_usage": null,
+    "return_type": "Item Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11240",
+    "created_at": "2024-04-06T12:11:38.222463Z",
+    "updated_at": "2024-04-06T12:11:38.222477Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-oraxen] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-oraxen] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ORAXEN] 한국어 가이드 번역 대기 중"
       ]
     }
   }

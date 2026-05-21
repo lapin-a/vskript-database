@@ -1,719 +1,1582 @@
 {
   "syntax_8149": {
     "id": 8149,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Advancement Frame",
+    "description": "Represents an advancement frame. (Challenge, Goal, Task)",
+    "syntax_pattern": "frames",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": "task, goal, challenge",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8149",
+    "created_at": "2022-10-16T01:38:29.506154Z",
+    "updated_at": "2022-10-16T01:38:29.506167Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an advancement frame. (Challenge, Goal, Task)"
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8150": {
     "id": 8150,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Custom Advancement",
+    "description": "Represents an advancement made with skript-advancements.",
+    "syntax_pattern": "customadvancement[s]",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8150",
+    "created_at": "2022-10-16T01:38:29.514746Z",
+    "updated_at": "2022-10-16T01:38:29.514759Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an advancement made with skript-advancements."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8151": {
     "id": 8151,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Advancement Section",
+    "description": "Creates a custom advancement.",
+    "syntax_pattern": "create [a[n]] [new] advancement named %string%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8151",
+    "created_at": "2022-10-16T01:38:29.526675Z",
+    "updated_at": "2022-10-16T01:38:29.526689Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a custom advancement."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8152": {
     "id": 8152,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Advancement Tab Section",
+    "description": "Creates a custom advancement tab.",
+    "syntax_pattern": "create [a[n]] [new] advancement tab named %string%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8152",
+    "created_at": "2022-10-16T01:38:29.535255Z",
+    "updated_at": "2022-10-16T01:38:29.535267Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a custom advancement tab."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8105": {
     "id": 8105,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "On Advancement Complete",
+    "description": "Called when an advancement is completed by a player.",
+    "syntax_pattern": "[on] advancement [(done|complete[d]|grant[ed])]",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-world, event-string, event-advancement, event-player",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8105",
+    "created_at": "2022-10-16T01:38:29.138186Z",
+    "updated_at": "2022-10-16T01:38:29.138206Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when an advancement is completed by a player."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8106": {
     "id": 8106,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "On Advancement Progression Update",
+    "description": "Called when an advancement's progression is changed for a player.",
+    "syntax_pattern": "[on] advancement progress[ion] [update]",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-number, event-customadvancement, future event-number",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8106",
+    "created_at": "2022-10-16T01:38:29.147410Z",
+    "updated_at": "2022-10-16T01:38:29.147425Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when an advancement's progression is changed for a player."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8107": {
     "id": 8107,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Does Advancement Announce to Chat",
+    "description": "Checks if an advancement announces to the chat.",
+    "syntax_pattern": "%advancements% [do[es]] announce to [the] chat\n%advancements% (doesn't|does not|don't|do not) announce to [the] chat",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8107",
+    "created_at": "2022-10-16T01:38:29.157425Z",
+    "updated_at": "2022-10-16T01:38:29.157440Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if an advancement announces to the chat."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8108": {
     "id": 8108,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Does Advancement Show Toast",
+    "description": "Checks if an advancement shows toast.",
+    "syntax_pattern": "%advancements% [do[es]] show[s] toast\n%advancements% (doesn't|does not|don't|do not) show toast",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8108",
+    "created_at": "2022-10-16T01:38:29.165928Z",
+    "updated_at": "2022-10-16T01:38:29.165941Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if an advancement shows toast."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8110": {
     "id": 8110,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Is Advancement Hidden",
+    "description": "Checks if an advancement is hidden.",
+    "syntax_pattern": "%advancements% (is hidden|(isn't|is not) visible)\n%advancements% (is visible|(isn't|is not) hidden)",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8110",
+    "created_at": "2022-10-16T01:38:29.182328Z",
+    "updated_at": "2022-10-16T01:38:29.182340Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if an advancement is hidden."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8111": {
     "id": 8111,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Is Custom Advancement Hidden",
+    "description": "Checks if a custom advancement is not shown to a player.",
+    "syntax_pattern": "%customadvancements% (is hidden|(isn't|is not) visible) (to|for) %players%\n%customadvancements% (is visible|(isn't|is not) hidden) (to|for) %players%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8111",
+    "created_at": "2022-10-16T01:38:29.190281Z",
+    "updated_at": "2022-10-16T01:38:29.190293Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a custom advancement is not shown to a player."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8112": {
     "id": 8112,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Creation - Build Advancement",
+    "description": "Builds the last created advancement.\nThis can only be used inside of the advancement section.",
+    "syntax_pattern": "build [[the] last (created|made)] [custom] advancement",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8112",
+    "created_at": "2022-10-16T01:38:29.198007Z",
+    "updated_at": "2022-10-16T01:38:29.198018Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Builds the last created advancement.",
-        "This can only be used inside of the advancement section."
+        "Builds the last created advancement.\nThis can only be used inside of the advancement section."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8113": {
     "id": 8113,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Creation - Build Advancement Tab",
+    "description": "Builds the last created advancement tab.\nThis can only be used inside of the advancement tab section.",
+    "syntax_pattern": "build [[the] last (created|made)] [advancement] tab",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8113",
+    "created_at": "2022-10-16T01:38:29.205610Z",
+    "updated_at": "2022-10-16T01:38:29.205622Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Builds the last created advancement tab.",
-        "This can only be used inside of the advancement tab section."
+        "Builds the last created advancement tab.\nThis can only be used inside of the advancement tab section."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8114": {
     "id": 8114,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Disable Vanilla Advancement",
+    "description": "Disables all of the vanilla advancements. This can be undone by restarting the server by turning it off and back on, just so no one gets confused.\nWARNING: This quite literally disables ALL vanilla advancements, including recipes! It will spam your console with warnings as well.",
+    "syntax_pattern": "disable [all] [vanilla] advancements",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8114",
+    "created_at": "2022-10-16T01:38:29.213511Z",
+    "updated_at": "2022-10-16T01:38:29.213522Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Disables all of the vanilla advancements. This can be undone by restarting the server by turning it off and back on, just so no one gets confused.",
-        "WARNING: This quite literally disables ALL vanilla advancements, including recipes! It will spam your console with warnings as well."
+        "Disables all of the vanilla advancements. This can be undone by restarting the server by turning it off and back on, just so no one gets confused.\nWARNING: This quite literally disables ALL vanilla advancements, including recipes! It will spam your console with warnings as well."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8115": {
     "id": 8115,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Display Advancement's Toast",
+    "description": "Displays the toast of an advancement.",
+    "syntax_pattern": "(show|display) [the] toast (of|from) %advancements% to %players%\n(show|display) %advancements%'[s] toast to %players%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8115",
+    "created_at": "2022-10-16T01:38:29.221423Z",
+    "updated_at": "2022-10-16T01:38:29.221435Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Displays the toast of an advancement."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8116": {
     "id": 8116,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Display Custom Advancement's Toast",
+    "description": "Displays the toast of a custom advancement.",
+    "syntax_pattern": "(show|display) [the] toast (of|from) %customadvancements% to %players%\n(show|display) %customadvancements%'[s] toast to %players%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8116",
+    "created_at": "2022-10-16T01:38:29.229034Z",
+    "updated_at": "2022-10-16T01:38:29.229045Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Displays the toast of a custom advancement."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8117": {
     "id": 8117,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Display Custom Toast",
+    "description": "Displays a custom toast message.",
+    "syntax_pattern": "(show|display) [the] toast using [[the] icon] %itemtype%(,| and) [[the] title] %string%(,| and) [[the] frame] %frame% to %players%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8117",
+    "created_at": "2022-10-16T01:38:29.236860Z",
+    "updated_at": "2022-10-16T01:38:29.236871Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Displays a custom toast message."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8118": {
     "id": 8118,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Advancement",
+    "description": "Allows you to get a vanilla advancement or an advancement created by a plugin or datapack.",
+    "syntax_pattern": "[the] advancement %string%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Advancement",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8118",
+    "created_at": "2022-10-16T01:38:29.244585Z",
+    "updated_at": "2022-10-16T01:38:29.244596Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get a vanilla advancement or an advancement created by a plugin or datapack."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8119": {
     "id": 8119,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Advancement Message",
+    "description": "Allows you to get and set the advancement message in the advancement event.",
+    "syntax_pattern": "[the] advancement message\nadvancement's message\n[the] message of [the] advancement",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8119",
+    "created_at": "2022-10-16T01:38:29.252410Z",
+    "updated_at": "2022-10-16T01:38:29.252421Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get and set the advancement message in the advancement event."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8120": {
     "id": 8120,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Advancement Progression",
+    "description": "Allows you to get and set the custom advancement progression for a player.",
+    "syntax_pattern": "[the] [advancement] progress[ion] of %customadvancements% (for|of) %players%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8120",
+    "created_at": "2022-10-16T01:38:29.260235Z",
+    "updated_at": "2022-10-16T01:38:29.260254Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get and set the custom advancement progression for a player."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8109": {
     "id": 8109,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Does Custom Advancement Announce to Chat",
+    "description": "Checks if a custom advancement announces to the chat",
+    "syntax_pattern": "%customadvancements% [do[es]] announce[s] to [the] chat\n%customadvancements% (doesn't|does not|don't|do not) announce to [the] chat",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8109",
+    "created_at": "2022-10-16T01:38:29.174202Z",
+    "updated_at": "2023-01-17T01:32:45.396486Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a custom advancement announces to the chat"
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8121": {
     "id": 8121,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "All Custom Advancements",
+    "description": "Allows you to get all of the custom advancements.",
+    "syntax_pattern": "all [[of] the] custom advancements",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Custom Advancement",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8121",
+    "created_at": "2022-10-16T01:38:29.268420Z",
+    "updated_at": "2022-10-16T01:38:29.268435Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get all of the custom advancements."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8122": {
     "id": 8122,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "All Vanilla Advancements",
+    "description": "Allows you to get all of the vanilla advancements.",
+    "syntax_pattern": "all [[of] the] [vanilla] advancements",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Advancement",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8122",
+    "created_at": "2022-10-16T01:38:29.277156Z",
+    "updated_at": "2022-10-16T01:38:29.277168Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get all of the vanilla advancements."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8123": {
     "id": 8123,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Creation - Advancement Announcement",
+    "description": "Sets the announcement message of a custom advancement to true or false.",
+    "syntax_pattern": "[the] announcement [message] of [the] [last (created|made)] [custom] advancement\n[the] [last (created|made)] [custom] advancement[']s announcement [message]",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8123",
+    "created_at": "2022-10-16T01:38:29.285209Z",
+    "updated_at": "2022-10-16T01:38:29.285225Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the announcement message of a custom advancement to true or false."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8124": {
     "id": 8124,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Creation - Advancement Background",
+    "description": "Sets the background of a custom advancement to any solid block.",
+    "syntax_pattern": "[the] background of [the] [last (created|made)] [custom] advancement\n[the] [last (created|made)] [custom] advancement[']s background",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Item Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8124",
+    "created_at": "2022-10-16T01:38:29.292941Z",
+    "updated_at": "2022-10-16T01:38:29.292953Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the background of a custom advancement to any solid block."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8125": {
     "id": 8125,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Creation - Advancement Column",
+    "description": "Sets the column of a custom advancement to an integer.",
+    "syntax_pattern": "[the] column of [the] [last (created|made)] [custom] advancement\n[the] [last (created|made)] [custom] advancement[']s column",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8125",
+    "created_at": "2022-10-16T01:38:29.301015Z",
+    "updated_at": "2022-10-16T01:38:29.301027Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the column of a custom advancement to an integer."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8126": {
     "id": 8126,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Creation - Advancement Description",
+    "description": "Sets the description of a custom advancement to a string.",
+    "syntax_pattern": "[the] description of [the] [last (created|made)] [custom] advancement\n[the] [last (created|made)] [custom] advancement[']s description",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8126",
+    "created_at": "2022-10-16T01:38:29.309020Z",
+    "updated_at": "2022-10-16T01:38:29.309032Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the description of a custom advancement to a string."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8127": {
     "id": 8127,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Creation - Advancement Frame",
+    "description": "Sets the frame of a custom advancement to any advancement frame.",
+    "syntax_pattern": "[the] frame of [the] [last (created|made)] [custom] advancement\n[the] [last (created|made)] [custom] advancement[']s frame",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Advancement Frame",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8127",
+    "created_at": "2022-10-16T01:38:29.316884Z",
+    "updated_at": "2022-10-16T01:38:29.316896Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the frame of a custom advancement to any advancement frame."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8128": {
     "id": 8128,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Creation - Advancement Icon",
+    "description": "Sets the icon of a custom advancement to any item.",
+    "syntax_pattern": "[the] icon of [the] [last (created|made)] [custom] advancement\n[the] [last (created|made)] [custom] advancement[']s icon",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Item Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8128",
+    "created_at": "2022-10-16T01:38:29.325035Z",
+    "updated_at": "2022-10-16T01:38:29.325048Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the icon of a custom advancement to any item."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8129": {
     "id": 8129,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Creation - Advancement Max Progression",
+    "description": "Sets the max progression of a custom advancement to an integer.",
+    "syntax_pattern": "[the] max[imum] progression of [the] [last (created|made)] [custom] advancement\n[the] [last (created|made)] [custom] advancement[']s max[imum] progression",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8129",
+    "created_at": "2022-10-16T01:38:29.333519Z",
+    "updated_at": "2022-10-16T01:38:29.333531Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the max progression of a custom advancement to an integer."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8130": {
     "id": 8130,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Creation - Advancement Parent",
+    "description": "Sets the parent of a custom advancement to any custom advancement represented as a string.\nRemember to NOT use the custom advancement expression, use a string instead!",
+    "syntax_pattern": "[the] parent of [the] [last (created|made)] [custom] advancement\n[the] [last (created|made)] [custom] advancement[']s parent",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8130",
+    "created_at": "2022-10-16T01:38:29.341430Z",
+    "updated_at": "2022-10-16T01:38:29.341443Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Sets the parent of a custom advancement to any custom advancement represented as a string.",
-        "Remember to NOT use the custom advancement expression, use a string instead!"
+        "Sets the parent of a custom advancement to any custom advancement represented as a string.\nRemember to NOT use the custom advancement expression, use a string instead!"
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8131": {
     "id": 8131,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Creation - Advancement Root",
+    "description": "Sets the root of a custom advancement to true or false.",
+    "syntax_pattern": "[the] root of [the] [last (created|made)] [custom] advancement\n[the] [last (created|made)] [custom] advancement[']s root",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8131",
+    "created_at": "2022-10-16T01:38:29.349413Z",
+    "updated_at": "2022-10-16T01:38:29.349427Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the root of a custom advancement to true or false."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8132": {
     "id": 8132,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Creation - Advancement Row",
+    "description": "Sets the row of a custom advancement to an integer.",
+    "syntax_pattern": "[the] row of [the] [last (created|made)] [custom] advancement\n[the] [last (created|made)] [custom] advancement[']s row",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8132",
+    "created_at": "2022-10-16T01:38:29.357279Z",
+    "updated_at": "2022-10-16T01:38:29.357292Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the row of a custom advancement to an integer."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8133": {
     "id": 8133,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Creation - Advancement Title",
+    "description": "Sets the title of a custom advancement to a string.",
+    "syntax_pattern": "[the] title of [the] [last (created|made)] [custom] advancement\n[the] [last (created|made)] [custom] advancement[']s title",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8133",
+    "created_at": "2022-10-16T01:38:29.365012Z",
+    "updated_at": "2022-10-16T01:38:29.365026Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the title of a custom advancement to a string."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8134": {
     "id": 8134,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Creation - Advancement Toast",
+    "description": "Sets the toast of a custom advancement to true or false.",
+    "syntax_pattern": "[the] toast of [the] [last (created|made)] [custom] advancement\n[the] [last (created|made)] [custom] advancement[']s toast",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8134",
+    "created_at": "2022-10-16T01:38:29.372979Z",
+    "updated_at": "2022-10-16T01:38:29.372992Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the toast of a custom advancement to true or false."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8135": {
     "id": 8135,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Custom Advancement",
+    "description": "Allows you to get a custom advancement.",
+    "syntax_pattern": "[the] custom advancement %string%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Custom Advancement",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8135",
+    "created_at": "2022-10-16T01:38:29.381980Z",
+    "updated_at": "2022-10-16T01:38:29.381994Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get a custom advancement."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8136": {
     "id": 8136,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Custom Advancements of Player",
+    "description": "Creates a custom advancement.",
+    "syntax_pattern": "[all [[of] the]] custom advancements of %players%\n[all [[of] the]] %players%'[s] custom advancements",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Custom Advancement",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8136",
+    "created_at": "2022-10-16T01:38:29.390241Z",
+    "updated_at": "2022-10-16T01:38:29.390253Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a custom advancement."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8137": {
     "id": 8137,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Date Awarded",
+    "description": "Allows you to get the date awarded of a player's advancement.",
+    "syntax_pattern": "[the] date awarded of %advancements% for %players%\n%advancements%'[s] date awarded for %players%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Date",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8137",
+    "created_at": "2022-10-16T01:38:29.398131Z",
+    "updated_at": "2022-10-16T01:38:29.398143Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get the date awarded of a player's advancement."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8138": {
     "id": 8138,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Display - Advancement Frame",
+    "description": "Allows you to get the displayed frame of an advancement",
+    "syntax_pattern": "[the] displayed frame[s] of %advancements%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Advancement Frame",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8138",
+    "created_at": "2022-10-16T01:38:29.406021Z",
+    "updated_at": "2022-10-16T01:38:29.406034Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get the displayed frame of an advancement"
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8139": {
     "id": 8139,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Display - Advancement Icon",
+    "description": "Allows you to get the displayed icon of an advancement",
+    "syntax_pattern": "[the] displayed icon[s] of %advancements%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Item Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8139",
+    "created_at": "2022-10-16T01:38:29.413963Z",
+    "updated_at": "2022-10-16T01:38:29.413975Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get the displayed icon of an advancement"
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8140": {
     "id": 8140,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Display - Advancement Title",
+    "description": "Allows you to get the displayed title of an advancement",
+    "syntax_pattern": "[the] displayed title[s] of %advancements%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8140",
+    "created_at": "2022-10-16T01:38:29.425490Z",
+    "updated_at": "2022-10-16T01:38:29.425504Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get the displayed title of an advancement"
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8141": {
     "id": 8141,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Display - Custom Advancement Description",
+    "description": "Allows you to get the displayed description of a custom advancement",
+    "syntax_pattern": "[the] displayed description[s] of %customadvancements%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8141",
+    "created_at": "2022-10-16T01:38:29.433754Z",
+    "updated_at": "2022-10-16T01:38:29.433767Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get the displayed description of a custom advancement"
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8142": {
     "id": 8142,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Display - Custom Advancement Frame",
+    "description": "Allows you to get the displayed frame of a custom advancement",
+    "syntax_pattern": "[the] displayed frame[s] of %customadvancements%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Advancement Frame",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8142",
+    "created_at": "2022-10-16T01:38:29.442281Z",
+    "updated_at": "2022-10-16T01:38:29.442293Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get the displayed frame of a custom advancement"
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8143": {
     "id": 8143,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Display - Custom Advancement Icon",
+    "description": "Allows you to get the displayed icon of a custom advancement",
+    "syntax_pattern": "[the] displayed icon[s] of %customadvancements%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Item Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8143",
+    "created_at": "2022-10-16T01:38:29.450376Z",
+    "updated_at": "2022-10-16T01:38:29.450387Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get the displayed icon of a custom advancement"
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8144": {
     "id": 8144,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Display - Custom Advancement Title",
+    "description": "Allows you to get the displayed title of a custom advancement",
+    "syntax_pattern": "[the] displayed title[s] of %customadvancements%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8144",
+    "created_at": "2022-10-16T01:38:29.458379Z",
+    "updated_at": "2022-10-16T01:38:29.458391Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get the displayed title of a custom advancement"
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8147": {
     "id": 8147,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Vanilla Advancements of Player",
+    "description": "Allows you to get and change the vanilla advancements of a player.",
+    "syntax_pattern": "[all [[of] the]] [vanilla] advancements of %players%\n[all [[of] the]] %players%'[s] [vanilla] advancements",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Advancement",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8147",
+    "created_at": "2022-10-16T01:38:29.488864Z",
+    "updated_at": "2022-10-16T01:38:29.488875Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get and change the vanilla advancements of a player."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8148": {
     "id": 8148,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Advancement",
+    "description": "Represents an advancement.",
+    "syntax_pattern": "advancement[s]",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8148",
+    "created_at": "2022-10-16T01:38:29.496906Z",
+    "updated_at": "2022-10-16T01:38:29.496917Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an advancement."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8146": {
     "id": 8146,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Max Progression",
+    "description": "Allows you to get the max progression of an existing custom advancement.",
+    "syntax_pattern": "[the] max[imum] progress[ion] (of|for) %customadvancements%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8146",
+    "created_at": "2022-10-16T01:38:29.478047Z",
+    "updated_at": "2022-10-16T01:42:06.619538Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get the max progression of an existing custom advancement."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8145": {
     "id": 8145,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Display - Advancement Description",
+    "description": "Allows you to get the displayed description of an advancement.",
+    "syntax_pattern": "[the] displayed description[s] of %advancements%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8145",
+    "created_at": "2022-10-16T01:38:29.466197Z",
+    "updated_at": "2022-10-16T01:54:23.457090Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get the displayed description of an advancement."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8329": {
     "id": 8329,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Dispose Tab",
+    "description": "Disables an advancement tab. This can be useful when a tab is registered after you remove an advancement tab creation section from a script.",
+    "syntax_pattern": "(dispose|disable|unregister) [the] [advancement] tab [(titled|named)] %string%",
+    "compatible_addon_version": "1.4.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8329",
+    "created_at": "2022-12-22T05:16:57.903396Z",
+    "updated_at": "2022-12-22T05:16:57.903412Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Disables an advancement tab. This can be useful when a tab is registered after you remove an advancement tab creation section from a script."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8484": {
     "id": 8484,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Creation - Advancement Visibility",
+    "description": "Sets the visibility of a custom advancement to visible, hidden, or visible when the parent is granted.",
+    "syntax_pattern": "[the] visibility of [the] [last (created|made)] [custom] advancement\n[the] [last (created|made)] [custom] advancement[']s visibility",
+    "compatible_addon_version": "1.5.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": null,
+    "return_type": "VisibilityType",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8484",
+    "created_at": "2023-01-21T04:00:58.287519Z",
+    "updated_at": "2023-01-21T04:00:58.287531Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the visibility of a custom advancement to visible, hidden, or visible when the parent is granted."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8485": {
     "id": 8485,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Visibility",
+    "description": "Sets the visibility of a custom advancement.",
+    "syntax_pattern": "visibilities",
+    "compatible_addon_version": "1.5.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "skript-advancements",
+    "type_usage": "visible, shown, invisible, hidden, parent granted, parent is granted, is parent granted, parent",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8485",
+    "created_at": "2023-01-21T04:04:19.708576Z",
+    "updated_at": "2023-01-21T04:04:19.708591Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the visibility of a custom advancement."
       ],
       "ko": [
-        "[skript-advancements] 한국어 가이드팩 준비 중"
+        "[SKRIPT-ADVANCEMENTS] 한국어 가이드 번역 대기 중"
       ]
     }
   }

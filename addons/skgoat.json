@@ -1,169 +1,373 @@
 {
   "syntax_9369": {
     "id": 9369,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "F0cus",
+    "title": "On Block spread",
+    "description": "",
+    "syntax_pattern": "[on] [on] block spread[ing] [with priority (lowest|low|normal|high|highest|monitor)]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skGoat",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "past event-block, event-location, event-world, event-block",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=9369",
+    "created_at": "2023-09-02T08:18:57.473946Z",
+    "updated_at": "2023-09-02T08:18:57.473965Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skGoat] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skGoat] 한국어 가이드팩 준비 중"
+        "[SKGOAT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9370": {
     "id": 9370,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "F0cus",
+    "title": "On Inventory Drag",
+    "description": "",
+    "syntax_pattern": "[on] [on] inventory drag[ing] [with priority (lowest|low|normal|high|highest|monitor)]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skGoat",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-itemstack, event-inventory",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=9370",
+    "created_at": "2023-09-02T08:18:57.483158Z",
+    "updated_at": "2023-09-02T08:18:57.483170Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skGoat] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skGoat] 한국어 가이드팩 준비 중"
+        "[SKGOAT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9371": {
     "id": 9371,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "F0cus",
+    "title": "On Inventory Instant move",
+    "description": "It's called when you drag shift clicked item to move.",
+    "syntax_pattern": "[on] [on] inventory instant move[ing] [with priority (lowest|low|normal|high|highest|monitor)]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skGoat",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-itemstack, event-player, event-string, event-world, event-inventoryaction, event-inventory, event-slot, event-clicktype",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=9371",
+    "created_at": "2023-09-02T08:18:57.500495Z",
+    "updated_at": "2023-09-02T08:18:57.500508Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "It's called when you drag shift clicked item to move."
       ],
       "ko": [
-        "[skGoat] 한국어 가이드팩 준비 중"
+        "[SKGOAT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9372": {
     "id": 9372,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "F0cus",
+    "title": "On Once at specific time",
+    "description": "It's called only once time at specific time",
+    "syntax_pattern": "[on] [on] [the] once at [specific time] %time% [with priority (lowest|low|normal|high|highest|monitor)]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skGoat",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9372",
+    "created_at": "2023-09-02T08:18:57.508837Z",
+    "updated_at": "2023-09-02T08:18:57.508849Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "It's called only once time at specific time"
       ],
       "ko": [
-        "[skGoat] 한국어 가이드팩 준비 중"
+        "[SKGOAT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9373": {
     "id": 9373,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "F0cus",
+    "title": "Click affects to top or bottom inventory only",
+    "description": "You can specify top or bottom inventory",
+    "syntax_pattern": "%slot% affects [the] (:top|:bot[tom]) %inventory%\n%slot% does(n't| not) affects [the] (:top|:bot[tom]) %inventory%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skGoat",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9373",
+    "created_at": "2023-09-02T08:18:57.517008Z",
+    "updated_at": "2023-09-02T08:18:57.517020Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "You can specify top or bottom inventory"
       ],
       "ko": [
-        "[skGoat] 한국어 가이드팩 준비 중"
+        "[SKGOAT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9374": {
     "id": 9374,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "F0cus",
+    "title": "whitelisted slots - on Inventory Drag",
+    "description": "You can check if the dragged slots contains your specified whitelisted slots.",
+    "syntax_pattern": "%integers% exclude slots %integers% of %inventory%\n%integers% include slots %integers% of %inventory%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skGoat",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9374",
+    "created_at": "2023-09-02T08:18:57.524899Z",
+    "updated_at": "2023-09-02T08:18:57.524912Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "You can check if the dragged slots contains your specified whitelisted slots."
       ],
       "ko": [
-        "[skGoat] 한국어 가이드팩 준비 중"
+        "[SKGOAT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9375": {
     "id": 9375,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "F0cus",
+    "title": "All chunks between locations",
+    "description": "It's gets the chunks between those locations",
+    "syntax_pattern": "all chunks between %location% and %location%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skGoat",
+    "type_usage": null,
+    "return_type": "Chunk",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9375",
+    "created_at": "2023-09-02T08:18:57.533056Z",
+    "updated_at": "2023-09-02T08:18:57.533067Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "It's gets the chunks between those locations"
       ],
       "ko": [
-        "[skGoat] 한국어 가이드팩 준비 중"
+        "[SKGOAT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9376": {
     "id": 9376,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "F0cus",
+    "title": "Chunks next to chunk at location",
+    "description": "",
+    "syntax_pattern": "[all] chunks (:directly attached|:next [directly attached]) to %chunk%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skGoat",
+    "type_usage": null,
+    "return_type": "Chunk",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9376",
+    "created_at": "2023-09-02T08:18:57.540978Z",
+    "updated_at": "2023-09-02T08:18:57.540991Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skGoat] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skGoat] 한국어 가이드팩 준비 중"
+        "[SKGOAT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9377": {
     "id": 9377,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "F0cus",
+    "title": "Dragged slots - (On Inventory Drag)",
+    "description": "",
+    "syntax_pattern": "[the] [event-]slots\n[the] [event-]slot",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skGoat",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9377",
+    "created_at": "2023-09-02T08:18:57.549413Z",
+    "updated_at": "2023-09-02T08:18:57.549425Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skGoat] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skGoat] 한국어 가이드팩 준비 중"
+        "[SKGOAT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9378": {
     "id": 9378,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "F0cus",
+    "title": "Edges of chunk",
+    "description": "You can get the block's of edges of the Chunk",
+    "syntax_pattern": "[the] (border|edges) of %chunk% [%player%]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skGoat",
+    "type_usage": null,
+    "return_type": "Block",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9378",
+    "created_at": "2023-09-02T08:18:57.557100Z",
+    "updated_at": "2023-09-02T08:18:57.557113Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "You can get the block's of edges of the Chunk"
       ],
       "ko": [
-        "[skGoat] 한국어 가이드팩 준비 중"
+        "[SKGOAT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9379": {
     "id": 9379,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "F0cus",
+    "title": "Future event inv",
+    "description": "Get inventory to which the item is moved",
+    "syntax_pattern": "[the] future [event-]inventory",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skGoat",
+    "type_usage": null,
+    "return_type": "Inventory",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9379",
+    "created_at": "2023-09-02T08:18:57.564731Z",
+    "updated_at": "2023-09-02T08:18:57.564743Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get inventory to which the item is moved"
       ],
       "ko": [
-        "[skGoat] 한국어 가이드팩 준비 중"
+        "[SKGOAT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9380": {
     "id": 9380,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "F0cus",
+    "title": "Source block - (On block spread)",
+    "description": "The block from which it spreading",
+    "syntax_pattern": "[the] [event-]source",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skGoat",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9380",
+    "created_at": "2023-09-02T08:18:57.572454Z",
+    "updated_at": "2023-09-02T08:18:57.572466Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The block from which it spreading"
       ],
       "ko": [
-        "[skGoat] 한국어 가이드팩 준비 중"
+        "[SKGOAT] 한국어 가이드 번역 대기 중"
       ]
     }
   }

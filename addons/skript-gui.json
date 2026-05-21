@@ -1,243 +1,528 @@
 {
   "syntax_7914": {
     "id": 7914,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "APickledWalrus",
+    "title": "Has GUI",
+    "description": "Checks whether the given player(s) has/have a GUI open.",
+    "syntax_pattern": "%players% (has|have) a gui [open]\n%players% (doesn't|does not|do not|don't) have a gui [open]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skript-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7914",
+    "created_at": "2022-08-11T19:03:33.413183Z",
+    "updated_at": "2022-08-11T19:03:33.413202Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks whether the given player(s) has/have a GUI open."
       ],
       "ko": [
-        "[skript-gui] 한국어 가이드팩 준비 중"
+        "[SKRIPT-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7915": {
     "id": 7915,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "APickledWalrus",
+    "title": "Cancel GUI Close",
+    "description": "Cancels or uncancels the closing of a GUI.\n This effect can be used within a GUI close section.\n A 1 tick delay is applied by this effect after the code has run.",
+    "syntax_pattern": "(cancel|uncancel) [the] gui clos(e|ing)",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7915",
+    "created_at": "2022-08-11T19:03:33.431953Z",
+    "updated_at": "2022-08-11T19:03:33.431965Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Cancels or uncancels the closing of a GUI.",
-        "This effect can be used within a GUI close section.",
-        "A 1 tick delay is applied by this effect after the code has run."
+        "Cancels or uncancels the closing of a GUI.\n This effect can be used within a GUI close section.\n A 1 tick delay is applied by this effect after the code has run."
       ],
       "ko": [
-        "[skript-gui] 한국어 가이드팩 준비 중"
+        "[SKRIPT-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7916": {
     "id": 7916,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "APickledWalrus",
+    "title": "ExprGUIs",
+    "description": "",
+    "syntax_pattern": "all guis",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-gui",
+    "type_usage": null,
+    "return_type": "GUI",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7916",
+    "created_at": "2022-08-11T19:03:33.444484Z",
+    "updated_at": "2022-08-11T19:03:33.444496Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-gui] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-gui] 한국어 가이드팩 준비 중"
+        "[SKRIPT-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7918": {
     "id": 7918,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "APickledWalrus",
+    "title": "GUI Values",
+    "description": "Different utility values for a GUI. Some are available in vanilla Skript. Not all values are available for the GUI close section.",
+    "syntax_pattern": "[the] gui slot\n[the] gui raw slot\n[the] gui hotbar slot\n[the] gui inventory\n[the] gui inventory action\n[the] gui click (type|action)\n[the] gui cursor [item]\n[the] gui [(clicked|current)] item\n[the] gui slot type\n[the] gui player\n[the] gui (viewer|player)s\n[the] gui slot id\n[the] gui",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-gui",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7918",
+    "created_at": "2022-08-11T19:03:33.467716Z",
+    "updated_at": "2022-08-11T19:03:33.467731Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Different utility values for a GUI. Some are available in vanilla Skript. Not all values are available for the GUI close section."
       ],
       "ko": [
-        "[skript-gui] 한국어 가이드팩 준비 중"
+        "[SKRIPT-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7919": {
     "id": 7919,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "APickledWalrus",
+    "title": "GUI of Player",
+    "description": "The GUI that the player currently has open.",
+    "syntax_pattern": "[the] gui of %players%\n%players%'[s] gui",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-gui",
+    "type_usage": null,
+    "return_type": "GUI",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7919",
+    "created_at": "2022-08-11T19:03:33.480993Z",
+    "updated_at": "2022-08-11T19:03:33.481006Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The GUI that the player currently has open."
       ],
       "ko": [
-        "[skript-gui] 한국어 가이드팩 준비 중"
+        "[SKRIPT-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7920": {
     "id": 7920,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "APickledWalrus",
+    "title": "Global GUI Identifiers",
+    "description": "A list of the identifiers of all registered global GUIs.",
+    "syntax_pattern": "[(all [[of] the]|the)] (global|registered) gui id(s|entifiers)",
+    "compatible_addon_version": "1.2.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-gui",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7920",
+    "created_at": "2022-08-11T19:03:33.493833Z",
+    "updated_at": "2022-08-11T19:03:33.493847Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A list of the identifiers of all registered global GUIs."
       ],
       "ko": [
-        "[skript-gui] 한국어 가이드팩 준비 중"
+        "[SKRIPT-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7921": {
     "id": 7921,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "APickledWalrus",
+    "title": "ID of GUI",
+    "description": "An expression that returns the ID of a GUI if the GUI is a global GUI.\nThis expression may be used to change the ID of a global GUI.\nIt may also be used to register a GUI as a global GUI.",
+    "syntax_pattern": "[the] id[entifier] of %guiinventorys%\n%guiinventorys%'[s] id[entifier]",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-gui",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7921",
+    "created_at": "2022-08-11T19:03:33.505192Z",
+    "updated_at": "2022-08-11T19:03:33.505204Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "An expression that returns the ID of a GUI if the GUI is a global GUI.",
-        "This expression may be used to change the ID of a global GUI.",
-        "It may also be used to register a GUI as a global GUI."
+        "An expression that returns the ID of a GUI if the GUI is a global GUI.\nThis expression may be used to change the ID of a global GUI.\nIt may also be used to register a GUI as a global GUI."
       ],
       "ko": [
-        "[skript-gui] 한국어 가이드팩 준비 중"
+        "[SKRIPT-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7922": {
     "id": 7922,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "APickledWalrus",
+    "title": "Last GUI/GUI from ID",
+    "description": "It is used to return the last created/edited gui or a gui from a string id.",
+    "syntax_pattern": "[the] (last[ly] [(created|edited)]|(created|edited)) gui\n[the] gui [with [the] id[entifier]] %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-gui",
+    "type_usage": null,
+    "return_type": "GUI",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7922",
+    "created_at": "2022-08-11T19:03:33.516528Z",
+    "updated_at": "2022-08-11T19:03:33.516540Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "It is used to return the last created/edited gui or a gui from a string id."
       ],
       "ko": [
-        "[skript-gui] 한국어 가이드팩 준비 중"
+        "[SKRIPT-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7923": {
     "id": 7923,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "APickledWalrus",
+    "title": "Next GUI Slot",
+    "description": "An expression that returns the number/character of the next open slot in a GUI.",
+    "syntax_pattern": "%guiinventorys%'[s] next gui slot[s]\n[the] next gui slot[s] of %guiinventorys%\n[the] next gui slot",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-gui",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7923",
+    "created_at": "2022-08-11T19:03:33.527430Z",
+    "updated_at": "2022-08-11T19:03:33.527442Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "An expression that returns the number/character of the next open slot in a GUI."
       ],
       "ko": [
-        "[skript-gui] 한국어 가이드팩 준비 중"
+        "[SKRIPT-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7924": {
     "id": 7924,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "APickledWalrus",
+    "title": "Paginated List",
+    "description": "Returns the \"pages\" of a list based on the given number of lines per page.",
+    "syntax_pattern": "page[s] %numbers% of %objects% with %number% lines",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-gui",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7924",
+    "created_at": "2022-08-11T19:03:33.538591Z",
+    "updated_at": "2022-08-11T19:03:33.538603Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the \"pages\" of a list based on the given number of lines per page."
       ],
       "ko": [
-        "[skript-gui] 한국어 가이드팩 준비 중"
+        "[SKRIPT-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7925": {
     "id": 7925,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "APickledWalrus",
+    "title": "Virtual Inventory",
+    "description": "An expression to create inventories that can be used with GUIs.",
+    "syntax_pattern": "virtual ((crafting [table]|workbench)|chest|anvil|hopper|dropper|dispenser|%inventorytype%) [with size %number%] [(named|with (name|title)) %string%]\nvirtual ((crafting [table]|workbench)|chest|anvil|hopper|dropper|dispenser|%inventorytype%) [with %number% row[s]] [(named|with (name|title)) %string%]\nvirtual ((crafting [table]|workbench)|chest|anvil|hopper|dropper|dispenser|%inventorytype%) [(named|with (name|title)) %string%] with size %number%\nvirtual ((crafting [table]|workbench)|chest|anvil|hopper|dropper|dispenser|%inventorytype%) [(named|with (name|title)) %string%] with %number% row[s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-gui",
+    "type_usage": null,
+    "return_type": "Inventory",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7925",
+    "created_at": "2022-08-11T19:03:33.549747Z",
+    "updated_at": "2022-08-11T19:03:33.549759Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "An expression to create inventories that can be used with GUIs."
       ],
       "ko": [
-        "[skript-gui] 한국어 가이드팩 준비 중"
+        "[SKRIPT-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7926": {
     "id": 7926,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "APickledWalrus",
+    "title": "GUI",
+    "description": "Represents a skript-gui GUI",
+    "syntax_pattern": "gui inventor[y|ies]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "skript-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7926",
+    "created_at": "2022-08-11T19:03:33.560560Z",
+    "updated_at": "2022-08-11T19:03:33.560573Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a skript-gui GUI"
       ],
       "ko": [
-        "[skript-gui] 한국어 가이드팩 준비 중"
+        "[SKRIPT-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7927": {
     "id": 7927,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "APickledWalrus",
+    "title": "Slot Types",
+    "description": "Represents the slot type in an Inventory Click Event.",
+    "syntax_pattern": "slot type[s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "skript-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7927",
+    "created_at": "2022-08-11T19:03:33.572430Z",
+    "updated_at": "2022-08-11T19:03:33.572442Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents the slot type in an Inventory Click Event."
       ],
       "ko": [
-        "[skript-gui] 한국어 가이드팩 준비 중"
+        "[SKRIPT-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7928": {
     "id": 7928,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "APickledWalrus",
+    "title": "Create / Edit GUI",
+    "description": "The base of creating and editing GUIs.",
+    "syntax_pattern": "create [a] [new] gui [[with id[entifier]] %string%] with %inventory% [removable:(and|with) ([re]move[e]able|stealable) items] [(and|with) shape %strings%]\n(change|edit) [gui] %guiinventory%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "skript-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7928",
+    "created_at": "2022-08-11T19:06:21.082490Z",
+    "updated_at": "2022-08-11T19:06:21.082507Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The base of creating and editing GUIs."
       ],
       "ko": [
-        "[skript-gui] 한국어 가이드팩 준비 중"
+        "[SKRIPT-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7929": {
     "id": 7929,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "APickledWalrus",
+    "title": "GUI Open/Close",
+    "description": "Sections that will run when a user opens or closes the GUI. This section is optional.",
+    "syntax_pattern": "run (when|while) (open[ing]|clos(e|ing)) [[the] gui]\nrun (when|while) [the] gui (opens|closes)\nrun on gui (open[ing]|clos(e|ing))",
+    "compatible_addon_version": "1.0.0, 1.3 (open section)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "skript-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7929",
+    "created_at": "2022-08-11T19:06:21.092111Z",
+    "updated_at": "2022-08-11T19:06:21.092122Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sections that will run when a user opens or closes the GUI. This section is optional."
       ],
       "ko": [
-        "[skript-gui] 한국어 가이드팩 준비 중"
+        "[SKRIPT-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7930": {
     "id": 7930,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "APickledWalrus",
+    "title": "Set GUI Slots",
+    "description": "Set or clear GUI slots.",
+    "syntax_pattern": "(make|format) [the] next gui [slot] (with|to) [removable:([re]mov[e]able|stealable)] %itemtype%\n(make|format) gui [slot[s]] %strings/numbers% (with|to) [removable:([re]mov[e]able|stealable)] %itemtype%\n(un(make|format)|remove) [the] next gui [slot]\n(un(make|format)|remove) gui [slot[s]] %strings/numbers%\n(un(make|format)|remove) all [[of] the] gui [slots]",
+    "compatible_addon_version": "1.0.0, 1.2.0 (making specific slots stealable)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "skript-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7930",
+    "created_at": "2022-08-11T19:06:21.100442Z",
+    "updated_at": "2022-08-11T19:06:21.100453Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set or clear GUI slots."
       ],
       "ko": [
-        "[skript-gui] 한국어 가이드팩 준비 중"
+        "[SKRIPT-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7917": {
     "id": 7917,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "APickledWalrus",
+    "title": "GUI Properties",
+    "description": "Different properties of a GUI. They can be modified.",
+    "syntax_pattern": "[the] ([skript-]gui name[s]|([skript-]gui size[s]|rows)|shape[s]|lock status[es]) of %guiinventorys%\n%guiinventorys%'[s] ([skript-gui] name[s]|(size[s]|rows)|shape[s]|lock status[es])",
+    "compatible_addon_version": "1.0.0, 1.3 (rework, support outside of edit sections), 1.3.2 (\"gui\" keyword for name and size)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-gui",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7917",
+    "created_at": "2022-08-11T19:03:33.455356Z",
+    "updated_at": "2025-07-10T19:47:07.982950Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Different properties of a GUI. They can be modified."
       ],
       "ko": [
-        "[skript-gui] 한국어 가이드팩 준비 중"
+        "[SKRIPT-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   }

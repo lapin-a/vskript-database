@@ -1,85 +1,187 @@
 {
   "syntax_14232": {
     "id": 14232,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "tylad",
+    "title": "Get server player is on",
+    "description": "Returns the server a player is on.",
+    "syntax_pattern": "[the] [velocity] server of %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelocity",
+    "type_usage": null,
+    "return_type": "string",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14232",
+    "created_at": "2025-11-02T22:35:59.491129Z",
+    "updated_at": "2025-11-02T22:39:37.412799Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the server a player is on."
       ],
       "ko": [
-        "[Skelocity] 한국어 가이드팩 준비 중"
+        "[SKELOCITY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14231": {
     "id": 14231,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "tylad",
+    "title": "Kick proxy player",
+    "description": "Kicks a player from the proxy instead of sending them to the next available server.",
+    "syntax_pattern": "(proxy|velocity) kick %player% [(with reason|due to) %-string%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skelocity",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14231",
+    "created_at": "2025-11-02T22:34:50.188025Z",
+    "updated_at": "2025-11-02T22:34:50.188044Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Kicks a player from the proxy instead of sending them to the next available server."
       ],
       "ko": [
-        "[Skelocity] 한국어 가이드팩 준비 중"
+        "[SKELOCITY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14230": {
     "id": 14230,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "tylad",
+    "title": "Broadcast global proxy message",
+    "description": "Broadcasts a message (support for MiniMessage & Legacy) across every server on the network.",
+    "syntax_pattern": "(proxy|velocity|global|network) broadcast %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skelocity",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14230",
+    "created_at": "2025-11-02T22:32:57.486263Z",
+    "updated_at": "2025-11-02T22:35:01.584757Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Broadcasts a message (support for MiniMessage & Legacy) across every server on the network."
       ],
       "ko": [
-        "[Skelocity] 한국어 가이드팩 준비 중"
+        "[SKELOCITY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14235": {
     "id": 14235,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "tylad",
+    "title": "Get total player count of server",
+    "description": "Returns the total player count of a specific server on the proxy.",
+    "syntax_pattern": "[the] [total] player count of [(proxy|velocity)] server %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelocity",
+    "type_usage": null,
+    "return_type": "number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14235",
+    "created_at": "2025-11-02T22:39:16.675330Z",
+    "updated_at": "2025-11-02T22:39:16.675347Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the total player count of a specific server on the proxy."
       ],
       "ko": [
-        "[Skelocity] 한국어 가이드팩 준비 중"
+        "[SKELOCITY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14234": {
     "id": 14234,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "tylad",
+    "title": "Get all proxy players (on server / entire proxy)",
+    "description": "Returns a list of all proxy players (on a specific server, or the entire proxy)",
+    "syntax_pattern": "[all] (proxy|velocity) players [on [server] %-string%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelocity",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14234",
+    "created_at": "2025-11-02T22:38:38.914540Z",
+    "updated_at": "2025-11-02T22:40:01.601803Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a list of all proxy players (on a specific server, or the entire proxy)"
       ],
       "ko": [
-        "[Skelocity] 한국어 가이드팩 준비 중"
+        "[SKELOCITY] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14233": {
     "id": 14233,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "tylad",
+    "title": "Get proxy player count",
+    "description": "Returns the player count of the entire proxy.",
+    "syntax_pattern": "[the] [total] [(proxy|velocity)] proxy player count",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelocity",
+    "type_usage": null,
+    "return_type": "number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14233",
+    "created_at": "2025-11-02T22:37:10.728608Z",
+    "updated_at": "2025-11-02T22:40:16.430862Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the player count of the entire proxy."
       ],
       "ko": [
-        "[Skelocity] 한국어 가이드팩 준비 중"
+        "[SKELOCITY] 한국어 가이드 번역 대기 중"
       ]
     }
   }

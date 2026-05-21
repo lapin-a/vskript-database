@@ -1,689 +1,1520 @@
 {
   "syntax_11429": {
     "id": 11429,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Path",
+    "description": "The path type. Can be a file or a directory.",
+    "syntax_pattern": "path",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11429",
+    "created_at": "2024-04-29T20:38:21.206126Z",
+    "updated_at": "2025-06-15T16:35:23.266449Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The path type. Can be a file or a directory."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11382": {
     "id": 11382,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Cron task",
+    "description": "Peridically execute a task (cron).",
+    "syntax_pattern": "[on] cron %string% start",
+    "compatible_addon_version": "3.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11382",
+    "created_at": "2024-04-29T20:38:20.803110Z",
+    "updated_at": "2024-04-29T20:38:20.803134Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Peridically execute a task (cron)."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11383": {
     "id": 11383,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Watch File/Directory",
+    "description": "When something changed in a path",
+    "syntax_pattern": "[on] [watch[ing] [for]] (file|dir[ectory]) creation[s] (at|for) [[the] (file[s]|dir[ector(y|ies)]|paths)] %strings%\n[on] [watch[ing] [for]] (file|dir[ectory]) change[s] (at|for) [[the] (file[s]|dir[ector(y|ies)]|paths)] %strings%\n[on] [watch[ing] [for]] (file|dir[ectory]) deletion[s] (at|for) [[the] (file[s]|dir[ector(y|ies)]|paths)] %strings%\n[on] [watch[ing] [for]] (file|dir[ectory]) overflow[s] (at|for) [[the] (file[s]|dir[ector(y|ies)]|paths)] %strings%\n[on] [watch[ing] [for]] (any|every) (file|dir[ectory]) change[s] (at|for) [[the] (file[s]|dir[ector(y|ies)]|paths)] %strings%",
+    "compatible_addon_version": "2.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-path",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11383",
+    "created_at": "2024-04-29T20:38:20.814991Z",
+    "updated_at": "2024-04-29T20:38:20.815006Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "When something changed in a path"
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11384": {
     "id": 11384,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "File Is Encrypted?",
+    "description": "Checks if the file is encrypted.",
+    "syntax_pattern": "%path% is encrypted\n%path% is(n't| not) encrypted",
+    "compatible_addon_version": "3.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11384",
+    "created_at": "2024-04-29T20:38:20.822965Z",
+    "updated_at": "2024-04-29T20:38:20.822980Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if the file is encrypted."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11385": {
     "id": 11385,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "File is System?",
+    "description": "Checks if the file is a system or not.",
+    "syntax_pattern": "%path% (is|are) [a[n]] system (file|dir[ectory]|path)\n%path% (isn't|is not|aren't|are not) [a[n]] system (file|dir[ectory]|path)",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11385",
+    "created_at": "2024-04-29T20:38:20.835442Z",
+    "updated_at": "2024-04-29T20:38:20.835456Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if the file is a system or not."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11386": {
     "id": 11386,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "File is a directory?",
+    "description": "Checks if the file is a directory or not.",
+    "syntax_pattern": "%path% (is|are) [a] dir[ectory]\n%path% (isn't|is not|aren't|are not) [a] dir[ectory]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11386",
+    "created_at": "2024-04-29T20:38:20.843867Z",
+    "updated_at": "2024-04-29T20:38:20.843882Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if the file is a directory or not."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11387": {
     "id": 11387,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "File is a file?",
+    "description": "Checks if the file is a file or not.",
+    "syntax_pattern": "%path% (is|are) [a] file\n%path% (isn't|is not|aren't|are not) [a] file",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11387",
+    "created_at": "2024-04-29T20:38:20.853064Z",
+    "updated_at": "2024-04-29T20:38:20.853079Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if the file is a file or not."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11425": {
     "id": 11425,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Size of File/Directory",
+    "description": "Returns the size of a file or a directory in bytes.",
+    "syntax_pattern": "[the] (file|dir[ectory]) size of %path%\n%path%'[s] (file|dir[ectory]) size",
+    "compatible_addon_version": "1.7",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11425",
+    "created_at": "2024-04-29T20:38:21.166058Z",
+    "updated_at": "2024-04-29T20:38:21.166072Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the size of a file or a directory in bytes."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11388": {
     "id": 11388,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "File is archive?",
+    "description": "Checks if the file is an archive or not.",
+    "syntax_pattern": "%path% (is|are) [a[n]] archive (file|dir[ectory]|path)\n%path% (isn't|is not|aren't|are not) [a[n]] archive (file|dir[ectory]|path)",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11388",
+    "created_at": "2024-04-29T20:38:20.861790Z",
+    "updated_at": "2024-04-29T20:38:20.861805Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if the file is an archive or not."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11389": {
     "id": 11389,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "File is executable?",
+    "description": "Checks if the file is executable or not.",
+    "syntax_pattern": "%path% (is|are) [a[n]] exe[cutable] (file|dir[ectory]|path)\n%path% (isn't|is not|aren't|are not) [a[n]] exe[cutable] (file|dir[ectory]|path)",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11389",
+    "created_at": "2024-04-29T20:38:20.870790Z",
+    "updated_at": "2024-04-29T20:38:20.870803Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if the file is executable or not."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11390": {
     "id": 11390,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "File is hidden?",
+    "description": "Checks if the file is hidden or not.",
+    "syntax_pattern": "%path% (is|are) [a[n]] hidden (file|dir[ectory]|path)\n%path% (isn't|is not|aren't|are not) [a[n]] hidden (file|dir[ectory]|path)",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11390",
+    "created_at": "2024-04-29T20:38:20.879752Z",
+    "updated_at": "2024-04-29T20:38:20.879766Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if the file is hidden or not."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11391": {
     "id": 11391,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "File is readable?",
+    "description": "Checks if the file is readable or not.",
+    "syntax_pattern": "%path% (is|are) [a[n]] readable (file|dir[ectory]|path)\n%path% (isn't|is not|aren't|are not) [a[n]] readable (file|dir[ectory]|path)",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11391",
+    "created_at": "2024-04-29T20:38:20.887859Z",
+    "updated_at": "2024-04-29T20:38:20.887873Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if the file is readable or not."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11392": {
     "id": 11392,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "File is writable?",
+    "description": "Checks if the file is writable or not.",
+    "syntax_pattern": "%path% (is|are) writable\n%path% (isn't|is not|aren't|are not) writable\n%path% can written\n%path% (can't|cannot|can not) written",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11392",
+    "created_at": "2024-04-29T20:38:20.895849Z",
+    "updated_at": "2024-04-29T20:38:20.895863Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if the file is writable or not."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11393": {
     "id": 11393,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "File or directory exists?",
+    "description": "Checks if the file or directory exists or not.",
+    "syntax_pattern": "%path% (is available|is(n't| not) (missing|non[(-| )]existent))\n%path% (is (missing|non[(-| )]existent)|is(n't| not) available)",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11393",
+    "created_at": "2024-04-29T20:38:20.903762Z",
+    "updated_at": "2024-04-29T20:38:20.903775Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if the file or directory exists or not."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11394": {
     "id": 11394,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Process is alive?",
+    "description": "Checks if the process is still alive.",
+    "syntax_pattern": "%processes% (is|are) (alive|[still] running)\n%processes% (isn't|is not|aren't|are not) (alive|[still] running)",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11394",
+    "created_at": "2024-04-29T20:38:20.912332Z",
+    "updated_at": "2024-04-29T20:38:20.912347Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if the process is still alive."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11395": {
     "id": 11395,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Appends Text File",
+    "description": "Appends any text to a file.",
+    "syntax_pattern": "[(sync|async)] append %strings% to %paths%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11395",
+    "created_at": "2024-04-29T20:38:20.921593Z",
+    "updated_at": "2024-04-29T20:38:20.921608Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Appends any text to a file."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11396": {
     "id": 11396,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Copy File or directory",
+    "description": "Copy a file or a directory to another.",
+    "syntax_pattern": "[(sync|async)] copy %paths% to %path%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11396",
+    "created_at": "2024-04-29T20:38:20.929392Z",
+    "updated_at": "2024-04-29T20:38:20.929406Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Copy a file or a directory to another."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11397": {
     "id": 11397,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Create File or directory",
+    "description": "Creates a file or a directory. If the file exists, then it will be replaced by the new one.",
+    "syntax_pattern": "[(sync|async)] create %paths%\n[(sync|async)] create %paths% with [(text|string|content)] %strings%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11397",
+    "created_at": "2024-04-29T20:38:20.937098Z",
+    "updated_at": "2024-04-29T20:38:20.937113Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a file or a directory. If the file exists, then it will be replaced by the new one."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11398": {
     "id": 11398,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Delete File or directory",
+    "description": "Deletes a file or a directory.",
+    "syntax_pattern": "[(sync|async)] delete %path%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11398",
+    "created_at": "2024-04-29T20:38:20.945024Z",
+    "updated_at": "2024-04-29T20:38:20.945038Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Deletes a file or a directory."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11399": {
     "id": 11399,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Destroy/Kill process",
+    "description": "Kills a process.",
+    "syntax_pattern": "[(sync|async)] (kill|destroy|finish|stop) %processes%\n[(sync|async)] force [to] (kill|destroy|finish|stop) %processes%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11399",
+    "created_at": "2024-04-29T20:38:20.953209Z",
+    "updated_at": "2024-04-29T20:38:20.953223Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Kills a process."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11400": {
     "id": 11400,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Download File",
+    "description": "Downloads a file from a url.",
+    "syntax_pattern": "[(sync|async)] download [file] from [url] %string% to %path%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11400",
+    "created_at": "2024-04-29T20:38:20.962207Z",
+    "updated_at": "2024-04-29T20:38:20.962222Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Downloads a file from a url."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11401": {
     "id": 11401,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Fetch Url",
+    "description": "Fetch an url asynchronously. Able you to get an huge content and store it in a file later.",
+    "syntax_pattern": "[(sync|async)] fetch (url|link) %string%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11401",
+    "created_at": "2024-04-29T20:38:20.970291Z",
+    "updated_at": "2024-04-29T20:38:20.970306Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Fetch an url asynchronously. Able you to get an huge content and store it in a file later."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11402": {
     "id": 11402,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Insert Line",
+    "description": "Inserts a line in a file.",
+    "syntax_pattern": "[(sync|async)] insert %strings% at line %number% of %path%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11402",
+    "created_at": "2024-04-29T20:38:20.978158Z",
+    "updated_at": "2024-04-29T20:38:20.978172Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Inserts a line in a file."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11403": {
     "id": 11403,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Move File or directory",
+    "description": "Moves a file or a directory.",
+    "syntax_pattern": "[(sync|async)] move %paths% to %path%\n[(sync|async)] move %paths% to %path% (overwriting|replacing) existing one[s]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11403",
+    "created_at": "2024-04-29T20:38:20.985588Z",
+    "updated_at": "2024-04-29T20:38:20.985602Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Moves a file or a directory."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11404": {
     "id": 11404,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Rename File or directory",
+    "description": "Renames a file or a directory.",
+    "syntax_pattern": "[(sync|async)] rename %paths% to %string%\n[(sync|async)] rename %paths% to %string% (overwriting|replacing) existing one[s]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11404",
+    "created_at": "2024-04-29T20:38:20.993535Z",
+    "updated_at": "2024-04-29T20:38:20.993549Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Renames a file or a directory."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11405": {
     "id": 11405,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Run/Execute File",
+    "description": "Runs/Executes a file.",
+    "syntax_pattern": "[(sync|async)] (execute|run|start) %paths% [with arg[ument][s] %strings% [and]] [with env[ironment file[s]] %paths% [and]] [(with (logs|output))]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11405",
+    "created_at": "2024-04-29T20:38:21.003783Z",
+    "updated_at": "2024-04-29T20:38:21.003800Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Runs/Executes a file."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11406": {
     "id": 11406,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Unzip File or Directory",
+    "description": "Unzips files and/or directories.",
+    "syntax_pattern": "[(sync|async)] (unzip|extract) all files (in|of|from) %path% to %path% with [password] %string%\n[(sync|async)] (unzip|extract) all files (in|of|from) %path% to %path%\n[(sync|async)] (unzip|extract) %path% (in|of|from) %path% to %path% with [password] %string%\n[(sync|async)] (unzip|extract) %path% (in|of|from) %path% to %path%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11406",
+    "created_at": "2024-04-29T20:38:21.011661Z",
+    "updated_at": "2024-04-29T20:38:21.011675Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Unzips files and/or directories."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11407": {
     "id": 11407,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Zip File or Directory",
+    "description": "Zips files and/or directories.",
+    "syntax_pattern": "[(sync|async)] zip %paths% to %path% with [password] %string%\n[(sync|async)] zip %paths% to %path%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11407",
+    "created_at": "2024-04-29T20:38:21.019257Z",
+    "updated_at": "2024-04-29T20:38:21.019270Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Zips files and/or directories."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11408": {
     "id": 11408,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Absolute path",
+    "description": "Returns the absolute path of a file.",
+    "syntax_pattern": "[the] absolute path of %path%\n%path%'[s] absolute path",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Path",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11408",
+    "created_at": "2024-04-29T20:38:21.027137Z",
+    "updated_at": "2024-04-29T20:38:21.027151Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the absolute path of a file."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11409": {
     "id": 11409,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "All File/Directory",
+    "description": "Returns all files or directories in a dir.",
+    "syntax_pattern": "all [the] files and [all] [the] dir[ectorie]s (in|of|from) %path%\nall [the] files (in|of|from) %path%\nall [the] dir[ectorie]s (in|of|from) %path%\nall [the] sub[(-| )]files and [all] [the] sub[(-| )]dir[ectorie]s (in|of|from) %path%\nall [the] sub[(-| )]dir[ectorie]s (in|of|from) %path%\nall [the] sub[(-| )]files (in|of|from) %path%\nglob (files|dir[ectorie]s) %string% (in|of|from) %path%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Path",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11409",
+    "created_at": "2024-04-29T20:38:21.034604Z",
+    "updated_at": "2024-04-29T20:38:21.034618Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns all files or directories in a dir."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11410": {
     "id": 11410,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Content from file",
+    "description": "Returns the content of a file. Can be changed.",
+    "syntax_pattern": "[the] content of %path%\n[the] %path%'s content",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11410",
+    "created_at": "2024-04-29T20:38:21.042298Z",
+    "updated_at": "2024-04-29T20:38:21.042312Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the content of a file. Can be changed."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11411": {
     "id": 11411,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Creation date of File/Directory",
+    "description": "Returns the date of the creation of a file or directory.",
+    "syntax_pattern": "[the] creat(ed|ion) (date|time) of %path%\n%path%'[s] creat(ed|ion) (date|time)",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Date",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11411",
+    "created_at": "2024-04-29T20:38:21.050344Z",
+    "updated_at": "2024-04-29T20:38:21.050357Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the date of the creation of a file or directory."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11412": {
     "id": 11412,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Extension of File",
+    "description": "Returns the extension of a file.",
+    "syntax_pattern": "[the] extension of %path%\n%path%'[s] extension",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11412",
+    "created_at": "2024-04-29T20:38:21.057882Z",
+    "updated_at": "2024-04-29T20:38:21.057896Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the extension of a file."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11413": {
     "id": 11413,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Fetched Url Content",
+    "description": "Returns the content from the latest fetched url. Can only be used in a fetch scope.",
+    "syntax_pattern": "[the] fetched url content",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11413",
+    "created_at": "2024-04-29T20:38:21.065637Z",
+    "updated_at": "2024-04-29T20:38:21.065650Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the content from the latest fetched url. Can only be used in a fetch scope."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11414": {
     "id": 11414,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "File/Directory",
+    "description": "Returns a file or directory from its path. Can return a list of file.",
+    "syntax_pattern": "[the] (file[s]|dir[ector(y|ies)]) path %strings%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Path",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11414",
+    "created_at": "2024-04-29T20:38:21.073802Z",
+    "updated_at": "2024-04-29T20:38:21.073817Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a file or directory from its path. Can return a list of file."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11415": {
     "id": 11415,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "File/Directory name",
+    "description": "Returns the name path of a file or directory.",
+    "syntax_pattern": "[the] (file|dir[ectory]) name of %path%\n%path%'[s] (file|dir[ectory]) name",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11415",
+    "created_at": "2024-04-29T20:38:21.081430Z",
+    "updated_at": "2024-04-29T20:38:21.081444Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the name path of a file or directory."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11416": {
     "id": 11416,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Last Access date of File/Directory",
+    "description": "Returns the date of the last access of a file or directory.",
+    "syntax_pattern": "[the] last access (date|time) of %path%\n%path%'[s] last access (date|time)",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Date",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11416",
+    "created_at": "2024-04-29T20:38:21.091334Z",
+    "updated_at": "2024-04-29T20:38:21.091348Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the date of the last access of a file or directory."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11417": {
     "id": 11417,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Last modified of File/Directory",
+    "description": "Returns the date of the last modified date of a file or directory.",
+    "syntax_pattern": "[the] last modified (date|time) of %path%\n%path%'[s] last modified (date|time)",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Date",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11417",
+    "created_at": "2024-04-29T20:38:21.099297Z",
+    "updated_at": "2024-04-29T20:38:21.099312Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the date of the last modified date of a file or directory."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11418": {
     "id": 11418,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Line of file",
+    "description": "Returns a specific line of a file.\nBe carefull: when you remove a content from a line, it uses regex! So if you're using special chars as \":\" or \"()\" it will convert it in regex.\nUses \"\\\" before the character to avoid that.",
+    "syntax_pattern": "[the] line %number% (from|of|in) %path%\n[all] [the] lines (from|of|in) %path%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11418",
+    "created_at": "2024-04-29T20:38:21.107222Z",
+    "updated_at": "2024-04-29T20:38:21.107236Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns a specific line of a file.",
-        "Be carefull: when you remove a content from a line, it uses regex! So if you're using special chars as \":\" or \"()\" it will convert it in regex.",
-        "Uses \"\\\" before the character to avoid that."
+        "Returns a specific line of a file.\nBe carefull: when you remove a content from a line, it uses regex! So if you're using special chars as \":\" or \"()\" it will convert it in regex.\nUses \"\\\" before the character to avoid that."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11419": {
     "id": 11419,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Normalize Path",
+    "description": "Returns normalized path of file.",
+    "syntax_pattern": "[the] normalize[d] [path] of %path%\n%path%'[s] normalize[d] [path]",
+    "compatible_addon_version": "1.8",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Path",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11419",
+    "created_at": "2024-04-29T20:38:21.115175Z",
+    "updated_at": "2024-04-29T20:38:21.115189Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns normalized path of file."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11420": {
     "id": 11420,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Owner of File/Directory",
+    "description": "Returns the owner of a file or directory.",
+    "syntax_pattern": "[the] [file] owner of %path%\n%path%'[s] [file] owner",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11420",
+    "created_at": "2024-04-29T20:38:21.123425Z",
+    "updated_at": "2024-04-29T20:38:21.123439Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the owner of a file or directory."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11421": {
     "id": 11421,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Parent of File",
+    "description": "Returns the parent of a file.",
+    "syntax_pattern": "[the] parent [path] of %path%\n%path%'[s] parent [path]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Path",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11421",
+    "created_at": "2024-04-29T20:38:21.131562Z",
+    "updated_at": "2024-04-29T20:38:21.131576Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the parent of a file."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11422": {
     "id": 11422,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Process",
+    "description": "Returns the process from its PID or the last started one.",
+    "syntax_pattern": "process with pid[s] %strings%\nlast [started] process",
+    "compatible_addon_version": "2.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Process",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11422",
+    "created_at": "2024-04-29T20:38:21.139365Z",
+    "updated_at": "2024-04-29T20:38:21.139380Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the process from its PID or the last started one."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11423": {
     "id": 11423,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Process Output",
+    "description": "Returns the output of a process.",
+    "syntax_pattern": "[the] (output|log)[s] of %processes%\n%processes%'[s] (output|log)[s]",
+    "compatible_addon_version": "2.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11423",
+    "created_at": "2024-04-29T20:38:21.149806Z",
+    "updated_at": "2024-04-29T20:38:21.149821Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the output of a process."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11424": {
     "id": 11424,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Process PID",
+    "description": "Returns the pid of a process.",
+    "syntax_pattern": "[the] pid of %processes%\n%processes%'[s] pid",
+    "compatible_addon_version": "2.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11424",
+    "created_at": "2024-04-29T20:38:21.157884Z",
+    "updated_at": "2024-04-29T20:38:21.157898Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the pid of a process."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11426": {
     "id": 11426,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Total Space",
+    "description": "Returns the total space of a directory in bytes.",
+    "syntax_pattern": "[the] total space of %path%\n%path%'[s] total space",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11426",
+    "created_at": "2024-04-29T20:38:21.179458Z",
+    "updated_at": "2024-04-29T20:38:21.179473Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the total space of a directory in bytes."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11427": {
     "id": 11427,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Unallocated Space",
+    "description": "Returns the unallocated space of a directory in bytes.",
+    "syntax_pattern": "[the] unallocated space of %path%\n%path%'[s] unallocated space",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11427",
+    "created_at": "2024-04-29T20:38:21.189077Z",
+    "updated_at": "2024-04-29T20:38:21.189091Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the unallocated space of a directory in bytes."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11428": {
     "id": 11428,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Usable Space",
+    "description": "Returns the usable space of a directory in bytes.",
+    "syntax_pattern": "[the] usable space of %path%\n%path%'[s] usable space",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11428",
+    "created_at": "2024-04-29T20:38:21.198269Z",
+    "updated_at": "2024-04-29T20:38:21.198284Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the usable space of a directory in bytes."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11430": {
     "id": 11430,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Process",
+    "description": "A process running. Can be get from execute effect.",
+    "syntax_pattern": "process",
+    "compatible_addon_version": "2.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skent",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11430",
+    "created_at": "2024-04-29T20:38:21.213869Z",
+    "updated_at": "2024-04-29T20:38:21.213883Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A process running. Can be get from execute effect."
       ],
       "ko": [
-        "[Skent] 한국어 가이드팩 준비 중"
+        "[SKENT] 한국어 가이드 번역 대기 중"
       ]
     }
   }

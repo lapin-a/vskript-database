@@ -1,1314 +1,2943 @@
 {
   "syntax_6640": {
     "id": 6640,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map State",
+    "description": "represents a state of a map that can be sent to the player to display changes on a map, useful as it is faster than drawing images often on a map",
+    "syntax_pattern": "map[ ]state[s]",
+    "compatible_addon_version": "1.2.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [
+      {
+        "name": "ProtocolLib",
+        "link": "https://www.spigotmc.org/resources/protocollib.1997/"
+      }
+    ],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6640",
+    "created_at": "2022-01-13T07:24:42.850454Z",
+    "updated_at": "2022-01-13T09:29:07.699671Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "represents a state of a map that can be sent to the player to display changes on a map, useful as it is faster than drawing images often on a map"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6632": {
     "id": 6632,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "texture of skin",
+    "description": "get or set the value and signature of a skin",
+    "syntax_pattern": "[the] ([texture] value|signature) of %skins%\n%skins%'[s] ([texture] value|signature)",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "Paper",
+        "link": "https://papermc.io/downloads"
+      }
+    ],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6632",
+    "created_at": "2022-01-13T07:24:42.781029Z",
+    "updated_at": "2022-01-13T09:29:07.980012Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "get or set the value and signature of a skin"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6607": {
     "id": 6607,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map State Map",
+    "description": "Allows you to get or change the map of a map state to be played on different maps",
+    "syntax_pattern": "[map] id of map state[s] %mapstates%\nmap state %mapstates%'[s] [map] id",
+    "compatible_addon_version": "1.2.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "ProtocolLib",
+        "link": "https://www.spigotmc.org/resources/protocollib.1997/"
+      }
+    ],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "long",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6607",
+    "created_at": "2022-01-13T07:24:42.587848Z",
+    "updated_at": "2022-01-13T09:29:10.469319Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get or change the map of a map state to be played on different maps"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6554": {
     "id": 6554,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "On Map initialize",
+    "description": "event gets called when a map is created for the first time and starts to render, eg. map from world expression or player getting a filled map for the first time",
+    "syntax_pattern": "[on] map init[iali(z|s)e]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-map",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6554",
+    "created_at": "2022-01-13T07:24:42.113028Z",
+    "updated_at": "2022-01-13T07:24:42.113052Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "event gets called when a map is created for the first time and starts to render, eg. map from world expression or player getting a filled map for the first time"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6606": {
     "id": 6606,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map State",
+    "description": "returns a map state that can be sent to a player",
+    "syntax_pattern": "map state (of|from) %mapcanvases%\nmap state of %images% [at [(][x[ ]]%number%,[ ][y[ ]]%number%[)]] on %map%",
+    "compatible_addon_version": "1.2.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "ProtocolLib",
+        "link": "https://www.spigotmc.org/resources/protocollib.1997/"
+      }
+    ],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Map State",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6606",
+    "created_at": "2022-01-13T07:24:42.580226Z",
+    "updated_at": "2022-01-13T09:29:11.286061Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns a map state that can be sent to a player"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6605": {
     "id": 6605,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map Scale / Center / Id",
+    "description": "returns the scale, center x or z location, or id of a map",
+    "syntax_pattern": "[the] ([map] (scale|zoom)|cent(er|re) (x|z)|map id) of %maps%\n%maps%'[s] ([map] (scale|zoom)|cent(er|re) (x|z)|map id)",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "long",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6605",
+    "created_at": "2022-01-13T07:24:42.571792Z",
+    "updated_at": "2022-01-13T07:24:42.571808Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns the scale, center x or z location, or id of a map"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6634": {
     "id": 6634,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "FluidCollisionMode",
+    "description": "Represents the fluid collision mode in a raytrace\nalways - collide with all fluids\nnever - ignore fluids\nsource_only - collide with source fluid blocks only",
+    "syntax_pattern": "fluid[ ]collision[ ]mode[s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": "never, source only, always",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6634",
+    "created_at": "2022-01-13T07:24:42.802620Z",
+    "updated_at": "2022-01-13T07:24:42.802635Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Represents the fluid collision mode in a raytrace",
-        "always - collide with all fluids",
-        "never - ignore fluids",
-        "source_only - collide with source fluid blocks only"
+        "Represents the fluid collision mode in a raytrace\nalways - collide with all fluids\nnever - ignore fluids\nsource_only - collide with source fluid blocks only"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6635": {
     "id": 6635,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Image",
+    "description": "represents an image. Can be used to send as chat message, upload skins or be displayed on maps",
+    "syntax_pattern": "image[s]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6635",
+    "created_at": "2022-01-13T07:24:42.810993Z",
+    "updated_at": "2022-01-13T07:24:42.811009Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "represents an image. Can be used to send as chat message, upload skins or be displayed on maps"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6636": {
     "id": 6636,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map",
+    "description": "represents a map view with an id",
+    "syntax_pattern": "map[s]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6636",
+    "created_at": "2022-01-13T07:24:42.818917Z",
+    "updated_at": "2022-01-13T07:24:42.818933Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "represents a map view with an id"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6637": {
     "id": 6637,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map Canvas",
+    "description": "the canvas of a map, this is what allows you to set pixels on",
+    "syntax_pattern": "map[ ]canvas[es]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6637",
+    "created_at": "2022-01-13T07:24:42.827025Z",
+    "updated_at": "2022-01-13T07:24:42.827041Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "the canvas of a map, this is what allows you to set pixels on"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6638": {
     "id": 6638,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map Cursor",
+    "description": "represents a cursor in a map",
+    "syntax_pattern": "map[ ]cursor[s]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6638",
+    "created_at": "2022-01-13T07:24:42.835221Z",
+    "updated_at": "2022-01-13T07:24:42.835237Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "represents a cursor in a map"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6639": {
     "id": 6639,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map Cursor Type",
+    "description": "represents the type of a map cursor",
+    "syntax_pattern": "map[ ]cursor[ ]type[s]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": "white pointer, green pointer, red pointer, blue pointer, white cross, red marker, white circle, small white circle, mansion, temple, banner white, banner orange, banner magenta, banner light blue, banner yellow, banner lime, banner pink, banner gray, banner light gray, banner cyan, banner purple, banner blue, banner brown, banner green, banner red, banner black, red x",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6639",
+    "created_at": "2022-01-13T07:24:42.842653Z",
+    "updated_at": "2022-01-13T07:24:42.842668Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "represents the type of a map cursor"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6641": {
     "id": 6641,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Ray Trace Result",
+    "description": "Represent the raytrace",
+    "syntax_pattern": "ray[ ]trace[[ ]result][s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6641",
+    "created_at": "2022-01-13T07:24:42.858057Z",
+    "updated_at": "2022-01-13T07:24:42.858073Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represent the raytrace"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6642": {
     "id": 6642,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Skin",
+    "description": "represents the skin of a player, skull block or skull item",
+    "syntax_pattern": "skin[s]",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6642",
+    "created_at": "2022-01-13T07:24:42.865951Z",
+    "updated_at": "2022-01-13T07:24:42.865967Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "represents the skin of a player, skull block or skull item"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6555": {
     "id": 6555,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "On Stats change",
+    "description": "Called when a player statistic changes value. event-number returns the change amount while past and future event-number returns the value before and after the event",
+    "syntax_pattern": "[on] [player] stat[istic][s] (change|increase)[ of %statistics%]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "past event-number, event-itemstack, event-player, event-entitydata, event-number, event-world, future event-number",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=6555",
+    "created_at": "2022-01-13T07:24:42.145302Z",
+    "updated_at": "2022-01-13T07:24:42.145318Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a player statistic changes value. event-number returns the change amount while past and future event-number returns the value before and after the event"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6556": {
     "id": 6556,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Bounding Box intersect",
+    "description": "Checks whether a bounding box intersects with another, fully contains another, or contains positions",
+    "syntax_pattern": "[[bounding] box] %boundingbox% [(does(n't| not))] (fully contain[s]|intersect[s][ with]) %boundingboxes%\n[[bounding] box] %boundingbox% (contain|does(n't| not) contain)[s] %vectors%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6556",
+    "created_at": "2022-01-13T07:24:42.155762Z",
+    "updated_at": "2022-01-13T07:24:42.155778Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks whether a bounding box intersects with another, fully contains another, or contains positions"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6557": {
     "id": 6557,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map is Virtual",
+    "description": "whether the map is managed by a plugin or is a natural minecraft map",
+    "syntax_pattern": "%maps% (is|are) virtual\n%maps% (isn't|is not|aren't|are not) virtual",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6557",
+    "created_at": "2022-01-13T07:24:42.163472Z",
+    "updated_at": "2022-01-13T07:24:42.163488Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "whether the map is managed by a plugin or is a natural minecraft map"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6559": {
     "id": 6559,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Delete Skript",
+    "description": "deletes skript",
+    "syntax_pattern": "delete skript [((and|[along] with) all addons)]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6559",
+    "created_at": "2022-01-13T07:24:42.192498Z",
+    "updated_at": "2022-01-13T07:24:42.192514Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "deletes skript"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6560": {
     "id": 6560,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Edit Bounding Box",
+    "description": "move or expand a bounding box",
+    "syntax_pattern": "(shift|expand) %boundingboxes% by %vector%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6560",
+    "created_at": "2022-01-13T07:24:42.200817Z",
+    "updated_at": "2022-01-13T07:24:42.200833Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "move or expand a bounding box"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6561": {
     "id": 6561,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "EffScriptError",
+    "description": "",
+    "syntax_pattern": "reload [script] %string% and store error[s] in %objects%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6561",
+    "created_at": "2022-01-13T07:24:42.208375Z",
+    "updated_at": "2022-01-13T07:24:42.208391Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[Skirt] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6564": {
     "id": 6564,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Gif",
+    "description": "saves a gif to a variable, saving to `{_gif::*}` will result in {_gif::*} containing the images and {_gif::delay::*} containing the delays (timespan)",
+    "syntax_pattern": "save gif from (file [path]| url) %string% to %objects%",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6564",
+    "created_at": "2022-01-13T07:24:42.231560Z",
+    "updated_at": "2022-01-13T07:24:42.231576Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "saves a gif to a variable, saving to `{_gif::*}` will result in {_gif::*} containing the images and {_gif::delay::*} containing the delays (timespan)"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6566": {
     "id": 6566,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Image edit",
+    "description": "Some basic image editing features",
+    "syntax_pattern": "draw [a] %color% ([(outline of [a])] (rectangle|oval)|line) (between|from) [(][x[ ]]%number%,[ ][y[ ]]%number%[)] (and|to) [(][x[ ]]%number%,[ ][y[ ]]%number%[)] on %image%\n(clear|crop) area (between|from) [(][x[ ]]%number%,[ ][y[ ]]%number%[)] (and|to) [(][x[ ]]%number%,[ ][y[ ]]%number%[)] on %image%\ndraw image %image% at [(][x[ ]]%number%,[ ][y[ ]]%number%[)] on image %image%",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6566",
+    "created_at": "2022-01-13T07:24:42.246986Z",
+    "updated_at": "2022-01-13T07:24:42.247003Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Some basic image editing features"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6569": {
     "id": 6569,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map Draw",
+    "description": "draw text or image on a map.\nfor draw text, map colors are in the format §<number>; however you can still use hex and regular color codes and it will convert for you\nfor draw image, only part of the image will be displayed if it goes over the 128 pixel size. You can use the image expression to resize",
+    "syntax_pattern": "draw image %image% [at [(][x[ ]]%number%,[ ][y[ ]]%number%[)]] [on %mapcanv%]\ndraw text %string% at [(][x[ ]]%number%,[ ][y[ ]]%number%[)] [on %mapcanv%]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6569",
+    "created_at": "2022-01-13T07:24:42.269557Z",
+    "updated_at": "2022-01-13T07:24:42.269573Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "draw text or image on a map.",
-        "for draw text, map colors are in the format §<number>; however you can still use hex and regular color codes and it will convert for you",
-        "for draw image, only part of the image will be displayed if it goes over the 128 pixel size. You can use the image expression to resize"
+        "draw text or image on a map.\nfor draw text, map colors are in the format §<number>; however you can still use hex and regular color codes and it will convert for you\nfor draw image, only part of the image will be displayed if it goes over the 128 pixel size. You can use the image expression to resize"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6570": {
     "id": 6570,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map stop editing",
+    "description": "removes the changes you have made to a map. note that the map will only revert to its original state if you partially edited it.",
+    "syntax_pattern": "stop editing [map] [%maps%]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6570",
+    "created_at": "2022-01-13T07:24:42.277833Z",
+    "updated_at": "2022-01-13T07:24:42.277849Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "removes the changes you have made to a map. note that the map will only revert to its original state if you partially edited it."
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6574": {
     "id": 6574,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Update inventory",
+    "description": "updates a player's inventory. Useful to get rid of ghost items",
+    "syntax_pattern": "update inventor(y|ies) (of|for) %players%\nupdate %players%'[s] inventor(y|ies)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6574",
+    "created_at": "2022-01-13T07:24:42.308411Z",
+    "updated_at": "2022-01-13T07:24:42.308427Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "updates a player's inventory. Useful to get rid of ghost items"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6575": {
     "id": 6575,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Wait for render",
+    "description": "waits until the specified canvas is rendered again. Renders happen almost every tick.\nUseful when you want every action to be seen.",
+    "syntax_pattern": "wait for [next] render\nwait for %mapcanv% to render",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6575",
+    "created_at": "2022-01-13T07:24:42.316108Z",
+    "updated_at": "2022-01-13T07:24:42.316137Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "waits until the specified canvas is rendered again. Renders happen almost every tick.",
-        "Useful when you want every action to be seen."
+        "waits until the specified canvas is rendered again. Renders happen almost every tick.\nUseful when you want every action to be seen."
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6576": {
     "id": 6576,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Bounding Box Blocks",
+    "description": "returns blocks within a bounding box given a world",
+    "syntax_pattern": "blocks within [bounding] box %boundingboxes%[ in %world%]",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Block",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6576",
+    "created_at": "2022-01-13T07:24:42.323661Z",
+    "updated_at": "2022-01-13T07:24:42.323677Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns blocks within a bounding box given a world"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6577": {
     "id": 6577,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Bounding Box Entities",
+    "description": "gets entities within a bounding box",
+    "syntax_pattern": "[all] %entitydatas% within [bounding] box %boundingboxes%[ in %world%]",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Entity",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6577",
+    "created_at": "2022-01-13T07:24:42.331551Z",
+    "updated_at": "2022-01-13T07:24:42.331590Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "gets entities within a bounding box"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6578": {
     "id": 6578,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Bounding Box Points",
+    "description": "Get the upper, lower or centre point of a bounding box",
+    "syntax_pattern": "cent(er|re) [vector] of %boundingboxes%\n(upper|lower) (corner|vector) of %boundingboxes%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6578",
+    "created_at": "2022-01-13T07:24:42.339096Z",
+    "updated_at": "2022-01-13T07:24:42.339112Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the upper, lower or centre point of a bounding box"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6579": {
     "id": 6579,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Bounding Box outline",
+    "description": "Returns a list of vectors in the outline or corner of a bounding box and line between vectors or locations",
+    "syntax_pattern": "[vector] box outline of %boundingboxes% [with density %number%]\nvector line between %vector% and %vector% [with density %number%]\nlocation line between %location% and %location% [with density %number%]\n[all] [corner] points of %boundingboxes%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6579",
+    "created_at": "2022-01-13T07:24:42.346840Z",
+    "updated_at": "2022-01-13T07:24:42.346854Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a list of vectors in the outline or corner of a bounding box and line between vectors or locations"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6580": {
     "id": 6580,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Convert",
+    "description": "Used for converting variables to their types to allow changes since you cannot do things like set {_block} to air when the variable is a block\ncan also be used to filter out a specific type from a list",
+    "syntax_pattern": "%objects% converted to %*classinfo%",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6580",
+    "created_at": "2022-01-13T07:24:42.354337Z",
+    "updated_at": "2022-01-13T07:24:42.354353Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Used for converting variables to their types to allow changes since you cannot do things like set {_block} to air when the variable is a block",
-        "can also be used to filter out a specific type from a list"
+        "Used for converting variables to their types to allow changes since you cannot do things like set {_block} to air when the variable is a block\ncan also be used to filter out a specific type from a list"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6573": {
     "id": 6573,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Show Map State",
+    "description": "sends a map state to a player",
+    "syntax_pattern": "(show|send) map[ ]state %mapstate% to %players%\nrefresh %players%['[s]] view of %maps%",
+    "compatible_addon_version": "1.2.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "ProtocolLib",
+        "link": "https://www.spigotmc.org/resources/protocollib.1997/"
+      }
+    ],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6573",
+    "created_at": "2022-01-13T07:24:42.300669Z",
+    "updated_at": "2022-01-13T09:29:13.743752Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "sends a map state to a player"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6572": {
     "id": 6572,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Pause Chat",
+    "description": "prevents a player from receiving chat messages from the server",
+    "syntax_pattern": "(pause|resume) chat (of|for) %players%",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "ProtocolLib",
+        "link": "https://www.spigotmc.org/resources/protocollib.1997/"
+      }
+    ],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6572",
+    "created_at": "2022-01-13T07:24:42.293089Z",
+    "updated_at": "2022-01-13T09:29:14.385712Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "prevents a player from receiving chat messages from the server"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6571": {
     "id": 6571,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Move entity",
+    "description": "Similar to teleporting but keeps their momentum and works even if there are passengers on the entity\nthe location must be in the same world as the entity",
+    "syntax_pattern": "(move|set location of) %entities% (to|%directions%) [%location%]",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "ProtocolLib",
+        "link": "https://www.spigotmc.org/resources/protocollib.1997/"
+      }
+    ],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6571",
+    "created_at": "2022-01-13T07:24:42.285444Z",
+    "updated_at": "2022-01-13T09:29:14.743091Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Similar to teleporting but keeps their momentum and works even if there are passengers on the entity",
-        "the location must be in the same world as the entity"
+        "Similar to teleporting but keeps their momentum and works even if there are passengers on the entity\nthe location must be in the same world as the entity"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6568": {
     "id": 6568,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Make Jump",
+    "description": "makes the specified entities jump",
+    "syntax_pattern": "(make|force) %livingentities% [to] jump",
+    "compatible_addon_version": "1.2.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "ProtocolLib",
+        "link": "https://www.spigotmc.org/resources/protocollib.1997/"
+      }
+    ],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6568",
+    "created_at": "2022-01-13T07:24:42.261937Z",
+    "updated_at": "2022-01-13T09:29:15.092441Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "makes the specified entities jump"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6567": {
     "id": 6567,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Image from skin",
+    "description": "retrieves an image from a skin and saves to a variable",
+    "syntax_pattern": "load image from skin %skin% [in]to %object%",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Paper",
+        "link": "https://papermc.io/downloads"
+      }
+    ],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6567",
+    "created_at": "2022-01-13T07:24:42.254709Z",
+    "updated_at": "2022-01-13T09:29:15.369239Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "retrieves an image from a skin and saves to a variable"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6565": {
     "id": 6565,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Hide Entity",
+    "description": "Hides entities for specific or all players\nwill be unhidden if player relogs or goes far away\nhiding a player from themselves will do weird things",
+    "syntax_pattern": "[(un)]hide entit(y|ies) %entities%[ from %players%]",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "ProtocolLib",
+        "link": "https://www.spigotmc.org/resources/protocollib.1997/"
+      }
+    ],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6565",
+    "created_at": "2022-01-13T07:24:42.239149Z",
+    "updated_at": "2022-01-13T09:29:16.264715Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Hides entities for specific or all players",
-        "will be unhidden if player relogs or goes far away",
-        "hiding a player from themselves will do weird things"
+        "Hides entities for specific or all players\nwill be unhidden if player relogs or goes far away\nhiding a player from themselves will do weird things"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6563": {
     "id": 6563,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Generate Skin",
+    "description": "creates a skin from an image or loads from an offline player and saves to a variable",
+    "syntax_pattern": "load skin from ((file [path]|url) %string%|%image%|%offlineplayer%) [in]to %object%",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Paper",
+        "link": "https://papermc.io/downloads"
+      }
+    ],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6563",
+    "created_at": "2022-01-13T07:24:42.223893Z",
+    "updated_at": "2022-01-13T09:29:17.021974Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "creates a skin from an image or loads from an offline player and saves to a variable"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6562": {
     "id": 6562,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Entity Animation",
+    "description": "make en entity go in riptide or interact with their hand animation",
+    "syntax_pattern": "play (riptide|(off|main)[ ]hand interact) animation on %livingentities%[ for %players%]\nstop entity animation of %livingentities%[ for %players%]",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "ProtocolLib",
+        "link": "https://www.spigotmc.org/resources/protocollib.1997/"
+      }
+    ],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6562",
+    "created_at": "2022-01-13T07:24:42.216221Z",
+    "updated_at": "2022-01-13T09:29:17.728088Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "make en entity go in riptide or interact with their hand animation"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6581": {
     "id": 6581,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Create Bounding Box",
+    "description": "Creates a bounding box, bounding box of block may not be accurate for blocks like stairs, however collision shape returns a list of bounding boxes representing the exact shape, read [this](https://github.com/MrsDarth/skirt/wiki/BoundingBox) for more info.",
+    "syntax_pattern": "(bounding|hit)[ ]box of %entities%\n(bounding|hit)[ ]box of %blocks%\ncollision shape of %blocks%\n[new] bounding box (from|between|within) %vector/location% (and|to) %vector/location%\n[new] bounding box (with centre|at) %vector/location% [with dimensions] [x] %number%, [y] %number%, [z] %number%\n%boundingboxes% [with all directions] expanded by %number%\nintersection [box] (between|of) %boundingbox% and %boundingbox%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Bounding Box",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6581",
+    "created_at": "2022-01-13T07:24:42.361831Z",
+    "updated_at": "2022-01-13T07:24:42.361847Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a bounding box, bounding box of block may not be accurate for blocks like stairs, however collision shape returns a list of bounding boxes representing the exact shape, read [this](https://github.com/MrsDarth/skirt/wiki/BoundingBox) for more info."
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6582": {
     "id": 6582,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Custom Inventory Name",
+    "description": "get or change the name of a custom inventory. May not work for real inventories",
+    "syntax_pattern": "[the] custom inventory name of %inventories%\n%inventories%'[s] custom inventory name",
+    "compatible_addon_version": "1.2.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6582",
+    "created_at": "2022-01-13T07:24:42.369517Z",
+    "updated_at": "2022-01-13T07:24:42.369533Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "get or change the name of a custom inventory. May not work for real inventories"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6583": {
     "id": 6583,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Drops of entity",
+    "description": "generates the drops of an entity with an optional attacker. This takes into account the looting of the player's tool and luck potion effect",
+    "syntax_pattern": "[%number% [of]] (entity|mob|generate[d]) drops of %entities/blocks%[ (with|using) [attacker] %player%]",
+    "compatible_addon_version": "1.2.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Item Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6583",
+    "created_at": "2022-01-13T07:24:42.377543Z",
+    "updated_at": "2022-01-13T07:24:42.377558Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "generates the drops of an entity with an optional attacker. This takes into account the looting of the player's tool and luck potion effect"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6585": {
     "id": 6585,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Enchantment Type level",
+    "description": "returns the level of an enchantment type. enchantment level of sharpness 10 returns 10",
+    "syntax_pattern": "[the] enchant[ment] level of %enchantmenttypes%\n%enchantmenttypes%'[s] enchant[ment] level",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "long",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6585",
+    "created_at": "2022-01-13T07:24:42.392893Z",
+    "updated_at": "2022-01-13T07:24:42.392909Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns the level of an enchantment type. enchantment level of sharpness 10 returns 10"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6586": {
     "id": 6586,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Entity Direction",
+    "description": "Returns the direction of an entity or location as a vector, similar to vector from location's yaw and pitch. Can be set",
+    "syntax_pattern": "[the] [vector] direction of %entities/locations%\n%entities/locations%'[s] [vector] direction",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6586",
+    "created_at": "2022-01-13T07:24:42.400461Z",
+    "updated_at": "2022-01-13T07:24:42.400477Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the direction of an entity or location as a vector, similar to vector from location's yaw and pitch. Can be set"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6587": {
     "id": 6587,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Exact target block",
+    "description": "returns the exact target block of a living entity, accounting for partial blocks such as stairs and doors",
+    "syntax_pattern": "[the] exact target[ed] block [of %livingentities%] [with max %number% [meters]]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Block",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6587",
+    "created_at": "2022-01-13T07:24:42.408620Z",
+    "updated_at": "2022-01-13T07:24:42.408636Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns the exact target block of a living entity, accounting for partial blocks such as stairs and doors"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6588": {
     "id": 6588,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Falling Block",
+    "description": "returns a falling block entity type with the specified block. Works for tile entities as well",
+    "syntax_pattern": "[the] falling block of %blocks/blockdatas/itemtypes%\n%blocks/blockdatas/itemtypes%'[s] falling block",
+    "compatible_addon_version": "1.2.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Entity Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6588",
+    "created_at": "2022-01-13T07:24:42.423414Z",
+    "updated_at": "2022-01-13T07:24:42.423428Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns a falling block entity type with the specified block. Works for tile entities as well"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6589": {
     "id": 6589,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Falling Block Data",
+    "description": "gets the block data or itemtype of a falling block",
+    "syntax_pattern": "[the] falling block[ ](data|type) of %entities%\n%entities%'[s] falling block[ ](data|type)",
+    "compatible_addon_version": "1.2.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6589",
+    "created_at": "2022-01-13T07:24:42.431016Z",
+    "updated_at": "2022-01-13T07:24:42.431034Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "gets the block data or itemtype of a falling block"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6591": {
     "id": 6591,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Glowing item",
+    "description": "returns a glowing item\nempty enchants instead of enchanting and hiding flags",
+    "syntax_pattern": "(glowing|shiny|glinted) %itemtypes%",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Item Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6591",
+    "created_at": "2022-01-13T07:24:42.446931Z",
+    "updated_at": "2022-01-13T07:24:42.446946Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "returns a glowing item",
-        "empty enchants instead of enchanting and hiding flags"
+        "returns a glowing item\nempty enchants instead of enchanting and hiding flags"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6592": {
     "id": 6592,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Image",
+    "description": "get an image from a file, url, folder",
+    "syntax_pattern": "[new] image from (file [path]|url) %string%\nimages (from|in) folder %string%\n%images% (resized|scaled)[ (to|by) [(][x[ ]]%number%,[ ][y[ ]]%number%[)]]\n%images% flipped (horizontally|vertically)\nsub[ ]image of %images% from [(][x[ ]]%number%,[ ][y[ ]]%number%[)] to [(][x[ ]]%number%,[ ][y[ ]]%number%[)]\nnew (blank|empty|) image [with dimensions [(][x[ ]]%number%,[ ][y[ ]]%number%[)]]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Image",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6592",
+    "created_at": "2022-01-13T07:24:42.454487Z",
+    "updated_at": "2022-01-13T07:24:42.454502Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "get an image from a file, url, folder"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6593": {
     "id": 6593,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Image pixel",
+    "description": "get or set a pixel on an image to a color",
+    "syntax_pattern": "image (pixel|color) at [(][x[ ]]%number%,[ ][y[ ]]%number%[)] (on|of) %image%",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Colour",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6593",
+    "created_at": "2022-01-13T07:24:42.462392Z",
+    "updated_at": "2022-01-13T07:24:42.462408Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "get or set a pixel on an image to a color"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6594": {
     "id": 6594,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Image to color text",
+    "description": "turns image pixels to hex color to display in chat",
+    "syntax_pattern": "%image% as [chat] (string|message|text) [occupying %number% lines]",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6594",
+    "created_at": "2022-01-13T07:24:42.469861Z",
+    "updated_at": "2022-01-13T07:24:42.469877Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "turns image pixels to hex color to display in chat"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6595": {
     "id": 6595,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Image width / height",
+    "description": "returns the width or height of an image",
+    "syntax_pattern": "[the] (width|height) of %images%\n%images%'[s] (width|height)",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "long",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6595",
+    "created_at": "2022-01-13T07:24:42.477718Z",
+    "updated_at": "2022-01-13T07:24:42.477735Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns the width or height of an image"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6596": {
     "id": 6596,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Item Frame Properties",
+    "description": "Get or set an item frame's:\nrotation - the rotation of the item in the frame\nfacing - the direction of the item frame itself\nfixed state - whether the item frame can be destroyed by regular means\nvisibility - whether players can see the item frame",
+    "syntax_pattern": "[the] item[ ]frame (rotation|facing|fixed state|visibility) of %entities%\n%entities%'[s] item[ ]frame (rotation|facing|fixed state|visibility)",
+    "compatible_addon_version": "1.2.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6596",
+    "created_at": "2022-01-13T07:24:42.485672Z",
+    "updated_at": "2022-01-13T07:24:42.485688Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get or set an item frame's:",
-        "rotation - the rotation of the item in the frame",
-        "facing - the direction of the item frame itself",
-        "fixed state - whether the item frame can be destroyed by regular means",
-        "visibility - whether players can see the item frame"
+        "Get or set an item frame's:\nrotation - the rotation of the item in the frame\nfacing - the direction of the item frame itself\nfixed state - whether the item frame can be destroyed by regular means\nvisibility - whether players can see the item frame"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6597": {
     "id": 6597,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Item from map",
+    "description": "returns a filled map item with the specified map",
+    "syntax_pattern": "[filled] map item[s] (of|from|with) %maps%",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Item Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6597",
+    "created_at": "2022-01-13T07:24:42.493406Z",
+    "updated_at": "2022-01-13T07:24:42.493422Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns a filled map item with the specified map"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6598": {
     "id": 6598,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "ItemType with Type",
+    "description": "returns a copy of an item with another type keeps all information such as lore",
+    "syntax_pattern": "%itemtypes% with type %itemtype%",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Item Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6598",
+    "created_at": "2022-01-13T07:24:42.501123Z",
+    "updated_at": "2022-01-13T07:24:42.501140Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns a copy of an item with another type keeps all information such as lore"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6599": {
     "id": 6599,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Last Edited Canvas",
+    "description": "returns the last edited map after or within a map edit section",
+    "syntax_pattern": "[the] [last] [edited] [map] canvas",
+    "compatible_addon_version": "1.2.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Map Canvas",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6599",
+    "created_at": "2022-01-13T07:24:42.508599Z",
+    "updated_at": "2022-01-13T07:24:42.508615Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns the last edited map after or within a map edit section"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6600": {
     "id": 6600,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "List Index",
+    "description": "gets the index of an element in a list",
+    "syntax_pattern": "[(first|last)] [(variable)] index of %object% in %objects%\n[all] [(variable)] ind(ex|ic)es of %object% in %objects%",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6600",
+    "created_at": "2022-01-13T07:24:42.516420Z",
+    "updated_at": "2022-01-13T07:24:42.516437Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "gets the index of an element in a list"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6601": {
     "id": 6601,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map",
+    "description": "used to get a map from an id or a newly created map from specified world",
+    "syntax_pattern": "map [from id] %number%\n[create] [new] map (from [world]|at) %world/location%\nall maps",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Map",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6601",
+    "created_at": "2022-01-13T07:24:42.538721Z",
+    "updated_at": "2022-01-13T07:24:42.538737Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "used to get a map from an id or a newly created map from specified world"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6602": {
     "id": 6602,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map Cursor Properties",
+    "description": "the properties of a map cursor, can be changed",
+    "syntax_pattern": "[the] cursor (¦type|visibility|x|y|direction|rotation|(name|caption)) of %mapcursors%\n%mapcursors%'[s] cursor (¦type|visibility|x|y|direction|rotation|(name|caption))",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6602",
+    "created_at": "2022-01-13T07:24:42.548590Z",
+    "updated_at": "2022-01-13T07:24:42.548607Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "the properties of a map cursor, can be changed"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6603": {
     "id": 6603,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map Cursors",
+    "description": "returns the map cursors of a map canvas. Can be set, add, remove, reset, delete",
+    "syntax_pattern": "[all] [[of] the] map cursors [(of|on) %mapcanv%]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Map Cursor",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6603",
+    "created_at": "2022-01-13T07:24:42.556230Z",
+    "updated_at": "2022-01-13T07:24:42.556247Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns the map cursors of a map canvas. Can be set, add, remove, reset, delete"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6604": {
     "id": 6604,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map Pixels",
+    "description": "returns pixels of map, can be set to a number if you know the map colors or a skript/rgb color\nmap pixels range from 1 to 128",
+    "syntax_pattern": "pixel at [(][x[ ]]%number%,[ ][y[ ]]%number%[)] [(of|on) %mapcanv%]\npixels (between|within) [(][x[ ]]%number%,[ ][y[ ]]%number%[)] and [(][x[ ]]%number%,[ ][y[ ]]%number%[)] [(of|on) %mapcanv%]\nall pixels [(of|on) %mapcanv%]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6604",
+    "created_at": "2022-01-13T07:24:42.564171Z",
+    "updated_at": "2022-01-13T07:24:42.564188Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "returns pixels of map, can be set to a number if you know the map colors or a skript/rgb color",
-        "map pixels range from 1 to 128"
+        "returns pixels of map, can be set to a number if you know the map colors or a skript/rgb color\nmap pixels range from 1 to 128"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6584": {
     "id": 6584,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Enchant display",
+    "description": "returns an enchantment type as a formatted string example sharpness 7 returns §7Sharpness VII",
+    "syntax_pattern": "[the] [enchant[ment]] display of %enchantmenttypes%\n%enchantmenttypes%'[s] [enchant[ment]] display",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "Paper",
+        "link": "https://papermc.io/downloads"
+      }
+    ],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6584",
+    "created_at": "2022-01-13T07:24:42.385466Z",
+    "updated_at": "2022-01-13T09:29:12.711311Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns an enchantment type as a formatted string example sharpness 7 returns §7Sharpness VII"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6608": {
     "id": 6608,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map States",
+    "description": "returns certain map states\nlocked: whether the map can explore further\nposition tracking: whether a position cursor should be shown when the map is near its center\nunlimited tracking: whether the map will show a smaller position cursor when cursor is outside of map's range",
+    "syntax_pattern": "[the] [map] (¦lock[ed]|position tracking|unlimited tracking) [stat(e|us)]  of %maps%\n%maps%'[s] [map] (¦lock[ed]|position tracking|unlimited tracking) [stat(e|us)] ",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6608",
+    "created_at": "2022-01-13T07:24:42.595419Z",
+    "updated_at": "2022-01-13T07:24:42.595435Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "returns certain map states",
-        "locked: whether the map can explore further",
-        "position tracking: whether a position cursor should be shown when the map is near its center",
-        "unlimited tracking: whether the map will show a smaller position cursor when cursor is outside of map's range"
+        "returns certain map states\nlocked: whether the map can explore further\nposition tracking: whether a position cursor should be shown when the map is near its center\nunlimited tracking: whether the map will show a smaller position cursor when cursor is outside of map's range"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6609": {
     "id": 6609,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map World / Location",
+    "description": "the world / location of a map",
+    "syntax_pattern": "[the] map (world|loc[ation]) of %maps%\n%maps%'[s] map (world|loc[ation])",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6609",
+    "created_at": "2022-01-13T07:24:42.602995Z",
+    "updated_at": "2022-01-13T07:24:42.603024Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "the world / location of a map"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6610": {
     "id": 6610,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map of Item",
+    "description": "the map of an item",
+    "syntax_pattern": "[the] map[[ ]view] of %itemtypes%\n%itemtypes%'[s] map[[ ]view]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Map",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6610",
+    "created_at": "2022-01-13T07:24:42.611202Z",
+    "updated_at": "2022-01-13T07:24:42.611219Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "the map of an item"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6611": {
     "id": 6611,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Movement location",
+    "description": "Gets the location from and location to in a player move event, can be set",
+    "syntax_pattern": "[event-][move[ment] ]location",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6611",
+    "created_at": "2022-01-13T07:24:42.618473Z",
+    "updated_at": "2022-01-13T07:24:42.618489Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the location from and location to in a player move event, can be set"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6612": {
     "id": 6612,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Multiple of object",
+    "description": "returns x of any object\n3 times of stone would return stone, stone and stone",
+    "syntax_pattern": "%number% times of %objects%\n%objects% repeated %number% times",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6612",
+    "created_at": "2022-01-13T07:24:42.626009Z",
+    "updated_at": "2022-01-13T07:24:42.626025Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "returns x of any object",
-        "3 times of stone would return stone, stone and stone"
+        "returns x of any object\n3 times of stone would return stone, stone and stone"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6614": {
     "id": 6614,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Nearest Entities",
+    "description": "get the nearest x entities to a location sorted",
+    "syntax_pattern": "[the] nearest [%number%] %entitydatas% (from|of|to) %location%",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Entity",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6614",
+    "created_at": "2022-01-13T07:24:42.641258Z",
+    "updated_at": "2022-01-13T07:24:42.641274Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "get the nearest x entities to a location sorted"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6615": {
     "id": 6615,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "New Map Cursor",
+    "description": "creates a new map cursor",
+    "syntax_pattern": "[new] [(visible|invisible)] %mapcursortype% map cursor [at [(][x[ ]]%number%,[ ][y[ ]]%number%[)]] [(facing|with rotation) %direction/number%] [(named|with (name|caption)) %string%]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Map Cursor",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6615",
+    "created_at": "2022-01-13T07:24:42.648761Z",
+    "updated_at": "2022-01-13T07:24:42.648777Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "creates a new map cursor"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6616": {
     "id": 6616,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Player Statistics",
+    "description": "Values for the stats that can be found under \"Statistics\" in the Game menu. Player kills, time played, item broken etc",
+    "syntax_pattern": "[%itemtype/entitydata%] %statistic% stat[istic][s] of %offlineplayers%\n%offlineplayers%'[s] [%itemtype/entitydata%] %statistic% stat[istic][s]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "long",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6616",
+    "created_at": "2022-01-13T07:24:42.656442Z",
+    "updated_at": "2022-01-13T07:24:42.656458Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Values for the stats that can be found under \"Statistics\" in the Game menu. Player kills, time played, item broken etc"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6617": {
     "id": 6617,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "RGB of Color",
+    "description": "get or change the red, green, blue component or the entire rgb integer of a color",
+    "syntax_pattern": "[the] (red|green|blue|rgb) of %colors%\n%colors%'[s] (red|green|blue|rgb)",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "long",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6617",
+    "created_at": "2022-01-13T07:24:42.664369Z",
+    "updated_at": "2022-01-13T07:24:42.664385Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "get or change the red, green, blue component or the entire rgb integer of a color"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6618": {
     "id": 6618,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Random Bounding Box Point",
+    "description": "returns a random point in a bounding box",
+    "syntax_pattern": "[a] random (point|vector) (of|within|from|in) %boundingbox%",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6618",
+    "created_at": "2022-01-13T07:24:42.671918Z",
+    "updated_at": "2022-01-13T07:24:42.671935Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns a random point in a bounding box"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6619": {
     "id": 6619,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Ray Trace",
+    "description": "Starts a ray trace",
+    "syntax_pattern": "[block] ray[ ]trace[s] (of|from) %livingentities% [using [fluid[collision][mode]] %fluidcollisionmode%][[,] [with] max %number%]\nblock ray[ ]trace[ starting] from %location% using %direction%[[,] [fluid[collision][mode]] %fluidcollisionmode%][[,] ((to ignore|ignoring) passable[ blocks])][[,] [with] max %number%]\nray[ ]trace [searching] for [this specific] %block% [starting] from %location% using %direction%[[,] [fluid[collision][mode]] %fluidcollisionmode%][[,] [with] max %number%]\nray[ ]trace [searching] for [this specific] %boundingbox% [starting] from %vector/location% using %direction%[[,] [with] max %number%]\nentity ray[ ]trace [starting] from %location% using %direction%[[,] [with] max %number%][[,] ray[ ]size %number%][[,] filter[ing] [out] %entities%]\n[generic] ray[ ]trace [starting] from %location% using %direction%[[,] [with] max %number%][[,] [fluid[collision][mode]] %fluidcollisionmode%][[,] ((to ignore|ignoring) passable[ blocks])][[, ] ray[ ]size %number%][[, ] filter[ing] [out] %entities%]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Ray Trace Result",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6619",
+    "created_at": "2022-01-13T07:24:42.679391Z",
+    "updated_at": "2022-01-13T07:24:42.679407Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Starts a ray trace"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6620": {
     "id": 6620,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Ray Trace Results",
+    "description": "The results of a ray trace",
+    "syntax_pattern": "[the] hit (block[s]|(vector|position)[s]|location|[block[ ]]fac(e|ing)[s]|entit(y|ies)) of %raytraceresults%\n%raytraceresults%'[s] hit (block[s]|(vector|position)[s]|location|[block[ ]]fac(e|ing)[s]|entit(y|ies))",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6620",
+    "created_at": "2022-01-13T07:24:42.687439Z",
+    "updated_at": "2022-01-13T07:24:42.687454Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The results of a ray trace"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6623": {
     "id": 6623,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Smelted",
+    "description": "returns smelt result of items, returns the same item if it cannot be smelted",
+    "syntax_pattern": "smelt[ed] [result of] %itemtypes%\n%itemtypes% smelted [result]",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Item Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6623",
+    "created_at": "2022-01-13T07:24:42.710695Z",
+    "updated_at": "2022-01-13T07:24:42.710710Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns smelt result of items, returns the same item if it cannot be smelted"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6624": {
     "id": 6624,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "SubList",
+    "description": "returns part of a list",
+    "syntax_pattern": "sub[ ]list of %objects% from ind(ice[s]|ex[es]) %number% to %number%\n(first|last) %number% elements of %objects%",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6624",
+    "created_at": "2022-01-13T07:24:42.718363Z",
+    "updated_at": "2022-01-13T07:24:42.718379Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns part of a list"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6625": {
     "id": 6625,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Text width",
+    "description": "returns the width of a text in pixels. returns nothing if there is invalid character",
+    "syntax_pattern": "[the] (chat|text) width of %strings%\n%strings%'[s] (chat|text) width",
+    "compatible_addon_version": "1.2.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "long",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6625",
+    "created_at": "2022-01-13T07:24:42.726234Z",
+    "updated_at": "2022-01-13T07:24:42.726250Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns the width of a text in pixels. returns nothing if there is invalid character"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6626": {
     "id": 6626,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Timespan conversion",
+    "description": "returns a timespan in milliseconds ,ticks, seconds, minutes, hours, days, months or years",
+    "syntax_pattern": "%timespans% in (m[illisecond]s|ticks|sec[ond]s|min[ute]s|hours|days|months|years)",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6626",
+    "created_at": "2022-01-13T07:24:42.734354Z",
+    "updated_at": "2022-01-13T07:24:42.734370Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns a timespan in milliseconds ,ticks, seconds, minutes, hours, days, months or years"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6627": {
     "id": 6627,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Toward Away Direction",
+    "description": "returns a direction towards or away from an entity/location",
+    "syntax_pattern": "[%number% [(block|met(er|re))[s]]] (toward[s]|away [from]) %entity/location%",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Direction",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6627",
+    "created_at": "2022-01-13T07:24:42.741991Z",
+    "updated_at": "2022-01-13T07:24:42.742007Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns a direction towards or away from an entity/location"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6628": {
     "id": 6628,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Values of Type",
+    "description": "get all the values of a type eg. statistic, inventory type, firework type",
+    "syntax_pattern": "[all] values of type %*classinfo%",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6628",
+    "created_at": "2022-01-13T07:24:42.749562Z",
+    "updated_at": "2022-01-13T07:24:42.749583Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "get all the values of a type eg. statistic, inventory type, firework type"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6629": {
     "id": 6629,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Vector Min/Max/Sum",
+    "description": "Returns the maximum, minimum or sum of a list of vectors",
+    "syntax_pattern": "vector ((min|max)[imum]|sum) of %vectors%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6629",
+    "created_at": "2022-01-13T07:24:42.757342Z",
+    "updated_at": "2022-01-13T07:24:42.757358Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the maximum, minimum or sum of a list of vectors"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6630": {
     "id": 6630,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Vector from direction",
+    "description": "Converts a skript direction to a vector, useful if you want to manipulate a direction",
+    "syntax_pattern": "vector[s] (of|from) dir[ection][s] %directions%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6630",
+    "created_at": "2022-01-13T07:24:42.765245Z",
+    "updated_at": "2022-01-13T07:24:42.765261Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Converts a skript direction to a vector, useful if you want to manipulate a direction"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6631": {
     "id": 6631,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Vector to location",
+    "description": "returns a location from a vector",
+    "syntax_pattern": "%vectors% (as|to) location[s][ in %world%]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6631",
+    "created_at": "2022-01-13T07:24:42.773224Z",
+    "updated_at": "2022-01-13T07:24:42.773238Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns a location from a vector"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6633": {
     "id": 6633,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Bounding Box",
+    "description": "Represents a bounding box between 2 points",
+    "syntax_pattern": "bounding[ ]box[es]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6633",
+    "created_at": "2022-01-13T07:24:42.794576Z",
+    "updated_at": "2022-01-13T07:24:42.794593Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a bounding box between 2 points"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6622": {
     "id": 6622,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Skin of",
+    "description": "gets a skin from a player or skull",
+    "syntax_pattern": "[the] skin [texture] of %players/blocks/itemtypes%\n%players/blocks/itemtypes%'[s] skin [texture]",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "Paper",
+        "link": "https://papermc.io/downloads"
+      }
+    ],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Skin",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6622",
+    "created_at": "2022-01-13T07:24:42.703166Z",
+    "updated_at": "2022-01-13T09:29:08.828039Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "gets a skin from a player or skull"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6621": {
     "id": 6621,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Skin from texture",
+    "description": "returns a skin from a value and optional signature, signature is required for player skins but not for skulls",
+    "syntax_pattern": "skin (from|with) value %string% [[and] signature %string%]",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "Paper",
+        "link": "https://papermc.io/downloads"
+      }
+    ],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Skin",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6621",
+    "created_at": "2022-01-13T07:24:42.695125Z",
+    "updated_at": "2022-01-13T09:29:09.101790Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns a skin from a value and optional signature, signature is required for player skins but not for skulls"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6613": {
     "id": 6613,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "NameTag",
+    "description": "get or set the name tag of a player limit is 16 characters",
+    "syntax_pattern": "[the] name[ ]tag of %players%\n%players%'[s] name[ ]tag",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "Paper",
+        "link": "https://papermc.io/downloads"
+      }
+    ],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6613",
+    "created_at": "2022-01-13T07:24:42.633751Z",
+    "updated_at": "2022-01-13T09:29:09.725850Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "get or set the name tag of a player limit is 16 characters"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6643": {
     "id": 6643,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Statistic",
+    "description": "represents a player statistic",
+    "syntax_pattern": "stat[istic][s]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": "damage dealt, damage taken, deaths, mob kills, player kills, fish caught, animals bred, leave game, jump, drop count, drop, pickup, play one minute, total world time, walk one cm, walk on water one cm, fall one cm, sneak time, climb one cm, fly one cm, walk under water one cm, minecart one cm, boat one cm, pig one cm, horse one cm, sprint one cm, crouch one cm, aviate one cm, mine block, use item, break item, craft item, kill entity, entity killed by, time since death, talked to villager, traded with villager, cake slices eaten, cauldron filled, cauldron used, armor cleaned, banner cleaned, brewingstand interaction, beacon interaction, dropper inspected, hopper inspected, dispenser inspected, noteblock played, noteblock tuned, flower potted, trapped chest triggered, enderchest opened, item enchanted, record played, furnace interaction, crafting table interaction, chest opened, sleep in bed, shulker box opened, time since rest, swim one cm, damage dealt absorbed, damage dealt resisted, damage blocked by shield, damage absorbed, damage resisted, clean shulker box, open barrel, interact with blast furnace, interact with smoker, interact with lectern, interact with campfire, interact with cartography table, interact with loom, interact with stonecutter, bell ring, raid trigger, raid win, interact with anvil, interact with grindstone, target hit, interact with smithing table, strider one cm",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6643",
+    "created_at": "2022-01-13T07:24:42.874183Z",
+    "updated_at": "2022-01-13T07:24:42.874201Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "represents a player statistic"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6644": {
     "id": 6644,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "skirtdirection",
+    "description": "",
+    "syntax_pattern": "skirtdirection",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6644",
+    "created_at": "2022-01-13T07:24:42.881912Z",
+    "updated_at": "2022-01-13T07:24:42.881929Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[Skirt] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6645": {
     "id": 6645,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Map Edit",
+    "description": "start editing a map. the %objects% at the end is to store the map canvas to use for editing.\nspecifying partially adds layer of map canvas above the others instead of overwriting them\nif there is no section it will be a delayed effect and will wait until the specified map begins to render\nmap begins rendering when it is visible to a player eg. in their inventory or in an item frame",
+    "syntax_pattern": "[(partially)] (manage|edit) [map] %map% [[and store (canvas|it|)] in %object%]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6645",
+    "created_at": "2022-01-13T07:24:42.890018Z",
+    "updated_at": "2022-01-13T07:24:42.890035Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "start editing a map. the %objects% at the end is to store the map canvas to use for editing.",
-        "specifying partially adds layer of map canvas above the others instead of overwriting them",
-        "if there is no section it will be a delayed effect and will wait until the specified map begins to render",
-        "map begins rendering when it is visible to a player eg. in their inventory or in an item frame"
+        "start editing a map. the %objects% at the end is to store the map canvas to use for editing.\nspecifying partially adds layer of map canvas above the others instead of overwriting them\nif there is no section it will be a delayed effect and will wait until the specified map begins to render\nmap begins rendering when it is visible to a player eg. in their inventory or in an item frame"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6558": {
     "id": 6558,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Color Entity Glow",
+    "description": "Allows you to change the glow color of entities for specific or all players\nGets reset for players who relog\nOnly visible if the entity is already glowing",
+    "syntax_pattern": "set glow[ing] color of %entities% to %color%[ for %players%]\r\n(reset|delete|remove) glow[ing] color of %entities%[ for %players%]",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "ProtocolLib",
+        "link": "https://www.spigotmc.org/resources/protocollib.1997/"
+      }
+    ],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6558",
+    "created_at": "2022-01-13T07:24:42.184404Z",
+    "updated_at": "2022-01-13T09:29:06.929159Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Allows you to change the glow color of entities for specific or all players",
-        "Gets reset for players who relog",
-        "Only visible if the entity is already glowing"
+        "Allows you to change the glow color of entities for specific or all players\nGets reset for players who relog\nOnly visible if the entity is already glowing"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6590": {
     "id": 6590,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MrsDarth",
+    "title": "Forced Item Frame",
+    "description": "returns an entity type allowing u to spawn an item frame without needing a block next to the spawn location",
+    "syntax_pattern": "[(invisible)] (forced|fixed) [(glow[ing])] item frame [facing %direction%]",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "ProtocolLib",
+        "link": "https://www.spigotmc.org/resources/protocollib.1997/"
+      }
+    ],
+    "addon": "Skirt",
+    "type_usage": null,
+    "return_type": "Entity Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6590",
+    "created_at": "2022-01-13T07:24:42.438937Z",
+    "updated_at": "2022-01-13T09:29:12.105081Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns an entity type allowing u to spawn an item frame without needing a block next to the spawn location"
       ],
       "ko": [
-        "[Skirt] 한국어 가이드팩 준비 중"
+        "[SKIRT] 한국어 가이드 번역 대기 중"
       ]
     }
   }

@@ -1,127 +1,280 @@
 {
   "syntax_11637": {
     "id": 11637,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Fusezion",
+    "title": "Animate ArmorStand",
+    "description": "Animate an armor stand pose to match a rotation with duration of time to animate, optionally from zero",
+    "syntax_pattern": "[async] animate %armorstandpose% [pose|rotation] of %livingentities% (using|with|to match) %rotation% with duration %timespan% [from zero]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkAnimation",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11637",
+    "created_at": "2024-06-17T02:04:29.720065Z",
+    "updated_at": "2024-06-17T02:04:29.720087Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Animate an armor stand pose to match a rotation with duration of time to animate, optionally from zero"
       ],
       "ko": [
-        "[SkAnimation] 한국어 가이드팩 준비 중"
+        "[SKANIMATION] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11638": {
     "id": 11638,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Fusezion",
+    "title": "Apply Animation",
+    "description": "Applies a previously created animation onto an existing armor stand entity",
+    "syntax_pattern": "animate %livingentities% (using|with) [animation] %animation%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkAnimation",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11638",
+    "created_at": "2024-06-17T02:04:29.737967Z",
+    "updated_at": "2024-06-17T02:04:29.737983Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Applies a previously created animation onto an existing armor stand entity"
       ],
       "ko": [
-        "[SkAnimation] 한국어 가이드팩 준비 중"
+        "[SKANIMATION] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11640": {
     "id": 11640,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Fusezion",
+    "title": "Animation from id",
+    "description": "Get an animation from an id that it was saved to",
+    "syntax_pattern": "animation [named|with (id|name)] %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkAnimation",
+    "type_usage": null,
+    "return_type": "Animation",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11640",
+    "created_at": "2024-06-17T02:04:29.755499Z",
+    "updated_at": "2024-06-17T02:04:29.755514Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get an animation from an id that it was saved to"
       ],
       "ko": [
-        "[SkAnimation] 한국어 가이드팩 준비 중"
+        "[SKANIMATION] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11641": {
     "id": 11641,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Fusezion",
+    "title": "ArmorStand Pose",
+    "description": "Allows you to get/change an armor stand's limb positions",
+    "syntax_pattern": "[the] %armorstandposes% (rotation|pose) of %livingentities%\n%livingentities%'[s] %armorstandposes% (rotation|pose)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkAnimation",
+    "type_usage": null,
+    "return_type": "Rotations",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11641",
+    "created_at": "2024-06-17T02:04:29.763871Z",
+    "updated_at": "2024-06-17T02:04:29.763885Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get/change an armor stand's limb positions"
       ],
       "ko": [
-        "[SkAnimation] 한국어 가이드팩 준비 중"
+        "[SKANIMATION] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11642": {
     "id": 11642,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Fusezion",
+    "title": "Animation",
+    "description": "Represents an animation class that was registered via the structure",
+    "syntax_pattern": "animation[s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkAnimation",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11642",
+    "created_at": "2024-06-17T02:04:29.774848Z",
+    "updated_at": "2024-06-17T02:04:29.774863Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an animation class that was registered via the structure"
       ],
       "ko": [
-        "[SkAnimation] 한국어 가이드팩 준비 중"
+        "[SKANIMATION] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11643": {
     "id": 11643,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Fusezion",
+    "title": "Rotations",
+    "description": "Represents a rotation angle of a armor stand limb, these values are between 0-360 and match how minecraft do poses",
+    "syntax_pattern": "rotation[s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkAnimation",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11643",
+    "created_at": "2024-06-17T02:04:29.784181Z",
+    "updated_at": "2024-06-17T02:04:29.784195Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a rotation angle of a armor stand limb, these values are between 0-360 and match how minecraft do poses"
       ],
       "ko": [
-        "[SkAnimation] 한국어 가이드팩 준비 중"
+        "[SKANIMATION] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11644": {
     "id": 11644,
-    "type": "function",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Fusezion",
+    "title": "rotation",
+    "description": "Creates a new rotation ",
+    "syntax_pattern": "rotation(x: number, y: number, z: number)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "function",
+    "required_plugins": [],
+    "addon": "SkAnimation",
+    "type_usage": null,
+    "return_type": "Rotations",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11644",
+    "created_at": "2024-06-17T02:04:29.794599Z",
+    "updated_at": "2024-06-17T02:04:29.794614Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a new rotation"
+        "Creates a new rotation "
       ],
       "ko": [
-        "[SkAnimation] 한국어 가이드팩 준비 중"
+        "[SKANIMATION] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11645": {
     "id": 11645,
-    "type": "structure",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Fusezion",
+    "title": "Create Animation",
+    "description": "Create an animation base that can be applied to entities at a later date",
+    "syntax_pattern": "(register|create) [a] [new] animation [[named|with (id|name)] [%string%]]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "structure",
+    "required_plugins": [],
+    "addon": "SkAnimation",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11645",
+    "created_at": "2024-06-17T02:04:29.802551Z",
+    "updated_at": "2024-06-17T02:04:29.802565Z",
+    "entries": "[{\"name\": \"variable\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"null\"}, {\"name\": \"animation\", \"isRequired\": true, \"isSection\": true, \"defaultValue\": \"null\"}]",
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create an animation base that can be applied to entities at a later date"
       ],
       "ko": [
-        "[SkAnimation] 한국어 가이드팩 준비 중"
+        "[SKANIMATION] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11639": {
     "id": 11639,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Fusezion",
+    "title": "All Animations",
+    "description": "Retrieve all the animations or animation keys",
+    "syntax_pattern": "all [[of] the] animations\nall [[of] the] animation keys",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkAnimation",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11639",
+    "created_at": "2024-06-17T02:04:29.746234Z",
+    "updated_at": "2024-06-17T02:05:17.914290Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Retrieve all the animations or animation keys"
       ],
       "ko": [
-        "[SkAnimation] 한국어 가이드팩 준비 중"
+        "[SKANIMATION] 한국어 가이드 번역 대기 중"
       ]
     }
   }

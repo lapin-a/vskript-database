@@ -1,711 +1,1458 @@
 {
   "syntax_14258": {
     "id": 14258,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Has GUI",
+    "description": "Checks whether the given player(s) has/have a GUI open.\nDeprecated: Use ExprGetPlayerSession and check for null instead.",
+    "syntax_pattern": "%players% (has|have) a gui [open]\n%players% (doesn't|does not|do not|don't) have a gui [open]",
+    "compatible_addon_version": "1.0.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14258",
+    "created_at": "2025-11-11T05:38:25.351316Z",
+    "updated_at": "2025-11-11T05:38:25.351329Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Checks whether the given player(s) has/have a GUI open.",
-        "Deprecated: Use ExprGetPlayerSession and check for null instead."
+        "Checks whether the given player(s) has/have a GUI open.\nDeprecated: Use ExprGetPlayerSession and check for null instead."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14259": {
     "id": 14259,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Menu is Destroyed",
+    "description": "Checks whether the given menu is destroyed.\nA destroyed menu cannot be opened or interacted with.\nMenus are usually destroyed when a new menu with the same ID is created, or when the server shuts down.",
+    "syntax_pattern": "[the] [menu] %menu% (is|was) destroyed\n[the] [menu] %menu% (isn't|is not|wasn't|was not) destroyed",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14259",
+    "created_at": "2025-11-11T05:38:25.360223Z",
+    "updated_at": "2025-11-11T05:38:25.360238Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Checks whether the given menu is destroyed.",
-        "A destroyed menu cannot be opened or interacted with.",
-        "Menus are usually destroyed when a new menu with the same ID is created, or when the server shuts down."
+        "Checks whether the given menu is destroyed.\nA destroyed menu cannot be opened or interacted with.\nMenus are usually destroyed when a new menu with the same ID is created, or when the server shuts down."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14260": {
     "id": 14260,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Clear Session",
+    "description": "Clears the menu session of the given player(s).\nThis will remove the content of the gui they have open, but will not close the gui itself.\nIf 'refresh' is specified, the player's gui will be refreshed to reflect the cleared session.",
+    "syntax_pattern": "clear [the] [menu] [session] %menusession% [and refresh]",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14260",
+    "created_at": "2025-11-11T05:38:25.370137Z",
+    "updated_at": "2025-11-11T05:38:25.370151Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Clears the menu session of the given player(s).",
-        "This will remove the content of the gui they have open, but will not close the gui itself.",
-        "If 'refresh' is specified, the player's gui will be refreshed to reflect the cleared session."
+        "Clears the menu session of the given player(s).\nThis will remove the content of the gui they have open, but will not close the gui itself.\nIf 'refresh' is specified, the player's gui will be refreshed to reflect the cleared session."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14261": {
     "id": 14261,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Close Menu",
+    "description": "Close the menu for a player (if opened).",
+    "syntax_pattern": "(close|close down|shut) [the] (menu|gui) (for|to) %player%",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14261",
+    "created_at": "2025-11-11T05:38:25.378539Z",
+    "updated_at": "2025-11-11T05:38:25.378553Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Close the menu for a player (if opened)."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14262": {
     "id": 14262,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Close Menu Session",
+    "description": "Closes a menu session, effectively closing the menu for the player.",
+    "syntax_pattern": "close [the] [menu] [session] %menusession%",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14262",
+    "created_at": "2025-11-11T05:38:25.388210Z",
+    "updated_at": "2025-11-11T05:38:25.388224Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Closes a menu session, effectively closing the menu for the player."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14263": {
     "id": 14263,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Destroy Menu",
+    "description": "Destroy the given menu.\nA destroyed menu cannot be opened or interacted with.\nIf a menu is destroyed while players have it open, their menus will be forcibly closed.\nIf the menu has been destroyed already, this effect does nothing.",
+    "syntax_pattern": "destroy [the] menu %menu%",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14263",
+    "created_at": "2025-11-11T05:38:25.396245Z",
+    "updated_at": "2025-11-11T05:38:25.396273Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Destroy the given menu.",
-        "A destroyed menu cannot be opened or interacted with.",
-        "If a menu is destroyed while players have it open, their menus will be forcibly closed.",
-        "If the menu has been destroyed already, this effect does nothing."
+        "Destroy the given menu.\nA destroyed menu cannot be opened or interacted with.\nIf a menu is destroyed while players have it open, their menus will be forcibly closed.\nIf the menu has been destroyed already, this effect does nothing."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14257": {
     "id": 14257,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "On Page Turn",
+    "description": "",
+    "syntax_pattern": "[on] page turn",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-menu, event-menusession, event-page, event-future page, event-title(can be set)",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14257",
+    "created_at": "2025-11-11T05:38:25.343127Z",
+    "updated_at": "2025-11-18T04:48:21.837450Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[xiaojie-gui] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14254": {
     "id": 14254,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "On Menu Close",
+    "description": "",
+    "syntax_pattern": "[on] menu close",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-menu, event-menusession",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14254",
+    "created_at": "2025-11-11T05:38:25.315432Z",
+    "updated_at": "2025-11-18T04:45:46.381861Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[xiaojie-gui] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14256": {
     "id": 14256,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "On Menu Open",
+    "description": "None",
+    "syntax_pattern": "[on] menu open",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-menu, event-menusession, event-page",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14256",
+    "created_at": "2025-11-11T05:38:25.334545Z",
+    "updated_at": "2025-11-18T04:45:04.653369Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "None"
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14264": {
     "id": 14264,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Insert Page",
+    "description": "Insert a new page into a menu.\nYou can optionally specify the page index, layout, player inventory layout, and title for the new page.\nIf the page index is not provided, the new page will be added at the end of the menu.",
+    "syntax_pattern": "insert page [%number%] [to %menu%] [with layout %strings%] [with player inv[entory] layout %strings%] [with [new] title (%string%|%textcomponent%)]",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14264",
+    "created_at": "2025-11-11T05:38:25.404381Z",
+    "updated_at": "2025-11-11T05:38:25.404396Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Insert a new page into a menu.",
-        "You can optionally specify the page index, layout, player inventory layout, and title for the new page.",
-        "If the page index is not provided, the new page will be added at the end of the menu."
+        "Insert a new page into a menu.\nYou can optionally specify the page index, layout, player inventory layout, and title for the new page.\nIf the page index is not provided, the new page will be added at the end of the menu."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14265": {
     "id": 14265,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Open Menu",
+    "description": "Open a menu for a player.\nYou can optionally specify a page number to open a specific page of the menu.",
+    "syntax_pattern": "(open|show) [the] (menu|gui) [%menu%] (for|to) %player% [and (turn to|go to|on) page %number%]",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14265",
+    "created_at": "2025-11-11T05:38:25.413272Z",
+    "updated_at": "2025-11-11T05:38:25.413286Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Open a menu for a player.",
-        "You can optionally specify a page number to open a specific page of the menu."
+        "Open a menu for a player.\nYou can optionally specify a page number to open a specific page of the menu."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14266": {
     "id": 14266,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Refresh Menu Session",
+    "description": "Refresh the menu session, updating the inventory view.\nIf a slot number is provided, only that slot will be refreshed.\nIf no slot number is provided, the entire inventory will be refreshed.\nDoes nothing if the menu receptacle mode is static or the session is not active.",
+    "syntax_pattern": "refresh [the slot %number% in] [the] [menu] [session] %menusession%",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14266",
+    "created_at": "2025-11-11T05:38:25.421611Z",
+    "updated_at": "2025-11-11T05:38:25.421625Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Refresh the menu session, updating the inventory view.",
-        "If a slot number is provided, only that slot will be refreshed.",
-        "If no slot number is provided, the entire inventory will be refreshed.",
-        "Does nothing if the menu receptacle mode is static or the session is not active."
+        "Refresh the menu session, updating the inventory view.\nIf a slot number is provided, only that slot will be refreshed.\nIf no slot number is provided, the entire inventory will be refreshed.\nDoes nothing if the menu receptacle mode is static or the session is not active."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14267": {
     "id": 14267,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Turn Page",
+    "description": "Turn the page of the currently open menu for a player.\nYou can optionally specify a new title for the menu.",
+    "syntax_pattern": "turn to page %number% for %player% [with [new] title (%string%|%textcomponent%)]",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14267",
+    "created_at": "2025-11-11T05:38:25.429791Z",
+    "updated_at": "2025-11-11T05:38:25.429806Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Turn the page of the currently open menu for a player.",
-        "You can optionally specify a new title for the menu."
+        "Turn the page of the currently open menu for a player.\nYou can optionally specify a new title for the menu."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14268": {
     "id": 14268,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Update Menu Session Title",
+    "description": "Update the title of a menu session.\nIf 'and refresh' is included, the inventory view will be refreshed to reflect the new title immediately.",
+    "syntax_pattern": "update title of [the] [menu] [session] %menusession% to (%string%|%textcomponent%) [(and refresh)]",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14268",
+    "created_at": "2025-11-11T05:38:25.437724Z",
+    "updated_at": "2025-11-11T05:38:25.437740Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Update the title of a menu session.",
-        "If 'and refresh' is included, the inventory view will be refreshed to reflect the new title immediately."
+        "Update the title of a menu session.\nIf 'and refresh' is included, the inventory view will be refreshed to reflect the new title immediately."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14270": {
     "id": 14270,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Default Layout",
+    "description": "The default layout of a menu.",
+    "syntax_pattern": "[the] default layout of [the] [(menu|gui)] %menu%\n%menu%'[s] default layout",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14270",
+    "created_at": "2025-11-11T05:38:25.453742Z",
+    "updated_at": "2025-11-11T05:38:25.453756Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The default layout of a menu."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14271": {
     "id": 14271,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Default Page",
+    "description": "The default page to show a menu when opened.",
+    "syntax_pattern": "[the] default page of %menu%\n%menu%'[s] default page",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14271",
+    "created_at": "2025-11-11T05:38:25.461749Z",
+    "updated_at": "2025-11-11T05:38:25.461763Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The default page to show a menu when opened."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14272": {
     "id": 14272,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Default Title",
+    "description": "The default title of a menu (when add a new page).\nIt can be a string or a text component in skbee(if exists).",
+    "syntax_pattern": "[the] default title of %menu%\n%menu%'[s] default title",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "TextComponent - Text Component",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14272",
+    "created_at": "2025-11-11T05:38:25.469798Z",
+    "updated_at": "2025-11-11T05:38:25.469812Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "The default title of a menu (when add a new page).",
-        "It can be a string or a text component in skbee(if exists)."
+        "The default title of a menu (when add a new page).\nIt can be a string or a text component in skbee(if exists)."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14278": {
     "id": 14278,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Get All Menu IDs",
+    "description": "Get all menu IDs.\nThis expression returns a list of all menu IDs that have been created.\nTips: This expression only returns the ids of menus have ids.",
+    "syntax_pattern": "all [the] (menu|gui) id[s]",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14278",
+    "created_at": "2025-11-11T05:38:25.517625Z",
+    "updated_at": "2025-11-11T05:38:25.517638Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get all menu IDs.",
-        "This expression returns a list of all menu IDs that have been created.",
-        "Tips: This expression only returns the ids of menus have ids."
+        "Get all menu IDs.\nThis expression returns a list of all menu IDs that have been created.\nTips: This expression only returns the ids of menus have ids."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14279": {
     "id": 14279,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Get All Menus",
+    "description": "Get all menus.\nThis expression returns a list of all menus that have been created.\nTips: This expression only returns the menus have ids.",
+    "syntax_pattern": "all [the] (menu|gui)[s]",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Menu",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14279",
+    "created_at": "2025-11-11T05:38:25.525812Z",
+    "updated_at": "2025-11-11T05:38:25.525827Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get all menus.",
-        "This expression returns a list of all menus that have been created.",
-        "Tips: This expression only returns the menus have ids."
+        "Get all menus.\nThis expression returns a list of all menus that have been created.\nTips: This expression only returns the menus have ids."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14280": {
     "id": 14280,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Get Menu by ID",
+    "description": "Get a menu by its ID.\nThe ID is the one defined when creating the menu.",
+    "syntax_pattern": "[the] (menu|gui) [with [the] id] %string%",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Menu",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14280",
+    "created_at": "2025-11-11T05:38:25.533840Z",
+    "updated_at": "2025-11-11T05:38:25.533862Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get a menu by its ID.",
-        "The ID is the one defined when creating the menu."
+        "Get a menu by its ID.\nThe ID is the one defined when creating the menu."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14281": {
     "id": 14281,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Get Player's Menu Session",
+    "description": "Get the menu session of a player.\nReturns null if the player does not have an active menu session.",
+    "syntax_pattern": "[the] menu session of %player%\n%player%'[s] menu session",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Menu Session",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14281",
+    "created_at": "2025-11-11T05:38:25.541968Z",
+    "updated_at": "2025-11-11T05:38:25.541983Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get the menu session of a player.",
-        "Returns null if the player does not have an active menu session."
+        "Get the menu session of a player.\nReturns null if the player does not have an active menu session."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14282": {
     "id": 14282,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Hide Player Inventory",
+    "description": "Whether to hide the player's inventory when the menu is opened.",
+    "syntax_pattern": "[the] hide player inventory of %menu%\n%menu%'[s] hide player inventory",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14282",
+    "created_at": "2025-11-11T05:38:25.549781Z",
+    "updated_at": "2025-11-11T05:38:25.549795Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether to hide the player's inventory when the menu is opened."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14283": {
     "id": 14283,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Menu ID",
+    "description": "Gets the ID of a menu.",
+    "syntax_pattern": "[the] id of %menu%\n%menu%'[s] id",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14283",
+    "created_at": "2025-11-11T05:38:25.557929Z",
+    "updated_at": "2025-11-11T05:38:25.557943Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the ID of a menu."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14284": {
     "id": 14284,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Menu Inventory Type",
+    "description": "The inventory type of a menu.",
+    "syntax_pattern": "[the] inventory type of %menu%\n%menu%'[s] inventory type",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Inventory Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14284",
+    "created_at": "2025-11-11T05:38:25.566253Z",
+    "updated_at": "2025-11-11T05:38:25.566268Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The inventory type of a menu."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14285": {
     "id": 14285,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Menu Mode",
+    "description": "The mode of a menu, either `PHANTOM` or `STATIC`.",
+    "syntax_pattern": "[the] mode of %menu%\n%menu%'[s] mode",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Receptacle Mode",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14285",
+    "created_at": "2025-11-11T05:38:25.574097Z",
+    "updated_at": "2025-11-11T05:38:25.574112Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The mode of a menu, either `PHANTOM` or `STATIC`."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14286": {
     "id": 14286,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Menu Session Icon",
+    "description": "Get or set the icon(s) in specific slot(s) of a menu session.\nReturns null if the session is invalid or the slot is empty.\nWhen setting icons, all existing icons in the specified slots will be replaced.\nWhen deleting icons, all existing icons in the specified slots will be removed.",
+    "syntax_pattern": "icon of %menusession% in slot %numbers%\nicon in slot %numbers% of %menusession%",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Item",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14286",
+    "created_at": "2025-11-11T05:38:25.581942Z",
+    "updated_at": "2025-11-11T05:38:25.581956Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get or set the icon(s) in specific slot(s) of a menu session.",
-        "Returns null if the session is invalid or the slot is empty.",
-        "When setting icons, all existing icons in the specified slots will be replaced.",
-        "When deleting icons, all existing icons in the specified slots will be removed."
+        "Get or set the icon(s) in specific slot(s) of a menu session.\nReturns null if the session is invalid or the slot is empty.\nWhen setting icons, all existing icons in the specified slots will be replaced.\nWhen deleting icons, all existing icons in the specified slots will be removed."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14287": {
     "id": 14287,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Menu Session Title",
+    "description": "Get or set the title of a menu session.\nReturns null if the session is invalid.",
+    "syntax_pattern": "[the] title of %menusession%\n%menusession%'[s] title",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "TextComponent - Text Component",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14287",
+    "created_at": "2025-11-11T05:38:25.589647Z",
+    "updated_at": "2025-11-11T05:38:25.589661Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get or set the title of a menu session.",
-        "Returns null if the session is invalid."
+        "Get or set the title of a menu session.\nReturns null if the session is invalid."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14288": {
     "id": 14288,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Menu Session's Viewer",
+    "description": "Get the viewer (player) of a menu session.\nReturns null if the session is invalid.",
+    "syntax_pattern": "[the] viewer of %menusession%\n%menusession%'[s] viewer",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14288",
+    "created_at": "2025-11-11T05:38:25.597669Z",
+    "updated_at": "2025-11-11T05:38:25.597682Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get the viewer (player) of a menu session.",
-        "Returns null if the session is invalid."
+        "Get the viewer (player) of a menu session.\nReturns null if the session is invalid."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14289": {
     "id": 14289,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Menu Viewers",
+    "description": "All players currently viewing a menu.",
+    "syntax_pattern": "[the] viewers of [the] [(menu|gui)] %menu%\n%menu%'[s] viewers\n[all] [(players|viewers)] viewing [the] [(menu|gui)] %menu%",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14289",
+    "created_at": "2025-11-11T05:38:25.605885Z",
+    "updated_at": "2025-11-11T05:38:25.605900Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "All players currently viewing a menu."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14290": {
     "id": 14290,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Minimum Click Delay",
+    "description": "The minimum click delay (in ms) between two clicks in a menu.",
+    "syntax_pattern": "[the] min(imum) click delay of %menu%\n%menu%'[s] min(imum) click delay",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14290",
+    "created_at": "2025-11-11T05:38:25.614124Z",
+    "updated_at": "2025-11-11T05:38:25.614138Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The minimum click delay (in ms) between two clicks in a menu."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14291": {
     "id": 14291,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Page Number",
+    "description": "The total number of pages in a menu.",
+    "syntax_pattern": "[the] page number of %menu%\n%menu%'[s] page number",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14291",
+    "created_at": "2025-11-11T05:38:25.621986Z",
+    "updated_at": "2025-11-11T05:38:25.621999Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The total number of pages in a menu."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14277": {
     "id": 14277,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "GUI of Player",
+    "description": "The GUI that the player currently has open.",
+    "syntax_pattern": "[the] gui of %players%\n%players%'[s] gui",
+    "compatible_addon_version": "1.0.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Menu",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14277",
+    "created_at": "2025-11-11T05:38:25.509477Z",
+    "updated_at": "2025-11-18T04:42:49.970240Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The GUI that the player currently has open."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14292": {
     "id": 14292,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Page Title",
+    "description": "Get or set the title of a specific page in a menu.",
+    "syntax_pattern": "[the] title of page [(number|index)] %number% in [(menu|gui)] %menu%",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "TextComponent - Text Component",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14292",
+    "created_at": "2025-11-11T05:38:25.629912Z",
+    "updated_at": "2025-11-11T05:38:25.629927Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get or set the title of a specific page in a menu."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14293": {
     "id": 14293,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Session's Menu",
+    "description": "Get the menu of a menu session.\nReturns null if the session is invalid.",
+    "syntax_pattern": "[the] menu of %menusession%\n%menusession%'[s] menu",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Menu",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14293",
+    "created_at": "2025-11-11T05:38:25.637864Z",
+    "updated_at": "2025-11-11T05:38:25.637879Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get the menu of a menu session.",
-        "Returns null if the session is invalid."
+        "Get the menu of a menu session.\nReturns null if the session is invalid."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14294": {
     "id": 14294,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Slot Key from Menu",
+    "description": "The key of a specific slot in a specific page of a menu.\nThis expression returns the key associated with the specified slot in the specified page of the given menu.\nIf the slot does not have an associated key, it returns nothing.",
+    "syntax_pattern": "[the] key of [the] slot %number% in [the] page %number% [of [the] menu %menu%]",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14294",
+    "created_at": "2025-11-11T05:38:25.646017Z",
+    "updated_at": "2025-11-11T05:38:25.646030Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "The key of a specific slot in a specific page of a menu.",
-        "This expression returns the key associated with the specified slot in the specified page of the given menu.",
-        "If the slot does not have an associated key, it returns nothing."
+        "The key of a specific slot in a specific page of a menu.\nThis expression returns the key associated with the specified slot in the specified page of the given menu.\nIf the slot does not have an associated key, it returns nothing."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14295": {
     "id": 14295,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Slot Key from Menu",
+    "description": "The slot(s) of a specific key in a specific page of a menu.\nThis expression returns the slot(s) associated with the specified key in the specified page of the given menu.\nIf the key does not have any associated slots, it returns nothing.",
+    "syntax_pattern": "[the] slot[s] of [the] key %string% in [the] page %number% [of [the] menu %menu%]",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14295",
+    "created_at": "2025-11-11T05:38:25.653749Z",
+    "updated_at": "2025-11-11T05:38:25.653762Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "The slot(s) of a specific key in a specific page of a menu.",
-        "This expression returns the slot(s) associated with the specified key in the specified page of the given menu.",
-        "If the key does not have any associated slots, it returns nothing."
+        "The slot(s) of a specific key in a specific page of a menu.\nThis expression returns the slot(s) associated with the specified key in the specified page of the given menu.\nIf the key does not have any associated slots, it returns nothing."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14296": {
     "id": 14296,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Create / Edit GUI",
+    "description": "The base of creating and editing GUIs.\nTips: This is a deprecated section, consider using EffSecCreateMenu and SecEditMenu instead.",
+    "syntax_pattern": "create [a] [new] gui [[with id[entifier]] %string%] with %inventory% [(and|with) ([re]move[e]able|stealable) items] [(and|with) shape %strings%]",
+    "compatible_addon_version": "1.0.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14296",
+    "created_at": "2025-11-11T05:38:25.661773Z",
+    "updated_at": "2025-11-11T05:38:25.661787Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "The base of creating and editing GUIs.",
-        "Tips: This is a deprecated section, consider using EffSecCreateMenu and SecEditMenu instead."
+        "The base of creating and editing GUIs.\nTips: This is a deprecated section, consider using EffSecCreateMenu and SecEditMenu instead."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14297": {
     "id": 14297,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Create Menu",
+    "description": "Create a menu.\nYou can define the menu's properties, such as its inventory type, title, id, layout, page, click delay, and whether to hide the player's inventory.\nYou can also define the menu's contents and behavior in the section below this effect.\nTips: If you do not specify a default page, the menu will insert a page 0 with the given layout and title.\nIf you create a menu with a id that already exists, the old one will be destroyed.",
+    "syntax_pattern": "create [a] [phantom|static] menu with %inventorytype% titled (%string%|%textcomponent%) with layout %strings% [with id %string%] [with page %number%] [with %number% ms click delay] [(with|without) hide player inventory)]",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14297",
+    "created_at": "2025-11-11T05:38:25.669564Z",
+    "updated_at": "2025-11-11T05:38:25.669577Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Create a menu.",
-        "You can define the menu's properties, such as its inventory type, title, id, layout, page, click delay, and whether to hide the player's inventory.",
-        "You can also define the menu's contents and behavior in the section below this effect.",
-        "Tips: If you do not specify a default page, the menu will insert a page 0 with the given layout and title.",
-        "If you create a menu with a id that already exists, the old one will be destroyed."
+        "Create a menu.\nYou can define the menu's properties, such as its inventory type, title, id, layout, page, click delay, and whether to hide the player's inventory.\nYou can also define the menu's contents and behavior in the section below this effect.\nTips: If you do not specify a default page, the menu will insert a page 0 with the given layout and title.\nIf you create a menu with a id that already exists, the old one will be destroyed."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14298": {
     "id": 14298,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Edit Menu",
+    "description": "Edit an existing menu.\nYou can define the menu's contents and behavior in the section below this effect.",
+    "syntax_pattern": "(edit|change) [the] [(menu|gui)] %menu%",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14298",
+    "created_at": "2025-11-11T05:38:25.677709Z",
+    "updated_at": "2025-11-11T05:38:25.677724Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Edit an existing menu.",
-        "You can define the menu's contents and behavior in the section below this effect."
+        "Edit an existing menu.\nYou can define the menu's contents and behavior in the section below this effect."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14300": {
     "id": 14300,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Override Slot",
+    "description": "Override a specific slot in a specific page of a menu with a new item.\nYou can optionally provide a section to handle click events on the overridden slot.\nTips: If you didn't provide a section, the slot will simply be overridden without changing previous click behavior.",
+    "syntax_pattern": "(override|set) slot %numbers% [in page %numbers%] [of %menu%] to (%itemstack%|button %string%) [((and|with) (refresh|update))] [(and when (clicked|interacted|pressed))]",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14300",
+    "created_at": "2025-11-11T05:38:25.693780Z",
+    "updated_at": "2025-11-18T04:42:50.005588Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Override a specific slot in a specific page of a menu with a new item.",
-        "You can optionally provide a section to handle click events on the overridden slot.",
-        "Tips: If you didn't provide a section, the slot will simply be overridden without changing previous click behavior."
+        "Override a specific slot in a specific page of a menu with a new item.\nYou can optionally provide a section to handle click events on the overridden slot.\nTips: If you didn't provide a section, the slot will simply be overridden without changing previous click behavior."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14269": {
     "id": 14269,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Update Page Title",
+    "description": "Update the title of a specific page in a menu.\nYou can optionally refresh the menu for all viewers to see the updated title immediately.",
+    "syntax_pattern": "update title [of page %number%] [in %menu%] to (%string%|%textcomponent%) [(and refresh)]",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14269",
+    "created_at": "2025-11-11T05:38:25.445627Z",
+    "updated_at": "2025-11-18T04:42:49.926675Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Update the title of a specific page in a menu.",
-        "You can optionally refresh the menu for all viewers to see the updated title immediately."
+        "Update the title of a specific page in a menu.\nYou can optionally refresh the menu for all viewers to see the updated title immediately."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14306": {
     "id": 14306,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Build Menu",
+    "description": "Build a menu with specified properties.\nYou can specify the menu type (phantom or static), inventory type, title, layout, id, default page, click delay, and whether to hide the player inventory.\nYou can also provide an edit section to define additional properties or behaviors for the menu.\nThe created menu is stored in the specified variable.",
+    "syntax_pattern": "build [a] menu [%object%]",
+    "compatible_addon_version": "1.0.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14306",
+    "created_at": "2025-11-18T04:42:49.978613Z",
+    "updated_at": "2025-11-18T04:42:49.978628Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Build a menu with specified properties.",
-        "You can specify the menu type (phantom or static), inventory type, title, layout, id, default page, click delay, and whether to hide the player inventory.",
-        "You can also provide an edit section to define additional properties or behaviors for the menu.",
-        "The created menu is stored in the specified variable."
+        "Build a menu with specified properties.\nYou can specify the menu type (phantom or static), inventory type, title, layout, id, default page, click delay, and whether to hide the player inventory.\nYou can also provide an edit section to define additional properties or behaviors for the menu.\nThe created menu is stored in the specified variable."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14307": {
     "id": 14307,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Build and Insert Page",
+    "description": "Insert a new page into a menu.\nYou can optionally specify the page index, layout, player inventory layout, and title for the new page.\nIf the page index is not provided, the new page will be added at the end of the menu.",
+    "syntax_pattern": "insert page [%number%] into menu [%menu%]",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14307",
+    "created_at": "2025-11-18T04:42:49.987144Z",
+    "updated_at": "2025-11-18T04:42:49.987157Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Insert a new page into a menu.",
-        "You can optionally specify the page index, layout, player inventory layout, and title for the new page.",
-        "If the page index is not provided, the new page will be added at the end of the menu."
+        "Insert a new page into a menu.\nYou can optionally specify the page index, layout, player inventory layout, and title for the new page.\nIf the page index is not provided, the new page will be added at the end of the menu."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14299": {
     "id": 14299,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Map Key to Icon",
+    "description": "Map a string key to an icon (item) in a menu.\nYou can optionally provide a section to handle click events on the icon.\nTips: If you didn't provide a section, the slot will simply be overridden without changing previous click behavior.",
+    "syntax_pattern": "map key %string% to ((icon|item)[s] %itemstacks%|button %string%) [for [(menu|gui)] %menu%] [on page(s) %numbers%)][(and (refresh|update))] [(and when clicked)]",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14299",
+    "created_at": "2025-11-11T05:38:25.685710Z",
+    "updated_at": "2025-11-18T04:42:49.995667Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Map a string key to an icon (item) in a menu.",
-        "You can optionally provide a section to handle click events on the icon.",
-        "Tips: If you didn't provide a section, the slot will simply be overridden without changing previous click behavior."
+        "Map a string key to an icon (item) in a menu.\nYou can optionally provide a section to handle click events on the icon.\nTips: If you didn't provide a section, the slot will simply be overridden without changing previous click behavior."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14301": {
     "id": 14301,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Set Slot Callback",
+    "description": "Set a callback for a specific slot in a specific page of a menu.\nYou must provide a section to handle click events on the specified slot.",
+    "syntax_pattern": "(when|on) slot %numbers% [in page [(number|index)] %numbers%] [of [(menu|gui)] %menu%] [is] (clicked|interacted|pressed)",
+    "compatible_addon_version": "1.0-SNAPSHOT",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14301",
+    "created_at": "2025-11-11T05:38:25.702061Z",
+    "updated_at": "2025-11-18T04:42:50.028243Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Set a callback for a specific slot in a specific page of a menu.",
-        "You must provide a section to handle click events on the specified slot."
+        "Set a callback for a specific slot in a specific page of a menu.\nYou must provide a section to handle click events on the specified slot."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14255": {
     "id": 14255,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "On Menu Interact",
+    "description": "",
+    "syntax_pattern": "[on] menu interact",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-menu, event-menuclicktype, event-menusession, event-icon, event-page, event-clicked slot",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14255",
+    "created_at": "2025-11-11T05:38:25.325833Z",
+    "updated_at": "2025-11-18T04:45:57.080753Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[xiaojie-gui] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14308": {
     "id": 14308,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "heyhey123",
+    "title": "Define Button",
+    "description": "Defines a button with the specified ID and icon. \nYou must provide a 'when clicked' section to handle button click events. \nIf a button with the same ID already exists, the new definition will overwrite the previous one.",
+    "syntax_pattern": "define button %string%",
+    "compatible_addon_version": "1.0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "xiaojie-gui",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14308",
+    "created_at": "2025-11-18T04:42:50.017530Z",
+    "updated_at": "2025-11-18T16:05:58.218901Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Defines a button with the specified ID and icon.",
-        "You must provide a 'when clicked' section to handle button click events.",
-        "If a button with the same ID already exists, the new definition will overwrite the previous one."
+        "Defines a button with the specified ID and icon. \nYou must provide a 'when clicked' section to handle button click events. \nIf a button with the same ID already exists, the new definition will overwrite the previous one."
       ],
       "ko": [
-        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+        "[XIAOJIE-GUI] 한국어 가이드 번역 대기 중"
       ]
     }
   }

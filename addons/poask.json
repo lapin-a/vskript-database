@@ -1,1138 +1,2109 @@
 {
   "syntax_8541": {
     "id": 8541,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Fake level",
+    "description": "Make a player see their XP level as something that it is not",
+    "syntax_pattern": "fake %player%'s level to %number%",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": "1.19",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8541",
+    "created_at": "2023-03-02T03:13:38.708350Z",
+    "updated_at": "2024-01-29T00:50:07.023829Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make a player see their XP level as something that it is not"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13306": {
     "id": 13306,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Bukkit Item Stack",
+    "description": "Gets the bukkit Item Stack class version of an item",
+    "syntax_pattern": "[convert|change] %itemtype% to [bukkit] item[ ]stack\n[get] item[ ]stack (from|of) %itemtype%",
+    "compatible_addon_version": "4.12.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13306",
+    "created_at": "2025-03-25T21:57:19.830442Z",
+    "updated_at": "2025-03-25T21:57:19.830461Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the bukkit Item Stack class version of an item"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8545": {
     "id": 8545,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Remove Guardian Beam/Laser",
+    "description": "Remove a created guardian beam",
+    "syntax_pattern": "remove guardian laser with id %string%",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": "1.19",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8545",
+    "created_at": "2023-03-02T03:18:30.923084Z",
+    "updated_at": "2024-01-29T00:49:50.611760Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Remove a created guardian beam"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11949": {
     "id": 11949,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Set/Change Player Vision",
+    "description": "Changes the vision to either **Creeper, Enderman, Spider or Player**\n\nThese are the only supported options.\n\n *note*\nThis effect is based on a Minecraft bug (https://bugs.mojang.com/browse/MC-46503)\nThe support for this depends on how long it takes Minecraft to fix this :D",
+    "syntax_pattern": "change vision of %players% to [entity] %entitytype%",
+    "compatible_addon_version": "4.8.0",
+    "compatible_minecraft_version": "1.20.2",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11949",
+    "created_at": "2024-09-07T18:43:08.456975Z",
+    "updated_at": "2024-09-07T18:43:08.456998Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Changes the vision to either **Creeper, Enderman, Spider or Player**",
-        "These are the only supported options.",
-        "*note*",
-        "This effect is based on a Minecraft bug (https://bugs.mojang.com/browse/MC-46503)",
-        "The support for this depends on how long it takes Minecraft to fix this :D"
+        "Changes the vision to either **Creeper, Enderman, Spider or Player**\n\nThese are the only supported options.\n\n *note*\nThis effect is based on a Minecraft bug (https://bugs.mojang.com/browse/MC-46503)\nThe support for this depends on how long it takes Minecraft to fix this :D"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8549": {
     "id": 8549,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Client Glow Off",
+    "description": "Turn the client glow off",
+    "syntax_pattern": "make %entity% not glow for %players%",
+    "compatible_addon_version": "2.1.1",
+    "compatible_minecraft_version": "1.19",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8549",
+    "created_at": "2023-03-02T06:35:20.294040Z",
+    "updated_at": "2024-01-29T00:49:36.485358Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Turn the client glow off"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8536": {
     "id": 8536,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Server Brand",
+    "description": "Set the server brand in the player's f3 page",
+    "syntax_pattern": "set server brand to %string% for %players%",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": "1.19",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8536",
+    "created_at": "2023-03-02T03:06:25.210616Z",
+    "updated_at": "2024-01-29T00:50:22.221001Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set the server brand in the player's f3 page"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8537": {
     "id": 8537,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Set IP",
+    "description": "Set the player's IP address",
+    "syntax_pattern": "set ip of %player% to %string% with port %number%",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8537",
+    "created_at": "2023-03-02T03:07:39.801488Z",
+    "updated_at": "2024-01-29T00:50:17.869928Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set the player's IP address"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8547": {
     "id": 8547,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Spawn Fake Entity",
+    "description": "Spawn a client side entity.\n\n### note\nThese entities do NOT exist on the server. So using normal syntax's will not work on them. You cannot set variables to them. You must use packets for ever kind of manipulation on them. See the metadata packet syntax.",
+    "syntax_pattern": "spawn fake %entitytype% at %location% for %players% with id %number%",
+    "compatible_addon_version": "2.1",
+    "compatible_minecraft_version": "1.19",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8547",
+    "created_at": "2023-03-02T05:11:36.043176Z",
+    "updated_at": "2025-03-23T21:49:39.075500Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Spawn a client side entity.",
-        "### note",
-        "These entities do NOT exist on the server. So using normal syntax's will not work on them. You cannot set variables to them. You must use packets for ever kind of manipulation on them. See the metadata packet syntax."
+        "Spawn a client side entity.\n\n### note\nThese entities do NOT exist on the server. So using normal syntax's will not work on them. You cannot set variables to them. You must use packets for ever kind of manipulation on them. See the metadata packet syntax."
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8539": {
     "id": 8539,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Fake Health",
+    "description": "Change what the player sees for their health. Not to confuse this with health scaling, this is purely packet based",
+    "syntax_pattern": "fake %player%'s health to %number%",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": "1.19",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8539",
+    "created_at": "2023-03-02T03:11:12.059574Z",
+    "updated_at": "2024-01-29T00:50:14.455753Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Change what the player sees for their health. Not to confuse this with health scaling, this is purely packet based"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8544": {
     "id": 8544,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Guardian Beam/Laser",
+    "description": "Create a guardian beam for the player.\n\nThe colour is a string because I am lazy :D\n*Do note, that if a colour is used, the guardian itself will glow. This sucks but cannot be made without an actual guardian. It does defeat the purpose of it but thought I would add the option anyways.*\n\n*These are not persistent between reboots*",
+    "syntax_pattern": "create a guardian laser from %location% to %location% [with color %string%] with id %string% for %players%",
+    "compatible_addon_version": "4.6.0",
+    "compatible_minecraft_version": "1.20.2",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8544",
+    "created_at": "2023-03-02T03:17:40.511268Z",
+    "updated_at": "2024-07-12T00:10:56.383759Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Create a guardian beam for the player.",
-        "The colour is a string because I am lazy :D",
-        "*Do note, that if a colour is used, the guardian itself will glow. This sucks but cannot be made without an actual guardian. It does defeat the purpose of it but thought I would add the option anyways.*",
-        "*These are not persistent between reboots*"
+        "Create a guardian beam for the player.\n\nThe colour is a string because I am lazy :D\n*Do note, that if a colour is used, the guardian itself will glow. This sucks but cannot be made without an actual guardian. It does defeat the purpose of it but thought I would add the option anyways.*\n\n*These are not persistent between reboots*"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8542": {
     "id": 8542,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Fake Multi Block Change",
+    "description": "Similar to Skript's *send block change* effect, this can do multiple blocks within a single packet. More efficient for larger scaled faking",
+    "syntax_pattern": "fake multi block set %locations% as %blockdata% for %players%",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": "1.19",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8542",
+    "created_at": "2023-03-02T03:14:55.227656Z",
+    "updated_at": "2025-03-16T22:41:04.086673Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Similar to Skript's *send block change* effect, this can do multiple blocks within a single packet. More efficient for larger scaled faking"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8554": {
     "id": 8554,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Hostname",
+    "description": "Similar to skript's hostname expression however, this works outside the player connect event. Making it easier to use.",
+    "syntax_pattern": "%player%'s hostname",
+    "compatible_addon_version": "2.2",
+    "compatible_minecraft_version": "1.19",
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8554",
+    "created_at": "2023-03-02T21:39:10.295678Z",
+    "updated_at": "2024-01-29T00:49:30.473224Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Similar to skript's hostname expression however, this works outside the player connect event. Making it easier to use."
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8548": {
     "id": 8548,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Remove Client Entity",
+    "description": "Removes an entity from a client\r\n\r\nThis works for both fake and real entities",
+    "syntax_pattern": "remove fake entity with id %numbers% for %players%",
+    "compatible_addon_version": "2.1",
+    "compatible_minecraft_version": "1.19",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8548",
+    "created_at": "2023-03-02T05:12:47.769203Z",
+    "updated_at": "2024-01-29T00:49:40.450915Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Removes an entity from a client",
-        "This works for both fake and real entities"
+        "Removes an entity from a client\r\n\r\nThis works for both fake and real entities"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8546": {
     "id": 8546,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Block In Chunk",
+    "description": "Get the locations for specific blocks within a chunk\r\n\r\nFaster than looping all blocks with Skript\r\n\r\n*see https://pastebin.com/Fnt1xkNA for a test skript to show the performance differences*",
+    "syntax_pattern": "locations of %itemtypes% in %chunk%",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": "1.19",
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8546",
+    "created_at": "2023-03-02T03:36:33.087299Z",
+    "updated_at": "2024-01-29T00:49:47.051141Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get the locations for specific blocks within a chunk",
-        "Faster than looping all blocks with Skript",
-        "*see https://pastebin.com/Fnt1xkNA for a test skript to show the performance differences*"
+        "Get the locations for specific blocks within a chunk\r\n\r\nFaster than looping all blocks with Skript\r\n\r\n*see https://pastebin.com/Fnt1xkNA for a test skript to show the performance differences*"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11264": {
     "id": 11264,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Set Player Skin",
+    "description": "Set a player's skin\n\n### only use the signature when the `skin of` is a texture value",
+    "syntax_pattern": "set skin of %players% to skin of %string% [with signature %-string%]",
+    "compatible_addon_version": "3.4.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11264",
+    "created_at": "2024-04-07T13:49:08.617251Z",
+    "updated_at": "2024-12-06T03:46:42.357242Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Set a player's skin",
-        "### only use the signature when the `skin of` is a texture value"
+        "Set a player's skin\n\n### only use the signature when the `skin of` is a texture value"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8852": {
     "id": 8852,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Fake Username ~ OUTDATED",
+    "description": "Change the overhead name of the player. Not the prefix or suffix the **ACTUAL** username of the player. This is limited by the clients 16 character max characters. But it does support colour (&) *(it does use characters up though)* \r\n\r\nYou can make it so different players see different names per person. As all packets this is not persistent.\r\n\r\n*As of now this is only supported on* **1.19.3/4** *servers due to Mojang's mapping and ClientboundInfo packets*",
+    "syntax_pattern": "set username of %player% to %string% for %players%",
+    "compatible_addon_version": "2.3",
+    "compatible_minecraft_version": "1.19.3",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8852",
+    "created_at": "2023-03-13T21:52:24.598163Z",
+    "updated_at": "2024-01-29T00:48:43.287197Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Change the overhead name of the player. Not the prefix or suffix the **ACTUAL** username of the player. This is limited by the clients 16 character max characters. But it does support colour (&) *(it does use characters up though)*",
-        "You can make it so different players see different names per person. As all packets this is not persistent.",
-        "*As of now this is only supported on* **1.19.3/4** *servers due to Mojang's mapping and ClientboundInfo packets*"
+        "Change the overhead name of the player. Not the prefix or suffix the **ACTUAL** username of the player. This is limited by the clients 16 character max characters. But it does support colour (&) *(it does use characters up though)* \r\n\r\nYou can make it so different players see different names per person. As all packets this is not persistent.\r\n\r\n*As of now this is only supported on* **1.19.3/4** *servers due to Mojang's mapping and ClientboundInfo packets*"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8540": {
     "id": 8540,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Fake Item/Equipment",
+    "description": "Make a player see your armour and holding items as different to what they are. This works for mobs too.\n\nYou can use an entity id instead of an entity for fake entities\n\nFor the string use any of the following:\n**HAND**\n**OFF_HAND**\n**HEAD**\n**CHEST**\n**LEGS**\n**FEET**",
+    "syntax_pattern": "fake %livingentity/number%['s] equipment slot %string% to %itemtype% for %players%",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": "1.19",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8540",
+    "created_at": "2023-03-02T03:12:07.435212Z",
+    "updated_at": "2024-12-07T19:40:01.280859Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Make a player see your armour and holding items as different to what they are. This works for mobs too.",
-        "You can use an entity id instead of an entity for fake entities",
-        "For the string use any of the following:",
-        "**HAND**",
-        "**OFF_HAND**",
-        "**HEAD**",
-        "**CHEST**",
-        "**LEGS**",
-        "**FEET**"
+        "Make a player see your armour and holding items as different to what they are. This works for mobs too.\n\nYou can use an entity id instead of an entity for fake entities\n\nFor the string use any of the following:\n**HAND**\n**OFF_HAND**\n**HEAD**\n**CHEST**\n**LEGS**\n**FEET**"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9245": {
     "id": 9245,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Entity ID",
+    "description": "Get the entity id of an entity",
+    "syntax_pattern": "entity id of %entity%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": "2.4",
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9245",
+    "created_at": "2023-06-03T00:19:03.773977Z",
+    "updated_at": "2024-01-29T00:48:34.558514Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the entity id of an entity"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9247": {
     "id": 9247,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Player Load Entity (OUTDATED)",
+    "description": "# As of PoaSK 4.16.11 this has been removed. Use SkBee's `on player track entity`\n\nCalled when a player loads an entity, not when an entity is added to a world. This is a packet event.\n\nUseful for sending packets for things like metadata and ect.",
+    "syntax_pattern": "on player load entity",
+    "compatible_addon_version": "2.4",
+    "compatible_minecraft_version": "1.19.2",
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "player, entity",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9247",
+    "created_at": "2023-06-03T00:23:44.710738Z",
+    "updated_at": "2026-04-30T20:59:23.695829Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "# As of PoaSK 4.16.11 this has been removed. Use SkBee's `on player track entity`",
-        "Called when a player loads an entity, not when an entity is added to a world. This is a packet event.",
-        "Useful for sending packets for things like metadata and ect."
+        "# As of PoaSK 4.16.11 this has been removed. Use SkBee's `on player track entity`\n\nCalled when a player loads an entity, not when an entity is added to a world. This is a packet event.\n\nUseful for sending packets for things like metadata and ect."
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11562": {
     "id": 11562,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "BaeFell-ify",
+    "description": "Turn entities into BaeFell",
+    "syntax_pattern": "baefell[-]ify [the] %entities% for %players%",
+    "compatible_addon_version": "4.0.1",
+    "compatible_minecraft_version": "1.20.2",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11562",
+    "created_at": "2024-05-23T13:42:34.300442Z",
+    "updated_at": "2024-05-23T13:49:10.499996Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Turn entities into BaeFell"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9345": {
     "id": 9345,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Set Camera Packet",
+    "description": "Set the camera to another entity or fake entity. \r\nPlayer can rotate while looking at themselves. \r\nThey cannot move unless riding an entity",
+    "syntax_pattern": "[set] camera [packet] of %player% to entity [with] id %integer%",
+    "compatible_addon_version": "2.6.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9345",
+    "created_at": "2023-08-19T14:21:04.160635Z",
+    "updated_at": "2024-01-29T00:48:01.673718Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Set the camera to another entity or fake entity.",
-        "Player can rotate while looking at themselves.",
-        "They cannot move unless riding an entity"
+        "Set the camera to another entity or fake entity. \r\nPlayer can rotate while looking at themselves. \r\nThey cannot move unless riding an entity"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9335": {
     "id": 9335,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Head Rotation Packet",
+    "description": "Send the head rotation packet. \r\n\r\nhttps://wiki.vg/Protocol#Set_Head_Rotation",
+    "syntax_pattern": "[send] head rotation [packet] [with] id %integer% with yaw %integer% for %players%",
+    "compatible_addon_version": "2.6",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9335",
+    "created_at": "2023-08-14T00:02:29.321596Z",
+    "updated_at": "2024-01-29T00:48:13.784606Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Send the head rotation packet.",
-        "https://wiki.vg/Protocol#Set_Head_Rotation"
+        "Send the head rotation packet. \r\n\r\nhttps://wiki.vg/Protocol#Set_Head_Rotation"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9356": {
     "id": 9356,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Fake Dropped Item",
+    "description": "Spawn a fake dropped item",
+    "syntax_pattern": "spawn fake [dropped] item at %location% for %players% with id %number% with [item] %itemtype%",
+    "compatible_addon_version": "2.6.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9356",
+    "created_at": "2023-08-23T14:07:51.730744Z",
+    "updated_at": "2024-01-29T00:47:54.779625Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Spawn a fake dropped item"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9337": {
     "id": 9337,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Rotate Entity Packet",
+    "description": "Send the rotation packet for fake entities\r\n\r\nhttps://wiki.vg/Protocol#Update_Entity_Rotation",
+    "syntax_pattern": "[send] rotate entity [packet] [with] id %integer% with yaw %integer% [and] pitch %integer% for %players%",
+    "compatible_addon_version": "2.6.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9337",
+    "created_at": "2023-08-14T00:04:33.813514Z",
+    "updated_at": "2024-01-29T00:48:06.171864Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Send the rotation packet for fake entities",
-        "https://wiki.vg/Protocol#Update_Entity_Rotation"
+        "Send the rotation packet for fake entities\r\n\r\nhttps://wiki.vg/Protocol#Update_Entity_Rotation"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9336": {
     "id": 9336,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Move Entity Packet",
+    "description": "Move a fake entity packet.\n\nhttps://wiki.vg/Protocol#Update_Entity_Position\n\n(The amounts are not in blocks. Please read the wiki above)\n\n# 4096 is 1 block",
+    "syntax_pattern": "[send] move entity [packet] [with] id %integer% by %integer%[,] %integer%[,] %integer% for %players%",
+    "compatible_addon_version": "2.6",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9336",
+    "created_at": "2023-08-14T00:03:27.036488Z",
+    "updated_at": "2025-03-13T03:48:53.434315Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Move a fake entity packet.",
-        "https://wiki.vg/Protocol#Update_Entity_Position",
-        "(The amounts are not in blocks. Please read the wiki above)",
-        "# 4096 is 1 block"
+        "Move a fake entity packet.\n\nhttps://wiki.vg/Protocol#Update_Entity_Position\n\n(The amounts are not in blocks. Please read the wiki above)\n\n# 4096 is 1 block"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9880": {
     "id": 9880,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Metadata Packet (OLD)",
+    "description": "Set a variable to a custom raw metadata used",
+    "syntax_pattern": "[raw] metadata packet with id %number%",
+    "compatible_addon_version": "2.8",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9880",
+    "created_at": "2023-11-09T02:21:51.838090Z",
+    "updated_at": "2025-08-26T18:46:07.231211Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set a variable to a custom raw metadata used"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9899": {
     "id": 9899,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Fake Entity Ride (mount)",
+    "description": "Make entities ride another entity but all client side. Works with fake entities",
+    "syntax_pattern": "make entit[ies|y] with id[s] %numbers% ride entity with id %number% for %players%",
+    "compatible_addon_version": "1.9",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9899",
+    "created_at": "2023-11-27T00:36:22.742204Z",
+    "updated_at": "2024-01-29T00:48:53.986963Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make entities ride another entity but all client side. Works with fake entities"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11564": {
     "id": 11564,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Spin Attack",
+    "description": "Give the riptide spin effect",
+    "syntax_pattern": "make %players% spin [attack] for %timespan%",
+    "compatible_addon_version": "4.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11564",
+    "created_at": "2024-05-27T20:08:32.052605Z",
+    "updated_at": "2024-05-27T20:08:32.052626Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Give the riptide spin effect"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9882": {
     "id": 9882,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Send Packet",
+    "description": "Sends a raw packet to players",
+    "syntax_pattern": "send [packet] %object% to %players%",
+    "compatible_addon_version": "2.8",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9882",
+    "created_at": "2023-11-09T02:33:50.924938Z",
+    "updated_at": "2024-01-29T00:47:36.383070Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sends a raw packet to players"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9334": {
     "id": 9334,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Fake Entity Name",
+    "description": "Fake an entities name per player.",
+    "syntax_pattern": "fake %entity%'s name to %string% for %players%",
+    "compatible_addon_version": "2.6",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9334",
+    "created_at": "2023-08-14T00:01:33.088530Z",
+    "updated_at": "2024-01-29T00:48:18.376597Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Fake an entities name per player."
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10884": {
     "id": 10884,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Send action bar",
+    "description": "Sends an action bar packet. Similar to Skript's one however, this one won't be cancelled by the `on action bar send` event",
+    "syntax_pattern": "send action bar packet %string% to %players%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10884",
+    "created_at": "2024-02-16T20:34:52.249465Z",
+    "updated_at": "2024-02-16T20:34:52.249486Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sends an action bar packet. Similar to Skript's one however, this one won't be cancelled by the `on action bar send` event"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11978": {
     "id": 11978,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Animation/Arm Swing Packet",
+    "description": "Send arm swing and critical hits animation packets\n\n### Animation ID's\n\n0 - Arm Swing\n1 - Unused by Mojang\n2 - Leave Bed\n3 - OffHand Swing\n4 - Critical Hit\n5 - Magic Critical Hit",
+    "syntax_pattern": "[send] animation [packet] [with] id %animation ID% for entity [with id] %number% for %players%",
+    "compatible_addon_version": "2.8.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11978",
+    "created_at": "2024-09-20T17:30:05.241811Z",
+    "updated_at": "2024-09-20T17:30:05.241833Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Send arm swing and critical hits animation packets",
-        "### Animation ID's",
-        "0 - Arm Swing",
-        "1 - Unused by Mojang",
-        "2 - Leave Bed",
-        "3 - OffHand Swing",
-        "4 - Critical Hit",
-        "5 - Magic Critical Hit"
+        "Send arm swing and critical hits animation packets\n\n### Animation ID's\n\n0 - Arm Swing\n1 - Unused by Mojang\n2 - Leave Bed\n3 - OffHand Swing\n4 - Critical Hit\n5 - Magic Critical Hit"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10966": {
     "id": 10966,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Fake Falling Blocks",
+    "description": "Spawn client sided falling blocks",
+    "syntax_pattern": "spawn fake falling block at %location% for %players% with id %number% with [block] %blockdata%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10966",
+    "created_at": "2024-02-20T01:11:07.148858Z",
+    "updated_at": "2024-02-20T01:11:07.148879Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Spawn client sided falling blocks"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10969": {
     "id": 10969,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Connected Blocks",
+    "description": "Gets the connected blocks from a location that is not air",
+    "syntax_pattern": "[next] %number% connected blocks from %location%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": "block",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10969",
+    "created_at": "2024-02-22T13:48:00.160696Z",
+    "updated_at": "2024-02-22T13:48:00.160719Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the connected blocks from a location that is not air"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11979": {
     "id": 11979,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Player Input Packet",
+    "description": "**On 1.21.3 this event is called at any input. Below this version it is only called when mounted on an entity.**\n\nevent-vector  - gives the x and z outputs of the packet. (not in 1.21.3)\nevent-boolean - gives whether jumping ocured (not in 1.21.3)\n#### event-string - returns \"W\" \"A\" \"S\" \"D\" \"SPACE\" \"SHIFT\", \"SPRINT\" (note: shift will dismount, so cancel that event if needed)\n\n*note* cancelling this event is kind of pointless since it just cancels the server from receiving the packet, but possible regardless. This will cause desync",
+    "syntax_pattern": "on player input packet",
+    "compatible_addon_version": "4.9.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-vector, event-boolean, event-string",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=11979",
+    "created_at": "2024-09-22T12:12:51.928337Z",
+    "updated_at": "2024-11-25T01:00:57.339794Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "**On 1.21.3 this event is called at any input. Below this version it is only called when mounted on an entity.**",
-        "event-vector  - gives the x and z outputs of the packet. (not in 1.21.3)",
-        "event-boolean - gives whether jumping ocured (not in 1.21.3)",
-        "#### event-string - returns \"W\" \"A\" \"S\" \"D\" \"SPACE\" \"SHIFT\", \"SPRINT\" (note: shift will dismount, so cancel that event if needed)",
-        "*note* cancelling this event is kind of pointless since it just cancels the server from receiving the packet, but possible regardless. This will cause desync"
+        "**On 1.21.3 this event is called at any input. Below this version it is only called when mounted on an entity.**\n\nevent-vector  - gives the x and z outputs of the packet. (not in 1.21.3)\nevent-boolean - gives whether jumping ocured (not in 1.21.3)\n#### event-string - returns \"W\" \"A\" \"S\" \"D\" \"SPACE\" \"SHIFT\", \"SPRINT\" (note: shift will dismount, so cancel that event if needed)\n\n*note* cancelling this event is kind of pointless since it just cancels the server from receiving the packet, but possible regardless. This will cause desync"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11988": {
     "id": 11988,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Block Change/Sent Packet",
+    "description": "This event is called whenever the block update packet is sent\n\n### WARNING\nthis event is fired for placing blocks, natural updates like leaves, dirt changing to grass, plant growth ect...\nDO NOT CANCEL WITHOUT CHECKS\n\nThis is useful for checking custom send block changes using Skript's `make player see %block% as %block%`",
+    "syntax_pattern": "on block change packet",
+    "compatible_addon_version": "4.10.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-location, event-blockdata, event-block (this is the real block at the location)",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=11988",
+    "created_at": "2024-09-27T14:55:57.332013Z",
+    "updated_at": "2024-09-27T14:55:57.332030Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "This event is called whenever the block update packet is sent",
-        "### WARNING",
-        "this event is fired for placing blocks, natural updates like leaves, dirt changing to grass, plant growth ect...",
-        "DO NOT CANCEL WITHOUT CHECKS",
-        "This is useful for checking custom send block changes using Skript's `make player see %block% as %block%`"
+        "This event is called whenever the block update packet is sent\n\n### WARNING\nthis event is fired for placing blocks, natural updates like leaves, dirt changing to grass, plant growth ect...\nDO NOT CANCEL WITHOUT CHECKS\n\nThis is useful for checking custom send block changes using Skript's `make player see %block% as %block%`"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11220": {
     "id": 11220,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Remove Fake Player",
+    "description": "Remove a fake player",
+    "syntax_pattern": "remove fake player[s] with id[s] %numbers% and uuid[s] %strings% for %players%\n\n\n\nremove fake player named %strings% for %players%   #OUTDATED",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": "1.20.2",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11220",
+    "created_at": "2024-03-25T05:33:59.739273Z",
+    "updated_at": "2024-06-05T11:21:20.892449Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Remove a fake player"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11221": {
     "id": 11221,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Entity ID of fake player (OUTDATED)",
+    "description": "Get the entity id of a fake player sent to a player",
+    "syntax_pattern": "entity id of fake player named %string% with player %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11221",
+    "created_at": "2024-03-26T02:37:30.141811Z",
+    "updated_at": "2024-06-05T11:20:27.830861Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the entity id of a fake player sent to a player"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14500": {
     "id": 14500,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "All Guardian Beams",
+    "description": "Get a string list of all guardian beams",
+    "syntax_pattern": "all guardian beams [ids]",
+    "compatible_addon_version": "4.16.9",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14500",
+    "created_at": "2026-02-28T22:16:58.860273Z",
+    "updated_at": "2026-02-28T22:16:58.860287Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get a string list of all guardian beams"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11633": {
     "id": 11633,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Fake player name and skin",
+    "description": "Change the player's name and skin for each player.\n\n## Note: There is a tick delay, so if the player is coming out of spectator for example, they will see the original player for a tick before it can update. This is planned on being fixed :D",
+    "syntax_pattern": "fake name of %player% to %string% with skin named %string% for %players%",
+    "compatible_addon_version": "4.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11633",
+    "created_at": "2024-06-09T22:27:49.380359Z",
+    "updated_at": "2024-06-09T22:27:49.380379Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Change the player's name and skin for each player.",
-        "## Note: There is a tick delay, so if the player is coming out of spectator for example, they will see the original player for a tick before it can update. This is planned on being fixed :D"
+        "Change the player's name and skin for each player.\n\n## Note: There is a tick delay, so if the player is coming out of spectator for example, they will see the original player for a tick before it can update. This is planned on being fixed :D"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11646": {
     "id": 11646,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Fake Lightning",
+    "description": "Spawn fake lightning for a player, client side lightning bolt :D",
+    "syntax_pattern": "spawn fake lightning at %location% for %players%",
+    "compatible_addon_version": "4.3.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11646",
+    "created_at": "2024-06-17T12:26:36.179283Z",
+    "updated_at": "2024-06-17T12:26:36.179312Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Spawn fake lightning for a player, client side lightning bolt :D"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11671": {
     "id": 11671,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Teleport Packet",
+    "description": "Teleporting a fake entity more than 8 blocks (if less use move packet) (don't have to but is advised)\n\n**NOTE**\n*If the fake entity is out of view you have to respawn it and set all it's data again, this only works if the fake entity is within player view*",
+    "syntax_pattern": "[send] teleport [packet] [with] id %number% with [location] %location% to %players%",
+    "compatible_addon_version": "4.4.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11671",
+    "created_at": "2024-06-23T12:11:39.488159Z",
+    "updated_at": "2024-06-23T12:11:39.488176Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Teleporting a fake entity more than 8 blocks (if less use move packet) (don't have to but is advised)",
-        "**NOTE**",
-        "*If the fake entity is out of view you have to respawn it and set all it's data again, this only works if the fake entity is within player view*"
+        "Teleporting a fake entity more than 8 blocks (if less use move packet) (don't have to but is advised)\n\n**NOTE**\n*If the fake entity is out of view you have to respawn it and set all it's data again, this only works if the fake entity is within player view*"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11714": {
     "id": 11714,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "System Chat Packet",
+    "description": "Packet fired when chat messages are sent to a player incoming from the system. EG: broadcasts from plugins ect. \n\n### This is also fired on action bar\n\n#### Note\nThe event-string value returns the minimessage format of the string, use `uncolored mini message from event-string` to get the raw text",
+    "syntax_pattern": "on system chat packet",
+    "compatible_addon_version": "4.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-string, event-boolean (is action bar)",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=11714",
+    "created_at": "2024-06-28T23:08:36.195776Z",
+    "updated_at": "2024-06-28T23:10:15.538571Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Packet fired when chat messages are sent to a player incoming from the system. EG: broadcasts from plugins ect.",
-        "### This is also fired on action bar",
-        "#### Note",
-        "The event-string value returns the minimessage format of the string, use `uncolored mini message from event-string` to get the raw text"
+        "Packet fired when chat messages are sent to a player incoming from the system. EG: broadcasts from plugins ect. \n\n### This is also fired on action bar\n\n#### Note\nThe event-string value returns the minimessage format of the string, use `uncolored mini message from event-string` to get the raw text"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11715": {
     "id": 11715,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Player Chat Packet",
+    "description": "Packet fired when chat messages are sent to a player incoming from another player. \n\n#### Do not use instead of `on chat`, rather this is to stop certain people seeing messages.\n\n#### Note\nThe event-string value returns the minimessage format of the string, use `uncolored mini message from event-string` to get the raw text",
+    "syntax_pattern": "on player chat packet",
+    "compatible_addon_version": "4.5.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-string, event-uuid (sender)",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=11715",
+    "created_at": "2024-06-28T23:11:27.937495Z",
+    "updated_at": "2024-06-28T23:11:27.937512Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Packet fired when chat messages are sent to a player incoming from another player.",
-        "#### Do not use instead of `on chat`, rather this is to stop certain people seeing messages.",
-        "#### Note",
-        "The event-string value returns the minimessage format of the string, use `uncolored mini message from event-string` to get the raw text"
+        "Packet fired when chat messages are sent to a player incoming from another player. \n\n#### Do not use instead of `on chat`, rather this is to stop certain people seeing messages.\n\n#### Note\nThe event-string value returns the minimessage format of the string, use `uncolored mini message from event-string` to get the raw text"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11716": {
     "id": 11716,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Fake Death",
+    "description": "Sends the death packet and the other packets required",
+    "syntax_pattern": "fake death [packet] of entity with id %number% for %players%",
+    "compatible_addon_version": "4.5,1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11716",
+    "created_at": "2024-07-01T16:15:12.599013Z",
+    "updated_at": "2024-07-01T16:15:12.599037Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sends the death packet and the other packets required"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11806": {
     "id": 11806,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Fake Entity Scale/Size",
+    "description": "Fakes the scale attribute to resize entities or player\n\n## This only works on 1.20.6+",
+    "syntax_pattern": "fake scale [packet] of entity with id %number% with [value|size] %number% for %players%",
+    "compatible_addon_version": "4.7.0",
+    "compatible_minecraft_version": "1.20.6",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11806",
+    "created_at": "2024-07-25T01:48:46.747966Z",
+    "updated_at": "2024-07-25T01:51:43.155388Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Fakes the scale attribute to resize entities or player",
-        "## This only works on 1.20.6+"
+        "Fakes the scale attribute to resize entities or player\n\n## This only works on 1.20.6+"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12991": {
     "id": 12991,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Add Player To Tablist",
+    "description": "Add any name and any skin with any ping to tablist.\n\nUses?\n\n`hide {_target} from {_player}` removes the player from the tablist. What if you want to add them back? Now you can\n\n#### You can use skin textures by inputting the texture into the skin name option\n\n### BIG NOTE!!\nThe `with username` part is if you plan on using teams packets to sort the tablist. **DO NOT** use real player names. just make them up. This value is not shown and is used behind the scenes. For sorting only alphabetically. Example below\n\n### Do not use real UUID's\nThis method spawns a fake player information without spawning the actual player entity. Using real uuids will mess things up\nKeep a note of the uuid used otherwise you cannot remove them, adding 2 with the same uuid means you can only remove 1. This on the client",
+    "syntax_pattern": "add [player] [named] %string% to tablist [with skin named %-string%] [with latency %-number%] [with username %-string%] for %players% [with] uuid %string%",
+    "compatible_addon_version": "4.11.6",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12991",
+    "created_at": "2025-01-25T03:42:12.088925Z",
+    "updated_at": "2025-11-03T00:39:18.658012Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Add any name and any skin with any ping to tablist.",
-        "Uses?",
-        "`hide {_target} from {_player}` removes the player from the tablist. What if you want to add them back? Now you can",
-        "#### You can use skin textures by inputting the texture into the skin name option",
-        "### BIG NOTE!!",
-        "The `with username` part is if you plan on using teams packets to sort the tablist. **DO NOT** use real player names. just make them up. This value is not shown and is used behind the scenes. For sorting only alphabetically. Example below",
-        "### Do not use real UUID's",
-        "This method spawns a fake player information without spawning the actual player entity. Using real uuids will mess things up",
-        "Keep a note of the uuid used otherwise you cannot remove them, adding 2 with the same uuid means you can only remove 1. This on the client"
+        "Add any name and any skin with any ping to tablist.\n\nUses?\n\n`hide {_target} from {_player}` removes the player from the tablist. What if you want to add them back? Now you can\n\n#### You can use skin textures by inputting the texture into the skin name option\n\n### BIG NOTE!!\nThe `with username` part is if you plan on using teams packets to sort the tablist. **DO NOT** use real player names. just make them up. This value is not shown and is used behind the scenes. For sorting only alphabetically. Example below\n\n### Do not use real UUID's\nThis method spawns a fake player information without spawning the actual player entity. Using real uuids will mess things up\nKeep a note of the uuid used otherwise you cannot remove them, adding 2 with the same uuid means you can only remove 1. This on the client"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12992": {
     "id": 12992,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Remove Player From Tablist",
+    "description": "Remove a player from tablist using UUID. Don't use this for real players *I mean you can but I would recommend the syntax from SkBee*. Use this for fake ones spawned",
+    "syntax_pattern": "remove tablist player[s] with uuid[s] %strings% for %players%",
+    "compatible_addon_version": "4.11.6",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=12992",
+    "created_at": "2025-01-25T03:43:10.903974Z",
+    "updated_at": "2025-01-25T03:43:29.892085Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Remove a player from tablist using UUID. Don't use this for real players *I mean you can but I would recommend the syntax from SkBee*. Use this for fake ones spawned"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11647": {
     "id": 11647,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Particle Send Event",
+    "description": "If you need more than the skript provides use reflect. \n\nReflect Syntax's:\n\nevent.getParticle() \nevent.getParticle().name()\nevent.setCancelled(true/false)\nevent.getPlayer()\nevent.getX()\nevent.getY()\nevent.getZ()\nevent.getXOffset()\nevent.getYOffset()\nevent.getZOffset()\nevent.getWorld()\nevent.getMaxSpeed()\nevent.getCount()\n\n\n\nThe event when a particle is sent :D\n\n\n\n[Git Link](https://github.com/Ekpoa/PoaSkRewritev2/blob/master/nms121/src/main/java/poa/packets/packetListener/events/ParticleEvent121.java)",
+    "syntax_pattern": "on particle send",
+    "compatible_addon_version": "4.4.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-particle, event-vector (offset), event-location, event-integer (amount of particles)",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=11647",
+    "created_at": "2024-06-18T14:41:05.455022Z",
+    "updated_at": "2025-01-27T02:55:32.998403Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "If you need more than the skript provides use reflect.",
-        "Reflect Syntax's:",
-        "event.getParticle()",
-        "event.getParticle().name()",
-        "event.setCancelled(true/false)",
-        "event.getPlayer()",
-        "event.getX()",
-        "event.getY()",
-        "event.getZ()",
-        "event.getXOffset()",
-        "event.getYOffset()",
-        "event.getZOffset()",
-        "event.getWorld()",
-        "event.getMaxSpeed()",
-        "event.getCount()",
-        "The event when a particle is sent :D",
-        "[Git Link](https://github.com/Ekpoa/PoaSkRewritev2/blob/master/nms121/src/main/java/poa/packets/packetListener/events/ParticleEvent121.java)"
+        "If you need more than the skript provides use reflect. \n\nReflect Syntax's:\n\nevent.getParticle() \nevent.getParticle().name()\nevent.setCancelled(true/false)\nevent.getPlayer()\nevent.getX()\nevent.getY()\nevent.getZ()\nevent.getXOffset()\nevent.getYOffset()\nevent.getZOffset()\nevent.getWorld()\nevent.getMaxSpeed()\nevent.getCount()\n\n\n\nThe event when a particle is sent :D\n\n\n\n[Git Link](https://github.com/Ekpoa/PoaSkRewritev2/blob/master/nms121/src/main/java/poa/packets/packetListener/events/ParticleEvent121.java)"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13245": {
     "id": 13245,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Ghost Effect (team)",
+    "description": "Creates the *ghost* like effect with invisible entities\n\n\n*you must have scoreboard-team anti override set to false in TAB config, if you have TAB*",
+    "syntax_pattern": "(send|make) %players% see %entities% as ghost [packet]",
+    "compatible_addon_version": "4.11.22",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13245",
+    "created_at": "2025-03-12T01:24:43.315528Z",
+    "updated_at": "2025-03-12T01:24:43.315550Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates the *ghost* like effect with invisible entities",
-        "*you must have scoreboard-team anti override set to false in TAB config, if you have TAB*"
+        "Creates the *ghost* like effect with invisible entities\n\n\n*you must have scoreboard-team anti override set to false in TAB config, if you have TAB*"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9246": {
     "id": 9246,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Team Packet",
+    "description": "Send a scoreboard team packet to player\n\nif using players in teams, you must disable TAB anti-override.\n\n### 1 entity/player can only be in 1 team at a time.\n### If adding a player to a team, use their name and not their uuid for the uuid section\n\nfor the nametag visibility use one of the following strings (case sensitive):\n\nalways\nhideForOtherTeams\nhideForOwnTeam\nnever\n\nfor collision use one of the following strings (case sensitive):\nalways\npushOtherTeams\npushOwnTeam\nnever",
+    "syntax_pattern": "send team packet to %players% with name %string% [displayname %-string%] [nametag visibility %-string%] [collision %-string%] [color %-color%] [prefix %-string%]] [suffix %-string%] [and] [see friendly %-boolean%] with entity uuid %strings%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9246",
+    "created_at": "2023-06-03T00:19:48.226294Z",
+    "updated_at": "2025-08-03T11:39:23.553696Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Send a scoreboard team packet to player",
-        "if using players in teams, you must disable TAB anti-override.",
-        "### 1 entity/player can only be in 1 team at a time.",
-        "### If adding a player to a team, use their name and not their uuid for the uuid section",
-        "for the nametag visibility use one of the following strings (case sensitive):",
-        "always",
-        "hideForOtherTeams",
-        "hideForOwnTeam",
-        "never",
-        "for collision use one of the following strings (case sensitive):",
-        "always",
-        "pushOtherTeams",
-        "pushOwnTeam",
-        "never"
+        "Send a scoreboard team packet to player\n\nif using players in teams, you must disable TAB anti-override.\n\n### 1 entity/player can only be in 1 team at a time.\n### If adding a player to a team, use their name and not their uuid for the uuid section\n\nfor the nametag visibility use one of the following strings (case sensitive):\n\nalways\nhideForOtherTeams\nhideForOwnTeam\nnever\n\nfor collision use one of the following strings (case sensitive):\nalways\npushOtherTeams\npushOwnTeam\nnever"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13247": {
     "id": 13247,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "All items in inventories in chunk",
+    "description": "If you have a chunk full of chests, this method grabs all those items\n\nI'm adding this because the same code performed in skript froze the server for 10 seconds. In java it is a lot more performant\n\n*note* uses for this is very little, I personally needed it, so I added it here",
+    "syntax_pattern": "all items in containers in chunk %chunk%",
+    "compatible_addon_version": "4.11.25",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": "item type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13247",
+    "created_at": "2025-03-16T22:43:06.406377Z",
+    "updated_at": "2025-03-17T01:24:15.393095Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "If you have a chunk full of chests, this method grabs all those items",
-        "I'm adding this because the same code performed in skript froze the server for 10 seconds. In java it is a lot more performant",
-        "*note* uses for this is very little, I personally needed it, so I added it here"
+        "If you have a chunk full of chests, this method grabs all those items\n\nI'm adding this because the same code performed in skript froze the server for 10 seconds. In java it is a lot more performant\n\n*note* uses for this is very little, I personally needed it, so I added it here"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13304": {
     "id": 13304,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Fake Item Cooldown",
+    "description": "Fakes the cooldown of the item.\n\nThe item cooldown is similar to that used by vanilla enderpearls\n\nThis is different to the Skript's syntax because Skript's (Bukkit's) prevents the client from using the item. This does not",
+    "syntax_pattern": "fake item cooldown of %itemtype% for %players% for %integer% ticks",
+    "compatible_addon_version": "4.12.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13304",
+    "created_at": "2025-03-25T11:22:44.137749Z",
+    "updated_at": "2025-03-25T11:22:44.137768Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Fakes the cooldown of the item.",
-        "The item cooldown is similar to that used by vanilla enderpearls",
-        "This is different to the Skript's syntax because Skript's (Bukkit's) prevents the client from using the item. This does not"
+        "Fakes the cooldown of the item.\n\nThe item cooldown is similar to that used by vanilla enderpearls\n\nThis is different to the Skript's syntax because Skript's (Bukkit's) prevents the client from using the item. This does not"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13286": {
     "id": 13286,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Set Blocks FAST",
+    "description": "Uses NMS methods to set blocks fast\n\n\n\n\n*just for information*\nSkript crashed server trying to fill 4 million blocks\nJava crashed server trying to fill 4 million blocks\nThis method took 0.42 seconds to fill 4 million blocks",
+    "syntax_pattern": "set %locations% to %blockdata% fast  (this one is slower)\nset [blocks from] %location% to %location% to %blockdata% [even] fast[er].  (this one is ALOT faster)",
+    "compatible_addon_version": "4.12.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13286",
+    "created_at": "2025-03-22T12:16:28.195176Z",
+    "updated_at": "2025-03-27T21:41:08.696720Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Uses NMS methods to set blocks fast",
-        "*just for information*",
-        "Skript crashed server trying to fill 4 million blocks",
-        "Java crashed server trying to fill 4 million blocks",
-        "This method took 0.42 seconds to fill 4 million blocks"
+        "Uses NMS methods to set blocks fast\n\n\n\n\n*just for information*\nSkript crashed server trying to fill 4 million blocks\nJava crashed server trying to fill 4 million blocks\nThis method took 0.42 seconds to fill 4 million blocks"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13307": {
     "id": 13307,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Replace Blocks FAST",
+    "description": "Replaces blocks within 2 locations extremely fast\n\nBukkit and Skript crashes the server when attempted to do 4 million blocks within a single tick\n\nThis effect takes 0.42 seconds to execute",
+    "syntax_pattern": "replace [blocks] %blockdata% (from|within) %location% and %location% to %blockdata% fast",
+    "compatible_addon_version": "4.12.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13307",
+    "created_at": "2025-03-28T13:44:37.705635Z",
+    "updated_at": "2025-03-28T13:44:37.705655Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Replaces blocks within 2 locations extremely fast",
-        "Bukkit and Skript crashes the server when attempted to do 4 million blocks within a single tick",
-        "This effect takes 0.42 seconds to execute"
+        "Replaces blocks within 2 locations extremely fast\n\nBukkit and Skript crashes the server when attempted to do 4 million blocks within a single tick\n\nThis effect takes 0.42 seconds to execute"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_12392": {
     "id": 12392,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Sound Packet",
+    "description": "This event is purely accessible via reflect. Examples are below\n\nThis is for 1.20.6+\n\n[GitHub Link](https://github.com/Ekpoa/PoaSkRewritev2/blob/master/nms1213/src/main/java/poa/packets/packetListener/events/SoundEvent1214.java)",
+    "syntax_pattern": "REFLECT ONLY \n\nNo imports are needed, this event just has no registered values",
+    "compatible_addon_version": "4.11.2",
+    "compatible_minecraft_version": "1.20.6",
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=12392",
+    "created_at": "2024-11-30T22:53:59.816149Z",
+    "updated_at": "2025-03-30T23:37:17.805956Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "This event is purely accessible via reflect. Examples are below",
-        "This is for 1.20.6+",
-        "[GitHub Link](https://github.com/Ekpoa/PoaSkRewritev2/blob/master/nms1213/src/main/java/poa/packets/packetListener/events/SoundEvent1214.java)"
+        "This event is purely accessible via reflect. Examples are below\n\nThis is for 1.20.6+\n\n[GitHub Link](https://github.com/Ekpoa/PoaSkRewritev2/blob/master/nms1213/src/main/java/poa/packets/packetListener/events/SoundEvent1214.java)"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13712": {
     "id": 13712,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Encode / Decode Item Stack to Base64",
+    "description": "Turn item stacks into a base 64 expression for better storage",
+    "syntax_pattern": "encode %itemtype% [to (string|base 64)]\ndecode %string% [to item]",
+    "compatible_addon_version": "4.12.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": "String & Item Stack",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13712",
+    "created_at": "2025-05-05T12:53:53.100946Z",
+    "updated_at": "2025-05-05T12:53:53.100966Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Turn item stacks into a base 64 expression for better storage"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13776": {
     "id": 13776,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "world guard region",
+    "description": "Gets the world guard region object. This is used for reflect only",
+    "syntax_pattern": "world guard region %string% in [world] %world%",
+    "compatible_addon_version": "4.13.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": "object (protected region)",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13776",
+    "created_at": "2025-06-29T23:22:54.803810Z",
+    "updated_at": "2025-06-29T23:22:54.803830Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the world guard region object. This is used for reflect only"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13913": {
     "id": 13913,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Roman Numerals",
+    "description": "Convert any number to roman numerals and back again\n\nanything above 3999 will just have a ton of M's as roman numerals have no letter for higher than this number. Minecraft doesn't support overline characters",
+    "syntax_pattern": "%number% as roman numeral[s]\nroman numeral[s] %string% as [a] number",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": "String Integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13913",
+    "created_at": "2025-08-09T11:46:06.230950Z",
+    "updated_at": "2025-08-09T11:46:06.230971Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Convert any number to roman numerals and back again",
-        "anything above 3999 will just have a ton of M's as roman numerals have no letter for higher than this number. Minecraft doesn't support overline characters"
+        "Convert any number to roman numerals and back again\n\nanything above 3999 will just have a ton of M's as roman numerals have no letter for higher than this number. Minecraft doesn't support overline characters"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9881": {
     "id": 9881,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Add Data to Metadata Packet (OLD)",
+    "description": "##OLD METHOD\n\nThe String options are as followed: *(capitals do not matter)*\n\n\"fire %boolean%\"\n\"invisible %boolean%\"\n\"glowing %boolean%\"\n\"silent %boolean%\"\n\"gravity %boolean%\"\n\"name visible %boolean%\"\n\n\"name %string%\" *(this should follow minimessage format)*\n\n\"pose %string%\" *(look at the metadata packet for list of poses)*\n\n\"health %number%\"\n\"air %number%\" (this is the remaining air, 300 is default and it is in ticks, setting it to 150 will show 5/10 bubbles that increase as you are out of the water) \n\n**Below is armor stand data**\n\"stand small %boolean%\"\n\"stand arms %boolean%\"\n\"stand NoBasePlate %boolean%\"\n\"stand marker %boolean%\"\n\n\"stand left arm %number% %number% %number%\" *(no commas)*\n\"stand left leg %number% %number% %number%\" *(no commas)*\n\n\"stand right arm %number% %number% %number%\" *(no commas)*\n\"stand right leg %number% %number% %number%\" *(no commas)*\n\n\"stand head %number% %number% %number%\" *(no commas)*\n\"stand body %number% %number% %number%\" *(no commas)*\n\n\n\"display item\" with %item%\n\"display block\" with %item%\n\"display interpolation delay %number%\"\n\"display transformation duration %number%\"\n\"display posrot %number%\" *position and rotation*\n\"display translation %number% %number% %number%\"\n\"display scale %number% %number% %number%\"\n\"display left rotation %number% %number% %number% %number%\"\n\"display right rotation %number% %number% %number% %number%\"\n\"display billboard %string%\" *fixed/vertical/horizontal/center*\n\"display brightness %number% %number%\" *(block light, sky light)*\n\"display view range %number%\"\n\"display shadow radius %number%\"\n\"display shadow strength %number%\"\n\"display width %number%\"\n\"display height %number%\"\n\"display glow override %number% %number% %number%\" *(no commas)*\n\"display line width %integer%\"\n\"display background color %integer% %integer% %integer% %integer%\" *ARGB (no commas)*\n\"display text %text%\"\n\n\"interaction width %number%\"\n\"interaction height%number%\"",
+    "syntax_pattern": "add [data] [from|of] %string% [with %itemtype] to [packet] %metadata packet%",
+    "compatible_addon_version": "2.8",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9881",
+    "created_at": "2023-11-09T02:30:30.950169Z",
+    "updated_at": "2025-08-16T15:00:20.689975Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "##OLD METHOD",
-        "The String options are as followed: *(capitals do not matter)*",
-        "\"fire %boolean%\"",
-        "\"invisible %boolean%\"",
-        "\"glowing %boolean%\"",
-        "\"silent %boolean%\"",
-        "\"gravity %boolean%\"",
-        "\"name visible %boolean%\"",
-        "\"name %string%\" *(this should follow minimessage format)*",
-        "\"pose %string%\" *(look at the metadata packet for list of poses)*",
-        "\"health %number%\"",
-        "\"air %number%\" (this is the remaining air, 300 is default and it is in ticks, setting it to 150 will show 5/10 bubbles that increase as you are out of the water)",
-        "**Below is armor stand data**",
-        "\"stand small %boolean%\"",
-        "\"stand arms %boolean%\"",
-        "\"stand NoBasePlate %boolean%\"",
-        "\"stand marker %boolean%\"",
-        "\"stand left arm %number% %number% %number%\" *(no commas)*",
-        "\"stand left leg %number% %number% %number%\" *(no commas)*",
-        "\"stand right arm %number% %number% %number%\" *(no commas)*",
-        "\"stand right leg %number% %number% %number%\" *(no commas)*",
-        "\"stand head %number% %number% %number%\" *(no commas)*",
-        "\"stand body %number% %number% %number%\" *(no commas)*",
-        "\"display item\" with %item%",
-        "\"display block\" with %item%",
-        "\"display interpolation delay %number%\"",
-        "\"display transformation duration %number%\"",
-        "\"display posrot %number%\" *position and rotation*",
-        "\"display translation %number% %number% %number%\"",
-        "\"display scale %number% %number% %number%\"",
-        "\"display left rotation %number% %number% %number% %number%\"",
-        "\"display right rotation %number% %number% %number% %number%\"",
-        "\"display billboard %string%\" *fixed/vertical/horizontal/center*",
-        "\"display brightness %number% %number%\" *(block light, sky light)*",
-        "\"display view range %number%\"",
-        "\"display shadow radius %number%\"",
-        "\"display shadow strength %number%\"",
-        "\"display width %number%\"",
-        "\"display height %number%\"",
-        "\"display glow override %number% %number% %number%\" *(no commas)*",
-        "\"display line width %integer%\"",
-        "\"display background color %integer% %integer% %integer% %integer%\" *ARGB (no commas)*",
-        "\"display text %text%\"",
-        "\"interaction width %number%\"",
-        "\"interaction height%number%\""
+        "##OLD METHOD\n\nThe String options are as followed: *(capitals do not matter)*\n\n\"fire %boolean%\"\n\"invisible %boolean%\"\n\"glowing %boolean%\"\n\"silent %boolean%\"\n\"gravity %boolean%\"\n\"name visible %boolean%\"\n\n\"name %string%\" *(this should follow minimessage format)*\n\n\"pose %string%\" *(look at the metadata packet for list of poses)*\n\n\"health %number%\"\n\"air %number%\" (this is the remaining air, 300 is default and it is in ticks, setting it to 150 will show 5/10 bubbles that increase as you are out of the water) \n\n**Below is armor stand data**\n\"stand small %boolean%\"\n\"stand arms %boolean%\"\n\"stand NoBasePlate %boolean%\"\n\"stand marker %boolean%\"\n\n\"stand left arm %number% %number% %number%\" *(no commas)*\n\"stand left leg %number% %number% %number%\" *(no commas)*\n\n\"stand right arm %number% %number% %number%\" *(no commas)*\n\"stand right leg %number% %number% %number%\" *(no commas)*\n\n\"stand head %number% %number% %number%\" *(no commas)*\n\"stand body %number% %number% %number%\" *(no commas)*\n\n\n\"display item\" with %item%\n\"display block\" with %item%\n\"display interpolation delay %number%\"\n\"display transformation duration %number%\"\n\"display posrot %number%\" *position and rotation*\n\"display translation %number% %number% %number%\"\n\"display scale %number% %number% %number%\"\n\"display left rotation %number% %number% %number% %number%\"\n\"display right rotation %number% %number% %number% %number%\"\n\"display billboard %string%\" *fixed/vertical/horizontal/center*\n\"display brightness %number% %number%\" *(block light, sky light)*\n\"display view range %number%\"\n\"display shadow radius %number%\"\n\"display shadow strength %number%\"\n\"display width %number%\"\n\"display height %number%\"\n\"display glow override %number% %number% %number%\" *(no commas)*\n\"display line width %integer%\"\n\"display background color %integer% %integer% %integer% %integer%\" *ARGB (no commas)*\n\"display text %text%\"\n\n\"interaction width %number%\"\n\"interaction height%number%\""
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13921": {
     "id": 13921,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "New Metadata Packet",
+    "description": "Metadata for entities, both for real and fake. Note that if a real entity changes pose or anything the metadata is overwritten by the server\n\n\nView Example for all options",
+    "syntax_pattern": "new metadata packet with id %number%",
+    "compatible_addon_version": "4.13.12",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": "metadata",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13921",
+    "created_at": "2025-08-16T15:02:30.367484Z",
+    "updated_at": "2025-08-16T15:02:30.367517Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Metadata for entities, both for real and fake. Note that if a real entity changes pose or anything the metadata is overwritten by the server",
-        "View Example for all options"
+        "Metadata for entities, both for real and fake. Note that if a real entity changes pose or anything the metadata is overwritten by the server\n\n\nView Example for all options"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13986": {
     "id": 13986,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Fake Biome Packet",
+    "description": "Send fake biomes. The string must be a namespace key. eg `minecraft:plains` this also works for custom biomes too\n\n### Only for 1.12.3+\n\nNote: sometimes you may need to send twice. send once, wait a tick and send again. Seems to be a client thing. All the code is done async.",
+    "syntax_pattern": "[send] fake biome [named] %string% between %location% and %location% for %players%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": "1.12.3",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13986",
+    "created_at": "2025-09-16T21:57:30.942366Z",
+    "updated_at": "2025-09-16T21:57:30.942385Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Send fake biomes. The string must be a namespace key. eg `minecraft:plains` this also works for custom biomes too",
-        "### Only for 1.12.3+",
-        "Note: sometimes you may need to send twice. send once, wait a tick and send again. Seems to be a client thing. All the code is done async."
+        "Send fake biomes. The string must be a namespace key. eg `minecraft:plains` this also works for custom biomes too\n\n### Only for 1.12.3+\n\nNote: sometimes you may need to send twice. send once, wait a tick and send again. Seems to be a client thing. All the code is done async."
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14204": {
     "id": 14204,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Player Action Packet",
+    "description": "Called when a player runs an action\n\nThe `event-string` will return one of the following:\n\nDROP_ITEM\nABORT_DESTROY_BLOCK\nDROP_ALL_ITEMS\nRELEASE_USE_ITEM\nSTART_DESTROY_BLOCK\nSTOP_DESTROY_BLOCK\nSWAP_ITEM_WITH_OFFHAND",
+    "syntax_pattern": "on player action packet",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-integer (sequence number), event-block (if applicable), event-location, event-string",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14204",
+    "created_at": "2025-10-03T01:31:43.897586Z",
+    "updated_at": "2025-10-03T01:31:43.897607Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a player runs an action",
-        "The `event-string` will return one of the following:",
-        "DROP_ITEM",
-        "ABORT_DESTROY_BLOCK",
-        "DROP_ALL_ITEMS",
-        "RELEASE_USE_ITEM",
-        "START_DESTROY_BLOCK",
-        "STOP_DESTROY_BLOCK",
-        "SWAP_ITEM_WITH_OFFHAND"
+        "Called when a player runs an action\n\nThe `event-string` will return one of the following:\n\nDROP_ITEM\nABORT_DESTROY_BLOCK\nDROP_ALL_ITEMS\nRELEASE_USE_ITEM\nSTART_DESTROY_BLOCK\nSTOP_DESTROY_BLOCK\nSWAP_ITEM_WITH_OFFHAND"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11219": {
     "id": 11219,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Fake Player",
+    "description": "Spawns a fake player in the world. \n\nThey do vanish on world change so run events and respawn them\n\n### If using skin textures, change the skin name to the format of `texture,signature` or just `texture` examples below.\n\n### If using a custom skin you just need `texture`! DO NOT USE SIGNATURE\n\n#### Side Note: In the PoaSK config change `SaveSkinCacheToDisk: false` to `SaveSkinCacheToDisk: true` cache textures signature to disk when using just texture. Recommended for constant placing of fake characters. *If the config option is not there. Just add the line*\n\n#### Further Note: When using just `texture` there first spawned fake entity (unless disk cached) will show no skin until the skin is fetched. Then it is cached and will be instant.",
+    "syntax_pattern": "spawn fake player named %string% with skin named %string% [with name hidden %boolean%] [on tablist %boolean%] [with latency %number%] at %location% for %players% with id %number% [and] uuid %string%\n\n\nspawn fake player named %string% with skin named %string% [with name hidden %boolean%] [on tablist %-boolean%] [with latency %-number%] at %location% for %players%\"   #OUTDATED",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": "1.20.2",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11219",
+    "created_at": "2024-03-25T05:33:33.163494Z",
+    "updated_at": "2025-10-12T23:44:53.371417Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Spawns a fake player in the world.",
-        "They do vanish on world change so run events and respawn them",
-        "### If using skin textures, change the skin name to the format of `texture,signature` or just `texture` examples below.",
-        "### If using a custom skin you just need `texture`! DO NOT USE SIGNATURE",
-        "#### Side Note: In the PoaSK config change `SaveSkinCacheToDisk: false` to `SaveSkinCacheToDisk: true` cache textures signature to disk when using just texture. Recommended for constant placing of fake characters. *If the config option is not there. Just add the line*",
-        "#### Further Note: When using just `texture` there first spawned fake entity (unless disk cached) will show no skin until the skin is fetched. Then it is cached and will be instant."
+        "Spawns a fake player in the world. \n\nThey do vanish on world change so run events and respawn them\n\n### If using skin textures, change the skin name to the format of `texture,signature` or just `texture` examples below.\n\n### If using a custom skin you just need `texture`! DO NOT USE SIGNATURE\n\n#### Side Note: In the PoaSK config change `SaveSkinCacheToDisk: false` to `SaveSkinCacheToDisk: true` cache textures signature to disk when using just texture. Recommended for constant placing of fake characters. *If the config option is not there. Just add the line*\n\n#### Further Note: When using just `texture` there first spawned fake entity (unless disk cached) will show no skin until the skin is fetched. Then it is cached and will be instant."
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14321": {
     "id": 14321,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Every Packet",
+    "description": "This is an advanced feature and is **not** enabled by default. Enable it in the PoaSK config\n\nThis event is designed to be used with reflect for any packet management\n\nThis event is triggered by every packet sent to and from the client.\n\nHeavy code under this event is not advised as it is ran on the Netty thread and could disconnect players.\n\n### I will not give help for this event if you do not have a fundamental understanding of packets or NMS",
+    "syntax_pattern": "on every packet",
+    "compatible_addon_version": "4.16.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-boolean (is clientbound), event-object (packet itself), event-player",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14321",
+    "created_at": "2025-12-05T16:47:08.269810Z",
+    "updated_at": "2025-12-05T16:51:30.775919Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "This is an advanced feature and is **not** enabled by default. Enable it in the PoaSK config",
-        "This event is designed to be used with reflect for any packet management",
-        "This event is triggered by every packet sent to and from the client.",
-        "Heavy code under this event is not advised as it is ran on the Netty thread and could disconnect players.",
-        "### I will not give help for this event if you do not have a fundamental understanding of packets or NMS"
+        "This is an advanced feature and is **not** enabled by default. Enable it in the PoaSK config\n\nThis event is designed to be used with reflect for any packet management\n\nThis event is triggered by every packet sent to and from the client.\n\nHeavy code under this event is not advised as it is ran on the Netty thread and could disconnect players.\n\n### I will not give help for this event if you do not have a fundamental understanding of packets or NMS"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8543": {
     "id": 8543,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Client Glow",
+    "description": "Allows you to make an entity or player glow for a player and not glow for another. Or different colours. Useful for things such as teams. \n\nDo note: for entities (maybe players) un rendering the entity will make the player stop seeing them glow.\n\n### If you have TAB make sure you turn `team anti-overide` to `false`\n### If you do not have this option (due to TAB's newer versions) change `DisableTabTeamHandling` to `true` in PoaSK config. DO NOT CHANGE IF YOU ARE NOT USING TAB",
+    "syntax_pattern": "make %entity% glow %color% for %players%",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": "1.19",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8543",
+    "created_at": "2023-03-02T03:16:43.140048Z",
+    "updated_at": "2025-12-08T00:02:20.811864Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Allows you to make an entity or player glow for a player and not glow for another. Or different colours. Useful for things such as teams.",
-        "Do note: for entities (maybe players) un rendering the entity will make the player stop seeing them glow.",
-        "### If you have TAB make sure you turn `team anti-overide` to `false`",
-        "### If you do not have this option (due to TAB's newer versions) change `DisableTabTeamHandling` to `true` in PoaSK config. DO NOT CHANGE IF YOU ARE NOT USING TAB"
+        "Allows you to make an entity or player glow for a player and not glow for another. Or different colours. Useful for things such as teams. \n\nDo note: for entities (maybe players) un rendering the entity will make the player stop seeing them glow.\n\n### If you have TAB make sure you turn `team anti-overide` to `false`\n### If you do not have this option (due to TAB's newer versions) change `DisableTabTeamHandling` to `true` in PoaSK config. DO NOT CHANGE IF YOU ARE NOT USING TAB"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8535": {
     "id": 8535,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Debug Marker (1.21.9+ has changed this. Read description)",
+    "description": "Creates a Minecraft debug marker. Due to Mojang shader change at 1.16 only the green channel functions correctly upto 1.20.2\n\nall colours work on 1.20.4 - 1.21.8\n\n## NOTE: 1.21.9+ only green shows. Color cannot be changed, text cannot be changed it ONLY lasts for 10 seconds.\n### Further note: If using via versions:\nserver versions lower than 1.21.9 will not show the marker to clients 1.21.9+\nserver versions 1.21.9+ will not show markers to clients below 1.21.9\n\nThis is all due to minecraft's changes. These packets are designed for minecraft's developers, thus not updated",
+    "syntax_pattern": "create debug marker at %locations% with color %color% [[and ]with alpha %-number%] [[and ]with text %-string%] for %players% [for %-timespan%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": "1.20.2",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8535",
+    "created_at": "2023-03-02T03:04:40.476415Z",
+    "updated_at": "2025-12-11T13:07:04.863382Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a Minecraft debug marker. Due to Mojang shader change at 1.16 only the green channel functions correctly upto 1.20.2",
-        "all colours work on 1.20.4 - 1.21.8",
-        "## NOTE: 1.21.9+ only green shows. Color cannot be changed, text cannot be changed it ONLY lasts for 10 seconds.",
-        "### Further note: If using via versions:",
-        "server versions lower than 1.21.9 will not show the marker to clients 1.21.9+",
-        "server versions 1.21.9+ will not show markers to clients below 1.21.9",
-        "This is all due to minecraft's changes. These packets are designed for minecraft's developers, thus not updated"
+        "Creates a Minecraft debug marker. Due to Mojang shader change at 1.16 only the green channel functions correctly upto 1.20.2\n\nall colours work on 1.20.4 - 1.21.8\n\n## NOTE: 1.21.9+ only green shows. Color cannot be changed, text cannot be changed it ONLY lasts for 10 seconds.\n### Further note: If using via versions:\nserver versions lower than 1.21.9 will not show the marker to clients 1.21.9+\nserver versions 1.21.9+ will not show markers to clients below 1.21.9\n\nThis is all due to minecraft's changes. These packets are designed for minecraft's developers, thus not updated"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14334": {
     "id": 14334,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Poa",
+    "title": "Chunk Data Packet",
+    "description": "This event is fired when a player loads a chunk.\n\n## NOTE: do not make real world changes with this event. If you want to use [this](https://skripthub.net/docs/?id=10460)\n\nThis event is used when faking blocks in a chunk when they load them. This is faster than using the `Player Chunk Load` and then faking blocks\n\nCheck examples of how to use\n\nIf you cancel this event, player will just see void",
+    "syntax_pattern": "on Chunk Data Packet",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "PoaSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-chunk",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14334",
+    "created_at": "2025-12-11T15:41:41.262608Z",
+    "updated_at": "2025-12-11T15:41:41.262627Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "This event is fired when a player loads a chunk.",
-        "## NOTE: do not make real world changes with this event. If you want to use [this](https://skripthub.net/docs/?id=10460)",
-        "This event is used when faking blocks in a chunk when they load them. This is faster than using the `Player Chunk Load` and then faking blocks",
-        "Check examples of how to use",
-        "If you cancel this event, player will just see void"
+        "This event is fired when a player loads a chunk.\n\n## NOTE: do not make real world changes with this event. If you want to use [this](https://skripthub.net/docs/?id=10460)\n\nThis event is used when faking blocks in a chunk when they load them. This is faster than using the `Player Chunk Load` and then faking blocks\n\nCheck examples of how to use\n\nIf you cancel this event, player will just see void"
       ],
       "ko": [
-        "[PoaSK] 한국어 가이드팩 준비 중"
+        "[POASK] 한국어 가이드 번역 대기 중"
       ]
     }
   }

@@ -1,679 +1,1396 @@
 {
   "syntax_11812": {
     "id": 11812,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Expand/Contract",
+    "description": "Makes a region larger or smaller in a given direction by a given amount. Optionally takes an opposite amount to expand the region in the other direction.\nRegions can also be expanded vertically, which makes them span from the min to the max of the world they're in.",
+    "syntax_pattern": "(expand|contract) %worldeditregions% (up|down|north|south|east|west) [[by] %number% [blocks|times]] [and %number% [in opposite direction]]\nexpand %worldeditregions% vertically",
+    "compatible_addon_version": "1.0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11812",
+    "created_at": "2024-07-29T05:10:35.228625Z",
+    "updated_at": "2024-07-29T05:10:35.228640Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Makes a region larger or smaller in a given direction by a given amount. Optionally takes an opposite amount to expand the region in the other direction.",
-        "Regions can also be expanded vertically, which makes them span from the min to the max of the world they're in."
+        "Makes a region larger or smaller in a given direction by a given amount. Optionally takes an opposite amount to expand the region in the other direction.\nRegions can also be expanded vertically, which makes them span from the min to the max of the world they're in."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11813": {
     "id": 11813,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Inset/Outset",
+    "description": "Insets or outsets a region by a given number of blocks. Can optionally only perform the operation vertically (up and down) or horizontally (north, south, east, and west).",
+    "syntax_pattern": "(in|out)set %worldeditregions% by %number% [blocks] [vertically|horizontally]",
+    "compatible_addon_version": "1.0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11813",
+    "created_at": "2024-07-29T05:10:35.237693Z",
+    "updated_at": "2024-07-29T05:10:35.237722Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Insets or outsets a region by a given number of blocks. Can optionally only perform the operation vertically (up and down) or horizontally (north, south, east, and west)."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11814": {
     "id": 11814,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Block Count",
+    "description": "Gets the number of a certain type of block in a region. Can use a mask to specify more than one kind of block.",
+    "syntax_pattern": "[the] (count|number) of blocks in %worldeditregions% that match [mask] %string/itemtype/worldeditmask%\n[the] (count|number) of %string/itemtype/worldeditmask% [blocks] in %worldeditregions%",
+    "compatible_addon_version": "1.0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11814",
+    "created_at": "2024-07-29T05:10:35.246515Z",
+    "updated_at": "2024-07-29T05:10:35.246529Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the number of a certain type of block in a region. Can use a mask to specify more than one kind of block."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11826": {
     "id": 11826,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Schematic - Paste",
+    "description": "Pastes a schematic, with a bunch of configurable options (see below for a list of them).\nNote that the name of the schematic shouldn't include any path, as skript-worldedit will always start at WorldEdit's schematics directory.\n\nEntries:\n* paste entities: whether the schematic should copy entities\n* paste biomes: whether the schematic should copy biomes\n* ignore air: whether the schematic should paste air blocks\n* rotation: the number of degrees that the pasted schematic should be rotated by (around the y-axis)\n* mask: a mask which will only let matching blocks be pasted",
+    "syntax_pattern": "paste [schem[atic] (named|with name)] %string% at %locations%",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11826",
+    "created_at": "2024-08-01T16:44:44.063061Z",
+    "updated_at": "2024-08-01T16:44:44.063076Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Pastes a schematic, with a bunch of configurable options (see below for a list of them).",
-        "Note that the name of the schematic shouldn't include any path, as skript-worldedit will always start at WorldEdit's schematics directory.",
-        "Entries:",
-        "* paste entities: whether the schematic should copy entities",
-        "* paste biomes: whether the schematic should copy biomes",
-        "* ignore air: whether the schematic should paste air blocks",
-        "* rotation: the number of degrees that the pasted schematic should be rotated by (around the y-axis)",
-        "* mask: a mask which will only let matching blocks be pasted"
+        "Pastes a schematic, with a bunch of configurable options (see below for a list of them).\nNote that the name of the schematic shouldn't include any path, as skript-worldedit will always start at WorldEdit's schematics directory.\n\nEntries:\n* paste entities: whether the schematic should copy entities\n* paste biomes: whether the schematic should copy biomes\n* ignore air: whether the schematic should paste air blocks\n* rotation: the number of degrees that the pasted schematic should be rotated by (around the y-axis)\n* mask: a mask which will only let matching blocks be pasted"
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11827": {
     "id": 11827,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Schematic - Save",
+    "description": "Saves a region as a schematic, with a bunch of configurable options (see below for a list of them).\nNote that the name of the schematic shouldn't include any path, as skript-worldedit will always start at WorldEdit's schematics directory.\n\nEntries:\n* copy entities: whether the schematic should copy entities\n* copy biomes: whether the schematic should copy biomes\n* remove entities: whether the schematic should remove entities\n* overwrite: whether the schematic should overwrite any schematics of the same name (if false, the schematic won't save if a schematic is found with the same name)\n* origin: where the origin of the saved schematic should be\n* mask: a mask which will only let matching blocks be copied",
+    "syntax_pattern": "save %worldeditregion% as [a] [schem[atic] (named|with name)] %string%",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11827",
+    "created_at": "2024-08-01T16:44:44.070756Z",
+    "updated_at": "2024-08-01T16:44:44.070770Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Saves a region as a schematic, with a bunch of configurable options (see below for a list of them).",
-        "Note that the name of the schematic shouldn't include any path, as skript-worldedit will always start at WorldEdit's schematics directory.",
-        "Entries:",
-        "* copy entities: whether the schematic should copy entities",
-        "* copy biomes: whether the schematic should copy biomes",
-        "* remove entities: whether the schematic should remove entities",
-        "* overwrite: whether the schematic should overwrite any schematics of the same name (if false, the schematic won't save if a schematic is found with the same name)",
-        "* origin: where the origin of the saved schematic should be",
-        "* mask: a mask which will only let matching blocks be copied"
+        "Saves a region as a schematic, with a bunch of configurable options (see below for a list of them).\nNote that the name of the schematic shouldn't include any path, as skript-worldedit will always start at WorldEdit's schematics directory.\n\nEntries:\n* copy entities: whether the schematic should copy entities\n* copy biomes: whether the schematic should copy biomes\n* remove entities: whether the schematic should remove entities\n* overwrite: whether the schematic should overwrite any schematics of the same name (if false, the schematic won't save if a schematic is found with the same name)\n* origin: where the origin of the saved schematic should be\n* mask: a mask which will only let matching blocks be copied"
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11961": {
     "id": 11961,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Forest",
+    "description": "Generates a forest of a specific tree type in a given region, with a given density. The default density is 5.\nNote that this effect uses a new tree type, not the Skript one.",
+    "syntax_pattern": "generate [a] %treetype% forest [with]in %worldeditregions% [with density %number%] [lazily]",
+    "compatible_addon_version": "1.1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11961",
+    "created_at": "2024-09-17T17:58:59.209125Z",
+    "updated_at": "2024-09-17T17:58:59.209146Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Generates a forest of a specific tree type in a given region, with a given density. The default density is 5.",
-        "Note that this effect uses a new tree type, not the Skript one."
+        "Generates a forest of a specific tree type in a given region, with a given density. The default density is 5.\nNote that this effect uses a new tree type, not the Skript one."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11962": {
     "id": 11962,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Schematic - Delete",
+    "description": "Deletes a schematic. Nothing too fancy.",
+    "syntax_pattern": "delete schem[atic][s] [named|with name] %strings%",
+    "compatible_addon_version": "1.1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11962",
+    "created_at": "2024-09-17T17:58:59.222296Z",
+    "updated_at": "2024-09-17T17:58:59.222310Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Deletes a schematic. Nothing too fancy."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11824": {
     "id": 11824,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Schematic - Paste",
+    "description": "Pastes a schematic at a location(s). Can be rotated, and can choose whether it should ignore air or not.\nThere is also a section for pasting schematics, which features more options.",
+    "syntax_pattern": "paste [schem[atic] [named|with name]] %string% at %locations% [(with rotation|rotated by) %number% [degrees]] [[and] while ignoring air]",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11824",
+    "created_at": "2024-08-01T16:44:44.044422Z",
+    "updated_at": "2024-09-17T17:58:59.231575Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Pastes a schematic at a location(s). Can be rotated, and can choose whether it should ignore air or not.",
-        "There is also a section for pasting schematics, which features more options."
+        "Pastes a schematic at a location(s). Can be rotated, and can choose whether it should ignore air or not.\nThere is also a section for pasting schematics, which features more options."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11764": {
     "id": 11764,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Place Centre",
+    "description": "Places a block in the centre of a given region using a given pattern.",
+    "syntax_pattern": "(create|place|make|generate) [a] block at [the] cent(re|er) of %worldeditregions% (with|using) [pattern] %string/itemtype/worldeditpattern% [lazily]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11764",
+    "created_at": "2024-07-15T15:24:46.947089Z",
+    "updated_at": "2024-07-26T00:41:17.972028Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Places a block in the centre of a given region using a given pattern."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11758": {
     "id": 11758,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Create Walls",
+    "description": "Creates the walls of a given region using a given pattern.",
+    "syntax_pattern": "create [the] walls (of|around) %worldeditregions% ([made] out of|with|using) [pattern] %string/itemtype/worldeditpattern% [lazily]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11758",
+    "created_at": "2024-07-15T15:24:46.897529Z",
+    "updated_at": "2024-07-26T00:41:17.918410Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates the walls of a given region using a given pattern."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11759": {
     "id": 11759,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Flora",
+    "description": "Generates flora in a given region, with a given density. The default density is 5.",
+    "syntax_pattern": "(create|place|make|generate) flora [with]in %worldeditregions% [with density %number%] [lazily]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11759",
+    "created_at": "2024-07-15T15:24:46.905709Z",
+    "updated_at": "2024-07-26T00:41:17.926268Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Generates flora in a given region, with a given density. The default density is 5."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11760": {
     "id": 11760,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Hollow Out",
+    "description": "Hollows out objects in a given region, using a given thickness and leaving behind a given pattern.\nThe default thickness is 1, and the default pattern is just air.",
+    "syntax_pattern": "hollow out %worldeditregions% [with thickness %number%] [and] [(with pattern|leaving behind) %string/itemtype/worldeditpattern%] [lazily]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11760",
+    "created_at": "2024-07-15T15:24:46.914227Z",
+    "updated_at": "2024-07-26T00:41:17.934541Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Hollows out objects in a given region, using a given thickness and leaving behind a given pattern.",
-        "The default thickness is 1, and the default pattern is just air."
+        "Hollows out objects in a given region, using a given thickness and leaving behind a given pattern.\nThe default thickness is 1, and the default pattern is just air."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11772": {
     "id": 11772,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Mask",
+    "description": "Gets a WorldEdit mask from a string or itemtype.",
+    "syntax_pattern": "mask (of|from|that matches) %string/itemtype%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": "World Edit Mask",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11772",
+    "created_at": "2024-07-15T15:24:47.014874Z",
+    "updated_at": "2024-07-15T15:24:47.014889Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets a WorldEdit mask from a string or itemtype."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11773": {
     "id": 11773,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Pattern",
+    "description": "Gets a WorldEdit pattern from a string or itemtype.",
+    "syntax_pattern": "pattern (of|from|that matches) %string/itemtype%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": "World Edit Pattern",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11773",
+    "created_at": "2024-07-15T15:24:47.023080Z",
+    "updated_at": "2024-07-15T15:24:47.023095Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets a WorldEdit pattern from a string or itemtype."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11774": {
     "id": 11774,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Centre",
+    "description": "Gets the centre of a given region.",
+    "syntax_pattern": "[the] region cent(re|er) of %worldeditregions%\n%worldeditregions%'[s] region cent(re|er)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11774",
+    "created_at": "2024-07-15T15:24:47.030875Z",
+    "updated_at": "2024-07-15T15:24:47.030890Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the centre of a given region."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11775": {
     "id": 11775,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Convex Polyhedral",
+    "description": "Creates a convex polyhedral region, which can be used for operations.",
+    "syntax_pattern": "[a] [new] convex [poly[hedral]] region (at|with|using) %locations%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": "World Edit Region",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11775",
+    "created_at": "2024-07-15T15:24:47.040271Z",
+    "updated_at": "2024-07-15T15:24:47.040285Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a convex polyhedral region, which can be used for operations."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11776": {
     "id": 11776,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Cuboid",
+    "description": "Creates a cuboid region, which can be used for operations.",
+    "syntax_pattern": "[a] [new] [cuboid] region (between|within|from) %location% (and|to) %location%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": "World Edit Region",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11776",
+    "created_at": "2024-07-15T15:24:47.050326Z",
+    "updated_at": "2024-07-15T15:24:47.050341Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a cuboid region, which can be used for operations."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11777": {
     "id": 11777,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Cylinder",
+    "description": "Creates a cylindrical region, which can be used for operations.",
+    "syntax_pattern": "[a] [new] cyl[ind(er|rical)] region at %location% with radi(i|us) %numbers% [and] with height %number%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": "World Edit Region",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11777",
+    "created_at": "2024-07-15T15:24:47.058322Z",
+    "updated_at": "2024-07-15T15:24:47.058337Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a cylindrical region, which can be used for operations."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11778": {
     "id": 11778,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Ellipsoid",
+    "description": "Creates an ellipsoid region, which can be used for operations.",
+    "syntax_pattern": "[a] [new] (ellips(e|oid)|spher(e|ical)) region at %location% with radi(i|us) %numbers%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": "World Edit Region",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11778",
+    "created_at": "2024-07-15T15:24:47.066669Z",
+    "updated_at": "2024-07-15T15:24:47.066684Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates an ellipsoid region, which can be used for operations."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11779": {
     "id": 11779,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Faces",
+    "description": "Gets the faces of a given region. This expression only works on cuboid regions.\nThis returns another region, which can be used in other operations.",
+    "syntax_pattern": "[the] [region] faces of %worldeditregion%\n%worldeditregion%'[s] [region] faces",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": "World Edit Region",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11779",
+    "created_at": "2024-07-15T15:24:47.074361Z",
+    "updated_at": "2024-07-15T15:24:47.074376Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Gets the faces of a given region. This expression only works on cuboid regions.",
-        "This returns another region, which can be used in other operations."
+        "Gets the faces of a given region. This expression only works on cuboid regions.\nThis returns another region, which can be used in other operations."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11780": {
     "id": 11780,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Vertices",
+    "description": "Gets the vertices of a given region. This expression can only be used on convex polyhedral regions.",
+    "syntax_pattern": "[the] region vert(ices|exes) of %worldeditregion%\n[the] %worldeditregion%'[s] vert(ices|exes)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11780",
+    "created_at": "2024-07-15T15:24:47.082502Z",
+    "updated_at": "2024-07-15T15:24:47.082517Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the vertices of a given region. This expression can only be used on convex polyhedral regions."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11781": {
     "id": 11781,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Volume",
+    "description": "Gets the volume of a given region.",
+    "syntax_pattern": "[the] region volume of %worldeditregions%\n%worldeditregions%'[s] region volume",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11781",
+    "created_at": "2024-07-15T15:24:47.090426Z",
+    "updated_at": "2024-07-15T15:24:47.090441Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the volume of a given region."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11782": {
     "id": 11782,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Walls",
+    "description": "Gets the walls of a given region. This expression only works on cuboid regions.\nThis returns another region, which can be used in other operations.",
+    "syntax_pattern": "[the] [region] walls of %worldeditregion%\n%worldeditregion%'[s] [region] walls",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": "World Edit Region",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11782",
+    "created_at": "2024-07-15T15:24:47.098419Z",
+    "updated_at": "2024-07-15T15:24:47.098434Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Gets the walls of a given region. This expression only works on cuboid regions.",
-        "This returns another region, which can be used in other operations."
+        "Gets the walls of a given region. This expression only works on cuboid regions.\nThis returns another region, which can be used in other operations."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11783": {
     "id": 11783,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "World Edit Mask",
+    "description": "Represents a mask that can be used for WorldEdit operations.",
+    "syntax_pattern": "(world[ ]edit|fawe)[ ]mask[s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11783",
+    "created_at": "2024-07-15T15:24:47.106733Z",
+    "updated_at": "2024-07-15T15:24:47.106748Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a mask that can be used for WorldEdit operations."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11784": {
     "id": 11784,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "World Edit Pattern",
+    "description": "Represents a pattern that can be used for WorldEdit operations.",
+    "syntax_pattern": "(world[ ]edit|fawe)[ ]pattern[s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11784",
+    "created_at": "2024-07-15T15:24:47.114845Z",
+    "updated_at": "2024-07-15T15:24:47.114858Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a pattern that can be used for WorldEdit operations."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11785": {
     "id": 11785,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "World Edit Region",
+    "description": "Represents a region that can be used for WorldEdit operations.",
+    "syntax_pattern": "(world[ ]edit|fawe)[ ]region[s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11785",
+    "created_at": "2024-07-15T15:24:47.122897Z",
+    "updated_at": "2024-07-15T15:24:47.122923Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a region that can be used for WorldEdit operations."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11786": {
     "id": 11786,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "World Edit Shapes",
+    "description": "All the supported creatable shapes using WorldEdit.",
+    "syntax_pattern": "world[ ]edit[ ]shape[s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": "cylinder, ellipse, ellipsoid, pyramid, sphere",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11786",
+    "created_at": "2024-07-15T15:24:47.131598Z",
+    "updated_at": "2024-07-15T15:24:47.131612Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "All the supported creatable shapes using WorldEdit."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11766": {
     "id": 11766,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Smooth",
+    "description": "Smooths the area within a given region a certain number of times. The default number of times is 1.\nYou can choose to only smooth blocks that match a certain mask.",
+    "syntax_pattern": "smooth [(blocks that match|all) %string/itemtype/worldeditmask% in] %worldeditregions% [%number% time[s]] [lazily]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11766",
+    "created_at": "2024-07-15T15:24:46.965874Z",
+    "updated_at": "2024-07-26T00:41:17.996406Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Smooths the area within a given region a certain number of times. The default number of times is 1.",
-        "You can choose to only smooth blocks that match a certain mask."
+        "Smooths the area within a given region a certain number of times. The default number of times is 1.\nYou can choose to only smooth blocks that match a certain mask."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11768": {
     "id": 11768,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Set Blocks",
+    "description": "Sets the blocks in a region with a given pattern.",
+    "syntax_pattern": "(use ([fastasync]world[ ]edit|[fa]we) to|[fastasync]world[ ]edit|[fa]we) set [the] blocks in %worldeditregions% to [pattern] %string/itemtype/worldeditpattern% [lazily]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11768",
+    "created_at": "2024-07-15T15:24:46.982710Z",
+    "updated_at": "2024-07-26T00:41:18.019083Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the blocks in a region with a given pattern."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11769": {
     "id": 11769,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Shape - Cylinder",
+    "description": "Creates a cylinder using a given pattern at a certain location.\nYou can choose for the cylinder to be hollow, and it can take a set of radii and a height.\nBy default, the radius is 5, the height is 1, and the cylinder will not be hollow.",
+    "syntax_pattern": "create [a] [hollow] cylinder ([made] out of|with|using) [pattern] %string/itemtype/worldeditpattern% [with radi(us|i) %numbers%][,| and] [with height %number%] at %locations% [lazily]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11769",
+    "created_at": "2024-07-15T15:24:46.990753Z",
+    "updated_at": "2024-07-26T00:41:18.027728Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a cylinder using a given pattern at a certain location.",
-        "You can choose for the cylinder to be hollow, and it can take a set of radii and a height.",
-        "By default, the radius is 5, the height is 1, and the cylinder will not be hollow."
+        "Creates a cylinder using a given pattern at a certain location.\nYou can choose for the cylinder to be hollow, and it can take a set of radii and a height.\nBy default, the radius is 5, the height is 1, and the cylinder will not be hollow."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11770": {
     "id": 11770,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Shape - Pyramid",
+    "description": "Creates a pyramid using a given pattern at a certain location.\nYou can choose for the pyramid to be hollow, and it can take a size.\nBy default, the size is 5, and the pyramid will not be hollow.",
+    "syntax_pattern": "create [a] [hollow] pyramid ([made] out of|with|using) [pattern] %string/itemtype/worldeditpattern% [with size %number%] at %locations% [lazily]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11770",
+    "created_at": "2024-07-15T15:24:46.998511Z",
+    "updated_at": "2024-07-26T00:41:18.035940Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a pyramid using a given pattern at a certain location.",
-        "You can choose for the pyramid to be hollow, and it can take a size.",
-        "By default, the size is 5, and the pyramid will not be hollow."
+        "Creates a pyramid using a given pattern at a certain location.\nYou can choose for the pyramid to be hollow, and it can take a size.\nBy default, the size is 5, and the pyramid will not be hollow."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11771": {
     "id": 11771,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Shape - Sphere",
+    "description": "Creates a sphere using a given pattern at a certain location.\nYou can choose for the sphere to be hollow, and it can take a set of radii.\nBy default, the radius is 5, and the sphere will not be hollow.",
+    "syntax_pattern": "create [a] [hollow] (sphere|ellipsoid) ([made] out of|with|using) [pattern] %string/itemtype/worldeditpattern% [with radi(us|i) %numbers%] at %locations% [lazily]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11771",
+    "created_at": "2024-07-15T15:24:47.006818Z",
+    "updated_at": "2024-07-26T00:41:18.044015Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a sphere using a given pattern at a certain location.",
-        "You can choose for the sphere to be hollow, and it can take a set of radii.",
-        "By default, the radius is 5, and the sphere will not be hollow."
+        "Creates a sphere using a given pattern at a certain location.\nYou can choose for the sphere to be hollow, and it can take a set of radii.\nBy default, the radius is 5, and the sphere will not be hollow."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11787": {
     "id": 11787,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Shape - General",
+    "description": "Creates a shape at a given location. Depending on which shape is being created, a different set of entries can be used.\n\nEntries that can be used with any shape:\n* pattern (pattern): the pattern that the shape will be made out of (no default, and this has to be a pattern object (via the pattern expression))\n* hollow (boolean): whether the shape will be hollow (default is true)\n\nEntries that can be used with a pyramid:\n* size (integer): the size of the pyramid (no default)\n\nEntries that can be used with both a sphere and cylinder:\n* radius (number): the radius (on the x-axis) of the shape (no default)\n* radiusZ (number): the radius (on the z-axis) of the shape (this is optional, and if not provided, will default to the radius)\n\nEntries that can be used only with a sphere:\n* radiusY (number): the radius (on the y-axis) of the shape (this is optional, and if not provided, will default to the radius)\n\nEntries that can be used only with a cylinder:\n* height (number): the height of the cylinder (no default)\n\nThis section is effectively the same as just using the shape effects, but might be preferable.",
+    "syntax_pattern": "create [a] %*worldeditshape% at %locations%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11787",
+    "created_at": "2024-07-15T15:24:47.139963Z",
+    "updated_at": "2024-07-15T15:24:47.139977Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a shape at a given location. Depending on which shape is being created, a different set of entries can be used.",
-        "Entries that can be used with any shape:",
-        "* pattern (pattern): the pattern that the shape will be made out of (no default, and this has to be a pattern object (via the pattern expression))",
-        "* hollow (boolean): whether the shape will be hollow (default is true)",
-        "Entries that can be used with a pyramid:",
-        "* size (integer): the size of the pyramid (no default)",
-        "Entries that can be used with both a sphere and cylinder:",
-        "* radius (number): the radius (on the x-axis) of the shape (no default)",
-        "* radiusZ (number): the radius (on the z-axis) of the shape (this is optional, and if not provided, will default to the radius)",
-        "Entries that can be used only with a sphere:",
-        "* radiusY (number): the radius (on the y-axis) of the shape (this is optional, and if not provided, will default to the radius)",
-        "Entries that can be used only with a cylinder:",
-        "* height (number): the height of the cylinder (no default)",
-        "This section is effectively the same as just using the shape effects, but might be preferable."
+        "Creates a shape at a given location. Depending on which shape is being created, a different set of entries can be used.\n\nEntries that can be used with any shape:\n* pattern (pattern): the pattern that the shape will be made out of (no default, and this has to be a pattern object (via the pattern expression))\n* hollow (boolean): whether the shape will be hollow (default is true)\n\nEntries that can be used with a pyramid:\n* size (integer): the size of the pyramid (no default)\n\nEntries that can be used with both a sphere and cylinder:\n* radius (number): the radius (on the x-axis) of the shape (no default)\n* radiusZ (number): the radius (on the z-axis) of the shape (this is optional, and if not provided, will default to the radius)\n\nEntries that can be used only with a sphere:\n* radiusY (number): the radius (on the y-axis) of the shape (this is optional, and if not provided, will default to the radius)\n\nEntries that can be used only with a cylinder:\n* height (number): the height of the cylinder (no default)\n\nThis section is effectively the same as just using the shape effects, but might be preferable."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11808": {
     "id": 11808,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Biome",
+    "description": "Sets the biome of given region.",
+    "syntax_pattern": "set biome of %worldeditregions% to %biome% [lazily]",
+    "compatible_addon_version": "1.0.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11808",
+    "created_at": "2024-07-26T00:41:17.900101Z",
+    "updated_at": "2024-07-26T00:41:17.900115Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the biome of given region."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11757": {
     "id": 11757,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Create Faces",
+    "description": "Creates the faces (walls + ceiling + floor) of a given region using a given pattern.",
+    "syntax_pattern": "(create|place|make|generate) [the] faces (of|around) %worldeditregions% ([made] out of|with|using) [pattern] %string/itemtype/worldeditpattern% [lazily]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11757",
+    "created_at": "2024-07-15T15:24:46.885117Z",
+    "updated_at": "2024-07-26T00:41:17.907976Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates the faces (walls + ceiling + floor) of a given region using a given pattern."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11761": {
     "id": 11761,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Move",
+    "description": "Moves the blocks in a given region in a given direction a given distance.\nYou can choose to only move the blocks that match a given mask too, as well as filling the left-behind area using a certain pattern.\nAdditionally, air can be ignored, and entities and biomes can be copied.\n\nBy default, the distance will be 1, all blocks will be moved, no pattern will be left behind, air will not be ignored, and entities and biomes will not be copied.",
+    "syntax_pattern": "move [(blocks that match|all) %string/itemtype/worldeditmask% in] %worldeditregions% (up|down|north|south|east|west) [%number% (time|block)[s]] [and (fill the area with|leave behind) [pattern] %string/itemtype/worldeditpattern%] [while ignoring air[,]] [while copying entities[,| and]] [while copying biomes] [lazily]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11761",
+    "created_at": "2024-07-15T15:24:46.922422Z",
+    "updated_at": "2024-07-26T00:41:17.942644Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Moves the blocks in a given region in a given direction a given distance.",
-        "You can choose to only move the blocks that match a given mask too, as well as filling the left-behind area using a certain pattern.",
-        "Additionally, air can be ignored, and entities and biomes can be copied.",
-        "By default, the distance will be 1, all blocks will be moved, no pattern will be left behind, air will not be ignored, and entities and biomes will not be copied."
+        "Moves the blocks in a given region in a given direction a given distance.\nYou can choose to only move the blocks that match a given mask too, as well as filling the left-behind area using a certain pattern.\nAdditionally, air can be ignored, and entities and biomes can be copied.\n\nBy default, the distance will be 1, all blocks will be moved, no pattern will be left behind, air will not be ignored, and entities and biomes will not be copied."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11762": {
     "id": 11762,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Naturalize",
+    "description": "Naturalizes a given region. This just changes the top 3 layers of blocks into grass/dirt, and the bottom layers into stone.",
+    "syntax_pattern": "naturalize %worldeditregions% [lazily]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11762",
+    "created_at": "2024-07-15T15:24:46.930951Z",
+    "updated_at": "2024-07-26T00:41:17.951585Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Naturalizes a given region. This just changes the top 3 layers of blocks into grass/dirt, and the bottom layers into stone."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11763": {
     "id": 11763,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Overlay",
+    "description": "Overlays the top level of blocks in a given region using a given pattern.",
+    "syntax_pattern": "overlay [the] [top level of] blocks (in|of) %worldeditregions% (with|using) [pattern] %string/itemtype/worldeditpattern% [lazily]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11763",
+    "created_at": "2024-07-15T15:24:46.939344Z",
+    "updated_at": "2024-07-26T00:41:17.960937Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Overlays the top level of blocks in a given region using a given pattern."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11765": {
     "id": 11765,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Regenerate",
+    "description": "Regenerates the area within a given region while optionally regenerating biomes, using a given seed.\nThe default seed is just the seed of the region's world, and biomes will not be regenerated by default.",
+    "syntax_pattern": "regen[erate] %worldeditregions% [with seed %number%] [while regen[erat]ing biomes] [lazily]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11765",
+    "created_at": "2024-07-15T15:24:46.954919Z",
+    "updated_at": "2024-07-26T00:41:17.981326Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Regenerates the area within a given region while optionally regenerating biomes, using a given seed.",
-        "The default seed is just the seed of the region's world, and biomes will not be regenerated by default."
+        "Regenerates the area within a given region while optionally regenerating biomes, using a given seed.\nThe default seed is just the seed of the region's world, and biomes will not be regenerated by default."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11767": {
     "id": 11767,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Replace Blocks",
+    "description": "Replaces blocks in a region that match a certain mask with a given pattern.",
+    "syntax_pattern": "(use ([fastasync]world[ ]edit|[fa]we) to|[fastasync]world[ ]edit|[fa]we) replace [all] blocks in %worldeditregion% that match [mask] %string/itemtype/worldeditmask% with [pattern] %string/itemtype/worldeditpattern% [lazily]\n(use ([fastasync]world[ ]edit|[fa]we) to|[fastasync]world[ ]edit|[fa]we) replace all %string/itemtype/worldeditmask% in %worldeditregion% with %string/itemtype/worldeditpattern% [lazily]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11767",
+    "created_at": "2024-07-15T15:24:46.974345Z",
+    "updated_at": "2024-07-26T00:41:18.009059Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Replaces blocks in a region that match a certain mask with a given pattern."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11809": {
     "id": 11809,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Region - Dimensions",
+    "description": "Gets the dimensions of a given region.",
+    "syntax_pattern": "[the] region (height|length|width) of %worldeditregions%\n%worldeditregions%'[s] region (height|length|width)",
+    "compatible_addon_version": "1.0.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11809",
+    "created_at": "2024-07-26T00:41:18.052110Z",
+    "updated_at": "2024-07-26T00:41:18.052124Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the dimensions of a given region."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11807": {
     "id": 11807,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Create Spline",
+    "description": "Create a spline using a set of locations. The order of the locations in this effect matter.\nA rigid spline will create straight lines from location to location, whereas a non-rigid spline will createa curved line which goes through all the locations.",
+    "syntax_pattern": "(create|place|make|generate) [a] [hollow] [rigid|straight] (curve|spline|line) (with|using|from) %locations% (with|using) [pattern] %string/itemtype/worldeditpattern% [[and] with thickness %number%] [lazily]",
+    "compatible_addon_version": "1.0.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11807",
+    "created_at": "2024-07-26T00:41:17.887462Z",
+    "updated_at": "2025-09-15T09:51:32.067104Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Create a spline using a set of locations. The order of the locations in this effect matter.",
-        "A rigid spline will create straight lines from location to location, whereas a non-rigid spline will createa curved line which goes through all the locations."
+        "Create a spline using a set of locations. The order of the locations in this effect matter.\nA rigid spline will create straight lines from location to location, whereas a non-rigid spline will createa curved line which goes through all the locations."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13985": {
     "id": 13985,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Schematic - Exists",
+    "description": "Checks whether a schematic with a given name exists.",
+    "syntax_pattern": "schem[atic] %string% exists\nschem[atic] %string% does(n't| not) exist",
+    "compatible_addon_version": "1.1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13985",
+    "created_at": "2025-09-15T09:51:32.049890Z",
+    "updated_at": "2025-09-15T09:51:32.049913Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks whether a schematic with a given name exists."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11825": {
     "id": 11825,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Schematic - Save",
+    "description": "Saves a region as a schematic.\nThe name of the schematic shouldn't include any path, as skript-worldedit will always start at WorldEdit's schematics directory.\nThe centre of the schematic can be set, as well as whether or not it should overwrite an existing schematic of the same name.",
+    "syntax_pattern": "save %worldeditregion% as [a] [schem[atic] (named|with name)] %string% [with [the] (cent(re|er)|origin) (at|of) %location%] [[and] overwrit(e|ing) existing]",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11825",
+    "created_at": "2024-08-01T16:44:44.055150Z",
+    "updated_at": "2025-09-15T09:51:32.076037Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Saves a region as a schematic.",
-        "The name of the schematic shouldn't include any path, as skript-worldedit will always start at WorldEdit's schematics directory.",
-        "The centre of the schematic can be set, as well as whether or not it should overwrite an existing schematic of the same name."
+        "Saves a region as a schematic.\nThe name of the schematic shouldn't include any path, as skript-worldedit will always start at WorldEdit's schematics directory.\nThe centre of the schematic can be set, as well as whether or not it should overwrite an existing schematic of the same name."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11963": {
     "id": 11963,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Tree Types",
+    "description": "All the supported tree types that WorldEdit can use.",
+    "syntax_pattern": "[world[ ]edit[ ]]tree[ ]type[s]",
+    "compatible_addon_version": "1.1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "skript-worldedit",
+    "type_usage": "acacia, azalea, big_tree, birch, brown_mushroom, cherry, chorus_plant, crimson_fungus, dark_oak, jungle, jungle_bush, mangrove, mega_redwood, pale_oak, pale_oak_creaking, pine, random, random_birch, random_jungle, random_mushroom, random_redwood, red_mushroom, redwood, short_jungle, small_jungle, swamp, tall_birch, tall_mangrove, tall_redwood, tree, warped_fungus",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11963",
+    "created_at": "2024-09-17T17:58:59.241695Z",
+    "updated_at": "2025-09-15T09:51:32.085134Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "All the supported tree types that WorldEdit can use."
       ],
       "ko": [
-        "[skript-worldedit] 한국어 가이드팩 준비 중"
+        "[SKRIPT-WORLDEDIT] 한국어 가이드 번역 대기 중"
       ]
     }
   }

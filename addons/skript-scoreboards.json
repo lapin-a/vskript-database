@@ -1,116 +1,254 @@
 {
   "syntax_11981": {
     "id": 11981,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "_tud",
+    "title": "Scoreboard Visibility",
+    "description": "Show or hide a scoreboard.",
+    "syntax_pattern": "(show|hide) %scoreboards%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-scoreboards",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11981",
+    "created_at": "2024-09-23T13:15:35.681039Z",
+    "updated_at": "2024-09-23T13:15:35.681057Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Show or hide a scoreboard."
       ],
       "ko": [
-        "[skript-scoreboards] 한국어 가이드팩 준비 중"
+        "[SKRIPT-SCOREBOARDS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11982": {
     "id": 11982,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "_tud",
+    "title": "New Scoreboard",
+    "description": "Create a new scoreboard.",
+    "syntax_pattern": "[a [new]] score[ ]board",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-scoreboards",
+    "type_usage": null,
+    "return_type": "Scoreboard",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11982",
+    "created_at": "2024-09-23T13:15:35.688961Z",
+    "updated_at": "2024-09-23T13:15:35.688976Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create a new scoreboard."
       ],
       "ko": [
-        "[skript-scoreboards] 한국어 가이드팩 준비 중"
+        "[SKRIPT-SCOREBOARDS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11980": {
     "id": 11980,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "_tud",
+    "title": "Is Scoreboard Visible",
+    "description": "Check if a scoreboard is shown or hidden.",
+    "syntax_pattern": "%scoreboards% (is|are) (shown|visible|hidden)\n%scoreboards% (isn't|is not|aren't|are not) (shown|visible|hidden)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skript-scoreboards",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11980",
+    "created_at": "2024-09-23T13:15:35.663398Z",
+    "updated_at": "2024-09-23T13:20:09.574687Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if a scoreboard is shown or hidden."
       ],
       "ko": [
-        "[skript-scoreboards] 한국어 가이드팩 준비 중"
+        "[SKRIPT-SCOREBOARDS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11984": {
     "id": 11984,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "_tud",
+    "title": "Scoreboard Title",
+    "description": "Get or set the title of a scoreboard.",
+    "syntax_pattern": "[the] [[score[ ]]board] (title|name) of %scoreboards%\n%scoreboards%'[s] [[score[ ]]board] (title|name)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-scoreboards",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11984",
+    "created_at": "2024-09-23T13:15:35.711829Z",
+    "updated_at": "2024-09-23T13:15:35.711851Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get or set the title of a scoreboard."
       ],
       "ko": [
-        "[skript-scoreboards] 한국어 가이드팩 준비 중"
+        "[SKRIPT-SCOREBOARDS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11985": {
     "id": 11985,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "_tud",
+    "title": "Scoreboard Viewers",
+    "description": "Get or set the viewers of a scoreboard.",
+    "syntax_pattern": "[the] [score[ ]]board (viewers|players) of %scoreboards%\n%scoreboards%'[s] [score[ ]]board (viewers|players)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-scoreboards",
+    "type_usage": null,
+    "return_type": "Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11985",
+    "created_at": "2024-09-23T13:15:35.719728Z",
+    "updated_at": "2024-09-23T13:15:35.719744Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get or set the viewers of a scoreboard."
       ],
       "ko": [
-        "[skript-scoreboards] 한국어 가이드팩 준비 중"
+        "[SKRIPT-SCOREBOARDS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11986": {
     "id": 11986,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "_tud",
+    "title": "Scoreboard of Player",
+    "description": "Get or set the scoreboard of a player.\nIf the player does not have a scoreboard, it will create a new one.",
+    "syntax_pattern": "[the] [score[ ]]board[s] of %players%\n%players%'[s] [score[ ]]board[s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-scoreboards",
+    "type_usage": null,
+    "return_type": "Scoreboard",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11986",
+    "created_at": "2024-09-23T13:15:35.728649Z",
+    "updated_at": "2024-09-23T13:15:35.728664Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get or set the scoreboard of a player.",
-        "If the player does not have a scoreboard, it will create a new one."
+        "Get or set the scoreboard of a player.\nIf the player does not have a scoreboard, it will create a new one."
       ],
       "ko": [
-        "[skript-scoreboards] 한국어 가이드팩 준비 중"
+        "[SKRIPT-SCOREBOARDS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11987": {
     "id": 11987,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "_tud",
+    "title": "Scoreboard",
+    "description": "A scoreboard object. A player can only view one scoreboard at a time.\nScoreboards do not persist between server restarts.",
+    "syntax_pattern": "score[ ]board[s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "skript-scoreboards",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11987",
+    "created_at": "2024-09-23T13:15:35.736214Z",
+    "updated_at": "2024-09-23T13:15:35.736229Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "A scoreboard object. A player can only view one scoreboard at a time.",
-        "Scoreboards do not persist between server restarts."
+        "A scoreboard object. A player can only view one scoreboard at a time.\nScoreboards do not persist between server restarts."
       ],
       "ko": [
-        "[skript-scoreboards] 한국어 가이드팩 준비 중"
+        "[SKRIPT-SCOREBOARDS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11983": {
     "id": 11983,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "_tud",
+    "title": "Scoreboard Line",
+    "description": "Get or set the lines or scores of lines in a scoreboard. Scores are the values that are displayed on the right side of the scoreboard.\nCustom line scores are only supported in Minecraft 1.20.3 and newer.",
+    "syntax_pattern": "[all [[of] the]|the] (lines|scores) of %scoreboards%\n[the] [score[s] of [the]] line[s] %integers% of %scoreboards%\n[the] [score of [the]] %integer%(st|nd|rd|th) line of %scoreboards%\n[[the] score of] %scoreboards%'[s] %integer%(st|nd|rd|th) line\n[the] %integer%(st|nd|rd|th) line's score of %scoreboards%\n%scoreboards%'[s] %integer%(st|nd|rd|th) line's score",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "Minecraft 1.20.3+ (custom scores)",
+        "link": ""
+      }
+    ],
+    "addon": "skript-scoreboards",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11983",
+    "created_at": "2024-09-23T13:15:35.696646Z",
+    "updated_at": "2024-09-23T13:22:03.231773Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get or set the lines or scores of lines in a scoreboard. Scores are the values that are displayed on the right side of the scoreboard.",
-        "Custom line scores are only supported in Minecraft 1.20.3 and newer."
+        "Get or set the lines or scores of lines in a scoreboard. Scores are the values that are displayed on the right side of the scoreboard.\nCustom line scores are only supported in Minecraft 1.20.3 and newer."
       ],
       "ko": [
-        "[skript-scoreboards] 한국어 가이드팩 준비 중"
+        "[SKRIPT-SCOREBOARDS] 한국어 가이드 번역 대기 중"
       ]
     }
   }

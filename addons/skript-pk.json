@@ -1,390 +1,838 @@
 {
   "syntax_13716": {
     "id": 13716,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Bind Preset",
+    "description": "Binds a preset's abilities to a player.\nCan bind either player-specific presets or external presets.\nThe abilities will be bound to the player's hotbar in the order they were added to the preset.",
+    "syntax_pattern": "bind [player] preset %string% to %player%\nbind external preset %string% to %player%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13716",
+    "created_at": "2025-05-07T01:30:35.764333Z",
+    "updated_at": "2025-11-06T11:30:32.134301Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Binds a preset's abilities to a player.",
-        "Can bind either player-specific presets or external presets.",
-        "The abilities will be bound to the player's hotbar in the order they were added to the preset."
+        "Binds a preset's abilities to a player.\nCan bind either player-specific presets or external presets.\nThe abilities will be bound to the player's hotbar in the order they were added to the preset."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13717": {
     "id": 13717,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Bind ProjectKorra Ability",
+    "description": "Assigns a ProjectKorra bending ability to a specific hotbar slot (1-9) for a player. If no slot is specified, it uses the player's currently selected hotbar slot.",
+    "syntax_pattern": "bind ability %string% to %player% [slot %integer%]",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13717",
+    "created_at": "2025-05-07T01:30:35.772164Z",
+    "updated_at": "2025-11-06T11:30:32.143995Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Assigns a ProjectKorra bending ability to a specific hotbar slot (1-9) for a player. If no slot is specified, it uses the player's currently selected hotbar slot."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13718": {
     "id": 13718,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Clear ProjectKorra Ability Binding",
+    "description": "Removes any bending ability bound to a specified hotbar slot. If no slot number is given, clears the ability from the player's currently selected slot. Use this to remove unwanted abilities from a player's hotbar.",
+    "syntax_pattern": "clear %player%'s slot [%integer%]",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13718",
+    "created_at": "2025-05-07T01:30:35.780588Z",
+    "updated_at": "2025-11-06T11:30:32.152741Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Removes any bending ability bound to a specified hotbar slot. If no slot number is given, clears the ability from the player's currently selected slot. Use this to remove unwanted abilities from a player's hotbar."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13719": {
     "id": 13719,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Create Preset",
+    "description": "Creates a new preset with optional abilities.\nCan create either a player-specific preset or an external preset.\nIf a preset with the same name exists, it will be overwritten.\nExternal presets are available to all players.",
+    "syntax_pattern": "create [new] preset %string% for %player% [with abilities %strings%]\ncreate [new] external preset %string% [with abilities %strings%]",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13719",
+    "created_at": "2025-05-07T01:30:35.788088Z",
+    "updated_at": "2025-11-06T11:30:32.169884Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a new preset with optional abilities.",
-        "Can create either a player-specific preset or an external preset.",
-        "If a preset with the same name exists, it will be overwritten.",
-        "External presets are available to all players."
+        "Creates a new preset with optional abilities.\nCan create either a player-specific preset or an external preset.\nIf a preset with the same name exists, it will be overwritten.\nExternal presets are available to all players."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13720": {
     "id": 13720,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Delete Preset",
+    "description": "Deletes a preset from a player or removes an external preset.\nPlayer presets are only deleted for that specific player.\nExternal presets are completely removed from the server.",
+    "syntax_pattern": "delete [player['s]] preset %string% from %player%\ndelete %player%'s preset %string%\ndelete external preset %string%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13720",
+    "created_at": "2025-05-07T01:30:35.795591Z",
+    "updated_at": "2025-11-06T11:30:32.177942Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Deletes a preset from a player or removes an external preset.",
-        "Player presets are only deleted for that specific player.",
-        "External presets are completely removed from the server."
+        "Deletes a preset from a player or removes an external preset.\nPlayer presets are only deleted for that specific player.\nExternal presets are completely removed from the server."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13721": {
     "id": 13721,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Toggle Player's Bending",
+    "description": "Enables or disables all bending abilities for a player. When disabled, the player cannot use any bending abilities until re-enabled. Can toggle between states or set to a specific state.",
+    "syntax_pattern": "toggle %player%'s bending[ to %boolean%]",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13721",
+    "created_at": "2025-05-07T01:30:35.803229Z",
+    "updated_at": "2025-11-06T11:30:32.218931Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Enables or disables all bending abilities for a player. When disabled, the player cannot use any bending abilities until re-enabled. Can toggle between states or set to a specific state."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13722": {
     "id": 13722,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Bending Status",
+    "description": "Checks if a player's bending is enabled or disabled.\nReturns true if bending is enabled, false if disabled.",
+    "syntax_pattern": "%player%'s toggled bending",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13722",
+    "created_at": "2025-05-07T01:30:35.810496Z",
+    "updated_at": "2025-11-06T11:30:32.227628Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Checks if a player's bending is enabled or disabled.",
-        "Returns true if bending is enabled, false if disabled."
+        "Checks if a player's bending is enabled or disabled.\nReturns true if bending is enabled, false if disabled."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13723": {
     "id": 13723,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Bound Ability",
+    "description": "Returns the player's currently bound ability or the ability bound to a specific slot.\nIf no slot is specified, returns the ability from the current active slot.\nReturns nothing if the slot is empty or invalid.",
+    "syntax_pattern": "%player%'s bound ability[ in slot %integer%]",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13723",
+    "created_at": "2025-05-07T01:30:35.818019Z",
+    "updated_at": "2025-11-06T11:30:32.236088Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the player's currently bound ability or the ability bound to a specific slot.",
-        "If no slot is specified, returns the ability from the current active slot.",
-        "Returns nothing if the slot is empty or invalid."
+        "Returns the player's currently bound ability or the ability bound to a specific slot.\nIf no slot is specified, returns the ability from the current active slot.\nReturns nothing if the slot is empty or invalid."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13724": {
     "id": 13724,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Get All Bending Presets",
+    "description": "Returns a list of all preset names. Can return player-specific presets, external (global) presets, or both.",
+    "syntax_pattern": "all [external] presets [of %player%]",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13724",
+    "created_at": "2025-05-07T01:30:35.827145Z",
+    "updated_at": "2025-11-06T11:30:32.252591Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a list of all preset names. Can return player-specific presets, external (global) presets, or both."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13725": {
     "id": 13725,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Get All Bound Bending Abilities",
+    "description": "Returns a list of all abilities currently bound to a player's slots (1-9). Empty slots will return an empty string. The returned list is always 9 elements long, representing each slot.",
+    "syntax_pattern": "%player%'s bound abilities",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13725",
+    "created_at": "2025-05-07T01:30:35.834649Z",
+    "updated_at": "2025-11-06T11:30:32.263329Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a list of all abilities currently bound to a player's slots (1-9). Empty slots will return an empty string. The returned list is always 9 elements long, representing each slot."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13726": {
     "id": 13726,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Get Bending Element of Ability",
+    "description": "Returns the element type (Water, Earth, Fire, Air, Chi, or sub-elements) of a specified ProjectKorra ability. Returns nothing if the ability doesn't exist.",
+    "syntax_pattern": "element of ability %string%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13726",
+    "created_at": "2025-05-07T01:30:35.844792Z",
+    "updated_at": "2025-11-06T11:30:32.271623Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the element type (Water, Earth, Fire, Air, Chi, or sub-elements) of a specified ProjectKorra ability. Returns nothing if the ability doesn't exist."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13727": {
     "id": 13727,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Preset Abilities",
+    "description": "Gets all abilities from a player's preset or an external preset.\nReturns a list of ability names stored in the preset.",
+    "syntax_pattern": "abilities (of|from) %player%'s preset %string%\nabilities (of|from) external preset %string%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13727",
+    "created_at": "2025-05-07T01:30:35.852363Z",
+    "updated_at": "2025-11-06T11:30:32.299451Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Gets all abilities from a player's preset or an external preset.",
-        "Returns a list of ability names stored in the preset."
+        "Gets all abilities from a player's preset or an external preset.\nReturns a list of ability names stored in the preset."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_13715": {
     "id": 13715,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Check Bending Preset Existence",
+    "description": "Checks if a bending preset configuration exists. Can verify both player-specific presets and server-wide (external) presets.",
+    "syntax_pattern": "%player% has preset %string%\npreset %string% exists externally",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=13715",
+    "created_at": "2025-05-07T01:30:35.753415Z",
+    "updated_at": "2025-11-06T11:30:32.113940Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a bending preset configuration exists. Can verify both player-specific presets and server-wide (external) presets."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14240": {
     "id": 14240,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Is Temp Block",
+    "description": "Checks whether a location is occupied by a ProjectKorra TempBlock.",
+    "syntax_pattern": "%location% is [a] temp[orary] block\n%location% is(n't| not) [a] temp[orary] block",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14240",
+    "created_at": "2025-11-06T11:30:32.125530Z",
+    "updated_at": "2025-11-06T14:26:41.818053Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks whether a location is occupied by a ProjectKorra TempBlock."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14241": {
     "id": 14241,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Create Temp Block",
+    "description": "Creates a ProjectKorra TempBlock at the specified location, optionally reverting after a duration.",
+    "syntax_pattern": "create [a] temp[orary] block at %location% with %itemtype% [for %timespan%]\ncreate [a] temp[orary] block at %location% with blockdata %blockdata% [for %timespan%]",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14241",
+    "created_at": "2025-11-06T11:30:32.161877Z",
+    "updated_at": "2025-11-06T14:26:41.828225Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a ProjectKorra TempBlock at the specified location, optionally reverting after a duration."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14242": {
     "id": 14242,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Revert Temp Block",
+    "description": "Reverts a ProjectKorra TempBlock at a location, optionally specifying the default material.",
+    "syntax_pattern": "revert [the] temp[orary] block at %location% [to %itemtype%]",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14242",
+    "created_at": "2025-11-06T11:30:32.186354Z",
+    "updated_at": "2025-11-06T14:26:41.847229Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Reverts a ProjectKorra TempBlock at a location, optionally specifying the default material."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14246": {
     "id": 14246,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Remaining Cooldown Timespan",
+    "description": "Returns the remaining duration of a ProjectKorra cooldown for a player as a timespan. Returns zero when the cooldown is not active.",
+    "syntax_pattern": "[the] [remaining] cooldown %string% (of|for) %player%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": "Timespan",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14246",
+    "created_at": "2025-11-06T11:30:32.244786Z",
+    "updated_at": "2025-11-06T15:59:01.209627Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the remaining duration of a ProjectKorra cooldown for a player as a timespan. Returns zero when the cooldown is not active."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14244": {
     "id": 14244,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Start Ability",
+    "description": "Launches a registered ProjectKorra ability defined through this addon for a specific player.",
+    "syntax_pattern": "start ability %string% for %player%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14244",
+    "created_at": "2025-11-06T11:30:32.202799Z",
+    "updated_at": "2025-11-06T14:26:41.871476Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Launches a registered ProjectKorra ability defined through this addon for a specific player."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14247": {
     "id": 14247,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Active Cooldown Names",
+    "description": "Lists active ProjectKorra cooldowns for a player in the same order as /bending cooldown view.",
+    "syntax_pattern": "[the] active cooldowns (of|for) %player%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14247",
+    "created_at": "2025-11-06T11:30:32.281464Z",
+    "updated_at": "2025-11-06T14:26:41.887542Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Lists active ProjectKorra cooldowns for a player in the same order as /bending cooldown view."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14243": {
     "id": 14243,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Set Ability Location",
+    "description": "Sets the anchor location for a running ability instance generated through this addon, allowing you to track it independently from the player.",
+    "syntax_pattern": "set location of %skriptability% to %location%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14243",
+    "created_at": "2025-11-06T11:30:32.194556Z",
+    "updated_at": "2025-11-06T15:59:01.185911Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the anchor location for a running ability instance generated through this addon, allowing you to track it independently from the player."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14250": {
     "id": 14250,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "ProjectKorra Element",
+    "description": "",
+    "syntax_pattern": "pk element[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14250",
+    "created_at": "2025-11-06T11:30:32.318140Z",
+    "updated_at": "2025-11-06T11:30:32.318154Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-pk] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14251": {
     "id": 14251,
-    "type": "structure",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Ability",
+    "description": "Defines a ProjectKorra ability implemented in Skript.",
+    "syntax_pattern": "ability <.+>",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "structure",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14251",
+    "created_at": "2025-11-06T11:30:32.326494Z",
+    "updated_at": "2025-11-06T11:30:32.326507Z",
+    "entries": "[{\"name\": \"element\", \"isRequired\": true, \"isSection\": false}, {\"name\": \"description\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"\"}, {\"name\": \"instructions\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"\"}, {\"name\": \"author\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"Unknown\"}, {\"name\": \"version\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"1.0.0\"}, {\"name\": \"cooldown\", \"isRequired\": false, \"isSection\": false}, {\"name\": \"sneak ability\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"false\"}, {\"name\": \"hidden\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"false\"}, {\"name\": \"harmless\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"false\"}, {\"name\": \"ignite ability\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"false\"}, {\"name\": \"explosive ability\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"false\"}, {\"name\": \"default permission\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"true\"}, {\"name\": \"start\", \"isRequired\": true, \"isSection\": true}, {\"name\": \"progress\", \"isRequired\": false, \"isSection\": true}, {\"name\": \"remove\", \"isRequired\": false, \"isSection\": true}]",
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Defines a ProjectKorra ability implemented in Skript."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14252": {
     "id": 14252,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Reset Cooldown",
+    "description": "Clears a ProjectKorra cooldown for a player, or removes every active cooldown when using the \"all\" variant.",
+    "syntax_pattern": "reset cooldown %string% (of|for) %player%\nreset all cooldowns (of|for) %player%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14252",
+    "created_at": "2025-11-06T14:26:41.836781Z",
+    "updated_at": "2025-11-06T14:26:41.836794Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Clears a ProjectKorra cooldown for a player, or removes every active cooldown when using the \"all\" variant."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14253": {
     "id": 14253,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Set Cooldown",
+    "description": "Sets a ProjectKorra cooldown for a player. Using a non-positive duration removes the cooldown instead.",
+    "syntax_pattern": "set cooldown %string% (of|for) %player% to %timespan%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14253",
+    "created_at": "2025-11-06T14:26:41.863288Z",
+    "updated_at": "2025-11-06T14:26:41.863302Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets a ProjectKorra cooldown for a player. Using a non-positive duration removes the cooldown instead."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14248": {
     "id": 14248,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Bendable Blocks",
+    "description": "Returns recent bendable block sources for a player's element using ProjectKorra's BlockSource logic.",
+    "syntax_pattern": "[the] bendable blocks of %string% for %player% [within %number% [blocks]]",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": "Block",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14248",
+    "created_at": "2025-11-06T11:30:32.289932Z",
+    "updated_at": "2025-11-06T14:26:41.895855Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns recent bendable block sources for a player's element using ProjectKorra's BlockSource logic."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14249": {
     "id": 14249,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Generated Ability",
+    "description": "",
+    "syntax_pattern": "addon abilitie[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14249",
+    "created_at": "2025-11-06T11:30:32.309699Z",
+    "updated_at": "2025-11-06T14:26:41.911666Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-pk] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14245": {
     "id": 14245,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "anxhelokojku",
+    "title": "Stop Ability",
+    "description": "Ends a running ProjectKorra ability generated through this addon. When used without an argument inside start/progress/remove sections, it stops the active ability instance.",
+    "syntax_pattern": "stop ability %skriptability%\nstop ability",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-pk",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14245",
+    "created_at": "2025-11-06T11:30:32.210760Z",
+    "updated_at": "2025-11-06T15:59:01.198997Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Ends a running ProjectKorra ability generated through this addon. When used without an argument inside start/progress/remove sections, it stops the active ability instance."
       ],
       "ko": [
-        "[skript-pk] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PK] 한국어 가이드 번역 대기 중"
       ]
     }
   }

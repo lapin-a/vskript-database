@@ -1,155 +1,342 @@
 {
   "syntax_7970": {
     "id": 7970,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pesekjak",
+    "title": "Character",
+    "description": "Represents a single character.",
+    "syntax_pattern": "'˂.˃'",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Hippo",
+    "type_usage": "character",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7970",
+    "created_at": "2022-08-20T15:12:39.838791Z",
+    "updated_at": "2022-08-20T15:12:39.838819Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a single character."
       ],
       "ko": [
-        "[Hippo] 한국어 가이드팩 준비 중"
+        "[HIPPO] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7971": {
     "id": 7971,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pesekjak",
+    "title": "Complex Type",
+    "description": "Represents a multi-dimensional array of primitive or Java type.",
+    "syntax_pattern": "%primitivetype|javatype%˂^(\\[\\])*˃",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Hippo",
+    "type_usage": "complextype",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7971",
+    "created_at": "2022-08-20T15:14:27.858519Z",
+    "updated_at": "2022-08-20T15:15:14.730415Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a multi-dimensional array of primitive or Java type."
       ],
       "ko": [
-        "[Hippo] 한국어 가이드팩 준비 중"
+        "[HIPPO] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7972": {
     "id": 7972,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pesekjak",
+    "title": "Pair",
+    "description": "Pairs datatype and identifier together.",
+    "syntax_pattern": "(%primitivetype/javatype/complextype%) ˂identifier˃",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Hippo",
+    "type_usage": "pair",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7972",
+    "created_at": "2022-08-20T15:18:05.863892Z",
+    "updated_at": "2022-08-20T15:18:05.863911Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Pairs datatype and identifier together."
       ],
       "ko": [
-        "[Hippo] 한국어 가이드팩 준비 중"
+        "[HIPPO] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7973": {
     "id": 7973,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pesekjak",
+    "title": "Field",
+    "description": "Defines a new field for the current class.",
+    "syntax_pattern": "%modifiers% %pair% [= %-object%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Hippo",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7973",
+    "created_at": "2022-08-20T15:19:31.360952Z",
+    "updated_at": "2022-08-20T15:19:31.360971Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Defines a new field for the current class."
       ],
       "ko": [
-        "[Hippo] 한국어 가이드팩 준비 중"
+        "[HIPPO] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7963": {
     "id": 7963,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pesekjak",
+    "title": "Pre-import",
+    "description": "Section for pre-imports of the current script. Used for classes that don't exist yet and will be compiled later on.",
+    "syntax_pattern": "pre[-]import",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Hippo",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7963",
+    "created_at": "2022-08-20T14:33:25.336651Z",
+    "updated_at": "2022-08-20T14:35:24.479897Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Section for pre-imports of the current script. Used for classes that don't exist yet and will be compiled later on."
       ],
       "ko": [
-        "[Hippo] 한국어 가이드팩 준비 중"
+        "[HIPPO] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7968": {
     "id": 7968,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pesekjak",
+    "title": "Static Block",
+    "description": "Static block will run once the class in which it's defined is initialized.",
+    "syntax_pattern": "static",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "Hippo",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7968",
+    "created_at": "2022-08-20T15:08:30.911469Z",
+    "updated_at": "2022-08-20T15:08:30.911488Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Static block will run once the class in which it's defined is initialized."
       ],
       "ko": [
-        "[Hippo] 한국어 가이드팩 준비 중"
+        "[HIPPO] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7969": {
     "id": 7969,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pesekjak",
+    "title": "Primitive Type",
+    "description": "Primitive types are used as Java primitives.",
+    "syntax_pattern": "boolean\nchar\nbyte\nshort\nint\nfloat\nlong\ndouble\nvoid",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Hippo",
+    "type_usage": "primitivetype",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7969",
+    "created_at": "2022-08-20T15:11:01.114347Z",
+    "updated_at": "2022-08-20T15:11:01.114366Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Primitive types are used as Java primitives."
       ],
       "ko": [
-        "[Hippo] 한국어 가이드팩 준비 중"
+        "[HIPPO] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7965": {
     "id": 7965,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pesekjak",
+    "title": "Modifier",
+    "description": "Modifiers are used to change behaviour of modifiable class contents, all of them represent the Java counterparts except for the default one, which can be used for package-protected access.",
+    "syntax_pattern": "public\nprivate\nprotected\nfinal\nstatic\nabstract\ntransient\nsynchronized\nvolatile\nnative\nstrictfp\ndefault",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Hippo",
+    "type_usage": "modifier",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7965",
+    "created_at": "2022-08-20T14:59:57.607211Z",
+    "updated_at": "2022-08-20T14:59:57.607228Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Modifiers are used to change behaviour of modifiable class contents, all of them represent the Java counterparts except for the default one, which can be used for package-protected access."
       ],
       "ko": [
-        "[Hippo] 한국어 가이드팩 준비 중"
+        "[HIPPO] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7966": {
     "id": 7966,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pesekjak",
+    "title": "Class Type",
+    "description": "Class types are used to specify functionality of a class, all of them represent the Java counterparts.",
+    "syntax_pattern": "class\ninterface\nrecord\nenum\nannotation",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Hippo",
+    "type_usage": "classtype",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7966",
+    "created_at": "2022-08-20T15:02:33.844445Z",
+    "updated_at": "2022-08-20T15:02:33.844461Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Class types are used to specify functionality of a class, all of them represent the Java counterparts."
       ],
       "ko": [
-        "[Hippo] 한국어 가이드팩 준비 중"
+        "[HIPPO] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7967": {
     "id": 7967,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pesekjak",
+    "title": "New Class",
+    "description": "Creates new Hippo Skript class on load if not specified differently.",
+    "syntax_pattern": "%modifiers% [skript(-| )]%classtype% ˂fully qualified name˃ [extends %-javatype%] [implements %-javatypes%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Hippo",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7967",
+    "created_at": "2022-08-20T15:04:35.572721Z",
+    "updated_at": "2022-08-20T15:04:35.572749Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates new Hippo Skript class on load if not specified differently."
       ],
       "ko": [
-        "[Hippo] 한국어 가이드팩 준비 중"
+        "[HIPPO] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_7964": {
     "id": 7964,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "pesekjak",
+    "title": "Class pre-import",
+    "description": "Pre-imports the class under its simple name or alias if specified. Can be used only in pre-import section.",
+    "syntax_pattern": "˂fully qualified name˃ [as ˂alias˃]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Hippo",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=7964",
+    "created_at": "2022-08-20T14:35:15.326091Z",
+    "updated_at": "2022-08-20T14:54:58.913280Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Pre-imports the class under its simple name or alias if specified. Can be used only in pre-import section."
       ],
       "ko": [
-        "[Hippo] 한국어 가이드팩 준비 중"
+        "[HIPPO] 한국어 가이드 번역 대기 중"
       ]
     }
   }

@@ -1,491 +1,1086 @@
 {
   "syntax_4625": {
     "id": 4625,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Draw Line on Image",
+    "description": "Draw a line on a specific image (with color, location and size)",
+    "syntax_pattern": "[skimage] draw line with [the] (size|width) %integer% from %integer%[ ][,][ ]%integer% to %integer%[ ][,][ ]%integer% with [(color|colored)] %imagecolor% on [the] [image] %image%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4625",
+    "created_at": "2021-01-08T17:36:06.127045Z",
+    "updated_at": "2021-01-08T17:36:06.127066Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Draw a line on a specific image (with color, location and size)"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4629": {
     "id": 4629,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Save Image to File",
+    "description": "Save an image to the directory specified",
+    "syntax_pattern": "[skimage] save [the] image %image% to [the] [file] %string%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4629",
+    "created_at": "2021-01-08T17:36:06.159339Z",
+    "updated_at": "2021-01-08T17:36:06.159364Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Save an image to the directory specified"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4630": {
     "id": 4630,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Set Image Background",
+    "description": "Fill the entire image with unique color",
+    "syntax_pattern": "[skimage] (set|change|fill) back[ground] of [the] [image] %image% (to|with) [the] [color] %imagecolor%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4630",
+    "created_at": "2021-01-08T17:36:06.167810Z",
+    "updated_at": "2021-01-08T17:36:06.167831Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Fill the entire image with unique color"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4631": {
     "id": 4631,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Color from RGB",
+    "description": "Return a color from RGB (Red, Green, Blue)",
+    "syntax_pattern": "[skimage] color from (rgb|redgreenblue) %integer%[ ][,][ ]%integer%[ ][,][ ]%integer%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": "imagecolor",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4631",
+    "created_at": "2021-01-08T17:36:06.178110Z",
+    "updated_at": "2021-01-08T17:36:06.178131Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return a color from RGB (Red, Green, Blue)"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4632": {
     "id": 4632,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Image Height",
+    "description": "Return the height size of an image",
+    "syntax_pattern": "[skimage] [the] [pixel] height of [the] [image] %image%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4632",
+    "created_at": "2021-01-08T17:36:06.186226Z",
+    "updated_at": "2021-01-08T17:36:06.186246Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the height size of an image"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4633": {
     "id": 4633,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Image Width",
+    "description": "Return the width size of an image",
+    "syntax_pattern": "[skimage] [the] [pixel] width of [the] [image] %image%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4633",
+    "created_at": "2021-01-08T17:36:06.192171Z",
+    "updated_at": "2021-01-08T17:36:06.192190Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the width size of an image"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4634": {
     "id": 4634,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Image from File",
+    "description": "Get and return an image from locale File",
+    "syntax_pattern": "[skimage] [the] image from [the] [file] %string%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": "Image",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4634",
+    "created_at": "2021-01-08T17:36:06.198092Z",
+    "updated_at": "2021-01-08T17:36:06.198112Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get and return an image from locale File"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4635": {
     "id": 4635,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Image from URL",
+    "description": "Get and return an image from web URL",
+    "syntax_pattern": "[skimage] [the] image from [the] [url] %string%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": "Image",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4635",
+    "created_at": "2021-01-08T17:36:06.205149Z",
+    "updated_at": "2021-01-08T17:36:06.205168Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get and return an image from web URL"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4636": {
     "id": 4636,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "New Font",
+    "description": "Create an return a new Font",
+    "syntax_pattern": "[skimage] new font[ ](format|style) with [the] [font] [name] %string% and with [the] [font] size %integer%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": "font",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4636",
+    "created_at": "2021-01-08T17:36:06.211569Z",
+    "updated_at": "2021-01-08T17:36:06.211589Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create an return a new Font"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4637": {
     "id": 4637,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "New Image",
+    "description": "Create an return a new Image",
+    "syntax_pattern": "[skimage] new image with [width] %integer% and [with] [height] %integer%\n[skimage] new image with size %integer%[ ][,][ ]%integer%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": "Image",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4637",
+    "created_at": "2021-01-08T17:36:06.217583Z",
+    "updated_at": "2021-01-08T17:36:06.217603Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create an return a new Image"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4638": {
     "id": 4638,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Resized Image",
+    "description": "Resize and return an Image with new width, height and with specific algorithm (Bytes, so 1, 2, 4, 8 and 16)",
+    "syntax_pattern": "[skimage] resized [the] [image] %image% (with|to) [the] [size] %integer%[ ][,][ ]%integer% [with algo[rithm] %integer%]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": "Image",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4638",
+    "created_at": "2021-01-08T17:36:06.224270Z",
+    "updated_at": "2021-01-08T17:36:06.224289Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Resize and return an Image with new width, height and with specific algorithm (Bytes, so 1, 2, 4, 8 and 16)"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4639": {
     "id": 4639,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Rounded Image",
+    "description": "Make an return the rounded version of the input Image",
+    "syntax_pattern": "[skimage] image (oval|roud[ed]) [of] %image%\n[skimage] rounded image %image%",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": "Image",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4639",
+    "created_at": "2021-01-08T17:36:06.230293Z",
+    "updated_at": "2021-01-08T17:36:06.230318Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make an return the rounded version of the input Image"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4640": {
     "id": 4640,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Image",
+    "description": "Represents an Image",
+    "syntax_pattern": "image",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4640",
+    "created_at": "2021-01-08T17:36:06.237084Z",
+    "updated_at": "2021-01-08T17:36:06.237104Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an Image"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4641": {
     "id": 4641,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "font",
+    "description": "Represents an Image Font",
+    "syntax_pattern": "font",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4641",
+    "created_at": "2021-01-08T17:36:06.243221Z",
+    "updated_at": "2021-01-08T17:36:06.243241Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an Image Font"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4642": {
     "id": 4642,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "imagecolor",
+    "description": "Represents an Image Color",
+    "syntax_pattern": "imagecolor",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4642",
+    "created_at": "2021-01-08T17:36:06.250431Z",
+    "updated_at": "2021-01-08T17:36:06.250451Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an Image Color"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4627": {
     "id": 4627,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Draw Rounded Rectangle on Image",
+    "description": "Draw a rectangle with rounded arc on a specific image (with color, location and size)",
+    "syntax_pattern": "[skimage] draw round[ed] rect[angle] [with anti[-]aliases] at [the [pixel] location] %number%[ ][,][ ]%number% with [the] size %number%[ ][,][ ]%number% with [(color|colored)] %imagecolor% with arc (size|pixel) %number%[ ][,][ ]%number% on [the] [image] %image%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4627",
+    "created_at": "2021-01-08T17:36:06.139712Z",
+    "updated_at": "2021-06-13T19:49:19.346004Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Draw a rectangle with rounded arc on a specific image (with color, location and size)"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4628": {
     "id": 4628,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Draw Text on Image",
+    "description": "Draw text at specific pixel location and with specific color on image. Use `with align center` at the end to make the text center.",
+    "syntax_pattern": "[skimage] draw [text] %string% [with anti[-]aliases] with [the] font [style] %font% at [x] %integer%[ ](,|and)[ ][y] %integer% with [color] %imagecolor% on [the] [image] %image%\n[skimage] draw [text] %string% [with anti[-]aliases] with [the] font [style] %font% at [x] %integer%[ ](,|and)[ ][y] %integer% with [color] %imagecolor% on [the] [image] %image% with align center",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4628",
+    "created_at": "2021-01-08T17:36:06.146019Z",
+    "updated_at": "2021-06-13T19:49:19.354614Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Draw text at specific pixel location and with specific color on image. Use `with align center` at the end to make the text center."
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4806": {
     "id": 4806,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Register Text Font",
+    "description": "Register new font from file or whole folder",
+    "syntax_pattern": "[skimage] register [the] [new] [text] font from [the] [(file|folder)] %string%",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4806",
+    "created_at": "2021-02-28T20:48:33.538378Z",
+    "updated_at": "2021-02-28T20:48:33.538407Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Register new font from file or whole folder"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4807": {
     "id": 4807,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "All Registered Fonts",
+    "description": "Returns list of all active and enabled font",
+    "syntax_pattern": "[skimage] all [registered] [image] font[s]",
+    "compatible_addon_version": "1.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4807",
+    "created_at": "2021-02-28T20:48:33.574436Z",
+    "updated_at": "2021-02-28T20:48:33.574457Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns list of all active and enabled font"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4808": {
     "id": 4808,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Base64 from Image",
+    "description": "Get and return the Base64 string of an Image",
+    "syntax_pattern": "[skimage] [the] base64 [string] from [the] [image] %image%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4808",
+    "created_at": "2021-02-28T20:48:33.580305Z",
+    "updated_at": "2021-02-28T20:48:33.580326Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get and return the Base64 string of an Image"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4809": {
     "id": 4809,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Black&White Image",
+    "description": "Make the image without any other color than gray level, and return it.",
+    "syntax_pattern": "[skimage] (black[ ]and[ ]white|baw|gray level) [image] %image%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": "Image",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4809",
+    "created_at": "2021-02-28T20:48:33.587788Z",
+    "updated_at": "2021-02-28T20:48:33.587808Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make the image without any other color than gray level, and return it."
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4810": {
     "id": 4810,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Blur Image",
+    "description": "Make the image blurred and return it. Can't remove black border, expect by resizing the image.",
+    "syntax_pattern": "[skimage] blur[red] [image] %image% with [the] (force|power) %integer%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": "Image",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4810",
+    "created_at": "2021-02-28T20:48:33.593890Z",
+    "updated_at": "2021-02-28T20:48:33.593909Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make the image blurred and return it. Can't remove black border, expect by resizing the image."
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4811": {
     "id": 4811,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Colored Image",
+    "description": "Re-color each pixel of the image, by adding both image and color chose RGB value, and return it.",
+    "syntax_pattern": "[skimage] (tinted|colored) [image] %image% with [the] [(color|theme)] %imagecolor%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": "Image",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4811",
+    "created_at": "2021-02-28T20:48:33.600231Z",
+    "updated_at": "2021-02-28T20:48:33.600251Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Re-color each pixel of the image, by adding both image and color chose RGB value, and return it."
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4812": {
     "id": 4812,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Darker Image",
+    "description": "Make any image with darker pixel and return it",
+    "syntax_pattern": "[skimage] darker [image] %image% with [the] force %integer%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": "Image",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4812",
+    "created_at": "2021-02-28T20:48:33.606795Z",
+    "updated_at": "2021-02-28T20:48:33.606816Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make any image with darker pixel and return it"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4813": {
     "id": 4813,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Image from Base64",
+    "description": "Get and return an image from Base64 encoding",
+    "syntax_pattern": "[skimage] [the] image from [the] [base64] [value] %string%",
+    "compatible_addon_version": "1.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": "Image",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4813",
+    "created_at": "2021-02-28T20:48:33.613352Z",
+    "updated_at": "2021-02-28T20:48:33.613373Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get and return an image from Base64 encoding"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4814": {
     "id": 4814,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Inverted Image",
+    "description": "Invert (Positive / Negative) each pixel of the image, and return it.",
+    "syntax_pattern": "[skimage] inverted [image] %image%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": "Image",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4814",
+    "created_at": "2021-02-28T20:48:33.619475Z",
+    "updated_at": "2021-02-28T20:48:33.619495Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Invert (Positive / Negative) each pixel of the image, and return it."
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4815": {
     "id": 4815,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Lighter Image",
+    "description": "Make any image with lighter pixel and return it",
+    "syntax_pattern": "[skimage] lighter [image] %image% with [the] force %integer%",
+    "compatible_addon_version": "1.5",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": "Image",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4815",
+    "created_at": "2021-02-28T20:48:33.625400Z",
+    "updated_at": "2021-02-28T20:48:33.625421Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make any image with lighter pixel and return it"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4624": {
     "id": 4624,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Draw Image on Image",
+    "description": "Draw an Image on another Image",
+    "syntax_pattern": "[skimage] draw [the] [image] %image% on [the] [other] [image] %image% at %number%[ ][,][ ]%number%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4624",
+    "created_at": "2021-01-08T17:36:06.099107Z",
+    "updated_at": "2021-06-13T19:49:19.295553Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Draw an Image on another Image"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4626": {
     "id": 4626,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Draw Rectangle on Image",
+    "description": "Draw a rectangle on a specific image (with color, location and size)",
+    "syntax_pattern": "[skimage] draw rect[angle] [with anti[-]aliases] at [the [pixel] location] %integer%[ ][,][ ]%integer% with [the] size %integer%[ ][,][ ]%integer% with [(color|colored)] %imagecolor% [[with] [rotation] %-number% degree[s] [angle] [using origin location %-number%,[ ]%-number%]] on [the] [image] %image%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4626",
+    "created_at": "2021-01-08T17:36:06.133099Z",
+    "updated_at": "2021-06-13T19:49:19.337250Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Draw a rectangle on a specific image (with color, location and size)"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5610": {
     "id": 5610,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Copied Image",
+    "description": "Return the same image, with same pixel and data, but not the same instance.",
+    "syntax_pattern": "[skimage] (duplicated|copied) [image] %image%",
+    "compatible_addon_version": "1.6",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5610",
+    "created_at": "2021-06-13T19:49:19.362598Z",
+    "updated_at": "2021-06-13T19:49:19.362613Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the same image, with same pixel and data, but not the same instance."
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5611": {
     "id": 5611,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Color distance",
+    "description": "Return the distance between two java.awt colors",
+    "syntax_pattern": "[skimage] [color] distance between [the] %imagecolor% and %imagecolor%",
+    "compatible_addon_version": "1.5.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5611",
+    "created_at": "2021-06-13T19:49:19.370939Z",
+    "updated_at": "2021-06-13T19:49:19.370955Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the distance between two java.awt colors"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5612": {
     "id": 5612,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Average Image Color",
+    "description": "Get the average (main) color of an image.",
+    "syntax_pattern": "[skimage] (average|main) color of [the] [image] %image%",
+    "compatible_addon_version": "1.5.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5612",
+    "created_at": "2021-06-13T19:49:19.378876Z",
+    "updated_at": "2021-06-13T19:49:19.378892Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the average (main) color of an image."
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5613": {
     "id": 5613,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Image",
+    "description": "Represents an Image",
+    "syntax_pattern": "image",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5613",
+    "created_at": "2021-06-13T19:49:19.386961Z",
+    "updated_at": "2021-06-13T19:49:19.386978Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an Image"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5614": {
     "id": 5614,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "imagecolor",
+    "description": "Represents an Image Color",
+    "syntax_pattern": "imagecolor",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5614",
+    "created_at": "2021-06-13T19:49:19.394779Z",
+    "updated_at": "2021-06-13T19:49:19.394795Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an Image Color"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5615": {
     "id": 5615,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "font",
+    "description": "Represents an Image Font",
+    "syntax_pattern": "font",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkImage",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5615",
+    "created_at": "2021-06-13T19:49:19.402599Z",
+    "updated_at": "2021-06-13T19:49:19.402616Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an Image Font"
       ],
       "ko": [
-        "[SkImage] 한국어 가이드팩 준비 중"
+        "[SKIMAGE] 한국어 가이드 번역 대기 중"
       ]
     }
   }

@@ -1,666 +1,1024 @@
 {
   "syntax_15175": {
     "id": 15175,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "General - On Packet",
+    "description": "Listen to incoming/outgoing packets, more on [the wiki](https://github.com/3add/PacketEventsSK/wiki/Events)",
+    "syntax_pattern": "[on] ([any] packet|%*-packettype%) [(sync|async|netty) processed] [with packet[events] priority (lowest|low|normal|high|highest|monitor)]",
+    "compatible_addon_version": "1.0.0 1.0.1 altered 1.1.0 (changed from struct to event) 1.1.1 (added packet priority, added listening to all packets and fixed bugs)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-packet, event-player",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15175",
+    "created_at": "2026-05-19T16:35:20.682229Z",
+    "updated_at": "2026-05-19T16:35:20.682249Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Listen to incoming/outgoing packets, more on [the wiki](https://github.com/3add/PacketEventsSK/wiki/Events)"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15176": {
     "id": 15176,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "General - Cancel Packet",
+    "description": "Used to cancel the packet in a packet receive/send event.\nThis just means that the packet won't be processed/sent.\n",
+    "syntax_pattern": "cancel [the] packet",
+    "compatible_addon_version": "1.0.0 1.1.1 (fixed bugs)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15176",
+    "created_at": "2026-05-19T16:35:20.691382Z",
+    "updated_at": "2026-05-19T16:35:20.691395Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Used to cancel the packet in a packet receive/send event.",
-        "This just means that the packet won't be processed/sent."
+        "Used to cancel the packet in a packet receive/send event.\nThis just means that the packet won't be processed/sent.\n"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15177": {
     "id": 15177,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "Fake Entity - Kill Fake Entity",
+    "description": "Used to kill a spawned fake entity",
+    "syntax_pattern": "kill fake [entit(y|ies)] %fakeentities%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15177",
+    "created_at": "2026-05-19T16:35:20.699704Z",
+    "updated_at": "2026-05-19T16:35:20.699718Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Used to kill a spawned fake entity"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15178": {
     "id": 15178,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "General - Fetch Skin",
+    "description": "Used to fetch a player skin.\n**This is processed on an async thread and thus will pause your code until it's been loaded.**\n",
+    "syntax_pattern": "fetch skin (from|of) player (named|with name) %string% and store (it|the result) in %-~objects%\nset %-~objects% to [fetch] skin (from|of) player (named|with name) %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15178",
+    "created_at": "2026-05-19T16:35:20.707875Z",
+    "updated_at": "2026-05-19T16:35:20.707888Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Used to fetch a player skin.",
-        "**This is processed on an async thread and thus will pause your code until it's been loaded.**"
+        "Used to fetch a player skin.\n**This is processed on an async thread and thus will pause your code until it's been loaded.**\n"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15179": {
     "id": 15179,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "Fake Entity - Spawn Fake Entity",
+    "description": "Spawn a fake entity at a location, it can only be spawned once. To move use teleport.",
+    "syntax_pattern": "spawn fake [entit(y|ies)] %fakeentities% at %location%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15179",
+    "created_at": "2026-05-19T16:35:20.715956Z",
+    "updated_at": "2026-05-19T16:35:20.715969Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Spawn a fake entity at a location, it can only be spawned once. To move use teleport."
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15180": {
     "id": 15180,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "Fake Entity - Teleport Fake Entity",
+    "description": "Teleport a spawned fake entity to a location.",
+    "syntax_pattern": "teleport fake [entit(y|ies)] %fakeentities% to %location%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15180",
+    "created_at": "2026-05-19T16:35:20.723802Z",
+    "updated_at": "2026-05-19T16:35:20.723817Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Teleport a spawned fake entity to a location."
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15181": {
     "id": 15181,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "General - Send/Receive Packet",
+    "description": "Used to force the server to send or receive a packet, optionally silently. (silent means it won't trigger on packet send or receive)",
+    "syntax_pattern": "[(silently|default)] (send|receive) packet %packets% (to|from) %players%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15181",
+    "created_at": "2026-05-19T16:35:20.732991Z",
+    "updated_at": "2026-05-19T16:35:20.733006Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Used to force the server to send or receive a packet, optionally silently. (silent means it won't trigger on packet send or receive)"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15182": {
     "id": 15182,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "Fake Entity - Ride",
+    "description": "Make fake entities ride another entity (fake or real), or remove them as passengers.\n**Note: Real entities are just a single packet being sent, when a player relogs, changes worlds or some other circumstances the passengers will be altered by the vanilla server.**\n",
+    "syntax_pattern": "(make|let|force) fake [entit(y|ies)] %fakeentities% [to] (ride|mount) %fakeentity/livingentity%\n(make|let|force) fake [entit(y|ies)] %fakeentities% [to] (dismount|(dismount|leave) as passenger[s]) (from|of) %fakeentity/livingentity%",
+    "compatible_addon_version": "1.0.1 1.1.0 (added note)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15182",
+    "created_at": "2026-05-19T16:35:20.740280Z",
+    "updated_at": "2026-05-19T16:35:20.740294Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Make fake entities ride another entity (fake or real), or remove them as passengers.",
-        "**Note: Real entities are just a single packet being sent, when a player relogs, changes worlds or some other circumstances the passengers will be altered by the vanilla server.**"
+        "Make fake entities ride another entity (fake or real), or remove them as passengers.\n**Note: Real entities are just a single packet being sent, when a player relogs, changes worlds or some other circumstances the passengers will be altered by the vanilla server.**\n"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15183": {
     "id": 15183,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "Simple Glow - Entity Glow State",
+    "description": "Set the glow state of an entity for a set of viewers.\nInternally everything is handled by the addon. (fully packet based)\n",
+    "syntax_pattern": "set glow[ing] [state] of %entities% [to] %boolean% [for %-players%]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15183",
+    "created_at": "2026-05-19T16:35:20.748677Z",
+    "updated_at": "2026-05-19T16:35:20.748692Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Set the glow state of an entity for a set of viewers.",
-        "Internally everything is handled by the addon. (fully packet based)"
+        "Set the glow state of an entity for a set of viewers.\nInternally everything is handled by the addon. (fully packet based)\n"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15184": {
     "id": 15184,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "Simple Skin - Player Displayed Skin",
+    "description": "Set the displayed skin of a player for a set of viewers.\nInternally everything is handled by the addon (fully packet based).\n",
+    "syntax_pattern": "set displayed skin of %players% to %skin% [for %-players%]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15184",
+    "created_at": "2026-05-19T16:35:20.755843Z",
+    "updated_at": "2026-05-19T16:35:20.755856Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Set the displayed skin of a player for a set of viewers.",
-        "Internally everything is handled by the addon (fully packet based)."
+        "Set the displayed skin of a player for a set of viewers.\nInternally everything is handled by the addon (fully packet based).\n"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15185": {
     "id": 15185,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "Fake Entity - All Fake Entities",
+    "description": "Used to get a list of all fake entities that are viewable by least a single player",
+    "syntax_pattern": "[all] fake[ ]entities",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15185",
+    "created_at": "2026-05-19T16:35:20.763164Z",
+    "updated_at": "2026-05-19T16:35:20.763178Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Used to get a list of all fake entities that are viewable by least a single player"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15186": {
     "id": 15186,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "Fake Entity Event Value",
+    "description": "The fake entity involved in the event. (Only available in fake entity related events)",
+    "syntax_pattern": "[the] fake entity",
+    "compatible_addon_version": "1.0.0 1.1.0 (switched to EventValueExpression)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15186",
+    "created_at": "2026-05-19T16:35:20.769947Z",
+    "updated_at": "2026-05-19T16:35:20.769960Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The fake entity involved in the event. (Only available in fake entity related events)"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15187": {
     "id": 15187,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "Fake Entity - Visible Fake Entities",
+    "description": "Used to get all fake entities viewed by a player",
+    "syntax_pattern": "[the] [visible] fake[ ]entities of %player%\n%player%'[s] [visible] fake[ ]entities",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15187",
+    "created_at": "2026-05-19T16:35:20.777354Z",
+    "updated_at": "2026-05-19T16:35:20.777368Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Used to get all fake entities viewed by a player"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15188": {
     "id": 15188,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "General - Packet Type",
+    "description": "The packet type of a packet",
+    "syntax_pattern": "[the] packet[ ]type of %packet%\n%packet%'[s] packet[ ]type",
+    "compatible_addon_version": "1.1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15188",
+    "created_at": "2026-05-19T16:35:20.785298Z",
+    "updated_at": "2026-05-19T16:35:20.785311Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The packet type of a packet"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15189": {
     "id": 15189,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "Fake Entity - From Entity UUID",
+    "description": "Retrieve a fake entity from it's entity uuid, this only works for spawned fake entities",
+    "syntax_pattern": "fake[ ]entity (from|with) uuid %uuid%",
+    "compatible_addon_version": "1.0.0 1.1.0 (pattern altered)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15189",
+    "created_at": "2026-05-19T16:35:20.792374Z",
+    "updated_at": "2026-05-19T16:35:20.792387Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Retrieve a fake entity from it's entity uuid, this only works for spawned fake entities"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15191": {
     "id": 15191,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "General - Player Skin of Player",
+    "description": "Gets the skin the player had when they joined the server\nNOTE: This only works on servers in online mode\n",
+    "syntax_pattern": "[the] skin of %player%\n%player%'[s] skin",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15191",
+    "created_at": "2026-05-19T16:35:20.807945Z",
+    "updated_at": "2026-05-19T16:35:20.807958Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Gets the skin the player had when they joined the server",
-        "NOTE: This only works on servers in online mode"
+        "Gets the skin the player had when they joined the server\nNOTE: This only works on servers in online mode\n"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15192": {
     "id": 15192,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "Simple Glow - Glow Entity Viewers",
+    "description": "The players that are able to see the entity as glowing.",
+    "syntax_pattern": "[the] glow[ing] [entity][ ]viewers of %entities%\n%entities%'[s] glow[ing] [entity][ ]viewers",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15192",
+    "created_at": "2026-05-19T16:35:20.815277Z",
+    "updated_at": "2026-05-19T16:35:20.815290Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The players that are able to see the entity as glowing."
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15193": {
     "id": 15193,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "Fake Entity - From Entity ID",
+    "description": "Retrieve a fake entity from it's entity id, this only works for spawned fake entities",
+    "syntax_pattern": "fake[ ]entity (from|with) id %integer%",
+    "compatible_addon_version": "1.0.0 1.1.0 (pattern altered)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15193",
+    "created_at": "2026-05-19T16:35:20.822393Z",
+    "updated_at": "2026-05-19T16:35:20.822406Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Retrieve a fake entity from it's entity id, this only works for spawned fake entities"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15194": {
     "id": 15194,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "General - Create Meta",
+    "description": "Create a new meta from an entity type.\n\n### Available Metas and their fields\n* **entity** fields:\n  - `entity id (id)`\n  - `on fire state (on fire)`\n  - `sneaking state (sneaking)`\n  - `sprinting state (sprinting)`\n  - `swimming state (swimming)`\n  - `invisible state (invisible)`\n  - `glowing state (glowing)`\n  - `elytra flying state (elytra flying)`\n  - `custom name`\n  - `custom name visible state (custom name visible)`\n  - `silent state (silent)`\n  - `gravity state (gravity)`\n  - `frozen time (frozen ticks)`\n\n* **livingentity** fields:\n  - *(Inherits all fields from **entity**)*\n  - `health (hp)`\n\n* **item** fields:\n  - *(Inherits all fields from **entity**)*\n  - `item`\n\n* **interaction** fields:\n  - *(Inherits all fields from **entity**)*\n  - `interaction width`\n  - `interaction height`\n  - `interaction responsive state (interaction responsive)`\n\n* **display** fields:\n  - *(Inherits all fields from **entity**)*\n  - `display interpolation delay`\n  - `display transform interpolation duration`\n  - `display teleport interpolation duration`\n  - `display translation`\n  - `display scale`\n  - `display left rotation`\n  - `display right rotation`\n  - `display billboard constraints (display billboard)`\n  - `display brightness override (display brightness)`\n  - `display view range`\n  - `display shadow radius`\n  - `display shadow strength`\n  - `display width`\n  - `display height`\n  - `display glow color override (display glow color)`\n\n* **block display** fields:\n  - *(Inherits all fields from **display**)*\n  - `display block data (display block state)`\n\n* **item display** fields:\n  - *(Inherits all fields from **display**)*\n  - `display item (display item stack)`\n  - `display item transform`\n\n* **text display** fields:\n  - *(Inherits all fields from **display**)*\n  - `display text (display content)`\n  - `display line width`\n  - `display background color`\n  - `display text shadowed state (display shadowed state, display shadowed)`\n  - `display see through state (display see through)`\n  - `display use default background state (display use default background)`\n  - `display text alignment (display alignment)`\n\n",
+    "syntax_pattern": "[a] [new] [fake] %*entitydata% [entity] meta [data]",
+    "compatible_addon_version": "1.1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15194",
+    "created_at": "2026-05-19T16:35:20.829981Z",
+    "updated_at": "2026-05-20T12:06:49.682235Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Create a new meta from an entity type.",
-        "### Available Metas and their fields",
-        "* **entity** fields:",
-        "- `entity id (id)`",
-        "- `on fire state (on fire)`",
-        "- `sneaking state (sneaking)`",
-        "- `sprinting state (sprinting)`",
-        "- `swimming state (swimming)`",
-        "- `invisible state (invisible)`",
-        "- `glowing state (glowing)`",
-        "- `elytra flying state (elytra flying)`",
-        "- `custom name`",
-        "- `custom name visible state (custom name visible)`",
-        "- `silent state (silent)`",
-        "- `gravity state (gravity)`",
-        "- `frozen time (frozen ticks)`",
-        "* **livingentity** fields:",
-        "- *(Inherits all fields from **entity**)*",
-        "- `health (hp)`",
-        "* **item** fields:",
-        "- *(Inherits all fields from **entity**)*",
-        "- `item`",
-        "* **interaction** fields:",
-        "- *(Inherits all fields from **entity**)*",
-        "- `interaction width`",
-        "- `interaction height`",
-        "- `interaction responsive state (interaction responsive)`",
-        "* **display** fields:",
-        "- *(Inherits all fields from **entity**)*",
-        "- `display interpolation delay`",
-        "- `display transform interpolation duration`",
-        "- `display teleport interpolation duration`",
-        "- `display translation`",
-        "- `display scale`",
-        "- `display left rotation`",
-        "- `display right rotation`",
-        "- `display billboard constraints (display billboard)`",
-        "- `display brightness override (display brightness)`",
-        "- `display view range`",
-        "- `display shadow radius`",
-        "- `display shadow strength`",
-        "- `display width`",
-        "- `display height`",
-        "- `display glow color override (display glow color)`",
-        "* **block display** fields:",
-        "- *(Inherits all fields from **display**)*",
-        "- `display block data (display block state)`",
-        "* **item display** fields:",
-        "- *(Inherits all fields from **display**)*",
-        "- `display item (display item stack)`",
-        "- `display item transform`",
-        "* **text display** fields:",
-        "- *(Inherits all fields from **display**)*",
-        "- `display text (display content)`",
-        "- `display line width`",
-        "- `display background color`",
-        "- `display text shadowed state (display shadowed state, display shadowed)`",
-        "- `display see through state (display see through)`",
-        "- `display use default background state (display use default background)`",
-        "- `display text alignment (display alignment)`"
+        "Create a new meta from an entity type.\n\n### Available Metas and their fields\n* **entity** fields:\n  - `entity id (id)`\n  - `on fire state (on fire)`\n  - `sneaking state (sneaking)`\n  - `sprinting state (sprinting)`\n  - `swimming state (swimming)`\n  - `invisible state (invisible)`\n  - `glowing state (glowing)`\n  - `elytra flying state (elytra flying)`\n  - `custom name`\n  - `custom name visible state (custom name visible)`\n  - `silent state (silent)`\n  - `gravity state (gravity)`\n  - `frozen time (frozen ticks)`\n\n* **livingentity** fields:\n  - *(Inherits all fields from **entity**)*\n  - `health (hp)`\n\n* **item** fields:\n  - *(Inherits all fields from **entity**)*\n  - `item`\n\n* **interaction** fields:\n  - *(Inherits all fields from **entity**)*\n  - `interaction width`\n  - `interaction height`\n  - `interaction responsive state (interaction responsive)`\n\n* **display** fields:\n  - *(Inherits all fields from **entity**)*\n  - `display interpolation delay`\n  - `display transform interpolation duration`\n  - `display teleport interpolation duration`\n  - `display translation`\n  - `display scale`\n  - `display left rotation`\n  - `display right rotation`\n  - `display billboard constraints (display billboard)`\n  - `display brightness override (display brightness)`\n  - `display view range`\n  - `display shadow radius`\n  - `display shadow strength`\n  - `display width`\n  - `display height`\n  - `display glow color override (display glow color)`\n\n* **block display** fields:\n  - *(Inherits all fields from **display**)*\n  - `display block data (display block state)`\n\n* **item display** fields:\n  - *(Inherits all fields from **display**)*\n  - `display item (display item stack)`\n  - `display item transform`\n\n* **text display** fields:\n  - *(Inherits all fields from **display**)*\n  - `display text (display content)`\n  - `display line width`\n  - `display background color`\n  - `display text shadowed state (display shadowed state, display shadowed)`\n  - `display see through state (display see through)`\n  - `display use default background state (display use default background)`\n  - `display text alignment (display alignment)`\n\n"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15190": {
     "id": 15190,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "Fake Entity - Create Fake Entity",
+    "description": "Create a new fake entity from an entity type.\n\n### Available Entities and their fields\n* **entity** fields:\n  - `entity viewers (viewers)`\n  - `entity location (location)`\n  - `entity id (id)`\n  - `entity meta data (meta data, meta)`\n  - `entity type (type)`\n  - `entity uuid (uuid)`\n\n* **player** fields:\n  - *(Inherits all fields from **entity**)*\n  - `player skin (skin)`\n  - `player username (player name, username, name)`\n\n",
+    "syntax_pattern": "[a] [new] fake %*entitydata% entity",
+    "compatible_addon_version": "1.0.0 1.1.2 (changed to SectionExpression)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15190",
+    "created_at": "2026-05-19T16:35:20.800150Z",
+    "updated_at": "2026-05-20T12:06:49.691381Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Create a new fake entity from an entity type.",
-        "### Available Entities and their fields",
-        "* **entity** fields:",
-        "- `entity viewers (viewers)`",
-        "- `entity location (location)`",
-        "- `entity id (id)`",
-        "- `entity meta data (meta data, meta)`",
-        "- `entity type (type)`",
-        "- `entity uuid (uuid)`",
-        "* **player** fields:",
-        "- *(Inherits all fields from **entity**)*",
-        "- `player skin (skin)`",
-        "- `player username (player name, username, name)`"
+        "Create a new fake entity from an entity type.\n\n### Available Entities and their fields\n* **entity** fields:\n  - `entity viewers (viewers)`\n  - `entity location (location)`\n  - `entity id (id)`\n  - `entity meta data (meta data, meta)`\n  - `entity type (type)`\n  - `entity uuid (uuid)`\n\n* **player** fields:\n  - *(Inherits all fields from **entity**)*\n  - `player skin (skin)`\n  - `player username (player name, username, name)`\n\n"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15208": {
     "id": 15208,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "Fake Entity - Fake Entity",
+    "description": "A fake entity viewable by at least 1 player",
+    "syntax_pattern": "fake[ ]entit(y|ies)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15208",
+    "created_at": "2026-05-20T12:06:49.738599Z",
+    "updated_at": "2026-05-20T12:06:49.738613Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A fake entity viewable by at least 1 player"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15196": {
     "id": 15196,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "General - Entity Id of Entity",
+    "description": "Gets the entity id of an entity on the server",
+    "syntax_pattern": "[the] (protocol|packet) [entity][ ]id of %entity%\n%entity%'[s] (protocol|packet) [entity][ ]id",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15196",
+    "created_at": "2026-05-19T16:35:20.845279Z",
+    "updated_at": "2026-05-19T16:35:20.845293Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the entity id of an entity on the server"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15197": {
     "id": 15197,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "Fake Living Entity Property - Attribute",
+    "description": "The attribute of a fake living entity.",
+    "syntax_pattern": "[the] fake %attributetype% attribute [value] of %fakeentity%\n%fakeentity%'[s] fake %attributetype% attribute [value]",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15197",
+    "created_at": "2026-05-19T16:35:20.852350Z",
+    "updated_at": "2026-05-19T16:35:20.852364Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The attribute of a fake living entity."
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15198": {
     "id": 15198,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "General - Player Skin From Base64/Signature",
+    "description": "Creates a skin object using a Base64 value and an optional cryptographic signature.\nThe value contains the texture URL, while the signature proves the skin is authentic from Mojang.\n",
+    "syntax_pattern": "[new] [player] skin from [value] %string% [(with|and) signature %-string%]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15198",
+    "created_at": "2026-05-19T16:35:20.859296Z",
+    "updated_at": "2026-05-19T16:35:20.859310Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a skin object using a Base64 value and an optional cryptographic signature.",
-        "The value contains the texture URL, while the signature proves the skin is authentic from Mojang."
+        "Creates a skin object using a Base64 value and an optional cryptographic signature.\nThe value contains the texture URL, while the signature proves the skin is authentic from Mojang.\n"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15202": {
     "id": 15202,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "General - Packet",
+    "description": "A packet sent by the client or server",
+    "syntax_pattern": "packet",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15202",
+    "created_at": "2026-05-19T16:35:20.889064Z",
+    "updated_at": "2026-05-19T16:35:20.889077Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A packet sent by the client or server"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15203": {
     "id": 15203,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "General - Packet Type",
+    "description": "Represents a specific type of packet (e.g. clientbound chunk data packet)",
+    "syntax_pattern": "packet[ ]type[s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": "attach entity server links particle move minecart player chat header face player explosion window property player info destroy entities server difficulty update entity nbt display scoreboard set slot transfer entity animation spawn weather entity projectile power disconnect block break animation set cooldown response initialize world border keep alive chunk batch end spawn position player rotation entity metadata reset score block action open window remove entity effect update tags effect registry data camera block entity data legacy server list response chat message world border warning delay select known packs entity status action bar end combat event chunk biomes respawn time update entity effect tags display chat preview open book held item change entity movement set compression open sign editor resource pack send update enabled features spawn experience orb chat preview packet acknowledge player digging game rule values update health nbt query response set player inventory teams ping boss bar tab complete recipe book add death combat event delete chat scoreboard objective spawn painting ticking state statistics world border center waypoint update score entity head look set title subtitle ticking step login plugin request recipe book settings entity sound effect spawn entity plugin message craft recipe response configuration start player position and look resource pack remove debug pong sound effect update view position use bed join game entity velocity entity equipment set cursor item sculk vibration signal unlock recipes store cookie debug sample spawn player declare recipes update sign disguised chat code of conduct acknowledge block changes custom chat completions custom report details system chat message player abilities multi block change low disk space warning update simulation distance spawn living entity set title text select advancements tab world border lerp size set passengers debug entity value debug event world border update light map chunk bulk player list header and footer window items set experience world border size test instance block status recipe book remove map data declare commands entity position sync named sound effect merchant offers entity relative move enter combat event show dialog vehicle move close window player info remove entity rotation cookie request clear titles open horse window debug block value reset chat player info update block change unload chunk clear dialog window confirmation pong update advancements damage event hurt animation change game state chunk batch begin update attributes set title times chunk data login success configuration end entity relative move and rotation entity teleport bundle update view distance stop sound encryption request game test highlight pos title combat event world border warning reach debug chunk value collect item server data configuration end ack set recipe book state debug ping accept code of conduct craft recipe request chat command unsigned generate structure set difficulty chat preview custom click action update sign select trade select bundle item handshake slot state change keep alive player abilities steer vehicle cookie response player rotation name item animation login success ack set beacon effect update command block minecart chat command chat message advancement tab spectate entity select known packs player flying configuration ack query block nbt held item change query entity nbt player input set game rule pick item player digging steer boat vehicle move set test block pick item from entity legacy server list ping click window button teleport confirm close window change game mode entity action update command block client settings creative inventory action spectate player loaded interact entity chat session update chunk batch ack client tick end window confirmation ping tab complete debug sample subscription pong update structure block test instance block action debug subscription request click window player block placement chat ack update jigsaw block edit book resource pack status use item lock difficulty client status set displayed recipe player position and rotation plugin message request login start pick item from block login plugin response attack recipe book data encryption response player position",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15203",
+    "created_at": "2026-05-19T16:35:20.896365Z",
+    "updated_at": "2026-05-19T16:35:20.896379Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a specific type of packet (e.g. clientbound chunk data packet)"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15204": {
     "id": 15204,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "General - Entity Meta",
+    "description": "The entity meta of a minecraft entity (this can both represent a fake entity's meta or a real entity's meta, but is mostly used for fake entities since the only use for real entities is for packet intercepting).",
+    "syntax_pattern": "fake[ ]entit(y|ies) meta",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15204",
+    "created_at": "2026-05-19T16:35:20.905576Z",
+    "updated_at": "2026-05-19T16:35:20.905590Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The entity meta of a minecraft entity (this can both represent a fake entity's meta or a real entity's meta, but is mostly used for fake entities since the only use for real entities is for packet intercepting)."
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15195": {
     "id": 15195,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "General - New Packet",
+    "description": "Create a new packet from a packet type.\n\n### Available Packets and their fields\n* **entity velocity** fields:\n  - `entity id (id)`\n  - `velocity vector (vector, velocity)`\n* **interact entity** fields:\n  - `entity id (id)`\n  - `interaction hand (hand)`\n  - `location vector (location, loc)`\n  - `sneaking state (sneaking)`\n* **select bundle item** fields:\n  - `slot id (id)`\n  - `selected item index (selected index, item index, index)`\n* **open sign editor** fields:\n  - `block position (block pos, position, pos)`\n  - `sign side (side)`\n* **block change** fields:\n  - `block position (block pos, position, pos)`\n  - `block state (state, block data, data)`\n* **destroy entities** fields:\n  - `entity ids (ids)`\n* **game test highlight pos** fields:\n  - `absolute position (absolute pos, abs position, abs pos, position, pos)`\n  - `relative position (relative pos, rel position, rel pos)`\n* **entity metadata** fields:\n  - `entity id (id)`\n  - `entity metadata (entity meta, metadata, meta)`\n",
+    "syntax_pattern": "[a] [new] %*packettype%",
+    "compatible_addon_version": "1.0.0 1.1.0 (changed to SectionExpression) and large changes",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15195",
+    "created_at": "2026-05-19T16:35:20.837855Z",
+    "updated_at": "2026-05-20T12:06:49.699727Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Create a new packet from a packet type.",
-        "### Available Packets and their fields",
-        "* **entity velocity** fields:",
-        "- `entity id (id)`",
-        "- `velocity vector (vector, velocity)`",
-        "* **interact entity** fields:",
-        "- `entity id (id)`",
-        "- `interaction hand (hand)`",
-        "- `location vector (location, loc)`",
-        "- `sneaking state (sneaking)`",
-        "* **select bundle item** fields:",
-        "- `slot id (id)`",
-        "- `selected item index (selected index, item index, index)`",
-        "* **open sign editor** fields:",
-        "- `block position (block pos, position, pos)`",
-        "- `sign side (side)`",
-        "* **block change** fields:",
-        "- `block position (block pos, position, pos)`",
-        "- `block state (state, block data, data)`",
-        "* **destroy entities** fields:",
-        "- `entity ids (ids)`",
-        "* **game test highlight pos** fields:",
-        "- `absolute position (absolute pos, abs position, abs pos, position, pos)`",
-        "- `relative position (relative pos, rel position, rel pos)`",
-        "* **entity metadata** fields:",
-        "- `entity id (id)`",
-        "- `entity metadata (entity meta, metadata, meta)`"
+        "Create a new packet from a packet type.\n\n### Available Packets and their fields\n* **entity velocity** fields:\n  - `entity id (id)`\n  - `velocity vector (vector, velocity)`\n* **interact entity** fields:\n  - `entity id (id)`\n  - `interaction hand (hand)`\n  - `location vector (location, loc)`\n  - `sneaking state (sneaking)`\n* **select bundle item** fields:\n  - `slot id (id)`\n  - `selected item index (selected index, item index, index)`\n* **open sign editor** fields:\n  - `block position (block pos, position, pos)`\n  - `sign side (side)`\n* **block change** fields:\n  - `block position (block pos, position, pos)`\n  - `block state (state, block data, data)`\n* **destroy entities** fields:\n  - `entity ids (ids)`\n* **game test highlight pos** fields:\n  - `absolute position (absolute pos, abs position, abs pos, position, pos)`\n  - `relative position (relative pos, rel position, rel pos)`\n* **entity metadata** fields:\n  - `entity id (id)`\n  - `entity metadata (entity meta, metadata, meta)`\n"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15201": {
     "id": 15201,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "Entity Meta Property Field",
+    "description": "Gets or sets a metadata property field value from an entity meta instance by its name.\nNote that some entities inherit properties (for example all entities inherit \"entity\" fields\n\n### Available Meta Fields by Category\n* **entity** fields:\n  - `entity id (id)`\n  - `on fire state (on fire)`\n  - `sneaking state (sneaking)`\n  - `sprinting state (sprinting)`\n  - `swimming state (swimming)`\n  - `invisible state (invisible)`\n  - `glowing state (glowing)`\n  - `elytra flying state (elytra flying)`\n  - `custom name`\n  - `custom name visible state (custom name visible)`\n  - `silent state (silent)`\n  - `gravity state (gravity)`\n  - `frozen time (frozen ticks)`\n\n* **livingentity** fields:\n  - *(Inherits all fields from **entity**)*\n  - `health (hp)`\n\n* **item** fields:\n  - *(Inherits all fields from **entity**)*\n  - `item`\n\n* **interaction** fields:\n  - *(Inherits all fields from **entity**)*\n  - `interaction width`\n  - `interaction height`\n  - `interaction responsive state (interaction responsive)`\n\n* **display** fields:\n  - *(Inherits all fields from **entity**)*\n  - `display interpolation delay`\n  - `display transform interpolation duration`\n  - `display teleport interpolation duration`\n  - `display translation`\n  - `display scale`\n  - `display left rotation`\n  - `display right rotation`\n  - `display billboard constraints (display billboard)`\n  - `display brightness override (display brightness)`\n  - `display view range`\n  - `display shadow radius`\n  - `display shadow strength`\n  - `display width`\n  - `display height`\n  - `display glow color override (display glow color)`\n\n* **block display** fields:\n  - *(Inherits all fields from **display**)*\n  - `display block data (display block state)`\n\n* **item display** fields:\n  - *(Inherits all fields from **display**)*\n  - `display item (display item stack)`\n  - `display item transform`\n\n* **text display** fields:\n  - *(Inherits all fields from **display**)*\n  - `display text (display content)`\n  - `display line width`\n  - `display background color`\n  - `display text shadowed state (display shadowed state, display shadowed)`\n  - `display see through state (display see through)`\n  - `display use default background state (display use default background)`\n  - `display text alignment (display alignment)`\n\n",
+    "syntax_pattern": "[the] [meta] (field|fake) <[a-zA-Z0-9_ ]+> of %entitymeta%\n%entitymeta%'[s] [meta] (field|fake) <[a-zA-Z0-9_ ]+>",
+    "compatible_addon_version": "1.1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15201",
+    "created_at": "2026-05-19T16:35:20.881149Z",
+    "updated_at": "2026-05-20T12:06:49.706985Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Gets or sets a metadata property field value from an entity meta instance by its name.",
-        "Note that some entities inherit properties (for example all entities inherit \"entity\" fields",
-        "### Available Meta Fields by Category",
-        "* **entity** fields:",
-        "- `entity id (id)`",
-        "- `on fire state (on fire)`",
-        "- `sneaking state (sneaking)`",
-        "- `sprinting state (sprinting)`",
-        "- `swimming state (swimming)`",
-        "- `invisible state (invisible)`",
-        "- `glowing state (glowing)`",
-        "- `elytra flying state (elytra flying)`",
-        "- `custom name`",
-        "- `custom name visible state (custom name visible)`",
-        "- `silent state (silent)`",
-        "- `gravity state (gravity)`",
-        "- `frozen time (frozen ticks)`",
-        "* **livingentity** fields:",
-        "- *(Inherits all fields from **entity**)*",
-        "- `health (hp)`",
-        "* **item** fields:",
-        "- *(Inherits all fields from **entity**)*",
-        "- `item`",
-        "* **interaction** fields:",
-        "- *(Inherits all fields from **entity**)*",
-        "- `interaction width`",
-        "- `interaction height`",
-        "- `interaction responsive state (interaction responsive)`",
-        "* **display** fields:",
-        "- *(Inherits all fields from **entity**)*",
-        "- `display interpolation delay`",
-        "- `display transform interpolation duration`",
-        "- `display teleport interpolation duration`",
-        "- `display translation`",
-        "- `display scale`",
-        "- `display left rotation`",
-        "- `display right rotation`",
-        "- `display billboard constraints (display billboard)`",
-        "- `display brightness override (display brightness)`",
-        "- `display view range`",
-        "- `display shadow radius`",
-        "- `display shadow strength`",
-        "- `display width`",
-        "- `display height`",
-        "- `display glow color override (display glow color)`",
-        "* **block display** fields:",
-        "- *(Inherits all fields from **display**)*",
-        "- `display block data (display block state)`",
-        "* **item display** fields:",
-        "- *(Inherits all fields from **display**)*",
-        "- `display item (display item stack)`",
-        "- `display item transform`",
-        "* **text display** fields:",
-        "- *(Inherits all fields from **display**)*",
-        "- `display text (display content)`",
-        "- `display line width`",
-        "- `display background color`",
-        "- `display text shadowed state (display shadowed state, display shadowed)`",
-        "- `display see through state (display see through)`",
-        "- `display use default background state (display use default background)`",
-        "- `display text alignment (display alignment)`"
+        "Gets or sets a metadata property field value from an entity meta instance by its name.\nNote that some entities inherit properties (for example all entities inherit \"entity\" fields\n\n### Available Meta Fields by Category\n* **entity** fields:\n  - `entity id (id)`\n  - `on fire state (on fire)`\n  - `sneaking state (sneaking)`\n  - `sprinting state (sprinting)`\n  - `swimming state (swimming)`\n  - `invisible state (invisible)`\n  - `glowing state (glowing)`\n  - `elytra flying state (elytra flying)`\n  - `custom name`\n  - `custom name visible state (custom name visible)`\n  - `silent state (silent)`\n  - `gravity state (gravity)`\n  - `frozen time (frozen ticks)`\n\n* **livingentity** fields:\n  - *(Inherits all fields from **entity**)*\n  - `health (hp)`\n\n* **item** fields:\n  - *(Inherits all fields from **entity**)*\n  - `item`\n\n* **interaction** fields:\n  - *(Inherits all fields from **entity**)*\n  - `interaction width`\n  - `interaction height`\n  - `interaction responsive state (interaction responsive)`\n\n* **display** fields:\n  - *(Inherits all fields from **entity**)*\n  - `display interpolation delay`\n  - `display transform interpolation duration`\n  - `display teleport interpolation duration`\n  - `display translation`\n  - `display scale`\n  - `display left rotation`\n  - `display right rotation`\n  - `display billboard constraints (display billboard)`\n  - `display brightness override (display brightness)`\n  - `display view range`\n  - `display shadow radius`\n  - `display shadow strength`\n  - `display width`\n  - `display height`\n  - `display glow color override (display glow color)`\n\n* **block display** fields:\n  - *(Inherits all fields from **display**)*\n  - `display block data (display block state)`\n\n* **item display** fields:\n  - *(Inherits all fields from **display**)*\n  - `display item (display item stack)`\n  - `display item transform`\n\n* **text display** fields:\n  - *(Inherits all fields from **display**)*\n  - `display text (display content)`\n  - `display line width`\n  - `display background color`\n  - `display text shadowed state (display shadowed state, display shadowed)`\n  - `display see through state (display see through)`\n  - `display use default background state (display use default background)`\n  - `display text alignment (display alignment)`\n\n"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15199": {
     "id": 15199,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "General - Packet Field",
+    "description": "Gets or sets a field's value from a packet by its name.\n\n### Available Packets and their fields\n* **entity velocity** fields:\n  - `entity id (id)`\n  - `velocity vector (vector, velocity)`\n* **interact entity** fields:\n  - `entity id (id)`\n  - `interaction hand (hand)`\n  - `location vector (location, loc)`\n  - `sneaking state (sneaking)`\n* **select bundle item** fields:\n  - `slot id (id)`\n  - `selected item index (selected index, item index, index)`\n* **open sign editor** fields:\n  - `block position (block pos, position, pos)`\n  - `sign side (side)`\n* **block change** fields:\n  - `block position (block pos, position, pos)`\n  - `block state (state, block data, data)`\n* **destroy entities** fields:\n  - `entity ids (ids)`\n* **game test highlight pos** fields:\n  - `absolute position (absolute pos, abs position, abs pos, position, pos)`\n  - `relative position (relative pos, rel position, rel pos)`\n* **entity metadata** fields:\n  - `entity id (id)`\n  - `entity metadata (entity meta, metadata, meta)`\n",
+    "syntax_pattern": "[the] [packet] (field|fake) <[a-zA-Z0-9_ ]+> of %packet%\n%packet%'[s] [packet] (field|fake) <[a-zA-Z0-9_ ]+>",
+    "compatible_addon_version": "1.1.0 1.1.1 (fixed bugs)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15199",
+    "created_at": "2026-05-19T16:35:20.866380Z",
+    "updated_at": "2026-05-20T12:06:49.714730Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Gets or sets a field's value from a packet by its name.",
-        "### Available Packets and their fields",
-        "* **entity velocity** fields:",
-        "- `entity id (id)`",
-        "- `velocity vector (vector, velocity)`",
-        "* **interact entity** fields:",
-        "- `entity id (id)`",
-        "- `interaction hand (hand)`",
-        "- `location vector (location, loc)`",
-        "- `sneaking state (sneaking)`",
-        "* **select bundle item** fields:",
-        "- `slot id (id)`",
-        "- `selected item index (selected index, item index, index)`",
-        "* **open sign editor** fields:",
-        "- `block position (block pos, position, pos)`",
-        "- `sign side (side)`",
-        "* **block change** fields:",
-        "- `block position (block pos, position, pos)`",
-        "- `block state (state, block data, data)`",
-        "* **destroy entities** fields:",
-        "- `entity ids (ids)`",
-        "* **game test highlight pos** fields:",
-        "- `absolute position (absolute pos, abs position, abs pos, position, pos)`",
-        "- `relative position (relative pos, rel position, rel pos)`",
-        "* **entity metadata** fields:",
-        "- `entity id (id)`",
-        "- `entity metadata (entity meta, metadata, meta)`"
+        "Gets or sets a field's value from a packet by its name.\n\n### Available Packets and their fields\n* **entity velocity** fields:\n  - `entity id (id)`\n  - `velocity vector (vector, velocity)`\n* **interact entity** fields:\n  - `entity id (id)`\n  - `interaction hand (hand)`\n  - `location vector (location, loc)`\n  - `sneaking state (sneaking)`\n* **select bundle item** fields:\n  - `slot id (id)`\n  - `selected item index (selected index, item index, index)`\n* **open sign editor** fields:\n  - `block position (block pos, position, pos)`\n  - `sign side (side)`\n* **block change** fields:\n  - `block position (block pos, position, pos)`\n  - `block state (state, block data, data)`\n* **destroy entities** fields:\n  - `entity ids (ids)`\n* **game test highlight pos** fields:\n  - `absolute position (absolute pos, abs position, abs pos, position, pos)`\n  - `relative position (relative pos, rel position, rel pos)`\n* **entity metadata** fields:\n  - `entity id (id)`\n  - `entity metadata (entity meta, metadata, meta)`\n"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15200": {
     "id": 15200,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "Fake Entity Property Field",
+    "description": "Gets or sets a fake entity property field value from a fake entity instance by its name.\nNote that some entities inherit properties (for example all entities inherit \"entity\" fields\n\n### Available Fake Entity Fields by Category\n* **entity** fields:\n  - `entity viewers (viewers)`\n  - `entity location (location)`\n  - `entity id (id)`\n  - `entity meta data (meta data, meta)`\n  - `entity type (type)`\n  - `entity uuid (uuid)`\n\n* **player** fields:\n  - *(Inherits all fields from **entity**)*\n  - `player skin (skin)`\n  - `player username (player name, username, name)`\n\n",
+    "syntax_pattern": "[the] [entity] (field|fake) <[a-zA-Z0-9_ ]+> of %fakeentity%\n%fakeentity%'[s] [entity] (field|fake) <[a-zA-Z0-9_ ]+>",
+    "compatible_addon_version": "1.1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15200",
+    "created_at": "2026-05-19T16:35:20.873935Z",
+    "updated_at": "2026-05-20T12:06:49.722362Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Gets or sets a fake entity property field value from a fake entity instance by its name.",
-        "Note that some entities inherit properties (for example all entities inherit \"entity\" fields",
-        "### Available Fake Entity Fields by Category",
-        "* **entity** fields:",
-        "- `entity viewers (viewers)`",
-        "- `entity location (location)`",
-        "- `entity id (id)`",
-        "- `entity meta data (meta data, meta)`",
-        "- `entity type (type)`",
-        "- `entity uuid (uuid)`",
-        "* **player** fields:",
-        "- *(Inherits all fields from **entity**)*",
-        "- `player skin (skin)`",
-        "- `player username (player name, username, name)`"
+        "Gets or sets a fake entity property field value from a fake entity instance by its name.\nNote that some entities inherit properties (for example all entities inherit \"entity\" fields\n\n### Available Fake Entity Fields by Category\n* **entity** fields:\n  - `entity viewers (viewers)`\n  - `entity location (location)`\n  - `entity id (id)`\n  - `entity meta data (meta data, meta)`\n  - `entity type (type)`\n  - `entity uuid (uuid)`\n\n* **player** fields:\n  - *(Inherits all fields from **entity**)*\n  - `player skin (skin)`\n  - `player username (player name, username, name)`\n\n"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15206": {
     "id": 15206,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "Skin",
+    "description": "A player skin (texture property list)",
+    "syntax_pattern": "skin",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15206",
+    "created_at": "2026-05-19T16:35:20.920498Z",
+    "updated_at": "2026-05-19T16:35:20.920511Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A player skin (texture property list)"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_15205": {
     "id": 15205,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3add",
+    "title": "General - Block Entity Type",
+    "description": "Represents a type of block entity (e.g. chest, sign, etc.)",
+    "syntax_pattern": "block[ ]entit(y|ies) type[s]",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "PacketEventsSK",
+    "type_usage": "minecraft:ender_chest minecraft:test_block minecraft:shelf minecraft:creaking_heart minecraft:enchanting_table minecraft:brewing_stand minecraft:sculk_sensor minecraft:end_portal minecraft:beehive minecraft:comparator minecraft:mob_spawner minecraft:vault minecraft:hanging_sign minecraft:sign minecraft:test_instance_block minecraft:campfire minecraft:calibrated_sculk_sensor minecraft:jukebox minecraft:crafter minecraft:skull minecraft:trial_spawner minecraft:sculk_catalyst minecraft:smoker minecraft:sculk_shrieker minecraft:hopper minecraft:chiseled_bookshelf minecraft:banner minecraft:command_block minecraft:barrel minecraft:decorated_pot minecraft:bell minecraft:furnace minecraft:bed minecraft:blast_furnace minecraft:suspicious_sand minecraft:beacon minecraft:jigsaw minecraft:trapped_chest minecraft:dropper minecraft:copper_golem_statue minecraft:end_gateway minecraft:conduit minecraft:shulker_box minecraft:brushable_block minecraft:structure_block minecraft:piston minecraft:chest minecraft:daylight_detector minecraft:lectern minecraft:dispenser",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=15205",
+    "created_at": "2026-05-19T16:35:20.913141Z",
+    "updated_at": "2026-05-20T12:06:49.730691Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a type of block entity (e.g. chest, sign, etc.)"
       ],
       "ko": [
-        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+        "[PACKETEVENTSSK] 한국어 가이드 번역 대기 중"
       ]
     }
   }

@@ -1,440 +1,962 @@
 {
   "syntax_14885": {
     "id": 14885,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "On Essentials Jail",
+    "description": "Fired when a player's jail status changes",
+    "syntax_pattern": "[on] [essentials[x]] jail (status change|toggle)",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-text",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14885",
+    "created_at": "2026-05-07T14:56:50.336043Z",
+    "updated_at": "2026-05-07T14:56:50.336060Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Fired when a player's jail status changes"
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14886": {
     "id": 14886,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "On Essentials Player AFK Status Change",
+    "description": "Fired when a player's AFK status changes",
+    "syntax_pattern": "[on] [essentials[x]] [player] (afk|away from keyboard|idle) (status change|toggle)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-afk cause, event-player",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14886",
+    "created_at": "2026-05-07T14:56:50.345788Z",
+    "updated_at": "2026-05-07T14:56:50.345801Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Fired when a player's AFK status changes"
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14887": {
     "id": 14887,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "On Essentials Player Balance Change",
+    "description": "Fired when a player's balance changes with Essentials.",
+    "syntax_pattern": "[on] [essentials|essentialsx] [player] (bal|balance) change",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-number, event-player",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14887",
+    "created_at": "2026-05-07T14:56:50.353825Z",
+    "updated_at": "2026-05-07T14:56:50.353840Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Fired when a player's balance changes with Essentials."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14888": {
     "id": 14888,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "On Essentials Private Message Pre Sent",
+    "description": "Called just before a private message is sent to its recipient.\n NOTE: This event CAN be cancelled.",
+    "syntax_pattern": "[on] [essentials[x]] (private|direct) message pre (send|sent)",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14888",
+    "created_at": "2026-05-07T14:56:50.361254Z",
+    "updated_at": "2026-05-07T14:56:50.361268Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called just before a private message is sent to its recipient.",
-        "NOTE: This event CAN be cancelled."
+        "Called just before a private message is sent to its recipient.\n NOTE: This event CAN be cancelled."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14889": {
     "id": 14889,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "On Essentials Private Message Sent",
+    "description": "Called after a private message has been sent to its recipient.\n NOTE: This event CANNOT be cancelled.",
+    "syntax_pattern": "[on] [essentials[x]] (private|direct) message (send|sent)",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14889",
+    "created_at": "2026-05-07T14:56:50.368582Z",
+    "updated_at": "2026-05-07T14:56:50.368596Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called after a private message has been sent to its recipient.",
-        "NOTE: This event CANNOT be cancelled."
+        "Called after a private message has been sent to its recipient.\n NOTE: This event CANNOT be cancelled."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14890": {
     "id": 14890,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "On Essentials TPA Request",
+    "description": "Fired when a /tpa, /tpaall or /tpahere request is made.",
+    "syntax_pattern": "[on] [essentials|essentialsx] [player] tpa request",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=14890",
+    "created_at": "2026-05-07T14:56:50.375990Z",
+    "updated_at": "2026-05-07T14:56:50.376003Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Fired when a /tpa, /tpaall or /tpahere request is made."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14891": {
     "id": 14891,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "Is AFK",
+    "description": "Checks whether or not a player is AFK.",
+    "syntax_pattern": "%players% (is|are) (afk|away from keyboard|idle)\n%players% (isn't|is not|aren't|are not) (afk|away from keyboard|idle)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14891",
+    "created_at": "2026-05-07T14:56:50.383899Z",
+    "updated_at": "2026-05-07T14:56:50.383913Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks whether or not a player is AFK."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14892": {
     "id": 14892,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "Is God Mode",
+    "description": "Checks whether or not a player is in god mode.",
+    "syntax_pattern": "%players% (is|are) in god mode\n%players% (isn't|is not|aren't|are not) in god mode",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14892",
+    "created_at": "2026-05-07T14:56:50.391841Z",
+    "updated_at": "2026-05-07T14:56:50.391854Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks whether or not a player is in god mode."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14893": {
     "id": 14893,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "Is Jailed",
+    "description": "Checks whether or not a player is in jail.",
+    "syntax_pattern": "%players% (is|are) (in jail|jailed)\n%players% (isn't|is not|aren't|are not) (in jail|jailed)",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14893",
+    "created_at": "2026-05-07T14:56:50.400024Z",
+    "updated_at": "2026-05-07T14:56:50.400038Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks whether or not a player is in jail."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14894": {
     "id": 14894,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "Is Vanished",
+    "description": "Checks whether or not a player is vanished.",
+    "syntax_pattern": "%players% (is|are) (in vanish mode|vanished)\n%players% (isn't|is not|aren't|are not) (in vanish mode|vanished)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14894",
+    "created_at": "2026-05-07T14:56:50.407404Z",
+    "updated_at": "2026-05-07T14:56:50.407418Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks whether or not a player is vanished."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14895": {
     "id": 14895,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "AFK Status",
+    "description": "Change a player's AFK status.",
+    "syntax_pattern": "[un]mark %players% as [not] (afk|away from keyboard|idle) [(due to|with reason|because [of]) %string%]\n(afk|away from keyboard|idle) %players% [(due to|with reason|because [of]) %string%]\nun[-](afk|away from keyboard|idle) %players%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14895",
+    "created_at": "2026-05-07T14:56:50.416073Z",
+    "updated_at": "2026-05-07T14:56:50.416087Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Change a player's AFK status."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14896": {
     "id": 14896,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "Create Jail",
+    "description": "Create a jail with a name at a location",
+    "syntax_pattern": "create [a] [new] jail (with name|named) %string% at %location%\nmake [a] [new] jail (with name|named) %string% at %location%",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14896",
+    "created_at": "2026-05-07T14:56:50.423263Z",
+    "updated_at": "2026-05-07T14:56:50.423293Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create a jail with a name at a location"
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14897": {
     "id": 14897,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "God Mode",
+    "description": "Enable or disable a player's god mode.",
+    "syntax_pattern": "enable god mode (for|of) %players%\ndisable god mode (for|of) %players%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14897",
+    "created_at": "2026-05-07T14:56:50.430597Z",
+    "updated_at": "2026-05-07T14:56:50.430612Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Enable or disable a player's god mode."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14898": {
     "id": 14898,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "Jail a Player",
+    "description": "Jail a player at a certain jail at a location",
+    "syntax_pattern": "jail %players% (in|at) %string% [for %timespan%]",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14898",
+    "created_at": "2026-05-07T14:56:50.437987Z",
+    "updated_at": "2026-05-07T14:56:50.438001Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Jail a player at a certain jail at a location"
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14899": {
     "id": 14899,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "Private Message",
+    "description": "Make a player send a private message to another player.",
+    "syntax_pattern": "make %players% ([private] message|[direct] message) %string% to %players%\nmake %players% ([private] message|[direct] message) %players% %string%",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14899",
+    "created_at": "2026-05-07T14:56:50.445228Z",
+    "updated_at": "2026-05-07T14:56:50.445242Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make a player send a private message to another player."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14900": {
     "id": 14900,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "Vanish Player",
+    "description": "Vanish or unvanish a player.",
+    "syntax_pattern": "[un]vanish %players%\nmake %players% [un]vanish",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14900",
+    "created_at": "2026-05-07T14:56:50.452304Z",
+    "updated_at": "2026-05-07T14:56:50.452318Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Vanish or unvanish a player."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14901": {
     "id": 14901,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "AFK Players",
+    "description": "Gets all the players who are AFK on the server.",
+    "syntax_pattern": "[all [[of] the]|the] (afk|away from keyboard|idle) players\n[all [[of] the]|the] players (in|with) (afk|away from keyboard|idle) (status|state|mode)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": "Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14901",
+    "created_at": "2026-05-07T14:56:50.460805Z",
+    "updated_at": "2026-05-07T14:56:50.460819Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets all the players who are AFK on the server."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14902": {
     "id": 14902,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "Created Jails",
+    "description": "Returns a list of created jails.",
+    "syntax_pattern": "[all [[of] the]|the] [essentials[x]] created jails",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14902",
+    "created_at": "2026-05-07T14:56:50.468096Z",
+    "updated_at": "2026-05-07T14:56:50.468109Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a list of created jails."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14903": {
     "id": 14903,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "ExprPrivateMessage",
+    "description": "",
+    "syntax_pattern": "[the] private message",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14903",
+    "created_at": "2026-05-07T14:56:50.475325Z",
+    "updated_at": "2026-05-07T14:56:50.475339Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[SkEssentials] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14904": {
     "id": 14904,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "Get the player at a certain balance top",
+    "description": "Get the player who is at a certain baltop! \nNOTE: This requires /baltop to be ran. This depends on Essentialx's cache. I will not code a way to force the cache to update.",
+    "syntax_pattern": "[the] essentials[x] bal[ance] top [(of|from)] %integer%",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": "Offline Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14904",
+    "created_at": "2026-05-07T14:56:50.482634Z",
+    "updated_at": "2026-05-07T14:56:50.482648Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get the player who is at a certain baltop!",
-        "NOTE: This requires /baltop to be ran. This depends on Essentialx's cache. I will not code a way to force the cache to update."
+        "Get the player who is at a certain baltop! \nNOTE: This requires /baltop to be ran. This depends on Essentialx's cache. I will not code a way to force the cache to update."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14905": {
     "id": 14905,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "God Mode Players",
+    "description": "Gets all the players in god mode on the server.",
+    "syntax_pattern": "[all [[of] the]|the] god mode players,\n[all [[of] the]|the] players (in|with) god mode",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": "Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14905",
+    "created_at": "2026-05-07T14:56:50.490454Z",
+    "updated_at": "2026-05-07T14:56:50.490468Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets all the players in god mode on the server."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14906": {
     "id": 14906,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "Jail Count",
+    "description": "Returns a number of created jails.",
+    "syntax_pattern": "[the] jail count",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14906",
+    "created_at": "2026-05-07T14:56:50.498197Z",
+    "updated_at": "2026-05-07T14:56:50.498211Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a number of created jails."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14907": {
     "id": 14907,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "Jail Location",
+    "description": "Returns the location of a created jail.",
+    "syntax_pattern": "[the] location of jail [named] %string%",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14907",
+    "created_at": "2026-05-07T14:56:50.505691Z",
+    "updated_at": "2026-05-07T14:56:50.505704Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the location of a created jail."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14908": {
     "id": 14908,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "Nick Players",
+    "description": "Set the Essentials nickname of a player.\nNOTE: You MUST specify 'essentials' for it to work through SkEssentials and not Skript.\nNOTE: You cannot set the 'full' nickname of a player.",
+    "syntax_pattern": "[the] essentials[x] [full] nick[name] of %player%\n%player%'[s] essentials[x] [full] nick[name]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14908",
+    "created_at": "2026-05-07T14:56:50.513108Z",
+    "updated_at": "2026-05-07T14:56:50.513122Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Set the Essentials nickname of a player.",
-        "NOTE: You MUST specify 'essentials' for it to work through SkEssentials and not Skript.",
-        "NOTE: You cannot set the 'full' nickname of a player."
+        "Set the Essentials nickname of a player.\nNOTE: You MUST specify 'essentials' for it to work through SkEssentials and not Skript.\nNOTE: You cannot set the 'full' nickname of a player."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14909": {
     "id": 14909,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "Private Message Sender",
+    "description": "The person sending the private message.",
+    "syntax_pattern": "[the] [private] message sender",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": "Command Sender",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14909",
+    "created_at": "2026-05-07T14:56:50.520594Z",
+    "updated_at": "2026-05-07T14:56:50.520607Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The person sending the private message."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14910": {
     "id": 14910,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "Recipient",
+    "description": "The person receiving the private message.",
+    "syntax_pattern": "[the] recipient",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": "Command Sender",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14910",
+    "created_at": "2026-05-07T14:56:50.528178Z",
+    "updated_at": "2026-05-07T14:56:50.528191Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The person receiving the private message."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14911": {
     "id": 14911,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "TPA Request",
+    "description": "The person sending the TPA request",
+    "syntax_pattern": "[the] tpa requester",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14911",
+    "created_at": "2026-05-07T14:56:50.535742Z",
+    "updated_at": "2026-05-07T14:56:50.535756Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The person sending the TPA request"
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14912": {
     "id": 14912,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "TPA Target",
+    "description": "The TPA Target",
+    "syntax_pattern": "[the] tpa target",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14912",
+    "created_at": "2026-05-07T14:56:50.542960Z",
+    "updated_at": "2026-05-07T14:56:50.542975Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The TPA Target"
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14913": {
     "id": 14913,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "Vanished Players",
+    "description": "Gets all the vanished players on the server.",
+    "syntax_pattern": "[all [[of] the]|the] vanish[ed] players\n[all [[of] the]|the] players (in|with) vanish [mode]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": null,
+    "return_type": "Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14913",
+    "created_at": "2026-05-07T14:56:50.550240Z",
+    "updated_at": "2026-05-07T14:56:50.550254Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets all the vanished players on the server."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14914": {
     "id": 14914,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "Essentials AFK causes",
+    "description": "All of the supported Essentials AFK causes.",
+    "syntax_pattern": "afk[ ]cause[s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": "afk_activity, afk_chat, afk_command, afk_interact, afk_join, afk_move, afk_quit, afk_unknown",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14914",
+    "created_at": "2026-05-07T14:56:50.557394Z",
+    "updated_at": "2026-05-07T14:56:50.557407Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "All of the supported Essentials AFK causes."
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14915": {
     "id": 14915,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Equip",
+    "title": "Essentials Private Message Response",
+    "description": "All of the supported Essentials Private Message Responses",
+    "syntax_pattern": "private message[ ]response[s]",
+    "compatible_addon_version": "1.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkEssentials",
+    "type_usage": "message response_event_cancelled, message response_messages_ignored, message response_sender_ignored, message response_success, message response_success_but_afk, message response_unreachable",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14915",
+    "created_at": "2026-05-07T14:56:50.564640Z",
+    "updated_at": "2026-05-07T14:56:50.564653Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "All of the supported Essentials Private Message Responses"
       ],
       "ko": [
-        "[SkEssentials] 한국어 가이드팩 준비 중"
+        "[SKESSENTIALS] 한국어 가이드 번역 대기 중"
       ]
     }
   }

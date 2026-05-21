@@ -1,99 +1,218 @@
 {
   "syntax_14463": {
     "id": 14463,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "im.hermes",
+    "title": "Stop Playing Song",
+    "description": "Stops a song from playing.",
+    "syntax_pattern": "stop %playingsong%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PxMusic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14463",
+    "created_at": "2026-02-01T10:33:48.517450Z",
+    "updated_at": "2026-02-01T10:36:01.965690Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Stops a song from playing."
       ],
       "ko": [
-        "[PxMusic] 한국어 가이드팩 준비 중"
+        "[PXMUSIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14465": {
     "id": 14465,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "im.hermes",
+    "title": "Loop / unloop playingsong",
+    "description": "Makes a song loop when finished",
+    "syntax_pattern": "make <playingsong> (loop | unloop)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PxMusic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14465",
+    "created_at": "2026-02-01T10:35:18.595466Z",
+    "updated_at": "2026-02-01T10:35:18.595481Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Makes a song loop when finished"
       ],
       "ko": [
-        "[PxMusic] 한국어 가이드팩 준비 중"
+        "[PXMUSIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14467": {
     "id": 14467,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "im.hermes",
+    "title": "Note",
+    "description": "A single note. It has 3 values: sound, pitch and volume",
+    "syntax_pattern": "note",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "PxMusic",
+    "type_usage": "notes at position 4 of {_mySong}",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14467",
+    "created_at": "2026-02-01T10:37:16.010174Z",
+    "updated_at": "2026-02-01T10:37:16.010193Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A single note. It has 3 values: sound, pitch and volume"
       ],
       "ko": [
-        "[PxMusic] 한국어 가이드팩 준비 중"
+        "[PXMUSIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14468": {
     "id": 14468,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "im.hermes",
+    "title": "Volume of Note",
+    "description": "The volume of a specific note",
+    "syntax_pattern": "volume of %note%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PxMusic",
+    "type_usage": null,
+    "return_type": "number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14468",
+    "created_at": "2026-02-01T10:37:52.448354Z",
+    "updated_at": "2026-02-01T10:37:52.448369Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The volume of a specific note"
       ],
       "ko": [
-        "[PxMusic] 한국어 가이드팩 준비 중"
+        "[PXMUSIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14462": {
     "id": 14462,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "im.hermes",
+    "title": "Playing Song Finished",
+    "description": "When the song is complete. This does not include when the song loops.",
+    "syntax_pattern": "[playing] [pxmusic] song (finish[ed]|complete[d])",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "PxMusic",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-playingsong",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14462",
+    "created_at": "2026-02-01T10:33:03.944226Z",
+    "updated_at": "2026-02-01T10:33:03.944246Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "When the song is complete. This does not include when the song loops."
       ],
       "ko": [
-        "[PxMusic] 한국어 가이드팩 준비 중"
+        "[PXMUSIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14464": {
     "id": 14464,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "im.hermes",
+    "title": "Playing Song",
+    "description": "A song that is currently playing. It can be modified easily and is linked to a song",
+    "syntax_pattern": "playingsong[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "PxMusic",
+    "type_usage": "A song that is currently playing. It can be modified easily and is linked to a song",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14464",
+    "created_at": "2026-02-01T10:34:38.925682Z",
+    "updated_at": "2026-02-01T10:34:38.925698Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A song that is currently playing. It can be modified easily and is linked to a song"
       ],
       "ko": [
-        "[PxMusic] 한국어 가이드팩 준비 중"
+        "[PXMUSIC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14466": {
     "id": 14466,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "im.hermes",
+    "title": "Listeners",
+    "description": "This is the people who are actively listening to the music that is being played. This property is modifiable and is a list of players",
+    "syntax_pattern": "listeners of %playingsong%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PxMusic",
+    "type_usage": null,
+    "return_type": "list of players",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14466",
+    "created_at": "2026-02-01T10:36:37.890973Z",
+    "updated_at": "2026-02-01T10:36:37.891004Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This is the people who are actively listening to the music that is being played. This property is modifiable and is a list of players"
       ],
       "ko": [
-        "[PxMusic] 한국어 가이드팩 준비 중"
+        "[PXMUSIC] 한국어 가이드 번역 대기 중"
       ]
     }
   }

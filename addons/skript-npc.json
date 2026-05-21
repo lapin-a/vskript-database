@@ -1,324 +1,714 @@
 {
   "syntax_2280": {
     "id": 2280,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "On Citizen Create",
+    "description": "Called when a citizen is created.",
+    "syntax_pattern": "[on] (citizen|npc) create",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-citizen",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2280",
+    "created_at": "2018-02-10T07:26:51.917099Z",
+    "updated_at": "2018-02-10T07:26:51.917126Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a citizen is created."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2281": {
     "id": 2281,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "On Citizen Despawn",
+    "description": "Called when a citizen is despawned.",
+    "syntax_pattern": "[on] (citizen|npc) despawn",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-citizen",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=2281",
+    "created_at": "2018-02-10T07:26:51.926292Z",
+    "updated_at": "2018-02-10T07:26:51.926312Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a citizen is despawned."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2282": {
     "id": 2282,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "On Citizen Spawn",
+    "description": "Called when a citizen is spawned.",
+    "syntax_pattern": "[on] (citizen|npc) spawn",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-citizen",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=2282",
+    "created_at": "2018-02-10T07:26:51.934013Z",
+    "updated_at": "2018-02-10T07:26:51.934032Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a citizen is spawned."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2283": {
     "id": 2283,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Citizen Is Navigating",
+    "description": "Checks if a citizen is navigating.",
+    "syntax_pattern": "[the] %citizen% (is (navigating|moving)|has [a] navigation)",
+    "compatible_addon_version": "0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2283",
+    "created_at": "2018-02-10T07:26:51.942068Z",
+    "updated_at": "2018-02-10T07:26:51.942086Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a citizen is navigating."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2284": {
     "id": 2284,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Citizen Is Paused",
+    "description": "Checks if a citizen is paused.",
+    "syntax_pattern": "[the] %citizen% is paused",
+    "compatible_addon_version": "0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2284",
+    "created_at": "2018-02-10T07:26:51.949390Z",
+    "updated_at": "2018-02-10T07:26:51.949409Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a citizen is paused."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2285": {
     "id": 2285,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Entity Is Citizen",
+    "description": "Checks if an entity is a citizen.",
+    "syntax_pattern": "%entity% is [a] (citizen|npc)",
+    "compatible_addon_version": "0.1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2285",
+    "created_at": "2018-02-10T07:26:51.956739Z",
+    "updated_at": "2018-02-10T07:26:51.956759Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if an entity is a citizen."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2287": {
     "id": 2287,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Cancel Citizen Navigation",
+    "description": "Cancels/Stops the navigation of a citizen.",
+    "syntax_pattern": "(cancel|stop) navigation of %citizen%\n(cancel|stop) %citizen%'s navigation",
+    "compatible_addon_version": "0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2287",
+    "created_at": "2018-02-10T07:26:51.971373Z",
+    "updated_at": "2018-02-10T07:26:51.971392Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Cancels/Stops the navigation of a citizen."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2286": {
     "id": 2286,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Blueyescat",
+    "title": "Animate Citizen",
+    "description": "Makes a citizen do the given animation.\n\narm swing, arm swing offhand, crit, eat food, hurt, magic crit, sit, sleep, sneak, start elytra, start use mainhand item, start use offhand item, stop sitting, stop sleeping, stop sneaking and stop use item",
+    "syntax_pattern": "make %citizen% [do] [anim[ation]] %npcanimation%",
+    "compatible_addon_version": "0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2286",
+    "created_at": "2018-02-10T07:26:51.963945Z",
+    "updated_at": "2019-06-16T12:25:07.356250Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Makes a citizen do the given animation.",
-        "arm swing, arm swing offhand, crit, eat food, hurt, magic crit, sit, sleep, sneak, start elytra, start use mainhand item, start use offhand item, stop sitting, stop sleeping, stop sneaking and stop use item"
+        "Makes a citizen do the given animation.\n\narm swing, arm swing offhand, crit, eat food, hurt, magic crit, sit, sleep, sneak, start elytra, start use mainhand item, start use offhand item, stop sitting, stop sleeping, stop sneaking and stop use item"
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2288": {
     "id": 2288,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Citizen Attack/Follow",
+    "description": "Makes a citizen attack or follow an entity.",
+    "syntax_pattern": "make %citizen% (0¦attack|1¦follow) %livingentity%",
+    "compatible_addon_version": "0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2288",
+    "created_at": "2018-02-10T07:26:51.979187Z",
+    "updated_at": "2018-02-10T07:26:51.979206Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Makes a citizen attack or follow an entity."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2289": {
     "id": 2289,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Create Citizen",
+    "description": "Creates a citizen with name, type and optional location.",
+    "syntax_pattern": "create [a] (citizen|npc) [(named|with name)] %string% [and] [with] [entity] type %entitytype% [at %-location%]",
+    "compatible_addon_version": "0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2289",
+    "created_at": "2018-02-10T07:26:51.986811Z",
+    "updated_at": "2018-02-10T07:26:51.986830Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a citizen with name, type and optional location."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2290": {
     "id": 2290,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Despawn Citizen",
+    "description": "Despawns a spawned citizen.",
+    "syntax_pattern": "despawn %citizen%",
+    "compatible_addon_version": "0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2290",
+    "created_at": "2018-02-10T07:26:51.994287Z",
+    "updated_at": "2018-02-10T07:26:51.994306Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Despawns a spawned citizen."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2291": {
     "id": 2291,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Destroy Citizen",
+    "description": "Destroys a citizen.",
+    "syntax_pattern": "destroy %citizen%",
+    "compatible_addon_version": "0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2291",
+    "created_at": "2018-02-10T07:26:52.001574Z",
+    "updated_at": "2018-02-10T07:26:52.001593Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Destroys a citizen."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2292": {
     "id": 2292,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Move Citizen",
+    "description": "Makes a citizen move to a specific location with optional speed.",
+    "syntax_pattern": "make %citizen% (go|move|travel) to [the] %location% [(at|with) speed %-number%]",
+    "compatible_addon_version": "0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2292",
+    "created_at": "2018-02-10T07:26:52.012081Z",
+    "updated_at": "2018-02-10T07:26:52.012100Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Makes a citizen move to a specific location with optional speed."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2293": {
     "id": 2293,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Pause/Continue Citizen Navigation",
+    "description": "Pauses/Continues the navigation of a citizen.",
+    "syntax_pattern": "(0¦pause|1¦continue) navigation of %citizen%\n(0¦pause|1¦continue) %citizen%'s navigation",
+    "compatible_addon_version": "0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2293",
+    "created_at": "2018-02-10T07:26:52.019078Z",
+    "updated_at": "2018-02-10T07:26:52.019100Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Pauses/Continues the navigation of a citizen."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2294": {
     "id": 2294,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Spawn Citizen",
+    "description": "Spawns a citizen at specific location.",
+    "syntax_pattern": "spawn %citizen% at %location%",
+    "compatible_addon_version": "0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2294",
+    "created_at": "2018-02-10T07:26:52.026610Z",
+    "updated_at": "2018-02-10T07:26:52.026628Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Spawns a citizen at specific location."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2295": {
     "id": 2295,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "All Citizens",
+    "description": "Returns all citizens.",
+    "syntax_pattern": "all [created] (citizen|npc)s",
+    "compatible_addon_version": "0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": "citizen",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2295",
+    "created_at": "2018-02-10T07:26:52.033803Z",
+    "updated_at": "2018-02-10T07:26:52.033822Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns all citizens."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2296": {
     "id": 2296,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Citizen ID",
+    "description": "Returns the ID of a citizen. Cannot be changed.",
+    "syntax_pattern": "[the] [npc] id[entifier] of %citizen%\n%citizen%'[s] [npc] id[entifier]",
+    "compatible_addon_version": "0.1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2296",
+    "created_at": "2018-02-10T07:26:52.041075Z",
+    "updated_at": "2018-02-10T07:26:52.041094Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the ID of a citizen. Cannot be changed."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2297": {
     "id": 2297,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Citizen Name",
+    "description": "Returns the name of a citizen. Can be set and reset to its ID.",
+    "syntax_pattern": "[the] [npc] name of %citizen%\n%citizen%'[s] [npc] name",
+    "compatible_addon_version": "0.1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2297",
+    "created_at": "2018-02-10T07:26:52.048336Z",
+    "updated_at": "2018-02-10T07:26:52.048354Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the name of a citizen. Can be set and reset to its ID."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2298": {
     "id": 2298,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Citizen Skin",
+    "description": "Returns the skin name of a citizen. Can be set and reset to \"Steve\" skin.",
+    "syntax_pattern": "[the] [npc] skin [name] of %citizen%\n%citizen%'[s] [npc] skin [name]",
+    "compatible_addon_version": "0.1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2298",
+    "created_at": "2018-02-10T07:26:52.055598Z",
+    "updated_at": "2018-02-10T07:26:52.055617Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the skin name of a citizen. Can be set and reset to \"Steve\" skin."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2299": {
     "id": 2299,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Citizen Vulnerability",
+    "description": "Returns the vulnerability of a citizen. Can be set and reset to true.",
+    "syntax_pattern": "[the] [npc] vulnerability of %citizen%\n%citizen%'[s] [npc] vulnerability",
+    "compatible_addon_version": "0.1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2299",
+    "created_at": "2018-02-10T07:26:52.063081Z",
+    "updated_at": "2018-02-10T07:26:52.063111Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the vulnerability of a citizen. Can be set and reset to true."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2300": {
     "id": 2300,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Citizen from ID",
+    "description": "Returns a citizen from its ID.",
+    "syntax_pattern": "[the] (citizen|npc) (with|from) id[entifier] %number%",
+    "compatible_addon_version": "0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": "citizen",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2300",
+    "created_at": "2018-02-10T07:26:52.071102Z",
+    "updated_at": "2018-02-10T07:26:52.071122Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a citizen from its ID."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2301": {
     "id": 2301,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Entity Citizen",
+    "description": "Returns the citizen of an entity. Cannot be changed.",
+    "syntax_pattern": "[the] citizen of %entity%\n%entity%'[s] citizen",
+    "compatible_addon_version": "0.1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": "citizen",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2301",
+    "created_at": "2018-02-10T07:26:52.078213Z",
+    "updated_at": "2018-02-10T07:26:52.078233Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the citizen of an entity. Cannot be changed."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2302": {
     "id": 2302,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Nano",
+    "title": "Last Created Citizen",
+    "description": "Returns the last created citizen.",
+    "syntax_pattern": "[the] last[ly] [created] (citizen|npc)",
+    "compatible_addon_version": "0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-npc",
+    "type_usage": null,
+    "return_type": "citizen",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2302",
+    "created_at": "2018-02-10T07:26:52.085583Z",
+    "updated_at": "2018-02-10T07:26:52.085603Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the last created citizen."
       ],
       "ko": [
-        "[skript-npc] 한국어 가이드팩 준비 중"
+        "[SKRIPT-NPC] 한국어 가이드 번역 대기 중"
       ]
     }
   }

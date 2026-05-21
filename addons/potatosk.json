@@ -1,71 +1,166 @@
 {
   "syntax_11850": {
     "id": 11850,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "mcdragonmasters",
+    "title": "Block - Is WaterLogged",
+    "description": "Checks whether a block is waterlogged.",
+    "syntax_pattern": "%blocks% (is|are) waterlogged\n%blocks% (isn't|is not|aren't|are not) waterlogged",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "PotatoSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11850",
+    "created_at": "2024-08-01T18:17:41.566324Z",
+    "updated_at": "2024-08-01T18:17:41.566341Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks whether a block is waterlogged."
       ],
       "ko": [
-        "[PotatoSK] 한국어 가이드팩 준비 중"
+        "[POTATOSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11852": {
     "id": 11852,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "mcdragonmasters",
+    "title": "Command With Permission",
+    "description": "Make a Player execute a command with a permission",
+    "syntax_pattern": "[execute] %players% command[s] %strings% with permission[s] %strings%\n(let|make) %players% execute [command[s]] %strings% with permission[s] %strings%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "PotatoSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11852",
+    "created_at": "2024-08-01T18:17:41.587064Z",
+    "updated_at": "2024-08-01T18:17:41.587079Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make a Player execute a command with a permission"
       ],
       "ko": [
-        "[PotatoSK] 한국어 가이드팩 준비 중"
+        "[POTATOSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11854": {
     "id": 11854,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "mcdragonmasters",
+    "title": "ItemType - Smelted Form",
+    "description": "returns smelt result of items, returns the same item if it cannot be smelted",
+    "syntax_pattern": "smelt[ed] [(result|form) of] %itemtypes%\n%itemtypes%'[s] smelted [(result|form)]\n%itemtypes% smelted",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "PotatoSK",
+    "type_usage": null,
+    "return_type": "Item Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11854",
+    "created_at": "2024-08-01T18:17:41.603865Z",
+    "updated_at": "2024-08-01T18:17:41.603880Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns smelt result of items, returns the same item if it cannot be smelted"
       ],
       "ko": [
-        "[PotatoSK] 한국어 가이드팩 준비 중"
+        "[POTATOSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11853": {
     "id": 11853,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "mcdragonmasters",
+    "title": "Delete Multiverse World",
+    "description": "Deletes a Multiverse Core world",
+    "syntax_pattern": "delete (multiverse[( |-)core]|mv) world (with name|named) %string%",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Multiverse-Core",
+        "link": ""
+      }
+    ],
+    "addon": "PotatoSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11853",
+    "created_at": "2024-08-01T18:17:41.595797Z",
+    "updated_at": "2024-08-02T18:24:59.633386Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Deletes a Multiverse Core world"
       ],
       "ko": [
-        "[PotatoSK] 한국어 가이드팩 준비 중"
+        "[POTATOSK] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11855": {
     "id": 11855,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "mcdragonmasters",
+    "title": "Create a New Multiverse World",
+    "description": "Creates a Multiverse Core world",
+    "syntax_pattern": "create [a] [new] (multiverse[( |-)core]|mv) world (with name|named) %string%",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [
+      {
+        "name": "Multiverse-Core",
+        "link": ""
+      }
+    ],
+    "addon": "PotatoSK",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11855",
+    "created_at": "2024-08-01T18:17:41.612810Z",
+    "updated_at": "2024-08-02T18:24:42.720556Z",
+    "entries": "[{\"name\": \"environment\", \"isRequired\": true, \"isSection\": false, \"defaultValue\": \"null\"}, {\"name\": \"type\", \"isRequired\": true, \"isSection\": false, \"defaultValue\": \"null\"}, {\"name\": \"seed\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"null\"}, {\"name\": \"generate structures\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"null\"}, {\"name\": \"adjust spawn\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"null\"}, {\"name\": \"generator\", \"isRequired\": false, \"isSection\": false, \"defaultValue\": \"null\"}]",
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a Multiverse Core world"
       ],
       "ko": [
-        "[PotatoSK] 한국어 가이드팩 준비 중"
+        "[POTATOSK] 한국어 가이드 번역 대기 중"
       ]
     }
   }

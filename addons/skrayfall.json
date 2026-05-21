@@ -1,1815 +1,3898 @@
 {
   "syntax_25": {
     "id": 25,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Add/Remove Players from Group Scores",
+    "description": "Add or removed a players group based score. \n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19).",
+    "syntax_pattern": "add %player% to group score [with id] %string%\r\n(delete|remove) %player% from group [id based] score %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=25",
+    "created_at": "2017-09-26T17:04:58.501299Z",
+    "updated_at": "2022-03-21T08:27:38.854970Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Add or removed a players group based score.",
-        "For more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
+        "Add or removed a players group based score. \n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_24": {
     "id": 24,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Add Player to ID Based Bossbar",
+    "description": "Add a player to an ID based Bossbar.",
+    "syntax_pattern": "(add|set) bossbar %string% for %player% \r\n(add|give) %player% [to] bossbar %string% ",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=24",
+    "created_at": "2017-09-26T17:04:58.497592Z",
+    "updated_at": "2017-09-26T17:04:58.497617Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Add a player to an ID based Bossbar."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_26": {
     "id": 26,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Add/Set Bossbar Flag",
+    "description": "Add a flag to a ID based Bossbar.",
+    "syntax_pattern": "(add|set) [a] [the] flag %BossBarFlag% to [the] bossbar %string% ",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=26",
+    "created_at": "2017-09-26T17:04:58.503797Z",
+    "updated_at": "2017-09-26T17:04:58.503818Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Add a flag to a ID based Bossbar."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_28": {
     "id": 28,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Atom Effect",
+    "description": "Creates an EffectLib atom effect.",
+    "syntax_pattern": "(spawn|create|apply) (a|the|an) atom (effect|formation) (at|on|for|to) %entity/location% with id %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=28",
+    "created_at": "2017-09-26T17:04:58.510189Z",
+    "updated_at": "2017-09-26T17:04:58.510209Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates an EffectLib atom effect."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_30": {
     "id": 30,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Bleed Effect",
+    "description": "Creates an EffectLib bleed effect.",
+    "syntax_pattern": "(spawn|create|apply) (a|the|an) bleed (effect|formation) (at|on|for|to) %entity/location% with id %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=30",
+    "created_at": "2017-09-26T17:04:58.524628Z",
+    "updated_at": "2017-09-26T17:04:58.524656Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates an EffectLib bleed effect."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_31": {
     "id": 31,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Change Citizen Skin",
+    "description": "Change the skin of a citizen by:\r\n* ID\r\n* Minecraft Username\r\n\r\nThis will change the skin of an NPC to a given Minecraft username",
+    "syntax_pattern": "change citizen %number% skin to %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=31",
+    "created_at": "2017-09-26T17:04:58.527024Z",
+    "updated_at": "2017-09-26T17:04:58.527046Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Change the skin of a citizen by:",
-        "* ID",
-        "* Minecraft Username",
-        "This will change the skin of an NPC to a given Minecraft username"
+        "Change the skin of a citizen by:\r\n* ID\r\n* Minecraft Username\r\n\r\nThis will change the skin of an NPC to a given Minecraft username"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_34": {
     "id": 34,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Citizen Hold",
+    "description": "This will make a Citizen hold an object in their hand.",
+    "syntax_pattern": "make citizen %number% hold %item stack%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=34",
+    "created_at": "2017-09-26T17:04:58.547945Z",
+    "updated_at": "2017-09-26T17:04:58.547971Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This will make a Citizen hold an object in their hand."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_35": {
     "id": 35,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Citizen Invulnerability",
+    "description": "Change if a citizen takes damage by:\r\n* ID\r\n* Invulnerable\r\n* Vulnerable\r\n\r\nThis will allow you to choose if an NPC can receive damage",
+    "syntax_pattern": "make citizen %number% (invulnerable|vulnerable)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=35",
+    "created_at": "2017-09-26T17:04:58.555190Z",
+    "updated_at": "2017-09-26T17:04:58.555218Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Change if a citizen takes damage by:",
-        "* ID",
-        "* Invulnerable",
-        "* Vulnerable",
-        "This will allow you to choose if an NPC can receive damage"
+        "Change if a citizen takes damage by:\r\n* ID\r\n* Invulnerable\r\n* Vulnerable\r\n\r\nThis will allow you to choose if an NPC can receive damage"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_36": {
     "id": 36,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Citizen Look Targeting",
+    "description": "Change the view of a citizen by:\r\n* ID\r\n* Location\r\n\r\nPick a location for an NPC to look at",
+    "syntax_pattern": "make citizen %number% look at %location%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=36",
+    "created_at": "2017-09-26T17:04:58.562779Z",
+    "updated_at": "2017-09-26T17:04:58.562809Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Change the view of a citizen by:",
-        "* ID",
-        "* Location",
-        "Pick a location for an NPC to look at"
+        "Change the view of a citizen by:\r\n* ID\r\n* Location\r\n\r\nPick a location for an NPC to look at"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_37": {
     "id": 37,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Citizen Max Health",
+    "description": "Modify citizens max health by:\r\n* ID\r\n* Number\r\n\r\nWill allow you to modify the maximum amount of health an NPC can have. 0.5 = half a heart, 1 = a heart, etc...",
+    "syntax_pattern": "(set|make) citizen[s] %number% max health [to] %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=37",
+    "created_at": "2017-09-26T17:04:58.570025Z",
+    "updated_at": "2017-09-26T17:04:58.570053Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Modify citizens max health by:",
-        "* ID",
-        "* Number",
-        "Will allow you to modify the maximum amount of health an NPC can have. 0.5 = half a heart, 1 = a heart, etc..."
+        "Modify citizens max health by:\r\n* ID\r\n* Number\r\n\r\nWill allow you to modify the maximum amount of health an NPC can have. 0.5 = half a heart, 1 = a heart, etc..."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_38": {
     "id": 38,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Citizen Nametag Visibility",
+    "description": "Modify citizen nametags by:\r\n* ID\r\n* Invisibility\r\n* Visibility\r\n\r\nFor if you want to toggle the visibility of names above the NPC's head",
+    "syntax_pattern": "(set|make) citizen[s] %number% nametag (invisible|visible)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=38",
+    "created_at": "2017-09-26T17:04:58.576953Z",
+    "updated_at": "2017-09-26T17:04:58.576977Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Modify citizen nametags by:",
-        "* ID",
-        "* Invisibility",
-        "* Visibility",
-        "For if you want to toggle the visibility of names above the NPC's head"
+        "Modify citizen nametags by:\r\n* ID\r\n* Invisibility\r\n* Visibility\r\n\r\nFor if you want to toggle the visibility of names above the NPC's head"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_39": {
     "id": 39,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Citizens Look Close Trait",
+    "description": "Allow citizens to look at the closest player automatically. This effect is toggleable, so to disable this trait for a citizen run this effect again.",
+    "syntax_pattern": "give npc %number% the look close trait",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=39",
+    "created_at": "2017-09-26T17:04:58.583493Z",
+    "updated_at": "2017-09-26T17:04:58.583515Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allow citizens to look at the closest player automatically. This effect is toggleable, so to disable this trait for a citizen run this effect again."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_40": {
     "id": 40,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Create Citizen",
+    "description": "Create citizens with:\r\n* Name\r\n* Direction\r\n* Location\r\n* Entity Type\r\n\r\nThis will place an NPC in your world that can be modified",
+    "syntax_pattern": "create [a] citizen named %string% (at|%direction%) %location% [as (a|an) %entitytypes%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=40",
+    "created_at": "2017-09-26T17:04:58.590157Z",
+    "updated_at": "2017-09-26T17:04:58.590181Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Create citizens with:",
-        "* Name",
-        "* Direction",
-        "* Location",
-        "* Entity Type",
-        "This will place an NPC in your world that can be modified"
+        "Create citizens with:\r\n* Name\r\n* Direction\r\n* Location\r\n* Entity Type\r\n\r\nThis will place an NPC in your world that can be modified"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_27": {
     "id": 27,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Animated Ball Effect",
+    "description": "Creates an EffectLib animated ball effect.",
+    "syntax_pattern": "(spawn|create|apply) (a|the|an) animated ball (effect|formation) (at|on|for|to) %entity/location% with id %string% [with particle %particles%] [offset by %number%, %number%(,| and) %number%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=27",
+    "created_at": "2017-09-26T17:04:58.506266Z",
+    "updated_at": "2026-01-27T09:10:43.047152Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates an EffectLib animated ball effect."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_44": {
     "id": 44,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Create ID based Bossbar ",
+    "description": "Create a ID based Bossbar for a group of people.",
+    "syntax_pattern": "create (bossbar|boss bar) title[d] %string% and id %string% for %players% [with (value|progress) %number%] [with colors %BossBarColor%] [with style %BossBarStyle%] [with flags %BossBarFlag%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=44",
+    "created_at": "2017-09-26T17:04:58.613804Z",
+    "updated_at": "2017-09-26T17:04:58.613828Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create a ID based Bossbar for a group of people."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_47": {
     "id": 47,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Delete Boss Bar",
+    "description": "Delete the boss bar of a player",
+    "syntax_pattern": "delete bossbar of %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "BossBarAPI",
+        "link": "https://www.spigotmc.org/resources/api-bossbarapi-1-7-1-8-1-9-1-10.7504/"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=47",
+    "created_at": "2017-09-26T17:04:58.627596Z",
+    "updated_at": "2017-09-26T17:04:58.627621Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Delete the boss bar of a player"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_29": {
     "id": 29,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Bind Hologram",
+    "description": "Bind Hologram by:\r\n* Entity\r\n* Timespan\r\n* Offset x, y & z\r\n\r\nCreate floating text that follows an entity",
+    "syntax_pattern": "bind hologram %string% to %living entities% for %timespan% [offset by %number%, %number%( and|,) %number%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Holographic Displays",
+        "link": "https://dev.bukkit.org/projects/holographic-displays"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=29",
+    "created_at": "2017-09-26T17:04:58.513349Z",
+    "updated_at": "2017-09-30T20:40:30.976215Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Bind Hologram by:",
-        "* Entity",
-        "* Timespan",
-        "* Offset x, y & z",
-        "Create floating text that follows an entity"
+        "Bind Hologram by:\r\n* Entity\r\n* Timespan\r\n* Offset x, y & z\r\n\r\nCreate floating text that follows an entity"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_49": {
     "id": 49,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Delete hologram line",
+    "description": "Delete a single line in a object based hologram.",
+    "syntax_pattern": "(delete|remove) line %number% in holo object %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Holographic Displays",
+        "link": "https://dev.bukkit.org/projects/holographic-displays"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=49",
+    "created_at": "2017-09-26T17:04:58.639039Z",
+    "updated_at": "2018-08-07T06:59:37.824356Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Delete a single line in a object based hologram."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_41": {
     "id": 41,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Create Dynamic Object Based Holograms",
+    "description": "Create dynamic holograms that can be bound to entity's through an id based system.",
+    "syntax_pattern": "create bound holo object %string% with id %string% to %entity% [offset by %number%, %number%( and|,) %number%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Holographic Displays",
+        "link": "https://dev.bukkit.org/projects/holographic-displays"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=41",
+    "created_at": "2017-09-26T17:04:58.597601Z",
+    "updated_at": "2017-09-28T17:16:55.685180Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create dynamic holograms that can be bound to entity's through an id based system."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_50": {
     "id": 50,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Delete ID based Bossbar",
+    "description": "Delete/destroy an ID based Bossbar.",
+    "syntax_pattern": "(remove|destroy) bossbar %string% ",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=50",
+    "created_at": "2017-09-26T17:04:58.647998Z",
+    "updated_at": "2017-09-26T17:04:58.648025Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Delete/destroy an ID based Bossbar."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_54": {
     "id": 54,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Delete/Stop Effect",
+    "description": "Stop's a EffectLib effect that matches the id value.",
+    "syntax_pattern": "(delete|stop) (effect|formation) %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=54",
+    "created_at": "2017-09-26T17:04:58.675690Z",
+    "updated_at": "2017-09-26T17:04:58.675708Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Stop's a EffectLib effect that matches the id value."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_55": {
     "id": 55,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Despawn Citizen",
+    "description": "Despawn citizens by:\r\n* ID\r\n\r\nUnlike delete a citizen this will just kill the NPC you can respawn it back at the created location with the respawn citizen effect",
+    "syntax_pattern": "despawn citizen %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=55",
+    "created_at": "2017-09-26T17:04:58.677901Z",
+    "updated_at": "2017-09-26T17:04:58.677918Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Despawn citizens by:",
-        "* ID",
-        "Unlike delete a citizen this will just kill the NPC you can respawn it back at the created location with the respawn citizen effect"
+        "Despawn citizens by:\r\n* ID\r\n\r\nUnlike delete a citizen this will just kill the NPC you can respawn it back at the created location with the respawn citizen effect"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_69": {
     "id": 69,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Players Tab Name",
+    "description": "Lets you customize a players name within the tab menu.\r\n\r\nPlease note the ['s] was added as of 1.9.18.",
+    "syntax_pattern": "set %player%['s] tab name to %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=69",
+    "created_at": "2017-09-26T17:04:58.747285Z",
+    "updated_at": "2019-08-22T07:46:53.980742Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Lets you customize a players name within the tab menu.",
-        "Please note the ['s] was added as of 1.9.18."
+        "Lets you customize a players name within the tab menu.\r\n\r\nPlease note the ['s] was added as of 1.9.18."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_58": {
     "id": 58,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Equip Citizen",
+    "description": "Give citizens:\r\n* Tools\r\n* Armo(u)r\r\n\r\nGive citizens things to hold in their hands and wear",
+    "syntax_pattern": "(equip|give) citizen %number% with [an] %itemstack%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=58",
+    "created_at": "2017-09-26T17:04:58.696645Z",
+    "updated_at": "2017-09-26T17:04:58.696671Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Give citizens:",
-        "* Tools",
-        "* Armo(u)r",
-        "Give citizens things to hold in their hands and wear"
+        "Give citizens:\r\n* Tools\r\n* Armo(u)r\r\n\r\nGive citizens things to hold in their hands and wear"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_59": {
     "id": 59,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Fake Lightning (No Sound)",
+    "description": "Creates a silent fake lightning strike at a location.",
+    "syntax_pattern": "(create|strike) (fake|ultra|no sound) fake lightning at %location%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=59",
+    "created_at": "2017-09-26T17:04:58.703298Z",
+    "updated_at": "2017-09-26T17:04:58.703320Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a silent fake lightning strike at a location."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_60": {
     "id": 60,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Hide BossBar",
+    "description": "Hide a ID based Bossbar.",
+    "syntax_pattern": "hide bossbar %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=60",
+    "created_at": "2017-09-26T17:04:58.705892Z",
+    "updated_at": "2017-09-26T17:04:58.705910Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Hide a ID based Bossbar."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_62": {
     "id": 62,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Make Citizen Attack",
+    "description": "Make citizens attack with:\n* ID\n* Mobs\n* Players\n\nMakes a citizen attack a living entity. The entity must be close enough to the NPC",
+    "syntax_pattern": "make citizen %number% (attack|fight) %living entities%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=62",
+    "created_at": "2017-09-26T17:04:58.710363Z",
+    "updated_at": "2017-09-26T17:04:58.710381Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Make citizens attack with:",
-        "* ID",
-        "* Mobs",
-        "* Players",
-        "Makes a citizen attack a living entity. The entity must be close enough to the NPC"
+        "Make citizens attack with:\n* ID\n* Mobs\n* Players\n\nMakes a citizen attack a living entity. The entity must be close enough to the NPC"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_63": {
     "id": 63,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Make Citizen Talk",
+    "description": "Make citizens communicate with:\r\n* ID\r\n* Messages\r\n* Players\r\n\r\nThis will make an NPC speak to a player with a custom message",
+    "syntax_pattern": "make citizen %number% (say|communicate) %string% to %livingentities%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=63",
+    "created_at": "2017-09-26T17:04:58.717347Z",
+    "updated_at": "2017-09-26T17:04:58.717373Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Make citizens communicate with:",
-        "* ID",
-        "* Messages",
-        "* Players",
-        "This will make an NPC speak to a player with a custom message"
+        "Make citizens communicate with:\r\n* ID\r\n* Messages\r\n* Players\r\n\r\nThis will make an NPC speak to a player with a custom message"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_64": {
     "id": 64,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Max Health",
+    "description": "Set max health by:\r\n* Entity\r\n* Value\r\n\r\nThis will change the maximum health of an entity",
+    "syntax_pattern": "set rf max[imum] h(ealth|p) of %entity% to %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=64",
+    "created_at": "2017-09-26T17:04:58.724199Z",
+    "updated_at": "2017-09-26T17:04:58.724223Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Set max health by:",
-        "* Entity",
-        "* Value",
-        "This will change the maximum health of an entity"
+        "Set max health by:\r\n* Entity\r\n* Value\r\n\r\nThis will change the maximum health of an entity"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_65": {
     "id": 65,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Move Citizen",
+    "description": "Move citizens by:\r\n* ID\r\n* Location\r\n* Speed\r\n\r\nThis will make a given NPC pathfind to a location",
+    "syntax_pattern": "move citizen %number% to %location% [at speed %number%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=65",
+    "created_at": "2017-09-26T17:04:58.726442Z",
+    "updated_at": "2017-09-26T17:04:58.726460Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Move citizens by:",
-        "* ID",
-        "* Location",
-        "* Speed",
-        "This will make a given NPC pathfind to a location"
+        "Move citizens by:\r\n* ID\r\n* Location\r\n* Speed\r\n\r\nThis will make a given NPC pathfind to a location"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_66": {
     "id": 66,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Place CrackShot Mine",
+    "description": "Set a CrackShot mine at a location for a player. The string is the weapons name that will be responsible for the damage.",
+    "syntax_pattern": "(place|set|spawn) mine at %location% for %player% as %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "CrackShot",
+        "link": "https://dev.bukkit.org/projects/crackshot"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=66",
+    "created_at": "2017-09-26T17:04:58.733526Z",
+    "updated_at": "2017-09-26T17:04:58.733556Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set a CrackShot mine at a location for a player. The string is the weapons name that will be responsible for the damage."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_67": {
     "id": 67,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Play Resource Pack Sound",
+    "description": "Play a sound from a resource pack.",
+    "syntax_pattern": "play (resource|[custom ]sound) [sound] pack %string% to %player% [at %location%] [(and|with) volume %number%] [(and|with) pitch %number%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=67",
+    "created_at": "2017-09-26T17:04:58.742720Z",
+    "updated_at": "2017-09-26T17:04:58.742746Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Play a sound from a resource pack."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_68": {
     "id": 68,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Play Sound",
+    "description": "Play sound by:\n* Player\n* Client\n* Volume\n\nThis will play a sound to a player and nobody else\n\nIf you want a list of skRayFall sounds go https://hub.spigotmc.org/javadocs/spigot/ click ctrl + f and type 'sound' then press the down arrow once and then click the sound that is shown in green text and that will list all the sounds for you",
+    "syntax_pattern": "play %string% to %player% [at volume %number%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=68",
+    "created_at": "2017-09-26T17:04:58.745051Z",
+    "updated_at": "2017-09-26T17:04:58.745069Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Play sound by:",
-        "* Player",
-        "* Client",
-        "* Volume",
-        "This will play a sound to a player and nobody else",
-        "If you want a list of skRayFall sounds go https://hub.spigotmc.org/javadocs/spigot/ click ctrl + f and type 'sound' then press the down arrow once and then click the sound that is shown in green text and that will list all the sounds for you"
+        "Play sound by:\n* Player\n* Client\n* Volume\n\nThis will play a sound to a player and nobody else\n\nIf you want a list of skRayFall sounds go https://hub.spigotmc.org/javadocs/spigot/ click ctrl + f and type 'sound' then press the down arrow once and then click the sound that is shown in green text and that will list all the sounds for you"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_70": {
     "id": 70,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Protect Player",
+    "description": "Protect by:\r\n* Player\r\n* Citizen ID\r\n\r\nThis will have a citizen follow a specified player and protect them",
+    "syntax_pattern": "set citizen number to protect %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      },
+      {
+        "name": "Sentry addon for Citizens",
+        "link": "http://ci.citizensnpcs.co/job/Sentry/"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=70",
+    "created_at": "2017-09-26T17:04:58.749567Z",
+    "updated_at": "2017-09-26T17:04:58.749585Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Protect by:",
-        "* Player",
-        "* Citizen ID",
-        "This will have a citizen follow a specified player and protect them"
+        "Protect by:\r\n* Player\r\n* Citizen ID\r\n\r\nThis will have a citizen follow a specified player and protect them"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_71": {
     "id": 71,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Remove Citizen",
+    "description": "Remove citizens by:\r\n* ID\r\n\r\nThis will permanently remove a citizen",
+    "syntax_pattern": "(remove|destroy) citizen %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=71",
+    "created_at": "2017-09-26T17:04:58.763597Z",
+    "updated_at": "2017-09-26T17:04:58.763624Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Remove citizens by:",
-        "* ID",
-        "This will permanently remove a citizen"
+        "Remove citizens by:\r\n* ID\r\n\r\nThis will permanently remove a citizen"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_72": {
     "id": 72,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Remove Player from BossBar",
+    "description": "Remove a player from a ID based Bossbar.",
+    "syntax_pattern": "remove %players% [from] bossbar %string% ",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=72",
+    "created_at": "2017-09-26T17:04:58.770578Z",
+    "updated_at": "2017-09-26T17:04:58.770605Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Remove a player from a ID based Bossbar."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_73": {
     "id": 73,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Remove/Delete Bossbar Flag",
+    "description": "Remove a flag from a ID based Bossbar.",
+    "syntax_pattern": "(remove|delete) [a] [the] flag %BossBarFlag% [to] [from] [the] bossbar %string% ",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=73",
+    "created_at": "2017-09-26T17:04:58.772963Z",
+    "updated_at": "2017-09-26T17:04:58.772986Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Remove a flag from a ID based Bossbar."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_74": {
     "id": 74,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Respawn Citizen",
+    "description": "Respawn citizens by:\r\n* ID\r\n* Direction\r\n* Location\r\n\r\nThis will force an NPC to come back to life if it was previously killed or despawned by the despawn citizen effect. This will not work if the citizen is already alive so it can't be used to duplicate citizens",
+    "syntax_pattern": "respawn citizen %number% (at|%direction%) %location%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=74",
+    "created_at": "2017-09-26T17:04:58.775218Z",
+    "updated_at": "2017-09-26T17:04:58.775237Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Respawn citizens by:",
-        "* ID",
-        "* Direction",
-        "* Location",
-        "This will force an NPC to come back to life if it was previously killed or despawned by the despawn citizen effect. This will not work if the citizen is already alive so it can't be used to duplicate citizens"
+        "Respawn citizens by:\r\n* ID\r\n* Direction\r\n* Location\r\n\r\nThis will force an NPC to come back to life if it was previously killed or despawned by the despawn citizen effect. This will not work if the citizen is already alive so it can't be used to duplicate citizens"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_75": {
     "id": 75,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Send Title",
+    "description": "Set title by:\r\n* Name\r\n* Subtitle\r\n* Player\r\n* Time\r\n* Fadein\r\n* Fadeout\r\n\r\nThis will send a title to a player with an optional subtitle and display time",
+    "syntax_pattern": "send %player% title %string% [with subtitle %string%] [for %timespan%] [with %timespan% fade in and %timespan% fade out]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=75",
+    "created_at": "2017-09-26T17:04:58.782288Z",
+    "updated_at": "2017-09-26T17:04:58.782313Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Set title by:",
-        "* Name",
-        "* Subtitle",
-        "* Player",
-        "* Time",
-        "* Fadein",
-        "* Fadeout",
-        "This will send a title to a player with an optional subtitle and display time"
+        "Set title by:\r\n* Name\r\n* Subtitle\r\n* Player\r\n* Time\r\n* Fadein\r\n* Fadeout\r\n\r\nThis will send a title to a player with an optional subtitle and display time"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_76": {
     "id": 76,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Set Action Bar",
+    "description": "Display Action Bar by:\r\n* Player\r\n* Text\r\n\r\nThis will display text above the player's hotbar for a few seconds. This is like the text you receive when changing the item in your hand",
+    "syntax_pattern": "set action bar of %player% to %string%\r\nset %player%['s] action bar to %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=76",
+    "created_at": "2017-09-26T17:04:58.784848Z",
+    "updated_at": "2017-09-26T17:04:58.784866Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Display Action Bar by:",
-        "* Player",
-        "* Text",
-        "This will display text above the player's hotbar for a few seconds. This is like the text you receive when changing the item in your hand"
+        "Display Action Bar by:\r\n* Player\r\n* Text\r\n\r\nThis will display text above the player's hotbar for a few seconds. This is like the text you receive when changing the item in your hand"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_77": {
     "id": 77,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Set Below Name Score",
+    "description": "Set score of a sidebar by:\r\n* Name\r\n* Value\r\n* Player\r\n* Target\r\n\r\nThis will change the name and score below a player's name",
+    "syntax_pattern": "set score %string% below %player% to %number% for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=77",
+    "created_at": "2017-09-26T17:04:58.787103Z",
+    "updated_at": "2017-09-26T17:04:58.787121Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Set score of a sidebar by:",
-        "* Name",
-        "* Value",
-        "* Player",
-        "* Target",
-        "This will change the name and score below a player's name"
+        "Set score of a sidebar by:\r\n* Name\r\n* Value\r\n* Player\r\n* Target\r\n\r\nThis will change the name and score below a player's name"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_78": {
     "id": 78,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Set Boss Bar",
+    "description": "Set a timed or static bossbar.",
+    "syntax_pattern": "set bossbar named %string% for %player% to %number%\r\ndisplay bossbar with %string% to %player% for %timespan%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "BossBarAPI",
+        "link": "https://www.spigotmc.org/resources/api-bossbarapi-1-7-1-8-1-9-1-10.7504/"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=78",
+    "created_at": "2017-09-26T17:04:58.790307Z",
+    "updated_at": "2017-09-26T17:04:58.790325Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set a timed or static bossbar."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_79": {
     "id": 79,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Set Bossbar Color",
+    "description": "Set the color of an ID based Bossbar.",
+    "syntax_pattern": "(set|edit) bossbar %string% colo[u]r to %BossBarColor% ",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=79",
+    "created_at": "2017-09-26T17:04:58.804418Z",
+    "updated_at": "2017-09-26T17:04:58.804442Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set the color of an ID based Bossbar."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_80": {
     "id": 80,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Set Bossbar Progress/Value",
+    "description": "Set the progress of an ID based bossbar.",
+    "syntax_pattern": "(set|edit) bossbar %string% (value|progress) to %number% ",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=80",
+    "created_at": "2017-09-26T17:04:58.806877Z",
+    "updated_at": "2017-09-26T17:04:58.806895Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set the progress of an ID based bossbar."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_51": {
     "id": 51,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Delete ID based score",
+    "description": "Delete an ID based score from a scoreboard.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19).",
+    "syntax_pattern": "(delete|remove) score [with] id %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=51",
+    "created_at": "2017-09-26T17:04:58.650745Z",
+    "updated_at": "2022-03-21T08:27:06.434264Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Delete an ID based score from a scoreboard.",
-        "For more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
+        "Delete an ID based score from a scoreboard.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_81": {
     "id": 81,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Set Bossbar Style",
+    "description": "Set the style of an ID based Bossbar.",
+    "syntax_pattern": "(set|edit) bossbar %string% style to %BossBarStyle%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=81",
+    "created_at": "2017-09-26T17:04:58.809227Z",
+    "updated_at": "2017-09-26T17:04:58.809248Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set the style of an ID based Bossbar."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_52": {
     "id": 52,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Delete Object Based Holograms",
+    "description": "Delete object based holograms by id.",
+    "syntax_pattern": "delete holo object %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Holographic Displays",
+        "link": "https://dev.bukkit.org/projects/holographic-displays"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=52",
+    "created_at": "2017-09-26T17:04:58.657119Z",
+    "updated_at": "2017-09-28T17:17:27.324922Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Delete object based holograms by id."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_82": {
     "id": 82,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Set Bossbar Title/Name",
+    "description": "Set the name of an ID based Bossbar.",
+    "syntax_pattern": "(set|edit) bossbar %string% (title|name) to %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=82",
+    "created_at": "2017-09-26T17:04:58.811933Z",
+    "updated_at": "2017-09-26T17:04:58.811955Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set the name of an ID based Bossbar."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_83": {
     "id": 83,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Set Cape",
+    "description": "Give the player a cape. The Item stack in this effect MUST be a banner. ",
+    "syntax_pattern": "make %player% wear cape %itemstack%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Capes",
+        "link": "https://www.spigotmc.org/resources/capes.9068/"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=83",
+    "created_at": "2017-09-26T17:04:58.814344Z",
+    "updated_at": "2017-09-26T17:04:58.814363Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Give the player a cape. The Item stack in this effect MUST be a banner."
+        "Give the player a cape. The Item stack in this effect MUST be a banner. "
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_91": {
     "id": 91,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Text Effect",
+    "description": "Creates an EffectLib text effect.",
+    "syntax_pattern": "(spawn|create|apply) (a|the|an) text (effect|formation) with text %string% as %particles% (at|on|for|to) %entity/location% with id %string%[(,| and) %number% large]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=91",
+    "created_at": "2017-09-26T17:04:58.840069Z",
+    "updated_at": "2026-01-27T09:09:14.560851Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates an EffectLib text effect."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_87": {
     "id": 87,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Set Tab Header & Footer",
+    "description": "Modify Tab by:\r\n* Header\r\n* Footer\r\n* Player\r\n\r\nThis will display a client side header and footer for a player",
+    "syntax_pattern": "set tab header to %string% and footer to %string% for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=87",
+    "created_at": "2017-09-26T17:04:58.830441Z",
+    "updated_at": "2017-09-26T17:04:58.830462Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Modify Tab by:",
-        "* Header",
-        "* Footer",
-        "* Player",
-        "This will display a client side header and footer for a player"
+        "Modify Tab by:\r\n* Header\r\n* Footer\r\n* Player\r\n\r\nThis will display a client side header and footer for a player"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_88": {
     "id": 88,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Set Tablist Score",
+    "description": "Set the tablist score by:\r\n* Scoreboard\r\n* Value\r\n* Player\r\n* Target\r\n\r\nThis will change the score for a player in the tablist",
+    "syntax_pattern": "set tab[list] score of %player% to %number% for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=88",
+    "created_at": "2017-09-26T17:04:58.832883Z",
+    "updated_at": "2017-09-26T17:04:58.832906Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Set the tablist score by:",
-        "* Scoreboard",
-        "* Value",
-        "* Player",
-        "* Target",
-        "This will change the score for a player in the tablist"
+        "Set the tablist score by:\r\n* Scoreboard\r\n* Value\r\n* Player\r\n* Target\r\n\r\nThis will change the score for a player in the tablist"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_89": {
     "id": 89,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Show Particle",
+    "description": "Show particle by:\r\n* Player\r\n* Location\r\n* Amount\r\n* Particle Type\r\n\r\nThis will display a particle at a given location for a player. This is client side!\r\n\r\n[List of particles ](https://gist.github.com/eyesniper2/935315532ef05fc56656)",
+    "syntax_pattern": "show [%number%] %string% particle[s] at %location% for %player% [offset by x, y (and|,) z]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=89",
+    "created_at": "2017-09-26T17:04:58.835296Z",
+    "updated_at": "2017-09-26T17:04:58.835320Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Show particle by:",
-        "* Player",
-        "* Location",
-        "* Amount",
-        "* Particle Type",
-        "This will display a particle at a given location for a player. This is client side!",
-        "[List of particles ](https://gist.github.com/eyesniper2/935315532ef05fc56656)"
+        "Show particle by:\r\n* Player\r\n* Location\r\n* Amount\r\n* Particle Type\r\n\r\nThis will display a particle at a given location for a player. This is client side!\r\n\r\n[List of particles ](https://gist.github.com/eyesniper2/935315532ef05fc56656)"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_90": {
     "id": 90,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Show/Unhide Bossbar",
+    "description": "Show a hidden ID based Bossbar.",
+    "syntax_pattern": "(show|display|unhide) bossbar %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=90",
+    "created_at": "2017-09-26T17:04:58.837642Z",
+    "updated_at": "2017-09-26T17:04:58.837664Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Show a hidden ID based Bossbar."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_94": {
     "id": 94,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Unglow/Stop Glowing",
+    "description": "Remove the glowing effect from the player.",
+    "syntax_pattern": "make %player% (unglow|stop glowing)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=94",
+    "created_at": "2017-09-26T17:04:58.852295Z",
+    "updated_at": "2017-09-26T17:04:58.852313Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Remove the glowing effect from the player."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_97": {
     "id": 97,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Wipe Below Name",
+    "description": "Wipe score below player by:\r\n* Scoreboard\r\n* Player\r\n\r\nThis will wipe the score below the player",
+    "syntax_pattern": "(wipe|erase) below score[s] for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=97",
+    "created_at": "2017-09-26T17:04:58.860469Z",
+    "updated_at": "2017-09-26T17:04:58.860490Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Wipe score below player by:",
-        "* Scoreboard",
-        "* Player",
-        "This will wipe the score below the player"
+        "Wipe score below player by:\r\n* Scoreboard\r\n* Player\r\n\r\nThis will wipe the score below the player"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_99": {
     "id": 99,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Wipe Tablist Score",
+    "description": "Wipe tablist score by:\r\n* Scoreboard\r\n* Player\r\n\r\nThis will remove the score from a player in the tablist",
+    "syntax_pattern": "(wipe|erase) %player%['s] score from tab[list]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=99",
+    "created_at": "2017-09-26T17:04:58.865739Z",
+    "updated_at": "2017-09-26T17:04:58.865759Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Wipe tablist score by:",
-        "* Scoreboard",
-        "* Player",
-        "This will remove the score from a player in the tablist"
+        "Wipe tablist score by:\r\n* Scoreboard\r\n* Player\r\n\r\nThis will remove the score from a player in the tablist"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_101": {
     "id": 101,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On Crackshot Damage",
+    "description": "Called when a weapon hits an entity. The player is the shooter, the event-entity is the victim and the event-string is the weapons name.",
+    "syntax_pattern": "on (crackshot|weapon|gun) damage",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [
+      {
+        "name": "CrackShot",
+        "link": "https://dev.bukkit.org/projects/crackshot"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=101",
+    "created_at": "2017-09-26T17:05:22.094561Z",
+    "updated_at": "2017-09-26T17:05:22.094591Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a weapon hits an entity. The player is the shooter, the event-entity is the victim and the event-string is the weapons name."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_102": {
     "id": 102,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On CrackShot Finish Reload",
+    "description": "This event is triggered once a player has finished reloading. Event-string will return name of the player’s weapon.",
+    "syntax_pattern": "(crackshot|weapon|gun) reload (finish|complete)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [
+      {
+        "name": "CrackShot",
+        "link": "https://dev.bukkit.org/projects/crackshot"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=102",
+    "created_at": "2017-09-26T17:05:22.102276Z",
+    "updated_at": "2017-09-26T17:05:22.102301Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This event is triggered once a player has finished reloading. Event-string will return name of the player’s weapon."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_103": {
     "id": 103,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On CrackShot Reload",
+    "description": "This event is triggered when a player starts to reload. Event-string will return name of the players weapon. Event-number will return the reload duration.",
+    "syntax_pattern": "(crackshot|weapon|gun) reload",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [
+      {
+        "name": "CrackShot",
+        "link": "https://dev.bukkit.org/projects/crackshot"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=103",
+    "created_at": "2017-09-26T17:05:22.123032Z",
+    "updated_at": "2017-09-26T17:05:22.123062Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This event is triggered when a player starts to reload. Event-string will return name of the players weapon. Event-number will return the reload duration."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_104": {
     "id": 104,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On CrackShot Scope/Unscope",
+    "description": "An event for when player scopes or unscopes out of a weapon. Event-string will return name of the player’s weapon.",
+    "syntax_pattern": "[crackshot|gun|weapon] scope [in]\r\n[crackshot|gun|weapon] unscope",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [
+      {
+        "name": "CrackShot",
+        "link": "https://dev.bukkit.org/projects/crackshot"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=104",
+    "created_at": "2017-09-26T17:05:22.130699Z",
+    "updated_at": "2017-09-26T17:05:22.130729Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "An event for when player scopes or unscopes out of a weapon. Event-string will return name of the player’s weapon."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_105": {
     "id": 105,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On CrackShot Shoot",
+    "description": "Called when a weapon is shot. The player is the shooter, event-entity is the projectile and event-string is the weapons name.",
+    "syntax_pattern": "[on] (crackshot|weapon|gun) shoot",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [
+      {
+        "name": "CrackShot",
+        "link": "https://dev.bukkit.org/projects/crackshot"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=105",
+    "created_at": "2017-09-26T17:05:22.138070Z",
+    "updated_at": "2017-09-26T17:05:22.138090Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a weapon is shot. The player is the shooter, event-entity is the projectile and event-string is the weapons name."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_92": {
     "id": 92,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Top left building schematic",
+    "description": "Check schematic by:\r\n* Location\r\n* Citizen\r\n* Top left\r\n\r\nThis will return the top left of the last built schematic",
+    "syntax_pattern": "for builder %number% get the location of the top left of schematic centered at %location%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Builder",
+        "link": "http://ci.citizensnpcs.co/job/Builder/"
+      },
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=92",
+    "created_at": "2017-09-26T17:04:58.842594Z",
+    "updated_at": "2017-10-29T19:21:11.021340Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Check schematic by:",
-        "* Location",
-        "* Citizen",
-        "* Top left",
-        "This will return the top left of the last built schematic"
+        "Check schematic by:\r\n* Location\r\n* Citizen\r\n* Top left\r\n\r\nThis will return the top left of the last built schematic"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_98": {
     "id": 98,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Wipe Sidebar",
+    "description": "Delete a sidebar by:\n* Scoreboard\n* Player\n\nThis will completely wipe a specified player's sidebar deleting all scores and the name of the sidebar.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19).",
+    "syntax_pattern": "(wipe|erase|delete) %player%['s] sidebar",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=98",
+    "created_at": "2017-09-26T17:04:58.863109Z",
+    "updated_at": "2022-03-21T08:24:34.880388Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Delete a sidebar by:",
-        "* Scoreboard",
-        "* Player",
-        "This will completely wipe a specified player's sidebar deleting all scores and the name of the sidebar.",
-        "For more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
+        "Delete a sidebar by:\n* Scoreboard\n* Player\n\nThis will completely wipe a specified player's sidebar deleting all scores and the name of the sidebar.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_84": {
     "id": 84,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Set ID based Score",
+    "description": "Make an ID based score in a players scoreboard. This method is ideal for creating complex text based scoreboards.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19).",
+    "syntax_pattern": "(set|create) id [based] score %string% in sidebar of %player% to %number% with id %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=84",
+    "created_at": "2017-09-26T17:04:58.823151Z",
+    "updated_at": "2022-03-21T08:26:13.277205Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Make an ID based score in a players scoreboard. This method is ideal for creating complex text based scoreboards.",
-        "For more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
+        "Make an ID based score in a players scoreboard. This method is ideal for creating complex text based scoreboards.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_95": {
     "id": 95,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Update Group Score",
+    "description": "Updates a group based score.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19).",
+    "syntax_pattern": "(edit|update) score [with][in] group [id] %string% to %string% and %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=95",
+    "created_at": "2017-09-26T17:04:58.854538Z",
+    "updated_at": "2022-03-21T08:26:30.275651Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Updates a group based score.",
-        "For more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
+        "Updates a group based score.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_107": {
     "id": 107,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On Hologram Pickup",
+    "description": "Called when a player “picks up” an item from an interactive hologram. This can only be done with Items in the holograms, not text. Event-string will give you the holograms id name and Event-Number will give you the specific line interacted with.",
+    "syntax_pattern": "[on] hologram pickup",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [
+      {
+        "name": "Holographic Displays",
+        "link": "https://dev.bukkit.org/projects/holographic-displays"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=107",
+    "created_at": "2017-09-26T17:05:22.147718Z",
+    "updated_at": "2017-09-26T17:05:22.147736Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a player “picks up” an item from an interactive hologram. This can only be done with Items in the holograms, not text. Event-string will give you the holograms id name and Event-Number will give you the specific line interacted with."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_108": {
     "id": 108,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On Hologram Touch/Click",
+    "description": "Called when a player right clicks a line from an interactive hologram. Event-string will give you the holograms id name and Event-Number will give you the specific line interacted with. ",
+    "syntax_pattern": "[on] hologram (touch|click)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [
+      {
+        "name": "Holographic Displays",
+        "link": "https://dev.bukkit.org/projects/holographic-displays"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=108",
+    "created_at": "2017-09-26T17:05:22.154839Z",
+    "updated_at": "2017-09-26T17:05:22.154858Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a player right clicks a line from an interactive hologram. Event-string will give you the holograms id name and Event-Number will give you the specific line interacted with."
+        "Called when a player right clicks a line from an interactive hologram. Event-string will give you the holograms id name and Event-Number will give you the specific line interacted with. "
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_109": {
     "id": 109,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On Store",
+    "description": "Called when a player places an item into a chest or ender chest. Event-item will give you the items that were moved into the chest. Event-inventory will give you the inventory. This event is also cancelable.",
+    "syntax_pattern": "[on] (store|chest add)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=109",
+    "created_at": "2017-09-26T17:05:22.161855Z",
+    "updated_at": "2017-09-26T17:05:22.161874Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a player places an item into a chest or ender chest. Event-item will give you the items that were moved into the chest. Event-inventory will give you the inventory. This event is also cancelable."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_110": {
     "id": 110,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On Unstore",
+    "description": "This event will be called when a player removes an item from a chest or ender chest. Event-item will give you the items that were moved out of the chest. Event-inventory will give you the inventory. This event is also cancelable.",
+    "syntax_pattern": "[on] (unstore|chest remove)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=110",
+    "created_at": "2017-09-26T17:05:22.164448Z",
+    "updated_at": "2017-09-26T17:05:22.164469Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This event will be called when a player removes an item from a chest or ender chest. Event-item will give you the items that were moved out of the chest. Event-inventory will give you the inventory. This event is also cancelable."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_111": {
     "id": 111,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On Vote",
+    "description": "Check server vote by:\r\n* Player\r\n* Website\r\n\r\nThis will be called when someone votes for the server. Use event-string to return the name of the website they voted on",
+    "syntax_pattern": "[on] Vote",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [
+      {
+        "name": "Votifier",
+        "link": "https://dev.bukkit.org/projects/votifier"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=111",
+    "created_at": "2017-09-26T17:05:22.167165Z",
+    "updated_at": "2017-09-26T17:05:22.167188Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Check server vote by:",
-        "* Player",
-        "* Website",
-        "This will be called when someone votes for the server. Use event-string to return the name of the website they voted on"
+        "Check server vote by:\r\n* Player\r\n* Website\r\n\r\nThis will be called when someone votes for the server. Use event-string to return the name of the website they voted on"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_113": {
     "id": 113,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Citizen is named",
+    "description": "Check citizen by:\r\n* Name\r\n\r\nA conditional check using citizens names over id numbers",
+    "syntax_pattern": "(NPC|Citizen)['s] [is] name[d] [is] %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=113",
+    "created_at": "2017-09-26T17:05:30.792428Z",
+    "updated_at": "2017-09-26T17:05:30.792455Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Check citizen by:",
-        "* Name",
-        "A conditional check using citizens names over id numbers"
+        "Check citizen by:\r\n* Name\r\n\r\nA conditional check using citizens names over id numbers"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_114": {
     "id": 114,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Is Natural/Unnatural",
+    "description": "Using Core Protect, check to see if a block is natural or if it has been modified.",
+    "syntax_pattern": "%block% is natural\r\n%block% is not natural",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [
+      {
+        "name": "CoreProtect",
+        "link": "https://www.spigotmc.org/resources/coreprotect.8631/"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=114",
+    "created_at": "2017-09-26T17:05:30.799412Z",
+    "updated_at": "2017-09-26T17:05:30.799437Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Using Core Protect, check to see if a block is natural or if it has been modified."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_117": {
     "id": 117,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Armor Value",
+    "description": "Get a players armor value.",
+    "syntax_pattern": "%player%['s] armo[u]r value",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=117",
+    "created_at": "2017-09-26T17:05:37.191680Z",
+    "updated_at": "2017-09-26T17:05:37.191700Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get a players armor value."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_118": {
     "id": 118,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Boss Bar Value",
+    "description": "Gets the value of a bossbar (0-100).",
+    "syntax_pattern": "bossbar of %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "BossBarAPI",
+        "link": "https://www.spigotmc.org/resources/api-bossbarapi-1-7-1-8-1-9-1-10.7504/"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=118",
+    "created_at": "2017-09-26T17:05:37.194317Z",
+    "updated_at": "2017-09-26T17:05:37.194335Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the value of a bossbar (0-100)."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_120": {
     "id": 120,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Citizen ID",
+    "description": "Get the id number of a citizen from an entity.",
+    "syntax_pattern": "citizen id of %entity%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=120",
+    "created_at": "2017-09-26T17:05:37.210156Z",
+    "updated_at": "2017-09-26T17:05:37.210177Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the id number of a citizen from an entity."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_121": {
     "id": 121,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Citizen Owner",
+    "description": "Gets the owner of a citizen",
+    "syntax_pattern": "owner of npc %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=121",
+    "created_at": "2017-09-26T17:05:37.216864Z",
+    "updated_at": "2017-09-26T17:05:37.216884Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the owner of a citizen"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_122": {
     "id": 122,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "CrackShot Weapon",
+    "description": "This expression represents weapon interactions with crackshot. The text is the weapons name.",
+    "syntax_pattern": "(gun|crackshot weapon) %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "CrackShot",
+        "link": "https://dev.bukkit.org/projects/crackshot"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=122",
+    "created_at": "2017-09-26T17:05:37.224843Z",
+    "updated_at": "2017-09-26T17:05:37.224864Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This expression represents weapon interactions with crackshot. The text is the weapons name."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_124": {
     "id": 124,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Glowing",
+    "description": "Get a players glowing status (True or False).",
+    "syntax_pattern": "%player% glowing ",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=124",
+    "created_at": "2017-09-26T17:05:37.240551Z",
+    "updated_at": "2017-09-26T17:05:37.240578Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get a players glowing status (True or False)."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_126": {
     "id": 126,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Hologram Line",
+    "description": "Get the text in the line of a holo object",
+    "syntax_pattern": "text in line %number% of holo[gram] [object] %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "Holographic Displays",
+        "link": "https://dev.bukkit.org/projects/holographic-displays"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=126",
+    "created_at": "2017-09-26T17:05:37.245186Z",
+    "updated_at": "2017-09-26T17:05:37.245204Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the text in the line of a holo object"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_127": {
     "id": 127,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Info of Enchantment",
+    "description": "Get the presentable info of a specific enchantment number of an item.",
+    "syntax_pattern": "info of enchant[ment] %number% (of|on) %itemstack%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=127",
+    "created_at": "2017-09-26T17:05:37.252070Z",
+    "updated_at": "2017-09-26T17:05:37.252091Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the presentable info of a specific enchantment number of an item."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_128": {
     "id": 128,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Last Created Citizen ID",
+    "description": "Checks for:\r\n* The last created citizen\r\n\r\nYou can use this to check the ID of the last created citizen good for if you want to check the unique ID of a citizen you just created",
+    "syntax_pattern": "last created citizen [id]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=128",
+    "created_at": "2017-09-26T17:05:37.254259Z",
+    "updated_at": "2017-09-26T17:05:37.254277Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Checks for:",
-        "* The last created citizen",
-        "You can use this to check the ID of the last created citizen good for if you want to check the unique ID of a citizen you just created"
+        "Checks for:\r\n* The last created citizen\r\n\r\nYou can use this to check the ID of the last created citizen good for if you want to check the unique ID of a citizen you just created"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_129": {
     "id": 129,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Make Player Glow",
+    "description": "Make a player glow. This is based on team color, will be white by default.",
+    "syntax_pattern": "make %player% glow ",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=129",
+    "created_at": "2017-09-26T17:05:37.261172Z",
+    "updated_at": "2017-09-26T17:05:37.261191Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make a player glow. This is based on team color, will be white by default."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_130": {
     "id": 130,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Name of Citizen",
+    "description": "Used for:\r\n* Checking citizen names\r\n* Changing citizen names\r\n\r\nThis will allow you to check and set an NPC's name",
+    "syntax_pattern": "name of citizen %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=130",
+    "created_at": "2017-09-26T17:05:37.263313Z",
+    "updated_at": "2017-09-26T17:05:37.263330Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Used for:",
-        "* Checking citizen names",
-        "* Changing citizen names",
-        "This will allow you to check and set an NPC's name"
+        "Used for:\r\n* Checking citizen names\r\n* Changing citizen names\r\n\r\nThis will allow you to check and set an NPC's name"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_132": {
     "id": 132,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "No NBT",
+    "description": "Removes all NBT tags by:\r\n* Item Stack\r\n\r\nUsing this expression will remove all vanilla minecraft lore from an item. For example a diamond sword would not show the vanilla +7 damage in the lore anymore",
+    "syntax_pattern": "%itemstack% with no NBT",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=132",
+    "created_at": "2017-09-26T17:05:37.272042Z",
+    "updated_at": "2017-09-26T17:05:37.272065Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Removes all NBT tags by:",
-        "* Item Stack",
-        "Using this expression will remove all vanilla minecraft lore from an item. For example a diamond sword would not show the vanilla +7 damage in the lore anymore"
+        "Removes all NBT tags by:\r\n* Item Stack\r\n\r\nUsing this expression will remove all vanilla minecraft lore from an item. For example a diamond sword would not show the vanilla +7 damage in the lore anymore"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_133": {
     "id": 133,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Number of Enchantments",
+    "description": "Get the number of enchantments on an item.",
+    "syntax_pattern": "number of enchant[ment]s on %itemstack%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=133",
+    "created_at": "2017-09-26T17:05:37.274268Z",
+    "updated_at": "2017-09-26T17:05:37.274288Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the number of enchantments on an item."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_134": {
     "id": 134,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Shiny Item",
+    "description": "Show Items by:\r\n* Glow\r\n\r\nMakes an item glow as an enchanted item but without the lore",
+    "syntax_pattern": "shiny %itemstack%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=134",
+    "created_at": "2017-09-26T17:05:37.276618Z",
+    "updated_at": "2017-09-26T17:05:37.276637Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Show Items by:",
-        "* Glow",
-        "Makes an item glow as an enchanted item but without the lore"
+        "Show Items by:\r\n* Glow\r\n\r\nMakes an item glow as an enchanted item but without the lore"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_136": {
     "id": 136,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Title/Name of BossBar",
+    "description": "Get the name of an ID based Bossbar.",
+    "syntax_pattern": "(title|name) of bossbar %string% ",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=136",
+    "created_at": "2017-09-26T17:05:37.280997Z",
+    "updated_at": "2017-09-26T17:05:37.281015Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the name of an ID based Bossbar."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_137": {
     "id": 137,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Value/Progress of Bossbar",
+    "description": "Get the value of an ID based Bossbar.",
+    "syntax_pattern": "(value|progress) of bossbar %string% ",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=137",
+    "created_at": "2017-09-26T17:05:37.283133Z",
+    "updated_at": "2017-09-26T17:05:37.283151Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the value of an ID based Bossbar."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_138": {
     "id": 138,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Bossbar Color",
+    "description": "A data type to call the colors for the new 1.9 bossbars.",
+    "syntax_pattern": "BossBarColor",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": "blue, green, pink, purple, red, white or yellow",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=138",
+    "created_at": "2017-09-26T17:05:44.501652Z",
+    "updated_at": "2017-09-26T17:05:44.501677Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A data type to call the colors for the new 1.9 bossbars."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_139": {
     "id": 139,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Bossbar Flag",
+    "description": "Bar Flags to support the new 1.9 bossbars. ",
+    "syntax_pattern": "BossBarFlag",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": "create fog, darken sky or play boss music",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=139",
+    "created_at": "2017-09-26T17:05:44.504804Z",
+    "updated_at": "2017-09-26T17:05:44.504825Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Bar Flags to support the new 1.9 bossbars."
+        "Bar Flags to support the new 1.9 bossbars. "
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_140": {
     "id": 140,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Bossbar Style",
+    "description": "Bossbar styles to support the new 1.9 BossBar.",
+    "syntax_pattern": "BossBarStyle",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": "segmented 10, segmented 12, segmented 20, segmented 6 and solid",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=140",
+    "created_at": "2017-09-26T17:05:44.507262Z",
+    "updated_at": "2017-09-26T17:05:44.507280Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Bossbar styles to support the new 1.9 BossBar."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_116": {
     "id": 116,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Absolute Amount of Items",
+    "description": "Get the number of items in a player’s inventory that are an absolute match to a sample item. To match they must have the same enchants, name and lore.",
+    "syntax_pattern": "(absolute|complex|abs) number of %itemstack% in %player%['s] (inventory|inv)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=116",
+    "created_at": "2017-09-26T17:05:37.188707Z",
+    "updated_at": "2017-11-28T19:53:30.856701Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get the number of items in a player’s inventory that are an absolute match to a sample item. To match they must have the same enchants, name and lore."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_135": {
     "id": 135,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Single ID Score Value",
+    "description": "These expressions will get either the name or value of a ID based score.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19).",
+    "syntax_pattern": "score (name|title) (of|from) id %string%\r\nscore (value|number) (of|from) id %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=135",
+    "created_at": "2017-09-26T17:05:37.278854Z",
+    "updated_at": "2022-03-21T08:25:19.783269Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "These expressions will get either the name or value of a ID based score.",
-        "For more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
+        "These expressions will get either the name or value of a ID based score.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_112": {
     "id": 112,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Citizen is",
+    "description": "Checks if a citizen has a certain ID.",
+    "syntax_pattern": "(NPC|Citizen) is %number%\r\n(NPC|Citizen) is %number%\r\n%entity% is [a] (npc|citizen)\r\n%entity% is (citizen|npc) %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=112",
+    "created_at": "2017-09-26T17:05:30.783843Z",
+    "updated_at": "2017-09-26T17:41:45.286904Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a citizen has a certain ID."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_123": {
     "id": 123,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "General Citizen",
+    "description": "Empty",
+    "syntax_pattern": "citizen %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=123",
+    "created_at": "2017-09-26T17:05:37.232243Z",
+    "updated_at": "2017-09-30T00:20:46.801601Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Empty"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_57": {
     "id": 57,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Edit Object Based Holograms",
+    "description": "Edit object based holograms. The first string is the id of the hologram to be changed and the second string is the new content of the hologram. By default the interactivity is false.",
+    "syntax_pattern": "edit holo object %string% to %string%  [and set interactivity to %boolean%]\r\nedit holo object %string% [with] line [number] %number% to %string% [and set interactivity to %boolean%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Holographic Displays",
+        "link": "https://dev.bukkit.org/projects/holographic-displays"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=57",
+    "created_at": "2017-09-26T17:04:58.689523Z",
+    "updated_at": "2017-09-28T17:16:34.403268Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Edit object based holograms. The first string is the id of the hologram to be changed and the second string is the new content of the hologram. By default the interactivity is false."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_46": {
     "id": 46,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Create Static Object Based Holograms",
+    "description": "Create non moving object based holograms! Use the interactive versions if you want to take advantage of the touch and pickup events!\r\n\r\nClient side holograms are also possible with the second syntax but will also require protocollib.",
+    "syntax_pattern": "create holo object %string% with id  %string% at %location%\r\ncreate client side holo object %string% with id %string% at %location% to %player%\r\ncreate interactive holo object %string% with id %string% at %location%\r\ncreate interactive client side holo object %string% with id %string% at %location% to %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Protocollib",
+        "link": "https://www.spigotmc.org/resources/protocollib.1997/"
+      },
+      {
+        "name": "Holographic Displays",
+        "link": "https://dev.bukkit.org/projects/holographic-displays"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=46",
+    "created_at": "2017-09-26T17:04:58.618690Z",
+    "updated_at": "2017-09-28T17:18:07.113892Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Create non moving object based holograms! Use the interactive versions if you want to take advantage of the touch and pickup events!",
-        "Client side holograms are also possible with the second syntax but will also require protocollib."
+        "Create non moving object based holograms! Use the interactive versions if you want to take advantage of the touch and pickup events!\r\n\r\nClient side holograms are also possible with the second syntax but will also require protocollib."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_43": {
     "id": 43,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Create Hologram",
+    "description": "[NOTE] Client-side holograms require ProtocolLib\r\n\r\nSet hologram by:\r\n* Text\r\n* Lines\r\n* Floating Item\r\n* Timespan\r\n* Location\r\n* Clientside\r\n\r\nCreate floating text at a location",
+    "syntax_pattern": "create hologram %string% at %location% for %timespan%\r\ndisplay hologram %string% at %location% to %player% for %timespan%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Holographic Displays",
+        "link": "https://dev.bukkit.org/projects/holographic-displays"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=43",
+    "created_at": "2017-09-26T17:04:58.606858Z",
+    "updated_at": "2017-09-28T17:18:34.196781Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[NOTE] Client-side holograms require ProtocolLib",
-        "Set hologram by:",
-        "* Text",
-        "* Lines",
-        "* Floating Item",
-        "* Timespan",
-        "* Location",
-        "* Clientside",
-        "Create floating text at a location"
+        "[NOTE] Client-side holograms require ProtocolLib\r\n\r\nSet hologram by:\r\n* Text\r\n* Lines\r\n* Floating Item\r\n* Timespan\r\n* Location\r\n* Clientside\r\n\r\nCreate floating text at a location"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_100": {
     "id": 100,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On Citizen Clicking",
+    "description": "Called when citizen is:\r\n* Left clicked\r\n* Right clicked\r\n\r\nThis will be called when a player clicks on an NPC. Using event-number will return the ID of the citizen that is clicked",
+    "syntax_pattern": "[on] (NPC|Citizen) (right|left) click",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-number",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=100",
+    "created_at": "2017-09-26T17:05:22.084212Z",
+    "updated_at": "2017-10-20T19:28:49.368819Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when citizen is:",
-        "* Left clicked",
-        "* Right clicked",
-        "This will be called when a player clicks on an NPC. Using event-number will return the ID of the citizen that is clicked"
+        "Called when citizen is:\r\n* Left clicked\r\n* Right clicked\r\n\r\nThis will be called when a player clicks on an NPC. Using event-number will return the ID of the citizen that is clicked"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_119": {
     "id": 119,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Bottom right building schematic",
+    "description": "Check schematic by:\r\n* Location\r\n* Citizen\r\n* Bottom right\r\n\r\nThis will return the bottom right of the last built schematic",
+    "syntax_pattern": "for builder %number% get the location of the bottom right of schematic centered at %location%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "Builder",
+        "link": "http://ci.citizensnpcs.co/job/Builder/"
+      },
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=119",
+    "created_at": "2017-09-26T17:05:37.202109Z",
+    "updated_at": "2017-10-29T19:21:18.567080Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Check schematic by:",
-        "* Location",
-        "* Citizen",
-        "* Bottom right",
-        "This will return the bottom right of the last built schematic"
+        "Check schematic by:\r\n* Location\r\n* Citizen\r\n* Bottom right\r\n\r\nThis will return the bottom right of the last built schematic"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_33": {
     "id": 33,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Citizen Build",
+    "description": "Build by:\r\n* Schematic\r\n* Player\r\n* Location\r\n* Citizen ID\r\n\r\nThis will have an NPC build a schematic that is located in plugins/Builder/schematics",
+    "syntax_pattern": "make citizen %number% build %string% at %location% [speed %number%] for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "Builder",
+        "link": "http://ci.citizensnpcs.co/job/Builder/"
+      },
+      {
+        "name": "Citizens",
+        "link": "https://dev.bukkit.org/projects/citizens"
+      }
+    ],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=33",
+    "created_at": "2017-09-26T17:04:58.538595Z",
+    "updated_at": "2017-10-29T19:21:26.736567Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Build by:",
-        "* Schematic",
-        "* Player",
-        "* Location",
-        "* Citizen ID",
-        "This will have an NPC build a schematic that is located in plugins/Builder/schematics"
+        "Build by:\r\n* Schematic\r\n* Player\r\n* Location\r\n* Citizen ID\r\n\r\nThis will have an NPC build a schematic that is located in plugins/Builder/schematics"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_115": {
     "id": 115,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Sidebar Is Set",
+    "description": "Check if sidebar:\n* Is set\n* For player\n\nThis will check if a sidebar is being displayed to a player.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19).",
+    "syntax_pattern": "side bar is set for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=115",
+    "created_at": "2017-09-26T17:05:30.808835Z",
+    "updated_at": "2022-03-21T08:23:29.596439Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Check if sidebar:",
-        "* Is set",
-        "* For player",
-        "This will check if a sidebar is being displayed to a player.",
-        "For more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
+        "Check if sidebar:\n* Is set\n* For player\n\nThis will check if a sidebar is being displayed to a player.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_131": {
     "id": 131,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Name/Title of Sidebar",
+    "description": "Get the name/title of a players side bar.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19).",
+    "syntax_pattern": "sidebar (title|name) for %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=131",
+    "created_at": "2017-09-26T17:05:37.269736Z",
+    "updated_at": "2022-03-21T08:23:41.895030Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Get the name/title of a players side bar.",
-        "For more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
+        "Get the name/title of a players side bar.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_85": {
     "id": 85,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Set Sidebar Name",
+    "description": "Change the sidebar name by:\n* Scoreboard\n* Name\n* Players\n\nThis will change the name of a player's sidebar. The sidebar of the player must have at least one score in order for it to show on the sidebar.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19).",
+    "syntax_pattern": "set name of sidebar of %player% to %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=85",
+    "created_at": "2017-09-26T17:04:58.825527Z",
+    "updated_at": "2022-03-21T08:24:09.248789Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Change the sidebar name by:",
-        "* Scoreboard",
-        "* Name",
-        "* Players",
-        "This will change the name of a player's sidebar. The sidebar of the player must have at least one score in order for it to show on the sidebar.",
-        "For more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
+        "Change the sidebar name by:\n* Scoreboard\n* Name\n* Players\n\nThis will change the name of a player's sidebar. The sidebar of the player must have at least one score in order for it to show on the sidebar.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_86": {
     "id": 86,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Set Sidebar Score",
+    "description": "Set score of a sidebar by:\n* Scoreboard\n* Name\n* Value\n* Player\n\nThis will change the score of a score in a player's sidebar or create a new score if it does not exist.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19).",
+    "syntax_pattern": "set score %string% in sidebar of %player% to %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=86",
+    "created_at": "2017-09-26T17:04:58.828068Z",
+    "updated_at": "2022-03-21T08:24:25.608135Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Set score of a sidebar by:",
-        "* Scoreboard",
-        "* Name",
-        "* Value",
-        "* Player",
-        "This will change the score of a score in a player's sidebar or create a new score if it does not exist.",
-        "For more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
+        "Set score of a sidebar by:\n* Scoreboard\n* Name\n* Value\n* Player\n\nThis will change the score of a score in a player's sidebar or create a new score if it does not exist.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_53": {
     "id": 53,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Delete Sidebar Score",
+    "description": "Delete a sidebar score by:\n* Name\n* Player\n\nThis will delete a specified score from a specified player.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19).",
+    "syntax_pattern": "delete score %string% in sidebar of %player%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=53",
+    "created_at": "2017-09-26T17:04:58.673374Z",
+    "updated_at": "2022-03-21T08:24:45.482882Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Delete a sidebar score by:",
-        "* Name",
-        "* Player",
-        "This will delete a specified score from a specified player.",
-        "For more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
+        "Delete a sidebar score by:\n* Name\n* Player\n\nThis will delete a specified score from a specified player.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_125": {
     "id": 125,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Group Score Value",
+    "description": "These expressions will get either the name or value of a group based score.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19).",
+    "syntax_pattern": "group score (name|title) (of|from) id %string%\r\ngroup score (value|number) (of|from) id %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=125",
+    "created_at": "2017-09-26T17:05:37.242911Z",
+    "updated_at": "2022-03-21T08:25:41.262133Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "These expressions will get either the name or value of a group based score.",
-        "For more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
+        "These expressions will get either the name or value of a group based score.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_48": {
     "id": 48,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Delete Group Score",
+    "description": "Deletes a group score.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19).",
+    "syntax_pattern": "(delete|remove) score[s] [with] group id %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=48",
+    "created_at": "2017-09-26T17:04:58.636456Z",
+    "updated_at": "2022-03-21T08:25:58.632240Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Deletes a group score.",
-        "For more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
+        "Deletes a group score.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_56": {
     "id": 56,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Edit ID based score",
+    "description": "Edit an ID based score.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19).",
+    "syntax_pattern": "(edit|update) score [with] id %string% to %string% and %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=56",
+    "created_at": "2017-09-26T17:04:58.686441Z",
+    "updated_at": "2022-03-21T08:26:50.728107Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Edit an ID based score.",
-        "For more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
+        "Edit an ID based score.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_42": {
     "id": 42,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Create Group Based Score",
+    "description": "Create a group ID based score and assign it to a player or multiple players.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19).",
+    "syntax_pattern": "(set|create) group id [based] score %string% in sidebar for %player% to %number% with id %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=42",
+    "created_at": "2017-09-26T17:04:58.604488Z",
+    "updated_at": "2022-03-21T08:27:23.602116Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Create a group ID based score and assign it to a player or multiple players.",
-        "For more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
+        "Create a group ID based score and assign it to a player or multiple players.\n\nFor more details on how to use the skRayFall Scoreboard/Sidebar system, a tutorial can be found [here](https://skripthub.net/tutorials/19)."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_106": {
     "id": 106,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "On Crafting Click",
+    "description": "Called when:\r\n* 1st slot of player crafting inventory is clicked\r\n* 2nd slot of player crafting inventory is clicked\r\n* 3rd slot of player crafting inventory is clicked\r\n* 4th slot of player crafting inventory is clicked\r\n* Result slot of player crafting inventory is clicked\r\n\r\nThis is called when a player clicks a slot in the players inventory crafting slot. 0 = Top left, 1 = Top Right, 2 = Bottom left, 3 = Bottom right, 4 = result slot",
+    "syntax_pattern": "[on] crafting click in slot <0-4>",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=106",
+    "created_at": "2017-09-26T17:05:22.145250Z",
+    "updated_at": "2018-05-19T03:56:57.726759Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when:",
-        "* 1st slot of player crafting inventory is clicked",
-        "* 2nd slot of player crafting inventory is clicked",
-        "* 3rd slot of player crafting inventory is clicked",
-        "* 4th slot of player crafting inventory is clicked",
-        "* Result slot of player crafting inventory is clicked",
-        "This is called when a player clicks a slot in the players inventory crafting slot. 0 = Top left, 1 = Top Right, 2 = Bottom left, 3 = Bottom right, 4 = result slot"
+        "Called when:\r\n* 1st slot of player crafting inventory is clicked\r\n* 2nd slot of player crafting inventory is clicked\r\n* 3rd slot of player crafting inventory is clicked\r\n* 4th slot of player crafting inventory is clicked\r\n* Result slot of player crafting inventory is clicked\r\n\r\nThis is called when a player clicks a slot in the players inventory crafting slot. 0 = Top left, 1 = Top Right, 2 = Bottom left, 3 = Bottom right, 4 = result slot"
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_45": {
     "id": 45,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Create Particles",
+    "description": "This has been deprecated, please use Skript's built in particle system.\n\nskRayFall's new particle system powered by EffectLib. Color's and ItemStacks can only be assigned to certain EffectLibParticle types. Please see [this](https://gist.github.com/eyesniper2/07f5c0955af05c0782ad) list for the details of which effects are supported.",
+    "syntax_pattern": "(create|display|show) %number% [of] %EffectLibParticle% particle[s] at %location% [(with data of %itemstack%|with color %number%, %number%(,| and) %number%)] [offset by %number%, %number%(,| and) %number%] [(with|at) speed %number%]\r\n(create|display|show) %number% [of] %EffectLibParticle% particle[s] at %location% for %player% [with data of %itemstack%] [offset by %number%, %number%(,| and) %number%] [(with|at) speed %number%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=45",
+    "created_at": "2017-09-26T17:04:58.616191Z",
+    "updated_at": "2026-01-27T09:13:59.170665Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "This has been deprecated, please use Skript's built in particle system.",
-        "skRayFall's new particle system powered by EffectLib. Color's and ItemStacks can only be assigned to certain EffectLibParticle types. Please see [this](https://gist.github.com/eyesniper2/07f5c0955af05c0782ad) list for the details of which effects are supported."
+        "This has been deprecated, please use Skript's built in particle system.\n\nskRayFall's new particle system powered by EffectLib. Color's and ItemStacks can only be assigned to certain EffectLibParticle types. Please see [this](https://gist.github.com/eyesniper2/07f5c0955af05c0782ad) list for the details of which effects are supported."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_61": {
     "id": 61,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Line Effect",
+    "description": "Creates a EffectLib line effect.",
+    "syntax_pattern": "(spawn|create|apply) (a|the|an) line (effect|formation) from %entity/location% to %entity/location% with id %string% [with particle[s] %particles%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=61",
+    "created_at": "2017-09-26T17:04:58.708116Z",
+    "updated_at": "2026-01-27T09:08:57.516648Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a EffectLib line effect."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_96": {
     "id": 96,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Wave Effect",
+    "description": "Creates an EffectLib wave effect.",
+    "syntax_pattern": "(spawn|create|apply) (a|the|an) wave (effect|formation) at %entity/location% with id %string% [with particle[s] %particles%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=96",
+    "created_at": "2017-09-26T17:04:58.856979Z",
+    "updated_at": "2026-01-27T09:09:04.552683Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates an EffectLib wave effect."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_32": {
     "id": 32,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Circle Effect",
+    "description": "Creates an EffectLib circle effect.",
+    "syntax_pattern": "(spawn|create|apply) (a|the|an) circle (effect|formation) (at|on|for) %entity/location% with id %string% [with particle[s] %particles%] [(and|with) radius %number%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=32",
+    "created_at": "2017-09-26T17:04:58.536291Z",
+    "updated_at": "2026-01-27T09:09:26.083692Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates an EffectLib circle effect."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_93": {
     "id": 93,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "eyesniper2",
+    "title": "Tornado Effect",
+    "description": "Creates an EffectLib tornado effect.",
+    "syntax_pattern": "(spawn|create|apply) (a|the|an) tornado (effect|formation) at %entity/location% with id %string% [with tornado particle[s] %particles% and cloud particle[s] %particles%] [(set|and) radius %number%] [(set|and) max height %number%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skRayFall",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=93",
+    "created_at": "2017-09-26T17:04:58.849948Z",
+    "updated_at": "2026-01-27T09:09:47.138092Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates an EffectLib tornado effect."
       ],
       "ko": [
-        "[skRayFall] 한국어 가이드팩 준비 중"
+        "[SKRAYFALL] 한국어 가이드 번역 대기 중"
       ]
     }
   }

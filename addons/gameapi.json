@@ -1,967 +1,2140 @@
 {
   "syntax_3270": {
     "id": 3270,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Player Score Point Event",
+    "description": "",
+    "syntax_pattern": "[on] player (win|score) [a] point[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-game, event-integer, event-team",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3270",
+    "created_at": "2019-01-05T03:09:15.695428Z",
+    "updated_at": "2019-05-21T21:30:25.680302Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[GameAPI] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3271": {
     "id": 3271,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Team Created Event",
+    "description": "",
+    "syntax_pattern": "[on] team created",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-game, event-team",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3271",
+    "created_at": "2019-01-05T03:09:15.703138Z",
+    "updated_at": "2019-05-21T21:30:25.686754Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[GameAPI] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3273": {
     "id": 3273,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Team Lose Point Event",
+    "description": "",
+    "syntax_pattern": "[on] team lose [a] point[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-game, event-integer, event-team",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3273",
+    "created_at": "2019-01-05T03:09:15.719610Z",
+    "updated_at": "2019-05-21T21:30:25.699282Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[GameAPI] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3272": {
     "id": 3272,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Team Deleted Event",
+    "description": "",
+    "syntax_pattern": "[on] team deleted",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-game, event-team",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3272",
+    "created_at": "2019-01-05T03:09:15.711161Z",
+    "updated_at": "2019-05-21T21:30:25.692966Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[GameAPI] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3262": {
     "id": 3262,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Game Deleted Event",
+    "description": "",
+    "syntax_pattern": "[on] [mini[(-| )]]game delete[d]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-game",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3262",
+    "created_at": "2019-01-05T03:09:15.631092Z",
+    "updated_at": "2019-05-21T21:30:25.620814Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[GameAPI] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3263": {
     "id": 3263,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Game Ready Event",
+    "description": "",
+    "syntax_pattern": "[on] [mini[(-| )]]game ready [to start]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-game",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3263",
+    "created_at": "2019-01-05T03:09:15.639655Z",
+    "updated_at": "2019-05-21T21:30:25.629575Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[GameAPI] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3264": {
     "id": 3264,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Game Stopped Event",
+    "description": "",
+    "syntax_pattern": "[on] [mini[(-| )]]game stop[ped]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-game",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3264",
+    "created_at": "2019-01-05T03:09:15.648212Z",
+    "updated_at": "2019-05-21T21:30:25.642676Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[GameAPI] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3261": {
     "id": 3261,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Game Created Event",
+    "description": "",
+    "syntax_pattern": "[on] [mini[(-| )]]game create[d]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-game",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3261",
+    "created_at": "2019-01-05T03:09:15.622252Z",
+    "updated_at": "2019-05-21T21:30:25.614173Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[GameAPI] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3266": {
     "id": 3266,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Player Join Team Event",
+    "description": "",
+    "syntax_pattern": "[on] player join [a] team",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-game, event-team",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3266",
+    "created_at": "2019-01-05T03:09:15.664659Z",
+    "updated_at": "2019-05-21T21:30:25.655020Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[GameAPI] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3260": {
     "id": 3260,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Game Can Start Event",
+    "description": "",
+    "syntax_pattern": "[on] [mini[(-| )]]game can start",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-game",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3260",
+    "created_at": "2019-01-05T03:09:15.611472Z",
+    "updated_at": "2019-05-21T21:30:25.586304Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[GameAPI] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3268": {
     "id": 3268,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Player Leave Team Event",
+    "description": "",
+    "syntax_pattern": "[on] player leave [a] team",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-game, event-team",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3268",
+    "created_at": "2019-01-05T03:09:15.679640Z",
+    "updated_at": "2019-05-21T21:30:25.667461Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[GameAPI] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3269": {
     "id": 3269,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Player Lose Point Event",
+    "description": "",
+    "syntax_pattern": "[on] player lose [a] point[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-game, event-integer, event-team",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3269",
+    "created_at": "2019-01-05T03:09:15.687454Z",
+    "updated_at": "2019-05-21T21:30:25.673759Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[GameAPI] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3267": {
     "id": 3267,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Player Leave Game Event",
+    "description": "",
+    "syntax_pattern": "[on] player leave [a] [mini[(-| )]]game",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-game",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3267",
+    "created_at": "2019-01-05T03:09:15.672018Z",
+    "updated_at": "2019-05-21T21:30:25.661205Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[GameAPI] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3274": {
     "id": 3274,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Team Score Point Event",
+    "description": "",
+    "syntax_pattern": "[on] team (win|score) [a] point[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-game, event-integer, event-team",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3274",
+    "created_at": "2019-01-05T03:09:15.728176Z",
+    "updated_at": "2019-05-21T21:30:25.705529Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[GameAPI] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3318": {
     "id": 3318,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Game Started Event",
+    "description": "",
+    "syntax_pattern": "[on] [mini[(-| )]]game start[ed]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-game",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3318",
+    "created_at": "2019-01-05T03:40:46.484563Z",
+    "updated_at": "2019-05-21T21:30:25.636219Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[GameAPI] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3265": {
     "id": 3265,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "On Player Join Game Event",
+    "description": "",
+    "syntax_pattern": "[on] player join [a] [mini[(-| )]]game",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-player, event-game",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3265",
+    "created_at": "2019-01-05T03:09:15.656638Z",
+    "updated_at": "2019-05-21T21:30:25.648864Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[GameAPI] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3281": {
     "id": 3281,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Delete Game",
+    "description": "Delete a game.",
+    "syntax_pattern": "delete %game%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3281",
+    "created_at": "2019-01-05T03:09:15.784143Z",
+    "updated_at": "2019-05-21T21:30:25.756361Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Delete a game."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3282": {
     "id": 3282,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "EffDeleteTeam",
+    "description": "",
+    "syntax_pattern": "delete %team%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3282",
+    "created_at": "2019-01-05T03:09:15.791392Z",
+    "updated_at": "2019-05-21T21:30:25.762306Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[GameAPI] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3283": {
     "id": 3283,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Start Game",
+    "description": "Start a game.",
+    "syntax_pattern": "start %game%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3283",
+    "created_at": "2019-01-05T03:09:15.799032Z",
+    "updated_at": "2019-05-21T21:30:25.768429Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Start a game."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3284": {
     "id": 3284,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Stop Game",
+    "description": "Stop a game.",
+    "syntax_pattern": "stop %game%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3284",
+    "created_at": "2019-01-05T03:09:15.806273Z",
+    "updated_at": "2019-05-21T21:30:25.774531Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Stop a game."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3285": {
     "id": 3285,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "All Games",
+    "description": "Return all games created.",
+    "syntax_pattern": "all [minis(-| )]games",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Game",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3285",
+    "created_at": "2019-01-05T03:09:15.814319Z",
+    "updated_at": "2019-05-21T21:30:25.780690Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return all games created."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3286": {
     "id": 3286,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Display name of team/game",
+    "description": "Returns the display name of a team or game. Can be set.",
+    "syntax_pattern": "[the] [the] display name of %object%\n%object%'[s] [the] display name",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3286",
+    "created_at": "2019-01-05T03:09:15.822514Z",
+    "updated_at": "2019-05-21T21:30:25.793903Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the display name of a team or game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3287": {
     "id": 3287,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Game Expression",
+    "description": "Return a game from its name (the game must to exist)",
+    "syntax_pattern": "[the] [mini[(-| )]]game [%string%]",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Game",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3287",
+    "created_at": "2019-01-05T03:09:15.830535Z",
+    "updated_at": "2019-05-21T21:30:25.806601Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return a game from its name (the game must to exist)"
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3289": {
     "id": 3289,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Global Join Message of game",
+    "description": "Returns the global join message of a game. Can be set.",
+    "syntax_pattern": "[the] [the] global (enter|join) message of %game%\n%game%'[s] [the] global (enter|join) message",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3289",
+    "created_at": "2019-01-05T03:09:15.846109Z",
+    "updated_at": "2019-05-21T21:30:25.818760Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the global join message of a game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3290": {
     "id": 3290,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Global LeaveMessage of game",
+    "description": "Returns the global leave message of a game. Can be set.",
+    "syntax_pattern": "[the] [the] global (exit|leave) message of %game%\n%game%'[s] [the] global (exit|leave) message",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3290",
+    "created_at": "2019-01-05T03:09:15.854328Z",
+    "updated_at": "2019-05-21T21:30:25.824943Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the global leave message of a game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3288": {
     "id": 3288,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Game of Player",
+    "description": "Return the game of the player",
+    "syntax_pattern": "[the] [the] [mini[(-| )]]game of %player%\n%player%'[s] [the] [mini[(-| )]]game",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Game",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3288",
+    "created_at": "2019-01-05T03:09:15.838438Z",
+    "updated_at": "2019-01-06T12:35:51.533009Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the game of the player"
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3291": {
     "id": 3291,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Global Lose Point Message of game",
+    "description": "Returns the global lose point message of a game. Can be set.",
+    "syntax_pattern": "[the] [the] global lose point[s] message of %team%\n%team%'[s] [the] global lose point[s] message",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3291",
+    "created_at": "2019-01-05T03:09:15.862362Z",
+    "updated_at": "2019-05-21T21:30:25.830939Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the global lose point message of a game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3293": {
     "id": 3293,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Last game created",
+    "description": "Returns the last game created.",
+    "syntax_pattern": "[the] last [mini(-| )]game created",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Game",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3293",
+    "created_at": "2019-01-05T03:09:15.879170Z",
+    "updated_at": "2019-05-21T21:30:25.842879Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the last game created."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3292": {
     "id": 3292,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Global Score Point Message of game",
+    "description": "Returns the global score point message of a game. Can be set.",
+    "syntax_pattern": "[the] [the] global (score|win) [point[s]] message of %game%\n%game%'[s] [the] global (score|win) [point[s]] message",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3292",
+    "created_at": "2019-01-05T03:09:15.871129Z",
+    "updated_at": "2019-04-10T00:21:02.986183Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the global score point message of a game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3294": {
     "id": 3294,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Last game deleted",
+    "description": "Returns the last game deleted.",
+    "syntax_pattern": "[the] last [mini(-| )]game deleted",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Game",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3294",
+    "created_at": "2019-01-05T03:09:15.887067Z",
+    "updated_at": "2019-05-21T21:30:25.849038Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the last game deleted."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3295": {
     "id": 3295,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Last team created",
+    "description": "Returns the last team created.",
+    "syntax_pattern": "[the] last team created",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "team",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3295",
+    "created_at": "2019-01-05T03:09:15.895087Z",
+    "updated_at": "2019-05-21T21:30:25.855058Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the last team created."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3296": {
     "id": 3296,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Last team deleted",
+    "description": "Returns the last team deleted.",
+    "syntax_pattern": "[the] last team deleted",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "team",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3296",
+    "created_at": "2019-01-05T03:09:15.904260Z",
+    "updated_at": "2019-05-21T21:30:25.861362Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the last team deleted."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3297": {
     "id": 3297,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Lobby of game",
+    "description": "Returns lobby of a game. Can be set.",
+    "syntax_pattern": "[the] [the] lobby of %game%\n%game%'[s] [the] lobby",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3297",
+    "created_at": "2019-01-05T03:09:15.911749Z",
+    "updated_at": "2019-05-21T21:30:25.867380Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns lobby of a game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3298": {
     "id": 3298,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Maximum player of team/game",
+    "description": "Returns the maximum player of a team or game. Can be set.",
+    "syntax_pattern": "[the] [the] max[imum] player[s] [count] of %object%\n%object%'[s] [the] max[imum] player[s] [count]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3298",
+    "created_at": "2019-01-05T03:09:15.919700Z",
+    "updated_at": "2019-05-21T21:30:25.873596Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the maximum player of a team or game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3299": {
     "id": 3299,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Minimum player of team/game",
+    "description": "Returns the minimum player of a team or game. Can be set.",
+    "syntax_pattern": "[the] [the] min[imum] player[s] [count] of %object%\n%object%'[s] [the] min[imum] player[s] [count]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3299",
+    "created_at": "2019-01-05T03:09:15.927478Z",
+    "updated_at": "2019-05-21T21:30:25.879631Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the minimum player of a team or game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3300": {
     "id": 3300,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Name of team/game",
+    "description": "Returns the name of a team or game. Can be set.",
+    "syntax_pattern": "[the] [the] (game|team) name of %object%\n%object%'[s] [the] (game|team) name",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3300",
+    "created_at": "2019-01-05T03:09:15.937102Z",
+    "updated_at": "2019-05-21T21:30:25.885879Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the name of a team or game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3301": {
     "id": 3301,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Player Join Message of game",
+    "description": "Returns the player join message of a game. Can be set.",
+    "syntax_pattern": "[the] [the] player (enter|join) message of %game%\n%game%'[s] [the] player (enter|join) message",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3301",
+    "created_at": "2019-01-05T03:09:15.945614Z",
+    "updated_at": "2019-05-21T21:30:25.897818Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the player join message of a game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3302": {
     "id": 3302,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Player Leave Message of game",
+    "description": "Returns the player leave message of a game. Can be set.",
+    "syntax_pattern": "[the] [the] player (exit|leave) message of %game%\n%game%'[s] [the] player (exit|leave) message",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3302",
+    "created_at": "2019-01-05T03:09:15.954234Z",
+    "updated_at": "2019-05-21T21:30:25.903812Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the player leave message of a game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3305": {
     "id": 3305,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Players list of team/game",
+    "description": "Returns the players list of a team or game. Can be set.",
+    "syntax_pattern": "[the] players (of|in|from) (%team%|%game%)\n[the] (%team%|%game%)'s players",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3305",
+    "created_at": "2019-01-05T03:09:15.978184Z",
+    "updated_at": "2019-05-21T21:30:25.924099Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the players list of a team or game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3304": {
     "id": 3304,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Player Score Point Message of game",
+    "description": "Returns the player score point message of a game. Can be set.",
+    "syntax_pattern": "[the] [the] player (score|win) [point[s]] message of %game%\n%game%'[s] [the] player (score|win) [point[s]] message",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3304",
+    "created_at": "2019-01-05T03:09:15.970513Z",
+    "updated_at": "2019-04-10T00:21:03.081241Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the player score point message of a game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3307": {
     "id": 3307,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Random Team",
+    "description": "Return a random team from a game",
+    "syntax_pattern": "[the] random team of %game%\n%game%'[s] random team",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "team",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3307",
+    "created_at": "2019-01-05T03:09:15.993074Z",
+    "updated_at": "2019-05-21T21:30:25.936217Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return a random team from a game"
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3308": {
     "id": 3308,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Spawn of team/game",
+    "description": "Returns spawn of a team or game. Can be set.",
+    "syntax_pattern": "[the] [the] [game] spawn of %object%\n%object%'[s] [the] [game] spawn",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3308",
+    "created_at": "2019-01-05T03:09:16.000761Z",
+    "updated_at": "2019-05-21T21:30:25.948244Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns spawn of a team or game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3306": {
     "id": 3306,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Points of team",
+    "description": "Returns points of a team. Can be set.",
+    "syntax_pattern": "%integer% point[s] [from %player%]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Points",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3306",
+    "created_at": "2019-01-05T03:09:15.985723Z",
+    "updated_at": "2019-01-06T12:35:51.667676Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns points of a team. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3309": {
     "id": 3309,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Started State of game",
+    "description": "Returns the started state of a game. Can be set.",
+    "syntax_pattern": "[the] [the] started state of %game%\n%game%'[s] [the] started state",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3309",
+    "created_at": "2019-01-05T03:09:16.010039Z",
+    "updated_at": "2019-04-10T00:21:03.129849Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the started state of a game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3275": {
     "id": 3275,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Game exists?",
+    "description": "Check if a game exists",
+    "syntax_pattern": "[mini[(-| )]]game %string% exists\n[mini[(-| )]]game %string% does(n't| not) exist",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3275",
+    "created_at": "2019-01-05T03:09:15.737959Z",
+    "updated_at": "2019-05-21T21:30:25.712202Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if a game exists"
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3276": {
     "id": 3276,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Start Game",
+    "description": "Start a game.",
+    "syntax_pattern": "start %game%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3276",
+    "created_at": "2019-01-05T03:09:15.745290Z",
+    "updated_at": "2019-05-21T21:30:25.718568Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Start a game."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3277": {
     "id": 3277,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Stop Game as section",
+    "description": "Stop a game as section.",
+    "syntax_pattern": "stop %game%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3277",
+    "created_at": "2019-01-05T03:09:15.752642Z",
+    "updated_at": "2019-05-21T21:30:25.724442Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Stop a game as section."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3278": {
     "id": 3278,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Team contains player?",
+    "description": "Check if a team contains a player",
+    "syntax_pattern": "%team% contains %player%\n%player% is in %team%\n%team% does('t| not) contain %player%\n%player% is(n't| not) in %team%",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3278",
+    "created_at": "2019-01-05T03:09:15.760639Z",
+    "updated_at": "2019-05-21T21:30:25.730669Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Check if a team contains a player"
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3279": {
     "id": 3279,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Create Game",
+    "description": "Create a game.",
+    "syntax_pattern": "create [(the|a)] [mini[(-| )]]game %string%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3279",
+    "created_at": "2019-01-05T03:09:15.768058Z",
+    "updated_at": "2019-05-21T21:30:25.743865Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create a game."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3280": {
     "id": 3280,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Create Team for game",
+    "description": "Create a team for a game",
+    "syntax_pattern": "create [(the|a)] team %string% (for|of|from|in) %game%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3280",
+    "created_at": "2019-01-05T03:09:15.775229Z",
+    "updated_at": "2019-05-21T21:30:25.750146Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create a team for a game"
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3312": {
     "id": 3312,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Unavailable State of game",
+    "description": "Returns the unavailable state of a game. Can be set.",
+    "syntax_pattern": "[the] [the] unavailable state of %game%\n%game%'[s] [the] unavailable state",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3312",
+    "created_at": "2019-01-05T03:09:16.034243Z",
+    "updated_at": "2019-04-10T00:21:03.164007Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the unavailable state of a game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3313": {
     "id": 3313,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Waiting State of game",
+    "description": "Returns the waiting state of a game. Can be set.",
+    "syntax_pattern": "[the] [the] waiting state of %game%\n%game%'[s] [the] waiting state",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3313",
+    "created_at": "2019-01-05T03:09:16.042187Z",
+    "updated_at": "2019-04-10T00:21:03.171976Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the waiting state of a game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3310": {
     "id": 3310,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Team from game",
+    "description": "Return a team of a game from its name",
+    "syntax_pattern": "[the] team %string% (of|from|for|in) %game%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "team",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3310",
+    "created_at": "2019-01-05T03:09:16.017344Z",
+    "updated_at": "2019-05-21T21:30:25.954370Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return a team of a game from its name"
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3311": {
     "id": 3311,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Team of Player",
+    "description": "Return the team of the player",
+    "syntax_pattern": "[the] team of %player%\n%player%'[s] team",
+    "compatible_addon_version": "1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "team",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3311",
+    "created_at": "2019-01-05T03:09:16.024976Z",
+    "updated_at": "2019-05-21T21:30:25.960624Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the team of the player"
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3314": {
     "id": 3314,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "World of game",
+    "description": "Returns world of a game. Can be set.",
+    "syntax_pattern": "[the] [the] world of %game%\n%game%'[s] [the] world",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "World",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3314",
+    "created_at": "2019-01-05T03:09:16.050914Z",
+    "updated_at": "2019-05-21T21:30:25.972652Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns world of a game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3315": {
     "id": 3315,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Game",
+    "description": "The current game",
+    "syntax_pattern": "[mini(-| ][)]game",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3315",
+    "created_at": "2019-01-05T03:09:16.058564Z",
+    "updated_at": "2019-05-21T21:30:25.978729Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The current game"
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3316": {
     "id": 3316,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Points",
+    "description": "A point type with information like the player, game, number of points and more.",
+    "syntax_pattern": "point[s]",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3316",
+    "created_at": "2019-01-05T03:09:16.066672Z",
+    "updated_at": "2019-05-21T21:30:25.984534Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A point type with information like the player, game, number of points and more."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3317": {
     "id": 3317,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "team",
+    "description": "The current team",
+    "syntax_pattern": "team",
+    "compatible_addon_version": "2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3317",
+    "created_at": "2019-01-05T03:09:16.076119Z",
+    "updated_at": "2019-05-21T21:30:25.990542Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The current team"
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3303": {
     "id": 3303,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Player Lose Point Message of game",
+    "description": "Returns the player lose point message of a game. Can be set.",
+    "syntax_pattern": "[the] [the] player lose point[s] message of %game%\n%game%'[s] [the] player lose point[s] message",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3303",
+    "created_at": "2019-01-05T03:09:15.962448Z",
+    "updated_at": "2019-05-21T21:30:25.911907Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the player lose point message of a game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3588": {
     "id": 3588,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Author of Points",
+    "description": "Returns the author of target points.",
+    "syntax_pattern": "[the] author of %point%\n%point%'[s] author",
+    "compatible_addon_version": "2.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3588",
+    "created_at": "2019-04-10T00:21:02.910544Z",
+    "updated_at": "2019-05-21T21:30:25.787123Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the author of target points."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3589": {
     "id": 3589,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "ExprPointsGetter",
+    "description": "",
+    "syntax_pattern": "[the] point[s] of %team%\n%team%'[s] point[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Points",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3589",
+    "created_at": "2019-04-10T00:21:02.930969Z",
+    "updated_at": "2019-05-21T21:30:25.800039Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[GameAPI] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3590": {
     "id": 3590,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Game of",
+    "description": "Returns the game of target points, player, or team.",
+    "syntax_pattern": "[the] [the] [mini[(-| )]]game of %object%\n%object%'[s] [the] [mini[(-| )]]game",
+    "compatible_addon_version": "2.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Game",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3590",
+    "created_at": "2019-04-10T00:21:02.952233Z",
+    "updated_at": "2019-05-21T21:30:25.812762Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the game of target points, player, or team."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3591": {
     "id": 3591,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Points of team",
+    "description": "Returns points of a team. Can be set.",
+    "syntax_pattern": "%integer% point[s] [(from|of) %player%]",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Points",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3591",
+    "created_at": "2019-04-10T00:21:03.095997Z",
+    "updated_at": "2019-05-21T21:30:25.930103Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns points of a team. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3592": {
     "id": 3592,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Raw Points",
+    "description": "Returns the number of points.",
+    "syntax_pattern": "raw %point%",
+    "compatible_addon_version": "2.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3592",
+    "created_at": "2019-04-10T00:21:03.110719Z",
+    "updated_at": "2019-05-21T21:30:25.942344Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the number of points."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3593": {
     "id": 3593,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Team of Points",
+    "description": "Returns the team of target points.",
+    "syntax_pattern": "[the] team of %point%\n%point%'[s] team",
+    "compatible_addon_version": "2.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "team",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3593",
+    "created_at": "2019-04-10T00:21:03.155622Z",
+    "updated_at": "2019-05-21T21:30:25.966675Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the team of target points."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3639": {
     "id": 3639,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Cancel Start Game",
+    "description": "Cancels the launch of a game.",
+    "syntax_pattern": "cancel [the] start of %game%\n%game%'s cancel start",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3639",
+    "created_at": "2019-05-21T21:30:25.737463Z",
+    "updated_at": "2019-05-21T21:30:25.737488Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Cancels the launch of a game."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3640": {
     "id": 3640,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Global Score Point Message of game",
+    "description": "Returns the global score point message of a game. Can be set.",
+    "syntax_pattern": "[the] [the] global (score|win) [point[s]] message of %game%\n%game%'[s] [the] global (score|win) [point[s]] message",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3640",
+    "created_at": "2019-05-21T21:30:25.837074Z",
+    "updated_at": "2019-05-21T21:30:25.837092Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the global score point message of a game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3641": {
     "id": 3641,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Objective of Team",
+    "description": "Return the objective of the team (how many point the team must to have to win). Can be set.",
+    "syntax_pattern": "[the] objective of %team%\n%team%'[s] objective",
+    "compatible_addon_version": "2.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3641",
+    "created_at": "2019-05-21T21:30:25.891904Z",
+    "updated_at": "2019-05-21T21:30:25.891923Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the objective of the team (how many point the team must to have to win). Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_3642": {
     "id": 3642,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Olyno",
+    "title": "Player Score Point Message of game",
+    "description": "Returns the player score point message of a game. Can be set.",
+    "syntax_pattern": "[the] [the] player (score|win) [point[s]] message of %game%\n%game%'[s] [the] player (score|win) [point[s]] message",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "GameAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=3642",
+    "created_at": "2019-05-21T21:30:25.918279Z",
+    "updated_at": "2019-05-21T21:30:25.918298Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the player score point message of a game. Can be set."
       ],
       "ko": [
-        "[GameAPI] 한국어 가이드팩 준비 중"
+        "[GAMEAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   }

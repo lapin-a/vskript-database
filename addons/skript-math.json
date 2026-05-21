@@ -1,286 +1,621 @@
 {
   "syntax_1572": {
     "id": 1572,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "Product",
+    "description": "Computes the pi-notation product of a given expression. For more details, read the [extended description](https://github.com/Syst3ms/Skuared/wiki/Computational-Effects])",
+    "syntax_pattern": "(product|pi) %string% from %number% to (%number%|infinity)",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1572",
+    "created_at": "2018-01-03T19:01:20.458205Z",
+    "updated_at": "2018-01-06T10:34:11.856352Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Computes the pi-notation product of a given expression. For more details, read the [extended description](https://github.com/Syst3ms/Skuared/wiki/Computational-Effects])"
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1569": {
     "id": 1569,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "Derivative",
+    "description": "Computes the derivative of a given expression. For more details, read the [extended description](https://github.com/Syst3ms/Skuared/wiki/Computational-Effects])",
+    "syntax_pattern": "((calculate|compute) derivative of|derivate) %string% [at x=%number%]\nd/dx(%string%) [where x=%number%]",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1569",
+    "created_at": "2018-01-03T19:01:20.426841Z",
+    "updated_at": "2018-01-06T10:34:11.817721Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Computes the derivative of a given expression. For more details, read the [extended description](https://github.com/Syst3ms/Skuared/wiki/Computational-Effects])"
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1570": {
     "id": 1570,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "Integral",
+    "description": "Computes the integral of a given expression. For more details, read the [extended description](https://github.com/Syst3ms/Skuared/wiki/Computational-Effects])",
+    "syntax_pattern": "((calculate|compute) integral of|integrate) %string% [from %number% to %number%]",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1570",
+    "created_at": "2018-01-03T19:01:20.435886Z",
+    "updated_at": "2018-01-06T10:34:11.837014Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Computes the integral of a given expression. For more details, read the [extended description](https://github.com/Syst3ms/Skuared/wiki/Computational-Effects])"
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1571": {
     "id": 1571,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "Limit",
+    "description": "Computes the limit of a given expression. For more details, read the [extended description](https://github.com/Syst3ms/Skuared/wiki/Computational-Effects])",
+    "syntax_pattern": "limit %string% as x approaches %number%\nlimit %string% as x approaches %number% from above\nlimit %string% as x approaches infinity\nlimit %string% as x approaches -infinity",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1571",
+    "created_at": "2018-01-03T19:01:20.450005Z",
+    "updated_at": "2018-01-06T10:34:11.847307Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Computes the limit of a given expression. For more details, read the [extended description](https://github.com/Syst3ms/Skuared/wiki/Computational-Effects])"
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1573": {
     "id": 1573,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "Register Constant",
+    "description": "Registers a constant (duh), which can be used in the evaluate expression (described in [Evaluating Expressions](https://github.com/Syst3ms/Skuared/wiki/Evaluating-Expressions)).\n A constant name must consist of one letter optionally followed by one or more letters or digits\n If that's any clearer to you, the regex Skuared uses is '[A-Za-z][A-Za-z\\\\d]*.'",
+    "syntax_pattern": "register [new] constant [[with] symbol] %string% [(and|with)] value %number%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1573",
+    "created_at": "2018-01-03T19:01:20.466016Z",
+    "updated_at": "2018-01-06T10:34:11.865232Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Registers a constant (duh), which can be used in the evaluate expression (described in [Evaluating Expressions](https://github.com/Syst3ms/Skuared/wiki/Evaluating-Expressions)).",
-        "A constant name must consist of one letter optionally followed by one or more letters or digits",
-        "If that's any clearer to you, the regex Skuared uses is '[A-Za-z][A-Za-z\\\\d]*.'"
+        "Registers a constant (duh), which can be used in the evaluate expression (described in [Evaluating Expressions](https://github.com/Syst3ms/Skuared/wiki/Evaluating-Expressions)).\n A constant name must consist of one letter optionally followed by one or more letters or digits\n If that's any clearer to you, the regex Skuared uses is '[A-Za-z][A-Za-z\\\\d]*.'"
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1574": {
     "id": 1574,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "Sigma/Summation",
+    "description": "Computes the summation of a given expression. For more details, read the [extended description](https://github.com/Syst3ms/Skuared/wiki/Computational-Effects])",
+    "syntax_pattern": "(sum|sigma) %string% from %number% to (%number%|infinity)",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1574",
+    "created_at": "2018-01-03T19:01:20.475198Z",
+    "updated_at": "2018-01-06T10:34:11.874112Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Computes the summation of a given expression. For more details, read the [extended description](https://github.com/Syst3ms/Skuared/wiki/Computational-Effects])"
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1575": {
     "id": 1575,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "Evaluate Expression",
+    "description": "Evaluates a mathematical expression.\nCheck out [the advanced description](TUTORIAL_URL#evaluate-expression) for WAYYY more information !",
+    "syntax_pattern": "eval[uate] [[math[ematic]] expr[ession]] %string%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1575",
+    "created_at": "2018-01-03T19:01:20.482896Z",
+    "updated_at": "2018-01-06T10:34:11.924384Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Evaluates a mathematical expression.",
-        "Check out [the advanced description](TUTORIAL_URL#evaluate-expression) for WAYYY more information !"
+        "Evaluates a mathematical expression.\nCheck out [the advanced description](TUTORIAL_URL#evaluate-expression) for WAYYY more information !"
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1576": {
     "id": 1576,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "Evaluate Expression With Constant",
+    "description": "Evaluates a mathematical expression with a provided number. The number can be referred to in the expression using 'x'\nCheck out [the advanced description](TUTORIAL_URL#evaluate-expression) for WAYYY more information !",
+    "syntax_pattern": "eval[uate] [[math[ematic]] expr[ession]] %string% with %number%",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1576",
+    "created_at": "2018-01-03T19:01:20.490420Z",
+    "updated_at": "2018-01-06T10:34:11.936460Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Evaluates a mathematical expression with a provided number. The number can be referred to in the expression using 'x'",
-        "Check out [the advanced description](TUTORIAL_URL#evaluate-expression) for WAYYY more information !"
+        "Evaluates a mathematical expression with a provided number. The number can be referred to in the expression using 'x'\nCheck out [the advanced description](TUTORIAL_URL#evaluate-expression) for WAYYY more information !"
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1577": {
     "id": 1577,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "Last Result",
+    "description": "Gets the result computed by a [computational effect](TUTORIAL_URL#computational_effects)",
+    "syntax_pattern": "[the] last skuared result",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1577",
+    "created_at": "2018-01-03T19:01:20.499004Z",
+    "updated_at": "2018-01-06T10:34:11.946855Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the result computed by a [computational effect](TUTORIAL_URL#computational_effects)"
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1578": {
     "id": 1578,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "Last Skuared Error",
+    "description": "If something has gone wrong in nearly any of Skuared's syntaxes, will contain a descriptive error.",
+    "syntax_pattern": "[the] last skuared error",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1578",
+    "created_at": "2018-01-03T19:01:20.507324Z",
+    "updated_at": "2018-01-06T10:34:11.955414Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "If something has gone wrong in nearly any of Skuared's syntaxes, will contain a descriptive error."
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1579": {
     "id": 1579,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "Levenshtein/String distance",
+    "description": "Represents the number of edits from one string to another. An edit can be adding, removing or replacing a letter.\nAdding 'ignor(e|ing) case' makes it so uppercase and lowercase letters don't count as an edit.",
+    "syntax_pattern": "(levenshtein|string) distance between %string% and %string% [(ignor(e|ing) case)]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1579",
+    "created_at": "2018-01-03T19:01:20.515222Z",
+    "updated_at": "2018-01-06T10:34:11.964086Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Represents the number of edits from one string to another. An edit can be adding, removing or replacing a letter.",
-        "Adding 'ignor(e|ing) case' makes it so uppercase and lowercase letters don't count as an edit."
+        "Represents the number of edits from one string to another. An edit can be adding, removing or replacing a letter.\nAdding 'ignor(e|ing) case' makes it so uppercase and lowercase letters don't count as an edit."
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1580": {
     "id": 1580,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "Soundex",
+    "description": "Gets the [Soundex](https://en.wikipedia.org/wiki/Soundex) code of a given string",
+    "syntax_pattern": "[the] soundex [code] of %string%\n%string%'[s] soundex [code]",
+    "compatible_addon_version": "1.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1580",
+    "created_at": "2018-01-03T19:01:20.523068Z",
+    "updated_at": "2018-01-06T10:34:11.973745Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the [Soundex](https://en.wikipedia.org/wiki/Soundex) code of a given string"
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1581": {
     "id": 1581,
-    "type": "function",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "and",
+    "description": "",
+    "syntax_pattern": "and(a: number, b: number)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "function",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1581",
+    "created_at": "2018-01-06T10:34:11.983583Z",
+    "updated_at": "2018-01-06T10:34:11.983602Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-math] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1582": {
     "id": 1582,
-    "type": "function",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "factorial",
+    "description": "",
+    "syntax_pattern": "factorial(x: number)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "function",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1582",
+    "created_at": "2018-01-06T10:34:11.992522Z",
+    "updated_at": "2018-01-06T10:34:11.992541Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-math] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1583": {
     "id": 1583,
-    "type": "function",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "gamma",
+    "description": "",
+    "syntax_pattern": "gamma(x: number)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "function",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1583",
+    "created_at": "2018-01-06T10:34:12.001388Z",
+    "updated_at": "2018-01-06T10:34:12.001409Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-math] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1584": {
     "id": 1584,
-    "type": "function",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "nand",
+    "description": "",
+    "syntax_pattern": "nand(a: number, b: number)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "function",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1584",
+    "created_at": "2018-01-06T10:34:12.012153Z",
+    "updated_at": "2018-01-06T10:34:12.012174Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-math] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1585": {
     "id": 1585,
-    "type": "function",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "nor",
+    "description": "",
+    "syntax_pattern": "nor(a: number, b: number)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "function",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1585",
+    "created_at": "2018-01-06T10:34:12.021107Z",
+    "updated_at": "2018-01-06T10:34:12.021126Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-math] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1586": {
     "id": 1586,
-    "type": "function",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "nxor",
+    "description": "",
+    "syntax_pattern": "nxor(a: number, b: number)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "function",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1586",
+    "created_at": "2018-01-06T10:34:12.070705Z",
+    "updated_at": "2018-01-06T10:34:12.070726Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-math] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1587": {
     "id": 1587,
-    "type": "function",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "or",
+    "description": "",
+    "syntax_pattern": "or(a: number, b: number)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "function",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1587",
+    "created_at": "2018-01-06T10:34:12.079466Z",
+    "updated_at": "2018-01-06T10:34:12.079486Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-math] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1588": {
     "id": 1588,
-    "type": "function",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Syst3ms",
+    "title": "xor",
+    "description": "",
+    "syntax_pattern": "xor(a: number, b: number)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "function",
+    "required_plugins": [],
+    "addon": "skript-math",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1588",
+    "created_at": "2018-01-06T10:34:12.088172Z",
+    "updated_at": "2018-01-06T10:34:12.088193Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "[skript-math] No official English guide provided."
+        ""
       ],
       "ko": [
-        "[skript-math] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MATH] 한국어 가이드 번역 대기 중"
       ]
     }
   }

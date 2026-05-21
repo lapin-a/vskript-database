@@ -1,957 +1,1923 @@
 {
   "syntax_9411": {
     "id": 9411,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Particle Spherical Cap",
+    "description": "Creates a spherical cap or spherical sector shape with the given radius and cutoff angle. The radius must be greater than 0.\nThe angle must be between 0 and 180 degrees. If the angle is 180 degrees, the shape will be a sphere.\nA spherical cap is a portion of the surface of a sphere. A spherical sector, or spherical cone, is essentially a cone with a rounded base.",
+    "syntax_pattern": "[a] spherical (cap|sector) (with|of) radius %number% and [cutoff] angle [of] %number% [degrees|radians]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Radial Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9411",
+    "created_at": "2023-09-11T04:29:21.937678Z",
+    "updated_at": "2025-07-27T23:25:39.786145Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a spherical cap or spherical sector shape with the given radius and cutoff angle. The radius must be greater than 0.",
-        "The angle must be between 0 and 180 degrees. If the angle is 180 degrees, the shape will be a sphere.",
-        "A spherical cap is a portion of the surface of a sphere. A spherical sector, or spherical cone, is essentially a cone with a rounded base."
+        "Creates a spherical cap or spherical sector shape with the given radius and cutoff angle. The radius must be greater than 0.\nThe angle must be between 0 and 180 degrees. If the angle is 180 degrees, the shape will be a sphere.\nA spherical cap is a portion of the surface of a sphere. A spherical sector, or spherical cone, is essentially a cone with a rounded base."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9412": {
     "id": 9412,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Particle Star",
+    "description": "Creates a star shape with the given number of points, inner radius, and outer radius. The number of points must be at least 2, and the inner and outer radii must be greater than 0.\nNote that \"points\" in this context is referring to the tips of the star, not the number of particles.",
+    "syntax_pattern": "[a] [solid] star with %number% points(,| and) inner radius %number%[,] and outer radius %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9412",
+    "created_at": "2023-09-11T04:29:21.946116Z",
+    "updated_at": "2025-07-27T23:25:39.795030Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a star shape with the given number of points, inner radius, and outer radius. The number of points must be at least 2, and the inner and outer radii must be greater than 0.",
-        "Note that \"points\" in this context is referring to the tips of the star, not the number of particles."
+        "Creates a star shape with the given number of points, inner radius, and outer radius. The number of points must be at least 2, and the inner and outer radii must be greater than 0.\nNote that \"points\" in this context is referring to the tips of the star, not the number of particles."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9427": {
     "id": 9427,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Shape Side Count - Polygonal/Polyhedral",
+    "description": "Returns the number of sides of a polygonal or polyhedral shape. This determines how many sides the shape has.\nChanging this will change the number of sides of the shape accordingly, with a minimum of 3.\nNote that custom polygons will return their side count, but will not be affected by this expression. \nPolyhedrons will return their face count, and can only be set to 4, 8, 12, or 20.",
+    "syntax_pattern": "[the] side(s| count) of %polyshapes%\n%polyshapes%'[s] side(s| count)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9427",
+    "created_at": "2023-09-11T04:29:22.194793Z",
+    "updated_at": "2025-07-27T23:25:39.864269Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the number of sides of a polygonal or polyhedral shape. This determines how many sides the shape has.",
-        "Changing this will change the number of sides of the shape accordingly, with a minimum of 3.",
-        "Note that custom polygons will return their side count, but will not be affected by this expression.",
-        "Polyhedrons will return their face count, and can only be set to 4, 8, 12, or 20."
+        "Returns the number of sides of a polygonal or polyhedral shape. This determines how many sides the shape has.\nChanging this will change the number of sides of the shape accordingly, with a minimum of 3.\nNote that custom polygons will return their side count, but will not be affected by this expression. \nPolyhedrons will return their face count, and can only be set to 4, 8, 12, or 20."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9390": {
     "id": 9390,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Draw Particle - Skript-Particle",
+    "description": "Draws a particle at a location. Syntax inspired by SkBee, so bee careful not to get the two confused.\nIf you run into conflicts with SkBee, which you shouldn't, please report it immediately.",
+    "syntax_pattern": "draw %customparticles% %directions% %locations% [(for|to) %players%]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9390",
+    "created_at": "2023-09-11T04:29:21.756228Z",
+    "updated_at": "2023-09-11T04:29:21.756249Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Draws a particle at a location. Syntax inspired by SkBee, so bee careful not to get the two confused.",
-        "If you run into conflicts with SkBee, which you shouldn't, please report it immediately."
+        "Draws a particle at a location. Syntax inspired by SkBee, so bee careful not to get the two confused.\nIf you run into conflicts with SkBee, which you shouldn't, please report it immediately."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9393": {
     "id": 9393,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Drawn Shape",
+    "description": "Returns the shape that is being drawn by the draw section.",
+    "syntax_pattern": "[the] drawn shape",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9393",
+    "created_at": "2023-09-11T04:29:21.783995Z",
+    "updated_at": "2023-09-11T04:29:21.784007Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the shape that is being drawn by the draw section."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9394": {
     "id": 9394,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Helix Winding Rate",
+    "description": "Gets or sets the winding rate of a helix. The winding rate is the number of times the helix wraps around the axis per block.\nThe default winding rate is 1 loop per block, which delete or reset will set it to. The winding rate must be positive and non-zero.",
+    "syntax_pattern": "[the] winding rate of %shapes%\n%shapes%'[s] winding rate",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9394",
+    "created_at": "2023-09-11T04:29:21.792461Z",
+    "updated_at": "2023-09-11T04:29:21.792473Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Gets or sets the winding rate of a helix. The winding rate is the number of times the helix wraps around the axis per block.",
-        "The default winding rate is 1 loop per block, which delete or reset will set it to. The winding rate must be positive and non-zero."
+        "Gets or sets the winding rate of a helix. The winding rate is the number of times the helix wraps around the axis per block.\nThe default winding rate is 1 loop per block, which delete or reset will set it to. The winding rate must be positive and non-zero."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9395": {
     "id": 9395,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Last Created Particle",
+    "description": "Returns the last particle created with the custom particle section.",
+    "syntax_pattern": "last created [custom] particle",
+    "compatible_addon_version": "1.0.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Custom Particle",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9395",
+    "created_at": "2023-09-11T04:29:21.801033Z",
+    "updated_at": "2023-09-11T04:29:21.801044Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the last particle created with the custom particle section."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9396": {
     "id": 9396,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Normal Vector of Shape",
+    "description": "Returns the normal vector of a shape. This, by default, is the vector (0, 1, 0) which points directly up.If the shape is rotated, this will be the vector that is pointing up after the rotation. Treat it as what the shape thinks is \"up\".\nChanging this will rotate the shape accordingly. Resetting or deleting it will set it back to the default orientation.",
+    "syntax_pattern": "[the] normal [vector] of %shapes%\n%shapes%'[s] normal [vector]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9396",
+    "created_at": "2023-09-11T04:29:21.809329Z",
+    "updated_at": "2023-09-11T04:29:21.809342Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the normal vector of a shape. This, by default, is the vector (0, 1, 0) which points directly up.If the shape is rotated, this will be the vector that is pointing up after the rotation. Treat it as what the shape thinks is \"up\".",
-        "Changing this will rotate the shape accordingly. Resetting or deleting it will set it back to the default orientation."
+        "Returns the normal vector of a shape. This, by default, is the vector (0, 1, 0) which points directly up.If the shape is rotated, this will be the vector that is pointing up after the rotation. Treat it as what the shape thinks is \"up\".\nChanging this will rotate the shape accordingly. Resetting or deleting it will set it back to the default orientation."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9392": {
     "id": 9392,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Toggle Axes",
+    "description": "Toggles the visibility of the local and/or global axes of a shape.\nWhen on, the shape will also draw its local and/or global axes when drawn.\nThis is intended for debugging purposes.",
+    "syntax_pattern": "(show|hide) [local] [and] [global] axes of [shape[s]] %shapes%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9392",
+    "created_at": "2023-09-11T04:29:21.775217Z",
+    "updated_at": "2025-07-27T23:25:39.667701Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Toggles the visibility of the local and/or global axes of a shape.",
-        "When on, the shape will also draw its local and/or global axes when drawn.",
-        "This is intended for debugging purposes."
+        "Toggles the visibility of the local and/or global axes of a shape.\nWhen on, the shape will also draw its local and/or global axes when drawn.\nThis is intended for debugging purposes."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9397": {
     "id": 9397,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Particle Arc or Sector",
+    "description": "Creates an arc or sector with the given radius and cutoff angle. The radius must be greater than 0 and the height, if given, must be positive.\nThe angle must be between 0 and 360 degrees. If the angle is 360 degrees, the shape will be a circle or cylinder.\nAn arc is a portion of the circle's circumference. A sector is a portion of the circle's area.",
+    "syntax_pattern": "[a[n]] [circular] (arc|sector) (with|of) radius %number% and [cutoff] angle [of] %number% [degrees|radians]\n[a[n]] [cylindrical] (arc|sector) (with|of) radius %number%(,| and) height %number%[,] and [cutoff] angle [of] %number% [degrees|radians]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Radial Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9397",
+    "created_at": "2023-09-11T04:29:21.818129Z",
+    "updated_at": "2025-07-27T23:25:39.675900Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates an arc or sector with the given radius and cutoff angle. The radius must be greater than 0 and the height, if given, must be positive.",
-        "The angle must be between 0 and 360 degrees. If the angle is 360 degrees, the shape will be a circle or cylinder.",
-        "An arc is a portion of the circle's circumference. A sector is a portion of the circle's area."
+        "Creates an arc or sector with the given radius and cutoff angle. The radius must be greater than 0 and the height, if given, must be positive.\nThe angle must be between 0 and 360 degrees. If the angle is 360 degrees, the shape will be a circle or cylinder.\nAn arc is a portion of the circle's circumference. A sector is a portion of the circle's area."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9398": {
     "id": 9398,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Particle Circle or Cylinder",
+    "description": "Creates a circle, disc, or cylinder shape with the given radius. The radius must be greater than 0 and the height cannot be negative.",
+    "syntax_pattern": "[a] (circle|disc) (with|of) radius %number%\n[a] [hollow|solid] (cylinder|tube) (with|of) radius %number% and height %number%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Radial Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9398",
+    "created_at": "2023-09-11T04:29:21.826589Z",
+    "updated_at": "2025-07-27T23:25:39.691927Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a circle, disc, or cylinder shape with the given radius. The radius must be greater than 0 and the height cannot be negative."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9399": {
     "id": 9399,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Particle Cuboid",
+    "description": "Creates a cuboid from a length, a width, and a height, or from two corners.\nThe specified length, width, and height must be greater than 0. Length is the x-axis, width is the z-axis, and height is the y-axis.\nWhen defining a cuboid from two corners, the corners can either be vectors or locations/entities. You cannot use both vectors and locations/entities, but you can mix and match locations and entities.When using locations, this is a shape that can be drawn without a specific location. It will be drawn between the two given locations.",
+    "syntax_pattern": "[a] [hollow|solid] cuboid (with|of) length %number%(,| and) width %number%[,] and height %number%\n[a] [hollow|solid] cuboid (from|between) %location/entity/vector% (to|and) %location/entity/vector%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Length/Width/Height Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9399",
+    "created_at": "2023-09-11T04:29:21.837674Z",
+    "updated_at": "2025-07-27T23:25:39.699907Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a cuboid from a length, a width, and a height, or from two corners.",
-        "The specified length, width, and height must be greater than 0. Length is the x-axis, width is the z-axis, and height is the y-axis.",
-        "When defining a cuboid from two corners, the corners can either be vectors or locations/entities. You cannot use both vectors and locations/entities, but you can mix and match locations and entities.When using locations, this is a shape that can be drawn without a specific location. It will be drawn between the two given locations."
+        "Creates a cuboid from a length, a width, and a height, or from two corners.\nThe specified length, width, and height must be greater than 0. Length is the x-axis, width is the z-axis, and height is the y-axis.\nWhen defining a cuboid from two corners, the corners can either be vectors or locations/entities. You cannot use both vectors and locations/entities, but you can mix and match locations and entities.When using locations, this is a shape that can be drawn without a specific location. It will be drawn between the two given locations."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9400": {
     "id": 9400,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Particle Ellipse or Elliptical Cylinder",
+    "description": "Creates a ellipse, elliptical disc, or elliptical cylinder shape with the given radii. The radii must be greater than 0.\nThe first radius is the x radius, and the second radius is the z radius. These are relative to the shape's rotation, so they only correspond exactly to the x and z axes if the shape is not rotated.\nNOTE: Very eccentric elliptical discs/sectors (those with a large difference between the x and z radii) may have many more particles than expected. Be careful.",
+    "syntax_pattern": "[a[n]] [(solid|filled)] (ellipse|oval) (with|of) radi(i|us) %number% and %number%\n[a[n]] [hollow|solid] elliptical (cylinder|tube) (with|of) radi(i|us) %number%(,| and) %number%[,] and height %number%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Length/Width/Height Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9400",
+    "created_at": "2023-09-11T04:29:21.846266Z",
+    "updated_at": "2025-07-27T23:25:39.707651Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a ellipse, elliptical disc, or elliptical cylinder shape with the given radii. The radii must be greater than 0.",
-        "The first radius is the x radius, and the second radius is the z radius. These are relative to the shape's rotation, so they only correspond exactly to the x and z axes if the shape is not rotated.",
-        "NOTE: Very eccentric elliptical discs/sectors (those with a large difference between the x and z radii) may have many more particles than expected. Be careful."
+        "Creates a ellipse, elliptical disc, or elliptical cylinder shape with the given radii. The radii must be greater than 0.\nThe first radius is the x radius, and the second radius is the z radius. These are relative to the shape's rotation, so they only correspond exactly to the x and z axes if the shape is not rotated.\nNOTE: Very eccentric elliptical discs/sectors (those with a large difference between the x and z radii) may have many more particles than expected. Be careful."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9405": {
     "id": 9405,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Particle Irregular Polygon",
+    "description": "Creates an irregular polygon from a list of vectors or locations. If locations are used, the polygon can be drawn without giving a specific location to draw at.\nThe height of the polygon will be the height between the lowest and highest points. It can also be set with the optional height parameter.\n\nIrregular polygons currently only support the wireframe style. Also, they do not currently support Dynamic Locations like lines and cuboids do.",
+    "syntax_pattern": "[a] [2d] polygon (from|with) [vertices|points] %vectors/locations% [and height %number%]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Length/Width/Height Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9405",
+    "created_at": "2023-09-11T04:29:21.887222Z",
+    "updated_at": "2023-09-11T04:29:21.887234Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates an irregular polygon from a list of vectors or locations. If locations are used, the polygon can be drawn without giving a specific location to draw at.",
-        "The height of the polygon will be the height between the lowest and highest points. It can also be set with the optional height parameter.",
-        "Irregular polygons currently only support the wireframe style. Also, they do not currently support Dynamic Locations like lines and cuboids do."
+        "Creates an irregular polygon from a list of vectors or locations. If locations are used, the polygon can be drawn without giving a specific location to draw at.\nThe height of the polygon will be the height between the lowest and highest points. It can also be set with the optional height parameter.\n\nIrregular polygons currently only support the wireframe style. Also, they do not currently support Dynamic Locations like lines and cuboids do."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9406": {
     "id": 9406,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Particle Line",
+    "description": "Creates a line shape between points, or in a direction for a given length. The length must be greater than 0.\nWhen defining a line from points, the points can either be vectors or locations/entities. Each point in the first set will connect to each point in the second set. You can use the third pattern to connect points in series, like a path along the points.\n\nYou cannot use both vectors and locations/entities, but you can mix and match locations and entities.When using locations, this is a shape that can be drawn without a specific location. It will be drawn between the two given locations.\nIf using vectors, or a direction and length, the shape does require a location to be drawn at.",
+    "syntax_pattern": "[a] line[s] (from|between) %locations/entities/vectors% (to|and) %locations/entities/vectors%\n[a] line (in [the]|from) direction %vector% [(and|[and] with) length %number%]\n[a] line (between|connecting) %locations/entities/vectors%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Length/Width/Height Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9406",
+    "created_at": "2023-09-11T04:29:21.895240Z",
+    "updated_at": "2023-09-11T04:29:21.895252Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a line shape between points, or in a direction for a given length. The length must be greater than 0.",
-        "When defining a line from points, the points can either be vectors or locations/entities. Each point in the first set will connect to each point in the second set. You can use the third pattern to connect points in series, like a path along the points.",
-        "You cannot use both vectors and locations/entities, but you can mix and match locations and entities.When using locations, this is a shape that can be drawn without a specific location. It will be drawn between the two given locations.",
-        "If using vectors, or a direction and length, the shape does require a location to be drawn at."
+        "Creates a line shape between points, or in a direction for a given length. The length must be greater than 0.\nWhen defining a line from points, the points can either be vectors or locations/entities. Each point in the first set will connect to each point in the second set. You can use the third pattern to connect points in series, like a path along the points.\n\nYou cannot use both vectors and locations/entities, but you can mix and match locations and entities.When using locations, this is a shape that can be drawn without a specific location. It will be drawn between the two given locations.\nIf using vectors, or a direction and length, the shape does require a location to be drawn at."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9401": {
     "id": 9401,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Particle Ellipsoid",
+    "description": "Creates a ellipsoid shape with the given radii. The radii must be greater than 0.\nThe first radius is the x radius, and the second is the y radius, and the last is the z radius. These are relative to the shape's rotation, so they only correspond exactly to the world axes if the shape is not rotated.\nNote that this shape is modified using the Length/Width/Height modifiers, not the Radius modifier. This means the length/width/height of the shape will be twice the radius in each direction. Length is the x axis, width is the z axis, and height is the y axis.\nNOTE: Very eccentric solid ellipsoids (those with a large difference between the radii) may have many more particles than expected. Be careful.",
+    "syntax_pattern": "[a[n]] [(outlined|wireframe|hollow|(solid|filled))] ellipsoid (with|of) radi(i|us) %number%(,| and) %number%[,] and %number%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Length/Width/Height Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9401",
+    "created_at": "2023-09-11T04:29:21.854789Z",
+    "updated_at": "2025-07-27T23:25:39.716128Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a ellipsoid shape with the given radii. The radii must be greater than 0.",
-        "The first radius is the x radius, and the second is the y radius, and the last is the z radius. These are relative to the shape's rotation, so they only correspond exactly to the world axes if the shape is not rotated.",
-        "Note that this shape is modified using the Length/Width/Height modifiers, not the Radius modifier. This means the length/width/height of the shape will be twice the radius in each direction. Length is the x axis, width is the z axis, and height is the y axis.",
-        "NOTE: Very eccentric solid ellipsoids (those with a large difference between the radii) may have many more particles than expected. Be careful."
+        "Creates a ellipsoid shape with the given radii. The radii must be greater than 0.\nThe first radius is the x radius, and the second is the y radius, and the last is the z radius. These are relative to the shape's rotation, so they only correspond exactly to the world axes if the shape is not rotated.\nNote that this shape is modified using the Length/Width/Height modifiers, not the Radius modifier. This means the length/width/height of the shape will be twice the radius in each direction. Length is the x axis, width is the z axis, and height is the y axis.\nNOTE: Very eccentric solid ellipsoids (those with a large difference between the radii) may have many more particles than expected. Be careful."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9402": {
     "id": 9402,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Particle Elliptical Arc or Sector",
+    "description": "Creates an elliptical arc or sector with the given radii and cutoff angle. The radii must be greater than 0 and the height, if given, must be positive.\nThe angle must be between 0 and 360 degrees. If the angle is 360 degrees, the shape will be a ellipse or elliptical cylinder.\nAn arc is a portion of the ellipse's circumference. A sector is a portion of the ellipse's area.\nNOTE: Very eccentric elliptical sectors (those with a large difference between the x and z radii) may have many more particles than expected. Be careful.",
+    "syntax_pattern": "[an] elliptical (arc|sector) (with|of) radi(i|us) %number%(,| and) %number%[,] and [cutoff] angle [of] %number% [degrees|radians]\n[an] elliptical [cylindrical] (arc|sector) (with|of) radi(i|us) %number%(,| and) %number%(,| and) height %number%[,] and [cutoff] angle [of] %number% [degrees|radians]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Length/Width/Height Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9402",
+    "created_at": "2023-09-11T04:29:21.863202Z",
+    "updated_at": "2025-07-27T23:25:39.724192Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates an elliptical arc or sector with the given radii and cutoff angle. The radii must be greater than 0 and the height, if given, must be positive.",
-        "The angle must be between 0 and 360 degrees. If the angle is 360 degrees, the shape will be a ellipse or elliptical cylinder.",
-        "An arc is a portion of the ellipse's circumference. A sector is a portion of the ellipse's area.",
-        "NOTE: Very eccentric elliptical sectors (those with a large difference between the x and z radii) may have many more particles than expected. Be careful."
+        "Creates an elliptical arc or sector with the given radii and cutoff angle. The radii must be greater than 0 and the height, if given, must be positive.\nThe angle must be between 0 and 360 degrees. If the angle is 360 degrees, the shape will be a ellipse or elliptical cylinder.\nAn arc is a portion of the ellipse's circumference. A sector is a portion of the ellipse's area.\nNOTE: Very eccentric elliptical sectors (those with a large difference between the x and z radii) may have many more particles than expected. Be careful."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9403": {
     "id": 9403,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Particle Heart",
+    "description": "Creates a heart shape with the given width and height, and optionally eccentricity. The width (x) and length (z) must be greater than 0.\nThe eccentricity defaults to 3, but must be at least 1. This determines how round/pointy the heart is. Values between 1 and 5 are recommended.\nNote that the width and length are not exact, but they're roughly the width and length of the heart.\nFinally, this shape does not support the particle count expression and its particle density is not uniform. If anyone knows a good way to compute the complete elliptic integral of the second kind, please let me know.",
+    "syntax_pattern": "[a] [solid] heart [shape] (with|of) width %number%[,] [and] length %number%[[,] [and] eccentricity %number%]",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Length/Width/Height Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9403",
+    "created_at": "2023-09-11T04:29:21.871056Z",
+    "updated_at": "2025-07-27T23:25:39.732291Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a heart shape with the given width and height, and optionally eccentricity. The width (x) and length (z) must be greater than 0.",
-        "The eccentricity defaults to 3, but must be at least 1. This determines how round/pointy the heart is. Values between 1 and 5 are recommended.",
-        "Note that the width and length are not exact, but they're roughly the width and length of the heart.",
-        "Finally, this shape does not support the particle count expression and its particle density is not uniform. If anyone knows a good way to compute the complete elliptic integral of the second kind, please let me know."
+        "Creates a heart shape with the given width and height, and optionally eccentricity. The width (x) and length (z) must be greater than 0.\nThe eccentricity defaults to 3, but must be at least 1. This determines how round/pointy the heart is. Values between 1 and 5 are recommended.\nNote that the width and length are not exact, but they're roughly the width and length of the heart.\nFinally, this shape does not support the particle count expression and its particle density is not uniform. If anyone knows a good way to compute the complete elliptic integral of the second kind, please let me know."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9404": {
     "id": 9404,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Particle Helix / Spiral",
+    "description": "Creates a helix or spiral shape with the given radius and height. The radius and height must be greater than 0.\nThe winding rate is the number of loops per meter or block. If omitted, the winding rate will be 1 loop per block.\nThe height of the helix can be manipulated through both the length and height expressions.",
+    "syntax_pattern": "[a[n]] [solid] [[(counter|anti)[-]]clockwise] (helix|spiral) (with|of) radius %number%[,] [and] height %number%[[,] [and] winding rate [of] %number% [loops per (meter|block)]]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Radial Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9404",
+    "created_at": "2023-09-11T04:29:21.878935Z",
+    "updated_at": "2025-07-27T23:25:39.742018Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a helix or spiral shape with the given radius and height. The radius and height must be greater than 0.",
-        "The winding rate is the number of loops per meter or block. If omitted, the winding rate will be 1 loop per block.",
-        "The height of the helix can be manipulated through both the length and height expressions."
+        "Creates a helix or spiral shape with the given radius and height. The radius and height must be greater than 0.\nThe winding rate is the number of loops per meter or block. If omitted, the winding rate will be 1 loop per block.\nThe height of the helix can be manipulated through both the length and height expressions."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9408": {
     "id": 9408,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Particle Regular Polygon",
+    "description": "Creates a regular polygon with the given number of sides and radius. The number of sides must be at least 3. The radius must be greater than 0.",
+    "syntax_pattern": "[a] [(solid|filled)] regular polygon with %number% sides and radius %number%\n[a] [(solid|filled)] regular polygon with %number% sides and side length %number%\n[a[n]] [(solid|filled)] ([equilateral ]triangle|square|pentagon|hexagon|heptagon|octagon) with radius %number%\n[a[n]] [(solid|filled)] ([equilateral ]triangle|square|pentagon|hexagon|heptagon|octagon) with side length %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Radial Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9408",
+    "created_at": "2023-09-11T04:29:21.912069Z",
+    "updated_at": "2025-07-27T23:25:39.760703Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a regular polygon with the given number of sides and radius. The number of sides must be at least 3. The radius must be greater than 0."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9409": {
     "id": 9409,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Particle Regular Polyhedron",
+    "description": "Creates a regular polyhedron shape with the given radius. The radius must be greater than 0.\nValid polyhedra are tetrahedra (4 faces), octahedra (8), dodecahedra (12), and icosahedra (20).\n\nPolyhedra currently do not support the particle count expression, only particle density.",
+    "syntax_pattern": "[a[n]] [outlined|hollow|solid] (tetra|octa|icosa|dodeca)hedron (with|of) radius %number%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Radial Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9409",
+    "created_at": "2023-09-11T04:29:21.920397Z",
+    "updated_at": "2025-07-27T23:25:39.770619Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a regular polyhedron shape with the given radius. The radius must be greater than 0.",
-        "Valid polyhedra are tetrahedra (4 faces), octahedra (8), dodecahedra (12), and icosahedra (20).",
-        "Polyhedra currently do not support the particle count expression, only particle density."
+        "Creates a regular polyhedron shape with the given radius. The radius must be greater than 0.\nValid polyhedra are tetrahedra (4 faces), octahedra (8), dodecahedra (12), and icosahedra (20).\n\nPolyhedra currently do not support the particle count expression, only particle density."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9410": {
     "id": 9410,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Particle Sphere",
+    "description": "Creates a sphere shape with the given radius. The radius must be greater than 0.\nDefault style is a hollow sphere, but you can use the 'solid' tag to make it solid.",
+    "syntax_pattern": "[a] [solid] sphere (with|of) radius %number%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Radial Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9410",
+    "created_at": "2023-09-11T04:29:21.929460Z",
+    "updated_at": "2025-07-27T23:25:39.778467Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a sphere shape with the given radius. The radius must be greater than 0.",
-        "Default style is a hollow sphere, but you can use the 'solid' tag to make it solid."
+        "Creates a sphere shape with the given radius. The radius must be greater than 0.\nDefault style is a hollow sphere, but you can use the 'solid' tag to make it solid."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9416": {
     "id": 9416,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Shape Cutoff Angle",
+    "description": "The cutoff angle of a shape in degrees. This determines the portion of the whole shape that will be drawn in shapes like arcs and spherical caps. For example, a cutoff angle of 90 on an arc will create a quarter of a circle.\nNote that an arc can range from 0 to 360 degrees, while a spherical cap can range from 0 to 180 degrees.",
+    "syntax_pattern": "[the] cutoff angle of %cutoffshapes%\n%cutoffshapes%'[s] cutoff angle",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9416",
+    "created_at": "2023-09-11T04:29:21.980041Z",
+    "updated_at": "2023-09-11T04:29:21.980054Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "The cutoff angle of a shape in degrees. This determines the portion of the whole shape that will be drawn in shapes like arcs and spherical caps. For example, a cutoff angle of 90 on an arc will create a quarter of a circle.",
-        "Note that an arc can range from 0 to 360 degrees, while a spherical cap can range from 0 to 180 degrees."
+        "The cutoff angle of a shape in degrees. This determines the portion of the whole shape that will be drawn in shapes like arcs and spherical caps. For example, a cutoff angle of 90 on an arc will create a quarter of a circle.\nNote that an arc can range from 0 to 360 degrees, while a spherical cap can range from 0 to 180 degrees."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9419": {
     "id": 9419,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Shape Offset",
+    "description": "Returns the offset vector of a shape. This is the vector that is added to the location of the shape before drawing.\nChanging this will move the shape accordingly. Resetting or deleting it will set it back to the default offset of (0, 0, 0).",
+    "syntax_pattern": "[the] offset [vector] of %shapes%\n%shapes%'[s] offset [vector]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9419",
+    "created_at": "2023-09-11T04:29:22.065704Z",
+    "updated_at": "2023-09-11T04:29:22.065726Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the offset vector of a shape. This is the vector that is added to the location of the shape before drawing.",
-        "Changing this will move the shape accordingly. Resetting or deleting it will set it back to the default offset of (0, 0, 0)."
+        "Returns the offset vector of a shape. This is the vector that is added to the location of the shape before drawing.\nChanging this will move the shape accordingly. Resetting or deleting it will set it back to the default offset of (0, 0, 0)."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9420": {
     "id": 9420,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Shape Orientation",
+    "description": "The orientation of a shape. This is the rotation that is applied to the shape before drawing.\nChanging this will rotate the shape accordingly. Resetting or deleting it will set it back to the default orientation of (0, 0, 0, 1).\nThe expression returns a quaternion. You can use the quaternion and axis angle functions or the rotation expression to create an orientation.",
+    "syntax_pattern": "[the] orientation of %shapes%\n%shapes%'[s] orientation",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Quaternion",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9420",
+    "created_at": "2023-09-11T04:29:22.137151Z",
+    "updated_at": "2023-09-11T04:29:22.137171Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "The orientation of a shape. This is the rotation that is applied to the shape before drawing.",
-        "Changing this will rotate the shape accordingly. Resetting or deleting it will set it back to the default orientation of (0, 0, 0, 1).",
-        "The expression returns a quaternion. You can use the quaternion and axis angle functions or the rotation expression to create an orientation."
+        "The orientation of a shape. This is the rotation that is applied to the shape before drawing.\nChanging this will rotate the shape accordingly. Resetting or deleting it will set it back to the default orientation of (0, 0, 0, 1).\nThe expression returns a quaternion. You can use the quaternion and axis angle functions or the rotation expression to create an orientation."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9421": {
     "id": 9421,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Shape Particle",
+    "description": "The particle of a shape. This is the particle that the shape uses to draw itself.\nChanging this will change the particle of the shape. Resetting or deleting it will set it back to the default particle (flame).\nYou can set the particle to any base or custom particle.",
+    "syntax_pattern": "[the] [custom] particle of %shapes%\n%shapes%'[s] [custom] particle",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Custom Particle",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9421",
+    "created_at": "2023-09-11T04:29:22.145767Z",
+    "updated_at": "2023-09-11T04:29:22.145779Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "The particle of a shape. This is the particle that the shape uses to draw itself.",
-        "Changing this will change the particle of the shape. Resetting or deleting it will set it back to the default particle (flame).",
-        "You can set the particle to any base or custom particle."
+        "The particle of a shape. This is the particle that the shape uses to draw itself.\nChanging this will change the particle of the shape. Resetting or deleting it will set it back to the default particle (flame).\nYou can set the particle to any base or custom particle."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9423": {
     "id": 9423,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Shape Points",
+    "description": "Returns all the vectors from the center of the shape to the various points particles would be drawn at.\nIf you want the locations of the particles, it's advised use the 'shape locations' expression rather than doing it yourself.",
+    "syntax_pattern": "[the] points of %shapes%\n%shapes%'[s] points",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9423",
+    "created_at": "2023-09-11T04:29:22.162330Z",
+    "updated_at": "2023-09-11T04:29:22.162343Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns all the vectors from the center of the shape to the various points particles would be drawn at.",
-        "If you want the locations of the particles, it's advised use the 'shape locations' expression rather than doing it yourself."
+        "Returns all the vectors from the center of the shape to the various points particles would be drawn at.\nIf you want the locations of the particles, it's advised use the 'shape locations' expression rather than doing it yourself."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9424": {
     "id": 9424,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Shape Radius",
+    "description": "The radius of a shape. For circular or spherical shapes, this is the distance from the center to the edge. For shapes like regular polygons, this is the distance from the center to a corner.\nChanging this will change the size of the shape. Resetting or deleting it will set it back to the default radius of 1.",
+    "syntax_pattern": "[the] radius of %radialshapes%\n%radialshapes%'[s] radius",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9424",
+    "created_at": "2023-09-11T04:29:22.170596Z",
+    "updated_at": "2023-09-11T04:29:22.170608Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "The radius of a shape. For circular or spherical shapes, this is the distance from the center to the edge. For shapes like regular polygons, this is the distance from the center to a corner.",
-        "Changing this will change the size of the shape. Resetting or deleting it will set it back to the default radius of 1."
+        "The radius of a shape. For circular or spherical shapes, this is the distance from the center to the edge. For shapes like regular polygons, this is the distance from the center to a corner.\nChanging this will change the size of the shape. Resetting or deleting it will set it back to the default radius of 1."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9414": {
     "id": 9414,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Rotation",
+    "description": "Describes a rotation around a vector by a given angle, or from one vector to another. An alternative to the `axisAngle` and `quaternion` functions. Returns a quaternion.",
+    "syntax_pattern": "[the|a] rotation (from|around) [the] [vector] %vector% (with|by) [[the|an] angle [of]] %number% [degrees|radians]\n[the|a] rotation (from|between) %vector% (to|and) %vector%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Quaternion",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9414",
+    "created_at": "2023-09-11T04:29:21.963256Z",
+    "updated_at": "2025-07-27T23:25:39.814202Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Describes a rotation around a vector by a given angle, or from one vector to another. An alternative to the `axisAngle` and `quaternion` functions. Returns a quaternion."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9417": {
     "id": 9417,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Shape Length/Width/Height",
+    "description": "The length, width, or height of a shape. Changing this will change the size of the shape. Resetting or deleting it will set it back to the default value of 1.",
+    "syntax_pattern": "[the] shape (length|width|height) of %lwhshapes%\n%lwhshapes%'[s] shape (length|width|height)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9417",
+    "created_at": "2023-09-11T04:29:21.988405Z",
+    "updated_at": "2025-07-27T23:25:39.822155Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The length, width, or height of a shape. Changing this will change the size of the shape. Resetting or deleting it will set it back to the default value of 1."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9418": {
     "id": 9418,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Shape Locations",
+    "description": "Returns all the locations that particles would be spawned at if the shape was centered at the given location.\nIf you want the vectors relative to the center of the shape, use the 'shape points' expression.",
+    "syntax_pattern": "(particle|point) locations of %shapes% [[centered] %direction% %location%]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9418",
+    "created_at": "2023-09-11T04:29:21.997125Z",
+    "updated_at": "2025-07-27T23:25:39.830249Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns all the locations that particles would be spawned at if the shape was centered at the given location.",
-        "If you want the vectors relative to the center of the shape, use the 'shape points' expression."
+        "Returns all the locations that particles would be spawned at if the shape was centered at the given location.\nIf you want the vectors relative to the center of the shape, use the 'shape points' expression."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9425": {
     "id": 9425,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Shape Relative Axis",
+    "description": "Returns the relative axis of a shape. These are the x, y, z axis of the shape AFTER rotation.\nThese are meant to be used to work within the rotated frame of reference of the shape.",
+    "syntax_pattern": "[the] (relative|local) (x|y|z)(-| )axis of %shapes%\n%shapes%'[s] (relative|local) (x|y|z)(-| )axis",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Vector",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9425",
+    "created_at": "2023-09-11T04:29:22.178993Z",
+    "updated_at": "2025-07-27T23:25:39.847526Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the relative axis of a shape. These are the x, y, z axis of the shape AFTER rotation.",
-        "These are meant to be used to work within the rotated frame of reference of the shape."
+        "Returns the relative axis of a shape. These are the x, y, z axis of the shape AFTER rotation.\nThese are meant to be used to work within the rotated frame of reference of the shape."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9426": {
     "id": 9426,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Shape Scale",
+    "description": "Returns the scale of a shape. This is will scale the shape up or down accordingly, with respect to its center.\nThis does not affect the number of particles drawn, so a scaled up shape will look more sparse. A negative scale will flip the shape inside-out.\nChanging this will scale the shape accordingly. Resetting or deleting it will set it back to the default scale of 1.",
+    "syntax_pattern": "[the] shape scale of %shapes%\n%shapes%'[s] shape scale",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9426",
+    "created_at": "2023-09-11T04:29:22.186773Z",
+    "updated_at": "2025-07-27T23:25:39.855876Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the scale of a shape. This is will scale the shape up or down accordingly, with respect to its center.",
-        "This does not affect the number of particles drawn, so a scaled up shape will look more sparse. A negative scale will flip the shape inside-out.",
-        "Changing this will scale the shape accordingly. Resetting or deleting it will set it back to the default scale of 1."
+        "Returns the scale of a shape. This is will scale the shape up or down accordingly, with respect to its center.\nThis does not affect the number of particles drawn, so a scaled up shape will look more sparse. A negative scale will flip the shape inside-out.\nChanging this will scale the shape accordingly. Resetting or deleting it will set it back to the default scale of 1."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9428": {
     "id": 9428,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Shape Side Length - Polygonal/Polyhedral",
+    "description": "Returns the side length of a polygonal/polyhedral shape. This determines how long each side of the shape is.\nChanging this will change the side length of the shape accordingly. Likewise, this changes the radius of the shape. Resetting this will set the side length to the default value of 1 and non-positive values will be set to 0.001.\nNote that changing this property will not affect custom polygons, only regular polygons and polyhedrons.",
+    "syntax_pattern": "[the] side length of %polyshapes%\n%polyshapes%'[s] side length",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9428",
+    "created_at": "2023-09-11T04:29:22.203456Z",
+    "updated_at": "2023-09-11T04:29:22.203470Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the side length of a polygonal/polyhedral shape. This determines how long each side of the shape is.",
-        "Changing this will change the side length of the shape accordingly. Likewise, this changes the radius of the shape. Resetting this will set the side length to the default value of 1 and non-positive values will be set to 0.001.",
-        "Note that changing this property will not affect custom polygons, only regular polygons and polyhedrons."
+        "Returns the side length of a polygonal/polyhedral shape. This determines how long each side of the shape is.\nChanging this will change the side length of the shape accordingly. Likewise, this changes the radius of the shape. Resetting this will set the side length to the default value of 1 and non-positive values will be set to 0.001.\nNote that changing this property will not affect custom polygons, only regular polygons and polyhedrons."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9429": {
     "id": 9429,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Shape Style",
+    "description": "Returns the style of a shape. This determines how the shape is drawn. See the shape style type for more information.\nChanging this will change the style of the shape accordingly.",
+    "syntax_pattern": "[the] style of %shapes%\n%shapes%'[s] style",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Shape Style",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9429",
+    "created_at": "2023-09-11T04:29:22.212578Z",
+    "updated_at": "2023-09-11T04:29:22.212590Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the style of a shape. This determines how the shape is drawn. See the shape style type for more information.",
-        "Changing this will change the style of the shape accordingly."
+        "Returns the style of a shape. This determines how the shape is drawn. See the shape style type for more information.\nChanging this will change the style of the shape accordingly."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9430": {
     "id": 9430,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Star Points",
+    "description": "Returns the number of points on a star. This is the number of points on the star, not the number of particles drawn.\nChanging this will change the number of points on the star. The number of points must be at least 2.",
+    "syntax_pattern": "[the] star points of %shapes%\n%shapes%'[s] star points",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9430",
+    "created_at": "2023-09-11T04:29:22.220998Z",
+    "updated_at": "2023-09-11T04:29:22.221012Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the number of points on a star. This is the number of points on the star, not the number of particles drawn.",
-        "Changing this will change the number of points on the star. The number of points must be at least 2."
+        "Returns the number of points on a star. This is the number of points on the star, not the number of particles drawn.\nChanging this will change the number of points on the star. The number of points must be at least 2."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9432": {
     "id": 9432,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Custom Particle",
+    "description": "Represents a particle with extra data, including offset, count, data, and more.",
+    "syntax_pattern": "customparticle[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9432",
+    "created_at": "2023-09-11T04:29:22.238364Z",
+    "updated_at": "2023-09-11T04:29:22.238377Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a particle with extra data, including offset, count, data, and more."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9433": {
     "id": 9433,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Cutoff Shape",
+    "description": "Represents an abstract particle shape that has a cutoff angle. E.g. arc, spherical cap, etc.",
+    "syntax_pattern": "cutoff[ ]shape[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9433",
+    "created_at": "2023-09-11T04:29:22.246404Z",
+    "updated_at": "2023-09-11T04:29:22.246417Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an abstract particle shape that has a cutoff angle. E.g. arc, spherical cap, etc."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9434": {
     "id": 9434,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Length/Width/Height Shape",
+    "description": "Represents an abstract particle shape that has a length, width, and/or height. E.g. cube, cylinder, ellipse, etc.",
+    "syntax_pattern": "lwh[ ]shape[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9434",
+    "created_at": "2023-09-11T04:29:22.255224Z",
+    "updated_at": "2023-09-11T04:29:22.255236Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an abstract particle shape that has a length, width, and/or height. E.g. cube, cylinder, ellipse, etc."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9436": {
     "id": 9436,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Particle Motion",
+    "description": "Represents the motion of a particle relative to a shape, ie: inwards, outwards, clockwise, etc.",
+    "syntax_pattern": "particle[ ]motion[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9436",
+    "created_at": "2023-09-11T04:29:22.272290Z",
+    "updated_at": "2023-09-11T04:29:22.272302Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents the motion of a particle relative to a shape, ie: inwards, outwards, clockwise, etc."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9437": {
     "id": 9437,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Polygonal/Polyhedral Shape",
+    "description": "Represents an abstract particle shape that is a polygon or polyhedron, with a side length and side count.\nIrregular shapes are included in this category, but do not support changing either side count or side length.",
+    "syntax_pattern": "poly[ ]shape[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9437",
+    "created_at": "2023-09-11T04:29:22.280195Z",
+    "updated_at": "2023-09-11T04:29:22.280207Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Represents an abstract particle shape that is a polygon or polyhedron, with a side length and side count.",
-        "Irregular shapes are included in this category, but do not support changing either side count or side length."
+        "Represents an abstract particle shape that is a polygon or polyhedron, with a side length and side count.\nIrregular shapes are included in this category, but do not support changing either side count or side length."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9438": {
     "id": 9438,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Quaternion",
+    "description": "Quaternions can be used for shape rotations. They're composed of four values, w, x, y, and z. See the Quaternion and AxisAngle functions for ways to create them.",
+    "syntax_pattern": "quaternion[f][s]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9438",
+    "created_at": "2023-09-11T04:29:22.288291Z",
+    "updated_at": "2023-09-11T04:29:22.288304Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Quaternions can be used for shape rotations. They're composed of four values, w, x, y, and z. See the Quaternion and AxisAngle functions for ways to create them."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9439": {
     "id": 9439,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Radial Shape",
+    "description": "Represents an abstract particle shape that has a radius. E.g. circle, sphere, etc.",
+    "syntax_pattern": "radial[ ]shape[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9439",
+    "created_at": "2023-09-11T04:29:22.296575Z",
+    "updated_at": "2023-09-11T04:29:22.296588Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an abstract particle shape that has a radius. E.g. circle, sphere, etc."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9440": {
     "id": 9440,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Shape",
+    "description": "Represents an abstract particle shape. E.g. circle, line, etc.",
+    "syntax_pattern": "shape[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9440",
+    "created_at": "2023-09-11T04:29:22.305065Z",
+    "updated_at": "2023-09-11T04:29:22.305077Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an abstract particle shape. E.g. circle, line, etc."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9441": {
     "id": 9441,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Shape Style",
+    "description": "Represents the way the shape is drawn. Outlined is a wireframe representation, Surface is filling in all the surfaces of the shape, and Filled is filling in the entire shape.",
+    "syntax_pattern": "shape[ ]style[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9441",
+    "created_at": "2023-09-11T04:29:22.313136Z",
+    "updated_at": "2023-09-11T04:29:22.313148Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents the way the shape is drawn. Outlined is a wireframe representation, Surface is filling in all the surfaces of the shape, and Filled is filling in the entire shape."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9442": {
     "id": 9442,
-    "type": "function",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "axisAngle",
+    "description": "Returns a quaternion from the given axis and angle parameters. The axis is a vector composed of 3 numbers, x, y, and z, and the angle is the rotation around that axis, in radians.",
+    "syntax_pattern": "axisAngle(angle: number, x: number, y: number, z: number)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "function",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Quaternion",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9442",
+    "created_at": "2023-09-11T04:29:22.321338Z",
+    "updated_at": "2023-09-11T04:29:22.321351Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a quaternion from the given axis and angle parameters. The axis is a vector composed of 3 numbers, x, y, and z, and the angle is the rotation around that axis, in radians."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9443": {
     "id": 9443,
-    "type": "function",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "axisAngleDegrees",
+    "description": "Returns a quaternion from the given axis and angle parameters. The axis is a vector composed of 3 numbers, x, y, and z, and the angle is the rotation around that axis, in degrees.",
+    "syntax_pattern": "axisAngleDegrees(angle: number, x: number, y: number, z: number)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "function",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Quaternion",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9443",
+    "created_at": "2023-09-11T04:29:22.329476Z",
+    "updated_at": "2023-09-11T04:29:22.329489Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a quaternion from the given axis and angle parameters. The axis is a vector composed of 3 numbers, x, y, and z, and the angle is the rotation around that axis, in degrees."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9444": {
     "id": 9444,
-    "type": "function",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "dustOption",
+    "description": "A mirror of SkBee's dustOption function. For use when SkBee is not installed.\nCreates a new dust option to be used with 'dust' particle. Color can either be a regular color or an RGB color using\nSkript's rgb() function. Size is the size the particle will be.",
+    "syntax_pattern": "dustOption(color: color, size: number)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "function",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "dustoption",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9444",
+    "created_at": "2023-09-11T04:29:22.338389Z",
+    "updated_at": "2023-09-11T04:29:22.338401Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "A mirror of SkBee's dustOption function. For use when SkBee is not installed.",
-        "Creates a new dust option to be used with 'dust' particle. Color can either be a regular color or an RGB color using",
-        "Skript's rgb() function. Size is the size the particle will be."
+        "A mirror of SkBee's dustOption function. For use when SkBee is not installed.\nCreates a new dust option to be used with 'dust' particle. Color can either be a regular color or an RGB color using\nSkript's rgb() function. Size is the size the particle will be."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9446": {
     "id": 9446,
-    "type": "function",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "quaternion",
+    "description": "Returns a quaternion from the given x, y, z and w parameters.",
+    "syntax_pattern": "quaternion(x: number = [[integer:0]], y: number = [[integer:0]], z: number = [[integer:0]], w: number = [[integer:1]])",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "function",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Quaternion",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9446",
+    "created_at": "2023-09-11T04:29:22.355712Z",
+    "updated_at": "2023-09-11T04:29:22.355725Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a quaternion from the given x, y, z and w parameters."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9445": {
     "id": 9445,
-    "type": "function",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "dustTransition",
+    "description": "A mirror of SkBee's dustTransition function. For use when SkBee is not installed.\nCreates a new dust transition to be used with 'dust_color_transition' particle.\nColor can either be a regular color or an RGB color using Skript's rgb() function.\nSize is the size the particle will be. Requires MC 1.17+",
+    "syntax_pattern": "dustTransition(fromColor: color, toColor: color, size: number)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "function",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "dusttransition",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9445",
+    "created_at": "2023-09-11T04:29:22.347023Z",
+    "updated_at": "2024-05-01T19:16:27.733702Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "A mirror of SkBee's dustTransition function. For use when SkBee is not installed.",
-        "Creates a new dust transition to be used with 'dust_color_transition' particle.",
-        "Color can either be a regular color or an RGB color using Skript's rgb() function.",
-        "Size is the size the particle will be. Requires MC 1.17+"
+        "A mirror of SkBee's dustTransition function. For use when SkBee is not installed.\nCreates a new dust transition to be used with 'dust_color_transition' particle.\nColor can either be a regular color or an RGB color using Skript's rgb() function.\nSize is the size the particle will be. Requires MC 1.17+"
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9431": {
     "id": 9431,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Star Radii",
+    "description": "Returns the inner or outer radius of a star. The inner radius is the distance from the center of the star to the innermost points, and likewise the outer radius is the distance to the tips of the star.\nChanging this will change the size of the star. Both radii must be greater than 0.",
+    "syntax_pattern": "[the] (inner|outer) radius of %shapes%\n%shapes%'[s] (inner|outer) radius",
+    "compatible_addon_version": "1.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9431",
+    "created_at": "2023-09-11T04:29:22.229607Z",
+    "updated_at": "2025-07-27T23:25:39.872658Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the inner or outer radius of a star. The inner radius is the distance from the center of the star to the innermost points, and likewise the outer radius is the distance to the tips of the star.",
-        "Changing this will change the size of the star. Both radii must be greater than 0."
+        "Returns the inner or outer radius of a star. The inner radius is the distance from the center of the star to the innermost points, and likewise the outer radius is the distance to the tips of the star.\nChanging this will change the size of the star. Both radii must be greater than 0."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9448": {
     "id": 9448,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Custom Particle Section",
+    "description": "This section can be used in conjunction with the `last created particle` expression to create custom particles.\nThe particle can be any custom particle from skript-particle or from skbee.\nFields include:\n\tcount: integer - the number of particles to create (required)\n\toffset: vector - the offset value of the particle. See the Minecraft wiki on /particle for more info. (default: 0, 0, 0)\n\tvelocity: vector - the velocity of the particle. Can be a vector or a motion (inwards/clockwise/etc.). (default: 0, 0, 0)\n\textra: number - the extra value of the particle. Forces `count` to be 0 and cannot be combined with `offset`. See the Minecraft wiki on /particle for more info. (default: 0)\n\tforce: boolean - whether or not to force the particle to be seen at long range. (default: false)",
+    "syntax_pattern": "create [a] [new] custom %particle% [particle] [with]",
+    "compatible_addon_version": "1.0.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9448",
+    "created_at": "2023-09-11T04:29:22.372652Z",
+    "updated_at": "2026-01-03T03:42:28.434721Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "This section can be used in conjunction with the `last created particle` expression to create custom particles.",
-        "The particle can be any custom particle from skript-particle or from skbee.",
-        "Fields include:",
-        "count: integer - the number of particles to create (required)",
-        "offset: vector - the offset value of the particle. See the Minecraft wiki on /particle for more info. (default: 0, 0, 0)",
-        "velocity: vector - the velocity of the particle. Can be a vector or a motion (inwards/clockwise/etc.). (default: 0, 0, 0)",
-        "extra: number - the extra value of the particle. Forces `count` to be 0 and cannot be combined with `offset`. See the Minecraft wiki on /particle for more info. (default: 0)",
-        "force: boolean - whether or not to force the particle to be seen at long range. (default: false)"
+        "This section can be used in conjunction with the `last created particle` expression to create custom particles.\nThe particle can be any custom particle from skript-particle or from skbee.\nFields include:\n\tcount: integer - the number of particles to create (required)\n\toffset: vector - the offset value of the particle. See the Minecraft wiki on /particle for more info. (default: 0, 0, 0)\n\tvelocity: vector - the velocity of the particle. Can be a vector or a motion (inwards/clockwise/etc.). (default: 0, 0, 0)\n\textra: number - the extra value of the particle. Forces `count` to be 0 and cannot be combined with `offset`. See the Minecraft wiki on /particle for more info. (default: 0)\n\tforce: boolean - whether or not to force the particle to be seen at long range. (default: false)"
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9447": {
     "id": 9447,
-    "type": "function",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "vibration",
+    "description": "A mirror of SkBee's Vibration function. For use when SkBee is not installed.\nCreates a new vibration to be used with 'vibration' particle.\nTO = the destination location the particle will travel to.\nARRIVAL TIME = the time it will take to arrive at the destination location. Requires MC 1.17+",
+    "syntax_pattern": "vibration(to: location, arrivalTime: timespan)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "function",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "vibration",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9447",
+    "created_at": "2023-09-11T04:29:22.363766Z",
+    "updated_at": "2024-05-01T19:16:27.743094Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "A mirror of SkBee's Vibration function. For use when SkBee is not installed.",
-        "Creates a new vibration to be used with 'vibration' particle.",
-        "TO = the destination location the particle will travel to.",
-        "ARRIVAL TIME = the time it will take to arrive at the destination location. Requires MC 1.17+"
+        "A mirror of SkBee's Vibration function. For use when SkBee is not installed.\nCreates a new vibration to be used with 'vibration' particle.\nTO = the destination location the particle will travel to.\nARRIVAL TIME = the time it will take to arrive at the destination location. Requires MC 1.17+"
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9449": {
     "id": 9449,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Draw Shape",
+    "description": "Draws the given shapes at the given locations. The shapes will be drawn in the order they are given.\nThe code inside the draw shape section will be executed before drawing begins. You can use `event-shape` or `drawn shape` to get the shape being drawn. Modifying this shape affects the end result, but it does not modify the original shape! This means you can set particle data, or change the shape's location, rotation, or scale, without affecting the shape the next time it's drawn.\n**Note that this means the section is run once for each shape!** This is the same way the spawn section works in Skript. This is subject to change if people find it cumbersome.\n\nBy default, this effect will run asynchronously, meaning it will do all the calculation and drawing on a separate thread, instead of blocking your server's main thread. This is much better if you want to draw a lot of shapes at once, or if you want to draw large and complex shapes.\nBe aware that this changes the behavior of the section slightly. All the section code will first be executed synchronously, and then the drawing will be done asynchronously. This means that the time the shape appears may be slightly delayed compared to the completion of the section code.\nAdditionally, the code immediately after the draw shape section will be executed immediately, often before the drawing is finished. If you stumble across issues with this, please report them on the Skript-Particles GitHub page and use the synchronous option instead.\n\nDrawing a shape for a duration is async only.",
+    "syntax_pattern": "[sync[hronously]] draw [the] shape[s] [of] %shapes% [%directions% %locations/entities%] [to %players%]\ndraw [the] shape[s] [of] %shapes% [%directions% %locations/entities%] [to %players%] (for) [duration] %timespan% [with (delay|refresh [rate]) [of] %timespan%]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9449",
+    "created_at": "2023-09-11T04:29:22.381095Z",
+    "updated_at": "2025-07-27T23:25:39.889283Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Draws the given shapes at the given locations. The shapes will be drawn in the order they are given.",
-        "The code inside the draw shape section will be executed before drawing begins. You can use `event-shape` or `drawn shape` to get the shape being drawn. Modifying this shape affects the end result, but it does not modify the original shape! This means you can set particle data, or change the shape's location, rotation, or scale, without affecting the shape the next time it's drawn.",
-        "**Note that this means the section is run once for each shape!** This is the same way the spawn section works in Skript. This is subject to change if people find it cumbersome.",
-        "By default, this effect will run asynchronously, meaning it will do all the calculation and drawing on a separate thread, instead of blocking your server's main thread. This is much better if you want to draw a lot of shapes at once, or if you want to draw large and complex shapes.",
-        "Be aware that this changes the behavior of the section slightly. All the section code will first be executed synchronously, and then the drawing will be done asynchronously. This means that the time the shape appears may be slightly delayed compared to the completion of the section code.",
-        "Additionally, the code immediately after the draw shape section will be executed immediately, often before the drawing is finished. If you stumble across issues with this, please report them on the Skript-Particles GitHub page and use the synchronous option instead.",
-        "Drawing a shape for a duration is async only."
+        "Draws the given shapes at the given locations. The shapes will be drawn in the order they are given.\nThe code inside the draw shape section will be executed before drawing begins. You can use `event-shape` or `drawn shape` to get the shape being drawn. Modifying this shape affects the end result, but it does not modify the original shape! This means you can set particle data, or change the shape's location, rotation, or scale, without affecting the shape the next time it's drawn.\n**Note that this means the section is run once for each shape!** This is the same way the spawn section works in Skript. This is subject to change if people find it cumbersome.\n\nBy default, this effect will run asynchronously, meaning it will do all the calculation and drawing on a separate thread, instead of blocking your server's main thread. This is much better if you want to draw a lot of shapes at once, or if you want to draw large and complex shapes.\nBe aware that this changes the behavior of the section slightly. All the section code will first be executed synchronously, and then the drawing will be done asynchronously. This means that the time the shape appears may be slightly delayed compared to the completion of the section code.\nAdditionally, the code immediately after the draw shape section will be executed immediately, often before the drawing is finished. If you stumble across issues with this, please report them on the Skript-Particles GitHub page and use the synchronous option instead.\n\nDrawing a shape for a duration is async only."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9391": {
     "id": 9391,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Rotate Shape",
+    "description": "Rotates shapes around a given axis by a given angle. The axis can be specified as a vector or as a single axis (x, y, or z). By default, the rotation is done in degrees.\nThe axis can also be specified as a local or relative axis, which rotate relative to the shape's current rotation.\nFor example, you can rotate a shape around the global y axis, or around the shape's local y axis.",
+    "syntax_pattern": "rotate shape[s] %shapes% around [(relative|local)] (%vector%|((x|y|z)(-| )axis)) by %number% [degrees|radians]\nrotate shape[s] %shapes% (by|with) [rotation] %quaternion%\nrotate [drawn] shape[s] around [(relative|local)] (%vector%|((x|y|z)(-| )axis)) by %number% [degrees|radians]\nrotate [drawn] shape[s] (by|with) [rotation] %quaternion%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9391",
+    "created_at": "2023-09-11T04:29:21.766944Z",
+    "updated_at": "2025-07-27T23:25:39.640407Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Rotates shapes around a given axis by a given angle. The axis can be specified as a vector or as a single axis (x, y, or z). By default, the rotation is done in degrees.",
-        "The axis can also be specified as a local or relative axis, which rotate relative to the shape's current rotation.",
-        "For example, you can rotate a shape around the global y axis, or around the shape's local y axis."
+        "Rotates shapes around a given axis by a given angle. The axis can be specified as a vector or as a single axis (x, y, or z). By default, the rotation is done in degrees.\nThe axis can also be specified as a local or relative axis, which rotate relative to the shape's current rotation.\nFor example, you can rotate a shape around the global y axis, or around the shape's local y axis."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9415": {
     "id": 9415,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Shape Copy",
+    "description": "Returns a copy of the given shape. This is useful if you want a modified version of a shape without changing the original.",
+    "syntax_pattern": "[a] shape cop(y|ies) of %shapes%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9415",
+    "created_at": "2023-09-11T04:29:21.971588Z",
+    "updated_at": "2023-11-24T23:27:19.788896Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a copy of the given shape. This is useful if you want a modified version of a shape without changing the original."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9898": {
     "id": 9898,
-    "type": "section",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Draw Shape Animation",
+    "description": "Draws an animation of the shape at the given location(s).\nCurrently this is in the order the shape points are calculated, but there may be more options in the future.",
+    "syntax_pattern": "draw [an] (animation [of] [the]|animated) shape[s] [of] %shapes% [%directions% %locations/entities%] [to %players%] over %timespan%",
+    "compatible_addon_version": "1.2.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "section",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9898",
+    "created_at": "2023-11-24T23:27:19.814032Z",
+    "updated_at": "2023-11-24T23:27:19.814046Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Draws an animation of the shape at the given location(s).",
-        "Currently this is in the order the shape points are calculated, but there may be more options in the future."
+        "Draws an animation of the shape at the given location(s).\nCurrently this is in the order the shape points are calculated, but there may be more options in the future."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11457": {
     "id": 11457,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Shape Animation Ordering",
+    "description": "Controls the order in which the draw animation effect will draw points. Currently WIP, only supports 2 special orderings.\nlowest-to-highest, which draws from -x -y -z to x y z, and the reverse.",
+    "syntax_pattern": "set the animation order of %shapes% to (default|lowest-to-highest|highest-to-lowest)",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11457",
+    "created_at": "2024-05-01T19:16:27.684385Z",
+    "updated_at": "2025-07-27T23:25:39.659143Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Controls the order in which the draw animation effect will draw points. Currently WIP, only supports 2 special orderings.",
-        "lowest-to-highest, which draws from -x -y -z to x y z, and the reverse."
+        "Controls the order in which the draw animation effect will draw points. Currently WIP, only supports 2 special orderings.\nlowest-to-highest, which draws from -x -y -z to x y z, and the reverse."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11458": {
     "id": 11458,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Particle Bezier Curve",
+    "description": "Creates a bezier curve between the given start and end points, using the given control points to change the curve.",
+    "syntax_pattern": "[a] [bezier] curve from [start] %vector/entity/location% to [end] %vector/entity/location% (with|using) control point[s] %vectors/entities/locations%",
+    "compatible_addon_version": "1.3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11458",
+    "created_at": "2024-05-01T19:16:27.695804Z",
+    "updated_at": "2025-07-27T23:25:39.683957Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a bezier curve between the given start and end points, using the given control points to change the curve."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9407": {
     "id": 9407,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Particle Rectangle",
+    "description": "Creates a rectangle from a length and a width, or from two corners. The length and width must be greater than 0.\nWhen defining a rectangle from two corners, the corners can either be vectors or locations/entities. You cannot use both vectors and locations/entities, but you can mix and match locations and entities. When using locations, this is a shape that can be drawn without a specific location. It will be drawn between the two given locations.\nNote that the rectangle defaults to the xz plane, or parallel to the ground, with x being width and z being length. You can change this to the xy or yz plane by using the 'xy' or 'yz'. In all cases, the first axis is length and the second is width.",
+    "syntax_pattern": "[a[n]] [(solid|filled)] [xz|xy|yz] rectangle (with|of) length %number% and width %number%\n[a[n]] [(solid|filled)] [xz|xy|yz] rectangle (from|with corners [at]) %location/entity/vector% (to|and) %location/entity/vector%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Length/Width/Height Shape",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9407",
+    "created_at": "2023-09-11T04:29:21.903423Z",
+    "updated_at": "2025-07-27T23:25:39.752027Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a rectangle from a length and a width, or from two corners. The length and width must be greater than 0.",
-        "When defining a rectangle from two corners, the corners can either be vectors or locations/entities. You cannot use both vectors and locations/entities, but you can mix and match locations and entities. When using locations, this is a shape that can be drawn without a specific location. It will be drawn between the two given locations.",
-        "Note that the rectangle defaults to the xz plane, or parallel to the ground, with x being width and z being length. You can change this to the xy or yz plane by using the 'xy' or 'yz'. In all cases, the first axis is length and the second is width."
+        "Creates a rectangle from a length and a width, or from two corners. The length and width must be greater than 0.\nWhen defining a rectangle from two corners, the corners can either be vectors or locations/entities. You cannot use both vectors and locations/entities, but you can mix and match locations and entities. When using locations, this is a shape that can be drawn without a specific location. It will be drawn between the two given locations.\nNote that the rectangle defaults to the xz plane, or parallel to the ground, with x being width and z being length. You can change this to the xy or yz plane by using the 'xy' or 'yz'. In all cases, the first axis is length and the second is width."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9422": {
     "id": 9422,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Shape Particle Density / Particle Count",
+    "description": "The density at which particles are spawned in a shape. This is in \"particles per meter\" (ppm), and defaults to 4.Be careful with this property, as it can cause lag if set to a high number. It's recommended to not go above 20 or so for this reason. 1000 ppm is the maximum value.\nKeep in mind that this value scales with dimensions. A 1 meter line with a density of 20 will spawn 20 particles, but a 1 meter cube with a density of 20 will spawn 8,000 particles (2,400 if hollow).\nAlso, be aware that this may not be exact. Some shapes, like cuboids, will tweak the density a bit to ensure particles land exactly on the borders of the shape.\n\nThis syntax also supports setting the particle count directly, which is the amount of particles spawned in a shape.\nNote that this is NOT exact. The actual amount of particles spawned will be the closest multiple of the particle count to the amount of particles needed to draw the shape.\nFor example, if the particle count of a solid cube is set to 100, the actual amount of particles spawned will be 125, which is the nearest cubic number.\nThe returned value of this expression will always be the accurate amount of particles spawned in a shape.\n\nChanging this will change the particle density or count of the shape. Resetting or deleting it will set it back to the default density (4).",
+    "syntax_pattern": "[the] particle (density|count) of %shapes%\n%shapes%'[s] particle (density|count)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9422",
+    "created_at": "2023-09-11T04:29:22.153805Z",
+    "updated_at": "2025-07-27T23:25:39.838735Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "The density at which particles are spawned in a shape. This is in \"particles per meter\" (ppm), and defaults to 4.Be careful with this property, as it can cause lag if set to a high number. It's recommended to not go above 20 or so for this reason. 1000 ppm is the maximum value.",
-        "Keep in mind that this value scales with dimensions. A 1 meter line with a density of 20 will spawn 20 particles, but a 1 meter cube with a density of 20 will spawn 8,000 particles (2,400 if hollow).",
-        "Also, be aware that this may not be exact. Some shapes, like cuboids, will tweak the density a bit to ensure particles land exactly on the borders of the shape.",
-        "This syntax also supports setting the particle count directly, which is the amount of particles spawned in a shape.",
-        "Note that this is NOT exact. The actual amount of particles spawned will be the closest multiple of the particle count to the amount of particles needed to draw the shape.",
-        "For example, if the particle count of a solid cube is set to 100, the actual amount of particles spawned will be 125, which is the nearest cubic number.",
-        "The returned value of this expression will always be the accurate amount of particles spawned in a shape.",
-        "Changing this will change the particle density or count of the shape. Resetting or deleting it will set it back to the default density (4)."
+        "The density at which particles are spawned in a shape. This is in \"particles per meter\" (ppm), and defaults to 4.Be careful with this property, as it can cause lag if set to a high number. It's recommended to not go above 20 or so for this reason. 1000 ppm is the maximum value.\nKeep in mind that this value scales with dimensions. A 1 meter line with a density of 20 will spawn 20 particles, but a 1 meter cube with a density of 20 will spawn 8,000 particles (2,400 if hollow).\nAlso, be aware that this may not be exact. Some shapes, like cuboids, will tweak the density a bit to ensure particles land exactly on the borders of the shape.\n\nThis syntax also supports setting the particle count directly, which is the amount of particles spawned in a shape.\nNote that this is NOT exact. The actual amount of particles spawned will be the closest multiple of the particle count to the amount of particles needed to draw the shape.\nFor example, if the particle count of a solid cube is set to 100, the actual amount of particles spawned will be 125, which is the nearest cubic number.\nThe returned value of this expression will always be the accurate amount of particles spawned in a shape.\n\nChanging this will change the particle density or count of the shape. Resetting or deleting it will set it back to the default density (4)."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9435": {
     "id": 9435,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Sovde",
+    "title": "Custom Particle",
+    "description": "Represents a particle with extra shape-related data, like motion.",
+    "syntax_pattern": "customparticle[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skript-Particle",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9435",
+    "created_at": "2023-09-11T04:29:22.263427Z",
+    "updated_at": "2026-01-03T03:42:28.425185Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a particle with extra shape-related data, like motion."
       ],
       "ko": [
-        "[Skript-Particle] 한국어 가이드팩 준비 중"
+        "[SKRIPT-PARTICLE] 한국어 가이드 번역 대기 중"
       ]
     }
   }

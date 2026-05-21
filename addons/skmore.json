@@ -1,212 +1,466 @@
 {
   "syntax_6166": {
     "id": 6166,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Tarna256",
+    "title": "Plugin",
+    "description": "A plugin type used for plugin enable and disable events",
+    "syntax_pattern": "plugin",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkMore",
+    "type_usage": "(name of plugin)",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6166",
+    "created_at": "2021-10-05T23:34:06.045139Z",
+    "updated_at": "2021-10-05T23:34:06.045162Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "A plugin type used for plugin enable and disable events"
       ],
       "ko": [
-        "[SkMore] 한국어 가이드팩 준비 중"
+        "[SKMORE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6167": {
     "id": 6167,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Tarna256",
+    "title": "Plugin is Loaded",
+    "description": "Checks if a certain plugin is enabled",
+    "syntax_pattern": "plugin %string% (is|(is not|isn't)) (enabled|activated|loaded)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkMore",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6167",
+    "created_at": "2021-10-05T23:39:38.373677Z",
+    "updated_at": "2021-10-06T00:31:23.016326Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a certain plugin is enabled"
       ],
       "ko": [
-        "[SkMore] 한국어 가이드팩 준비 중"
+        "[SKMORE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6168": {
     "id": 6168,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Tarna256",
+    "title": "Disable Plugin",
+    "description": "Disable a certain plugin",
+    "syntax_pattern": "(deactivate|disable) plugin %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkMore",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6168",
+    "created_at": "2021-10-05T23:40:50.627435Z",
+    "updated_at": "2021-10-05T23:41:57.124811Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Disable a certain plugin"
       ],
       "ko": [
-        "[SkMore] 한국어 가이드팩 준비 중"
+        "[SKMORE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6169": {
     "id": 6169,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Tarna256",
+    "title": "Enable Plugin",
+    "description": "Enable a certain plugin",
+    "syntax_pattern": "(activate|enable) plugin %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkMore",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6169",
+    "created_at": "2021-10-05T23:41:37.217475Z",
+    "updated_at": "2021-10-05T23:42:05.670188Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Enable a certain plugin"
       ],
       "ko": [
-        "[SkMore] 한국어 가이드팩 준비 중"
+        "[SKMORE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6170": {
     "id": 6170,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Tarna256",
+    "title": "Reload Config",
+    "description": "Reloads config of certain plugin",
+    "syntax_pattern": "(rl|reload) [plugin] config of %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkMore",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6170",
+    "created_at": "2021-10-05T23:42:59.218801Z",
+    "updated_at": "2021-10-05T23:42:59.218824Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Reloads config of certain plugin"
       ],
       "ko": [
-        "[SkMore] 한국어 가이드팩 준비 중"
+        "[SKMORE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6171": {
     "id": 6171,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Tarna256",
+    "title": "On Plugin Enable",
+    "description": "Called when a plugin enables",
+    "syntax_pattern": "[on] [plugin] enable [of %plugin%]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkMore",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-plugin",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6171",
+    "created_at": "2021-10-05T23:45:23.099236Z",
+    "updated_at": "2021-10-05T23:45:23.099258Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a plugin enables"
       ],
       "ko": [
-        "[SkMore] 한국어 가이드팩 준비 중"
+        "[SKMORE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6172": {
     "id": 6172,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Tarna256",
+    "title": "On Plugin Disable",
+    "description": "Called when a plugin disables",
+    "syntax_pattern": "[on] [plugin] disable [of %plugin%]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkMore",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-plugin",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6172",
+    "created_at": "2021-10-05T23:45:59.120862Z",
+    "updated_at": "2021-10-05T23:45:59.120882Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a plugin disables"
       ],
       "ko": [
-        "[SkMore] 한국어 가이드팩 준비 중"
+        "[SKMORE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6173": {
     "id": 6173,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Tarna256",
+    "title": "Plugin List",
+    "description": "Returns a list of server plugins",
+    "syntax_pattern": "plugin list [of server]\nserver's plugin list",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkMore",
+    "type_usage": null,
+    "return_type": "plugin",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6173",
+    "created_at": "2021-10-05T23:50:55.349210Z",
+    "updated_at": "2021-10-05T23:50:55.349232Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a list of server plugins"
       ],
       "ko": [
-        "[SkMore] 한국어 가이드팩 준비 중"
+        "[SKMORE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6174": {
     "id": 6174,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Tarna256",
+    "title": "Player is Owner",
+    "description": "Checks if a player is an owner\r\n\r\nSet server owners in the SkMore config",
+    "syntax_pattern": "%player% (is|(is not|isn't)) owner",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkMore",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6174",
+    "created_at": "2021-10-06T00:31:06.987781Z",
+    "updated_at": "2021-10-06T00:31:06.987805Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Checks if a player is an owner",
-        "Set server owners in the SkMore config"
+        "Checks if a player is an owner\r\n\r\nSet server owners in the SkMore config"
       ],
       "ko": [
-        "[SkMore] 한국어 가이드팩 준비 중"
+        "[SKMORE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6175": {
     "id": 6175,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Tarna256",
+    "title": "Reload Server",
+    "description": "Reloads the server",
+    "syntax_pattern": "(rl|reload) server",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkMore",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6175",
+    "created_at": "2021-10-06T00:34:06.935202Z",
+    "updated_at": "2021-10-06T00:34:06.935227Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Reloads the server"
       ],
       "ko": [
-        "[SkMore] 한국어 가이드팩 준비 중"
+        "[SKMORE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6176": {
     "id": 6176,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Tarna256",
+    "title": "Send With Permission",
+    "description": "Send message to players with a certain permission",
+    "syntax_pattern": "send %strings% to players with perm[ission] %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkMore",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6176",
+    "created_at": "2021-10-06T00:35:23.219445Z",
+    "updated_at": "2021-10-06T00:35:23.219468Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Send message to players with a certain permission"
       ],
       "ko": [
-        "[SkMore] 한국어 가이드팩 준비 중"
+        "[SKMORE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6177": {
     "id": 6177,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Tarna256",
+    "title": "Player from UUID",
+    "description": "Returns a player from a certain UUID",
+    "syntax_pattern": "[the] player from [uuid] %string%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkMore",
+    "type_usage": null,
+    "return_type": "player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6177",
+    "created_at": "2021-10-06T00:36:49.436062Z",
+    "updated_at": "2021-10-06T00:36:49.436086Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a player from a certain UUID"
       ],
       "ko": [
-        "[SkMore] 한국어 가이드팩 준비 중"
+        "[SKMORE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6178": {
     "id": 6178,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Tarna256",
+    "title": "World Exists",
+    "description": "Checks if a world exists",
+    "syntax_pattern": "world %string% (exists|(does not|doesn't) exist)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkMore",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6178",
+    "created_at": "2021-10-06T00:38:07.082693Z",
+    "updated_at": "2021-10-06T00:38:07.082716Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if a world exists"
       ],
       "ko": [
-        "[SkMore] 한국어 가이드팩 준비 중"
+        "[SKMORE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6179": {
     "id": 6179,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Tarna256",
+    "title": "Average of Numbers",
+    "description": "Returns the average of a list of numbers",
+    "syntax_pattern": "(mean|average|avg) of %numbers%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkMore",
+    "type_usage": null,
+    "return_type": "number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6179",
+    "created_at": "2021-10-06T00:39:38.567334Z",
+    "updated_at": "2021-10-06T00:39:38.567355Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the average of a list of numbers"
       ],
       "ko": [
-        "[SkMore] 한국어 가이드팩 준비 중"
+        "[SKMORE] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6180": {
     "id": 6180,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Tarna256",
+    "title": "Mode of Numbers",
+    "description": "Returns the mode of a list of numbers",
+    "syntax_pattern": "mode of %numbers%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkMore",
+    "type_usage": null,
+    "return_type": "number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6180",
+    "created_at": "2021-10-06T00:40:26.093580Z",
+    "updated_at": "2021-10-06T00:40:26.093603Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the mode of a list of numbers"
       ],
       "ko": [
-        "[SkMore] 한국어 가이드팩 준비 중"
+        "[SKMORE] 한국어 가이드 번역 대기 중"
       ]
     }
   }

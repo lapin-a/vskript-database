@@ -1,173 +1,373 @@
 {
   "syntax_6060": {
     "id": 6060,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hapily",
+    "title": "Add Entity to Team",
+    "description": "Adds an entity to a team.\nNOTE: Entities are added to the team via their ID and players are added via their name.",
+    "syntax_pattern": "add %entities% to [the] team [named|with the name] %string%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-teams",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6060",
+    "created_at": "2021-09-07T02:09:41.504610Z",
+    "updated_at": "2021-09-07T02:09:41.504633Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Adds an entity to a team.",
-        "NOTE: Entities are added to the team via their ID and players are added via their name."
+        "Adds an entity to a team.\nNOTE: Entities are added to the team via their ID and players are added via their name."
       ],
       "ko": [
-        "[skript-teams] 한국어 가이드팩 준비 중"
+        "[SKRIPT-TEAMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6061": {
     "id": 6061,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hapily",
+    "title": "Delete/Unregister Team",
+    "description": "Unregisters/Deletes a team",
+    "syntax_pattern": "(delete|remove|unregister) [a] team [named|with the name] %string%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-teams",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6061",
+    "created_at": "2021-09-07T02:09:41.922137Z",
+    "updated_at": "2021-09-07T02:09:41.922157Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Unregisters/Deletes a team"
       ],
       "ko": [
-        "[skript-teams] 한국어 가이드팩 준비 중"
+        "[SKRIPT-TEAMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6062": {
     "id": 6062,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hapily",
+    "title": "Register Team",
+    "description": "Registers/creates a team",
+    "syntax_pattern": "(create|make|register) [a] [new] team %string%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-teams",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6062",
+    "created_at": "2021-09-07T02:09:41.930213Z",
+    "updated_at": "2021-09-07T02:09:41.930228Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Registers/creates a team"
       ],
       "ko": [
-        "[skript-teams] 한국어 가이드팩 준비 중"
+        "[SKRIPT-TEAMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6063": {
     "id": 6063,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hapily",
+    "title": "Remove All Potion Effects",
+    "description": "Removes/deletes all potion effects from an entity.",
+    "syntax_pattern": "(remove|delete) all potion effects from %livingentities%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-teams",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6063",
+    "created_at": "2021-09-07T02:09:41.938320Z",
+    "updated_at": "2021-09-07T02:09:41.938336Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Removes/deletes all potion effects from an entity."
       ],
       "ko": [
-        "[skript-teams] 한국어 가이드팩 준비 중"
+        "[SKRIPT-TEAMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6064": {
     "id": 6064,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hapily",
+    "title": "Remove Entity from Team",
+    "description": "Removes an entity from a team.\nNOTE: Entities are removed from the team via their ID and players are removed via their name.",
+    "syntax_pattern": "(remove|delete) %entities% from [the] team [named|with the name] %string%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-teams",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6064",
+    "created_at": "2021-09-07T02:09:41.946258Z",
+    "updated_at": "2021-09-07T02:09:41.946276Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Removes an entity from a team.",
-        "NOTE: Entities are removed from the team via their ID and players are removed via their name."
+        "Removes an entity from a team.\nNOTE: Entities are removed from the team via their ID and players are removed via their name."
       ],
       "ko": [
-        "[skript-teams] 한국어 가이드팩 준비 중"
+        "[SKRIPT-TEAMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6065": {
     "id": 6065,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hapily",
+    "title": "Color of Team",
+    "description": "Sets/gets the color of the specified team.\nCOLORS: red, dark_red, blue, dark_blue, aqua, dark_aqua, dark_purple, light_purple, black, white, yellow, gold, gray, dark_gray, green and dark_green",
+    "syntax_pattern": "team color of %string%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-teams",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6065",
+    "created_at": "2021-09-07T02:09:41.954211Z",
+    "updated_at": "2021-09-07T02:09:41.954227Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Sets/gets the color of the specified team.",
-        "COLORS: red, dark_red, blue, dark_blue, aqua, dark_aqua, dark_purple, light_purple, black, white, yellow, gold, gray, dark_gray, green and dark_green"
+        "Sets/gets the color of the specified team.\nCOLORS: red, dark_red, blue, dark_blue, aqua, dark_aqua, dark_purple, light_purple, black, white, yellow, gold, gray, dark_gray, green and dark_green"
       ],
       "ko": [
-        "[skript-teams] 한국어 가이드팩 준비 중"
+        "[SKRIPT-TEAMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6066": {
     "id": 6066,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hapily",
+    "title": "Display Name of Team",
+    "description": "Sets/gets the display-name of the specified team shown in /team list.\nNOTE: The original name of the team will still need to be used when modifying the team in any way.",
+    "syntax_pattern": "display[( |-)]name of team %string%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-teams",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6066",
+    "created_at": "2021-09-07T02:09:41.962271Z",
+    "updated_at": "2021-09-07T02:09:41.962287Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Sets/gets the display-name of the specified team shown in /team list.",
-        "NOTE: The original name of the team will still need to be used when modifying the team in any way."
+        "Sets/gets the display-name of the specified team shown in /team list.\nNOTE: The original name of the team will still need to be used when modifying the team in any way."
       ],
       "ko": [
-        "[skript-teams] 한국어 가이드팩 준비 중"
+        "[SKRIPT-TEAMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6067": {
     "id": 6067,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hapily",
+    "title": "Entries of Team",
+    "description": "Gets all of the entries in the specified team.",
+    "syntax_pattern": "team entries of %string%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-teams",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6067",
+    "created_at": "2021-09-07T02:09:41.970787Z",
+    "updated_at": "2021-09-07T02:09:41.970803Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets all of the entries in the specified team."
       ],
       "ko": [
-        "[skript-teams] 한국어 가이드팩 준비 중"
+        "[SKRIPT-TEAMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6068": {
     "id": 6068,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hapily",
+    "title": "Prefix of Team",
+    "description": "Sets/gets the prefix of the specified team.",
+    "syntax_pattern": "prefix of team %string%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-teams",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6068",
+    "created_at": "2021-09-07T02:09:41.978616Z",
+    "updated_at": "2021-09-07T02:09:41.978632Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets/gets the prefix of the specified team."
       ],
       "ko": [
-        "[skript-teams] 한국어 가이드팩 준비 중"
+        "[SKRIPT-TEAMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6069": {
     "id": 6069,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hapily",
+    "title": "Size of Team",
+    "description": "Gets the size of the specified team.",
+    "syntax_pattern": "team size of %string%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-teams",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6069",
+    "created_at": "2021-09-07T02:09:41.986318Z",
+    "updated_at": "2021-09-07T02:09:41.986334Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the size of the specified team."
       ],
       "ko": [
-        "[skript-teams] 한국어 가이드팩 준비 중"
+        "[SKRIPT-TEAMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6070": {
     "id": 6070,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hapily",
+    "title": "Suffix of Team",
+    "description": "Sets/gets the prefix of the specified team.",
+    "syntax_pattern": "suffix of team %string%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-teams",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6070",
+    "created_at": "2021-09-07T02:09:41.993758Z",
+    "updated_at": "2021-09-07T02:09:41.993774Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets/gets the prefix of the specified team."
       ],
       "ko": [
-        "[skript-teams] 한국어 가이드팩 준비 중"
+        "[SKRIPT-TEAMS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6071": {
     "id": 6071,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hapily",
+    "title": "Team of Entity",
+    "description": "Gets the team of the specified entity.",
+    "syntax_pattern": "team of %entities%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-teams",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6071",
+    "created_at": "2021-09-07T02:09:42.006726Z",
+    "updated_at": "2021-09-07T02:09:42.006743Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the team of the specified entity."
       ],
       "ko": [
-        "[skript-teams] 한국어 가이드팩 준비 중"
+        "[SKRIPT-TEAMS] 한국어 가이드 번역 대기 중"
       ]
     }
   }

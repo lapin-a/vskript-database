@@ -1,113 +1,218 @@
 {
   "syntax_11212": {
     "id": 11212,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Attribute Modifier - Properties",
+    "description": "Gets or sets a property of an attribute modifier. The properties can be set to the following:\n- Attribute: attribute type\n- Name: string\n- UUID: string\n- Amount: number\n- Slot: equipment slot\n- Operation: attribute modifier operation",
+    "syntax_pattern": "[attribute[ ]]modifier attribute of %attributemodifiers%\n[attribute[ ]]modifier name of %attributemodifiers%\n[attribute[ ]]modifier (amount|increment) of %attributemodifiers%\n[attribute[ ]]modifier operat(or|ion) of %attributemodifiers%\n[attribute[ ]]modifier slot of %attributemodifiers%\n[attribute[ ]]modifier uuid of %attributemodifiers%",
+    "compatible_addon_version": "0.1.0-beta",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCheez",
+    "type_usage": null,
+    "return_type": "attribute/string/number/equipmentslot/attributemodifieroperation",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11212",
+    "created_at": "2024-03-17T14:01:18.367151Z",
+    "updated_at": "2024-03-17T14:01:18.367171Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Gets or sets a property of an attribute modifier. The properties can be set to the following:",
-        "- Attribute: attribute type",
-        "- Name: string",
-        "- UUID: string",
-        "- Amount: number",
-        "- Slot: equipment slot",
-        "- Operation: attribute modifier operation"
+        "Gets or sets a property of an attribute modifier. The properties can be set to the following:\n- Attribute: attribute type\n- Name: string\n- UUID: string\n- Amount: number\n- Slot: equipment slot\n- Operation: attribute modifier operation"
       ],
       "ko": [
-        "[SkCheez] 한국어 가이드팩 준비 중"
+        "[SKCHEEZ] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11213": {
     "id": 11213,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Attribute Modifiers - Item",
+    "description": "Gets or modifies the attribute modifiers of an item.\nThis will always return a list, even if there's only 1.",
+    "syntax_pattern": "[attribute[ ]]modifiers of %itemtypes%\n%itemtypes%'s [attribute[ ]]modifiers",
+    "compatible_addon_version": "0.1.0-beta",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCheez",
+    "type_usage": null,
+    "return_type": "attribute modifier wrappers",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11213",
+    "created_at": "2024-03-17T14:03:39.637395Z",
+    "updated_at": "2024-03-17T14:03:39.637411Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Gets or modifies the attribute modifiers of an item.",
-        "This will always return a list, even if there's only 1."
+        "Gets or modifies the attribute modifiers of an item.\nThis will always return a list, even if there's only 1."
       ],
       "ko": [
-        "[SkCheez] 한국어 가이드팩 준비 중"
+        "[SKCHEEZ] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11214": {
     "id": 11214,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Attribute Modifier",
+    "description": "Represents an attribute modifier.\nDue to the complexity of these, they cannot be stored in variables long term.",
+    "syntax_pattern": "attribute[ ]modifier[s]",
+    "compatible_addon_version": "0.1.0-beta",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkCheez",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11214",
+    "created_at": "2024-03-17T14:05:42.429423Z",
+    "updated_at": "2024-03-17T14:05:42.429456Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Represents an attribute modifier.",
-        "Due to the complexity of these, they cannot be stored in variables long term."
+        "Represents an attribute modifier.\nDue to the complexity of these, they cannot be stored in variables long term."
       ],
       "ko": [
-        "[SkCheez] 한국어 가이드팩 준비 중"
+        "[SKCHEEZ] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11215": {
     "id": 11215,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Attribute Modifier - Operation",
+    "description": "Represents the operations an attribute modifier can use.",
+    "syntax_pattern": "attribute[ ]modifier[ ]operation[s]",
+    "compatible_addon_version": "0.1.0-beta",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkCheez",
+    "type_usage": "add number, multiply number, multiply scalar 1",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11215",
+    "created_at": "2024-03-17T14:07:10.230844Z",
+    "updated_at": "2024-03-17T14:07:10.230864Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents the operations an attribute modifier can use."
       ],
       "ko": [
-        "[SkCheez] 한국어 가이드팩 준비 중"
+        "[SKCHEEZ] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11217": {
     "id": 11217,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Has Attribute Modifiers",
+    "description": "Checks if an item has any attribute modifiers.",
+    "syntax_pattern": "%itemtypes% (has|have) [a|an] [attribute] modifier[s]\n%itemtypes% (doesn't|does not|do not|don't) have [a|an] [attribute] modifier[s]",
+    "compatible_addon_version": "0.1.0-beta",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkCheez",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11217",
+    "created_at": "2024-03-17T14:11:14.674382Z",
+    "updated_at": "2024-03-17T14:11:14.674399Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Checks if an item has any attribute modifiers."
       ],
       "ko": [
-        "[SkCheez] 한국어 가이드팩 준비 중"
+        "[SKCHEEZ] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11211": {
     "id": 11211,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Attribute Modifier - Create",
+    "description": "Creates a new attribute modifier, which can be applied to items.\nAll of the optional parts in the pattern (the operation, uuid, and slot), have default values as follows:\n- Operation: add number\n- UUID: random uuid\n- Slot: all slots (which is actually stored as no slot)\n\nKeep in mind that attributes can only be modified to their min and max values.\nFor more information, see the [SkCheez wiki page](https://github.com/cheeezburga/SkCheez/wiki/attribute-modifiers) or the [Minecraft wiki page](https://minecraft.wiki/w/Attribute).",
+    "syntax_pattern": "[new] %attributetype% [attribute] modifier (named|with name|with id) %string% with amount %number% [with operation %-attributemodifieroperation%] [with uuid %-string%] [for [equipment] slot %-equipmentslot%]",
+    "compatible_addon_version": "0.1.0-beta",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkCheez",
+    "type_usage": null,
+    "return_type": "attribute modifier wrapper",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11211",
+    "created_at": "2024-03-17T13:55:47.249358Z",
+    "updated_at": "2024-03-17T14:21:07.380194Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Creates a new attribute modifier, which can be applied to items.",
-        "All of the optional parts in the pattern (the operation, uuid, and slot), have default values as follows:",
-        "- Operation: add number",
-        "- UUID: random uuid",
-        "- Slot: all slots (which is actually stored as no slot)",
-        "Keep in mind that attributes can only be modified to their min and max values.",
-        "For more information, see the [SkCheez wiki page](https://github.com/cheeezburga/SkCheez/wiki/attribute-modifiers) or the [Minecraft wiki page](https://minecraft.wiki/w/Attribute)."
+        "Creates a new attribute modifier, which can be applied to items.\nAll of the optional parts in the pattern (the operation, uuid, and slot), have default values as follows:\n- Operation: add number\n- UUID: random uuid\n- Slot: all slots (which is actually stored as no slot)\n\nKeep in mind that attributes can only be modified to their min and max values.\nFor more information, see the [SkCheez wiki page](https://github.com/cheeezburga/SkCheez/wiki/attribute-modifiers) or the [Minecraft wiki page](https://minecraft.wiki/w/Attribute)."
       ],
       "ko": [
-        "[SkCheez] 한국어 가이드팩 준비 중"
+        "[SKCHEEZ] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11216": {
     "id": 11216,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheezburga",
+    "title": "Equipment Slot",
+    "description": "Represents the equipment slots that (in SkCheez) an attribute modifier can use. Other addons might register this type and use it in their syntax as well.",
+    "syntax_pattern": "equipment[ ]slot[s]",
+    "compatible_addon_version": "0.1.0-beta",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkCheez",
+    "type_usage": "hand slot, off hand slot, head slot, chest slot, legs slot, feet slot",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11216",
+    "created_at": "2024-03-17T14:09:23.218290Z",
+    "updated_at": "2024-03-19T03:40:25.288668Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents the equipment slots that (in SkCheez) an attribute modifier can use. Other addons might register this type and use it in their syntax as well."
       ],
       "ko": [
-        "[SkCheez] 한국어 가이드팩 준비 중"
+        "[SKCHEEZ] 한국어 가이드 번역 대기 중"
       ]
     }
   }

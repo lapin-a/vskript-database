@@ -1,53 +1,63 @@
 {
   "syntax_2802": {
     "id": 2802,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Blueyescat",
+    "title": "JSON Form",
+    "description": "Converts a JSON (as list variable) into JSON form.",
+    "syntax_pattern": "[the] [serialized] json (form|representation) of %objects%\n%objects%'[s] [serialized] json (form|representation)",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "skript-json",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2802",
+    "created_at": "2018-07-04T16:04:48.026649Z",
+    "updated_at": "2018-07-04T16:04:48.026686Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Converts a JSON (as list variable) into JSON form."
       ],
       "ko": [
-        "[skript-json] 한국어 가이드팩 준비 중"
+        "[SKRIPT-JSON] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2801": {
     "id": 2801,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Blueyescat",
+    "title": "Map JSON to Variable",
+    "description": "Copies JSON formatted text into a list variable. Existing entries in the list variable are not deleted.\r\n\r\nIf the following JSON were mapped to variable `{json::*}`\r\n```json\r\n{\r\n  \"foo\": 15,\r\n  \"bar\": \"test\",\r\n  \"baz\": {\r\n    \"foobar\": [\r\n      {\r\n        \"quux\": false\r\n      }\r\n    ]\r\n  }\r\n}\r\n```\r\nthe following assertions would be true:\r\n```\r\n{json::foo} is 15\r\n{json::bar} is \"test\"\r\n{json::baz} is true                    # special case\r\n{json::baz::foobar} is true            # special case\r\n{json::baz::foobar::1} is true         # special case\r\n{json::baz::foobar::1::quux} is false\r\n```\r\nThe variables marked `# special case` contain nested JSON objects and are true so Skript can properly loop through the variable. These variables (like `{json::baz}`, not list variables like `{json::baz::*}`) can be deleted and the structure will still properly serialize into JSON.",
+    "syntax_pattern": "(map|copy) [the] json [(of|from)] %string% to [the] [var[iable]] %objects%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skript-json",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2801",
+    "created_at": "2018-07-04T16:02:38.151959Z",
+    "updated_at": "2018-07-04T16:58:01.341939Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Copies JSON formatted text into a list variable. Existing entries in the list variable are not deleted.",
-        "If the following JSON were mapped to variable `{json::*}`",
-        "```json",
-        "{",
-        "\"foo\": 15,",
-        "\"bar\": \"test\",",
-        "\"baz\": {",
-        "\"foobar\": [",
-        "{",
-        "\"quux\": false",
-        "}",
-        "]",
-        "}",
-        "}",
-        "```",
-        "the following assertions would be true:",
-        "```",
-        "{json::foo} is 15",
-        "{json::bar} is \"test\"",
-        "{json::baz} is true                    # special case",
-        "{json::baz::foobar} is true            # special case",
-        "{json::baz::foobar::1} is true         # special case",
-        "{json::baz::foobar::1::quux} is false",
-        "```",
-        "The variables marked `# special case` contain nested JSON objects and are true so Skript can properly loop through the variable. These variables (like `{json::baz}`, not list variables like `{json::baz::*}`) can be deleted and the structure will still properly serialize into JSON."
+        "Copies JSON formatted text into a list variable. Existing entries in the list variable are not deleted.\r\n\r\nIf the following JSON were mapped to variable `{json::*}`\r\n```json\r\n{\r\n  \"foo\": 15,\r\n  \"bar\": \"test\",\r\n  \"baz\": {\r\n    \"foobar\": [\r\n      {\r\n        \"quux\": false\r\n      }\r\n    ]\r\n  }\r\n}\r\n```\r\nthe following assertions would be true:\r\n```\r\n{json::foo} is 15\r\n{json::bar} is \"test\"\r\n{json::baz} is true                    # special case\r\n{json::baz::foobar} is true            # special case\r\n{json::baz::foobar::1} is true         # special case\r\n{json::baz::foobar::1::quux} is false\r\n```\r\nThe variables marked `# special case` contain nested JSON objects and are true so Skript can properly loop through the variable. These variables (like `{json::baz}`, not list variables like `{json::baz::*}`) can be deleted and the structure will still properly serialize into JSON."
       ],
       "ko": [
-        "[skript-json] 한국어 가이드팩 준비 중"
+        "[SKRIPT-JSON] 한국어 가이드 번역 대기 중"
       ]
     }
   }

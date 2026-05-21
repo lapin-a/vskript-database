@@ -1,71 +1,156 @@
 {
   "syntax_14228": {
     "id": 14228,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3_fendi_3",
+    "title": "Clear All PDC Tags",
+    "description": "Removes all PDC tags from an object.",
+    "syntax_pattern": "clear [all] pdc (of|from) %objects%",
+    "compatible_addon_version": "3.0",
+    "compatible_minecraft_version": "1.21",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkriptPDC",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14228",
+    "created_at": "2025-10-30T15:45:40.900787Z",
+    "updated_at": "2026-01-24T21:28:20.885223Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Removes all PDC tags from an object."
       ],
       "ko": [
-        "[SkriptPDC] 한국어 가이드팩 준비 중"
+        "[SKRIPTPDC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14229": {
     "id": 14229,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3_fendi_3",
+    "title": "Remove Specific PDC Tags",
+    "description": "Removes one or more specific PDC tags from an object.",
+    "syntax_pattern": "(remove|delete) pdc tag[s] %strings% (of|from) %objects%",
+    "compatible_addon_version": "3.0",
+    "compatible_minecraft_version": "1.21",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkriptPDC",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14229",
+    "created_at": "2025-10-30T15:46:16.231268Z",
+    "updated_at": "2026-01-24T21:27:59.382111Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Removes one or more specific PDC tags from an object."
       ],
       "ko": [
-        "[SkriptPDC] 한국어 가이드팩 준비 중"
+        "[SKRIPTPDC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14225": {
     "id": 14225,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3_fendi_3",
+    "title": "Get All PDC Tags",
+    "description": "Returns a list of all PDC tag keys present on an object.",
+    "syntax_pattern": "[all] [the] pdc tag[s] of %objects%",
+    "compatible_addon_version": "3.0",
+    "compatible_minecraft_version": "1.21",
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkriptPDC",
+    "type_usage": null,
+    "return_type": "List of Texts",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14225",
+    "created_at": "2025-10-30T15:44:01.697939Z",
+    "updated_at": "2026-01-24T21:26:15.623099Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a list of all PDC tag keys present on an object."
       ],
       "ko": [
-        "[SkriptPDC] 한국어 가이드팩 준비 중"
+        "[SKRIPTPDC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14224": {
     "id": 14224,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3_fendi_3",
+    "title": "Get/Set/Delete/add/remove PDC Tag",
+    "description": "Gets, sets, or deletes a PDC tag value with automatic type detection. Supports GET, SET, DELETE, ADD, and REMOVE operations.",
+    "syntax_pattern": "pdc tag %string% of %objects%",
+    "compatible_addon_version": "3.0",
+    "compatible_minecraft_version": "1.21",
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkriptPDC",
+    "type_usage": null,
+    "return_type": "object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14224",
+    "created_at": "2025-10-30T15:42:55.766785Z",
+    "updated_at": "2026-01-24T21:25:33.327733Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets, sets, or deletes a PDC tag value with automatic type detection. Supports GET, SET, DELETE, ADD, and REMOVE operations."
       ],
       "ko": [
-        "[SkriptPDC] 한국어 가이드팩 준비 중"
+        "[SKRIPTPDC] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_14236": {
     "id": 14236,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "3_fendi_3",
+    "title": "Check if tag exists/size of pdc tags",
+    "description": "check tag is set",
+    "syntax_pattern": "pdc tag %string% of %objects% is set\npdc tag %string% of %objects% is not set\nsize of all pdc tags of %objects% is 0",
+    "compatible_addon_version": "3.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "SkriptPDC",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=14236",
+    "created_at": "2025-11-04T19:09:23.854051Z",
+    "updated_at": "2026-01-24T21:29:46.646563Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "check tag is set"
       ],
       "ko": [
-        "[SkriptPDC] 한국어 가이드팩 준비 중"
+        "[SKRIPTPDC] 한국어 가이드 번역 대기 중"
       ]
     }
   }

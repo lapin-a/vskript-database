@@ -1,729 +1,1613 @@
 {
   "syntax_2308": {
     "id": 2308,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Any Faction Players Online/Offline",
+    "description": "Whether any players of a faction are online/offline",
+    "syntax_pattern": "any [faction] player[s] (is|are) online [(from|of)] [faction][s] %conquerfactions%\nany [faction] player[s] (is(n't| not)|are(n't| not)) online [(from|of)] [faction][s] %conquerfactions%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2308",
+    "created_at": "2018-02-24T03:31:21.145713Z",
+    "updated_at": "2018-03-30T16:23:02.624883Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether any players of a faction are online/offline"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2309": {
     "id": 2309,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Claim is Wilderness/Safe Zone/War Zone",
+    "description": "Whether a claim is wilderness, safe zone, or war zone",
+    "syntax_pattern": "[the] [claim][s] %conquerclaims% (is|are) [of type] [a] %claimtype%\n[the] [claim][s] %conquerclaims% (is not|isn't|aren't|are not) [of type] [a] %claimtype%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2309",
+    "created_at": "2018-02-24T03:31:21.153720Z",
+    "updated_at": "2018-03-30T16:23:02.632131Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether a claim is wilderness, safe zone, or war zone"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2311": {
     "id": 2311,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Faction is Open",
+    "description": "Whether a faction is open",
+    "syntax_pattern": "%conquerfactions% (is|are) open\n%conquerfactions% (isn't|is not|aren't|are not) open",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2311",
+    "created_at": "2018-02-24T03:31:21.170060Z",
+    "updated_at": "2018-03-30T16:23:02.649624Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether a faction is open"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2312": {
     "id": 2312,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Faction is Peaceful",
+    "description": "Whether a faction is peaceful",
+    "syntax_pattern": "%conquerfactions% (is|are) peaceful\n%conquerfactions% (isn't|is not|aren't|are not) peaceful",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2312",
+    "created_at": "2018-02-24T03:31:21.178056Z",
+    "updated_at": "2018-03-30T16:23:02.657320Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether a faction is peaceful"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2310": {
     "id": 2310,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Faction Warp Password Is Valid",
+    "description": "Whether a password is valid for a warp of a faction",
+    "syntax_pattern": "[the] [password] %string% (is|is(n't| not)) (valid|correct) [for] [the] [warp][s] %strings% (of|for) [the] [faction] %conquerfaction%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2310",
+    "created_at": "2018-02-24T03:31:21.161498Z",
+    "updated_at": "2018-03-30T16:23:02.642342Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether a password is valid for a warp of a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2318": {
     "id": 2318,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Make Player Leave Faction",
+    "description": "Force a player to leave their faction",
+    "syntax_pattern": "(force|make) %conquerplayers% leave their faction[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2318",
+    "created_at": "2018-02-24T03:31:21.229319Z",
+    "updated_at": "2018-03-30T16:23:02.703909Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Force a player to leave their faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2319": {
     "id": 2319,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "All Factions",
+    "description": "Gets all the factions",
+    "syntax_pattern": "all [of] [the] factions",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Conquer Faction",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2319",
+    "created_at": "2018-02-24T03:31:21.237126Z",
+    "updated_at": "2018-03-30T16:23:02.711502Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets all the factions"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2322": {
     "id": 2322,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Claims of Faction",
+    "description": "The claims of a faction",
+    "syntax_pattern": "[all] [of] [the] claim[s] of %conquerfactions%\n%conquerfactions%'s claim[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Conquer Claim",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2322",
+    "created_at": "2018-02-24T03:31:21.259310Z",
+    "updated_at": "2018-03-30T16:23:02.734791Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The claims of a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2320": {
     "id": 2320,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Auto Claim State of Player",
+    "description": "Gets whether a player is auto claiming",
+    "syntax_pattern": "[the] auto [chunk] claim[ing] [state] of %conquerplayers%\n%conquerplayers%'[s] auto [chunk] claim[ing] [state]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2320",
+    "created_at": "2018-02-24T03:31:21.244351Z",
+    "updated_at": "2018-03-30T16:23:02.719137Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets whether a player is auto claiming"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2321": {
     "id": 2321,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Claim At Location",
+    "description": "The claim (usually represented by a chunk) at a location",
+    "syntax_pattern": "[the] claim at %location%\n%location%'s claim",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Conquer Claim",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2321",
+    "created_at": "2018-02-24T03:31:21.251518Z",
+    "updated_at": "2018-03-30T16:23:02.726794Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The claim (usually represented by a chunk) at a location"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2324": {
     "id": 2324,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Description of Faction",
+    "description": "The description of a faction",
+    "syntax_pattern": "[the] description of %conquerfactions%\n%conquerfactions%'[s] description",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2324",
+    "created_at": "2018-02-24T03:31:21.274834Z",
+    "updated_at": "2018-03-30T16:23:02.749946Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The description of a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2325": {
     "id": 2325,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Faction Role of Player",
+    "description": "The role of a faction player",
+    "syntax_pattern": "[the] [the] [faction] role of %conquerplayers%\n%conquerplayers%'[s] [the] [faction] role",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Player Role",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2325",
+    "created_at": "2018-02-24T03:31:21.282888Z",
+    "updated_at": "2018-03-30T16:23:02.764863Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The role of a faction player"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2328": {
     "id": 2328,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Faction of Player",
+    "description": "Gets the faction of a player",
+    "syntax_pattern": "[the] [current] faction of %conquerplayers%\n%conquerplayers%'[s] [current] faction",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Conquer Faction",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2328",
+    "created_at": "2018-02-24T03:31:21.305644Z",
+    "updated_at": "2018-03-30T16:23:02.795325Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the faction of a player"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2333": {
     "id": 2333,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Invited Players",
+    "description": "The invited players of a faction",
+    "syntax_pattern": "[the] invited players of %conquerfactions%\n%conquerfactions%'s invited players",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Conquer Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2333",
+    "created_at": "2018-02-24T03:31:21.342507Z",
+    "updated_at": "2018-03-30T16:23:02.832856Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The invited players of a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2334": {
     "id": 2334,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Last Activity of Faction Player",
+    "description": "Gets the last activity of a faction player",
+    "syntax_pattern": "[the] [the] last [faction] (activity|login) [date] of %conquerplayers%\n%conquerplayers%'[s] [the] last [faction] (activity|login) [date]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Date",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2334",
+    "created_at": "2018-02-24T03:31:21.349659Z",
+    "updated_at": "2018-03-30T16:23:02.840484Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the last activity of a faction player"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2335": {
     "id": 2335,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Leader of Faction",
+    "description": "The leader of a faction",
+    "syntax_pattern": "[the] [the] (owner|leader|creator) of %conquerfactions%\n%conquerfactions%'[s] [the] (owner|leader|creator)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Conquer Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2335",
+    "created_at": "2018-02-24T03:31:21.356796Z",
+    "updated_at": "2018-03-30T16:23:02.847733Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The leader of a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2330": {
     "id": 2330,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Factions Plugin Name",
+    "description": "The currently used faction plugin's name",
+    "syntax_pattern": "[the] [current][ly] [being] [used] faction[s] plugin name",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2330",
+    "created_at": "2018-02-24T03:31:21.320507Z",
+    "updated_at": "2018-03-30T16:23:02.810814Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The currently used faction plugin's name"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2332": {
     "id": 2332,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Id of Faction",
+    "description": "The id of a faction",
+    "syntax_pattern": "[the] [unique] id[entifier] of %conquerfactions%\n%conquerfactions%'[s] [unique] id[entifier]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2332",
+    "created_at": "2018-02-24T03:31:21.335077Z",
+    "updated_at": "2018-03-30T16:23:02.825675Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The id of a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2339": {
     "id": 2339,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Normal/Maximum/Boosting Power",
+    "description": "The normal/maximum/boosting power of a faction or player",
+    "syntax_pattern": "[the] [the] (power|max[imum] power|power [boost][er]) of %powerholders%\n%powerholders%'[s] [the] (power|max[imum] power|power [boost][er])",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "double",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2339",
+    "created_at": "2018-02-24T03:31:21.387643Z",
+    "updated_at": "2018-03-30T16:23:02.877630Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The normal/maximum/boosting power of a faction or player"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2340": {
     "id": 2340,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Open State of Faction",
+    "description": "Gets whether a faction is open or not",
+    "syntax_pattern": "[the] [the] open [(state|flag)][s] of %conquerfaction%\n%conquerfaction%'[s] [the] open [(state|flag)][s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2340",
+    "created_at": "2018-02-24T03:31:21.395223Z",
+    "updated_at": "2018-03-30T16:23:02.884681Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets whether a faction is open or not"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2341": {
     "id": 2341,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Peaceful State of Faction",
+    "description": "Gets whether a faction is peaceful or not",
+    "syntax_pattern": "[the] [the] peaceful [(state|flag)][s] of %conquerfaction%\n%conquerfaction%'[s] [the] peaceful [(state|flag)][s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2341",
+    "created_at": "2018-02-24T03:31:21.403146Z",
+    "updated_at": "2018-03-30T16:23:02.891724Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets whether a faction is peaceful or not"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2342": {
     "id": 2342,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Relation Change (Wish) Sender/Target Faction",
+    "description": "Gets the sender/target faction of a relation change (wish)",
+    "syntax_pattern": "[the] sender faction\n[the] target faction",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Conquer Faction",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2342",
+    "created_at": "2018-02-24T03:31:21.410609Z",
+    "updated_at": "2018-03-30T16:23:02.899066Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the sender/target faction of a relation change (wish)"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2337": {
     "id": 2337,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Members of Faction",
+    "description": "The members of a faction",
+    "syntax_pattern": "[all] [the] (members|players) of %conquerfactions%\n%conquerfactions%'[s] (members|players)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Conquer Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2337",
+    "created_at": "2018-02-24T03:31:21.372059Z",
+    "updated_at": "2018-03-30T16:23:02.862428Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The members of a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2338": {
     "id": 2338,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Name of Faction",
+    "description": "The name of a faction",
+    "syntax_pattern": "[the] [display] (name|tag) of %conquerfactions%\n%conquerfactions%'[s] [display] (name|tag)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2338",
+    "created_at": "2018-02-24T03:31:21.380238Z",
+    "updated_at": "2018-03-30T16:23:02.869717Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The name of a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2345": {
     "id": 2345,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Type of Claim",
+    "description": "Gets the type of a claim",
+    "syntax_pattern": "[the] [claim] type of %conquerclaims%\n%conquerclaims%'[s] [claim] type",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Claim Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2345",
+    "created_at": "2018-02-24T03:31:21.435876Z",
+    "updated_at": "2018-03-30T16:23:02.929172Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the type of a claim"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2346": {
     "id": 2346,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Warp Names of Faction",
+    "description": "The warp names of a faction",
+    "syntax_pattern": "[the] warp names of %conquerfaction%\n%conquerfaction%'s warp names",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2346",
+    "created_at": "2018-02-24T03:31:21.442995Z",
+    "updated_at": "2018-03-30T16:23:02.936539Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The warp names of a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2348": {
     "id": 2348,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Warp of Faction",
+    "description": "The warp with a given name of a faction",
+    "syntax_pattern": "[the] warp [with] [name] %string% (of|from) %conquerfaction%\n%conquerfaction%'s %string% warp",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2348",
+    "created_at": "2018-02-24T03:31:21.457809Z",
+    "updated_at": "2018-03-30T16:23:02.950457Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The warp with a given name of a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2349": {
     "id": 2349,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Claim Type",
+    "description": "Represents who claimed a type",
+    "syntax_pattern": "[conquer]claim[-]type[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": "wilderness, safe zone, war zone, faction",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2349",
+    "created_at": "2018-02-24T03:31:21.467969Z",
+    "updated_at": "2018-03-30T16:23:02.958081Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents who claimed a type"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2353": {
     "id": 2353,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Faction Relation",
+    "description": "Represents a relation that factions have been two people",
+    "syntax_pattern": "[conquer|faction][-]relation[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": "member, ally, truce, neutral, enemy, other",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2353",
+    "created_at": "2018-02-24T03:31:21.497190Z",
+    "updated_at": "2018-03-30T16:23:02.988899Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a relation that factions have been two people"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2354": {
     "id": 2354,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Player Role",
+    "description": "Represents a role that a player may hold",
+    "syntax_pattern": "[conquer|faction][-]role[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": "normal, admin, moderator, recruit, other",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2354",
+    "created_at": "2018-02-24T03:31:21.504865Z",
+    "updated_at": "2018-03-30T16:23:02.996280Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a role that a player may hold"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2307": {
     "id": 2307,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "All Faction Players Online/Offline",
+    "description": "Whether all players of a faction are online/offline",
+    "syntax_pattern": "[all] [faction] players of [the] [faction][s] %conquerfactions% are [all] (online|offline)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2307",
+    "created_at": "2018-02-24T03:31:21.137577Z",
+    "updated_at": "2018-03-30T16:23:02.615283Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether all players of a faction are online/offline"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2344": {
     "id": 2344,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Relation of Relation Wish",
+    "description": "Gets the relation of a relation wish in a relation wish event",
+    "syntax_pattern": "[the] (old|new) relation",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Faction Relation",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2344",
+    "created_at": "2018-02-24T03:31:21.426477Z",
+    "updated_at": "2018-03-30T16:23:02.913982Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the relation of a relation wish in a relation wish event"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2314": {
     "id": 2314,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Player is Auto claiming",
+    "description": "Whether a player is auto claiming",
+    "syntax_pattern": "%conquerplayers% (is|are) auto claim[ing] [chunk][s]\n%conquerplayers% (isn't|is not|aren't|are not) auto claim[ing] [chunk][s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2314",
+    "created_at": "2018-02-24T03:31:21.193599Z",
+    "updated_at": "2018-03-30T16:23:02.672264Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether a player is auto claiming"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2361": {
     "id": 2361,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Faction Checkpoint",
+    "description": "Gets the checkpoint location of a faction",
+    "syntax_pattern": "[the] checkpoint [warp] [location] of %conquerfaction%\n%conquerfaction%'[s] checkpoint [warp] [location]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2361",
+    "created_at": "2018-03-30T16:23:02.757688Z",
+    "updated_at": "2018-03-30T16:23:02.757706Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the checkpoint location of a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2362": {
     "id": 2362,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Faction Rules",
+    "description": "Gets the rules of a faction",
+    "syntax_pattern": "[the] rule[s] [list] of [the] [faction][s] %conquerfactions%\n[the] [faction][s] %conquerfactions%'[s] rule[s] [list]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2362",
+    "created_at": "2018-03-30T16:23:02.772183Z",
+    "updated_at": "2018-03-30T16:23:02.772202Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the rules of a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2343": {
     "id": 2343,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Relation of Factions",
+    "description": "The relation between two factions",
+    "syntax_pattern": "[the] relation[ship][s] (between|across|for|to|of) [the] [faction][s] %conquerfactions% [and] [to] [the] [faction][s] %conquerfactions%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Faction Relation",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2343",
+    "created_at": "2018-02-24T03:31:21.418328Z",
+    "updated_at": "2018-03-30T16:23:02.906616Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The relation between two factions"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2363": {
     "id": 2363,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "TNT of Faction",
+    "description": "Gets the amount of TNT a faction has",
+    "syntax_pattern": "[the] tnt [(amount|cache[d]|stor(ed|age))] of %conquerfaction%\n%conquerfaction%'[s] tnt [(amount|cache[d]|stor(ed|age))]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2363",
+    "created_at": "2018-03-30T16:23:02.922075Z",
+    "updated_at": "2018-03-30T16:23:02.922094Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the amount of TNT a faction has"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2347": {
     "id": 2347,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Warp Password",
+    "description": "The warp password of a warp of a faction. Some faction plugins can not give this, but can set it.",
+    "syntax_pattern": "[the] warp pass[word] (of|for) [the] warp %string% (of|for) [the] [faction] %conquerfaction%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2347",
+    "created_at": "2018-02-24T03:31:21.450613Z",
+    "updated_at": "2018-03-30T16:23:02.943500Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The warp password of a warp of a faction. Some faction plugins can not give this, but can set it."
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2351": {
     "id": 2351,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Conquer Faction",
+    "description": "Represents a faction",
+    "syntax_pattern": "[conquer]faction[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": "faction of %player%",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2351",
+    "created_at": "2018-02-24T03:31:21.483485Z",
+    "updated_at": "2018-03-30T16:23:02.974194Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2352": {
     "id": 2352,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Conquer Player",
+    "description": "Represents a faction player. An offline player/player will be automatically converted to this type. So normal players will work in all faction syntaxes",
+    "syntax_pattern": "[conquer|faction][-]player[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": "%offlineplayer/player%",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2352",
+    "created_at": "2018-02-24T03:31:21.490451Z",
+    "updated_at": "2018-03-30T16:23:02.981760Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a faction player. An offline player/player will be automatically converted to this type. So normal players will work in all faction syntaxes"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2313": {
     "id": 2313,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Player has Faction",
+    "description": "Whether a player has a faction",
+    "syntax_pattern": "%players% has [(are|is) in] (a) faction\n%players% ((doesn't|does not) have|(aren't|are not) in) a faction",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2313",
+    "created_at": "2018-02-24T03:31:21.185887Z",
+    "updated_at": "2018-03-30T16:23:02.664391Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether a player has a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2315": {
     "id": 2315,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Warp of Faction Has Password",
+    "description": "Whether a warp of a faction has a password",
+    "syntax_pattern": "[the] warp[s] [with] [name][s] %strings% (of|from) [the] [faction] %conquerfaction% (use[s]|ha(s|ve)) (a password|authentication)\n[the] warp[s] [with] [name][s] %strings% (of|from) [the] [faction] %conquerfaction% (doesn't| does not|don't|do not) (use|has) (a password|authentication)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2315",
+    "created_at": "2018-02-24T03:31:21.201267Z",
+    "updated_at": "2018-03-30T16:23:02.679990Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Whether a warp of a faction has a password"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2316": {
     "id": 2316,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Claim for Faction",
+    "description": "Claim land for a faction",
+    "syntax_pattern": "claim [the] [(land|claim|chunk)][s] [at] %conquerclaims/locations% for [the] [faction][s] %conquerfaction%\nclaim [the] [(land|claim|chunk)][s] [at] %conquerclaims/locations% for [the] %claimtype%\nunclaim [the] [(land|claim|chunk)][s] [at] %conquerclaims/locations%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2316",
+    "created_at": "2018-02-24T03:31:21.213255Z",
+    "updated_at": "2018-03-30T16:23:02.688334Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Claim land for a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2306": {
     "id": 2306,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "On Faction Land Claim/Unclaim",
+    "description": "Called when a faction unclaims/claims land",
+    "syntax_pattern": "[on] [faction] [land] claim\n[on] [faction] [land] (un|de)claim",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-conquerfaction, event-conquerclaim, event-player, event-conquerplayer, event-offlineplayer",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=2306",
+    "created_at": "2018-02-24T03:31:21.127674Z",
+    "updated_at": "2018-03-30T16:23:02.588977Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a faction unclaims/claims land"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2323": {
     "id": 2323,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Creation Date of Faction",
+    "description": "The creation date of a faction",
+    "syntax_pattern": "[the] creation date of %conquerfactions%\n%conquerfactions%'[s] creation date",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Date",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2323",
+    "created_at": "2018-02-24T03:31:21.266884Z",
+    "updated_at": "2018-03-30T16:23:02.742389Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The creation date of a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2326": {
     "id": 2326,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Faction Title of Player",
+    "description": "Gets the faction title of a player",
+    "syntax_pattern": "[the] [faction] title of %conquerplayers%\n%conquerplayers%'[s] [faction] title",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2326",
+    "created_at": "2018-02-24T03:31:21.290183Z",
+    "updated_at": "2018-03-30T16:23:02.779805Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the faction title of a player"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2327": {
     "id": 2327,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Faction at Location/Claim",
+    "description": "Faction at location/claim",
+    "syntax_pattern": "[the] faction[s] at %locations/conquerclaims%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Conquer Faction",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2327",
+    "created_at": "2018-02-24T03:31:21.298487Z",
+    "updated_at": "2018-03-30T16:23:02.787932Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Faction at location/claim"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2329": {
     "id": 2329,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Faction with Name",
+    "description": "Gets the faction with a specified name",
+    "syntax_pattern": "[the] faction[s] with (name|tag)[s] %strings%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Conquer Faction",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2329",
+    "created_at": "2018-02-24T03:31:21.312786Z",
+    "updated_at": "2018-03-30T16:23:02.803062Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Gets the faction with a specified name"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2331": {
     "id": 2331,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Home of Faction",
+    "description": "The home location of a faction",
+    "syntax_pattern": "[the] home [location] of %conquerfactions%\n%conquerfactions%'[s] home [location]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2331",
+    "created_at": "2018-02-24T03:31:21.328045Z",
+    "updated_at": "2018-03-30T16:23:02.818323Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The home location of a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2336": {
     "id": 2336,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "MOTD of Faction",
+    "description": "The message of the day (MOTD) of a faction",
+    "syntax_pattern": "[the] [the] (motd|message of the day) of %conquerfactions%\n%conquerfactions%'[s] [the] (motd|message of the day)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2336",
+    "created_at": "2018-02-24T03:31:21.363624Z",
+    "updated_at": "2018-03-30T16:23:02.855079Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The message of the day (MOTD) of a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2317": {
     "id": 2317,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Invite/Deinvite Player From a Faction",
+    "description": "Invite/Deinvite a player from a faction",
+    "syntax_pattern": "[(de)]invite [the] [player][s] %conquerplayers% (to|from) [the] [faction][s] %conquerfactions%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2317",
+    "created_at": "2018-02-24T03:31:21.221254Z",
+    "updated_at": "2018-03-30T16:23:02.696549Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Invite/Deinvite a player from a faction"
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2350": {
     "id": 2350,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "thatandrew28",
+    "title": "Conquer Claim",
+    "description": "Represents a claim (usually a chunk) which can be owned by the wilderness, a safe zone, a war zone, or even a faction.",
+    "syntax_pattern": "[conquer|faction]claim[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Conquer",
+    "type_usage": "claim at %location/chunk%",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2350",
+    "created_at": "2018-02-24T03:31:21.475629Z",
+    "updated_at": "2018-03-30T16:23:02.965795Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a claim (usually a chunk) which can be owned by the wilderness, a safe zone, a war zone, or even a faction."
       ],
       "ko": [
-        "[Conquer] 한국어 가이드팩 준비 중"
+        "[CONQUER] 한국어 가이드 번역 대기 중"
       ]
     }
   }

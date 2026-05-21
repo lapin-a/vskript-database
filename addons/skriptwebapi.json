@@ -1,343 +1,745 @@
 {
   "syntax_10060": {
     "id": 10060,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "On Async web request response",
+    "description": "Fires when web request response received",
+    "syntax_pattern": "[on] [on] [skeb] [async] web request response [with priority (lowest|low|normal|high|highest|monitor)]",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-httpresponse",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10060",
+    "created_at": "2023-12-28T12:36:42.611042Z",
+    "updated_at": "2023-12-28T12:36:42.611062Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Fires when web request response received"
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10061": {
     "id": 10061,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "On HTTP request received",
+    "description": "Fires when HTTP request received",
+    "syntax_pattern": "[on] [on] [skeb] http request [received] [with priority (lowest|low|normal|high|highest|monitor)]",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-httpexchange",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10061",
+    "created_at": "2023-12-28T12:36:42.622159Z",
+    "updated_at": "2023-12-28T12:36:42.622173Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Fires when HTTP request received"
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10062": {
     "id": 10062,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Remove header value",
+    "description": "Removes header value from web request",
+    "syntax_pattern": "[skeb] remove [the] %httprequest%['s] (header|header properties|header prop) %string%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10062",
+    "created_at": "2023-12-28T12:36:42.630453Z",
+    "updated_at": "2023-12-28T12:36:42.630465Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Removes header value from web request"
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10063": {
     "id": 10063,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Remove value from response header",
+    "description": "Removes header value from HTTP request.",
+    "syntax_pattern": "[skeb] remove [the] (http|api) response %httpexchange%['s] header %string%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10063",
+    "created_at": "2023-12-28T12:36:42.638852Z",
+    "updated_at": "2023-12-28T12:36:42.638864Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Removes header value from HTTP request."
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10064": {
     "id": 10064,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Response to web request",
+    "description": "Responses request with custom body and response code.\nIf not specify the response code, It will response with a 500.",
+    "syntax_pattern": "[skeb] [reply|response] %httpexchange% [to [the] request sender] [(with|and) body %string%] [(with|and) response code %integer%]",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10064",
+    "created_at": "2023-12-28T12:36:42.646964Z",
+    "updated_at": "2023-12-28T12:36:42.646977Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Responses request with custom body and response code.",
-        "If not specify the response code, It will response with a 500."
+        "Responses request with custom body and response code.\nIf not specify the response code, It will response with a 500."
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10065": {
     "id": 10065,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Send a async web request",
+    "description": "Send a async web request to specified URL.\nResponse can be obtain from HttpResponseEvent.",
+    "syntax_pattern": "[skeb] send [async] web request [(using|with)] %httprequest%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10065",
+    "created_at": "2023-12-28T12:36:42.655657Z",
+    "updated_at": "2023-12-28T12:36:42.655669Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Send a async web request to specified URL.",
-        "Response can be obtain from HttpResponseEvent."
+        "Send a async web request to specified URL.\nResponse can be obtain from HttpResponseEvent."
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10066": {
     "id": 10066,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Set http response header",
+    "description": "Set HTTP response header to as you specified.",
+    "syntax_pattern": "[skeb] set [the] (http|api) response %httpexchange%['s] header %string% to %string%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10066",
+    "created_at": "2023-12-28T12:36:42.663918Z",
+    "updated_at": "2023-12-28T12:36:42.663932Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set HTTP response header to as you specified."
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10067": {
     "id": 10067,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Set web request URL",
+    "description": "Set web request URL as you specified.",
+    "syntax_pattern": "[skeb] set %httprequest%['s] [target] (url|host) to %string%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10067",
+    "created_at": "2023-12-28T12:36:42.671999Z",
+    "updated_at": "2023-12-28T12:36:42.672011Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set web request URL as you specified."
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10068": {
     "id": 10068,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Set web request body",
+    "description": "Set web request body to specified string",
+    "syntax_pattern": "[skeb] set %httprequest%['s] (body|contents) to %string%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10068",
+    "created_at": "2023-12-28T12:36:42.680268Z",
+    "updated_at": "2023-12-28T12:36:42.680281Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set web request body to specified string"
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10069": {
     "id": 10069,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Set web request header value",
+    "description": "Set the web request header to specified key and value",
+    "syntax_pattern": "[skeb] set [the] %httprequest/httpresponse%['s] (header|header properties|header prop) %string% to %objects%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10069",
+    "created_at": "2023-12-28T12:36:42.688530Z",
+    "updated_at": "2023-12-28T12:36:42.688541Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Set the web request header to specified key and value"
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10070": {
     "id": 10070,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Set web request method",
+    "description": "Set web request method as you specified.\nSupported basic methods and custom methods",
+    "syntax_pattern": "[skeb] set %httprequest%['s] [request] method to %string%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10070",
+    "created_at": "2023-12-28T12:36:42.696610Z",
+    "updated_at": "2023-12-28T12:36:42.696623Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Set web request method as you specified.",
-        "Supported basic methods and custom methods"
+        "Set web request method as you specified.\nSupported basic methods and custom methods"
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10071": {
     "id": 10071,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Start http server",
+    "description": "Start http server with custom port and context",
+    "syntax_pattern": "[skeb] start http server [(in|on) port %integer%] [[(and|with)] context %string%]",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10071",
+    "created_at": "2023-12-28T12:36:42.704877Z",
+    "updated_at": "2023-12-28T12:36:42.704889Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Start http server with custom port and context"
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10072": {
     "id": 10072,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Stop http server",
+    "description": "Stops http server",
+    "syntax_pattern": "[skeb] stop http server",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10072",
+    "created_at": "2023-12-28T12:36:42.716297Z",
+    "updated_at": "2023-12-28T12:36:42.716310Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Stops http server"
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10073": {
     "id": 10073,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Get HTTP request body",
+    "description": "Retrieves body from HTTP request",
+    "syntax_pattern": "[skeb] (http|api) request (content|body) of %httpexchange%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10073",
+    "created_at": "2023-12-28T12:36:42.724148Z",
+    "updated_at": "2023-12-28T12:36:42.724160Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Retrieves body from HTTP request"
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10074": {
     "id": 10074,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Get HTTP request context path",
+    "description": "Retrieves context path from HTTP request",
+    "syntax_pattern": "[skeb] (http|api) request (context path|context|path|contextpath) of %httpexchange%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10074",
+    "created_at": "2023-12-28T12:36:42.732216Z",
+    "updated_at": "2023-12-28T12:36:42.732228Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Retrieves context path from HTTP request"
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10075": {
     "id": 10075,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Get HTTP request header value",
+    "description": "Retrieves header value from HTTP request",
+    "syntax_pattern": "[skeb] (http|api) request %httpexchange%['s] [request] header value from key %string%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10075",
+    "created_at": "2023-12-28T12:36:42.740452Z",
+    "updated_at": "2023-12-28T12:36:42.740464Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Retrieves header value from HTTP request"
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10076": {
     "id": 10076,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Get HTTP request method",
+    "description": "Retrieves request method from HTTP request",
+    "syntax_pattern": "[skeb] (http|api) request method of %httpexchange%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10076",
+    "created_at": "2023-12-28T12:36:42.748475Z",
+    "updated_at": "2023-12-28T12:36:42.748488Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Retrieves request method from HTTP request"
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10077": {
     "id": 10077,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Get header value",
+    "description": "Get header value from web request/response",
+    "syntax_pattern": "[sekb] %httprequest/httpresponse%['s] header value from key %string%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10077",
+    "created_at": "2023-12-28T12:36:42.756569Z",
+    "updated_at": "2023-12-28T12:36:42.756583Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get header value from web request/response"
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10078": {
     "id": 10078,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Get request method",
+    "description": "Get request method of web request/response",
+    "syntax_pattern": "[skeb] request method of  %httprequest/httpresponse%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10078",
+    "created_at": "2023-12-28T12:36:42.764629Z",
+    "updated_at": "2023-12-28T12:36:42.764641Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get request method of web request/response"
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10079": {
     "id": 10079,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Retrieve body from web request response",
+    "description": "Retrieve body from web request response",
+    "syntax_pattern": "[skeb] body of %httpresponse%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10079",
+    "created_at": "2023-12-28T12:36:42.772621Z",
+    "updated_at": "2023-12-28T12:36:42.772633Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Retrieve body from web request response"
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10080": {
     "id": 10080,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Retrieve body from web request response",
+    "description": "Retrieve body from web request response",
+    "syntax_pattern": "[skeb] (response|status) code of %httpresponse%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10080",
+    "created_at": "2023-12-28T12:36:42.780646Z",
+    "updated_at": "2023-12-28T12:36:42.780658Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Retrieve body from web request response"
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10082": {
     "id": 10082,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Send web request",
+    "description": "Send a normal web request.\nThis method will cause lag spike.\nIf you encountered the lag spike, please use async web request instead.",
+    "syntax_pattern": "[skeb] response of %httprequest%",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": "httpresponse",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10082",
+    "created_at": "2023-12-28T12:36:42.797071Z",
+    "updated_at": "2023-12-28T12:36:42.797083Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Send a normal web request.",
-        "This method will cause lag spike.",
-        "If you encountered the lag spike, please use async web request instead."
+        "Send a normal web request.\nThis method will cause lag spike.\nIf you encountered the lag spike, please use async web request instead."
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_10081": {
     "id": 10081,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Retrieve the new web request instance",
+    "description": "Retrieve the new web request instance.\nYou can specify request method. If you don't specified It will use GET as default method",
+    "syntax_pattern": "[skeb] new http request [with method %string%]",
+    "compatible_addon_version": "0.1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": "httprequest",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=10081",
+    "created_at": "2023-12-28T12:36:42.788870Z",
+    "updated_at": "2024-01-01T13:04:03.480484Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Retrieve the new web request instance.",
-        "You can specify request method. If you don't specified It will use GET as default method"
+        "Retrieve the new web request instance.\nYou can specify request method. If you don't specified It will use GET as default method"
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_11218": {
     "id": 11218,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "faketuna",
+    "title": "Get remote IP",
+    "description": "Returns a client ip of http request.",
+    "syntax_pattern": "[skeb] (http|api) (remote|requester|client) ip [address] of %httpexchange%",
+    "compatible_addon_version": "0.1.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkriptWebAPI",
+    "type_usage": null,
+    "return_type": "text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=11218",
+    "created_at": "2024-03-19T01:19:58.810325Z",
+    "updated_at": "2024-03-19T01:19:58.810340Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a client ip of http request."
       ],
       "ko": [
-        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+        "[SKRIPTWEBAPI] 한국어 가이드 번역 대기 중"
       ]
     }
   }

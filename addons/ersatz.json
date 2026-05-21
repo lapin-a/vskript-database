@@ -1,78 +1,181 @@
 {
   "syntax_1222": {
     "id": 1222,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Pikachu",
+    "title": "Placeholder Identifier",
+    "description": "Grabs the identifier from a placeholder request event",
+    "syntax_pattern": "[the] [(placeholder[api]|papi)] identifier",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "PlaceholderAPI",
+        "link": "https://www.spigotmc.org/resources/placeholderapi.6245/"
+      }
+    ],
+    "addon": "Ersatz",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1222",
+    "created_at": "2017-11-07T07:02:55.736640Z",
+    "updated_at": "2017-11-08T01:22:52.237485Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Grabs the identifier from a placeholder request event"
       ],
       "ko": [
-        "[Ersatz] 한국어 가이드팩 준비 중"
+        "[ERSATZ] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1224": {
     "id": 1224,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Pikachu",
+    "title": "Value of Placeholder",
+    "description": "Grabs the value of a PlaceholderAPI prefix",
+    "syntax_pattern": "[the] ([value of] placeholder[s]|placeholder [value] [of]) %strings% [from %players%]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "PlaceholderAPI",
+        "link": "https://www.spigotmc.org/resources/placeholderapi.6245/"
+      }
+    ],
+    "addon": "Ersatz",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1224",
+    "created_at": "2017-11-07T07:02:55.752249Z",
+    "updated_at": "2018-05-02T02:57:23.745594Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Grabs the value of a PlaceholderAPI prefix"
       ],
       "ko": [
-        "[Ersatz] 한국어 가이드팩 준비 중"
+        "[ERSATZ] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1223": {
     "id": 1223,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Pikachu",
+    "title": "Placeholder Prefix",
+    "description": "Represents the prefix in a placeholder request event",
+    "syntax_pattern": "[the] [(placeholder[api]|papi)] (prefix|placeholder)",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "PlaceholderAPI",
+        "link": "https://www.spigotmc.org/resources/placeholderapi.6245/"
+      }
+    ],
+    "addon": "Ersatz",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1223",
+    "created_at": "2017-11-07T07:02:55.744432Z",
+    "updated_at": "2017-11-08T01:17:51.975623Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents the prefix in a placeholder request event"
       ],
       "ko": [
-        "[Ersatz] 한국어 가이드팩 준비 중"
+        "[ERSATZ] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1220": {
     "id": 1220,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Pikachu",
+    "title": "On Placeholder Request",
+    "description": "Called when a placeholder is requested. This can be used to make your own placeholders like this:\r\n```\r\non placeholder request with prefix \"custom\":\r\n  if the identifier is \"hey\": # %custom_hey%\r\n    set the result to \"hi there %player%!\"\r\n  else if the identifier is \"bye\": # %custom_bye%\r\n    set the result to \"bye bye %player%\"\r\n```",
+    "syntax_pattern": "[on] (placeholder[api]|papi) request with [the] prefix %string%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [
+      {
+        "name": "PlaceholderAPI",
+        "link": "https://www.spigotmc.org/resources/placeholderapi.6245/"
+      }
+    ],
+    "addon": "Ersatz",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-string, event-player",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1220",
+    "created_at": "2017-11-07T07:02:55.524518Z",
+    "updated_at": "2017-11-08T01:25:38.649981Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Called when a placeholder is requested. This can be used to make your own placeholders like this:",
-        "```",
-        "on placeholder request with prefix \"custom\":",
-        "if the identifier is \"hey\": # %custom_hey%",
-        "set the result to \"hi there %player%!\"",
-        "else if the identifier is \"bye\": # %custom_bye%",
-        "set the result to \"bye bye %player%\"",
-        "```"
+        "Called when a placeholder is requested. This can be used to make your own placeholders like this:\r\n```\r\non placeholder request with prefix \"custom\":\r\n  if the identifier is \"hey\": # %custom_hey%\r\n    set the result to \"hi there %player%!\"\r\n  else if the identifier is \"bye\": # %custom_bye%\r\n    set the result to \"bye bye %player%\"\r\n```"
       ],
       "ko": [
-        "[Ersatz] 한국어 가이드팩 준비 중"
+        "[ERSATZ] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_1221": {
     "id": 1221,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "Pikachu",
+    "title": "Placeholder Result",
+    "description": "Grabs the result from a placeholder request event",
+    "syntax_pattern": "[the] [(placeholder[api]|papi)] result",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "PlaceholderAPI",
+        "link": "https://www.spigotmc.org/resources/placeholderapi.6245/"
+      }
+    ],
+    "addon": "Ersatz",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=1221",
+    "created_at": "2017-11-07T07:02:55.729200Z",
+    "updated_at": "2018-05-15T17:18:02.087043Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Grabs the result from a placeholder request event"
       ],
       "ko": [
-        "[Ersatz] 한국어 가이드팩 준비 중"
+        "[ERSATZ] 한국어 가이드 번역 대기 중"
       ]
     }
   }

@@ -1,744 +1,1649 @@
 {
   "syntax_4545": {
     "id": 4545,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Open MMOItems Station",
+    "description": "Open a MMOItems station to a specific player",
+    "syntax_pattern": "[skutils] [mmoitems] open [the] station[s] [(named|with name|called|with id)] %string% to [the] [player] %player%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4545",
+    "created_at": "2020-12-23T00:32:53.936419Z",
+    "updated_at": "2020-12-23T00:32:53.936450Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Open a MMOItems station to a specific player"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4546": {
     "id": 4546,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Play NoteBlockAPI Sound to Player",
+    "description": "Play a specific NBAPI song (located in `plugins/SkUtils/Songs/`) to a player",
+    "syntax_pattern": "[skutils] [(noteblockapi|nbapi|nba)] play [the] song [(called|with name|with id|named)] %string% to [the] [player] %player%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4546",
+    "created_at": "2020-12-23T00:32:53.950975Z",
+    "updated_at": "2020-12-23T00:32:53.950999Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Play a specific NBAPI song (located in `plugins/SkUtils/Songs/`) to a player"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4547": {
     "id": 4547,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Save World",
+    "description": "Save a specific world on the disk",
+    "syntax_pattern": "[skutils] save [the] [world] %world% [on disk]",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4547",
+    "created_at": "2020-12-23T00:32:53.956897Z",
+    "updated_at": "2020-12-23T00:32:53.956918Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Save a specific world on the disk"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4550": {
     "id": 4550,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Bazaar Item Buy Count",
+    "description": "Return the total buy count of a specific item",
+    "syntax_pattern": "[skutils] [deluxebazaar] [bazaar] buy (count|number) of [the] [item] [with id] %string%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4550",
+    "created_at": "2020-12-23T00:32:53.974621Z",
+    "updated_at": "2020-12-23T00:32:53.974643Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the total buy count of a specific item"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4549": {
     "id": 4549,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "All Installed Plugins",
+    "description": "Returns all installed and enabled plugins on the server",
+    "syntax_pattern": "[skutils] all [server|spigot|paper] [installed] plugins",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "Plugin",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4549",
+    "created_at": "2020-12-23T00:32:53.968682Z",
+    "updated_at": "2020-12-25T17:53:21.289344Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns all installed and enabled plugins on the server"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4551": {
     "id": 4551,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Bazaar Item Buy Price",
+    "description": "Return the buy price of a specific item",
+    "syntax_pattern": "[skutils] [deluxebazaar] [bazaar] buy price of [the] [item] [with id] %string%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "double",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4551",
+    "created_at": "2020-12-23T00:32:53.980971Z",
+    "updated_at": "2020-12-23T00:32:53.980992Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the buy price of a specific item"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4552": {
     "id": 4552,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Bazaar Item Sell Count",
+    "description": "Return the total sell count of a specific item",
+    "syntax_pattern": "[skutils] [deluxebazaar] [bazaar] sell (count|number) of [the] [item] [with id] %string%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4552",
+    "created_at": "2020-12-23T00:32:53.987229Z",
+    "updated_at": "2020-12-23T00:32:53.987249Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the total sell count of a specific item"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4553": {
     "id": 4553,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Bazaar Item Sell Price",
+    "description": "Return the sell price of a specific item",
+    "syntax_pattern": "[skutils] [deluxebazaar] [bazaar] sell price of [the] [item] [with id] %string%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "double",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4553",
+    "created_at": "2020-12-23T00:32:53.992588Z",
+    "updated_at": "2020-12-23T00:32:53.992608Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the sell price of a specific item"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4554": {
     "id": 4554,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Bazaar Player Mode",
+    "description": "Return the buying mode of a specific player",
+    "syntax_pattern": "[skutils] [deluxebazaar] [the] [bazaar] mode of [the] [player] %player%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4554",
+    "created_at": "2020-12-23T00:32:53.998281Z",
+    "updated_at": "2020-12-23T00:32:53.998302Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the buying mode of a specific player"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4555": {
     "id": 4555,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Bazaar Player Orders",
+    "description": "Return all orders made by a specific player",
+    "syntax_pattern": "[skutils] [deluxebazaar] [all] [bazaar] orders of [the] [player] %player%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4555",
+    "created_at": "2020-12-23T00:32:54.008530Z",
+    "updated_at": "2020-12-23T00:32:54.008561Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return all orders made by a specific player"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4556": {
     "id": 4556,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Damage Dealt From Player",
+    "description": "Return damage dealt from a specific player",
+    "syntax_pattern": "[skutils] [the] [total] damage dealt [stats] of [the] [player] %offlineplayer%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4556",
+    "created_at": "2020-12-23T00:32:54.014804Z",
+    "updated_at": "2020-12-23T00:32:54.014832Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return damage dealt from a specific player"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4557": {
     "id": 4557,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Damage Taken From Player",
+    "description": "Return damage taken from a specific player",
+    "syntax_pattern": "[skutils] [the] [total] damage taken [stats] of [the] [player] %offlineplayer%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4557",
+    "created_at": "2020-12-23T00:32:54.020624Z",
+    "updated_at": "2020-12-23T00:32:54.020645Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return damage taken from a specific player"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4558": {
     "id": 4558,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Hardcore Mode",
+    "description": "Return if world is under Hardcore mode",
+    "syntax_pattern": "[skutils] [the] hardcore [state] of [world] %world%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4558",
+    "created_at": "2020-12-23T00:32:54.026214Z",
+    "updated_at": "2020-12-23T00:32:54.026235Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return if world is under Hardcore mode"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4559": {
     "id": 4559,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Items Dropped by Player",
+    "description": "Return items droppped by a specific player",
+    "syntax_pattern": "[skutils] [the] [total] items drop [stats] of [the] [player] %offlineplayer%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4559",
+    "created_at": "2020-12-23T00:32:54.031717Z",
+    "updated_at": "2020-12-23T00:32:54.031738Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return items droppped by a specific player"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4560": {
     "id": 4560,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "MMOItems Item",
+    "description": "Return a MMOItems item via it's type and id",
+    "syntax_pattern": "[skutils] [mmoitems] item [with] [type] %string% and [with] [id] %string%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "Item / Material",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4560",
+    "created_at": "2020-12-23T00:32:54.037360Z",
+    "updated_at": "2020-12-23T00:32:54.037380Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return a MMOItems item via it's type and id"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4561": {
     "id": 4561,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Play Time of Player",
+    "description": "Return the play time of specific player",
+    "syntax_pattern": "[skutils] [the] play time of [the] [player] %offlineplayer%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "Timespan",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4561",
+    "created_at": "2020-12-23T00:32:54.043140Z",
+    "updated_at": "2020-12-23T00:32:54.043161Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the play time of specific player"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4562": {
     "id": 4562,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Plugin of Command",
+    "description": "Return the plugin which is assigned the command",
+    "syntax_pattern": "[skutils] plugin of [the] [command] %string%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "Text",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4562",
+    "created_at": "2020-12-23T00:32:54.048713Z",
+    "updated_at": "2020-12-23T00:32:54.048733Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the plugin which is assigned the command"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4563": {
     "id": 4563,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Structure Generation",
+    "description": "Return if structure can be generate in the specific world",
+    "syntax_pattern": "[skutils] structure [generation] of [the] [world] %world%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4563",
+    "created_at": "2020-12-23T00:32:54.054752Z",
+    "updated_at": "2020-12-23T00:32:54.054772Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return if structure can be generate in the specific world"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4564": {
     "id": 4564,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "UID of World",
+    "description": "Return the UID of a specific world",
+    "syntax_pattern": "[skutils] [world] u[u]id [of] %world%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "Object",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4564",
+    "created_at": "2020-12-23T00:32:54.061050Z",
+    "updated_at": "2020-12-23T00:32:54.061070Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the UID of a specific world"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4565": {
     "id": 4565,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "USBC Get Player Stats",
+    "description": "Return the specific current stats value of the player.\nAvailable stats : health, intelligence, shield, force, speed, critdamage, critchance",
+    "syntax_pattern": "[skutils] [usbc] stats %string% of [the] [player] %player%",
+    "compatible_addon_version": "alpha-0.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "double",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4565",
+    "created_at": "2020-12-23T00:32:54.066793Z",
+    "updated_at": "2020-12-23T00:32:54.066825Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Return the specific current stats value of the player.",
-        "Available stats : health, intelligence, shield, force, speed, critdamage, critchance"
+        "Return the specific current stats value of the player.\nAvailable stats : health, intelligence, shield, force, speed, critdamage, critchance"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4566": {
     "id": 4566,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "UUID to Player",
+    "description": "Return an offline player from a specific UUID",
+    "syntax_pattern": "[skutils] [the] player [from|with] u[u]id %string%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "Offline Player",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4566",
+    "created_at": "2020-12-23T00:32:54.072381Z",
+    "updated_at": "2020-12-23T00:32:54.072401Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return an offline player from a specific UUID"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4567": {
     "id": 4567,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "View Distance of World",
+    "description": "Return the view distance of a specific world",
+    "syntax_pattern": "[skutils] view distance of [world] %world%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4567",
+    "created_at": "2020-12-23T00:32:54.078051Z",
+    "updated_at": "2020-12-23T00:32:54.078071Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the view distance of a specific world"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4568": {
     "id": 4568,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "World Storm",
+    "description": "Return if world have storm",
+    "syntax_pattern": "[skutils] [the] storm [state] of [world] %world%",
+    "compatible_addon_version": "alpha-0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4568",
+    "created_at": "2020-12-23T00:32:54.083575Z",
+    "updated_at": "2020-12-23T00:32:54.083595Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return if world have storm"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4569": {
     "id": 4569,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "aSkyBlock Islands Count",
+    "description": "Return the total of current island on the server",
+    "syntax_pattern": "[skutils] [askyblock] all [server] [enabled] is[lands]",
+    "compatible_addon_version": "alpha-0.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4569",
+    "created_at": "2020-12-23T00:32:54.089187Z",
+    "updated_at": "2020-12-23T00:32:54.089207Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the total of current island on the server"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4570": {
     "id": 4570,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "aSkyBlock Islands World",
+    "description": "Return the world where all islands are located",
+    "syntax_pattern": "[skutils] [askyblock] [the] is[lands] world",
+    "compatible_addon_version": "alpha-0.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "World",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4570",
+    "created_at": "2020-12-23T00:32:54.094753Z",
+    "updated_at": "2020-12-23T00:32:54.094773Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the world where all islands are located"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4571": {
     "id": 4571,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "aSkyBlock Nether World",
+    "description": "Return the world where all nether islands are located",
+    "syntax_pattern": "[skutils] [askyblock] [the] nether is[lands] world",
+    "compatible_addon_version": "alpha-0.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "World",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4571",
+    "created_at": "2020-12-23T00:32:54.100096Z",
+    "updated_at": "2020-12-23T00:32:54.100116Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the world where all nether islands are located"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4572": {
     "id": 4572,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "aSkyBlock Spawn Location",
+    "description": "Return the configured aSkyBlock's spawn location",
+    "syntax_pattern": "[skutils] [askyblock] [the] [configured] spawn[point] loc[ation]",
+    "compatible_addon_version": "alpha-0.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "Location",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4572",
+    "created_at": "2020-12-23T00:32:54.105632Z",
+    "updated_at": "2020-12-23T00:32:54.105653Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Return the configured aSkyBlock's spawn location"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4548": {
     "id": 4548,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "aSkyBlock Refresh Island Level",
+    "description": "Refresh the island level of the given player",
+    "syntax_pattern": "[skutils] refresh [askyblock] [island] level of [the] [player] %player%",
+    "compatible_addon_version": "alpha-0.2",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "ASkyBlock",
+        "link": ""
+      }
+    ],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4548",
+    "created_at": "2020-12-23T00:32:53.962713Z",
+    "updated_at": "2020-12-23T00:55:18.067865Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Refresh the island level of the given player"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4573": {
     "id": 4573,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Add Hologram Line",
+    "description": "Add a new line to an HolographicDisplays Hologram",
+    "syntax_pattern": "[skutils] add [new] [line] %string% to [the] [hd] [holo] %hologram%",
+    "compatible_addon_version": "alpha-0.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4573",
+    "created_at": "2020-12-25T17:53:21.236866Z",
+    "updated_at": "2020-12-25T17:53:21.236896Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Add a new line to an HolographicDisplays Hologram"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4574": {
     "id": 4574,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Hide Hologram",
+    "description": "Hide the Hologram t a specidic player",
+    "syntax_pattern": "[skutils] hide [the] [dh] holo[gram] %hologram% from [the] [player] %player%",
+    "compatible_addon_version": "alpha-0.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4574",
+    "created_at": "2020-12-25T17:53:21.259942Z",
+    "updated_at": "2020-12-25T17:53:21.259962Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Hide the Hologram t a specidic player"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4575": {
     "id": 4575,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Remove Hologram",
+    "description": "Remove a HolographicDisplays hologram (CANNOT BE UNDONE)",
+    "syntax_pattern": "[skutils] delete [the] [hd] holo[gram] %hologram%",
+    "compatible_addon_version": "alpha-0.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4575",
+    "created_at": "2020-12-25T17:53:21.265943Z",
+    "updated_at": "2020-12-25T17:53:21.265963Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Remove a HolographicDisplays hologram (CANNOT BE UNDONE)"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4576": {
     "id": 4576,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Remove Hologram Line",
+    "description": "Remove a specific line to a HolographicDisplays Hologram",
+    "syntax_pattern": "[skutils] remove [line] [number] %integer% of [the] [hd] [holo] %hologram%",
+    "compatible_addon_version": "alpha-0.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4576",
+    "created_at": "2020-12-25T17:53:21.271555Z",
+    "updated_at": "2020-12-25T17:53:21.271574Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Remove a specific line to a HolographicDisplays Hologram"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4577": {
     "id": 4577,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Show Hologram",
+    "description": "Show the Hologram t a specidic player",
+    "syntax_pattern": "[skutils] show [the] [dh] holo[gram] %hologram% to [the] [player] %player%",
+    "compatible_addon_version": "alpha-0.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4577",
+    "created_at": "2020-12-25T17:53:21.277250Z",
+    "updated_at": "2020-12-25T17:53:21.277269Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Show the Hologram t a specidic player"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4578": {
     "id": 4578,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Teleport Hologram",
+    "description": "Teleport a HolographicDisplays to a location",
+    "syntax_pattern": "[skutils] teleport [the] [hd] holo[gram] %hologram% to [the] [location] %location%",
+    "compatible_addon_version": "alpha-0.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4578",
+    "created_at": "2020-12-25T17:53:21.283599Z",
+    "updated_at": "2020-12-25T17:53:21.283618Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Teleport a HolographicDisplays to a location"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4579": {
     "id": 4579,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Create Hologram",
+    "description": "Create a HolographicDisplays hologram at specific location and with optional text, and return the hologram created",
+    "syntax_pattern": "[skutils] new [hd] holo[gram] at %location% [with [the] text %string%]",
+    "compatible_addon_version": "alpha-0.3",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "Hologram",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4579",
+    "created_at": "2020-12-25T17:53:21.304045Z",
+    "updated_at": "2020-12-25T17:53:21.304065Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create a HolographicDisplays hologram at specific location and with optional text, and return the hologram created"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4580": {
     "id": 4580,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Hologram",
+    "description": "Represents a HolographicDisplays Hologram",
+    "syntax_pattern": "hologram",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4580",
+    "created_at": "2020-12-25T17:53:21.309786Z",
+    "updated_at": "2020-12-25T17:53:21.309805Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a HolographicDisplays Hologram"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4581": {
     "id": 4581,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Plugin",
+    "description": "Represents an installed and loaded server plugin",
+    "syntax_pattern": "plugin[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4581",
+    "created_at": "2020-12-25T17:53:21.315560Z",
+    "updated_at": "2020-12-25T17:53:21.315580Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an installed and loaded server plugin"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4582": {
     "id": 4582,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Add Player to Bossbar",
+    "description": "Add a player to a specific server bossbar",
+    "syntax_pattern": "[skutils] add [the] [player] %player% to [the] boss[bar] %bossbar%",
+    "compatible_addon_version": "alpha-0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4582",
+    "created_at": "2020-12-29T21:35:06.756808Z",
+    "updated_at": "2020-12-29T21:35:06.756837Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Add a player to a specific server bossbar"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4583": {
     "id": 4583,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Change BossBar Color",
+    "description": "Change and edit the color of a specific bossbar. Available colors are RED, BLUE, WHITE, PURPLE, PINK, GREEN and YELLOW",
+    "syntax_pattern": "[skutils] (set|change) [the] color of [the] boss[bar] %bossbar% to %string%",
+    "compatible_addon_version": "alpha-0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4583",
+    "created_at": "2020-12-29T21:35:06.824055Z",
+    "updated_at": "2020-12-29T21:35:06.824076Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Change and edit the color of a specific bossbar. Available colors are RED, BLUE, WHITE, PURPLE, PINK, GREEN and YELLOW"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4584": {
     "id": 4584,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Change BossBar Progress",
+    "description": "Change and edit the progression of a specific bossbar. Progress is between 0.0 and 1.0",
+    "syntax_pattern": "[skutils] (set|change) [the] progress of [the] boss[bar] %bossbar% to %number%",
+    "compatible_addon_version": "alpha-0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4584",
+    "created_at": "2020-12-29T21:35:06.830976Z",
+    "updated_at": "2020-12-29T21:35:06.830997Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Change and edit the progression of a specific bossbar. Progress is between 0.0 and 1.0"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4585": {
     "id": 4585,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Change BossBar Style",
+    "description": "Change and edit the style of a specific bossbar. Available styles are SOLID, SEGMENTED_6, SEGMENTED_10, SEGMENTED_12 and SEGMENTED_20",
+    "syntax_pattern": "[skutils] (set|change) [the] style of [the] boss[bar] %bossbar% to %string%",
+    "compatible_addon_version": "alpha-0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4585",
+    "created_at": "2020-12-29T21:35:06.836816Z",
+    "updated_at": "2020-12-29T21:35:06.836836Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Change and edit the style of a specific bossbar. Available styles are SOLID, SEGMENTED_6, SEGMENTED_10, SEGMENTED_12 and SEGMENTED_20"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4586": {
     "id": 4586,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Change BossBar Title",
+    "description": "Change and edit the title of a specific bossbar",
+    "syntax_pattern": "[skutils] (set|change) [the] title of [the] boss[bar] %bossbar% to %string%",
+    "compatible_addon_version": "alpha-0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4586",
+    "created_at": "2020-12-29T21:35:06.843858Z",
+    "updated_at": "2020-12-29T21:35:06.843878Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Change and edit the title of a specific bossbar"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4587": {
     "id": 4587,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Delete Player from Bossbar",
+    "description": "Delete a player from a specific server bossbar",
+    "syntax_pattern": "[skutils] (delete|remove) [the] [player] %player% from [the] boss[bar] %bossbar%",
+    "compatible_addon_version": "alpha-0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4587",
+    "created_at": "2020-12-29T21:35:06.849587Z",
+    "updated_at": "2020-12-29T21:35:06.849607Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Delete a player from a specific server bossbar"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4588": {
     "id": 4588,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Open SlimeFun Guide",
+    "description": "Open the book to a player with the specific SlimeFun Guide's type",
+    "syntax_pattern": "[skutils] open [(sf|slimefun)] [guide] %guide% to [the] [player] %player%",
+    "compatible_addon_version": "alpha-0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4588",
+    "created_at": "2020-12-29T21:35:06.855688Z",
+    "updated_at": "2020-12-29T21:35:06.855708Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Open the book to a player with the specific SlimeFun Guide's type"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4589": {
     "id": 4589,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Paste Schematics",
+    "description": "Paste a specific FAWE or WE schematic to location",
+    "syntax_pattern": "[skutils] [fawe] paste [the] [schem[atic]] %string% at [the] [location] %location% including air %boolean%",
+    "compatible_addon_version": "alpha-0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4589",
+    "created_at": "2020-12-29T21:35:06.861303Z",
+    "updated_at": "2020-12-29T21:35:06.861323Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Paste a specific FAWE or WE schematic to location"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4590": {
     "id": 4590,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "Create Bossbar",
+    "description": "Create and return a new bossbar",
+    "syntax_pattern": "[skutils] new [bukkit] boss[bar]",
+    "compatible_addon_version": "alpha-0.4",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": "BossBar",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4590",
+    "created_at": "2020-12-29T21:35:06.867053Z",
+    "updated_at": "2020-12-29T21:35:06.867073Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create and return a new bossbar"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4591": {
     "id": 4591,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "BossBar",
+    "description": "Represents a Bukkit BossBar",
+    "syntax_pattern": "bossbar[s]",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4591",
+    "created_at": "2020-12-29T21:35:06.872837Z",
+    "updated_at": "2020-12-29T21:35:06.872858Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a Bukkit BossBar"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4592": {
     "id": 4592,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "category",
+    "description": "Represent a SlimeFun Category.",
+    "syntax_pattern": "category",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4592",
+    "created_at": "2020-12-29T21:35:06.878755Z",
+    "updated_at": "2020-12-29T21:35:06.878775Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represent a SlimeFun Category."
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4593": {
     "id": 4593,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "customitem",
+    "description": "Represents a SlimeFun's custom item to use into Category's creation. Contain a material and a (colored) name.",
+    "syntax_pattern": "customitem",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4593",
+    "created_at": "2020-12-29T21:35:06.884697Z",
+    "updated_at": "2020-12-29T21:35:06.884719Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a SlimeFun's custom item to use into Category's creation. Contain a material and a (colored) name."
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4594": {
     "id": 4594,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "guide",
+    "description": "Represents a SlimeFun guide's type (BOOK, CHEAT_SHEET or CHEST)",
+    "syntax_pattern": "guide",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4594",
+    "created_at": "2020-12-29T21:35:06.890698Z",
+    "updated_at": "2020-12-29T21:35:06.890720Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents a SlimeFun guide's type (BOOK, CHEAT_SHEET or CHEST)"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4595": {
     "id": 4595,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "namespacedkey",
+    "description": "Represent NamespacedKey with unique ID based on the plugin (here, SkUtils) to register it. Used into most of SlimeFun's registration effects.",
+    "syntax_pattern": "namespacedkey",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4595",
+    "created_at": "2020-12-29T21:35:06.896704Z",
+    "updated_at": "2020-12-29T21:35:06.896727Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represent NamespacedKey with unique ID based on the plugin (here, SkUtils) to register it. Used into most of SlimeFun's registration effects."
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4596": {
     "id": 4596,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "recipetype",
+    "description": "Represent a SlimeFun recipe type. That's like the machine ID used into a new recipe system, as \"ENHANCED_CRAFTING_TABLE\" for example.",
+    "syntax_pattern": "recipetype",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4596",
+    "created_at": "2020-12-29T21:35:06.902456Z",
+    "updated_at": "2020-12-29T21:35:06.902477Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represent a SlimeFun recipe type. That's like the machine ID used into a new recipe system, as \"ENHANCED_CRAFTING_TABLE\" for example."
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_4597": {
     "id": 4597,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "SkyCraft78",
+    "title": "slimefunitemstack",
+    "description": "Represent a SlimeFun ItemStack. That's the main item system (these items are used into category)",
+    "syntax_pattern": "slimefunitemstack",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkUtils",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=4597",
+    "created_at": "2020-12-29T21:35:06.908335Z",
+    "updated_at": "2020-12-29T21:35:06.908356Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represent a SlimeFun ItemStack. That's the main item system (these items are used into category)"
       ],
       "ko": [
-        "[SkUtils] 한국어 가이드팩 준비 중"
+        "[SKUTILS] 한국어 가이드 번역 대기 중"
       ]
     }
   }

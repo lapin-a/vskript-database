@@ -1,155 +1,342 @@
 {
   "syntax_8578": {
     "id": 8578,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Price Multiplier",
+    "description": "Sets the price multiplier of a merchant recipe.",
+    "syntax_pattern": "price multiplier of %merchantrecipes%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Merchants",
+    "type_usage": null,
+    "return_type": "Float",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8578",
+    "created_at": "2023-03-05T05:14:05.255965Z",
+    "updated_at": "2023-03-05T05:14:05.255984Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the price multiplier of a merchant recipe."
       ],
       "ko": [
-        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MERCHANTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8579": {
     "id": 8579,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Uses",
+    "description": "Sets how many times a merchant recipe has been used.",
+    "syntax_pattern": "uses of %merchantrecipes%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Merchants",
+    "type_usage": null,
+    "return_type": "Integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8579",
+    "created_at": "2023-03-05T05:16:12.394085Z",
+    "updated_at": "2023-03-05T05:16:12.394102Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets how many times a merchant recipe has been used."
       ],
       "ko": [
-        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MERCHANTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8577": {
     "id": 8577,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Reward",
+    "description": "Sets the reward of a merchant recipe.",
+    "syntax_pattern": "reward of %merchantrecipes%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Merchants",
+    "type_usage": null,
+    "return_type": "Item Type",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8577",
+    "created_at": "2023-03-05T05:12:27.512961Z",
+    "updated_at": "2023-03-06T00:00:50.499193Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the reward of a merchant recipe."
       ],
       "ko": [
-        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MERCHANTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8570": {
     "id": 8570,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Open Merchant",
+    "description": "Opens a merchant inventory to a player.",
+    "syntax_pattern": "open [a] [new] merchant [inventory] [(named|titled) %-string%] (to|for) %players%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skript-Merchants",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8570",
+    "created_at": "2023-03-05T04:50:28.440620Z",
+    "updated_at": "2023-03-05T04:50:28.440637Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Opens a merchant inventory to a player."
       ],
       "ko": [
-        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MERCHANTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8571": {
     "id": 8571,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Merchant Recipe",
+    "description": "Creates a new merchant recipe to be used in other expressions.",
+    "syntax_pattern": "%itemtype% [and %-itemtype%] for %itemtype%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Merchants",
+    "type_usage": null,
+    "return_type": "Merchant Recipe",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8571",
+    "created_at": "2023-03-05T04:53:25.459534Z",
+    "updated_at": "2023-03-05T04:53:25.459549Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Creates a new merchant recipe to be used in other expressions."
       ],
       "ko": [
-        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MERCHANTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8572": {
     "id": 8572,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Trade of Merchant",
+    "description": "Allows you to get or set a trade of a merchant inventory, typically represented by using `player's current inventory`.",
+    "syntax_pattern": "trade %number% of %merchantinventories%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Merchants",
+    "type_usage": null,
+    "return_type": "Merchant Recipe",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8572",
+    "created_at": "2023-03-05T04:56:51.748960Z",
+    "updated_at": "2023-03-05T04:59:18.229112Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to get or set a trade of a merchant inventory, typically represented by using `player's current inventory`."
       ],
       "ko": [
-        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MERCHANTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8573": {
     "id": 8573,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "All Trades of Merchant",
+    "description": "Allows you to set, add, remove, delete, and reset trades of a merchant inventory.",
+    "syntax_pattern": "[all [[of] the]] trades of %inventories%",
+    "compatible_addon_version": null,
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Merchants",
+    "type_usage": null,
+    "return_type": "Merchant Recipes",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8573",
+    "created_at": "2023-03-05T05:01:22.296604Z",
+    "updated_at": "2023-03-05T05:01:22.296623Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to set, add, remove, delete, and reset trades of a merchant inventory."
       ],
       "ko": [
-        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MERCHANTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8574": {
     "id": 8574,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Experience Reward",
+    "description": "Allows you to set the experience reward of a merchant recipe.",
+    "syntax_pattern": "experience reward of %merchantrecipes%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Merchants",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8574",
+    "created_at": "2023-03-05T05:03:43.967391Z",
+    "updated_at": "2023-03-05T05:03:43.967406Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to set the experience reward of a merchant recipe."
       ],
       "ko": [
-        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MERCHANTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8575": {
     "id": 8575,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Ignore Discounts",
+    "description": "Allows you to make a merchant recipe ignore discounts or not.",
+    "syntax_pattern": "ignore discounts of %merchantrecipes%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Merchants",
+    "type_usage": null,
+    "return_type": "Boolean",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8575",
+    "created_at": "2023-03-05T05:05:18.147615Z",
+    "updated_at": "2023-03-05T05:05:18.147631Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to make a merchant recipe ignore discounts or not."
       ],
       "ko": [
-        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MERCHANTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8576": {
     "id": 8576,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Max Uses",
+    "description": "Allows you to set the maximum uses of a merchant recipe. By default, there will be 999,999 max uses.",
+    "syntax_pattern": "max uses of %merchantrecipes%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Merchants",
+    "type_usage": null,
+    "return_type": "Integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8576",
+    "created_at": "2023-03-05T05:09:10.508098Z",
+    "updated_at": "2023-03-05T05:09:10.508115Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Allows you to set the maximum uses of a merchant recipe. By default, there will be 999,999 max uses."
       ],
       "ko": [
-        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MERCHANTS] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8580": {
     "id": 8580,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "hotpocket184",
+    "title": "Villager Experience",
+    "description": "Sets the amount of experience a villager gains when traded with.",
+    "syntax_pattern": "villager experience of %merchantrecipes%",
+    "compatible_addon_version": "1.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skript-Merchants",
+    "type_usage": null,
+    "return_type": "Integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8580",
+    "created_at": "2023-03-05T05:17:37.894626Z",
+    "updated_at": "2023-03-05T05:17:37.894641Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Sets the amount of experience a villager gains when traded with."
       ],
       "ko": [
-        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+        "[SKRIPT-MERCHANTS] 한국어 가이드 번역 대기 중"
       ]
     }
   }

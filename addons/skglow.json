@@ -1,128 +1,315 @@
 {
   "syntax_8444": {
     "id": 8444,
-    "type": "condition",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MinecraftMan1013",
+    "title": "Is Glowing",
+    "description": "See if a player is glowing",
+    "syntax_pattern": "%player% is glowing\n%player% (isn't|is not) glowing",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "condition",
+    "required_plugins": [
+      {
+        "name": "eGlow",
+        "link": ""
+      }
+    ],
+    "addon": "skGlow",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8444",
+    "created_at": "2023-01-16T16:19:15.670780Z",
+    "updated_at": "2023-01-16T16:47:59.098938Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "See if a player is glowing"
       ],
       "ko": [
-        "[skGlow] 한국어 가이드팩 준비 중"
+        "[SKGLOW] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8448": {
     "id": 8448,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MinecraftMan1013",
+    "title": "Stop Glow",
+    "description": "Stop a player from glowing",
+    "syntax_pattern": "make %players% stop glowing\ndisable glowing for %players%",
+    "compatible_addon_version": "1.0.0, 2.0.0 (2nd syntax)",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "eGlow",
+        "link": ""
+      }
+    ],
+    "addon": "skGlow",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8448",
+    "created_at": "2023-01-16T16:19:15.706830Z",
+    "updated_at": "2023-01-16T16:46:37.963376Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Stop a player from glowing"
       ],
       "ko": [
-        "[skGlow] 한국어 가이드팩 준비 중"
+        "[SKGLOW] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8449": {
     "id": 8449,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MinecraftMan1013",
+    "title": "Glow Color",
+    "description": "Get or delete a player's current or last glow a color. Last glow color cannot be set.",
+    "syntax_pattern": "[current] glow color of %player%\n%player%['s] [current] glow color",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [
+      {
+        "name": "eGlow",
+        "link": ""
+      }
+    ],
+    "addon": "skGlow",
+    "type_usage": null,
+    "return_type": "Glow Color",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8449",
+    "created_at": "2023-01-16T16:19:15.715426Z",
+    "updated_at": "2023-01-16T16:48:24.352007Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Get or delete a player's current or last glow a color. Last glow color cannot be set."
       ],
       "ko": [
-        "[skGlow] 한국어 가이드팩 준비 중"
+        "[SKGLOW] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8451": {
     "id": 8451,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MinecraftMan1013",
+    "title": "Glow Color",
+    "description": "Represents a glow color that players can glow\n\n**NOTE: You need to either prefix or suffix the color with \"glow\"**. See examples for an example of this",
+    "syntax_pattern": "glow[ ]color[s]",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [
+      {
+        "name": "eGlow",
+        "link": ""
+      }
+    ],
+    "addon": "skGlow",
+    "type_usage": "red, dark red, gold, yellow, green, dark green, aqua, dark aqua, blue, dark blue, purple, pink, white, gray, dark gray, black, none",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8451",
+    "created_at": "2023-01-16T16:19:15.732347Z",
+    "updated_at": "2023-01-16T16:48:11.090090Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Represents a glow color that players can glow",
-        "**NOTE: You need to either prefix or suffix the color with \"glow\"**. See examples for an example of this"
+        "Represents a glow color that players can glow\n\n**NOTE: You need to either prefix or suffix the color with \"glow\"**. See examples for an example of this"
       ],
       "ko": [
-        "[skGlow] 한국어 가이드팩 준비 중"
+        "[SKGLOW] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8450": {
     "id": 8450,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MinecraftMan1013",
+    "title": "Effect Speed",
+    "description": "Represents an effect speed (fast or slow)",
+    "syntax_pattern": "effect[ ]speed[s]",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [
+      {
+        "name": "eGlow",
+        "link": ""
+      }
+    ],
+    "addon": "skGlow",
+    "type_usage": "fast\nslow",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8450",
+    "created_at": "2023-01-16T16:19:15.723715Z",
+    "updated_at": "2023-01-16T16:48:29.648839Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Represents an effect speed (fast or slow)"
       ],
       "ko": [
-        "[skGlow] 한국어 가이드팩 준비 중"
+        "[SKGLOW] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_6090": {
     "id": 6090,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MinecraftMan1013",
+    "title": "Make Glow",
+    "description": "Make a player glow a certain color",
+    "syntax_pattern": "apply [glow color] %glowcolor% to %players%",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "eGlow",
+        "link": ""
+      }
+    ],
+    "addon": "skGlow",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=6090",
+    "created_at": "2021-09-13T00:53:37.259356Z",
+    "updated_at": "2023-01-16T16:21:30.476689Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make a player glow a certain color"
       ],
       "ko": [
-        "[skGlow] 한국어 가이드팩 준비 중"
+        "[SKGLOW] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8452": {
     "id": 8452,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MinecraftMan1013",
+    "title": "Rainbow Glow",
+    "description": "Make a player glow in a rainbow",
+    "syntax_pattern": "make %players% glow rainbow %effectspeed%[ly]",
+    "compatible_addon_version": "2.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [
+      {
+        "name": "eGlow",
+        "link": ""
+      }
+    ],
+    "addon": "skGlow",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8452",
+    "created_at": "2023-01-16T16:27:43.574437Z",
+    "updated_at": "2023-01-16T16:47:00.967127Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make a player glow in a rainbow"
       ],
       "ko": [
-        "[skGlow] 한국어 가이드팩 준비 중"
+        "[SKGLOW] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8454": {
     "id": 8454,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MinecraftMan1013",
+    "title": "Make Glow",
+    "description": "Make a player glow a color",
+    "syntax_pattern": "apply [glow color] %glowcolor% to %players%",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skGlow",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8454",
+    "created_at": "2023-01-16T16:37:16.765291Z",
+    "updated_at": "2023-01-16T16:37:16.765302Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make a player glow a color"
       ],
       "ko": [
-        "[skGlow] 한국어 가이드팩 준비 중"
+        "[SKGLOW] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_8453": {
     "id": 8453,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "MinecraftMan1013",
+    "title": "Make Blink",
+    "description": "Make a player blink a color",
+    "syntax_pattern": "make %players% blink %glowcolor% with speed %effectspeed%\napply %glowcolor% blink with speed %effectspeed% to %players%",
+    "compatible_addon_version": "2.0.1",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "skGlow",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=8453",
+    "created_at": "2023-01-16T16:37:16.755745Z",
+    "updated_at": "2023-01-30T22:57:48.230904Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Make a player blink a color"
       ],
       "ko": [
-        "[skGlow] 한국어 가이드팩 준비 중"
+        "[SKGLOW] 한국어 가이드 번역 대기 중"
       ]
     }
   }

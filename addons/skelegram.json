@@ -1,492 +1,1086 @@
 {
   "syntax_9217": {
     "id": 9217,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Telegram Sender of Message",
+    "description": "The sender of a Telegram Message.",
+    "syntax_pattern": "sender of %telegrammessage%",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": "Telegram User",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9217",
+    "created_at": "2023-05-06T09:26:42.064720Z",
+    "updated_at": "2023-05-06T09:26:42.064734Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The sender of a Telegram Message."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9192": {
     "id": 9192,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Telegram Bot Login",
+    "description": "Create a session and authenticate to a telegram bot, given its username and its token.",
+    "syntax_pattern": "telegram login to bot %string% with token %string%",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9192",
+    "created_at": "2023-05-06T07:47:51.395260Z",
+    "updated_at": "2023-05-06T07:47:51.395271Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Create a session and authenticate to a telegram bot, given its username and its token."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9193": {
     "id": 9193,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Clear all telegram sessions",
+    "description": "Close all the telegram sessions that are active. Stops any running bot. You should use this in case you get an api error 409 saying multiple instances are running a single bot. Please note that closing a session may take up to 50 seconds, as it is delayed by the Telegram API itself.",
+    "syntax_pattern": "(clear|stop) all telegram sessions",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9193",
+    "created_at": "2023-05-06T07:48:24.265922Z",
+    "updated_at": "2023-05-06T07:48:24.265933Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Close all the telegram sessions that are active. Stops any running bot. You should use this in case you get an api error 409 saying multiple instances are running a single bot. Please note that closing a session may take up to 50 seconds, as it is delayed by the Telegram API itself."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9197": {
     "id": 9197,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Telegram Message",
+    "description": "This type holds all the information about a message. You can either get this object in a telegram event (event-telegram message) or by creating a new one (new telegram message with text %string%)",
+    "syntax_pattern": "%telegrammessage%\nevent-telegram message\ntelegram message",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": ".",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9197",
+    "created_at": "2023-05-06T07:53:24.937403Z",
+    "updated_at": "2023-05-06T07:53:24.937414Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This type holds all the information about a message. You can either get this object in a telegram event (event-telegram message) or by creating a new one (new telegram message with text %string%)"
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9198": {
     "id": 9198,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Telegram Chat",
+    "description": "This type holds all the information about a telegram chat.",
+    "syntax_pattern": "%telegramchat%\nevent-telegram chat\ntelegram chat",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": "type of %telegramchat%\r\nid of %telegramchat%",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9198",
+    "created_at": "2023-05-06T07:53:59.935707Z",
+    "updated_at": "2023-05-06T07:53:59.935723Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This type holds all the information about a telegram chat."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9200": {
     "id": 9200,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Telegram Inline Keyboard",
+    "description": "This type represents a Telegram Inline Keyboard. A keyboard is a matrix of buttons (double list). You can access the rows of the keyboard with the row expression.",
+    "syntax_pattern": "%inlinekeyboard%\ninline keyboard",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": "1st row of keyboard %inlinekeyboard%\r\ninline keyboard of %telegrammessage%",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9200",
+    "created_at": "2023-05-06T07:55:46.327639Z",
+    "updated_at": "2023-05-06T07:55:46.327650Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This type represents a Telegram Inline Keyboard. A keyboard is a matrix of buttons (double list). You can access the rows of the keyboard with the row expression."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9201": {
     "id": 9201,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Telegram Inline Button",
+    "description": "This type represents a Telegram Inline Button. You can't add simply the button to a message, but you need first to add it into a keyboard. You can then add the keyboard to the message. (Otherwise, how would Telegram know which position the button would have to be?)\r\n\r\nOf a button, you can define its text (the displayed button itself) and its action. If you set its URL, it will open automatically a link when clicked. If you set its callback data, you can specify the data that is sent to the bot when clicked. You can listen to such data with the EvtCallbackQuery",
+    "syntax_pattern": "%inlinebutton%\ninline button",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": "text of %inlinebutton%\r\ncallback data of %inlinebutton%\r\nurl of %inlinebutton%",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9201",
+    "created_at": "2023-05-06T07:56:14.191124Z",
+    "updated_at": "2023-05-06T07:56:14.191136Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "This type represents a Telegram Inline Button. You can't add simply the button to a message, but you need first to add it into a keyboard. You can then add the keyboard to the message. (Otherwise, how would Telegram know which position the button would have to be?)",
-        "Of a button, you can define its text (the displayed button itself) and its action. If you set its URL, it will open automatically a link when clicked. If you set its callback data, you can specify the data that is sent to the bot when clicked. You can listen to such data with the EvtCallbackQuery"
+        "This type represents a Telegram Inline Button. You can't add simply the button to a message, but you need first to add it into a keyboard. You can then add the keyboard to the message. (Otherwise, how would Telegram know which position the button would have to be?)\r\n\r\nOf a button, you can define its text (the displayed button itself) and its action. If you set its URL, it will open automatically a link when clicked. If you set its callback data, you can specify the data that is sent to the bot when clicked. You can listen to such data with the EvtCallbackQuery"
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9202": {
     "id": 9202,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Telegram Message Event",
+    "description": "Fires whenever a message (or command) is received. You can access the received message with event-telegram message",
+    "syntax_pattern": "on telegram message [event]",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-telegram message\r\nevent-telegram bot",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9202",
+    "created_at": "2023-05-06T07:58:04.009881Z",
+    "updated_at": "2023-05-06T07:58:04.009898Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Fires whenever a message (or command) is received. You can access the received message with event-telegram message"
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9203": {
     "id": 9203,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Telegram CallbackQuery Event",
+    "description": "Fires whenever a button with a callback data is fired. You can specify for which data to listen or leave it blank to listen for any button press",
+    "syntax_pattern": "on [telegram] callback query [[with data] %string%]",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-callback query\r\nevent-telegram user\r\nevent-telegram message\r\nevent-telegram bot",
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9203",
+    "created_at": "2023-05-06T07:59:26.368250Z",
+    "updated_at": "2023-05-06T07:59:26.368263Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Fires whenever a button with a callback data is fired. You can specify for which data to listen or leave it blank to listen for any button press"
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9204": {
     "id": 9204,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Callback Query",
+    "description": "This type represents a Callback Query. A callback query is what the bot receives when an inline button is pressed. You can see for example the callback data of the button with callback data of %callbackquery%",
+    "syntax_pattern": "%callbackquery%\ncallback query",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": "event-callback query",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9204",
+    "created_at": "2023-05-06T08:06:13.270212Z",
+    "updated_at": "2023-05-06T08:06:13.270224Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This type represents a Callback Query. A callback query is what the bot receives when an inline button is pressed. You can see for example the callback data of the button with callback data of %callbackquery%"
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9205": {
     "id": 9205,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "New Telegram Message",
+    "description": "Returns a new empty telegram message. You can use other expressions to change its properties, such as text, keyboard, etc. You may use this outside of a Telegram Event, but in order to send it you'll have to specify bot you are using.",
+    "syntax_pattern": "new telegram message with text %string%",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": "Telegram Message",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9205",
+    "created_at": "2023-05-06T08:14:25.597673Z",
+    "updated_at": "2023-05-06T08:14:25.597688Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a new empty telegram message. You can use other expressions to change its properties, such as text, keyboard, etc. You may use this outside of a Telegram Event, but in order to send it you'll have to specify bot you are using."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9206": {
     "id": 9206,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Last Telegram Sent Message",
+    "description": "Returns the last sent message. Use this exclusively and immediately after sending a message.",
+    "syntax_pattern": "[the] last sent telegram message [with bot %string%]",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": "Telegram Message",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9206",
+    "created_at": "2023-05-06T08:21:17.418057Z",
+    "updated_at": "2023-05-06T08:21:17.418070Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the last sent message. Use this exclusively and immediately after sending a message."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9207": {
     "id": 9207,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Telegram Chat of Message",
+    "description": "Returns a Telegram Chat type. The chat in which a message has been sent. Can not be set.",
+    "syntax_pattern": "chat of %telegrammessage%",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": "Telegram Chat",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9207",
+    "created_at": "2023-05-06T09:08:30.616023Z",
+    "updated_at": "2023-05-06T09:08:30.616038Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a Telegram Chat type. The chat in which a message has been sent. Can not be set."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9208": {
     "id": 9208,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Telegram Text of Message",
+    "description": "Returns the text of a telegram message. Can be changed to edit the message.",
+    "syntax_pattern": "text of %telegrammessage%",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": "Telegram Message",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9208",
+    "created_at": "2023-05-06T09:08:57.736941Z",
+    "updated_at": "2023-05-06T09:08:57.736955Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the text of a telegram message. Can be changed to edit the message."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9195": {
     "id": 9195,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Send telegram message",
+    "description": "Send a telegram message. The message can be a string or can be an existing message. The target chat ID can be used to specify the destination of the message. If used inside of a Telegram Event, the bot to use is automatically detected. To use it outside of a Telegram Event, specify the username of the bot. If a session exists for that bot, the message will be sent.",
+    "syntax_pattern": "send telegram message %string/telegrammessage% [with markdown] to %telegramuser/telegramchat/number% [with bot %string%]",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9195",
+    "created_at": "2023-05-06T07:49:38.150604Z",
+    "updated_at": "2023-05-08T16:33:52.750753Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Send a telegram message. The message can be a string or can be an existing message. The target chat ID can be used to specify the destination of the message. If used inside of a Telegram Event, the bot to use is automatically detected. To use it outside of a Telegram Event, specify the username of the bot. If a session exists for that bot, the message will be sent."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9196": {
     "id": 9196,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Reply telegram message",
+    "description": "Send a telegram message, as a reply to another message. The reply message can be a string or can be an existing message. If used inside of a Telegram Event, the bot to use is automatically detected. To use it outside of a Telegram Event, specify the username of the bot. If a session exists for that bot, the message will be sent.",
+    "syntax_pattern": "reply to telegram message %telegrammessage% with %telegrammessage/string% [with markdown] [with bot %-string%]",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9196",
+    "created_at": "2023-05-06T07:50:22.374590Z",
+    "updated_at": "2023-05-08T16:34:55.927702Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Send a telegram message, as a reply to another message. The reply message can be a string or can be an existing message. If used inside of a Telegram Event, the bot to use is automatically detected. To use it outside of a Telegram Event, specify the username of the bot. If a session exists for that bot, the message will be sent."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9209": {
     "id": 9209,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Telegram Id",
+    "description": "Returns the Numeric ID of a telegram object. Each user has an unique ID. The ID of a chat is identic to a user ID if it's its private chat with the bot. (It is different if it's a group or supergroup etc.). Each message has an unique ID inside of a chat. Can't be set.",
+    "syntax_pattern": "id of %telegrammessage%\nid of %telegramuser%\nid of %telegramchat%",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": "Integer",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9209",
+    "created_at": "2023-05-06T09:09:43.016954Z",
+    "updated_at": "2023-05-06T09:09:43.016969Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the Numeric ID of a telegram object. Each user has an unique ID. The ID of a chat is identic to a user ID if it's its private chat with the bot. (It is different if it's a group or supergroup etc.). Each message has an unique ID inside of a chat. Can't be set."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9210": {
     "id": 9210,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Telegram Chat Type",
+    "description": "Returns the type of a telegram chat. It can be \"PRIVATE\", \"BOT\", \"GROUP\", \"SUPERGROUP\" or \"CHANNEL\". Can't be set.",
+    "syntax_pattern": "type of %telegramchat%",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": "String (\"PRIVATE\", \"BOT\", \"GROUP\", \"SUPERGROUP\", \"CHANNEL\")",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9210",
+    "created_at": "2023-05-06T09:13:03.351570Z",
+    "updated_at": "2023-05-06T09:13:03.351581Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns the type of a telegram chat. It can be \"PRIVATE\", \"BOT\", \"GROUP\", \"SUPERGROUP\" or \"CHANNEL\". Can't be set."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9211": {
     "id": 9211,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Callback Data of InlineButton",
+    "description": "The callback data of an Inline Button. This is the text that is sent to the bot on a button press, and it can be listened for with the On Callback Query event.",
+    "syntax_pattern": "callback data of %inlinebutton%",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9211",
+    "created_at": "2023-05-06T09:19:52.627941Z",
+    "updated_at": "2023-05-06T09:19:52.627952Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The callback data of an Inline Button. This is the text that is sent to the bot on a button press, and it can be listened for with the On Callback Query event."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9212": {
     "id": 9212,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Callback Data of CallbackQuery",
+    "description": "The callback data of a Callback Query. You can use this to check what telegram button was pressed, based on the callback data you had set.",
+    "syntax_pattern": "callback data of %callbackquery%",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9212",
+    "created_at": "2023-05-06T09:20:37.854231Z",
+    "updated_at": "2023-05-06T09:20:37.854245Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The callback data of a Callback Query. You can use this to check what telegram button was pressed, based on the callback data you had set."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9213": {
     "id": 9213,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Text of InlineButton",
+    "description": "The Displayed text of an Inline Button. This is the actual message a button has in the chat.",
+    "syntax_pattern": "text of %inlinebutton%",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9213",
+    "created_at": "2023-05-06T09:24:12.516350Z",
+    "updated_at": "2023-05-06T09:24:12.516361Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The Displayed text of an Inline Button. This is the actual message a button has in the chat."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9214": {
     "id": 9214,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Url of InlineButton",
+    "description": "The URL of an Inline Button. Note that a button can't have both a callback data and an URL. The link will be opened on button press.",
+    "syntax_pattern": "url of %inlinebutton%",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9214",
+    "created_at": "2023-05-06T09:24:46.119813Z",
+    "updated_at": "2023-05-06T09:24:46.119824Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The URL of an Inline Button. Note that a button can't have both a callback data and an URL. The link will be opened on button press."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9215": {
     "id": 9215,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Row of InlineKeyboard",
+    "description": "The row of an existing InlineKeyboard. You can add, remove, set and clear rows. Setting a row that doesn't exist on the keyboard will simply append it to the bottom.",
+    "syntax_pattern": "[the] %number%(st|nd|rd|th) row of [the] [inline] keyboard %inlinekeyboard%",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": "List of Telegram Buttons",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9215",
+    "created_at": "2023-05-06T09:25:23.753720Z",
+    "updated_at": "2023-05-06T09:25:23.753737Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The row of an existing InlineKeyboard. You can add, remove, set and clear rows. Setting a row that doesn't exist on the keyboard will simply append it to the bottom."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9216": {
     "id": 9216,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Inline Keyboard of Message",
+    "description": "The Inline Keyboard of a Telegram Message. You can use this to add a keyboard to existing messages, before sending them.",
+    "syntax_pattern": "inline keyboard of %telegrammessage%",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": "Inline Keyboard",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9216",
+    "created_at": "2023-05-06T09:26:04.409378Z",
+    "updated_at": "2023-05-06T09:26:04.409391Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The Inline Keyboard of a Telegram Message. You can use this to add a keyboard to existing messages, before sending them."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9199": {
     "id": 9199,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Telegram User",
+    "description": "This type represents a Telegram User.",
+    "syntax_pattern": "%telegramuser%\nevent-telegram user\ntelegram user",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": "id of %telegramuser%",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9199",
+    "created_at": "2023-05-06T07:54:33.197678Z",
+    "updated_at": "2023-05-06T09:40:18.874345Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This type represents a Telegram User."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9194": {
     "id": 9194,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Clear Telegram Session",
+    "description": "Closes the telegram session of a specific bot. Please note that closing a session may take up to 50 seconds, as it is delayed by the Telegram API itself.",
+    "syntax_pattern": "(clear|stop) telegram session of bot %string%",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9194",
+    "created_at": "2023-05-06T07:49:11.732951Z",
+    "updated_at": "2023-05-06T12:11:15.944822Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Closes the telegram session of a specific bot. Please note that closing a session may take up to 50 seconds, as it is delayed by the Telegram API itself."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9219": {
     "id": 9219,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Telegram Bot",
+    "description": "This type represents a telegram bot. It holds information about the bot that fired a spefific event. You can view its username (to check if the bot is the one you're creating in skript) with \"%username of event-telegram bot%\" or with \"%event-telegram bot%\" Since Telegram Events are fired by all bots ran on a server, you should always filter that the received event is fired by the bot you're programming.",
+    "syntax_pattern": "%telegram bot%\ntelegram bot",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": "event-telegram bot",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9219",
+    "created_at": "2023-05-08T10:22:12.893503Z",
+    "updated_at": "2023-05-08T10:22:12.893515Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This type represents a telegram bot. It holds information about the bot that fired a spefific event. You can view its username (to check if the bot is the one you're creating in skript) with \"%username of event-telegram bot%\" or with \"%event-telegram bot%\" Since Telegram Events are fired by all bots ran on a server, you should always filter that the received event is fired by the bot you're programming."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9220": {
     "id": 9220,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Answer to Callback Query",
+    "description": "Show a little notification to a user after they pressed a button. This will also complete a button press, removing the little clock that shows on the button when it gets pressed. Adding \"with popup\" will show the callback query answer in a popup window, and the user will have to press OK to hide it.",
+    "syntax_pattern": "answer to callback query %callbackquery% with %string% [with popup]",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9220",
+    "created_at": "2023-05-08T10:24:48.465102Z",
+    "updated_at": "2023-05-08T10:24:48.465113Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Show a little notification to a user after they pressed a button. This will also complete a button press, removing the little clock that shows on the button when it gets pressed. Adding \"with popup\" will show the callback query answer in a popup window, and the user will have to press OK to hide it."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9221": {
     "id": 9221,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Forward Telegram Message",
+    "description": "Forward an existing telegram message, and send it to a user. The final message will have information about who sent it in the first place. It will show \"forwarded from\" to its top.",
+    "syntax_pattern": "forward telegram message %telegrammessage% to %telegramuser/telegramchat/number% [with bot %string%]",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9221",
+    "created_at": "2023-05-08T10:25:19.293244Z",
+    "updated_at": "2023-05-08T10:25:19.293257Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Forward an existing telegram message, and send it to a user. The final message will have information about who sent it in the first place. It will show \"forwarded from\" to its top."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9222": {
     "id": 9222,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Copy Telegram Message",
+    "description": "Copy an existing telegram message, and send it to a user. This is useful for storing messages sent by the bot, eg. media or other. A copied message will not have \"forwarded from\" to its top.",
+    "syntax_pattern": "copy telegram message %telegrammessage% to %telegramuser/telegramchat/number% [with bot %string%]",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9222",
+    "created_at": "2023-05-08T10:25:56.624070Z",
+    "updated_at": "2023-05-08T10:25:56.624081Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Copy an existing telegram message, and send it to a user. This is useful for storing messages sent by the bot, eg. media or other. A copied message will not have \"forwarded from\" to its top."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9223": {
     "id": 9223,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Telegram Username of User / Chat / Bot",
+    "description": "The username (mention) of a telegram user, a chat, or a bot. The username is returned without the @. If no username is set, null is returned.",
+    "syntax_pattern": "username of %telegramuser/telegramchat/telegrambot%",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9223",
+    "created_at": "2023-05-08T10:27:03.799714Z",
+    "updated_at": "2023-05-08T10:27:03.799725Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The username (mention) of a telegram user, a chat, or a bot. The username is returned without the @. If no username is set, null is returned."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9224": {
     "id": 9224,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Telegram Full Name of User / Chat",
+    "description": "The full name of a Telegram User or, if a Chat, the title of the chat.",
+    "syntax_pattern": "full name of %telegramuser/telegramchat%",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9224",
+    "created_at": "2023-05-08T10:27:39.485713Z",
+    "updated_at": "2023-05-08T10:27:39.485727Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The full name of a Telegram User or, if a Chat, the title of the chat."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9225": {
     "id": 9225,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Telegram Language Code of User",
+    "description": "The language code (IT, EN, FR ... ) of a telegram user, as set in the settings by them.",
+    "syntax_pattern": "language [code] of %telegramuser%",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9225",
+    "created_at": "2023-05-08T10:28:20.929790Z",
+    "updated_at": "2023-05-08T10:28:20.929801Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The language code (IT, EN, FR ... ) of a telegram user, as set in the settings by them."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9218": {
     "id": 9218,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Edit Telegram Message",
+    "description": "Edit an existing, sent telegram message to a new one or to a string.",
+    "syntax_pattern": "edit telegram message %telegrammessage% to %telegrammessage/string% [with markdown] [with bot %string%]",
+    "compatible_addon_version": "1.0-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9218",
+    "created_at": "2023-05-06T10:07:11.798659Z",
+    "updated_at": "2023-05-08T16:34:30.402935Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Edit an existing, sent telegram message to a new one or to a string."
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_9226": {
     "id": 9226,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "DereWah",
+    "title": "Telegram Replied Message of a Message",
+    "description": "Returns a Message object containing another message, the one that the original was in reply to. Cannot be set (to send messages as a reply, use the proper effect)",
+    "syntax_pattern": "replied message of %telegrammessage%",
+    "compatible_addon_version": "1.1-ALPHA",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "Skelegram",
+    "type_usage": null,
+    "return_type": "Telegram Message",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=9226",
+    "created_at": "2023-05-11T07:28:25.359743Z",
+    "updated_at": "2023-05-11T07:28:25.359754Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Returns a Message object containing another message, the one that the original was in reply to. Cannot be set (to send messages as a reply, use the proper effect)"
       ],
       "ko": [
-        "[Skelegram] 한국어 가이드팩 준비 중"
+        "[SKELEGRAM] 한국어 가이드 번역 대기 중"
       ]
     }
   }

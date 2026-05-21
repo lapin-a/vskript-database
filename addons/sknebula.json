@@ -1,43 +1,94 @@
 {
   "syntax_5494": {
     "id": 5494,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "iGalaxy",
+    "title": "Dig Status",
+    "description": "The dig status of a Player Digging event.",
+    "syntax_pattern": "[the] dig status",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SkNebula",
+    "type_usage": null,
+    "return_type": "Dig Status",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5494",
+    "created_at": "2021-05-15T20:38:04.591211Z",
+    "updated_at": "2021-05-15T20:38:04.591227Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "The dig status of a Player Digging event."
       ],
       "ko": [
-        "[SkNebula] 한국어 가이드팩 준비 중"
+        "[SKNEBULA] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5495": {
     "id": 5495,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "iGalaxy",
+    "title": "Dig Status Type",
+    "description": "Dig status type for the Player Digging event.",
+    "syntax_pattern": "digstatus",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SkNebula",
+    "type_usage": "digstatus.start_destroy_block, digstatus.abort_destroy_block, digstatus.stop_destroy_block, digstatus.drop_all_items, digstatus.drop_item, digstatus.release_use_item, digstatus.swap_held_items",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=5495",
+    "created_at": "2021-05-15T20:38:04.600137Z",
+    "updated_at": "2021-05-15T20:38:04.600156Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Dig status type for the Player Digging event."
       ],
       "ko": [
-        "[SkNebula] 한국어 가이드팩 준비 중"
+        "[SKNEBULA] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_5493": {
     "id": 5493,
-    "type": "event",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "iGalaxy",
+    "title": "On Player Dig",
+    "description": "Called when a player sends a digging status packet to the server, e.g. when they start or stop digging.",
+    "syntax_pattern": "[on] player dig[ging]",
+    "compatible_addon_version": "1.0.0",
+    "compatible_minecraft_version": null,
+    "syntax_type": "event",
+    "required_plugins": [],
+    "addon": "SkNebula",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": "event-block, event-location, event-player",
+    "event_cancellable": true,
+    "link": "http://skripthub.net/docs/?id=5493",
+    "created_at": "2021-05-15T20:38:04.579644Z",
+    "updated_at": "2021-05-15T20:53:07.689343Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "Called when a player sends a digging status packet to the server, e.g. when they start or stop digging."
       ],
       "ko": [
-        "[SkNebula] 한국어 가이드팩 준비 중"
+        "[SKNEBULA] 한국어 가이드 번역 대기 중"
       ]
     }
   }

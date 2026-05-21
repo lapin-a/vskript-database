@@ -1,266 +1,528 @@
 {
   "syntax_2458": {
     "id": 2458,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheatchki",
+    "title": "All Groups",
+    "description": "This will return a list of all the groups currently registered by PermissionsEx.\r\n\r\nCan be used with: \r\nDelete - deletes all groups registered by PermissionsEx, I personally wouldn't suggest using this",
+    "syntax_pattern": "all [pex] groups",
+    "compatible_addon_version": "0.5.0",
+    "compatible_minecraft_version": "1.12",
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SKPermissionsEx",
+    "type_usage": null,
+    "return_type": "PermissionGroup",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2458",
+    "created_at": "2018-04-12T12:32:45.798516Z",
+    "updated_at": "2018-04-12T13:00:05.578292Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "This will return a list of all the groups currently registered by PermissionsEx.",
-        "Can be used with:",
-        "Delete - deletes all groups registered by PermissionsEx, I personally wouldn't suggest using this"
+        "This will return a list of all the groups currently registered by PermissionsEx.\r\n\r\nCan be used with: \r\nDelete - deletes all groups registered by PermissionsEx, I personally wouldn't suggest using this"
       ],
       "ko": [
-        "[SKPermissionsEx] 한국어 가이드팩 준비 중"
+        "[SKPERMISSIONSEX] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2469": {
     "id": 2469,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheatchki",
+    "title": "Get user",
+    "description": "converts a player to a PermissionUser",
+    "syntax_pattern": "pex user (%string%|%player%)",
+    "compatible_addon_version": "0.5.0",
+    "compatible_minecraft_version": "1.12",
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SKPermissionsEx",
+    "type_usage": null,
+    "return_type": "PermissionUser",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2469",
+    "created_at": "2018-04-12T13:05:55.306688Z",
+    "updated_at": "2018-04-12T13:05:55.306707Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "converts a player to a PermissionUser"
       ],
       "ko": [
-        "[SKPermissionsEx] 한국어 가이드팩 준비 중"
+        "[SKPERMISSIONSEX] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2470": {
     "id": 2470,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheatchki",
+    "title": "Get group",
+    "description": "converts a string to a permission group",
+    "syntax_pattern": "pex group %string%",
+    "compatible_addon_version": "0.5.0",
+    "compatible_minecraft_version": "1.12",
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SKPermissionsEx",
+    "type_usage": null,
+    "return_type": "PermissionGroup",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2470",
+    "created_at": "2018-04-12T13:06:40.958537Z",
+    "updated_at": "2018-04-12T13:06:40.958562Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "converts a string to a permission group"
       ],
       "ko": [
-        "[SKPermissionsEx] 한국어 가이드팩 준비 중"
+        "[SKPERMISSIONSEX] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2473": {
     "id": 2473,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheatchki",
+    "title": "Permission/Pex User",
+    "description": "This is the player based entity in PermissionsEx, for example me, Cheatchki",
+    "syntax_pattern": "permissionuser",
+    "compatible_addon_version": "0.5.0",
+    "compatible_minecraft_version": "1.12",
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SKPermissionsEx",
+    "type_usage": "pex user (%string%|%player%)",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2473",
+    "created_at": "2018-04-12T13:12:34.225870Z",
+    "updated_at": "2018-04-12T13:12:34.225890Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This is the player based entity in PermissionsEx, for example me, Cheatchki"
       ],
       "ko": [
-        "[SKPermissionsEx] 한국어 가이드팩 준비 중"
+        "[SKPERMISSIONSEX] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2459": {
     "id": 2459,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheatchki",
+    "title": "All Users",
+    "description": "This will return a list of all the PermissionUsers registered by PermissionsEx.\r\n\r\nCan be used with:\r\nDelete - deletes all users registered by PEX, I personally wouldn't suggest ever using this",
+    "syntax_pattern": "all [pex] users",
+    "compatible_addon_version": "0.5.0",
+    "compatible_minecraft_version": "1.12",
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SKPermissionsEx",
+    "type_usage": null,
+    "return_type": "PermissionUser",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2459",
+    "created_at": "2018-04-12T12:33:59.661549Z",
+    "updated_at": "2018-04-12T12:38:31.701020Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "This will return a list of all the PermissionUsers registered by PermissionsEx.",
-        "Can be used with:",
-        "Delete - deletes all users registered by PEX, I personally wouldn't suggest ever using this"
+        "This will return a list of all the PermissionUsers registered by PermissionsEx.\r\n\r\nCan be used with:\r\nDelete - deletes all users registered by PEX, I personally wouldn't suggest ever using this"
       ],
       "ko": [
-        "[SKPermissionsEx] 한국어 가이드팩 준비 중"
+        "[SKPERMISSIONSEX] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2461": {
     "id": 2461,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheatchki",
+    "title": "PexEntity's Name",
+    "description": "returns the name of the permission entity",
+    "syntax_pattern": "%permissionentity%'[s] name\r\nname of %permissionentity%",
+    "compatible_addon_version": "0.5.0",
+    "compatible_minecraft_version": "1.12",
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SKPermissionsEx",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2461",
+    "created_at": "2018-04-12T12:41:44.058253Z",
+    "updated_at": "2018-04-12T12:44:06.893288Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "returns the name of the permission entity"
       ],
       "ko": [
-        "[SKPermissionsEx] 한국어 가이드팩 준비 중"
+        "[SKPERMISSIONSEX] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2463": {
     "id": 2463,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheatchki",
+    "title": "PexEntities's permissions",
+    "description": "Returns a list of all the permissions a entity has (this does include the permissions it inherits from its parents)\r\n\r\ncan be used with:\r\nAdd - adds a permission to a user\r\nRemove - removes a permission a user",
+    "syntax_pattern": "%permissionentity%'[s] permissions [in [world] %world%]\r\npermissions of %permissionentity% [in [world] %world%]",
+    "compatible_addon_version": "0.5.0",
+    "compatible_minecraft_version": "1.12",
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SKPermissionsEx",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2463",
+    "created_at": "2018-04-12T12:52:02.426772Z",
+    "updated_at": "2018-04-12T12:52:02.426794Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns a list of all the permissions a entity has (this does include the permissions it inherits from its parents)",
-        "can be used with:",
-        "Add - adds a permission to a user",
-        "Remove - removes a permission a user"
+        "Returns a list of all the permissions a entity has (this does include the permissions it inherits from its parents)\r\n\r\ncan be used with:\r\nAdd - adds a permission to a user\r\nRemove - removes a permission a user"
       ],
       "ko": [
-        "[SKPermissionsEx] 한국어 가이드팩 준비 중"
+        "[SKPERMISSIONSEX] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2471": {
     "id": 2471,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheatchki",
+    "title": "Permission/Pex Entity",
+    "description": "This is the base of the addon, it is impossible to define something as a pex entity, BUT whereever you see it (in the documentation) you are able to feed it a permission group OR a permission user",
+    "syntax_pattern": "permissionentity",
+    "compatible_addon_version": "0.5.0",
+    "compatible_minecraft_version": "1.12",
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SKPermissionsEx",
+    "type_usage": "N/A",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2471",
+    "created_at": "2018-04-12T13:08:58.164217Z",
+    "updated_at": "2018-04-12T13:09:54.545859Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "This is the base of the addon, it is impossible to define something as a pex entity, BUT whereever you see it (in the documentation) you are able to feed it a permission group OR a permission user"
       ],
       "ko": [
-        "[SKPermissionsEx] 한국어 가이드팩 준비 중"
+        "[SKPERMISSIONSEX] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2465": {
     "id": 2465,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheatchki",
+    "title": "PexGroup's rank",
+    "description": "Returns the rank of a group (used in rank-ladders)\r\n\r\ncan be used with:\r\nset - sets the rank of a group to specified number\r\ndelete - sets the rank of a group to 0",
+    "syntax_pattern": "%permissiongroup%'[s] rank\r\nrank of %permissiongroup%",
+    "compatible_addon_version": "0.5.0",
+    "compatible_minecraft_version": "1.12",
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SKPermissionsEx",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2465",
+    "created_at": "2018-04-12T12:57:12.445535Z",
+    "updated_at": "2018-04-12T12:57:12.445555Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the rank of a group (used in rank-ladders)",
-        "can be used with:",
-        "set - sets the rank of a group to specified number",
-        "delete - sets the rank of a group to 0"
+        "Returns the rank of a group (used in rank-ladders)\r\n\r\ncan be used with:\r\nset - sets the rank of a group to specified number\r\ndelete - sets the rank of a group to 0"
       ],
       "ko": [
-        "[SKPermissionsEx] 한국어 가이드팩 준비 중"
+        "[SKPERMISSIONSEX] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2464": {
     "id": 2464,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheatchki",
+    "title": "PexEntity's prefix",
+    "description": "Returns the prefix of a pex entity as defined in the PermissionsEx permission.yml file\r\n\r\nCan be used with:\r\nset - sets the prefix to the given string\r\ndelete - removes the prefix",
+    "syntax_pattern": "%permissionentity%'[s] [(vault|pex)] prefix [in [world] %world%]\r\n[(vault|pex)] prefix of %permissionentity% [in [world] %world%]",
+    "compatible_addon_version": "0.5.0",
+    "compatible_minecraft_version": "1.12",
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SKPermissionsEx",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2464",
+    "created_at": "2018-04-12T12:55:23.511460Z",
+    "updated_at": "2018-04-12T12:57:37.601424Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the prefix of a pex entity as defined in the PermissionsEx permission.yml file",
-        "Can be used with:",
-        "set - sets the prefix to the given string",
-        "delete - removes the prefix"
+        "Returns the prefix of a pex entity as defined in the PermissionsEx permission.yml file\r\n\r\nCan be used with:\r\nset - sets the prefix to the given string\r\ndelete - removes the prefix"
       ],
       "ko": [
-        "[SKPermissionsEx] 한국어 가이드팩 준비 중"
+        "[SKPERMISSIONSEX] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2466": {
     "id": 2466,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheatchki",
+    "title": "PexEntity's Suffix",
+    "description": "Returns the suffix of a permission entity as defined in PermissionsEx permissions.yml\r\n\r\ncan be used with:\r\nset - sets the prefix to the given string\r\ndelete - removes the prefix",
+    "syntax_pattern": "%permissionentity%'[s] [(vault|pex)] suffix\r\n[(vault|pex)] suffix of %permissionentity%",
+    "compatible_addon_version": "0.5.0",
+    "compatible_minecraft_version": "1.12",
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SKPermissionsEx",
+    "type_usage": null,
+    "return_type": "String",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2466",
+    "created_at": "2018-04-12T12:59:57.442553Z",
+    "updated_at": "2018-04-12T12:59:57.442573Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the suffix of a permission entity as defined in PermissionsEx permissions.yml",
-        "can be used with:",
-        "set - sets the prefix to the given string",
-        "delete - removes the prefix"
+        "Returns the suffix of a permission entity as defined in PermissionsEx permissions.yml\r\n\r\ncan be used with:\r\nset - sets the prefix to the given string\r\ndelete - removes the prefix"
       ],
       "ko": [
-        "[SKPermissionsEx] 한국어 가이드팩 준비 중"
+        "[SKPERMISSIONSEX] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2460": {
     "id": 2460,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheatchki",
+    "title": "Default group",
+    "description": "This will return the current default group in the PermissionsEx file, if a world is specified then it will return the default group of that world\r\n\r\nCan be used with:\r\nSet - sets the default group",
+    "syntax_pattern": "[pex] default group[s] [in [world] %world%]",
+    "compatible_addon_version": "0.5.0",
+    "compatible_minecraft_version": "1.12",
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SKPermissionsEx",
+    "type_usage": null,
+    "return_type": "PermissionGroup",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2460",
+    "created_at": "2018-04-12T12:35:52.149216Z",
+    "updated_at": "2018-04-12T13:00:15.358092Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "This will return the current default group in the PermissionsEx file, if a world is specified then it will return the default group of that world",
-        "Can be used with:",
-        "Set - sets the default group"
+        "This will return the current default group in the PermissionsEx file, if a world is specified then it will return the default group of that world\r\n\r\nCan be used with:\r\nSet - sets the default group"
       ],
       "ko": [
-        "[SKPermissionsEx] 한국어 가이드팩 준비 중"
+        "[SKPERMISSIONSEX] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2462": {
     "id": 2462,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheatchki",
+    "title": "PexEntities' Parents",
+    "description": "Returns a list of all the entities parents/groups\r\n\r\nCan be used with:\r\nadd - adds specified permission group to the entities parents\r\nremove - removes specified permission group to the entities parents",
+    "syntax_pattern": "%permissionentity%'[s] parents [in [world] %world%]\r\nparents of %permissionentity% [in [world] %world%]",
+    "compatible_addon_version": "0.5.0",
+    "compatible_minecraft_version": "1.12",
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SKPermissionsEx",
+    "type_usage": null,
+    "return_type": "PermissionGroup",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2462",
+    "created_at": "2018-04-12T12:47:49.368068Z",
+    "updated_at": "2018-04-12T13:00:49.207064Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns a list of all the entities parents/groups",
-        "Can be used with:",
-        "add - adds specified permission group to the entities parents",
-        "remove - removes specified permission group to the entities parents"
+        "Returns a list of all the entities parents/groups\r\n\r\nCan be used with:\r\nadd - adds specified permission group to the entities parents\r\nremove - removes specified permission group to the entities parents"
       ],
       "ko": [
-        "[SKPermissionsEx] 한국어 가이드팩 준비 중"
+        "[SKPERMISSIONSEX] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2467": {
     "id": 2467,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheatchki",
+    "title": "PexGroup's users",
+    "description": "Returns a list of permission users that are in a group\r\n\r\ncan be used with:\r\nadd - adds the group to the specified user\r\nremove - remove the group grom the specified user",
+    "syntax_pattern": "%permissiongroup%'[s] users [in [world] %world%]\r\nusers of %permissiongroup% [in [world] %world%]",
+    "compatible_addon_version": "0.5.0",
+    "compatible_minecraft_version": "1.12",
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SKPermissionsEx",
+    "type_usage": null,
+    "return_type": "permissionuser",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2467",
+    "created_at": "2018-04-12T13:03:06.755852Z",
+    "updated_at": "2018-04-12T13:03:06.755871Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns a list of permission users that are in a group",
-        "can be used with:",
-        "add - adds the group to the specified user",
-        "remove - remove the group grom the specified user"
+        "Returns a list of permission users that are in a group\r\n\r\ncan be used with:\r\nadd - adds the group to the specified user\r\nremove - remove the group grom the specified user"
       ],
       "ko": [
-        "[SKPermissionsEx] 한국어 가이드팩 준비 중"
+        "[SKPERMISSIONSEX] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2468": {
     "id": 2468,
-    "type": "expression",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheatchki",
+    "title": "PexGroup's weight",
+    "description": "Returns the weight of a given group\r\n\r\nCan be used with:\r\nset - sets the weight to specified number\r\ndelete - sets the weight to 0",
+    "syntax_pattern": "%permissiongroup%'[s] weight\r\nweight of %permissiongroup%",
+    "compatible_addon_version": "0.5.0",
+    "compatible_minecraft_version": "1.12",
+    "syntax_type": "expression",
+    "required_plugins": [],
+    "addon": "SKPermissionsEx",
+    "type_usage": null,
+    "return_type": "Number",
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2468",
+    "created_at": "2018-04-12T13:04:45.584684Z",
+    "updated_at": "2018-04-12T13:04:45.584710Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
-        "Returns the weight of a given group",
-        "Can be used with:",
-        "set - sets the weight to specified number",
-        "delete - sets the weight to 0"
+        "Returns the weight of a given group\r\n\r\nCan be used with:\r\nset - sets the weight to specified number\r\ndelete - sets the weight to 0"
       ],
       "ko": [
-        "[SKPermissionsEx] 한국어 가이드팩 준비 중"
+        "[SKPERMISSIONSEX] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2472": {
     "id": 2472,
-    "type": "type",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheatchki",
+    "title": "Permission/Pex Group",
+    "description": "this is the group based entity from PermissionsEx, for example Admin  is a fairly common group",
+    "syntax_pattern": "permissiongroup",
+    "compatible_addon_version": "0.5.0",
+    "compatible_minecraft_version": "1.12",
+    "syntax_type": "type",
+    "required_plugins": [],
+    "addon": "SKPermissionsEx",
+    "type_usage": "pex group %string%",
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2472",
+    "created_at": "2018-04-12T13:11:28.602519Z",
+    "updated_at": "2018-04-12T13:11:28.602540Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "this is the group based entity from PermissionsEx, for example Admin  is a fairly common group"
       ],
       "ko": [
-        "[SKPermissionsEx] 한국어 가이드팩 준비 중"
+        "[SKPERMISSIONSEX] 한국어 가이드 번역 대기 중"
       ]
     }
   },
   "syntax_2474": {
     "id": 2474,
-    "type": "effect",
-    "patterns": [],
-    "added": "2.0",
+    "creator": "cheatchki",
+    "title": "Create Entity",
+    "description": "If you want to be able to create a user/group from skript, then you will have to use this at some point or else, the entity will not be saved to the config",
+    "syntax_pattern": "[pex] create %permissionentity%",
+    "compatible_addon_version": "0.5.0",
+    "compatible_minecraft_version": "1.12",
+    "syntax_type": "effect",
+    "required_plugins": [],
+    "addon": "SKPermissionsEx",
+    "type_usage": null,
+    "return_type": null,
+    "event_values": null,
+    "event_cancellable": false,
+    "link": "http://skripthub.net/docs/?id=2474",
+    "created_at": "2018-04-12T13:14:15.417602Z",
+    "updated_at": "2018-04-12T13:14:15.417622Z",
+    "entries": null,
+    "keywords": null,
+    "mark_as_removed": false,
+    "removed_since": null,
     "guide": {
       "en": [
         "If you want to be able to create a user/group from skript, then you will have to use this at some point or else, the entity will not be saved to the config"
       ],
       "ko": [
-        "[SKPermissionsEx] 한국어 가이드팩 준비 중"
+        "[SKPERMISSIONSEX] 한국어 가이드 번역 대기 중"
       ]
     }
   }
