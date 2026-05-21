@@ -1,0 +1,716 @@
+{
+  "syntax_3321": {
+    "id": 3321,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a border (optionally only of the specified world(s)) stops moving."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3322": {
+    "id": 3322,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Not an actual event, but rather an event-level scope used to code a custom generator, with the specified ID. Under the main \"event\" line you can have three different sub-scopes that handle generation:",
+        "initiation: This is called once at the beginning of a world's generation. This is specifically intended for optionally setting the world's spawn, but can also be used for other things you need to do at the start of generation.",
+        "generation: This is called whenever a chunk is being generated. All custom generators should use this to do their main generation of the world, using the given chunkdata to set the materials of the blocks in the chunk. Note that no block information beyond the material can be set during this stage. Any block state necessary beyond the material should be set during the population stage.",
+        "population: This is called after a chunk and all adjacent chunks (not including ones that are diagonal) have been generated, to add certain blocks on top which may require (or be made easier) by being able to put blocks on more than one chunk (ex. adding flowers). This stage should also be used if you need to specify blockdata in addition to the material."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3323": {
+    "id": 3323,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the border of the specified world is moving or stable (not moving)."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3324": {
+    "id": 3324,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether a location/entity is beyond or within the border in its world."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3325": {
+    "id": 3325,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the specified chunk is loaded."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3326": {
+    "id": 3326,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the specified chunk is slimey."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3327": {
+    "id": 3327,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Changes the diameter, or size, of the specified world's border over the specified timespan."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3328": {
+    "id": 3328,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Resets the border properties of the specified world to their default values. These values can be found at https://minecraft.gamepedia.com/World_border#Commands"
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3329": {
+    "id": 3329,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Loads or unloads the specified chunk."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3330": {
+    "id": 3330,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fills a region in the specified chunkdata with the specified material:1. Fills a region between two coordinates in the specified chunkdata2. Fills the specified layer of the specified chunkdata3. Fills the layers from the first to the second specified layer in the specified chunkdata"
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3331": {
+    "id": 3331,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a world using the specified creator, optionally specifying the world's name (this is required if the creator doesn't specify a name).Optionally you can specify that the world should be automatically loaded on server start. See the creator expressions for more information on how to specify the world's name and other settings. If a world with the name (specified or from the creator) already exists, this will just load that world instead of creating a new one."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3332": {
+    "id": 3332,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a world with the specified name, optionally with a few settings. Optionally you can specify that the world should be automatically loaded on server start. See the environment type and worldtype type for valid environments and worldtypes respectively. Generator settings can either be custom superflat codes or customized world codes (for customized world codes the worldtype needs to be 'customized'). If a world with the specified name already exists, this will just load that world instead of creating a new one."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3333": {
+    "id": 3333,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes the specified world. The specified world must be loaded in order to be deleted. There should also not be any players in the specified world when it is deleted."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3334": {
+    "id": 3334,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a copy of the specified world using the specified string as a name. The specified world must be loaded in order for this to work."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3335": {
+    "id": 3335,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Tells Kosmos whether it should load the specified world automatically on server start. This is useful for simple and straightforward world management without the need for a world management plugin. Don't run this effect with the main world, as Bukkit will already load that world automatically, and this effect can't be used to enable/disable that behavior."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3336": {
+    "id": 3336,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Unloads the specified world. You can specify whether or not to save before unloading (this defaults to true). There should not be any players in the specified world when it is unloaded."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3337": {
+    "id": 3337,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The center of the specified world's border. This isn't necessarily the same as the spawn."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3338": {
+    "id": 3338,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for a certain property of the moving border of the specified world:original diameter: The diameter of the border when it was last stablefinal diameter: The diameter that the border will be when it stabilizesremaining distance: The distance the border still has to go before it stabilizes"
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3339": {
+    "id": 3339,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for a certain property of the specified world's border:",
+        "diameter: The diameter/size/side length (Note: you should use 'diameter' instead of 'size' to refer to this property, as 'size' conflicts with Skript's size expression)",
+        "damage amount: The amount of damage a player will take per second if they are outside both the border and the damage buffer",
+        "damage buffer: The distance (in blocks) outside of the border a player can be before taking damage",
+        "warning distance: The distance a player has to be within the border to see the red warning effect",
+        "warning time: The amount of time the border should be within of reaching a player to show that player the red warning effect."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3340": {
+    "id": 3340,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the timespan remaining until the border of the specified world stops moving."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3341": {
+    "id": 3341,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The first is the block at the specified coordinates within the specified chunk The second is a center or corner block of a layer, one of the three defaults or a specified number, of the specified chunk."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3342": {
+    "id": 3342,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The first is all of the blocks in the specified chunk.",
+        "The second is the blocks between two coordinates of the specified chunk.",
+        "The third is a layer, one of the three defaults or a specified number, of the specified chunk.",
+        "The fourth is the layers between two specified numbers of the specified chunk."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3343": {
+    "id": 3343,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The first is the chunk at the specified coordinates.",
+        "The second is the chunks between the specified coordinates.",
+        "The third is the chunk that contains the specified location.",
+        "The fourth is the chunks between the specified locations."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3344": {
+    "id": 3344,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The x or z-coordinate of the specified chunk"
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3345": {
+    "id": 3345,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The world in which the specified chunk is located"
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3346": {
+    "id": 3346,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the biome at the specified x and z coordinates the specified biomegrid."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3347": {
+    "id": 3347,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression, used in the 'generation' section of a custom generator, for a coordinate of the chunk currently being generated"
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3348": {
+    "id": 3348,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the material at the specified coordinates in the specified chunkdata."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3349": {
+    "id": 3349,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the difficulty of the specified world. See the Difficulty type for values."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3350": {
+    "id": 3350,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value (or default value) of the specified gamerule in the specified world. Gamerules whose syntaxes contain the word 'rule' are booleans, while all others are integers (as of Minecraft 1.13.2)."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3351": {
+    "id": 3351,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the highest block that isn't air at a specific location. Useful for setting spawns."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3352": {
+    "id": 3352,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the world with the specified name."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3353": {
+    "id": 3353,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for a creator with the properties of the specified world."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3354": {
+    "id": 3354,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the dimension, or environment, of a creator. This is 'normal' by default."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3355": {
+    "id": 3355,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the custom generator of a creator. This will not be set if a creator is not specified to use a custom generator."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3356": {
+    "id": 3356,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the generator settings of a creator. This can be a superflat world code or customized world code (the worldtype must be set as superflat and customized respectively in these cases). In addition, a custom generator might also use generator settings."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3357": {
+    "id": 3357,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for a creator with the specified name (or no name) and the specified properties. See the WorldCreator type and the Property of WorldCreator expressions for more info."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3358": {
+    "id": 3358,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the worldname of a creator. Not all creators have a set worldname, in which case when creating a world using one you must specify a name."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3359": {
+    "id": 3359,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the seed of a creator. This can be any string at all instead of having to be a number. This isn't necessarily set, in which case a random seed will be used when creating a world using the creator."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3360": {
+    "id": 3360,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An condition/expression for whether a creator is set to generate structures."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3361": {
+    "id": 3361,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the worldtype of a creator. This is 'default' by default."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3362": {
+    "id": 3362,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for all of the world creators that Kosmos is currently set to automatically run on server start."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3363": {
+    "id": 3363,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for all worlds that are currently loaded. This differs from Skript's 'all worlds' expression in that it still parses as being a list even if there is only one world at the time of parsing."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3364": {
+    "id": 3364,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the automatic creator (if there is one) that Kosmos is currently set to run for the world with the specified name."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3365": {
+    "id": 3365,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a 2-dimensional grid of biomes. Used in world generators to manipulate the biome(s) in the chunk to be generated."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3366": {
+    "id": 3366,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a 3-dimensional grid of itemstacks. Used in world generators to manipulate the blocks in the chunk to be generated."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3367": {
+    "id": 3367,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The difficulty of a world."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3368": {
+    "id": 3368,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A Minecraft world's dimension, also known as an environment."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3369": {
+    "id": 3369,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A creator is a way to store data about the various properties of a world for creating it, and can be used in the Create World effect and in Automatic Creator syntax elements to load worlds automatically. See the Property of Creator expressions for more information."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3370": {
+    "id": 3370,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A Minecraft world's world type."
+      ],
+      "ko": [
+        "[Kosmos] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

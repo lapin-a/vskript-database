@@ -1,0 +1,1033 @@
+{
+  "syntax_12283": {
+    "id": 12283,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns true if the http client has been closed/shutdown.",
+        "Required Java 21+"
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12284": {
+    "id": 12284,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Closes/shutdowns an http client",
+        "Required Java 21+"
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11686": {
+    "id": 11686,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stops/starts a http server."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12285": {
+    "id": 12285,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a parameter by it's key."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12286": {
+    "id": 12286,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Builds a HTTP client."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12287": {
+    "id": 12287,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new websocket.",
+        "# Note:",
+        "Use WebsocketOpenEvent in order to do actions when opened."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11132": {
+    "id": 11132,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the url of a http response or request."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11134": {
+    "id": 11134,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last http response."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11135": {
+    "id": 11135,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a new HTTP client."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11136": {
+    "id": 11136,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the previous HTTP response of another httpresponse."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11139": {
+    "id": 11139,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an http client."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11140": {
+    "id": 11140,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an http request."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11141": {
+    "id": 11141,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an http response."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11133": {
+    "id": 11133,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the version of a http response, request or client."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11143": {
+    "id": 11143,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends strings to a discord webhook."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11145": {
+    "id": 11145,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a new optionally inlined embed field with a name and a value"
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11144": {
+    "id": 11144,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a new embed author with a text, url and an icon."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11146": {
+    "id": 11146,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a new embed footer with a text and an icon."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11147": {
+    "id": 11147,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a discord embed author."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11148": {
+    "id": 11148,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a discord embed."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11149": {
+    "id": 11149,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a discord embed field."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11150": {
+    "id": 11150,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a discord embed footer."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11151": {
+    "id": 11151,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a discord webhook."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11152": {
+    "id": 11152,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Builds a discord webhook."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11153": {
+    "id": 11153,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Builds a discord webhook embed."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11131": {
+    "id": 11131,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the method of a http request/exchange."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11138": {
+    "id": 11138,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the status code of a response/exchange."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11137": {
+    "id": 11137,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the body of a response/exchange."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11142": {
+    "id": 11142,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Builds a HTTP request."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11680": {
+    "id": 11680,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called whenever a websocket opens."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11681": {
+    "id": 11681,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called whenever a ping get received."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11682": {
+    "id": 11682,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called whenever a pong gets sent out."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11683": {
+    "id": 11683,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called whenever a websocket sends out a text to all listeners."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11672": {
+    "id": 11672,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Downloads all data from a website and will be stored as a file with any given extension",
+        "Will be stored in the data folder."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11673": {
+    "id": 11673,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the headers of a http response of request."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11674": {
+    "id": 11674,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the http response in a send async http event."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11675": {
+    "id": 11675,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an http request."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11677": {
+    "id": 11677,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called whenever a binary data was received."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11678": {
+    "id": 11678,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called whenever a websocket was closed."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11679": {
+    "id": 11679,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called whenever a error is received."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11684": {
+    "id": 11684,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns true if either the input or output is closed."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11685": {
+    "id": 11685,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends a response to the endpoint/context."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11687": {
+    "id": 11687,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes a server http endpoint/context."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11688": {
+    "id": 11688,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Aborts a websocket."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11689": {
+    "id": 11689,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Requests a websocket."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11690": {
+    "id": 11690,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends a websocket status."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11693": {
+    "id": 11693,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a header by it's key."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11695": {
+    "id": 11695,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the inetaddress of either a http server or http exchange."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11696": {
+    "id": 11696,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the path of either a http context or http exchange."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11701": {
+    "id": 11701,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last http websocket."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11691": {
+    "id": 11691,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a attribute by it's key."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11707": {
+    "id": 11707,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a json array."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11709": {
+    "id": 11709,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a json object."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11711": {
+    "id": 11711,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a websocket."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11712": {
+    "id": 11712,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new endpoint."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11713": {
+    "id": 11713,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new websocket.",
+        "# Note:",
+        "Use WebsocketOpenEvent in order to do actions when opened."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11692": {
+    "id": 11692,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the http exchange in a create endpoint event."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11694": {
+    "id": 11694,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the protocol of the http exchange."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11697": {
+    "id": 11697,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets thee http server from a context."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11698": {
+    "id": 11698,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last http context."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11699": {
+    "id": 11699,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last http exchange."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11700": {
+    "id": 11700,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last http server."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11703": {
+    "id": 11703,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a http context."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11704": {
+    "id": 11704,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a http exchange."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11705": {
+    "id": 11705,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a http handler."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11706": {
+    "id": 11706,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a http server."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11800": {
+    "id": 11800,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns true if the json has the specified value or key"
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11802": {
+    "id": 11802,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds/Removes elements from a json object/array"
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11803": {
+    "id": 11803,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets an object from a json object/array"
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11804": {
+    "id": 11804,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a new json object or array"
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11805": {
+    "id": 11805,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends an, optionally async, http request.",
+        "# Note:",
+        "If you are sending an async request, you will have to use the section in order to get the response on time."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11702": {
+    "id": 11702,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a new http server with an optional specified port."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11801": {
+    "id": 11801,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkHttp] No official English guide provided."
+      ],
+      "ko": [
+        "[SkHttp] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

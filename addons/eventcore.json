@@ -1,0 +1,240 @@
+{
+  "syntax_9964": {
+    "id": 9964,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Revives all the recently killed alive players."
+      ],
+      "ko": [
+        "[EventCore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9970": {
+    "id": 9970,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets all the recent dead players."
+      ],
+      "ko": [
+        "[EventCore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11431": {
+    "id": 11431,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player gets revived."
+      ],
+      "ko": [
+        "[EventCore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11432": {
+    "id": 11432,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player changed their visibility."
+      ],
+      "ko": [
+        "[EventCore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11434": {
+    "id": 11434,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns true if the player is alive."
+      ],
+      "ko": [
+        "[EventCore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11435": {
+    "id": 11435,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns true if the player is alive."
+      ],
+      "ko": [
+        "[EventCore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11436": {
+    "id": 11436,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns true if the player is recently dead."
+      ],
+      "ko": [
+        "[EventCore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11437": {
+    "id": 11437,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Revives all players."
+      ],
+      "ko": [
+        "[EventCore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11439": {
+    "id": 11439,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Revives a player."
+      ],
+      "ko": [
+        "[EventCore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11440": {
+    "id": 11440,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Toggles the revives."
+      ],
+      "ko": [
+        "[EventCore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11441": {
+    "id": 11441,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Unrevives a player."
+      ],
+      "ko": [
+        "[EventCore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11442": {
+    "id": 11442,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets all of the alive players."
+      ],
+      "ko": [
+        "[EventCore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11444": {
+    "id": 11444,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The revive balance of a player."
+      ],
+      "ko": [
+        "[EventCore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11445": {
+    "id": 11445,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a visibility state."
+      ],
+      "ko": [
+        "[EventCore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11433": {
+    "id": 11433,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player requests to be revived."
+      ],
+      "ko": [
+        "[EventCore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11443": {
+    "id": 11443,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets all of the dead players."
+      ],
+      "ko": [
+        "[EventCore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11438": {
+    "id": 11438,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Revives all recently killed players."
+      ],
+      "ko": [
+        "[EventCore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

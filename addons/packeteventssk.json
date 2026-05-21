@@ -1,0 +1,667 @@
+{
+  "syntax_15175": {
+    "id": 15175,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Listen to incoming/outgoing packets, more on [the wiki](https://github.com/3add/PacketEventsSK/wiki/Events)"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15176": {
+    "id": 15176,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Used to cancel the packet in a packet receive/send event.",
+        "This just means that the packet won't be processed/sent."
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15177": {
+    "id": 15177,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Used to kill a spawned fake entity"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15178": {
+    "id": 15178,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Used to fetch a player skin.",
+        "**This is processed on an async thread and thus will pause your code until it's been loaded.**"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15179": {
+    "id": 15179,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Spawn a fake entity at a location, it can only be spawned once. To move use teleport."
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15180": {
+    "id": 15180,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Teleport a spawned fake entity to a location."
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15181": {
+    "id": 15181,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Used to force the server to send or receive a packet, optionally silently. (silent means it won't trigger on packet send or receive)"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15182": {
+    "id": 15182,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make fake entities ride another entity (fake or real), or remove them as passengers.",
+        "**Note: Real entities are just a single packet being sent, when a player relogs, changes worlds or some other circumstances the passengers will be altered by the vanilla server.**"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15183": {
+    "id": 15183,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the glow state of an entity for a set of viewers.",
+        "Internally everything is handled by the addon. (fully packet based)"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15184": {
+    "id": 15184,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the displayed skin of a player for a set of viewers.",
+        "Internally everything is handled by the addon (fully packet based)."
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15185": {
+    "id": 15185,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Used to get a list of all fake entities that are viewable by least a single player"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15186": {
+    "id": 15186,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The fake entity involved in the event. (Only available in fake entity related events)"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15187": {
+    "id": 15187,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Used to get all fake entities viewed by a player"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15188": {
+    "id": 15188,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The packet type of a packet"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15189": {
+    "id": 15189,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Retrieve a fake entity from it's entity uuid, this only works for spawned fake entities"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15191": {
+    "id": 15191,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the skin the player had when they joined the server",
+        "NOTE: This only works on servers in online mode"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15192": {
+    "id": 15192,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The players that are able to see the entity as glowing."
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15193": {
+    "id": 15193,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Retrieve a fake entity from it's entity id, this only works for spawned fake entities"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15194": {
+    "id": 15194,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a new meta from an entity type.",
+        "### Available Metas and their fields",
+        "* **entity** fields:",
+        "- `entity id (id)`",
+        "- `on fire state (on fire)`",
+        "- `sneaking state (sneaking)`",
+        "- `sprinting state (sprinting)`",
+        "- `swimming state (swimming)`",
+        "- `invisible state (invisible)`",
+        "- `glowing state (glowing)`",
+        "- `elytra flying state (elytra flying)`",
+        "- `custom name`",
+        "- `custom name visible state (custom name visible)`",
+        "- `silent state (silent)`",
+        "- `gravity state (gravity)`",
+        "- `frozen time (frozen ticks)`",
+        "* **livingentity** fields:",
+        "- *(Inherits all fields from **entity**)*",
+        "- `health (hp)`",
+        "* **item** fields:",
+        "- *(Inherits all fields from **entity**)*",
+        "- `item`",
+        "* **interaction** fields:",
+        "- *(Inherits all fields from **entity**)*",
+        "- `interaction width`",
+        "- `interaction height`",
+        "- `interaction responsive state (interaction responsive)`",
+        "* **display** fields:",
+        "- *(Inherits all fields from **entity**)*",
+        "- `display interpolation delay`",
+        "- `display transform interpolation duration`",
+        "- `display teleport interpolation duration`",
+        "- `display translation`",
+        "- `display scale`",
+        "- `display left rotation`",
+        "- `display right rotation`",
+        "- `display billboard constraints (display billboard)`",
+        "- `display brightness override (display brightness)`",
+        "- `display view range`",
+        "- `display shadow radius`",
+        "- `display shadow strength`",
+        "- `display width`",
+        "- `display height`",
+        "- `display glow color override (display glow color)`",
+        "* **block display** fields:",
+        "- *(Inherits all fields from **display**)*",
+        "- `display block data (display block state)`",
+        "* **item display** fields:",
+        "- *(Inherits all fields from **display**)*",
+        "- `display item (display item stack)`",
+        "- `display item transform`",
+        "* **text display** fields:",
+        "- *(Inherits all fields from **display**)*",
+        "- `display text (display content)`",
+        "- `display line width`",
+        "- `display background color`",
+        "- `display text shadowed state (display shadowed state, display shadowed)`",
+        "- `display see through state (display see through)`",
+        "- `display use default background state (display use default background)`",
+        "- `display text alignment (display alignment)`"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15190": {
+    "id": 15190,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a new fake entity from an entity type.",
+        "### Available Entities and their fields",
+        "* **entity** fields:",
+        "- `entity viewers (viewers)`",
+        "- `entity location (location)`",
+        "- `entity id (id)`",
+        "- `entity meta data (meta data, meta)`",
+        "- `entity type (type)`",
+        "- `entity uuid (uuid)`",
+        "* **player** fields:",
+        "- *(Inherits all fields from **entity**)*",
+        "- `player skin (skin)`",
+        "- `player username (player name, username, name)`"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15208": {
+    "id": 15208,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A fake entity viewable by at least 1 player"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15196": {
+    "id": 15196,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the entity id of an entity on the server"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15197": {
+    "id": 15197,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The attribute of a fake living entity."
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15198": {
+    "id": 15198,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a skin object using a Base64 value and an optional cryptographic signature.",
+        "The value contains the texture URL, while the signature proves the skin is authentic from Mojang."
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15202": {
+    "id": 15202,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A packet sent by the client or server"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15203": {
+    "id": 15203,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a specific type of packet (e.g. clientbound chunk data packet)"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15204": {
+    "id": 15204,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The entity meta of a minecraft entity (this can both represent a fake entity's meta or a real entity's meta, but is mostly used for fake entities since the only use for real entities is for packet intercepting)."
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15195": {
+    "id": 15195,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a new packet from a packet type.",
+        "### Available Packets and their fields",
+        "* **entity velocity** fields:",
+        "- `entity id (id)`",
+        "- `velocity vector (vector, velocity)`",
+        "* **interact entity** fields:",
+        "- `entity id (id)`",
+        "- `interaction hand (hand)`",
+        "- `location vector (location, loc)`",
+        "- `sneaking state (sneaking)`",
+        "* **select bundle item** fields:",
+        "- `slot id (id)`",
+        "- `selected item index (selected index, item index, index)`",
+        "* **open sign editor** fields:",
+        "- `block position (block pos, position, pos)`",
+        "- `sign side (side)`",
+        "* **block change** fields:",
+        "- `block position (block pos, position, pos)`",
+        "- `block state (state, block data, data)`",
+        "* **destroy entities** fields:",
+        "- `entity ids (ids)`",
+        "* **game test highlight pos** fields:",
+        "- `absolute position (absolute pos, abs position, abs pos, position, pos)`",
+        "- `relative position (relative pos, rel position, rel pos)`",
+        "* **entity metadata** fields:",
+        "- `entity id (id)`",
+        "- `entity metadata (entity meta, metadata, meta)`"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15201": {
+    "id": 15201,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets or sets a metadata property field value from an entity meta instance by its name.",
+        "Note that some entities inherit properties (for example all entities inherit \"entity\" fields",
+        "### Available Meta Fields by Category",
+        "* **entity** fields:",
+        "- `entity id (id)`",
+        "- `on fire state (on fire)`",
+        "- `sneaking state (sneaking)`",
+        "- `sprinting state (sprinting)`",
+        "- `swimming state (swimming)`",
+        "- `invisible state (invisible)`",
+        "- `glowing state (glowing)`",
+        "- `elytra flying state (elytra flying)`",
+        "- `custom name`",
+        "- `custom name visible state (custom name visible)`",
+        "- `silent state (silent)`",
+        "- `gravity state (gravity)`",
+        "- `frozen time (frozen ticks)`",
+        "* **livingentity** fields:",
+        "- *(Inherits all fields from **entity**)*",
+        "- `health (hp)`",
+        "* **item** fields:",
+        "- *(Inherits all fields from **entity**)*",
+        "- `item`",
+        "* **interaction** fields:",
+        "- *(Inherits all fields from **entity**)*",
+        "- `interaction width`",
+        "- `interaction height`",
+        "- `interaction responsive state (interaction responsive)`",
+        "* **display** fields:",
+        "- *(Inherits all fields from **entity**)*",
+        "- `display interpolation delay`",
+        "- `display transform interpolation duration`",
+        "- `display teleport interpolation duration`",
+        "- `display translation`",
+        "- `display scale`",
+        "- `display left rotation`",
+        "- `display right rotation`",
+        "- `display billboard constraints (display billboard)`",
+        "- `display brightness override (display brightness)`",
+        "- `display view range`",
+        "- `display shadow radius`",
+        "- `display shadow strength`",
+        "- `display width`",
+        "- `display height`",
+        "- `display glow color override (display glow color)`",
+        "* **block display** fields:",
+        "- *(Inherits all fields from **display**)*",
+        "- `display block data (display block state)`",
+        "* **item display** fields:",
+        "- *(Inherits all fields from **display**)*",
+        "- `display item (display item stack)`",
+        "- `display item transform`",
+        "* **text display** fields:",
+        "- *(Inherits all fields from **display**)*",
+        "- `display text (display content)`",
+        "- `display line width`",
+        "- `display background color`",
+        "- `display text shadowed state (display shadowed state, display shadowed)`",
+        "- `display see through state (display see through)`",
+        "- `display use default background state (display use default background)`",
+        "- `display text alignment (display alignment)`"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15199": {
+    "id": 15199,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets or sets a field's value from a packet by its name.",
+        "### Available Packets and their fields",
+        "* **entity velocity** fields:",
+        "- `entity id (id)`",
+        "- `velocity vector (vector, velocity)`",
+        "* **interact entity** fields:",
+        "- `entity id (id)`",
+        "- `interaction hand (hand)`",
+        "- `location vector (location, loc)`",
+        "- `sneaking state (sneaking)`",
+        "* **select bundle item** fields:",
+        "- `slot id (id)`",
+        "- `selected item index (selected index, item index, index)`",
+        "* **open sign editor** fields:",
+        "- `block position (block pos, position, pos)`",
+        "- `sign side (side)`",
+        "* **block change** fields:",
+        "- `block position (block pos, position, pos)`",
+        "- `block state (state, block data, data)`",
+        "* **destroy entities** fields:",
+        "- `entity ids (ids)`",
+        "* **game test highlight pos** fields:",
+        "- `absolute position (absolute pos, abs position, abs pos, position, pos)`",
+        "- `relative position (relative pos, rel position, rel pos)`",
+        "* **entity metadata** fields:",
+        "- `entity id (id)`",
+        "- `entity metadata (entity meta, metadata, meta)`"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15200": {
+    "id": 15200,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets or sets a fake entity property field value from a fake entity instance by its name.",
+        "Note that some entities inherit properties (for example all entities inherit \"entity\" fields",
+        "### Available Fake Entity Fields by Category",
+        "* **entity** fields:",
+        "- `entity viewers (viewers)`",
+        "- `entity location (location)`",
+        "- `entity id (id)`",
+        "- `entity meta data (meta data, meta)`",
+        "- `entity type (type)`",
+        "- `entity uuid (uuid)`",
+        "* **player** fields:",
+        "- *(Inherits all fields from **entity**)*",
+        "- `player skin (skin)`",
+        "- `player username (player name, username, name)`"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15206": {
+    "id": 15206,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A player skin (texture property list)"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_15205": {
+    "id": 15205,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a type of block entity (e.g. chest, sign, etc.)"
+      ],
+      "ko": [
+        "[PacketEventsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "syntax_8515": {
+    "id": 8515,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "creates a new map"
+      ],
+      "ko": [
+        "[SkMaps] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

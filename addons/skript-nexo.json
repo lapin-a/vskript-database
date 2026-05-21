@@ -1,0 +1,380 @@
+{
+  "syntax_13792": {
+    "id": 13792,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "You can respond to interactions with mechanics using"
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12537": {
+    "id": 12537,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the custom block ID from a block."
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12538": {
+    "id": 12538,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the custom item ID from an item stack."
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12372": {
+    "id": 12372,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Syntax to determine if a block is a custom block from Nexo or not"
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12373": {
+    "id": 12373,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Syntax to determine if an Item is a custom item from Nexo"
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12374": {
+    "id": 12374,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks what hand the player interacted with a block/furniture is. Does not work on any other events other then Interaction events."
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12375": {
+    "id": 12375,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Places an Nexo block at a location."
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12376": {
+    "id": 12376,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Places a Nexo furniture at a location"
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12377": {
+    "id": 12377,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes an Nexo furniture at a location."
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12378": {
+    "id": 12378,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set all blocks within 2 locations to Nexo blocks."
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12379": {
+    "id": 12379,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when an Nexo furniture gets broken."
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12380": {
+    "id": 12380,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when an Nexo furniture gets damaged."
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12381": {
+    "id": 12381,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when an Nexo furniture gets interacted with"
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12382": {
+    "id": 12382,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when an Nexo furniture gets placed."
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12383": {
+    "id": 12383,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when a Nexo note block gets broken."
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12384": {
+    "id": 12384,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when a Nexo note block gets damaged."
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12385": {
+    "id": 12385,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when a Nexo note block gets interacted with."
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12386": {
+    "id": 12386,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when a Nexo note block gets placed."
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12387": {
+    "id": 12387,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when a Nexo string block gets broken."
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12388": {
+    "id": 12388,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when a Nexo string block gets damaged."
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12389": {
+    "id": 12389,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when a Nexo string block gets interacted with"
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12390": {
+    "id": 12390,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when a Nexo string block gets placed."
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12391": {
+    "id": 12391,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a Nexo item."
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13788": {
+    "id": 13788,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "To create a custom mechanic, use the following syntax"
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13789": {
+    "id": 13789,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "You can set properties on mechanics using:"
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13790": {
+    "id": 13790,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "You can get properties from mechanics using:"
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13791": {
+    "id": 13791,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "You can check if an item has a specific mechanic using"
+      ],
+      "ko": [
+        "[skript-nexo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

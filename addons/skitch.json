@@ -1,0 +1,289 @@
+{
+  "syntax_8153": {
+    "id": 8153,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Triggered when a user cheer in the given stream.",
+        "Please note that the Channels have to mention in the Login Code"
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8154": {
+    "id": 8154,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Triggered when a user follow in the given stream.",
+        "Please note that the Channels have to mention in the Login Code"
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8155": {
+    "id": 8155,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Triggered when a user subscribe in the given stream.",
+        "Please note that the Channels have to mention in the Login Code"
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8156": {
+    "id": 8156,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a given Twitch channel goes Live",
+        "Please note that the Channels have to mention in the Login Code"
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8157": {
+    "id": 8157,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Triggered when a message is written in the given stream.",
+        "Please note that the Channels have to mention in the Login Code"
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8158": {
+    "id": 8158,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a given Twitch channel goes Offline",
+        "Please note that the Channels have to mention in the Login Code"
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8159": {
+    "id": 8159,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Triggered when a user subscribe in the given stream.",
+        "Please note that the Channels have to mention in the Login Code"
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8160": {
+    "id": 8160,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skitch] No official English guide provided."
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8161": {
+    "id": 8161,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skitch] No official English guide provided."
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8162": {
+    "id": 8162,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skitch] No official English guide provided."
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8163": {
+    "id": 8163,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skitch] No official English guide provided."
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8164": {
+    "id": 8164,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skitch] No official English guide provided."
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8165": {
+    "id": 8165,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skitch] No official English guide provided."
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8166": {
+    "id": 8166,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skitch] No official English guide provided."
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8167": {
+    "id": 8167,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skitch] No official English guide provided."
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8168": {
+    "id": 8168,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skitch] No official English guide provided."
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8169": {
+    "id": 8169,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skitch] No official English guide provided."
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8170": {
+    "id": 8170,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skitch] No official English guide provided."
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8171": {
+    "id": 8171,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skitch] No official English guide provided."
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8172": {
+    "id": 8172,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skitch] No official English guide provided."
+      ],
+      "ko": [
+        "[Skitch] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

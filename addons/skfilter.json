@@ -1,0 +1,114 @@
+{
+  "syntax_11965": {
+    "id": 11965,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whitelist words that can bypass the filter from filtered words."
+      ],
+      "ko": [
+        "[SkFilter] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11966": {
+    "id": 11966,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Blacklist a link from being said in the chat."
+      ],
+      "ko": [
+        "[SkFilter] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11964": {
+    "id": 11964,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Add words to your servers filter."
+      ],
+      "ko": [
+        "[SkFilter] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11967": {
+    "id": 11967,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whitelist links on your server"
+      ],
+      "ko": [
+        "[SkFilter] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11968": {
+    "id": 11968,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Toggle on or off the blacklist for all links on the server."
+      ],
+      "ko": [
+        "[SkFilter] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11969": {
+    "id": 11969,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a link is blocked"
+      ],
+      "ko": [
+        "[SkFilter] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11970": {
+    "id": 11970,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the message contains a link"
+      ],
+      "ko": [
+        "[SkFilter] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11971": {
+    "id": 11971,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the message is caught by the filter"
+      ],
+      "ko": [
+        "[SkFilter] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

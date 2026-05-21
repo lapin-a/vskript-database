@@ -1,0 +1,114 @@
+{
+  "syntax_2831": {
+    "id": 2831,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when Vault requests to deposit currency into a player's balance"
+      ],
+      "ko": [
+        "[SkVault] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2832": {
+    "id": 2832,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when Vault requests to withdraw currency from a player's balance"
+      ],
+      "ko": [
+        "[SkVault] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2833": {
+    "id": 2833,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when Vault requests to know if a player's balance is greater than a certain amount"
+      ],
+      "ko": [
+        "[SkVault] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2839": {
+    "id": 2839,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when Vault requests to know if a player has an economy account"
+      ],
+      "ko": [
+        "[SkVault] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2840": {
+    "id": 2840,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when Vault requests a player's balance"
+      ],
+      "ko": [
+        "[SkVault] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2834": {
+    "id": 2834,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when Vault requests a player economy account to be created"
+      ],
+      "ko": [
+        "[SkVault] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4074": {
+    "id": 4074,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkVault] No official English guide provided."
+      ],
+      "ko": [
+        "[SkVault] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2851": {
+    "id": 2851,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a value to a request from Vault"
+      ],
+      "ko": [
+        "[SkVault] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

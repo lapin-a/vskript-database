@@ -1,0 +1,162 @@
+{
+  "syntax_2807": {
+    "id": 2807,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Submits an HTTP request to the given URL.",
+        "* `[%string%]` is the HTTP method to use to send the request. If omitted, defaults to \"get\".",
+        "* Headers must be in the format \"Header-Name: Value\"."
+      ],
+      "ko": [
+        "[Reqn] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2808": {
+    "id": 2808,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a httpresponse object that contains information from the last completed [http request](https://skripthub.net/docs/?id=2807)."
+      ],
+      "ko": [
+        "[Reqn] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2809": {
+    "id": 2809,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the status codes of one or more http responses."
+      ],
+      "ko": [
+        "[Reqn] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2810": {
+    "id": 2810,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the status messages of one or more http responses."
+      ],
+      "ko": [
+        "[Reqn] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2812": {
+    "id": 2812,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the headers of one or more http responses in the format **`\"Header-Name: Value\"`**.",
+        "Multiple http responses may be passed to this expression, but the resulting headers will be combined into a single list with no way to associate each header with its original httpresponse."
+      ],
+      "ko": [
+        "[Reqn] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2813": {
+    "id": 2813,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the header keys (names) of one or more http responses. This expression is best used in conjunction with [Response Header Values](https://skripthub.net/docs/?id=2814).",
+        "Multiple http responses may be passed to this expression, but the resulting keys will be combined into a single list with no way to associate each key with its original http response."
+      ],
+      "ko": [
+        "[Reqn] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2814": {
+    "id": 2814,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the header values of one or more http responses. This expression is best used in conjunction with [Response Header Keys](https://skripthub.net/docs/?id=2813).",
+        "Multiple http responses may be passed to this expression, but the resulting values will be combined into a single list with no way to associate each value with its original http response."
+      ],
+      "ko": [
+        "[Reqn] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2815": {
+    "id": 2815,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the values of a specific header for one or more http responses.",
+        "Multiple http responses may be passed to this expression, but the resulting values will be combined into a single list with no way to associate each value with its original http response."
+      ],
+      "ko": [
+        "[Reqn] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2816": {
+    "id": 2816,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the bodies of one or more http responses."
+      ],
+      "ko": [
+        "[Reqn] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2817": {
+    "id": 2817,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a text into a text safe for usage in URLs. This can be useful for injecting user input into a URL (e.g. when using a search api)."
+      ],
+      "ko": [
+        "[Reqn] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2818": {
+    "id": 2818,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a text into a text safe for usage in JSON strings. This can be useful for injecting user input into a JSON payload (e.g. when using a search api)."
+      ],
+      "ko": [
+        "[Reqn] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

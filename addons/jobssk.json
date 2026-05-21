@@ -1,0 +1,142 @@
+{
+  "syntax_13773": {
+    "id": 13773,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets __all the jobs__ of a __player__."
+      ],
+      "ko": [
+        "[JobsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13768": {
+    "id": 13768,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player joins a __JobsReborn__ job."
+      ],
+      "ko": [
+        "[JobsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13769": {
+    "id": 13769,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the created with JobsReborn job based on its __id__ or __name__."
+      ],
+      "ko": [
+        "[JobsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13774": {
+    "id": 13774,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets __levels__ of a __player__ for a created with JobsReborn job."
+      ],
+      "ko": [
+        "[JobsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13770": {
+    "id": 13770,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the __displayname__ of a created with JobsReborn job."
+      ],
+      "ko": [
+        "[JobsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13775": {
+    "id": 13775,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets __xp__ of a __player__ in a created with JobsReborn job."
+      ],
+      "ko": [
+        "[JobsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13771": {
+    "id": 13771,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the __id__ of a created with JobsReborn job."
+      ],
+      "ko": [
+        "[JobsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13766": {
+    "id": 13766,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a Job created with __JobsReborn__ plugin."
+      ],
+      "ko": [
+        "[JobsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13772": {
+    "id": 13772,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the __name__ of a created with JobsReborn job."
+      ],
+      "ko": [
+        "[JobsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13767": {
+    "id": 13767,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player leaves a __JobsReborn__ job."
+      ],
+      "ko": [
+        "[JobsSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

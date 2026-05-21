@@ -1,0 +1,242 @@
+{
+  "syntax_1528": {
+    "id": 1528,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a list of all nodes of a cached YAML file."
+      ],
+      "ko": [
+        "[skript-yaml] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1526": {
+    "id": 1526,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Saves the current cached YAML elements to file.",
+        "- Option to remove extra lines between nodes"
+      ],
+      "ko": [
+        "[skript-yaml] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1529": {
+    "id": 1529,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of all \"cached\" yaml file IDs."
+      ],
+      "ko": [
+        "[skript-yaml] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1530": {
+    "id": 1530,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets, sets, removes values/nodes etc.. of a cached yaml file",
+        "- Requires the id used/created from the load effect",
+        "- This expression does not save to file",
+        "- Lists accept list variables for input",
+        "- Using 'without string checks' optional is a tiny bit faster but doesn't check/convert strings for numbers or booleans"
+      ],
+      "ko": [
+        "[skript-yaml] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1535": {
+    "id": 1535,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if one or more values exist at a path in a cached YAML file using said ID.",
+        "- First input is the path.",
+        "- Second input is the ID.",
+        "- If multiple paths are checked at once it will return false on the first one found to not contain a value."
+      ],
+      "ko": [
+        "[skript-yaml] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1524": {
+    "id": 1524,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if one or more YAML files are loaded into memory using said ID."
+      ],
+      "ko": [
+        "[skript-yaml] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1527": {
+    "id": 1527,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Unloads a YAML file from memory."
+      ],
+      "ko": [
+        "[skript-yaml] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2550": {
+    "id": 2550,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Loads a directory YAML files into memory.",
+        "- The input is a directory (ie. \"plugins/MyAwesomePlugin/\").",
+        "- If for example a file in that directory is named test.yml then the output ID would be 'plugins/MyAwesomePlugin/test.yml'",
+        "- Using the optional filename ID would output `test.yml`"
+      ],
+      "ko": [
+        "[skript-yaml] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1536": {
+    "id": 1536,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets, sets, deletes comments or the header of a cached yaml file",
+        "- Headers don't contain '#' so add it yourself if you want it",
+        "- Comments can only be at root level ie. 'root' not 'root.something'",
+        "- Both comment and header expressions can be set to multiple elements",
+        "- This expression does not save to file",
+        "- Option to have an extra line or not depending if you use comment or header",
+        "- Any 'extra lines' are removed when deleting comments/headers"
+      ],
+      "ko": [
+        "[skript-yaml] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2547": {
+    "id": 2547,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if one or more paths exist in a cached YAML file using said ID.",
+        "- First input is the path.",
+        "- Second input is the ID.",
+        "- If multiple paths are checked at once it will return false on the first one found to not exist."
+      ],
+      "ko": [
+        "[skript-yaml] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2548": {
+    "id": 2548,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a cached YAML file using said ID is empty.",
+        "- Input is the ID."
+      ],
+      "ko": [
+        "[skript-yaml] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2549": {
+    "id": 2549,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes a YAML file and removes it from memory."
+      ],
+      "ko": [
+        "[skript-yaml] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1525": {
+    "id": 1525,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Loads a YAML file into memory.",
+        "- The first input is the YAML file path (ie. \"plugins/MyAwesomePlugin/config.yml\").",
+        "- The second input allows you to choose your own ID for this file.",
+        "- If the second input isn't used then the files name minus the extention is used as the ID for example `config.yml` becomes `config`."
+      ],
+      "ko": [
+        "[skript-yaml] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2582": {
+    "id": 2582,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes a directory of YAML files and removes them from memory.",
+        "- The input is a directory (ie. \"plugins/MyAwesomePlugin/\").",
+        "- If for example a file in that directory is named test.yml then the output ID would be 'plugins/MyAwesomePlugin/test.yml'",
+        "- Using the optional filename ID would output `test.yml`"
+      ],
+      "ko": [
+        "[skript-yaml] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2583": {
+    "id": 2583,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Only deletes a directory of loaded YAML files and removes them from memory.",
+        "- The input is a directory (ie. \"plugins/MyAwesomePlugin/\").",
+        "- If for example a file in that directory is named test.yml then the output ID would be 'plugins/MyAwesomePlugin/test.yml'",
+        "- Using the optional filename ID would output `test.yml`"
+      ],
+      "ko": [
+        "[skript-yaml] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

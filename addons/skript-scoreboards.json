@@ -1,0 +1,117 @@
+{
+  "syntax_11981": {
+    "id": 11981,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Show or hide a scoreboard."
+      ],
+      "ko": [
+        "[skript-scoreboards] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11982": {
+    "id": 11982,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a new scoreboard."
+      ],
+      "ko": [
+        "[skript-scoreboards] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11980": {
+    "id": 11980,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a scoreboard is shown or hidden."
+      ],
+      "ko": [
+        "[skript-scoreboards] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11984": {
+    "id": 11984,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or set the title of a scoreboard."
+      ],
+      "ko": [
+        "[skript-scoreboards] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11985": {
+    "id": 11985,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or set the viewers of a scoreboard."
+      ],
+      "ko": [
+        "[skript-scoreboards] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11986": {
+    "id": 11986,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or set the scoreboard of a player.",
+        "If the player does not have a scoreboard, it will create a new one."
+      ],
+      "ko": [
+        "[skript-scoreboards] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11987": {
+    "id": 11987,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A scoreboard object. A player can only view one scoreboard at a time.",
+        "Scoreboards do not persist between server restarts."
+      ],
+      "ko": [
+        "[skript-scoreboards] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11983": {
+    "id": 11983,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or set the lines or scores of lines in a scoreboard. Scores are the values that are displayed on the right side of the scoreboard.",
+        "Custom line scores are only supported in Minecraft 1.20.3 and newer."
+      ],
+      "ko": [
+        "[skript-scoreboards] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

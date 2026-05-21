@@ -1,0 +1,156 @@
+{
+  "syntax_8578": {
+    "id": 8578,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the price multiplier of a merchant recipe."
+      ],
+      "ko": [
+        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8579": {
+    "id": 8579,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets how many times a merchant recipe has been used."
+      ],
+      "ko": [
+        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8577": {
+    "id": 8577,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the reward of a merchant recipe."
+      ],
+      "ko": [
+        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8570": {
+    "id": 8570,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Opens a merchant inventory to a player."
+      ],
+      "ko": [
+        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8571": {
+    "id": 8571,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new merchant recipe to be used in other expressions."
+      ],
+      "ko": [
+        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8572": {
+    "id": 8572,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get or set a trade of a merchant inventory, typically represented by using `player's current inventory`."
+      ],
+      "ko": [
+        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8573": {
+    "id": 8573,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to set, add, remove, delete, and reset trades of a merchant inventory."
+      ],
+      "ko": [
+        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8574": {
+    "id": 8574,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to set the experience reward of a merchant recipe."
+      ],
+      "ko": [
+        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8575": {
+    "id": 8575,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to make a merchant recipe ignore discounts or not."
+      ],
+      "ko": [
+        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8576": {
+    "id": 8576,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to set the maximum uses of a merchant recipe. By default, there will be 999,999 max uses."
+      ],
+      "ko": [
+        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8580": {
+    "id": 8580,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the amount of experience a villager gains when traded with."
+      ],
+      "ko": [
+        "[Skript-Merchants] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

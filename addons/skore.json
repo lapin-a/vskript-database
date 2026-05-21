@@ -1,0 +1,58 @@
+{
+  "syntax_2899": {
+    "id": 2899,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the player has a skoreboard initialized."
+      ],
+      "ko": [
+        "[Skore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2900": {
+    "id": 2900,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Setup the Skoreboard for the player, tells the system their skoreboard."
+      ],
+      "ko": [
+        "[Skore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2901": {
+    "id": 2901,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns or changes the title of the Skoreboard(s)."
+      ],
+      "ko": [
+        "[Skore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2902": {
+    "id": 2902,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns or changes the value of the Skoreboard(s)."
+      ],
+      "ko": [
+        "[Skore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

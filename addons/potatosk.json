@@ -1,0 +1,72 @@
+{
+  "syntax_11850": {
+    "id": 11850,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether a block is waterlogged."
+      ],
+      "ko": [
+        "[PotatoSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11852": {
+    "id": 11852,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make a Player execute a command with a permission"
+      ],
+      "ko": [
+        "[PotatoSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11854": {
+    "id": 11854,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns smelt result of items, returns the same item if it cannot be smelted"
+      ],
+      "ko": [
+        "[PotatoSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11853": {
+    "id": 11853,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes a Multiverse Core world"
+      ],
+      "ko": [
+        "[PotatoSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11855": {
+    "id": 11855,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a Multiverse Core world"
+      ],
+      "ko": [
+        "[PotatoSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "syntax_2036": {
+    "id": 2036,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Ticker] No official English guide provided."
+      ],
+      "ko": [
+        "[Ticker] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2037": {
+    "id": 2037,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Ticker] No official English guide provided."
+      ],
+      "ko": [
+        "[Ticker] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2038": {
+    "id": 2038,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the server's tps from Bukkit."
+      ],
+      "ko": [
+        "[Ticker] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2039": {
+    "id": 2039,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the server's last tps from 20 ticks ago."
+      ],
+      "ko": [
+        "[Ticker] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2040": {
+    "id": 2040,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the server's past average tps in the average tps change event."
+      ],
+      "ko": [
+        "[Ticker] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2041": {
+    "id": 2041,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the server's past tps in the tps change event."
+      ],
+      "ko": [
+        "[Ticker] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2042": {
+    "id": 2042,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the server's tps at a time."
+      ],
+      "ko": [
+        "[Ticker] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2043": {
+    "id": 2043,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the server's tps."
+      ],
+      "ko": [
+        "[Ticker] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2044": {
+    "id": 2044,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the server's average tps."
+      ],
+      "ko": [
+        "[Ticker] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2045": {
+    "id": 2045,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the server's average tps with colour."
+      ],
+      "ko": [
+        "[Ticker] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2046": {
+    "id": 2046,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the server's tps with colour."
+      ],
+      "ko": [
+        "[Ticker] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

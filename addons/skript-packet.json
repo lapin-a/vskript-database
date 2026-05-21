@@ -1,0 +1,473 @@
+{
+  "syntax_5342": {
+    "id": 5342,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get all packet fields, can't be set"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5339": {
+    "id": 5339,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return all available ProtocolLib packettypes"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5340": {
+    "id": 5340,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or set a packet meta",
+        "Meta are extra-datas that can be added to a packet"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5344": {
+    "id": 5344,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Convert %numbers% to int/float/long/double/short/byte array",
+        "Support conversion to primitive array"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5341": {
+    "id": 5341,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get all fields's classes of a packet.",
+        "This is not intended to be use on your final code,",
+        "it's only to help you to know what is inside a packet"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5336": {
+    "id": 5336,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes the server simulate receiving the specified packet(s) from the specified player(s)"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5338": {
+    "id": 5338,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Force the update of an entity to a specific player(s)"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5337": {
+    "id": 5337,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends the specified packet(s) to the specified player(s)."
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6078": {
+    "id": 6078,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a new packet from a ProtocolLib's packettype"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6079": {
+    "id": 6079,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the entity related to his ID in specified world"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6080": {
+    "id": 6080,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get an Enum from a class"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6082": {
+    "id": 6082,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get a full copy (=deep) or a fast copy (=shallow) of a packet"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6083": {
+    "id": 6083,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return the packet type of a %packet%"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6084": {
+    "id": 6084,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the ID of an entity. This method return a number and not the UUID"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6085": {
+    "id": 6085,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Pair object A with object B uning com.mojang.datafixers.util.Pair"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5335": {
+    "id": 5335,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a packet of one of the specified types is being sent or received. You can optionally specify a priority triggers with higher priority will be called later (so high priority will come after low priority, and monitor priority will come last). By default, the priority is normal."
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6074": {
+    "id": 6074,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or set a datawatcher's index. Used for metadata packet. More informations here https://github.com/Anarchick/skript-packet/wiki/Data-Watcher"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6077": {
+    "id": 6077,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the NMS (net.minecraft.server) from a convertible object or invert",
+        "More information here https://github.com/Anarchick/skript-packet/wiki/ExprNMS"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6081": {
+    "id": 6081,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Convert a %number% to int/float/long/double/short/byte"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11470": {
+    "id": 11470,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a packet of one of the specified types is being sent or received."
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11471": {
+    "id": 11471,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a given object is an instance of org.bukkit.Material"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11472": {
+    "id": 11472,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a given object is an instance of java.util.List"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11473": {
+    "id": 11473,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a given object can be found within the package net.minecraft.server"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11474": {
+    "id": 11474,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a given packet is sent by the client to the server"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11475": {
+    "id": 11475,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a given packet is sent by the server to the client"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11476": {
+    "id": 11476,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the Material of an item or block"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6076": {
+    "id": 6076,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a new datawatcher. Used for metadata packet.",
+        "The data watcher is linked to the packet and you don't need to set the packet field to it",
+        "More information at https://github.com/Anarchick/skript-packet/wiki/Data-Watcher"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6075": {
+    "id": 6075,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get all indexes of a data watcher"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11477": {
+    "id": 11477,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the ItemStack from a Material"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5343": {
+    "id": 5343,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or set a packet field",
+        "Field id start from 0 and increase by 1 for each existent field",
+        "This expression has an auto-converter. More information on the wiki https://github.com/Anarchick/skript-packet/wiki"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11478": {
+    "id": 11478,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A data watcher is a list of index (=integer) associate with a value (=object)"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11479": {
+    "id": 11479,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a packet from ProtocolLib"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11480": {
+    "id": 11480,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the type of a packet from ProtocolLib"
+      ],
+      "ko": [
+        "[skript-packet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

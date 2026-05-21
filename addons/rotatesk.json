@@ -1,0 +1,18 @@
+{
+  "syntax_14206": {
+    "id": 14206,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to change pitch and yaw without rolling back the player's view.",
+        "It is possible to get Pitch/Yaw, but there is no advantage to using this Expression.",
+        "**Requires ProtocolLib 4.8.0+**"
+      ],
+      "ko": [
+        "[RotateSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

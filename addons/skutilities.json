@@ -1,0 +1,1881 @@
+{
+  "syntax_143": {
+    "id": 143,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the absolute path of a string for example",
+        "\"plugins/test.txt\" would return",
+        "c://ect../myserver/plugins/test.txt\""
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_144": {
+    "id": 144,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a list of the addons on the server, this can also be used to get the number (size)"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_145": {
+    "id": 145,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts Ascii (Symbol number from the ascii table) to string"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_146": {
+    "id": 146,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a single Ascii value to a Unicode value"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_147": {
+    "id": 147,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the value of the files attribute as a boolean",
+        "Sets a attribute of a file (read/write/hidden) to a boolean"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_148": {
+    "id": 148,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a Binary string in to a decimal"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_149": {
+    "id": 149,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts Binary to a Hexadecimal"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_150": {
+    "id": 150,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts Binary to an Octal Int"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_151": {
+    "id": 151,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts Binary \"01010010 01010010\" ect.. in to a String (Must use spaces)"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_152": {
+    "id": 152,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the contents from a URL, and returns it as an array (list variable)"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_153": {
+    "id": 153,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a string to lowercase"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_154": {
+    "id": 154,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a string to uppercase"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_155": {
+    "id": 155,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns Information from a date."
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_156": {
+    "id": 156,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Parses a string as a date, needed for %date% elements.",
+        "\"dd\" = Days, \"MM\" = Months, \"yy\" = Years (16), \"yyyy\" = Years (2016)",
+        "\"HH\" = Hours, \"mm\" = Minutes, \"ss\" = Seconds"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_157": {
+    "id": 157,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a date (like \"now\" to unix)"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_158": {
+    "id": 158,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a Decimal to Binary"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_159": {
+    "id": 159,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the size of a directory"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_160": {
+    "id": 160,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns disk space"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_161": {
+    "id": 161,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Encode a string to base64 using UTF-8 as the Charset",
+        "Decode a string from base64 using UTF-8 as the Charset"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_162": {
+    "id": 162,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Encodes a string to morse code",
+        "Decodes a morse string to a english string"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_163": {
+    "id": 163,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Encrypts a String if you use AES You have to use a key with the length 16, 24, 32 chars",
+        "Decrypts a String if you use AES You have to use a key with the length 16, 24, 32 chars"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_164": {
+    "id": 164,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the contents of a file",
+        "Sets,gets or resets contents of file"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_165": {
+    "id": 165,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the file extension of a file"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_166": {
+    "id": 166,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns when the file was last changed (modified), last accessed, and created"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_167": {
+    "id": 167,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the line count of a file"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_168": {
+    "id": 168,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the name of a file with out the extension"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_169": {
+    "id": 169,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets or Sets the file owner",
+        "Note: Can only set the owner to a real user"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_170": {
+    "id": 170,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the size of the file"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_171": {
+    "id": 171,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of the files in the current and sub directories"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_172": {
+    "id": 172,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of files in the zip file"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_173": {
+    "id": 173,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the Hash of the string."
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_174": {
+    "id": 174,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a Hex color value in to a Rgb color value formated like \"200, 200, 200\""
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_175": {
+    "id": 175,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Convert a Hexadecimal to Binary"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_176": {
+    "id": 176,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a Hexadecimal to a Number"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_177": {
+    "id": 177,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if your server's os a certain os"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_178": {
+    "id": 178,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the contents from a single json value"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_179": {
+    "id": 179,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the contents from a multiple json value's"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_180": {
+    "id": 180,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last bash/batch/sh command's output"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_181": {
+    "id": 181,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a line from a URL and returns it."
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_182": {
+    "id": 182,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns an array (list variable) of all the supported TimeZones."
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_183": {
+    "id": 183,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns Loaded Commands as a number"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_184": {
+    "id": 184,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns loaded conditions from all addons and skript"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_185": {
+    "id": 185,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns loaded effects from all addons and skript"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_186": {
+    "id": 186,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the number of events from all addon and skript"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_187": {
+    "id": 187,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns loaded Expressions from all addons and skript"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_188": {
+    "id": 188,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns loaded Functions as a number"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_189": {
+    "id": 189,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns loaded skripts as a number"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_190": {
+    "id": 190,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the number of loaded statements"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_191": {
+    "id": 191,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns Loaded Triggers as a numbers"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_192": {
+    "id": 192,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns loaded variables as a number"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_193": {
+    "id": 193,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Reverses a string",
+        "Example \"hello\" would turn in to \"olleh\""
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_194": {
+    "id": 194,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the number of upper or lower case chars in a string"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_195": {
+    "id": 195,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a Number to it's Hexadecimal Form"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_196": {
+    "id": 196,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts an Octal Int to it's binary form"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_197": {
+    "id": 197,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a list of the plugin on the server, this can also be used to get the number (size)"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_198": {
+    "id": 198,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns free/total/max ram"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_199": {
+    "id": 199,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Randomizes a string"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_200": {
+    "id": 200,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Reads a line in a file"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_201": {
+    "id": 201,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the region of the server.",
+        "Example: \"Europe/London\""
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_202": {
+    "id": 202,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the relative path of a file"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_203": {
+    "id": 203,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a rgb color to a hex color"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_204": {
+    "id": 204,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns short path of a path"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_206": {
+    "id": 206,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return's the SSL Certificate's Algorithm"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_207": {
+    "id": 207,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the SSL Certificate's Expire date as a unix timestamp"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_208": {
+    "id": 208,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the SSL Certificate's Issue Date as a unix timestamp"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_209": {
+    "id": 209,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the SSL Certificate's Serial Number as a hexadecimal"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_210": {
+    "id": 210,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the SSL signer/verifier of a url",
+        "Example: DigiCert"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_211": {
+    "id": 211,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns SSL Certifiicate's Version as a Number",
+        "Example: 3"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_212": {
+    "id": 212,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts Text or symbols in to it's number on the ascii table"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_213": {
+    "id": 213,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a String to Binary"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_214": {
+    "id": 214,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts text (char) to Unicode, accepts more than one char input"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_215": {
+    "id": 215,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return a System Property"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_216": {
+    "id": 216,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns current System nanoseconds, milliseconds or seconds"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_217": {
+    "id": 217,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the current time In a TimeZone, support for GMT+1,GMT-1 ect..",
+        "formatted just like your config is, Case Sensitive!"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_218": {
+    "id": 218,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the TimeZone of the server.",
+        "Example: GMT"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_219": {
+    "id": 219,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts unicode (/u2588) to Ascii (9608), Accepts more than one input"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_220": {
+    "id": 220,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts string tounicode"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_221": {
+    "id": 221,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a Unix date to a normal date formatted like just like you have it set in skript's config!"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_222": {
+    "id": 222,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a unix date to a date formatted how you want!",
+        "\"dd\" = Days, \"MM\" = Months, \"yy\" = Years (16), \"yyyy\" = Years (2016)",
+        "\"HH\" = Hours, \"mm\" = Minutes, \"ss\" = Seconds"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_223": {
+    "id": 223,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the page's last modified date and returns as a unix timestamp"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_224": {
+    "id": 224,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the line count from a web page (url)"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_225": {
+    "id": 225,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks the online state of a webpage/site and returns true if it's up"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_226": {
+    "id": 226,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the response code from a url (web page)",
+        "Example: 200 (OK), 404 (Not Found/Offline)",
+        "Full List: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_227": {
+    "id": 227,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the size of a web page (from url)"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_228": {
+    "id": 228,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the version of plugin, java, server, os, or my aliases version"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_230": {
+    "id": 230,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Triggers when you execute bash/batch/sh code"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_231": {
+    "id": 231,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes every time you try to copy a file to a directory, can be cancelled",
+        "Use: event-file to get file to copy",
+        "Use: event-string to get directory to copy to"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_232": {
+    "id": 232,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes every time you try to create a file, can be cancelled",
+        "Use: event-file to get file"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_233": {
+    "id": 233,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes every time you try to delete a file, can be cancelled",
+        "Use: event-file to get the file"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_234": {
+    "id": 234,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes every time you try to download, this can be cancelled",
+        "Use: event-string to get URL",
+        "Use: event-file to file download name"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_235": {
+    "id": 235,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes every time you try to run a file, this can be cancelled",
+        "Use: event-file to get file"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_236": {
+    "id": 236,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes every time you try to move a file, can be cancelled",
+        "Use: event-file to get the file",
+        "Use: event-string to get the new location"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_237": {
+    "id": 237,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes every time you try to rename a file, can be cancelled",
+        "Use: event-file to get the file",
+        "Use: event-string to get the new name"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_238": {
+    "id": 238,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes every time you try to wipe a file, can be cancelled",
+        "Use: event-file to get file"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_239": {
+    "id": 239,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes every time you try to rename a file, can be cancelled",
+        "Use: event-file to get the file",
+        "Use: event-string to get the string to be written",
+        "Use: event-number to get the line number"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_240": {
+    "id": 240,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes every time you try to zip a file can be cancelled",
+        "Use: event-file to get the file",
+        "Use: event-string to get the zip"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_241": {
+    "id": 241,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes every time you try to unzip a file can be cancelled",
+        "Use: event-file to get the zip",
+        "Use: event-string to get the unzip to location"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_242": {
+    "id": 242,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Copies a directory and all sub-directories to another directory"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_243": {
+    "id": 243,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Copies a file to another directory"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_244": {
+    "id": 244,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a directory at a location you choose"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_245": {
+    "id": 245,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a file or at the location you give it"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_246": {
+    "id": 246,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes a directory and all sub directories at the chosen path"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_247": {
+    "id": 247,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes a file at the location you give it"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_248": {
+    "id": 248,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Downloads a File from a url"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_250": {
+    "id": 250,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Moves a directory to another directory"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_251": {
+    "id": 251,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Moves a file to the location you tell it to"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_252": {
+    "id": 252,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Reloads skripts aliases"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_253": {
+    "id": 253,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Reloads a config of a plugin"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_254": {
+    "id": 254,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Reloads a script"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_255": {
+    "id": 255,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Reloads the server (This can be unsafe for most plugins)"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_256": {
+    "id": 256,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Renames the chosen directory"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_257": {
+    "id": 257,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Renames a file"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_258": {
+    "id": 258,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Restarts the server using spigot"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_259": {
+    "id": 259,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Forces the player to run a command as op"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_260": {
+    "id": 260,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Execute bash/batch/sh commands in skript",
+        "#Windows: cmd /c <command>\t\t\t</command></div>"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_261": {
+    "id": 261,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Runs the script (.bat / .sh / ect..) at /plugins + your string (path)",
+        "or you can run programs/files"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_263": {
+    "id": 263,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Unzip's a zip file"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_264": {
+    "id": 264,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Changes a line in a file to the text you want it to have! #note this could wipe the file! (Very low chance)"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_265": {
+    "id": 265,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Add's a directory to a zip file with all the files and folders in that directory"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_266": {
+    "id": 266,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new zip and adds a file to it, if that zip already exists it will create a new one! (Don't worry it doesn't overwrite)"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_267": {
+    "id": 267,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the file exists or doesn't exist"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_268": {
+    "id": 268,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a path is a Directory"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_269": {
+    "id": 269,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the path is a file or a directory",
+        "Useful for loops"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_270": {
+    "id": 270,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a file is executable"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_271": {
+    "id": 271,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the file has a link with another file (example shortcut)"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_272": {
+    "id": 272,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the server is a certain TimeZone."
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_273": {
+    "id": 273,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a string ends with a certain string"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_274": {
+    "id": 274,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a string starts with a certain string"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_275": {
+    "id": 275,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a yaml path exists within a yaml file."
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_229": {
+    "id": 229,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Everything to do with yaml in skUtilities",
+        "Read/write/delete/remove",
+        "(%object% can be a string/boolean/number)"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_249": {
+    "id": 249,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Inserts a line of text at the given location in the given file, you can write to non-existant lines it will create empty lines for the ones before.",
+        "use the [Write Line in File](https://skripthub.net/docs/?id=264) effect if you want to create a new line, only use insert line if you need to put a line between some lines or add a new line to a file"
+      ],
+      "ko": [
+        "[skUtilities] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

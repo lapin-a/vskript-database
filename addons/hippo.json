@@ -1,0 +1,156 @@
+{
+  "syntax_7970": {
+    "id": 7970,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a single character."
+      ],
+      "ko": [
+        "[Hippo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7971": {
+    "id": 7971,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a multi-dimensional array of primitive or Java type."
+      ],
+      "ko": [
+        "[Hippo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7972": {
+    "id": 7972,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Pairs datatype and identifier together."
+      ],
+      "ko": [
+        "[Hippo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7973": {
+    "id": 7973,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Defines a new field for the current class."
+      ],
+      "ko": [
+        "[Hippo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7963": {
+    "id": 7963,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Section for pre-imports of the current script. Used for classes that don't exist yet and will be compiled later on."
+      ],
+      "ko": [
+        "[Hippo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7968": {
+    "id": 7968,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Static block will run once the class in which it's defined is initialized."
+      ],
+      "ko": [
+        "[Hippo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7969": {
+    "id": 7969,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Primitive types are used as Java primitives."
+      ],
+      "ko": [
+        "[Hippo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7965": {
+    "id": 7965,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Modifiers are used to change behaviour of modifiable class contents, all of them represent the Java counterparts except for the default one, which can be used for package-protected access."
+      ],
+      "ko": [
+        "[Hippo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7966": {
+    "id": 7966,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Class types are used to specify functionality of a class, all of them represent the Java counterparts."
+      ],
+      "ko": [
+        "[Hippo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7967": {
+    "id": 7967,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates new Hippo Skript class on load if not specified differently."
+      ],
+      "ko": [
+        "[Hippo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7964": {
+    "id": 7964,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Pre-imports the class under its simple name or alias if specified. Can be used only in pre-import section."
+      ],
+      "ko": [
+        "[Hippo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "syntax_14499": {
+    "id": 14499,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/resets a player's nametag to the given string."
+      ],
+      "ko": [
+        "[skkaemok] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14522": {
+    "id": 14522,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/resets a player's skin to the given string."
+      ],
+      "ko": [
+        "[skkaemok] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

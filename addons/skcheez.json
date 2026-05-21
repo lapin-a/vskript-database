@@ -1,0 +1,114 @@
+{
+  "syntax_11212": {
+    "id": 11212,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets or sets a property of an attribute modifier. The properties can be set to the following:",
+        "- Attribute: attribute type",
+        "- Name: string",
+        "- UUID: string",
+        "- Amount: number",
+        "- Slot: equipment slot",
+        "- Operation: attribute modifier operation"
+      ],
+      "ko": [
+        "[SkCheez] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11213": {
+    "id": 11213,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets or modifies the attribute modifiers of an item.",
+        "This will always return a list, even if there's only 1."
+      ],
+      "ko": [
+        "[SkCheez] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11214": {
+    "id": 11214,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an attribute modifier.",
+        "Due to the complexity of these, they cannot be stored in variables long term."
+      ],
+      "ko": [
+        "[SkCheez] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11215": {
+    "id": 11215,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the operations an attribute modifier can use."
+      ],
+      "ko": [
+        "[SkCheez] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11217": {
+    "id": 11217,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an item has any attribute modifiers."
+      ],
+      "ko": [
+        "[SkCheez] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11211": {
+    "id": 11211,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new attribute modifier, which can be applied to items.",
+        "All of the optional parts in the pattern (the operation, uuid, and slot), have default values as follows:",
+        "- Operation: add number",
+        "- UUID: random uuid",
+        "- Slot: all slots (which is actually stored as no slot)",
+        "Keep in mind that attributes can only be modified to their min and max values.",
+        "For more information, see the [SkCheez wiki page](https://github.com/cheeezburga/SkCheez/wiki/attribute-modifiers) or the [Minecraft wiki page](https://minecraft.wiki/w/Attribute)."
+      ],
+      "ko": [
+        "[SkCheez] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11216": {
+    "id": 11216,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the equipment slots that (in SkCheez) an attribute modifier can use. Other addons might register this type and use it in their syntax as well."
+      ],
+      "ko": [
+        "[SkCheez] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

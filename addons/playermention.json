@@ -1,0 +1,16 @@
+{
+  "syntax_2475": {
+    "id": 2475,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An event for when a Player is mentioned through the plugin PlayerMention."
+      ],
+      "ko": [
+        "[PlayerMention] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

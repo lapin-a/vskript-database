@@ -1,0 +1,678 @@
+{
+  "syntax_3461": {
+    "id": 3461,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return fishing hook as Entity in fishing event."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3462": {
+    "id": 3462,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return fishing state as string in fishing event."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3445": {
+    "id": 3445,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when block is pulled by piston. Cancelling this event will prevent piston from pulling."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3447": {
+    "id": 3447,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when block stops falling."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3448": {
+    "id": 3448,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if living entity has applied given potion effect(s).",
+        "If one of this effects will exist on entity, return will be \"true\"."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3450": {
+    "id": 3450,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It will play sound at specific location with given pitch and volume for everyone.",
+        "Use bukkit \"Sound\" enum names as sound name.",
+        "List of names is here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html",
+        "Bukkit names may be in any case heigh and may be separated with \".\" instead of \"_\".",
+        "If sound name will be not recognized, error will NOT be thrown like in Skript's play sound, so your scripts will not crash and will be safe.",
+        "There will be notification in console in this case with given sound name that is invalid."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3451": {
+    "id": 3451,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Plays sound only to single player."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3452": {
+    "id": 3452,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It will push living entity from location direction with specific force (if definded)."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3453": {
+    "id": 3453,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This effect will show block break stage of block in given location."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3455": {
+    "id": 3455,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Spawn particle for single player at location."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3456": {
+    "id": 3456,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns item in cursor while any gui is oppened."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3457": {
+    "id": 3457,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return skript's date object from unix time number."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3458": {
+    "id": 3458,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns generated drop list of block. You can specify tool using second syntax."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3446": {
+    "id": 3446,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when block starts falling."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3449": {
+    "id": 3449,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This effect will naturally break given block.",
+        "It is possible to define specific tool which block will be broken (in this situation drop can be modified by this tool)."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3459": {
+    "id": 3459,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns duration of applied potion effect of entity."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3466": {
+    "id": 3466,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns piston block in piston events."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3482": {
+    "id": 3482,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns Value of Mox Pair.",
+        "Full tutorial: https://github.com/MorkaZ/MorkazSk/wiki/Mox-Data-tutorial"
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3443": {
+    "id": 3443,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when block starts or stops falling."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3444": {
+    "id": 3444,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when block is pulled by piston. Cancelling this event will prevent piston from pulling."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3470": {
+    "id": 3470,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when player moves between chunks (16x16 world areas).",
+        "Very good for protecting areas scripts like factions."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3474": {
+    "id": 3474,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if Mox Data contains Mox Pair with given key.",
+        "Full tutorial: https://github.com/MorkaZ/MorkazSk/wiki/Mox-Data-tutorial"
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3475": {
+    "id": 3475,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This effect will add mox pair to chain of mox data.",
+        "Full tutorial: https://github.com/MorkaZ/MorkazSk/wiki/Mox-Data-tutorial"
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3476": {
+    "id": 3476,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This effect will remove mox pair from chain of mox data",
+        "Full tutorial: https://github.com/MorkaZ/MorkazSk/wiki/Mox-Data-tutorial"
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3472": {
+    "id": 3472,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns boolean if block in \"on break\" event is dropping items.",
+        "To set dropping in this event just set this expression to true or false."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3460": {
+    "id": 3460,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Caught entity (hooked by fishing rod) in fishing event. It may be also fish drop item in specific fishing state."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3463": {
+    "id": 3463,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns item from dropped item entity."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3478": {
+    "id": 3478,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all Keys of Mox Data object.",
+        "Full tutorial: https://github.com/MorkaZ/MorkazSk/wiki/Mox-Data-tutorial"
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3479": {
+    "id": 3479,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates new instance of Mox Data.",
+        "You can create it empty or from text object.",
+        "Full tutorial: https://github.com/MorkaZ/MorkazSk/wiki/Mox-Data-tutorial"
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3480": {
+    "id": 3480,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns special Mox Pair of key and value.",
+        "Useable in Mox Data operations.",
+        "Full tutorial: https://github.com/MorkaZ/MorkazSk/wiki/Mox-Data-tutorial"
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3473": {
+    "id": 3473,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns previous chunk in event \"on chunk enter\"."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3477": {
+    "id": 3477,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns Key Name of Mox Pair.",
+        "Full tutorial: https://github.com/MorkaZ/MorkazSk/wiki/Mox-Data-tutorial"
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3468": {
+    "id": 3468,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns tier level of given potion effect type applied to entity."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3464": {
+    "id": 3464,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns date of last login of offline player.",
+        "If offline player never logged, it will be <none>."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3465": {
+    "id": 3465,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns date of last login of player.",
+        "If player never logged, it will be <none>."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3481": {
+    "id": 3481,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all Mox Pairs of Mox Data object.",
+        "Full tutorial: https://github.com/MorkaZ/MorkazSk/wiki/Mox-Data-tutorial"
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3467": {
+    "id": 3467,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns sorted list with custom format of values.",
+        "Use @value and @index to manipulate content of variable list."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3469": {
+    "id": 3469,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns unix time (long number) of skript's date object."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3483": {
+    "id": 3483,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all Values of Mox Data object.",
+        "Full tutorial: https://github.com/MorkaZ/MorkazSk/wiki/Mox-Data-tutorial"
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3484": {
+    "id": 3484,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Mox Data type. It can hold multiple values indexed by keys in one field called Mox Chain.",
+        "Specially created for databases to not create a lot of columns but it can be also used in normal skript features - for example in NBT Tags."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3471": {
+    "id": 3471,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns actual chunk of player's location in event \"on chunk enter\"."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3485": {
+    "id": 3485,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Mox Pair type. It holds key and value. Useable in Mox Data operations",
+        "Specially created for databases to not create a lot of columns but can be also used in common scripting."
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3507": {
+    "id": 3507,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns Mox Pair from Mox Data by given key. If pair will not be found, it will be <none>.",
+        "Full tutorial: https://github.com/MorkaZ/MorkazSk/wiki/Mox-Data-tutorial"
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3508": {
+    "id": 3508,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns main key of Mox Data. Usually it is index name, for example: player name, uuid.",
+        "Full tutorial: https://github.com/MorkaZ/MorkazSk/wiki/Mox-Data-tutorial"
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3563": {
+    "id": 3563,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This effect will make entity glow with specific color. To unglow use NONE as color.",
+        "All color names: BLACK(0, \"0\"), DARK_BLUE(1, \"1\"), DARK_GREEN(2, \"2\"), DARK_AQUA(3, \"3\"), DARK_RED(4, \"4\"), DARK_PURPLE(5, \"5\"), GOLD(6, \"6\"), GRAY(7, \"7\"), DARK_GRAY(8, \"8\"), BLUE(9, \"9\"), GREEN(10, \"a\"), AQUA(11, \"b\"), RED(12, \"c\"), PURPLE(13, \"d\"), YELLOW(14, \"e\"), WHITE(15, \"f\"), NONE(-1, \"\");"
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3454": {
+    "id": 3454,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This effect will spawn specified particle with given options. It will be spawned for everyone",
+        "If chunk will be not loaded, it will not spawn particle, so it is safe and it will not affect your TPS that much like normal spawning may do.",
+        "Use bukkit \"Particle\" enum names as particle name. You can use dots and name do not have to be upper cased.",
+        "List of names is here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html"
+      ],
+      "ko": [
+        "[MorkazSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

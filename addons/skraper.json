@@ -1,0 +1,156 @@
+{
+  "syntax_1568": {
+    "id": 1568,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the text of an element."
+      ],
+      "ko": [
+        "[Skraper] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1565": {
+    "id": 1565,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the tag name of an element."
+      ],
+      "ko": [
+        "[Skraper] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1564": {
+    "id": 1564,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the last document received from the document request effect."
+      ],
+      "ko": [
+        "[Skraper] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1566": {
+    "id": 1566,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the specified elements of a document or an element."
+      ],
+      "ko": [
+        "[Skraper] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1562": {
+    "id": 1562,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the specified attribute of an element."
+      ],
+      "ko": [
+        "[Skraper] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1561": {
+    "id": 1561,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Request a html document from a website with optional user agent, timeout and referer."
+      ],
+      "ko": [
+        "[Skraper] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1589": {
+    "id": 1589,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the html body of a document as an element."
+      ],
+      "ko": [
+        "[Skraper] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1590": {
+    "id": 1590,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the html head of a document as an element."
+      ],
+      "ko": [
+        "[Skraper] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1591": {
+    "id": 1591,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the inner or outer html of a htmlelement as a htmldocument."
+      ],
+      "ko": [
+        "[Skraper] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1592": {
+    "id": 1592,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the tag name of an element."
+      ],
+      "ko": [
+        "[Skraper] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1593": {
+    "id": 1593,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the html title of a document."
+      ],
+      "ko": [
+        "[Skraper] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

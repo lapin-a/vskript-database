@@ -1,0 +1,339 @@
+{
+  "syntax_8582": {
+    "id": 8582,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the UUID of a given proxy player."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8518": {
+    "id": 8518,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a proxy server is online on the network."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8517": {
+    "id": 8517,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a proxy player is online on the network."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8519": {
+    "id": 8519,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends a proxy player to another given proxy server."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8520": {
+    "id": 8520,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends proxy player(s) a message."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8522": {
+    "id": 8522,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When a proxy player joins the proxy."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8523": {
+    "id": 8523,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When a proxy player disconnects from the proxy."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8524": {
+    "id": 8524,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When a proxy player gets kicked from the proxy. (e.g. a ban)"
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8526": {
+    "id": 8526,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When another server messages this server."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8528": {
+    "id": 8528,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a network variable which is synced between all servers. It can be set, added to, removed from or deleted - just like a regular variable."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8529": {
+    "id": 8529,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all of the servers that are connected to your proxy."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8531": {
+    "id": 8531,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the given proxy player's current server."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8530": {
+    "id": 8530,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the max player count of the given server. (defined in server.properties)"
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8527": {
+    "id": 8527,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the name that the proxy assigned to this server."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8521": {
+    "id": 8521,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends proxy server(s) a message. A corresponding event can be used to know when a server recieves one."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8525": {
+    "id": 8525,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When a proxy player switches to another server."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8532": {
+    "id": 8532,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Kicks / disconnects a given proxy player, with an optional message."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8581": {
+    "id": 8581,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Broadcasts a message to all players on the proxy, or on a specific server."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8583": {
+    "id": 8583,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a proxy player execute a given command (on the Spigot server)."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8633": {
+    "id": 8633,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a proxy server execute a command. Keep in mind, it's been executed from the console and has full permissions!"
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8986": {
+    "id": 8986,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets all of the proxy players. You can also specify a specific server if you would like to get the players from there if you need to."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8989": {
+    "id": 8989,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a network variable async and allows you to use it in this section.",
+        "You can only get one network variable per section."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9332": {
+    "id": 9332,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the IP address of the given proxy player."
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9333": {
+    "id": 9333,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the virtual host of the given proxy player. In other words, this is the IP they used to connect to the server with. (e.g. mc.server.org)"
+      ],
+      "ko": [
+        "[ZulfBungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

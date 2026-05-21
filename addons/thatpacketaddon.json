@@ -1,0 +1,1374 @@
+{
+  "syntax_3754": {
+    "id": 3754,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether the player count and possibly a player preview will be displayed by the specified server ping. If this is false, instead of a player count and possibly a player preview, the specified server ping will display \"???\" where the player count should be."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3755": {
+    "id": 3755,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Puts all of the information stored inside the specified jsonobject into the specified list variable. This is needed as storing json data in list variables is currently the only way to manipulate information in ThatPacketAddon's jsonobjects other than raw string manipulation."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3756": {
+    "id": 3756,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes the server simulate receiving the specified packet(s) from the specified player(s)"
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3757": {
+    "id": 3757,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends the specified packet(s) to the specified player(s)."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3759": {
+    "id": 3759,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the game profile corresponding to the specified profile."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3760": {
+    "id": 3760,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for a game profile with the specified name and optionally the specified UUID and skin. If the UUID is not specified a random UUID will be created and used. If the skin is not specified the profile will not have a skin associated with it."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3761": {
+    "id": 3761,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the name of the specified profile."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3762": {
+    "id": 3762,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the skin of the specified profile."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3763": {
+    "id": 3763,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the UUID of the specified profile."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3764": {
+    "id": 3764,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for a jsonobject constructed from the information stored inside the specified list variable."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3765": {
+    "id": 3765,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for an enum field of a packet (first see the Packet Info o expression for a more general explanation of packet fields). The specified string is the name of the enum you are getting/setting. Using arbitrary gives you access to all enum fields, rather than just one particular type, and allows you to access certain enums that are NMS types rather than ProtocolLib and thus can't be accessed by their name."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3766": {
+    "id": 3766,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the packet field of either the specified type or referred to by the specified string, with the specified index, of the specified packet. For example, 'string' can be used as the specified type to get a string field in the specified packet. 'array' must be included in the syntax when the fields are plural (ex. 'string array'). Use 'object' in order to access all fields of the packet. However, some fields will have objects in raw forms that cannot be easily used in Skript without the use of addons such as skript-mirror. Many of these fields can be converted into Skript types; most of these fields must be referred to by a certain string rather than a type: \"uuid\", \"material\", \"blockdata\", \"collection\" array, \"bytebuffer\" array (The last two are plural and must have array included in the syntax."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3767": {
+    "id": 3767,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for certain fields of packets (first see the Packet Info expression for a more general explanation) that don't have equivalent types in Skript, and thus must be represented in the form of a jsonobject. The names of the fields can be written as strings but don't have to be. Current accept JSON infos: 'chatcomponent', 'serverping', 'datawatcher', 'watchablecollection', 'gameprofile', 'nbt', 'chatcomponent' array, 'playerinfodata' array."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3768": {
+    "id": 3768,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for int array and byte array fields of packets. First see the Packet Info expression for a more general explanation of packet fields."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3769": {
+    "id": 3769,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for different kinds of number fields of packets. First see the Packet Info expression for a more general explanation of packet fields."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3770": {
+    "id": 3770,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the key string of the specified minecraft key."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3772": {
+    "id": 3772,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the prefix of the specified minecraft key."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3774": {
+    "id": 3774,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for a new packet of the specified type."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3775": {
+    "id": 3775,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the packettype of the specified packet."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3776": {
+    "id": 3776,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's byte array fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3777": {
+    "id": 3777,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's byte buffer fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3778": {
+    "id": 3778,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's block fields. Note that this is represented in Skript as an itemstack with the material of the block. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3779": {
+    "id": 3779,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's blockdata fields. Note that this is represented in Skript as an itemstack with the material and data of the blockdata. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3780": {
+    "id": 3780,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's boolean fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3781": {
+    "id": 3781,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's byte fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3782": {
+    "id": 3782,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's chat component array fields. The chat components are represented as a jsonobject. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3783": {
+    "id": 3783,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's chat component fields. The chat component is represented as a jsonobject. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3784": {
+    "id": 3784,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's chattype fields. This is an automatically generated enum packet field, and is represented in Skript as a string (the name of the value of the field). The returned name will always be in uppercase, however when setting this expression the cases used do not matter.The different values of this enum are \"CHAT\", \"SYSTEM\", \"GAME_INFO\". The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3785": {
+    "id": 3785,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's chatvisibility fields. This is an automatically generated enum packet field, and is represented in Skript as a string (the name of the value of the field). The returned name will always be in uppercase, however when setting this expression the cases used do not matter.The different values of this enum are \"FULL\", \"SYSTEM\", \"HIDDEN\". The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3786": {
+    "id": 3786,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's clientcommand fields. This is an automatically generated enum packet field, and is represented in Skript as a string (the name of the value of the field). The returned name will always be in uppercase, however when setting this expression the cases used do not matter.The different values of this enum are \"PERFORM_RESPAWN\", \"REQUEST_STATS\", \"OPEN_INVENTORY_ACHIEVEMENT\". The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3787": {
+    "id": 3787,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's collection fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3823": {
+    "id": 3823,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's string fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3796": {
+    "id": 3796,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's hand fields. This is an automatically generated enum packet field, and is represented in Skript as a string (the name of the value of the field). The returned name will always be in uppercase, however when setting this expression the cases used do not matter. The different values of this enum are \"MAIN_HAND\", \"OFF_HAND\". The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3789": {
+    "id": 3789,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's difficulty fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3790": {
+    "id": 3790,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's direction fields. This is an automatically generated enum packet field, and is represented in Skript as a string (the name of the value of the field). The returned name will always be in uppercase, however when setting this expression the cases used do not matter.The different values of this enum are \"DOWN\", \"UP\", \"NORTH\", \"SOUTH\", \"WEST\", \"EAST\". The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3791": {
+    "id": 3791,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's double fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3792": {
+    "id": 3792,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's dimension id fields. 0 represents the overworld, -1 represents the nether, and 1 represents the end. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3793": {
+    "id": 3793,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's entityuseaction fields. This is an automatically generated enum packet field, and is represented in Skript as a string (the name of the value of the field). The returned name will always be in uppercase, however when setting this expression the cases used do not matter.The different values of this enum are \"INTERACT\", \"ATTACK\", \"INTERACT_AT\". The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3794": {
+    "id": 3794,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's float fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3795": {
+    "id": 3795,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's gamemode fields. Note that ProtocolLib's NativeGameMode class also has a NOT_SET mode, which will appear as the field being not set. If you want to deal more directly with the NOT_SET mode, you can use the NativeGameMode Field of Packet expression. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3797": {
+    "id": 3797,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's int array fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3798": {
+    "id": 3798,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's itemstack array fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3799": {
+    "id": 3799,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's int fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3800": {
+    "id": 3800,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's item fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3801": {
+    "id": 3801,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's itemslot fields. This is an automatically generated enum packet field, and is represented in Skript as a string (the name of the value of the field). The returned name will always be in uppercase, however when setting this expression the cases used do not matter.The different values of this enum are \"MAINHAND\", \"OFFHAND\", \"FEET\", \"LEGS\", \"CHEST\", \"HEAD\". The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3802": {
+    "id": 3802,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's itemstack fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3804": {
+    "id": 3804,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's location collection fields. Note that Minecraft's BlockPosition class does not have information about the world, so the returned locations will be in your server's main world. Presumably (if you have more than one world) you will want to set them to be the appropriate world given the context. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3805": {
+    "id": 3805,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's location fields. Note that Minecraft's BlockPosition class does not have information about the world, so the returned location will be in your server's main world. Presumably (if you have more than one world) you will want to set this to be the appropriate world given the context. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3806": {
+    "id": 3806,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's long fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3807": {
+    "id": 3807,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's minecraft key fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3810": {
+    "id": 3810,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's NBT list fields. The NBT values contained int list, as well as any NBT values contained in those NBT values, are represented as a jsonobject with three parts:",
+        "The name, with index/key \"name\", which is just the name (sometimes null)",
+        "The type, with index/key \"type\", which is the type of NBT, and can have the following values:",
+        "- \"byte\", \"short\", \"int\", \"long\", \"float\", \"double\", the basic number types",
+        "- \"string\", for strings",
+        "- \"byte_array\" and \"int_array\", for basic number array types",
+        "- \"compound\", for an NBT compound",
+        "- \"list_something\", such as \"list_string\" or \"list_compound\", for a list of some other type",
+        "The value, with index/key \"value\", which is the actual value:",
+        "- In the cases of the number types and string type this is just the number/string (when accessing using a list variable in Skript it's like {_nbt::value}",
+        "- In the case of the number array types and the list type this is an array of the objects (when accessing using a list variable in Skript it's like {_nbt::value::*}, ex. {_nbt::value::1} for the first element)",
+        "- In the case of the compound it's a JSONObject of the NBT values, each also having its own name, type and value (when accessing through a list variable in Skript it's: {_nbt::value::example_name::name} for the name (which is the same as the index, so it will be \"example_name\"), {_nbt::value::example_name::type} for the type, let's say \"string\", and {_nbt::value::example_name::value} for the actual value, let's say \"pie\") The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3811": {
+    "id": 3811,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3824": {
+    "id": 3824,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's server ping fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3813": {
+    "id": 3813,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's playeraction fields. This is an automatically generated enum packet field, and is represented in Skript as a string (the name of the value of the field). The returned name will always be in uppercase, however when setting this expression the cases used do not matter.The different values of this enum are \"START_SNEAKING\", \"STOP_SNEAKING\", \"STOP_SLEEPING\", \"START_SPRINTING\", \"STOP_SPRINTING\", \"START_RIDING_JUMP\", \"STOP_RIDING_JUMP\", \"OPEN_INVENTORY\", \"START_FALL_FLYING\". The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3814": {
+    "id": 3814,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's playerdigtype fields. This is an automatically generated enum packet field, and is represented in Skript as a string (the name of the value of the field). The returned name will always be in uppercase, however when setting this expression the cases used do not matter.The different values of this enum are \"START_DESTROY_BLOCK\", \"ABORT_DESTROY_BLOCK\", \"STOP_DESTROY_BLOCK\", \"DROP_ALL_ITEMS\", \"DROP_ITEM\", \"RELEASE_USE_ITEM\", \"SWAP_HELD_ITEMS\". The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3815": {
+    "id": 3815,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's playerinfoaction fields. This is an automatically generated enum packet field, and is represented in Skript as a string (the name of the value of the field). The returned name will always be in uppercase, however when setting this expression the cases used do not matter.The different values of this enum are \"ADD_PLAYER\", \"UPDATE_GAME_MODE\", \"UPDATE_LATENCY\", \"UPDATE_DISPLAY_NAME\", \"REMOVE_PLAYER\". The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3816": {
+    "id": 3816,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's profile fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3817": {
+    "id": 3817,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's playerinfodata list fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3818": {
+    "id": 3818,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's resourcepackstatus fields. This is an automatically generated enum packet field, and is represented in Skript as a string (the name of the value of the field). The returned name will always be in uppercase, however when setting this expression the cases used do not matter.The different values of this enum are \"SUCCESSFULLY_LOADED\", \"DECLINED\", \"FAILED_DOWNLOAD\", \"ACCEPTED\". The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3819": {
+    "id": 3819,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's string array fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3820": {
+    "id": 3820,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's scoreboardaction fields. This is an automatically generated enum packet field, and is represented in Skript as a string (the name of the value of the field). The returned name will always be in uppercase, however when setting this expression the cases used do not matter.The different values of this enum are \"CHANGE\", \"REMOVE\". The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3821": {
+    "id": 3821,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's short fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3822": {
+    "id": 3822,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's soundcategory fields. This is an automatically generated enum packet field, and is represented in Skript as a string (the name of the value of the field). The returned name will always be in uppercase, however when setting this expression the cases used do not matter.The different values of this enum are \"MASTER\", \"MUSIC\", \"RECORDS\", \"WEATHER\", \"BLOCKS\", \"HOSTILE\", \"NEUTRAL\", \"PLAYERS\", \"AMBIENT\", \"VOICE\". The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3826": {
+    "id": 3826,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's UUID fields. Note that UUIDs will be returned as a string with dashes, and strings used for setting should also have dashes. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3827": {
+    "id": 3827,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's playerinfodata list fields. Note that you need a version of Skript that has vectors in order to use this packet field. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3828": {
+    "id": 3828,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's worldborderaction fields. This is an automatically generated enum packet field, and is represented in Skript as a string (the name of the value of the field). The returned name will always be in uppercase, however when setting this expression the cases used do not matter.The different values of this enum are \"SET_SIZE\", \"LERP_SIZE\", \"SET_CENTER\", \"INITIALIZE\", \"SET_WARNING_TIME\", \"SET_WARNING_BLOCKS\". The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3829": {
+    "id": 3829,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's worldtype fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3830": {
+    "id": 3830,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the display name contained in the specified playerinfodata. If the specified playerinfodata is used as a tab in the tablist, this expression determines what actual name shown on the tab. The name of the game profile contained in the specified playerinfodata is only used internally."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3831": {
+    "id": 3831,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the gamemode contained in the specified playerinfodata. Note that ProtocolLib's NativeGameMode class also has a NOT_SET mode, which will appear in Skript as the expression being not set."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3832": {
+    "id": 3832,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The profile contained in this playerinfodata. Determines the skin that will be displayed as an icon if this playerinfodata is used as a tab in the tablist."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3833": {
+    "id": 3833,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The latency contained in this playerinfodata, respresented as an integer amount of milliseconds. Different values of latency will result in different latency bar icons being displayed if the specified playerinfodata is used as a tab in the tablist:",
+        "latency < 0 ms will show a red X",
+        "0 ms <= latency < 150 ms will show 5 bars",
+        "150 ms <= latency < 300 ms will show 4 bars",
+        "300 ms <= latency < 600 ms will show 3 bars",
+        "600 ms <= latency < 1000 ms = 1 second will show 2 bars",
+        "1000 ms = 1 second <= latency will show 1 bar"
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3834": {
+    "id": 3834,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for a new playerinfodata with the specified profile and display name, either the specified latency or 0 if the latency is not specified, and either the specified gamemode or the NOT_SET gamemode if the gamemode is not specified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3835": {
+    "id": 3835,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the MOTD (message of the day) that the specified server ping will display."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3836": {
+    "id": 3836,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for a new server ping."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3837": {
+    "id": 3837,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for either the amount of players online or the player limit displayed by the specified server ping. You can pretty much set these to be whatever you want, they can even be negative."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3838": {
+    "id": 3838,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A list expression of game profiles whose names will be displayed by the specified server ping as a preview of the players on your server. As with other parts of the server ping, these profiles don't actually have to be in any way related to the players actually online on your server."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3839": {
+    "id": 3839,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the string that will be displayed by the specified server ping as the version of your server if the client is not compatible with your server. This version name is not actually used for checking version compatibility; instead, the Version Protocol of Server Ping expression is used."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3752": {
+    "id": 3752,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Not an actual event, but rather a group of packet field aliases to be used with packets of the specified packettype. Packet info aliases are aliases for specific usages of packet info expressions. Under the main scope lines are written in the form '<new syntax> = <old syntax>', where the old syntax is how you would normally write an expression for the desired packet info, and the new syntax is how you want to be able to write it. Note that the new syntax is essentially being registered as a Skript syntax, so you can write it with features of Skript syntax like optional parts enclosed in '[]', and multiple usages of '%packet%' are allowed in your syntax, though only one of them should be possible to use at a time since only one packet is used to evaluate the alias Your syntax does not have to require or even allow the usage of '%packet%'. In this case, 'event-packet' will be used as the packet. A small addition to normal Skript syntax is that now, if you would like to have a group of different options for syntax but also have the whole thing be optional, instead of writing '[(a|b|...)]' you can write '[a|b|...]'."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3753": {
+    "id": 3753,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a packet of one of the specified types is being sent or received. You can optionally specify a priority; triggers with higher priority will be called later (so high priority will come after low priority, and monitor priority will come last). By default, the priority is normal."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3758": {
+    "id": 3758,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "desc coming soon"
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3771": {
+    "id": 3771,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for a new minecraft key with the specified key string and either the specified prefix or the prefix \"minecraft\" if no prefix is specified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3773": {
+    "id": 3773,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The entity in the specified world with id equal to value of the field numbered at the specified index of the specified packet's int fields. The specified world should match with the world of the player sending/receiving the specified packet"
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3788": {
+    "id": 3788,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's combateventtype fields. This is an automatically generated enum packet field, and is represented in Skript as a string (the name of the value of the field). The returned name will always be in uppercase, however when setting this expression the cases used do not matter.The different values of this enum are \"ENTER_COMBAT\", \"END_COMBAT\", \"ENTITY_DIED\". The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3841": {
+    "id": 3841,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A game profile is meant to represent the profile of a player, and contains a name, UUID, and skin."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3842": {
+    "id": 3842,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A JSONObject, a type of data structure used for storing information in the form of keys/indexes and values (like a list variable). Useful in Skript for transmitting complex information that isn't represented by a type in cases where list variables can't be used (ex. returning values from expressions/functions (ex. the JSON Field of Packet expression))."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3843": {
+    "id": 3843,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A type of key used by Minecraft in packets consisting of a prefix and a key string."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3844": {
+    "id": 3844,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A packet. Packets are used by the Minecraft client and server to transmit information, and can be intercepted, read, and modified in order to gain information and modify the behavior of your server in certain ways that are not possible through Bukkit."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3846": {
+    "id": 3846,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A type describing a tab in the tablist, usually describing a player."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3847": {
+    "id": 3847,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A type representing the information sent to a client when looking in the \"Play Multiplier\" menu. The associated packettype is status_server_server_info."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3803": {
+    "id": 3803,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's itemstack list fields. The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3808": {
+    "id": 3808,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's nativegamemode fields. This is an automatically generated enum packet field, and is represented in Skript as a string (the name of the value of the field). The returned name will always be in uppercase, however when setting this expression the cases used do not matter.The different values of this enum are \"NOT_SET\", \"SURVIVAL\", \"CREATIVE\", \"ADVENTURE\", \"SPECTATOR\", \"NONE\". The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3809": {
+    "id": 3809,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's NBT fields. The NBT, as well as any NBT values contained in it, is represented as a jsonobject with three parts:",
+        "The name, with index/key \"name\", which is just the name (sometimes null)",
+        "The type, with index/key \"type\", which is the type of NBT, and can have the following values:",
+        "- \"byte\", \"short\", \"int\", \"long\", \"float\", \"double\", the basic number types",
+        "- \"string\", for strings",
+        "- \"byte_array\" and \"int_array\", for basic number array types",
+        "- \"compound\", for an NBT compound",
+        "- \"list_something\", such as \"list_string\" or \"list_compound\", for a list of some other type",
+        "The value, with index/key \"value\", which is the actual value:",
+        "- In the cases of the number types and string type this is just the number/string (when accessing using a list variable in Skript it's like {_nbt::value}",
+        "- In the case of the number array types and the list type this is an array of the objects (when accessing using a list variable in Skript it's like {_nbt::value::*}, ex. {_nbt::value::1} for the first element)",
+        "- In the case of the compound it's a JSONObject of the NBT values, each also having its own name, type and value (when accessing through a list variable in Skript it's: {_nbt::value::example_name::name} for the name (which is the same as the index, so it will be \"example_name\"), {_nbt::value::example_name::type} for the type, let's say \"string\", and {_nbt::value::example_name::value} for the actual value, let's say \"pie\") The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3812": {
+    "id": 3812,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's particle fields. This is an automatically generated enum packet field, and is represented in Skript as a string (the name of the value of the field). The returned name will always be in uppercase, however when setting this expression the cases used do not matter.The different values of this enum are \"EXPLOSION_NORMAL\", \"EXPLOSION_LARGE\", \"EXPLOSION_HUGE\", \"FIREWORKS_SPARK\", \"WATER_BUBBLE\", \"WATER_SPLASH\", \"WATER_WAKE\", \"SUSPENDED\", \"SUSPENDED_DEPTH\", \"CRIT\", \"CRIT_MAGIC\", \"SMOKE_NORMAL\", \"SMOKE_LARGE\", \"SPELL\", \"SPELL_INSTANT\", \"SPELL_MOB\", \"SPELL_MOB_AMBIENT\", \"SPELL_WITCH\", \"DRIP_WATER\", \"DRIP_LAVA\", \"VILLAGER_ANGRY\", \"VILLAGER_HAPPY\", \"TOWN_AURA\", \"NOTE\", \"PORTAL\", \"ENCHANTMENT_TABLE\", \"FLAME\", \"LAVA\", \"FOOTSTEP\", \"CLOUD\", \"REDSTONE\", \"SNOWBALL\", \"SNOW_SHOVEL\", \"SLIME\", \"HEART\", \"BARRIER\", \"ITEM_CRACK\", \"BLOCK_CRACK\", \"BLOCK_DUST\", \"WATER_DROP\", \"ITEM_TAKE\", \"MOB_APPEARANCE\", \"DRAGON_BREATH\", \"END_ROD\", \"DAMAGE_INDICATOR\", \"SWEEP_ATTACK\", \"FALLING_DUST\", \"TOTEM\", \"SPIT\". The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3825": {
+    "id": 3825,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of the field numbered at the specified index of the specified packet's titleaction fields. This is an automatically generated enum packet field, and is represented in Skript as a string (the name of the value of the field). The returned name will always be in uppercase, however when setting this expression the cases used do not matter.The different values of this enum are \"TITLE\", \"SUBTITLE\", \"ACTIONBAR\", \"TIMES\", \"CLEAR\", \"RESET\". The index defaults to 0 if unspecified and the packet expression defaults to event-packet if unspecified."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3840": {
+    "id": 3840,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression for the version protocol specified by the specified server ping. This is used to check whether the client is compatible with your server."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3845": {
+    "id": 3845,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A type of a packet. The ones that are available for you depend on your Minecraft version. If you would like to see them, do '/mundosk doc packettype' in your console. Alternatively, use the All Packettypes expression, loop through it, and print them."
+      ],
+      "ko": [
+        "[ThatPacketAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

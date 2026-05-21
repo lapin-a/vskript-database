@@ -1,0 +1,458 @@
+{
+  "syntax_3555": {
+    "id": 3555,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the physical height of a hologram."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3534": {
+    "id": 3534,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the given hologram allows placeholders."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3535": {
+    "id": 3535,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the given hologram is a following hologram."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3536": {
+    "id": 3536,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the given hologram is deleted. When you delete a hologram that is stored in a variable, the hologram object will still exist in the variable but will not be usable. This condition exists to check this case."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3532": {
+    "id": 3532,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called while a player is trying to pickup an item in a hologram line. See the `Make Hologram Line Touchable` effect."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3531": {
+    "id": 3531,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player clicks on a hologram line. See the `Make Hologram Line Click-able` effect."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3553": {
+    "id": 3553,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the following holograms of an entity. Use the `Following Hologram` effect to make an exiting hologram start/stop following an entity."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3547": {
+    "id": 3547,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Changes visibility of a hologram for the given players or makes a hologram invisible/visible by default. Resetting hologram visibility means setting the visibility to the default value (visible if not changed)."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3543": {
+    "id": 3543,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows/disallows placeholders in a hologram. Disallowed by default."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3537": {
+    "id": 3537,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the given entity is a part of a hologram. It is not possible to get the hologram."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3538": {
+    "id": 3538,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the given hologram line is click-able."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3539": {
+    "id": 3539,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the given hologram line is touchable."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3540": {
+    "id": 3540,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the given hologram is visible by default."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3541": {
+    "id": 3541,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the given hologram line is a text line or an item line. The `Hologram Line Content` expression can be used to get the text or the item."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3542": {
+    "id": 3542,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds new lines to a hologram. `insert` means adding after the specified line and moving the next lines below."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3545": {
+    "id": 3545,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes a hologram. The hologram type has the delete changer already, but this effect exists for variables. For example `delete {_holo}` would delete the variable but you can use `delete hologram {_holo}` to avoid that.",
+        "When you delete a hologram that is stored in a variable, the hologram object will still exist in the variable but will not be usable. You should delete the variable too in this case."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3546": {
+    "id": 3546,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a hologram start/stop following an entity."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3549": {
+    "id": 3549,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Teleports a hologram to a specific location."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3550": {
+    "id": 3550,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all the holograms created by skript-holo or other plugins *except HolographicDisplays*."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3551": {
+    "id": 3551,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the followed entity of a hologram. Use the `Following Hologram` effect to make an exiting hologram start/stop following an entity."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3552": {
+    "id": 3552,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns offset (directions) of a following hologram. Can be set."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3554": {
+    "id": 3554,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the creation date of a hologram."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3562": {
+    "id": 3562,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A line of a HolographicDisplays hologram. Can be deleted using the 'delete/clear' changer.",
+        "Has converters to `text`, `item type` and `number`. Converters mean that you can use this type like the converted types. For example you can do `give line 1 of hologram to player` and `if event-hologram-line is 5:`, but please note that getting line number of a hologram line will check every line of the hologram. You shouldn't make systems that relies on line numbers, but contents."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3560": {
+    "id": 3560,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the parent hologram of a hologram line."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3533": {
+    "id": 3533,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the given players can see the given holograms. Use the `Hologram Visibility` effect to hide/show holograms."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3544": {
+    "id": 3544,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new hologram.",
+        "Besides the `store in %variable%`, the `Last Created Hologram` expression can be used to get the created hologram."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3548": {
+    "id": 3548,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a hologram line click-able or/and touchable.",
+        "- **Click-able:** when a player clicks on the line, the `Hologram Line Click` event will be triggered",
+        "- **Touchable:** when a player tries to pickup the item in the line, the `Hologram Line Touch` event will be triggered",
+        "- **Interactive:** includes both click-able and touchable"
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3556": {
+    "id": 3556,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns content (text or item) of a hologram line. Please note that there are hologram line to text and item converters so you can use a hologram line like a text or an item (e.g. give first line of holo to player)"
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3557": {
+    "id": 3557,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the number of a hologram line. But please note that getting line number of a hologram line will check every line of the hologram. You shouldn't make systems that relies on line numbers, but contents."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3558": {
+    "id": 3558,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns lines of a hologram. Can be changed, removing a text or an item means it will search lines that match exactly with the input and remove them.",
+        "It is possible to create new lines using the `set` changer, for example if the hologram has 3 lines and you set line 5, the line 4 will be blank."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3559": {
+    "id": 3559,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Holds the hologram that was created most recently with the `Create Hologram` effect.",
+        "Can be deleted using the `delete/clear` changer which means the hologram will be removed from the world and this expression will be empty."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3561": {
+    "id": 3561,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A HolographicDisplays hologram. Can be deleted using the `delete/clear` changer or can be reset using the `reset` changer. When you delete a hologram that is stored in a variable, the hologram object will still exist in the variable but will not be usable. You should delete the variable too in this case."
+      ],
+      "ko": [
+        "[skript-holo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1087 @@
+{
+  "syntax_5068": {
+    "id": 5068,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[McQQBot] No official English guide provided."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5069": {
+    "id": 5069,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[McQQBot] No official English guide provided."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5064": {
+    "id": 5064,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[McQQBot] No official English guide provided."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5065": {
+    "id": 5065,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[McQQBot] No official English guide provided."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5066": {
+    "id": 5066,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "机器人接收到群消息的事件"
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5067": {
+    "id": 5067,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "机器人接收到消息的事件"
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6186": {
+    "id": 6186,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "判断群成员权限",
+        "Judging group member permissions."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5075": {
+    "id": 5075,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "机器人发送消息给好友/群/或者临时会话群成员",
+        "Send messages to group chats, private chats or temporary chats."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6187": {
+    "id": 6187,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "获取绑定QQ号的玩家",
+        "Get binding player of qq id."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6188": {
+    "id": 6188,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "获取玩家绑定的QQ号",
+        "Get qq id of binding player."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6189": {
+    "id": 6189,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "联系人的QQ号",
+        "Contact's id."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6190": {
+    "id": 6190,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "事件中的发送者",
+        "存在与所有消息事件中",
+        "Sender in the event."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6191": {
+    "id": 6191,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "群公告的内容",
+        "Get content of group announcement."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6192": {
+    "id": 6192,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "群公告的发送者",
+        "Get sender of group announcement."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6193": {
+    "id": 6193,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "获取群所有公告",
+        "Get group announcement."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5070": {
+    "id": 5070,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[McQQBot] No official English guide provided."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5071": {
+    "id": 5071,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "判断群成员是否是好友",
+        "Determine whether group members are friends."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5072": {
+    "id": 5072,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "在请求加群事件中同意加群",
+        "Agree members to join the group chat. is in Member Request Join Group Event."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5073": {
+    "id": 5073,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "在接收消息事件中撤回一条消息",
+        "Recall a message, is in Bot Message Event."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5074": {
+    "id": 5074,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "在接收消息事件中回复消息",
+        "Reply message, is in Bot Message Event."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5083": {
+    "id": 5083,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "获取到机器人",
+        "Get a Robot."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5076": {
+    "id": 5076,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "机器人发送文本消息给好友/群/或者临时会话群成员",
+        "Send string to group chats, private chats or temporary chats."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5077": {
+    "id": 5077,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "踢出群成员",
+        "Kick group members out of group chat."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5078": {
+    "id": 5078,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "禁言/解除禁言群所有成员",
+        "Mute or unmute all in group chat"
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5079": {
+    "id": 5079,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "禁言/解除禁言群成员",
+        "Mute or unmute a member in the group."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5080": {
+    "id": 5080,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "在请求加群事件中拒绝加群",
+        "Reject members from joining group chat, is in Member Request Join Group Event."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5081": {
+    "id": 5081,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "艾特全体成员",
+        "Notify all members."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5082": {
+    "id": 5082,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "艾特一个成员",
+        "Notify a member."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5084": {
+    "id": 5084,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "机器人的QQ号",
+        "Bot's id."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5085": {
+    "id": 5085,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "获取所有机器人",
+        "Get all robot list."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5086": {
+    "id": 5086,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "机器人的QQ昵称(网名)",
+        "Bot's name."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5087": {
+    "id": 5087,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "事件中的机器人",
+        "存在于所有的机器人相关事件",
+        "The robot in the event."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5088": {
+    "id": 5088,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "事件中的好友",
+        "存在于所有的好友相关事件",
+        "The friend in the event."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5089": {
+    "id": 5089,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "事件中的群",
+        "存在于所有的群相关事件",
+        "The group in the event."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5090": {
+    "id": 5090,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "事件中的群成员",
+        "存在于所有的群成员相关事件",
+        "The group member in the event."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5091": {
+    "id": 5091,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "事件中的消息",
+        "存在于所有的消息相关事件",
+        "通过 bot-message's content 获取消息内容",
+        "The bot message in the event."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5092": {
+    "id": 5092,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "好友的QQ号",
+        "Friend's id."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5093": {
+    "id": 5093,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "获取机器人的所有好友",
+        "Get all friends of the robot."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5094": {
+    "id": 5094,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "好友的QQ昵称(网名)",
+        "Friend's name."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5095": {
+    "id": 5095,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "获取机器人的好友",
+        "Get a friend of a robot by id."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5096": {
+    "id": 5096,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "好友的备注(仅自身可见)",
+        "Remarks of the robot's friend."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5097": {
+    "id": 5097,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "QQ群号",
+        "Group's id."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5098": {
+    "id": 5098,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "获取机器人的所有群",
+        "Get all group chats of the robot."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5099": {
+    "id": 5099,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "QQ群成员QQ号",
+        "Group member's id"
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5100": {
+    "id": 5100,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "获取群的所有成员",
+        "Get all members of group"
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5101": {
+    "id": 5101,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "QQ群成员的名片",
+        "如果机器人是管理员 那么它可以修改其它群成员的名片",
+        "如果它是群主 则可以修改所有人的名片",
+        "Group member's group display name, Can change."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5102": {
+    "id": 5102,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "QQ群成员的昵称(网名)",
+        "Group member's name"
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5103": {
+    "id": 5103,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "QQ群成员的备注",
+        "Group member's remark."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5104": {
+    "id": 5104,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "QQ群成员头衔",
+        "如果是匿名聊天 群头衔则为匿名",
+        "Group member's title."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5105": {
+    "id": 5105,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "QQ群昵称(群名)",
+        "如果机器人是管理员 那么它可以修改群名",
+        "Group's name, Can change."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5106": {
+    "id": 5106,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "获取机器人的群",
+        "Get group chat of robots by id"
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5107": {
+    "id": 5107,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "QQ群所有者(群主)",
+        "返回的是一个成员 群主也是成员之一",
+        "Group's owner, it is a member."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5108": {
+    "id": 5108,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "获取群的成员",
+        "Get the members of the group."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5109": {
+    "id": 5109,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "消息内容",
+        "Message's content, is string."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5111": {
+    "id": 5111,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "QQ原生小表情",
+        "QQ Original Emoji."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5112": {
+    "id": 5112,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "QQ转发消息",
+        "Forward message."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5110": {
+    "id": 5110,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "拼接消息内容",
+        "Splicing messages."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5113": {
+    "id": 5113,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "文本消息",
+        "一般不会使用 因为可以事件回复 reply \"你好!\"",
+        "Get text message."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5146": {
+    "id": 5146,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "判断机器人是否在线(可以发送信息)",
+        "Online status of the robot."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5147": {
+    "id": 5147,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "QQ的骰子信息",
+        "QQ Dice Emoji."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5148": {
+    "id": 5148,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "QQ消息",
+        "Message of ready to be sent or received."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5496": {
+    "id": 5496,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "判断群成员是否是群管理",
+        "Determine whether the group member is the group administrator."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5498": {
+    "id": 5498,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "判断群成员是否是群主",
+        "Determine whether the group member is the group owner."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5497": {
+    "id": 5497,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "判断群成员是否是禁言",
+        "Determine whether group members are muted."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5516": {
+    "id": 5516,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "JSON的序列化信息",
+        "Json serialize message."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5517": {
+    "id": 5517,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "send \"Test\" to %contact%"
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5518": {
+    "id": 5518,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "JSON的反序列化信息",
+        "Json deserialize message."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5598": {
+    "id": 5598,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "机器人发送图片给好友/群/或者临时会话群成员",
+        "Send image to group chats, private chats or temporary chats."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5600": {
+    "id": 5600,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "QQ好友",
+        "QQ Friend."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5601": {
+    "id": 5601,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "QQ群",
+        "QQ Group."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5602": {
+    "id": 5602,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "QQ群内的成员",
+        "Members in QQ Group."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5599": {
+    "id": 5599,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "机器人 可以用于机器人的其它操作",
+        "Tencent QQ Robot, Used to operate the robot."
+      ],
+      "ko": [
+        "[McQQBot] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

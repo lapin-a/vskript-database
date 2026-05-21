@@ -1,0 +1,605 @@
+{
+  "syntax_3594": {
+    "id": 3594,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skDragon] No official English guide provided."
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3595": {
+    "id": 3595,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Using the names in the CustomEmotes.yml file you can play any custom emote or animation sequence you've made"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3596": {
+    "id": 3596,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Using the names in the CustomEmotes.yml file you can play any custom emote or animation sequence you've made"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3597": {
+    "id": 3597,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Reloads the CustomEmotes.yml file"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3598": {
+    "id": 3598,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stops an emote effect"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3599": {
+    "id": 3599,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes the red tint from a player"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3600": {
+    "id": 3600,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends red tint to a player. (Needs graphics set to fancy or in optifine vignettes)"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3601": {
+    "id": 3601,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends a fake trial packet to a player(The message CAN NOT be edited)"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3602": {
+    "id": 3602,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Most particles react differently to this effect using their individual built in mojang nature"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3604": {
+    "id": 3604,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Spawns specifically colored particles with options for them including offset like regular particles"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3605": {
+    "id": 3605,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Unlike normal directional particles this syntax allows input for the 2 compatible material type particles"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3606": {
+    "id": 3606,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Specifically spawns material particles such as items or blocks(falling dust is a special case where it displays a color based on the block type used)"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3608": {
+    "id": 3608,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stops a single particle effect or a list of them"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3609": {
+    "id": 3609,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws an arc from one location or player to another. New as of v0.06.33-BETA"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3610": {
+    "id": 3610,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws an atom effect that follows the player or plays at a location. New Syntax as of v0.06.0-BETA"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3611": {
+    "id": 3611,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws a band effect that follows the player or plays at a location. New Syntax as of v0.06.0-BETA"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3612": {
+    "id": 3612,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws a 'fire breath' type effect at the players mouth or at a location. New as of v0.07.0-Beta"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3613": {
+    "id": 3613,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws a cape on a players back using approx. 8x12 pixel images"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3614": {
+    "id": 3614,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws a circle effect that follows the player or plays at a location. The only thing complex about this circle is its syntax. New Syntax as of v0.06.0-BETA"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3615": {
+    "id": 3615,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws a spiral that follows the player or plays at a location. New Syntax as of v0.06.0-BETA"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3617": {
+    "id": 3617,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws a disco ball type thing that follows the player or plays at a location. New as of v0.13.0-Beta"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3620": {
+    "id": 3620,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws a simple halo effect over the players head or at a location. New Syntax as of v0.06.0-BETA"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3621": {
+    "id": 3621,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws a heart shape at a player or location"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3622": {
+    "id": 3622,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws a image effect that follows the player or plays at a location. Image files go in the skDragon plugin folder. New Syntax as of v0.06.0-BETA"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3623": {
+    "id": 3623,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws a image effect that follows the player or plays at a location. Image files go in the skDragon plugin folder. New Syntax as of v0.06.0-BETA"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3624": {
+    "id": 3624,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Tosses items around for a preset time that follow the player or play at a location. (don't make the time too long or bad things might happen xD ) Added in 0.09.0-BETA"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3625": {
+    "id": 3625,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws a line from entity/location to entity/location options exist to set the length of the line as well as point with the player(it doesnt appear to follow the pitch/yaw of mobs, might require a movement update perhaps)"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3626": {
+    "id": 3626,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws a Nyan Cat (band) effect that follows the player or plays at a location. New Syntax as of v0.06.0-BETA"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3619": {
+    "id": 3619,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skDragon] No official English guide provided."
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3618": {
+    "id": 3618,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skDragon] No official English guide provided."
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3633": {
+    "id": 3633,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "4 colored version of [drawWings](https://skripthub.net/docs/?id=3632)."
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3603": {
+    "id": 3603,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Like material based directional particles but with a color spectrum based on different block types"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3607": {
+    "id": 3607,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Most particles react differently to this effect using their individual built in mojang nature"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3628": {
+    "id": 3628,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Ring effect like the circles around the drawAtom that follows the player or plays at a location. Added in 0.09.0-BETA -Warning- setting animated to true will be a bit resource heavy, but produces an interesting effect."
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3629": {
+    "id": 3629,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws a sphere that follows the player or plays at a location. New as of v0.10.0-Beta"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3630": {
+    "id": 3630,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws text at a location or a player, it can also auto face where the player looks Uses system fonts(most fonts/unicodes show up as squares)"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3631": {
+    "id": 3631,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An assortment of different effects with a few shapes that play certain effects, some of which may or may not actually be considered 'warp' effects. I went a little bit nuts when I created this one, there are over 35 styles in it. Added in 0.09.0-BETA"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3632": {
+    "id": 3632,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws a wing trail that follows the player or plays them at a location. New Syntax as of v0.06.0-BETA Added flapping animation in v0.10.0-BETA",
+        "4 colored version: https://skripthub.net/docs/?id=3633"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3635": {
+    "id": 3635,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Lists all currently running effects"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3634": {
+    "id": 3634,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a list of all active id names used"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3636": {
+    "id": 3636,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a list of all system fonts for use in drawText"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3616": {
+    "id": 3616,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws a cylinder that follows the player or plays at a location. New as of v0.07.0-Beta"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3627": {
+    "id": 3627,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws a randomized two colored planet that follows the player or plays at a location. New as of v0.07.0-Beta"
+      ],
+      "ko": [
+        "[skDragon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,599 @@
+{
+  "syntax_14921": {
+    "id": 14921,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a user loses a group.",
+        "`event-group` = The group the user lost."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14922": {
+    "id": 14922,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a user loses a permission.",
+        "`event-permission` = The permission the user lost."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14924": {
+    "id": 14924,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the meta of a user is set.",
+        "Only called when meta is SET not unset etc for that case use `user meta remove`",
+        "`event-key` = The key e.g. \"prefix\" or \"suffix\"",
+        "`event-value` = The result that key was set to."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14928": {
+    "id": 14928,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether a user has/doesn't have a group.",
+        "This is different from Skript's has group condition as with `user` this supports offline players."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14929": {
+    "id": 14929,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether a user has/doesn't have a permission.",
+        "This is different from Skript's has permission condition as with `user` this supports offline players."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14930": {
+    "id": 14930,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Demotes a user along a track.",
+        "If the user is not on the track nothing will happen."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14931": {
+    "id": 14931,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds a group to a user."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14932": {
+    "id": 14932,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds a permission to a user."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14935": {
+    "id": 14935,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Loads a LuckPerms user.",
+        "This is required for basically everything relating to users."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14936": {
+    "id": 14936,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Promotes a user along a track.",
+        "If the user is not on the track or is at end of track, nothing will happen."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14937": {
+    "id": 14937,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes a group from a user."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14938": {
+    "id": 14938,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes a permission from a user."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14940": {
+    "id": 14940,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns a list of all tracks."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14941": {
+    "id": 14941,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a builder for a prefix/suffix.",
+        "You can add said prefix/suffix to a user or a group via the prefix or suffix expression."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14942": {
+    "id": 14942,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the priority of a chat meta node."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14943": {
+    "id": 14943,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the source of a chatmeta.",
+        "If inherited directly (not from a group) it will return the user's UUID."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14947": {
+    "id": 14947,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the primary prefix of a user/group.",
+        "If `prefixes` is used it will return a sorted list of all prefixes of the user/group.",
+        "Use `ExprChatMetaPriority` to get priority of a prefix."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14948": {
+    "id": 14948,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the primary suffix of a user/group.",
+        "If `suffixes` is used it will return a sorted list of all suffixes of the user/group.",
+        "Use `ExprChatMetaPriority` to get priority of a suffix."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14949": {
+    "id": 14949,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A LuckPerms prefix or suffix node."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14950": {
+    "id": 14950,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A LuckPerms group."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14951": {
+    "id": 14951,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A LuckPerms track."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14952": {
+    "id": 14952,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A LuckPerms user."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14953": {
+    "id": 14953,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a section that allows you to modify the properties of the provided group.",
+        "After the code in the section has finished the group will be saved asynchronously."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14954": {
+    "id": 14954,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a section that allows you to modify the properties of the provided user.",
+        "After the code in the section has finished the user will be saved asynchronously."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14916": {
+    "id": 14916,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a group loses a permission.",
+        "`event-permission` = The permission that was removed.",
+        "`event-group` = The group that lost the permission."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14917": {
+    "id": 14917,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the meta of a group is removed.",
+        "Only called when meta is REMOVED not set/added to for that case use `group meta set`",
+        "`event-key` = The key e.g. \"prefix\" or \"suffix\"",
+        "`event-value` = The result that key was set to.",
+        "`event-group` = The group that lost said meta."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14918": {
+    "id": 14918,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the meta of a group is set.",
+        "Only called when meta is SET not unset etc for that case use `group meta remove`",
+        "`event-key` = The key e.g. \"prefix\" or \"suffix\"",
+        "`event-value` = The result that key was set to.",
+        "`event-group` = The group that received the meta."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14919": {
+    "id": 14919,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a group receives a permission.",
+        "If the permission duration is infinite %event-timespan% will return 0 seconds.",
+        "`event-permission` = The permission the group received.",
+        "`event-group` = The group that received the permission.",
+        "`event-timespan` = The duration the group will have the permission for."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14920": {
+    "id": 14920,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a group of a player is updated via a demotion on a.",
+        "`event-group` = The group the user was demoted to.",
+        "`past event-group` = The group the user had on the track.",
+        "`event-track` = The track that the demotion happened on."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14923": {
+    "id": 14923,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the meta of a user is removed.",
+        "Note: This event may be called multiple times if you clear a meta.",
+        "`event-key` = The key e.g. \"prefix\" or \"suffix\"",
+        "`event-value` = The result that key was set to."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14925": {
+    "id": 14925,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a group of a player is updated via a promotion on a track (/lp user notch promote staff)\")",
+        "Do note that %past event-group% will be unset if player didn't previously have a group on that track.",
+        "`event-group` = The group the user was promoted to.",
+        "`past event-group` = The group the user previously had on the track."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14926": {
+    "id": 14926,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a user receives a group.",
+        "If the group duration is infinite %event-timespan% will return 0 seconds.",
+        "`event-group` = The group the user received.",
+        "`event-timespan` = The duration the user will have the group for."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14927": {
+    "id": 14927,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a user receives a permission.",
+        "If the permission duration is infinite %event-timespan% will return 0 seconds.",
+        "`event-permission` = The permission that the user received.",
+        "`event-timespan` = The duration the user will have the permission for."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14934": {
+    "id": 14934,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of UUIDS of users who have the specified group.",
+        "Should be relatively fast depending on how many users have a group."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14933": {
+    "id": 14933,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of UUIDS of users who have the specified permission.",
+        "Should be relatively fast depending on how many users have said permission."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14939": {
+    "id": 14939,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns a list of all groups.",
+        "This expression will require `luckperms` in it until Skript deprecates their `groups of`."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14945": {
+    "id": 14945,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the groups of a user.",
+        "This expression will require `luckperms` in it until Skript deprecates their `groups of`."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14944": {
+    "id": 14944,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the permissions of a user."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14946": {
+    "id": 14946,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the permissions of a user."
+      ],
+      "ko": [
+        "[Skript-LuckPerms] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

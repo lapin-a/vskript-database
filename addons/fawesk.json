@@ -1,0 +1,227 @@
+{
+  "syntax_2883": {
+    "id": 2883,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the cuboid region(s) contains the location(s)."
+      ],
+      "ko": [
+        "[Fawesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2884": {
+    "id": 2884,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a cuboid region is global."
+      ],
+      "ko": [
+        "[Fawesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2885": {
+    "id": 2885,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the worldedit region(s) contains the location(s)."
+      ],
+      "ko": [
+        "[Fawesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2886": {
+    "id": 2886,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Expands the Cuboid region(s)"
+      ],
+      "ko": [
+        "[Fawesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2887": {
+    "id": 2887,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets all the blocks within two points to a block/itemtype."
+      ],
+      "ko": [
+        "[Fawesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2888": {
+    "id": 2888,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the baseblocks between two locations. This is not designed to SET blocks, only to get the ItemTypes of blocks within, locations are not included.",
+        "WorldEdit/FAWE saves block objects with locations internally for performance."
+      ],
+      "ko": [
+        "[Fawesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2889": {
+    "id": 2889,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the different baseblocks between two locations. Returning only one of each item."
+      ],
+      "ko": [
+        "[Fawesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2890": {
+    "id": 2890,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the CuboidRegion between two locations. This is also defined as a worldeditregion."
+      ],
+      "ko": [
+        "[Fawesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2891": {
+    "id": 2891,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the size/amount of items in the Cuboid region(s)."
+      ],
+      "ko": [
+        "[Fawesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2892": {
+    "id": 2892,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns how many of the defined block(s) are in the Cuboid region(s)."
+      ],
+      "ko": [
+        "[Fawesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2893": {
+    "id": 2893,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns either the first or second position vector(s) of the cuboid region(s)."
+      ],
+      "ko": [
+        "[Fawesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2894": {
+    "id": 2894,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns either the region(s) wall(s) or region(s) face(s) of the cuboid(s)."
+      ],
+      "ko": [
+        "[Fawesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2895": {
+    "id": 2895,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the highest or lowest y-coordinat of the cuboid region(s)."
+      ],
+      "ko": [
+        "[Fawesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2896": {
+    "id": 2896,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns either the area/width/length/height of the worldedit region(s)."
+      ],
+      "ko": [
+        "[Fawesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2897": {
+    "id": 2897,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns either the center/max/min/chunks vector location(s) of the worldedit region(s)."
+      ],
+      "ko": [
+        "[Fawesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2898": {
+    "id": 2898,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the world(s) of the worledit region(s)."
+      ],
+      "ko": [
+        "[Fawesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

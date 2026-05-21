@@ -1,0 +1,128 @@
+{
+  "syntax_4531": {
+    "id": 4531,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns if the player has the maximum amount of BeastTokens"
+      ],
+      "ko": [
+        "[BeastTokenSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4532": {
+    "id": 4532,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fired when a block drops BeastTokens."
+      ],
+      "ko": [
+        "[BeastTokenSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4533": {
+    "id": 4533,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fired when a crop drops BeastTokens."
+      ],
+      "ko": [
+        "[BeastTokenSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4534": {
+    "id": 4534,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fired when a monster drops BeastTokens."
+      ],
+      "ko": [
+        "[BeastTokenSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4535": {
+    "id": 4535,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fired when a MythicMob drops BeastTokens."
+      ],
+      "ko": [
+        "[BeastTokenSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4536": {
+    "id": 4536,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fired when a player uses an item to redeem BeastTokens."
+      ],
+      "ko": [
+        "[BeastTokenSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4537": {
+    "id": 4537,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the max amount of BeastTokens a player can have."
+      ],
+      "ko": [
+        "[BeastTokenSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4538": {
+    "id": 4538,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the amount of a players BeastTokens."
+      ],
+      "ko": [
+        "[BeastTokenSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4539": {
+    "id": 4539,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a BeastToken slip worth the amount that you input."
+      ],
+      "ko": [
+        "[BeastTokenSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

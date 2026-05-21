@@ -1,0 +1,212 @@
+{
+  "syntax_10108": {
+    "id": 10108,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets all groups of the server"
+      ],
+      "ko": [
+        "[PermSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10120": {
+    "id": 10120,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the primary group of an player"
+      ],
+      "ko": [
+        "[PermSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10107": {
+    "id": 10107,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a Group. (Optional: With parent groups)"
+      ],
+      "ko": [
+        "[PermSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10109": {
+    "id": 10109,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the expire date of an group"
+      ],
+      "ko": [
+        "[PermSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10110": {
+    "id": 10110,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the inherited groups of an group"
+      ],
+      "ko": [
+        "[PermSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10111": {
+    "id": 10111,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the members of a group."
+      ],
+      "ko": [
+        "[PermSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10112": {
+    "id": 10112,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the permissions of an group"
+      ],
+      "ko": [
+        "[PermSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10113": {
+    "id": 10113,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the prefix of an group"
+      ],
+      "ko": [
+        "[PermSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10114": {
+    "id": 10114,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the rank of an group"
+      ],
+      "ko": [
+        "[PermSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10115": {
+    "id": 10115,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the suffix of an group"
+      ],
+      "ko": [
+        "[PermSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10116": {
+    "id": 10116,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the weight of an group"
+      ],
+      "ko": [
+        "[PermSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10117": {
+    "id": 10117,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the groups of an player"
+      ],
+      "ko": [
+        "[PermSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10118": {
+    "id": 10118,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the permissions of an player"
+      ],
+      "ko": [
+        "[PermSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10119": {
+    "id": 10119,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the prefix of an player"
+      ],
+      "ko": [
+        "[PermSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10121": {
+    "id": 10121,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the suffix of an player"
+      ],
+      "ko": [
+        "[PermSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

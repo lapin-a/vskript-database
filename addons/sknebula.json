@@ -1,0 +1,44 @@
+{
+  "syntax_5494": {
+    "id": 5494,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The dig status of a Player Digging event."
+      ],
+      "ko": [
+        "[SkNebula] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5495": {
+    "id": 5495,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Dig status type for the Player Digging event."
+      ],
+      "ko": [
+        "[SkNebula] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5493": {
+    "id": 5493,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player sends a digging status packet to the server, e.g. when they start or stop digging."
+      ],
+      "ko": [
+        "[SkNebula] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

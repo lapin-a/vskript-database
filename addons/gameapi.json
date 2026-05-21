@@ -1,0 +1,968 @@
+{
+  "syntax_3270": {
+    "id": 3270,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[GameAPI] No official English guide provided."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3271": {
+    "id": 3271,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[GameAPI] No official English guide provided."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3273": {
+    "id": 3273,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[GameAPI] No official English guide provided."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3272": {
+    "id": 3272,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[GameAPI] No official English guide provided."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3262": {
+    "id": 3262,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[GameAPI] No official English guide provided."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3263": {
+    "id": 3263,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[GameAPI] No official English guide provided."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3264": {
+    "id": 3264,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[GameAPI] No official English guide provided."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3261": {
+    "id": 3261,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[GameAPI] No official English guide provided."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3266": {
+    "id": 3266,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[GameAPI] No official English guide provided."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3260": {
+    "id": 3260,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[GameAPI] No official English guide provided."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3268": {
+    "id": 3268,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[GameAPI] No official English guide provided."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3269": {
+    "id": 3269,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[GameAPI] No official English guide provided."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3267": {
+    "id": 3267,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[GameAPI] No official English guide provided."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3274": {
+    "id": 3274,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[GameAPI] No official English guide provided."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3318": {
+    "id": 3318,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[GameAPI] No official English guide provided."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3265": {
+    "id": 3265,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[GameAPI] No official English guide provided."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3281": {
+    "id": 3281,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Delete a game."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3282": {
+    "id": 3282,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[GameAPI] No official English guide provided."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3283": {
+    "id": 3283,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Start a game."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3284": {
+    "id": 3284,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stop a game."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3285": {
+    "id": 3285,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return all games created."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3286": {
+    "id": 3286,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the display name of a team or game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3287": {
+    "id": 3287,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return a game from its name (the game must to exist)"
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3289": {
+    "id": 3289,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the global join message of a game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3290": {
+    "id": 3290,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the global leave message of a game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3288": {
+    "id": 3288,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return the game of the player"
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3291": {
+    "id": 3291,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the global lose point message of a game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3293": {
+    "id": 3293,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last game created."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3292": {
+    "id": 3292,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the global score point message of a game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3294": {
+    "id": 3294,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last game deleted."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3295": {
+    "id": 3295,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last team created."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3296": {
+    "id": 3296,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last team deleted."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3297": {
+    "id": 3297,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns lobby of a game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3298": {
+    "id": 3298,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the maximum player of a team or game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3299": {
+    "id": 3299,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the minimum player of a team or game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3300": {
+    "id": 3300,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the name of a team or game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3301": {
+    "id": 3301,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the player join message of a game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3302": {
+    "id": 3302,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the player leave message of a game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3305": {
+    "id": 3305,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the players list of a team or game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3304": {
+    "id": 3304,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the player score point message of a game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3307": {
+    "id": 3307,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return a random team from a game"
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3308": {
+    "id": 3308,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns spawn of a team or game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3306": {
+    "id": 3306,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns points of a team. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3309": {
+    "id": 3309,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the started state of a game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3275": {
+    "id": 3275,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a game exists"
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3276": {
+    "id": 3276,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Start a game."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3277": {
+    "id": 3277,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stop a game as section."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3278": {
+    "id": 3278,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a team contains a player"
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3279": {
+    "id": 3279,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a game."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3280": {
+    "id": 3280,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a team for a game"
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3312": {
+    "id": 3312,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the unavailable state of a game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3313": {
+    "id": 3313,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the waiting state of a game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3310": {
+    "id": 3310,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return a team of a game from its name"
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3311": {
+    "id": 3311,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return the team of the player"
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3314": {
+    "id": 3314,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns world of a game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3315": {
+    "id": 3315,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The current game"
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3316": {
+    "id": 3316,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A point type with information like the player, game, number of points and more."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3317": {
+    "id": 3317,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The current team"
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3303": {
+    "id": 3303,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the player lose point message of a game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3588": {
+    "id": 3588,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the author of target points."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3589": {
+    "id": 3589,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[GameAPI] No official English guide provided."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3590": {
+    "id": 3590,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the game of target points, player, or team."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3591": {
+    "id": 3591,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns points of a team. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3592": {
+    "id": 3592,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the number of points."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3593": {
+    "id": 3593,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the team of target points."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3639": {
+    "id": 3639,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Cancels the launch of a game."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3640": {
+    "id": 3640,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the global score point message of a game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3641": {
+    "id": 3641,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return the objective of the team (how many point the team must to have to win). Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3642": {
+    "id": 3642,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the player score point message of a game. Can be set."
+      ],
+      "ko": [
+        "[GameAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

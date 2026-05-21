@@ -1,0 +1,702 @@
+{
+  "syntax_4299": {
+    "id": 4299,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4301": {
+    "id": 4301,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4312": {
+    "id": 4312,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4346": {
+    "id": 4346,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4305": {
+    "id": 4305,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4306": {
+    "id": 4306,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4307": {
+    "id": 4307,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4308": {
+    "id": 4308,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4309": {
+    "id": 4309,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4302": {
+    "id": 4302,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4311": {
+    "id": 4311,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4313": {
+    "id": 4313,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4315": {
+    "id": 4315,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4317": {
+    "id": 4317,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4343": {
+    "id": 4343,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4319": {
+    "id": 4319,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4321": {
+    "id": 4321,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4322": {
+    "id": 4322,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4324": {
+    "id": 4324,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4325": {
+    "id": 4325,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4327": {
+    "id": 4327,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4329": {
+    "id": 4329,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4331": {
+    "id": 4331,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4332": {
+    "id": 4332,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4334": {
+    "id": 4334,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4336": {
+    "id": 4336,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4337": {
+    "id": 4337,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4303": {
+    "id": 4303,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4304": {
+    "id": 4304,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4340": {
+    "id": 4340,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4342": {
+    "id": 4342,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4345": {
+    "id": 4345,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4297": {
+    "id": 4297,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4310": {
+    "id": 4310,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4298": {
+    "id": 4298,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4300": {
+    "id": 4300,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4314": {
+    "id": 4314,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4316": {
+    "id": 4316,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4318": {
+    "id": 4318,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4320": {
+    "id": 4320,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4323": {
+    "id": 4323,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4326": {
+    "id": 4326,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4328": {
+    "id": 4328,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4330": {
+    "id": 4330,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4333": {
+    "id": 4333,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4335": {
+    "id": 4335,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4338": {
+    "id": 4338,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4339": {
+    "id": 4339,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4341": {
+    "id": 4341,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4344": {
+    "id": 4344,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For more information on skript-reflect, you can visit the wiki here: https://tpgamesnl.gitbook.io/skript-reflect/"
+      ],
+      "ko": [
+        "[skript-reflect] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "syntax_9369": {
+    "id": 9369,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skGoat] No official English guide provided."
+      ],
+      "ko": [
+        "[skGoat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9370": {
+    "id": 9370,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skGoat] No official English guide provided."
+      ],
+      "ko": [
+        "[skGoat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9371": {
+    "id": 9371,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It's called when you drag shift clicked item to move."
+      ],
+      "ko": [
+        "[skGoat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9372": {
+    "id": 9372,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It's called only once time at specific time"
+      ],
+      "ko": [
+        "[skGoat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9373": {
+    "id": 9373,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "You can specify top or bottom inventory"
+      ],
+      "ko": [
+        "[skGoat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9374": {
+    "id": 9374,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "You can check if the dragged slots contains your specified whitelisted slots."
+      ],
+      "ko": [
+        "[skGoat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9375": {
+    "id": 9375,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It's gets the chunks between those locations"
+      ],
+      "ko": [
+        "[skGoat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9376": {
+    "id": 9376,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skGoat] No official English guide provided."
+      ],
+      "ko": [
+        "[skGoat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9377": {
+    "id": 9377,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skGoat] No official English guide provided."
+      ],
+      "ko": [
+        "[skGoat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9378": {
+    "id": 9378,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "You can get the block's of edges of the Chunk"
+      ],
+      "ko": [
+        "[skGoat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9379": {
+    "id": 9379,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get inventory to which the item is moved"
+      ],
+      "ko": [
+        "[skGoat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9380": {
+    "id": 9380,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The block from which it spreading"
+      ],
+      "ko": [
+        "[skGoat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

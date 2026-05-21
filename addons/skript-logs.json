@@ -1,0 +1,88 @@
+{
+  "syntax_2985": {
+    "id": 2985,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a message is logged."
+      ],
+      "ko": [
+        "[skript-logs] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2986": {
+    "id": 2986,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Logs a message with the given log level. The last pattern uses 'info' level."
+      ],
+      "ko": [
+        "[skript-logs] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2987": {
+    "id": 2987,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the level of the message in a log event."
+      ],
+      "ko": [
+        "[skript-logs] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2989": {
+    "id": 2989,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the name of the logger in a log event. None if the logger name doesn't exist.",
+        "If a plugin logs a message using its plugin logger this will be name of the plugin. i.e. '[<Plugin>] <message>'.",
+        "In this case the logged message won't contain this '[Plugin]' prefix. So you can check if the logger name is a valid plugin somehow and merge it with the logged message."
+      ],
+      "ko": [
+        "[skript-logs] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2990": {
+    "id": 2990,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skript-logs] No official English guide provided."
+      ],
+      "ko": [
+        "[skript-logs] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2988": {
+    "id": 2988,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the logged message in a log event."
+      ],
+      "ko": [
+        "[skript-logs] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

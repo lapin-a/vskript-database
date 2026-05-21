@@ -1,0 +1,240 @@
+{
+  "syntax_6298": {
+    "id": 6298,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Change the frequency of a generator"
+      ],
+      "ko": [
+        "[SKNoise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6299": {
+    "id": 6299,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Change the gain of a generator (Generator must have a fractal type active)"
+      ],
+      "ko": [
+        "[SKNoise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6300": {
+    "id": 6300,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a value at a given location using the provided generator"
+      ],
+      "ko": [
+        "[SKNoise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6301": {
+    "id": 6301,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Change the lacunarity of a generator (Generator must have a fractal type active)"
+      ],
+      "ko": [
+        "[SKNoise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6295": {
+    "id": 6295,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Change the cellular distance function used in a cellular generator"
+      ],
+      "ko": [
+        "[SKNoise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6303": {
+    "id": 6303,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Change the octaves of a generator (Generator must have a fractal type active)"
+      ],
+      "ko": [
+        "[SKNoise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6294": {
+    "id": 6294,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Change the cellular jitter of a generator (Generator must have fractal type set to Cellular)"
+      ],
+      "ko": [
+        "[SKNoise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6304": {
+    "id": 6304,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Change the ping pong strength of a generator (Generator must have fractal type set to PingPong)"
+      ],
+      "ko": [
+        "[SKNoise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6305": {
+    "id": 6305,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Change the weighted strength of a generator (Generator must have a fractal type active)"
+      ],
+      "ko": [
+        "[SKNoise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6306": {
+    "id": 6306,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Type of a cellular distance. Valid: Euclidean, EuclideanSq, Manhattan, Hybrid"
+      ],
+      "ko": [
+        "[SKNoise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6307": {
+    "id": 6307,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Type of a cellular return. Valid: CellValue, Distance, Distance2, Distance2Add, Distance2Sub, Distance2Mul, Distance2Div"
+      ],
+      "ko": [
+        "[SKNoise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6308": {
+    "id": 6308,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Type of a fractal. Valid: None, FBm, Ridged, PingPong, DomainWarpProgressive, DomainWarpIndependent"
+      ],
+      "ko": [
+        "[SKNoise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6309": {
+    "id": 6309,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Type of a generator. Valid: Perlin, Cellular/Voronoi, Simplex, Value"
+      ],
+      "ko": [
+        "[SKNoise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6293": {
+    "id": 6293,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the average of a list of numbers"
+      ],
+      "ko": [
+        "[SKNoise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6296": {
+    "id": 6296,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Change the cellular return type of a generator (Only for cellular generators)"
+      ],
+      "ko": [
+        "[SKNoise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6297": {
+    "id": 6297,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Change the fractal type of a generator"
+      ],
+      "ko": [
+        "[SKNoise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6310": {
+    "id": 6310,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a new generator object"
+      ],
+      "ko": [
+        "[SKNoise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

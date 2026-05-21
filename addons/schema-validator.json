@@ -1,0 +1,44 @@
+{
+  "syntax_14510": {
+    "id": 14510,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Validates a YAML file against a JSON schema. Errors are stored in the 'last schema validation errors' expression. Use 'if size of {_errors::*} is 0' to check if validation passed."
+      ],
+      "ko": [
+        "[Schema-Validator] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14511": {
+    "id": 14511,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Validates a JSON file against a JSON schema. The first string is the path to the JSON data file, and the second string is the path to the JSON schema file. Validation errors are stored in the 'last schema validation errors' expression. Use 'if size of {_errors::*} is 0' to check if validation passed."
+      ],
+      "ko": [
+        "[Schema-Validator] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14512": {
+    "id": 14512,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of validation error messages from the last schema validation (JSON or YAML). Returns empty list if validation passed. Use 'set {_errors::} to last schema validation errors' to get the errors, then check 'if size of {_errors::} is 0' to determine if validation succeeded."
+      ],
+      "ko": [
+        "[Schema-Validator] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

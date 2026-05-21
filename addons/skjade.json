@@ -1,0 +1,1605 @@
+{
+  "syntax_4735": {
+    "id": 4735,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkJade] No official English guide provided."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4736": {
+    "id": 4736,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkJade] No official English guide provided."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4737": {
+    "id": 4737,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Shortens statements such as true = true to just true."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4739": {
+    "id": 4739,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player can cast the spell specified"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4741": {
+    "id": 4741,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkJade] No official English guide provided."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4742": {
+    "id": 4742,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a hologram is interactable, clickable, or touchable"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4743": {
+    "id": 4743,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is a hologram"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4744": {
+    "id": 4744,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a location is between two locations"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4746": {
+    "id": 4746,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a chunk is a slime chunk."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4747": {
+    "id": 4747,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an elementals spell exists."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4748": {
+    "id": 4748,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the spell is either generic, entity, prolonged generic, or prolonged entity."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4749": {
+    "id": 4749,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the given location is within the world border."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4750": {
+    "id": 4750,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds an item to the hologram."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4752": {
+    "id": 4752,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create's a pastebin paste. You should only call this once per paste. The developer key is linked to your pastebin account and found at this website: https://pastebin.com/doc_api#1"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4784": {
+    "id": 4784,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a glowing(enchanted with no enchant flag) item."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4734": {
+    "id": 4734,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkJade] No official English guide provided."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4738": {
+    "id": 4738,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an item type can break a block."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4740": {
+    "id": 4740,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a living entity can see another living entity."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4751": {
+    "id": 4751,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds a line of text to the hologram."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4733": {
+    "id": 4733,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkJade] No official English guide provided."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4753": {
+    "id": 4753,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a hologram at the specified location with the id specified. The ID must be unique.",
+        "IMPORTANT: Holograms are not persistant over restart (for the moment), so make sure to recreate the holograms on script load!"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4754": {
+    "id": 4754,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new pastebin paste. The ID must be unique."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4755": {
+    "id": 4755,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes a hologram"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4758": {
+    "id": 4758,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Add an elementals spell to an item"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4759": {
+    "id": 4759,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Execute a Skript effect from a string."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4760": {
+    "id": 4760,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a player look like they took damage."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4761": {
+    "id": 4761,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Forces a player to sleep at a location as long as there is a bed at that location."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4762": {
+    "id": 4762,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Forces a player to wake up if they are sleeping."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4764": {
+    "id": 4764,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Refeshes the chunks given asynchronously."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4765": {
+    "id": 4765,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Registers a new elementals spell which can be cast.",
+        "The spell name and id has to be unique, or the spell will not be created.",
+        "IMPORTANT: The function has to return a boolean, and return true where you want the cooldown to be applied, and false where not."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4766": {
+    "id": 4766,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Registers a placeholder for HolographicDisplays only.",
+        "IMPORTANT: If a hologram is created before a placeholder is registered, you need to recreate the placeholder."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4767": {
+    "id": 4767,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes a line from a hologram"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4768": {
+    "id": 4768,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Resets the visibility of a hologram to its default visibility."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4769": {
+    "id": 4769,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Rotates a player without teleportation."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4770": {
+    "id": 4770,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the formattinng of a paste. You can find more about the formatting options here: https://pastebin.com/doc_api#5"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4772": {
+    "id": 4772,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the title of a paste."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4773": {
+    "id": 4773,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the visibility of a paste."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4774": {
+    "id": 4774,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set when a paste will expire."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4775": {
+    "id": 4775,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the visibility of a hologram to show or hide certain players."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4776": {
+    "id": 4776,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Unregisters a Holographic Displays placeholder."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4777": {
+    "id": 4777,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the chunk in a world from the x and y coordinates."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4778": {
+    "id": 4778,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the points of the outline of a circle which"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4779": {
+    "id": 4779,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the english plural of a word. This may be inaccurate."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4783": {
+    "id": 4783,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the flipped value of a boolean"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4771": {
+    "id": 4771,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the text of a paste."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4780": {
+    "id": 4780,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the border slots of an inventory."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4781": {
+    "id": 4781,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the date of midnight."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4757": {
+    "id": 4757,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Shows the minecraft demonstration screen to a player."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4785": {
+    "id": 4785,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A HolographicDisplays Hologram. The ID of every hologram should be unique."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4787": {
+    "id": 4787,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the link of the last built pastebin. If you build a new paste, this will be overridden."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4789": {
+    "id": 4789,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the pastebin paste with that id if it exists, else, it will be null."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4790": {
+    "id": 4790,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the raw text from a pastebin. The developer key is linked to your pastebin account and found at this website: https://pastebin.com/doc_api#1"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4792": {
+    "id": 4792,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An elemental spell"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4793": {
+    "id": 4793,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An elemental spell book with the spell name"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4794": {
+    "id": 4794,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An elemental spells ID."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4796": {
+    "id": 4796,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the player's time."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4797": {
+    "id": 4797,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A Hologram created with Holographic displays."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4798": {
+    "id": 4798,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A line of a Hologram."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4799": {
+    "id": 4799,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A PasteBuilder created with SkJade."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4800": {
+    "id": 4800,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An elementals spell"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4745": {
+    "id": 4745,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to use multiple conditions."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4788": {
+    "id": 4788,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the nearest entity to a location."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4791": {
+    "id": 4791,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the specified text in rainbow.",
+        "Just a note this looks crazy in console, but theres nothing we can do about it:p (like this: \"\")"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4795": {
+    "id": 4795,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the points of the outline of a star from the center, radius, and density"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4786": {
+    "id": 4786,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The hologram line of a specified hologram"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5449": {
+    "id": 5449,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkJade] No official English guide provided."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5450": {
+    "id": 5450,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkJade] No official English guide provided."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5452": {
+    "id": 5452,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Changes the sky colour for players. The maximum number is 200 to make sure clients aren't crashed."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4756": {
+    "id": 4756,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes the player drop one of their current item, or their inventory."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5454": {
+    "id": 5454,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make it start/stop raining for players."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5456": {
+    "id": 5456,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Lasagna."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5458": {
+    "id": 5458,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Resets the world border of a world."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5461": {
+    "id": 5461,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Shows the block break animation/stage to players."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5464": {
+    "id": 5464,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the worldborder of a world over time."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5465": {
+    "id": 5465,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all holograms created by SkJade."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5466": {
+    "id": 5466,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A single character."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5467": {
+    "id": 5467,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of locations to make up a cone."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5468": {
+    "id": 5468,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the main world, aka the fallback world."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5469": {
+    "id": 5469,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the exact target block of an entity."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5470": {
+    "id": 5470,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Formats a number over 999 to be in readable form, such as 2000 -> 2,000."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5471": {
+    "id": 5471,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets and sets wether or not a world is hardcore."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5472": {
+    "id": 5472,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the id of an entity."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5474": {
+    "id": 5474,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all the lines to make up an image. Max width is 150 and the image should be in the SkJade plugin folder."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5475": {
+    "id": 5475,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Used for event-address in the AsyncPlayerPreLoginEvent"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5477": {
+    "id": 5477,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets/sets the kick message in an AsyncPlayerPreLoginEvent"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5479": {
+    "id": 5479,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets/sets the login result for an async prelogin event. Please note this can only be set to \"kick other\", \"allowed\", \"kick banned\", \"kick full\", or \"kick whitelist\""
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5451": {
+    "id": 5451,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player (1.1.0) or an entity (1.3.2) is in any type of liquid."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5459": {
+    "id": 5459,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkJade] No official English guide provided."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5455": {
+    "id": 5455,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Hides an entity from a player or all players."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5473": {
+    "id": 5473,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the ID of a hologram."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5476": {
+    "id": 5476,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets and sets the cooldown for a material for a player."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5480": {
+    "id": 5480,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Find the closest nearby structure of a given structure type. Will not be set if not found. Finding unexplored structures can, and will, block if the world is looking in chunks that gave not generated yet. This can lead to the world temporarily freezing while locating an unexplored structure.",
+        "The radius is not a rigid square radius. Each structure may alter how many chunks to check for each iteration. Do not assume that only a radius x radius chunk area will be checked. For example, a woodland mansion can potentially check up to 20,000 blocks away (or more) regardless of the radius used.",
+        "This will not load or generate chunks. This can also lead to instances where the server can hang if you are only looking for unexplored structures. This is because it will keep looking further and further out in order to find the structure."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4782": {
+    "id": 4782,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the given number in roman numerals."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5482": {
+    "id": 5482,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the text between two characters."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5483": {
+    "id": 5483,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a timespan into ticks."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5484": {
+    "id": 5484,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the locations to make up a giant donut/torus."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5485": {
+    "id": 5485,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the unary value of a number."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5486": {
+    "id": 5486,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get and set the center of a world border."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5487": {
+    "id": 5487,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get and set the damage amount of a world border."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5488": {
+    "id": 5488,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get and set the damage buffer of a world border."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5489": {
+    "id": 5489,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get and set the size of a world border."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5490": {
+    "id": 5490,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get and set the warning distance of a world border."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5491": {
+    "id": 5491,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get and set the warning time of a world border."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5492": {
+    "id": 5492,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A specified structure type."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5654": {
+    "id": 5654,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a laser/guardian beam. Does NOT show it. For an infinite beam, use -1 seconds."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4763": {
+    "id": 4763,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a line of a hologram clickable(triggers the on hologram click), touchable(triggers on hologram touch),and interact(triggers on both)"
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5655": {
+    "id": 5655,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a laser change colour. You cannot specify this coloUr."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5656": {
+    "id": 5656,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Shows a guardiam beam between two points."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5657": {
+    "id": 5657,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Starts a stored laser."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5658": {
+    "id": 5658,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stops any lasers in progress."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5659": {
+    "id": 5659,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the text of a hologram line, or an itemstack."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5660": {
+    "id": 5660,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the laser/beam with the given id."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5661": {
+    "id": 5661,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets and sets the spawn point of a player."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5662": {
+    "id": 5662,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the start or end location of a laser."
+      ],
+      "ko": [
+        "[SkJade] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

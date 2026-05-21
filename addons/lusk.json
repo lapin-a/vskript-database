@@ -1,0 +1,7134 @@
+{
+  "syntax_12575": {
+    "id": 12575,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether or not one or more blocks, blockstates or blockdatas can be waterlogged."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12576": {
+    "id": 12576,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a block is a full block (like dirt, stone, endstone).",
+        "Essentially checks if a block is 1x1x1 and only has one mesh."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12577": {
+    "id": 12577,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether or not one or more blocks, blockstates or blockdatas are waterlogged."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12578": {
+    "id": 12578,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the provided blockstates are placed in a world, if not, they are 'virtual' (e. g. on an item).",
+        "Some syntaxes will not work if the block state isn't placed in the world."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12580": {
+    "id": 12580,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the provided chickens are chicken jockeys."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12671": {
+    "id": 12671,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Angry Property of an entity. (Warden, PigZombie, Wolf, Enderman)",
+        "Can be set for all except wardens.",
+        "To use this for endermen `Paper 1.18.2+` is required."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12581": {
+    "id": 12581,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if one or more crossbows have any charged projectiles at all.",
+        "This behaves the same way the `is charged` condition behaves for crossbows."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12582": {
+    "id": 12582,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if one or more enchanted books have any stored enchantments at all."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12583": {
+    "id": 12583,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not the provided end crystals are showing the bedrock slate underneath them."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12584": {
+    "id": 12584,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the provided ender signals should drop an item on death. If true, they will drop an item. If false, they will shatter."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12585": {
+    "id": 12585,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an enderman has been stared at."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12587": {
+    "id": 12587,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity can normally sit."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13035": {
+    "id": 13035,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Spawn Categories."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12589": {
+    "id": 12589,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the provided entities are aggressive.",
+        "Some mobs will raise their arm(s) when aggressive:",
+        "Drowned, Piglin, Skeleton, Zombie, ZombieVillager, Illusioner, Vindicator, Panda, Pillager, PiglinBrute",
+        "Note: This doesn't always return the actual aggressive state as when set, Pandas are always aggressive if their combined Panda Gene is AGGRESSIVE."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12590": {
+    "id": 12590,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the provided entities being converted.",
+        "(Hoglin, Husk, Piglin, Pig Zombie, Skeleton, Zombie, Zombie Villager)"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12591": {
+    "id": 12591,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is dancing.",
+        "(Parrot, Allay, Piglin)"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12592": {
+    "id": 12592,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether this entity was spawned from a mob spawner."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12593": {
+    "id": 12593,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is in powdered snow."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12594": {
+    "id": 12594,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is leashed."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12595": {
+    "id": 12595,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is roaring.",
+        "For ravagers, Paper 1.19.2+ is required."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12596": {
+    "id": 12596,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is screaming.",
+        "(Goat, Enderman when using Paper 1.18.2+)"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12598": {
+    "id": 12598,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the provided living entities, blocks, blockstates and items are collidable.",
+        "Info:",
+        "- LivingEntity: Some entities might be exempted from the collidable rule of this entity. Use the \"Entity - Collidable Exemptions\" expression to get these. Please note that this method returns only the custom collidable state, not whether the entity is non-collidable for other reasons such as being dead."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12599": {
+    "id": 12599,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the provided foxes trust the provided offline players."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9115": {
+    "id": 9115,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if goat has the left, right, both or either horn."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12600": {
+    "id": 12600,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether the item frame is \"fixed\" or not.",
+        "When true it's not possible to destroy/move the frame (e. g. by damage, interaction, pistons, or missing supporting blocks), rotate the item or place/remove items."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12601": {
+    "id": 12601,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether the item frame is visible or not."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12602": {
+    "id": 12602,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a jukebox is currently playing a music disc."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12603": {
+    "id": 12603,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets whether the provided projectiles have left the hitbox of their shooter and can now hit entities.",
+        "This is recalculated each tick if the projectile has a shooter."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12604": {
+    "id": 12604,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the provided signs can be edited."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12605": {
+    "id": 12605,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a the provided signs are waxed."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12606": {
+    "id": 12606,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the item is being dropped from the cursor or the inventory, if the whole stack is being dropped or both."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12607": {
+    "id": 12607,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Closes an anvil gui.",
+        "*NOTES*:",
+        "- Won't do anything if the anvil gui is not open.",
+        "- Must be used before opening another anvil gui for a player."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12608": {
+    "id": 12608,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Opens an anvil GUI to one or more players.",
+        "*NOTES*:",
+        "- Anvil GUIs are always opened 1 tick later.",
+        "- You can only open an anvil GUI for a player if the player is not already viewing another (or this) anvil GUI.",
+        "- Using `force` will forcibly close the anvil GUI the player is currently viewing to open a new one. Be aware that, due to how anvil GUIs work, closing an anvil GUI is global, meaning it will be closed for all players viewing it. To avoid this, ensure that you create per-player anvil GUIs."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12609": {
+    "id": 12609,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Prevents an anvil gui from closing.",
+        "*NOTES*:",
+        "- This effect must be used *BEFORE* the gui is opened; if you need to use it after it's already opened you'll have to open it again.",
+        "- If this effect is used you'll need to use the `Anvil GUI - Close` effect to close the gui."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12610": {
+    "id": 12610,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Changes whether one or more blocks or blockstates are waterlogged."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12611": {
+    "id": 12611,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Hides or shows the bedrock slate underneath the provided end crystals."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12612": {
+    "id": 12612,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the location the provided ender signals are moving towards without changing the drop chance and the despawn timer."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12613": {
+    "id": 12613,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Attempts to teleport an enderman to a random nearby location.",
+        "Requires Spigot 1.20.1+ or Paper, behavior might be slightly different."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12614": {
+    "id": 12614,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Attempts to teleport an enderman to a random nearby location.",
+        "Requires Spigot 1.20.1+."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12615": {
+    "id": 12615,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes the provided entities burn (or not) when under the sun."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12616": {
+    "id": 12616,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates an entity using this template and spawns it at the provided location.",
+        "This is an effect, not a section and can't be used as such.",
+        "This effect is heavily influenced by Skript's Spawn effect (EffSecSpawn)."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12617": {
+    "id": 12617,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Rotates item frames counter clockwise and clockwise or by specific rotations and a set amount of times."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12618": {
+    "id": 12618,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the item of the provided item frames silently."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12619": {
+    "id": 12619,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Forces a jukebox to eject its disc."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12620": {
+    "id": 12620,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a jukebox start/stop playing."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12622": {
+    "id": 12622,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Attempts to, or forces one or more players to sleep in a bed.",
+        "Attempting will fail under vanilla conditions in which the player cannot sleep, ex: Daytime, too far away, etc"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12623": {
+    "id": 12623,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a player riptide. (also known as spin attack)",
+        "Stopping makes the player riptide for a tick, which stops it a tick later.",
+        "The duration must be greater than or equal to 1 tick.",
+        "Attack strength will default to 0",
+        "`if player is riptiding:` will return true for the given duration."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12625": {
+    "id": 12625,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets all the open anvil guis."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12626": {
+    "id": 12626,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets one of the 3 items in an anvil gui.",
+        "*NOTES*:",
+        "- These can be set.",
+        "- To apply the changes you need to reopen the anvil gui to the player."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12627": {
+    "id": 12627,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the interactable slots of an Anvil GUI.",
+        "Allowed slots: 0, 1 and 2",
+        "No slots are interactable by default, resetting or deleting this will make all slots not interactable."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12628": {
+    "id": 12628,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the inventory of one or more anvil guis, this shouldn't be used to edit slots or in non-anvil-gui events."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12629": {
+    "id": 12629,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new anvil gui. Allows you to copy slots and text data from another anvil gui, this doesn't copy the \"prevent closing\" property, this is intentional."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12630": {
+    "id": 12630,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the open anvil GUI of one or more players."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12631": {
+    "id": 12631,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the title and the text input of the provided anvil guis.",
+        "*NOTES*:",
+        "- These can be set.",
+        "- To apply the changes you need to reopen the anvil gui to the player."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12632": {
+    "id": 12632,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the anvil gui involved in an event."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12633": {
+    "id": 12633,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the disabled slots of an armor stand.",
+        "Can be set, remove from, added to, reset and deleted."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12673": {
+    "id": 12673,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Screaming Property of an entity.",
+        "This is for Endermen (Requires Paper and 1.18.2+) and Goats."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12674": {
+    "id": 12674,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether an entity is sat. Can be set.",
+        "This works for Cats, Wolves, Parrots, Pandas and Foxes.",
+        "On Paper 1.20.1+ it applies for some other entities which have a SITTING pose."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12675": {
+    "id": 12675,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the entity type of the provided entity snapshots."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12676": {
+    "id": 12676,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the provided entities or entity snapshots as their NBT string.",
+        "Don't rely on this as the structure of the results can change across versions."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11863": {
+    "id": 11863,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a bat attempts to sleep or wake up from its slumber."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11865": {
+    "id": 11865,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns true if the provided blockfaces are aligned with one of the unit axes in 3D Cartesian space (NORTH, SOUTH, EAST, WEST, UP, DOWN)."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11867": {
+    "id": 11867,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a cat is looking up"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11868": {
+    "id": 11868,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a dolphin has a fish."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11875": {
+    "id": 11875,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is roaring.)"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11876": {
+    "id": 11876,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if one or more living entities are awake or sleeping."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11877": {
+    "id": 11877,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is standing, mainly polar bears, but other entities can be standing."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11879": {
+    "id": 11879,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not the consumable item should be consumed in the Entity Shoot Event."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11880": {
+    "id": 11880,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is in position to inflict a critical hit.",
+        "Read https://minecraft.fandom.com/wiki/Damage#Critical_hit for more info."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11881": {
+    "id": 11881,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the server allows the Nether, the End or Flight"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11882": {
+    "id": 11882,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if one or more (thrown) tridents have collided (they must have dealt damage to an entity or have hit the floor)."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11883": {
+    "id": 11883,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if one or more (thrown) tridents are enchanted."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11884": {
+    "id": 11884,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if one or more (thrown) tridents are loyal."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11885": {
+    "id": 11885,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a vindicator is Johnny."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11887": {
+    "id": 11887,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Shows a player the win screen that normally is only displayed after one kills the ender dragon and exits the end for the first time."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11891": {
+    "id": 11891,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of x/y/z to modify to get the represented block(s)."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11890": {
+    "id": 11890,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the face relation of a block compared to another block.",
+        "If the blocks are not connected nothing will be returned."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11893": {
+    "id": 11893,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the vector corresponding to the provided blockfaces."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11892": {
+    "id": 11892,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the opposite blockface of the provided blockfaces."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11896": {
+    "id": 11896,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts shapes into a collection of Bounding Boxes equivalent to the shape they come from."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11897": {
+    "id": 11897,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not a cat is looking up.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11898": {
+    "id": 11898,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the love duration of an animal.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11899": {
+    "id": 11899,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the location where this entity originates from.",
+        "This value can be null if the entity hasn't yet been added to the world."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11901": {
+    "id": 11901,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not an entity should burn in the day.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11904": {
+    "id": 11904,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The bow used to fire the arrow and the consumed arrow in the Entity Shoot Event.",
+        "Both can be null."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11903": {
+    "id": 11903,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the spawn reason that initially spawned this entity."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11905": {
+    "id": 11905,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The force the arrow was launched with in the Entity Shoot Event.",
+        "This number ranges from 0 to 1."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12677": {
+    "id": 12677,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Can be set, reset and deleted.",
+        "When set, the new blockdata must be of the same material as the one you're replacing;",
+        "when reset and deleted, an empty blockdata of that material will be used."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9076": {
+    "id": 9076,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Various fox properties.",
+        "Everything in this expression can be used with `Paper`.",
+        "With `Spigot` you can only:",
+        "- `Get` and `Set` the Crouching State and Sleeping State",
+        "- `Get` the Faceplanted State"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9166": {
+    "id": 9166,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not a sign is editable.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11908": {
+    "id": 11908,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns loyalty level of a thrown trident.",
+        "Allows: Setting, Removing, Adding, Deleting and Resetting.",
+        "This value will always be between 0 and 127.",
+        "Changing this value won't influence the item itself, just the throw trident."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11910": {
+    "id": 11910,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get and Set whether 1 or more vindicators are Johnny.",
+        "Changing this does not modify the vindicator's name."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11911": {
+    "id": 11911,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the detailed collision shape of a block."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11912": {
+    "id": 11912,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the entity at which this warden is most angry."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11916": {
+    "id": 11916,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Runs the code inside of it when the provided block gets broken.",
+        "Local Variables that are:",
+        "- defined BEFORE this section CAN be used inside of it.",
+        "- defined AFTER this section CANNOT be used inside of it.",
+        "- defined INSIDE this section CANNOT be used outside of it."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11914": {
+    "id": 11914,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The Rarity of an item.",
+        "COMMON = White",
+        "UNCOMMON = Yellow",
+        "RARE = Aqua",
+        "EPIC = Light Purple"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11915": {
+    "id": 11915,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A Voxel Shape, usually used for blocks such as Stairs.",
+        "You can store those but it's not persistent across restarts."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11917": {
+    "id": 11917,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Runs the code inside of it when the provided entity dies.",
+        "Local Variables that are:",
+        "- defined BEFORE this section CAN be used inside of it.",
+        "- defined AFTER this section CANNOT be used inside of it.",
+        "- defined INSIDE this section CANNOT be used outside of it."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11918": {
+    "id": 11918,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Runs the code inside of it when the provided entity jumps.",
+        "Only works for horses on Spigot, Paper is required for players and entities.",
+        "Local Variables that are:",
+        "- defined BEFORE this section CAN be used inside of it.",
+        "- defined AFTER this section CANNOT be used inside of it.",
+        "- defined INSIDE this section CANNOT be used outside of it."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12640": {
+    "id": 12640,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the base amount of damage one or more arrows will do.",
+        "Defaults to 2.0 for a normal arrow with 0.5 * (1 + power level) added for arrows fired from enchanted bows.",
+        "Can be set, added to, removed from, deleted (set to 0) and reset (set to 2, the default value)."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12641": {
+    "id": 12641,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the number of times this arrow can pierce through an entity. Must be between 0 and 127."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12642": {
+    "id": 12642,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a list or one of the coordinates of:",
+        "- Locations",
+        "- Vectors",
+        "- Chunks (only X and Z)",
+        "- EulerAngles",
+        "- 2D Vectors (only X and Z)",
+        "- 3D Vectors",
+        "- 4D Vectors (XYZW)",
+        "- Quaternions (XYZW)",
+        "- AxisAngles (XYZW)",
+        "- MapCursor",
+        "Note: Out of all of these Lusk only implements EulerAngles."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11190": {
+    "id": 11190,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the time or ticks since one or more bells have been resonating, or 0 seconds for each bell that's not currently resonating.",
+        "A bell will typically resonate for 40 ticks (2 seconds)",
+        "Note: if you wish to use this expression on Skript 2.9+ you will need to use Lusk 1.3+."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11191": {
+    "id": 11191,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the time or ticks since one or more bells have been shaking, or 0 seconds for each bell that's not currently resonating.",
+        "A bell will typically resonate for 50 ticks (2.5 seconds)",
+        "Note: if you wish to use this expression on Skript 2.9+ you will need to use Lusk 1.3+."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12645": {
+    "id": 12645,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a value that represents how 'slippery' the block is.",
+        "Blocks with higher slipperiness, like ice can be slid on further by the player and other entities.",
+        "Most blocks have a default slipperiness of 0.6.",
+        "Can be used with items, blocks, blockstates, and blockdatas."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12647": {
+    "id": 12647,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets either the lesser or the greater corner or the lesser of one or more bounding boxes.",
+        "Returns vectors."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12644": {
+    "id": 12644,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not one or more blocks, blockstates or blockdatas are waterlogged.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12649": {
+    "id": 12649,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets all the entities within a bounding box in a specific world."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12648": {
+    "id": 12648,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the x,y or z coordinate for the lesser corner, the greater corner or the center of one or more bounding boxes."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12650": {
+    "id": 12650,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the height, X width and Z width of 1 or more bounding boxes."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11894": {
+    "id": 11894,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new empty Bounding Box, one from two corners or a copy of a given bounding box"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12651": {
+    "id": 12651,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the volume of 1 or more bounding boxes."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11895": {
+    "id": 11895,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the bounding box of a block or an entity which reflects its location and size. (But not its world, kind of like vectors)"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12653": {
+    "id": 12653,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not a cat is lying down.",
+        "Can be set and reset."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8753": {
+    "id": 8753,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an equippable item is dispensed from a block and equipped on a nearby entity."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8758": {
+    "id": 8758,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a bell is rung."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12654": {
+    "id": 12654,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the provided chickens are chicken jockeys."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11906": {
+    "id": 11906,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the first, second, or both trusted players of 1 or more foxes.",
+        "*NOTES*:",
+        "- The first and second trusted players can both be set to a single `offline player`, the trusted players can be set to 2 offline players (or 1, which only sets the first one).",
+        "- The second trusted player must be set after the first one, which also means you can't clear the first one if the second one is set, both actions will fail silently.",
+        "- If you wish to set/clear both, do so by using the second pattern: `clear trusted players of {_fox}`"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8768": {
+    "id": 8768,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called when a player takes items out of the furnace."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8779": {
+    "id": 8779,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event requires Paper.",
+        "Fired after a player has respawned."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8780": {
+    "id": 8780,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event requires Paper.",
+        "Called when an item is about to be composted by an entity."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8781": {
+    "id": 8781,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event requires Paper.",
+        "Called when the player tries to attack an entity. This occurs before any of the damage logic, so cancelling this event will prevent any sort of sounds from being played when attacking. This event will fire as cancelled for certain entities, use the \"will be damaged\" condition to check if the entity will not actually be attacked.",
+        "Note: there may be other factors (invulnerability, etc) that will prevent this entity from being attacked that this event will not cover."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8771": {
+    "id": 8771,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event requires Paper.",
+        "Called when an item is about to be composted by a hopper.",
+        "To prevent hoppers from moving items into composters, cancel the Inventory move event from SkBee."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8775": {
+    "id": 8775,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player changes their main hand in the client settings."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8769": {
+    "id": 8769,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Furnace starts smelting."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8800": {
+    "id": 8800,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This Condition requires Paper.",
+        "Checks whether or not the composter's level will rise in a Compost Item Event"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8798": {
+    "id": 8798,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This Condition requires Paper.",
+        "Checks whether or not the Slot Change event should trigger advancements."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8799": {
+    "id": 8799,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This Condition requires Paper.",
+        "Checks whether or not the entity in the Pre Damage Event will be damaged."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8809": {
+    "id": 8809,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is an NPC. (Citizens)"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8793": {
+    "id": 8793,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the fox is defending."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8794": {
+    "id": 8794,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the fox is faceplanted."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8795": {
+    "id": 8795,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a fox is leaping."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8805": {
+    "id": 8805,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is crawling."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8803": {
+    "id": 8803,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deprecated since 2.7: https://docs.skriptlang.org/nightly/master/docs.html?search=#CondRespawnLocation",
+        "This Condition requires Paper.",
+        "Checks whether or not the player in the Post Respawn event has respawned at they bed."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8788": {
+    "id": 8788,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event requires Paper.",
+        "Called when a Warden's anger level has changed due to another entity.",
+        "If the event is cancelled, the warden's anger level will not change."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8792": {
+    "id": 8792,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a fox is crouching."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8811": {
+    "id": 8811,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This Condition requires Paper.",
+        "Checks whether or not the item is being placed inside the flower pot in a Flower Pot Manipulate Event."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8816": {
+    "id": 8816,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This Effect requires Paper.",
+        "Can only be used in a Compost Item Event.",
+        "Sets whether or not the composter's level should rise."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8821": {
+    "id": 8821,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the best Slot for an item."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8834": {
+    "id": 8834,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the color of an item's rarity.",
+        "Can be used with the item itself and it will get its rarity's color without getting the rarity itself if you don't need it."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8831": {
+    "id": 8831,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all the equipment slots."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12680": {
+    "id": 12680,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets whether the provided foxed are defending, can be set and reset."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8818": {
+    "id": 8818,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Shows a player the win screen that normally is only displayed after one kills the ender dragon and exits the end for the first time."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8837": {
+    "id": 8837,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Maximum Vanilla Level for an Enchantment."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8835": {
+    "id": 8835,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the rarity of an item.",
+        "Can be set.",
+        "Before Lusk 1.2 (and Minecraft 1.20.5), this expression returned strings and also worked for enchantments, due to some major changes enchantments no longer have a rarity."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8822": {
+    "id": 8822,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Obtains the blast resistance value (also known as block \"durability\").",
+        "This value is used in explosions to calculate whether a block should be broken or not.",
+        "Only works for placeable item/blocks."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8828": {
+    "id": 8828,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the applied color in the Dye event.",
+        "This expression can be set to another dye color."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8838": {
+    "id": 8838,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Minimum Vanilla Level for an Enchantment."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8836": {
+    "id": 8836,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the pattern type selected in a Loom Pattern Select event"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8846": {
+    "id": 8846,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a version from a string."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12681": {
+    "id": 12681,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets whether the provided foxes are faceplanted, if running Paper this can be set and reset."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12684": {
+    "id": 12684,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a copy of the item in the provided item frames.",
+        "Can be set and deleted, this expression supports the Silent Section, see examples."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12685": {
+    "id": 12685,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The chance of the item being dropped upon this item frame's destruction.",
+        "Can be set, removed from, added to, reset (1) and deleted (0).",
+        "The final value is always clamped between 0 and 1.",
+        "1 = always drops; 0 = never drops."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8847": {
+    "id": 8847,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the anger of a warden.",
+        "Angry = 80 or above",
+        "Agitated = 40-79",
+        "Calm = 0-39",
+        "Use the respective conditions to check for those 3 states."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12682": {
+    "id": 12682,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets whether the provided foxed are leaping, can be set and reset."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12683": {
+    "id": 12683,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Enchantments this item can normally have."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12688": {
+    "id": 12688,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the music disc within a jukebox.",
+        "Can be set, reset and deleted."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9165": {
+    "id": 9165,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the provided llamas' strength.",
+        "A higher strength llama will have more inventory slots and be more threatening to entities.",
+        "Can be set.",
+        "Must be between 1 and 5."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12687": {
+    "id": 12687,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets whether the item frame is visible or not.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12689": {
+    "id": 12689,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the previous gamemode of a player."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12655": {
+    "id": 12655,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The fuse ticks of a Creeper, Primed TNT or TNT Minecart, this differs based on which one of these 3 is used, read below.",
+        "Can be set, added to, removed from and reset (which sets it to 0, this can or cannot be what you want based on the entity, read below).",
+        "The `max` keyword only applies to creepers.",
+        "`creeper`:",
+        "- the time that the creeper has been in the primed state for;",
+        "- if max is used it will return the maximum amount of time that the creeper can stay in the ignited state for until it explodes;",
+        "- both math and regular fuse time must be greater than 0, regular fuse time cannot be greater than max fuse time;",
+        "`primed tnt`: the time until the primed tnt explodes;",
+        "`tnt minecart`: the time until the minecart explodes, -1 if not ignited."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12656": {
+    "id": 12656,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Projectile Items charged in the provided crossbows.",
+        "Can be set, added to, removed from, reset and deleted."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12657": {
+    "id": 12657,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Enchantments stored in an enchanted book.",
+        "Can be set, added to, removed from, reset and deleted."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12658": {
+    "id": 12658,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the location that the provided end crystals are pointing their beam to.",
+        "Can be set, if the provided location is in a different world it will fail silently."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12660": {
+    "id": 12660,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets how long the provided ender signals have been alive for.",
+        "Can be set.",
+        "Either as ticks or a timespan.",
+        "When greater than 80 ticks (or 4 seconds), it will despawn on the next tick."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9000": {
+    "id": 9000,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Brewing Stand brews."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8998": {
+    "id": 8998,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a bell resonated after being rung and highlights nearby raiders.",
+        "A bell will only resonate if raiders are in the vicinity of the bell."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12661": {
+    "id": 12661,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the item the provided ender signals will display and drop on death."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9019": {
+    "id": 9019,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an item can be enchanted with an Enchantment.",
+        "This does not check if the enchantment conflicts with any enchantments already applied on the item."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9017": {
+    "id": 9017,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an allay can be duplicated."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9021": {
+    "id": 9021,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an enderman has been looked at."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9023": {
+    "id": 9023,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is angry.",
+        "(Warden, PigZombie, Wolf, Enderman)"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9024": {
+    "id": 9024,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is in powdered snow."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9025": {
+    "id": 9025,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is screaming.",
+        "(Enderman, Goat)"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8763": {
+    "id": 8763,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event requires Paper.",
+        "Fired when an Enderman determines if it should attack a player or not.",
+        "Starts off cancelled if the player is wearing a pumpkin head or is not looking at the Enderman, according to Vanilla rules."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9008": {
+    "id": 9008,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an EnderDragon switches phase."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9012": {
+    "id": 9012,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event requires Paper.",
+        "Called when a block is about to dispense an item."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9009": {
+    "id": 9009,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an entity enters love mode.",
+        "This can be cancelled but the item will still be consumed that was used to make the entity enter into love mode."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8783": {
+    "id": 8783,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This Event requires Paper.",
+        "Called when a player attempts to sleep but fails.."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9011": {
+    "id": 9011,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an entity changes its pose."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9007": {
+    "id": 9007,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an ElderGuardian appears in front of a Player."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9006": {
+    "id": 9006,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event requires Paper.",
+        "Called when a block tries to dispense an item, but its inventory is empty."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9028": {
+    "id": 9028,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an ocelot trusts players."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9030": {
+    "id": 9030,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a Warden is agitated."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9031": {
+    "id": 9031,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a Warden is calm."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9039": {
+    "id": 9039,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity can normally sit."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8817": {
+    "id": 8817,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This Effect requires Paper.",
+        "Can only be used in a Slot Change Event.",
+        "Sets whether or not the event should trigger advancements."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9049": {
+    "id": 9049,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Wakes a player/villager up."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9032": {
+    "id": 9032,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the server has a whitelist or not."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9052": {
+    "id": 9052,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts Villagers into Zombie Villagers as if they were killed by a Zombie."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9043": {
+    "id": 9043,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Forces an allay to duplicate itself without dance or item necessary."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9042": {
+    "id": 9042,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets whether the fuel of the brewing stand in the Brewing Stand Fuel Event will be reduced / consumed."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9034": {
+    "id": 9034,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether or not the brewing stand's fuel will be consumed in a Brewing Stand Fuel Event"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9026": {
+    "id": 9026,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is underwater."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9041": {
+    "id": 9041,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Forces an Allay to start/stop dancing."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9040": {
+    "id": 9040,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether this entity was spawned from a mob spawner."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9045": {
+    "id": 9045,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets if the whitelist is enforced."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9044": {
+    "id": 9044,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Attempts to teleport an enderman to a random nearby location."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9033": {
+    "id": 9033,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the whitelist is enforced. If the whitelist is enforced, non-whitelisted players will be disconnected when the server whitelist is reloaded."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9035": {
+    "id": 9035,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This Condition requires Paper.",
+        "Checks whether or not the worldborder change is instant in the worldborder change event"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9050": {
+    "id": 9050,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a warden sense a disturbance at the provided location."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9048": {
+    "id": 9048,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets if the server is whitelisted."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9047": {
+    "id": 9047,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Does nothing.",
+        "Useful as a placeholder."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12662": {
+    "id": 12662,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the location the provided ender signals are moving towards.",
+        "When set, the drop chance resets to a random value and the despawn timer gets set back to 0."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9056": {
+    "id": 9056,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not an entity is interested.",
+        "(Wolf, Fox)"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9055": {
+    "id": 9055,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the jukebox the allay is set to dance to."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9067": {
+    "id": 9067,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Ender Dragon phase in an Ender Dragon Phase Change Event.",
+        "Can be set. (Setting will always change the NEW phase)"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9073": {
+    "id": 9073,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the location where this entity originates from.",
+        "This value can be null if the entity hasn't yet been added to the world."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9071": {
+    "id": 9071,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Screaming State of an entity.",
+        "(Enderman, Goat)"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9065": {
+    "id": 9065,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the fuel power for the fuel in the Brewing Stand Fuel event.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9062": {
+    "id": 9062,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the brewing fuel level of a Brewing Stand.",
+        "Can be set, reset and deleted."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9063": {
+    "id": 9063,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the brewing ingredient of a Brewing Stand.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9061": {
+    "id": 9061,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the brewing fuel item of a Brewing Stand.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9078": {
+    "id": 9078,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the rotation of an Item Frame."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9070": {
+    "id": 9070,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Angry State of an entity.",
+        "(Warden, PigZombie, Wolf, Enderman)",
+        "Can be set for all except wardens."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9083": {
+    "id": 9083,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the entity which pushed the affected entity in a Damage Push event"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9091": {
+    "id": 9091,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the entity at which this warden is most angry."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9092": {
+    "id": 9092,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the past/future anger of the warden in the Warden Anger Change event.",
+        "The future anger level can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9095": {
+    "id": 9095,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the new/old anger of the warden in the World Border Change events.",
+        "Can be set only within the Start variant of the event."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9051": {
+    "id": 9051,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make a villager shake his head."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9079": {
+    "id": 9079,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the location in which the player has last died."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9086": {
+    "id": 9086,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the category of spawn to which this entity belongs."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9087": {
+    "id": 9087,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the spawn reason that initially spawned this entity."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9090": {
+    "id": 9090,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns one or more items without enchantments."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9004": {
+    "id": 9004,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Cauldron's level changes.'"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9080": {
+    "id": 9080,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the love duration of an animal.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9082": {
+    "id": 9082,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the previous gamemode of a player."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9081": {
+    "id": 9081,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not an ocelot trusts players.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9069": {
+    "id": 9069,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Held Block Data of the provided Endermen."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8823": {
+    "id": 8823,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a value that represents how 'slippery' the block is. Blocks with higher slipperiness, like ice can be slid on further by the player and other entities.",
+        "Most blocks have a default slipperiness of 0.6.",
+        "Only works for placeable item/blocks."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9104": {
+    "id": 9104,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Sound this entity makes when splashing in water. For most entities, this is just 'ENTITY_GENERIC_SPLASH'."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9094": {
+    "id": 9094,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the past/future center of the world border in the World Border Change events.",
+        "The future center can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9112": {
+    "id": 9112,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a living entity is climbing (Ladders, vines, spiders etc)."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9113": {
+    "id": 9113,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is being converted.",
+        "(Hoglin, Husk, Piglin, Pig Zombie, Skeleton, Zombie, Zombie Villager)"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8764": {
+    "id": 8764,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event requires Paper.",
+        "Called when an enderman escapes.",
+        "CRITICAL_HIT: The enderman has teleported away due to a critical hit",
+        "DROWN: Specific case for CRITICAL_HIT where the enderman is taking rain damage",
+        "INDIRECT: The enderman has teleported away due to indirect damage (ranged)",
+        "RUNAWAY: The enderman has stopped attacking and ran away",
+        "STARE: The enderman has teleported away due to the player staring at it during combat"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9103": {
+    "id": 9103,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Sound this entity makes while swimming."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9110": {
+    "id": 9110,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a crossbow, creeper, wither or wither skull is charged."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9123": {
+    "id": 9123,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a llama is in a caravan."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9116": {
+    "id": 9116,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an horse is eating."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9117": {
+    "id": 9117,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an horse is eating grass."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9118": {
+    "id": 9118,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an horse is rearing."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9120": {
+    "id": 9120,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a jukebox contains a music disc."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9124": {
+    "id": 9124,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a sign can be edited."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9126": {
+    "id": 9126,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a skeleton horse is trapped."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9130": {
+    "id": 9130,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a goat ram an entity."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9133": {
+    "id": 9133,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a llama join another llama's caravan."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9132": {
+    "id": 9132,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a jukebox start/stop playing."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9121": {
+    "id": 9121,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a jukebox is currently playing a music disc."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9122": {
+    "id": 9122,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if another llama is currently following behind this llama."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9036": {
+    "id": 9036,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is in position to inflict a critical hit.",
+        "Read https://minecraft.fandom.com/wiki/Damage#Critical_hit for more info."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9127": {
+    "id": 9127,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the string is a valid version"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9131": {
+    "id": 9131,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Forces a jukebox to eject its disc."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9058": {
+    "id": 9058,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The rotation of each part of an armor stand.",
+        "Can be set, added to, removed from, and reset.",
+        "All change modes allow both a vector and an euler angle."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9134": {
+    "id": 9134,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a llama leave its caravan."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9119": {
+    "id": 9119,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an iron golem was created by a player."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9157": {
+    "id": 9157,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not an horse is eating.",
+        "Can be set and reset."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9145": {
+    "id": 9145,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the command within a command block.",
+        "Can be set.",
+        "Works with minecart with command block."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9155": {
+    "id": 9155,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the domestication level and the maximum domestication level of an horse.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9143": {
+    "id": 9143,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not a cat is lying down.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9148": {
+    "id": 9148,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the treasure location the provided dolphins try to guide players to.",
+        "This value is calculated if the player has fed the dolphin a fish (which Lusk includes), `DOLPHIN_SWIM_TO_TREASURE` goal.",
+        "Can be set, but it only has an effect if the dolphin is currently leading a player, as this value is recalculated next time it leads a player.",
+        "The world of the location you give it does not matter, as the dolphin will always use the world it is currently in."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9153": {
+    "id": 9153,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the displayed item of the provided fireballs.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9163": {
+    "id": 9163,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the caravan head of a llama."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9164": {
+    "id": 9164,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the caravan tail of a llama."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9144": {
+    "id": 9144,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the time till a chicken lays an egg."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9154": {
+    "id": 9154,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not a goat has either horn.",
+        "Can be set and reset."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9156": {
+    "id": 9156,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not an horse is eating grass.",
+        "Can be set and reset."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9158": {
+    "id": 9158,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the jump strength of an horse.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9162": {
+    "id": 9162,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the music disc within a jukebox.",
+        "Can be set, reset and deleted."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9010": {
+    "id": 9010,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fired when an entity is pushed by another entity's attack.",
+        "The acceleration vector can be modified. If this event is cancelled, the entity will not get pushed.",
+        "Note: Some entities might trigger this multiple times on the same entity as multiple acceleration calculations are done."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9168": {
+    "id": 9168,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the trap time of the skeleton horse."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12663": {
+    "id": 12663,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the item the provided ender signals will display and drop on death."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12664": {
+    "id": 12664,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets whether or not the entity's custom name is displayed client side.",
+        "This value has no effect on players, they will always display their name."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12691": {
+    "id": 12691,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The server version."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12690": {
+    "id": 12690,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets whether the provided projectiles have left the hitbox of their shooter and can now hit entities.",
+        "This is recalculated each tick if the projectile has a shooter.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12693": {
+    "id": 12693,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not the provided signs are waxed.",
+        "Can be set and reset (which makes it not waxed)."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12694": {
+    "id": 12694,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The command used in an effect command event.",
+        "This doesn't include the prefix (usually `!`).",
+        "Can be set, reset and deleted."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8842": {
+    "id": 8842,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the given string with the small font.",
+        "'Lenient' allows uppercase characters to not be included."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11909": {
+    "id": 11909,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Retrieves the used hand or item used in events where either hand is used.",
+        "The first pattern returns the Slot (Item + Index) of the item in the used hand.",
+        "- Note: using this is not the same as using `event-slot` or `event-item`, if either is available, use that",
+        "The second pattern returns an Equipment Slot that's either `hand_slot` or `off_hand_slot`.",
+        "Supported Events:",
+        "- on Right Click",
+        "- on Item Consume",
+        "- on Arm Swing",
+        "- on Entity Shoot (different than 'on Shoot'!)",
+        "- on Crossbow Load",
+        "- on Place (includes 'on Block Place', 'on Hanging Place', and 'on Entity Place')",
+        "- on Resurrect",
+        "- on Player Fish",
+        "- on Bucket Fill",
+        "- on Bucket Empty",
+        "- on Elytra Boost",
+        "- on Player Harvest",
+        "- on Can Build Check",
+        "- on Player Shear Entity",
+        "- on Player Leash Entity",
+        "- on Player Unleash Entity",
+        "- on Player Use Unknown Entity"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9093": {
+    "id": 9093,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the duration of the change in the World Border Start Change event.",
+        "Can be set.",
+        "Requires Paper."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12695": {
+    "id": 12695,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12696": {
+    "id": 12696,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The velocity vector in the Player Velocity Change Event, can be set, deleted and reset."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12698": {
+    "id": 12698,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A Banner Pattern."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11209": {
+    "id": 11209,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Runs the code inside of it when the provided entity takes damage.",
+        "Local Variables that are:",
+        "- defined BEFORE this section CAN be used inside of it.",
+        "- defined AFTER this section CANNOT be used inside of it.",
+        "- defined INSIDE this section CANNOT be used outside of it."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12719": {
+    "id": 12719,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes the effects within this section without making sounds, this currently only supports the changing of an item frame's item.",
+        "Note: this is not related to errors or warnings in the console."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12665": {
+    "id": 12665,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the list of entities (or their UUIDs) which are exempt from the provided entities' collidable rule and whose collision with this entity will behave the opposite of it.",
+        "Can be set, added to, removed from, and deleted.",
+        "For example if collidable is true and an entity is in the exemptions then it will not collide with it.",
+        "Similarly if collidable is false and an entity is in this set then it will still collide with it.",
+        "Note: **these exemptions are not (currently) persistent.**",
+        "Note: **the client may predict the collision between itself and another entity, resulting in those exemptions not being accurate for player collisions.**",
+        "**This expression should therefore only be used to exempt non-player entities.**",
+        "**To exempt collisions for a player, use the Team Collision Rule Option in combination with a Scoreboard and a Team.**"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9102": {
+    "id": 9102,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Sound this entity makes when splashing in water at high speeds. For most entities, this is just 'ENTITY_GENERIC_SPLASH'."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12666": {
+    "id": 12666,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the item in one or more equipment slots of one or more entities, if the entity cannot use a provided slot it will fail silently.",
+        "This might not work when trying to get a slot on an entity that doesnt have that slot AND if you're not running at least Paper 1.21",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12667": {
+    "id": 12667,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the network protocol ID for one or more entities."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12669": {
+    "id": 12669,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates an EntitySnapshot representing the current state of this entity."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11902": {
+    "id": 11902,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the category of spawn to which this entity belongs."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11862": {
+    "id": 11862,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player interacts with an armor stand and will either swap, retrieve, place an item.",
+        "`event-equipmentslot` is the clicked slot of the armor stand, to get the hand use the Used Hand expression",
+        "`event-entity` is the armor stand",
+        "`past event-item` is the item the armor stand is holding",
+        "`future event-item` (or `event-item`) is the item the player is holding",
+        "`event-armorstand interaction` is the type of manipulation that's happening during the event",
+        "(NOTE: this will only ever return `Place`, `Retrieve` or `Change`)"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12567": {
+    "id": 12567,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**THIS IS AN EXTENDED VERSION OF SKRIPT'S IGNITE EVENT.**",
+        "`event-player` = the Player that placed/ignited the fire block, or not set if not ignited by a Player.",
+        "`event-entity` = the Entity that placed/ignited the fire block, or not set if not ignited by an Entity.",
+        "`event-ignitecause` = the value detailing the cause of the block ignition.",
+        "Called when a block is ignited. If you want to catch when a Player places fire, use the place event.",
+        "If this event is cancelled, the block will not be ignited."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12670": {
+    "id": 12670,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Aggressive Property of an entity.",
+        "Can be set.",
+        "Some mobs will raise their arm(s) when aggressive:",
+        "Drowned, Piglin, Skeleton, Zombie, ZombieVillager, Illusioner, Vindicator, Panda, Pillager, PiglinBrute",
+        "Note: This doesn't always return the actual aggressive state as when set, Pandas are always aggressive if their combined Panda Gene is AGGRESSIVE."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11167": {
+    "id": 11167,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an ItemFrame is having an item rotated, added, or removed from it."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12569": {
+    "id": 12569,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the provided foxed or wolves are interested.",
+        "For Foxes, Paper 1.18.2+ is required."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12570": {
+    "id": 12570,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is sitting.",
+        "(Camels, Cats, Wolves, Parrots, Pandas and Foxes)"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12571": {
+    "id": 12571,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an anvil gui can be closed.",
+        "This is only true if the `Anvil GUI - Prevent Closing` effect is used and cannot be reversed without creating a new gui."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12572": {
+    "id": 12572,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is currently viewing a specific anvil GUI or any at all."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12573": {
+    "id": 12573,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a specific equipment slot of an armorstand is disabled."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11163": {
+    "id": 11163,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the player is attempting to rename a mob."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11160": {
+    "id": 11160,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a LivingEntity loads a crossbow with a projectile."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11156": {
+    "id": 11156,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player changes a block by right clicking it with a shovel."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11157": {
+    "id": 11157,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player changes a block by right clicking it with an axe."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11158": {
+    "id": 11158,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player changes a block by right clicking it with a hoe."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11161": {
+    "id": 11161,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This Event requires Paper.",
+        "Called when an entity enters the hitbox of a block. Only called for blocks that react when an entity is inside. If cancelled, any action that would have resulted from that entity being in the block will not happen (such as extinguishing an entity in a cauldron).",
+        "Blocks this is currently called for:",
+        "Big dripleaf",
+        "Bubble column",
+        "Buttons",
+        "Cactus",
+        "Campfire",
+        "Cauldron",
+        "Crops",
+        "Ender Portal",
+        "Fires",
+        "Frogspawn",
+        "Honey",
+        "Hopper",
+        "Detector rails",
+        "Nether portals",
+        "Powdered snow",
+        "Pressure plates",
+        "Sweet berry bush",
+        "Tripwire",
+        "Waterlily",
+        "Web",
+        "Wither rose"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11154": {
+    "id": 11154,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an allay duplicates itself."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11162": {
+    "id": 11162,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player dyes an entity (Wolf, Cat or sheep)."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11165": {
+    "id": 11165,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player places an item in or takes an item out of a flowerpot."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11174": {
+    "id": 11174,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a bell is resonating."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11177": {
+    "id": 11177,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a cat is laying down."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11169": {
+    "id": 11169,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This Event requires Paper.",
+        "Called when a player selects a banner pattern in a loom inventory."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11180": {
+    "id": 11180,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a living entity can breathe underwater."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11181": {
+    "id": 11181,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an Entity should burn in daylight.",
+        "(Zombie,Phantom,Skeleton)",
+        "For skeletons, this does not take into account the entity's natural fire immunity."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11183": {
+    "id": 11183,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is dancing.",
+        "(Parrot, Allay, Piglin)"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11184": {
+    "id": 11184,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is leashed."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11185": {
+    "id": 11185,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player has seen the end credits."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9057": {
+    "id": 9057,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether an entity is sat. Can be set.",
+        "(Cats, Wolves, Parrots, Pandas and Foxes)"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11166": {
+    "id": 11166,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called each time a Hopper attempts to find its source/attached containers."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11175": {
+    "id": 11175,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a bell is ringing."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11186": {
+    "id": 11186,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is slim."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11171": {
+    "id": 11171,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the whitelist is toggled."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11172": {
+    "id": 11172,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a world border's center is changed or when a world border starts (either over time or instantly) or stops moving."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11179": {
+    "id": 11179,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether or not the dropped item in the Pickup Attempt Event will fly at the player."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11188": {
+    "id": 11188,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Rings a bell.",
+        "The blockface must be cartesian.",
+        "**NOTE: Skript has its own version of this effect, difference is in the fact that Skript's uses Directions while Lusk's uses Blockfaces, for that reason I will not deprecate this Effect.**"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11192": {
+    "id": 11192,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Change Reason in a Cauldron Level Change Event."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11203": {
+    "id": 11203,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Searched Block expression for the Hopper Inventory Search Event."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9169": {
+    "id": 9169,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not a skeleton horse is trapped.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11204": {
+    "id": 11204,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The hand used in events where you might need to distinguish between the main and offhand."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12574": {
+    "id": 12574,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a bell is resonating."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9064": {
+    "id": 9064,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the brewing time of a Brewing Stand (the time before the brewing is over, 0 seconds = finished, 20 seconds = just started. Can be set to a longer time, progress won't be displayed until it reaches 20 seconds).",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11193": {
+    "id": 11193,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the moisture level of the provided dolphins.",
+        "Can be set, added to, and removed from."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11194": {
+    "id": 11194,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Escape Reason in an Enderman Escape Event.",
+        "This Expression requires Paper."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11196": {
+    "id": 11196,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Sound this entity will make when falling from a large height."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11197": {
+    "id": 11197,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Sound this entity will make on damage."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11198": {
+    "id": 11198,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Sound this entity will make on death."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11199": {
+    "id": 11199,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Height of an Entity."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11200": {
+    "id": 11200,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Sound this entity will make when falling from a small height."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9160": {
+    "id": 9160,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not an horse is rearing.",
+        "Can be set and reset."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11202": {
+    "id": 11202,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Width of an Entity."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11201": {
+    "id": 11201,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Variant of an Entity.",
+        "Can be set.",
+        "This does not use strings.",
+        "Currently supports:",
+        "- Cow (1.21.5+)",
+        "- Chicken (1.21.5+)",
+        "- Pig (1.21.5+)",
+        "- Salmon (1.21.2+)",
+        "- Wolf (1.20.5+)",
+        "- Frog (1.19+)",
+        "- Axolotl (1.17+)",
+        "- Mushroom Cow",
+        "- Parrot",
+        "- Llama",
+        "- Fox",
+        "- Cat",
+        "- Rabbit",
+        "- Panda",
+        "- Tropical Fish"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9161": {
+    "id": 9161,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not an iron golem was created by a player.",
+        "Can be set and reset."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11210": {
+    "id": 11210,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Runs the code inside of it when the provided entity gets healed.",
+        "Local Variables that are:",
+        "- defined BEFORE this section CAN be used inside of it.",
+        "- defined AFTER this section CANNOT be used inside of it.",
+        "- defined INSIDE this section CANNOT be used outside of it."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11208": {
+    "id": 11208,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Runs the code inside of it when the provided entity gets clicked.",
+        "Local Variables that are:",
+        "- defined BEFORE this section CAN be used inside of it.",
+        "- defined AFTER this section CANNOT be used inside of it.",
+        "- defined INSIDE this section CANNOT be used outside of it."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8850": {
+    "id": 8850,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents all the available banner pattern types."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12699": {
+    "id": 12699,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Block Actions."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12700": {
+    "id": 12700,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a captured state of a block, which will not change automatically.",
+        "Unlike Block, which only one object can exist per coordinate, BlockState can exist multiple times for any given Block. Note that another plugin may change the state of the block and you will not know, or they may change the block to another type entirely, causing your BlockState to become invalid."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12701": {
+    "id": 12701,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Body Parts."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12702": {
+    "id": 12702,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an immutable copy of an entity's state. Can be used at any time to create an instance of the stored entity.",
+        "Requires 1.20.5 to be stored and parsed."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12703": {
+    "id": 12703,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "EulerAngle is used to represent 3 angles, one for each axis (x, y, z). The angles are in radians"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12704": {
+    "id": 12704,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Ignition Causes."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12705": {
+    "id": 12705,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the regular Rotations.",
+        "Rotations are used in item frames."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12707": {
+    "id": 12707,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Timespan Periods implemented by Skript behind the scenes.",
+        "This is different than https://skripthub.net/docs/?id=2166"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12718": {
+    "id": 12718,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Runs the code inside of it when the provided anvil gui is opened, closed or clicked.",
+        "Local Variables that are:",
+        "- defined BEFORE this section CAN be used inside of it.",
+        "- defined AFTER this section CANNOT be used inside of it.",
+        "- defined INSIDE this section CANNOT be used outside of it."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12706": {
+    "id": 12706,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the sounds, this varies across versions, some sounds might be removed."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13007": {
+    "id": 13007,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the provided armor items are dyed (they don't have the default color).",
+        "This works for leather armor, horse leather armor and wolf armor.",
+        "This might not work correctly on Spigot."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12579": {
+    "id": 12579,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether or not one or more bounding boxes overlap other bounding boxes.",
+        "Bounding boxes that are only intersecting at the borders are not considered overlapping."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11866": {
+    "id": 11866,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether or not a Vector, Location, or Bounding Box is within a Bounding Box.",
+        "Vector and Location = Checks if the Bounding Box contains a specified position.",
+        "Bounding Box = Checks if the Bounding Box fully contains a Bounding Box."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13036": {
+    "id": 13036,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Tropical Fish Patterns."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12588": {
+    "id": 12588,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not the provided entities should burn during the day.",
+        "Applies to zombies, skeletons (all types), and phantoms",
+        "In 1.17.1 this doesn't work with skeleton variants, such as strays, but it does work with base skeletons.",
+        "For skeletons, this does not take into account the entity's natural fire immunity."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13008": {
+    "id": 13008,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the provided entities have a fixed pose."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13009": {
+    "id": 13009,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the provided suspicious stews have any custom potion effects."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9053": {
+    "id": 9053,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the duplication cooldown of an Allay.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13010": {
+    "id": 13010,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the color of the provided armor items.",
+        "This works for leather armor, horse leather armor and wolf armor.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12643": {
+    "id": 12643,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Created a Banner Pattern from a Pattern Type and a (dye) Color."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12646": {
+    "id": 12646,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets all the blocks within a bounding box in a specific world."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13037": {
+    "id": 13037,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A Minecraft Version."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13038": {
+    "id": 13038,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Rabbit Types."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13011": {
+    "id": 13011,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets and sets the `canMove` property of an armorstand entity or item.",
+        "Unlike other Armorstand properties, this one cannot be used on the armorstand item as of 1.21.3."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12634": {
+    "id": 12634,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets and sets the `canTick` property of an armorstand entity or item.",
+        "Unlike other Armorstand properties, this one cannot be used on the armorstand item as of 1.21.3."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12635": {
+    "id": 12635,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets and sets the `hasHarms` property of an armorstand entity or item, to do so with an armorstand item you must be using Paper."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12636": {
+    "id": 12636,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets and sets the `hasBasePlate` property of an armorstand entity or item, to do so with an armorstand item you must be using Paper."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13012": {
+    "id": 13012,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the maximum, minimum or current amount of fluid contained within a block, either by itself or inside a cauldron.",
+        "Minimum Level requires Paper and 1.18.2.",
+        "This expression includes liquid blocks, cauldron and composters.",
+        "For water and lava blocks the levels have special meanings: a level of 0 corresponds to a source block, 1-7 regular fluid heights, and 8-15 to \"falling\" fluids.",
+        "All falling fluids have the same behaviour, but the level corresponds to that of the block above them, equal to this. level - 8",
+        "**Note that counterintuitively, an adjusted level of 1 is the highest level, whilst 7 is the lowest.**",
+        "May not be higher than the max level.",
+        "Can be set, added to, removed from and reset.",
+        "Reset requires Paper and 1.18.2."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13013": {
+    "id": 13013,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the String NBT of the provided entity snapshots."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13014": {
+    "id": 13014,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Attempts to create an entity snapshots from a previously created string nbt of one."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12678": {
+    "id": 12678,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the current type of this fox.",
+        "Can bet set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13016": {
+    "id": 13016,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the custom potion effects applied to the provided suspicious stew.",
+        "Can be: set, added to, removed from, removed all x from, cleared and reset.",
+        "Clear and reset do the same thing, same for remove and remove all.",
+        "Remove and remove all can take either potion effects or potion effect types."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13017": {
+    "id": 13017,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Armor Stand Interactions."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13018": {
+    "id": 13018,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Axolotl Variants."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13019": {
+    "id": 13019,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Block Faces."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13020": {
+    "id": 13020,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A Bounding Box.",
+        "Persistent in global variables since 1.2."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13021": {
+    "id": 13021,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Cauldron Change Reasons."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13022": {
+    "id": 13022,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Ender Dragon Phases."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13023": {
+    "id": 13023,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Valid Enderman Escape Reasons."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13024": {
+    "id": 13024,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Equipment Slots."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13025": {
+    "id": 13025,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Fox Types."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13026": {
+    "id": 13026,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Frog Variants."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13027": {
+    "id": 13027,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Horse Colors."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13028": {
+    "id": 13028,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Horse Styles."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13030": {
+    "id": 13030,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Llama colors."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13031": {
+    "id": 13031,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Mushroom Cow Variants."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13032": {
+    "id": 13032,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Parrot Variants."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13033": {
+    "id": 13033,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Poses."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13034": {
+    "id": 13034,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Salmon Variants."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13015": {
+    "id": 13015,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Various fox properties.",
+        "Everything in this expression can be used with `Paper`.",
+        "With `Spigot` you can only:",
+        "- `Get` and `Set` the Crouching State and Sleeping State",
+        "- `Get` the Faceplanted State"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13039": {
+    "id": 13039,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Runs the code inside of it when the provided entity dies and may have the opportunity to be resurrected.",
+        "Will be called in a cancelled state if the entity does not have a totem equipped.",
+        "Local Variables that are:",
+        "- defined BEFORE this section CAN be used inside of it.",
+        "- defined AFTER this section CANNOT be used inside of it.",
+        "- defined INSIDE this section CANNOT be used outside of it."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13300": {
+    "id": 13300,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the provided living entities can breathe underwater and will not take suffocation damage when their air supply reaches zero."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13301": {
+    "id": 13301,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is underwater."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9046": {
+    "id": 9046,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send an experience change. This fakes an experience change packet for a user. This will not actually change the experience points in any way.",
+        "Progress must be within 0 and 1."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11888": {
+    "id": 11888,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the blast resistance value (also known as block \"durability\").",
+        "This value is used in explosions to calculate whether a block should be broken or not.",
+        "Only works for placeable item/blocks."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13302": {
+    "id": 13302,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the spawner entity type of the provided spawners or trial spawners (1.21+).",
+        "**Works with Items.**",
+        "**Works with Spawner Minecarts (Requires 1.20+).**",
+        "Can be set, reset (sets it to pig), and deleted (requires Minecraft 1.20+)."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13303": {
+    "id": 13303,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The Rarity of an item.",
+        "COMMON = White",
+        "UNCOMMON = Yellow",
+        "RARE = Aqua",
+        "EPIC = Light Purple"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11900": {
+    "id": 11900,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the provided entities' current pose.",
+        "Note that the pose is only updated at the end of a tick, so it may be inconsistent.",
+        "Can be set.",
+        "Setting the \"Fixed\" pose will make it stay until manually changed, this requires Paper 1.20.1+"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11864": {
+    "id": 11864,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Creeper is ignited."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11164": {
+    "id": 11164,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an entity sits down or stands up."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11168": {
+    "id": 11168,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player flips the page in a Lectern."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11170": {
+    "id": 11170,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a warden sniffs around."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13900": {
+    "id": 13900,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether a living entity was previously in a bucket."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13901": {
+    "id": 13901,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Attempts to roll the provided armadillos up (if they're idle) or out (if they're not idle)."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13902": {
+    "id": 13902,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the State of one or more Armadillos, cannot be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12637": {
+    "id": 12637,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets and sets the `Invisible` property of an armorstand entity or item, to do so with an armorstand item you must be using Paper."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12638": {
+    "id": 12638,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets and sets the `marker` property of an armorstand entity or item, to do so with an armorstand item you must have Paper."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12639": {
+    "id": 12639,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets and sets the `small` property of an armorstand entity or item, to do so with an armorstand item you must have Paper."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13903": {
+    "id": 13903,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the base item of this entity in a bucket form."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13904": {
+    "id": 13904,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the sound that is played when the provided entity is picked up in a bucket."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13905": {
+    "id": 13905,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets whether a living entity was previously in a bucket.",
+        "Can be set and reset."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12652": {
+    "id": 12652,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not a cat is looking up.",
+        "Can be set and reset."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9146": {
+    "id": 9146,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not the provided dolphins have been fed a fish.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12659": {
+    "id": 12659,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not the provided end crystals are showing the bedrock slate underneath them.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11195": {
+    "id": 11195,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not an enderman has been stared at.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12668": {
+    "id": 12668,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not the provided entities should burn during the day.",
+        "Applies to zombies, skeletons (all types), and phantoms",
+        "In 1.17.1 this doesn't work with skeleton variants, such as strays, but it does work with base skeletons.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12672": {
+    "id": 12672,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not the provided foxes or wolves are interested.",
+        "Paper 1.18.2+ is required to use this with foxes."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13906": {
+    "id": 13906,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether the provided entities are tamed.",
+        "Can be set.",
+        "If tamed, an entity cannot be tamed by a player through normal methods, even if it does not belong to anyone in particular."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12679": {
+    "id": 12679,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets whether the provided foxes are crouching, can be set and reset."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12686": {
+    "id": 12686,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets whether the item frame is \"fixed\" or not.",
+        "Can be set and reset.",
+        "When true it's not possible to destroy/move the frame (e. g. by damage, interaction, pistons, or missing supporting blocks), rotate the item or place/remove items."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12692": {
+    "id": 12692,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not the provided signs are editable.",
+        "Can be set and reset (which makes it editable)."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13907": {
+    "id": 13907,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The skript version."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13909": {
+    "id": 13909,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the Armadillo States."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12624": {
+    "id": 12624,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether or not the allay can duplicate itself.",
+        "Can be set."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13908": {
+    "id": 13908,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the applied color in the Dye event.",
+        "This expression can be set to another dye color."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8841": {
+    "id": 8841,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Minecraft version of a player, snapshots are not included."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13923": {
+    "id": 13923,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the relative order that the player is shown on the player list.",
+        "Can be set, added to and removed from.",
+        "Setting this modifies the order for the player you're setting it for."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13987": {
+    "id": 13987,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an Anvil Gui is clicked."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13988": {
+    "id": 13988,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an Anvil Gui is opened.",
+        "*Note*:",
+        "- To cancel this event you'll need to use the `Anvil GUI - Prevent Closing` effect before this event is called."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13989": {
+    "id": 13989,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an Anvil Gui is opened.",
+        "Can be cancelled."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13990": {
+    "id": 13990,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the progress of a block break is updated.",
+        "`event-number` = the block damage progress, ranges from 0.0 to 1.0, where 0 is no damage and 1.0 is the most damage."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13991": {
+    "id": 13991,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the fluid level of a block changes due to changes in adjacent blocks."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13992": {
+    "id": 13992,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the brewing of the contents inside a Brewing Stand is complete."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13993": {
+    "id": 13993,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a brewing stand starts to brew."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13994": {
+    "id": 13994,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an ItemStack is about to increase the fuel level of a brewing stand."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13995": {
+    "id": 13995,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Campfire starts to cook."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13996": {
+    "id": 13996,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Cauldron's level changes."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13997": {
+    "id": 13997,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event requires Paper.",
+        "Called when an item is about to be composted by an entity."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13998": {
+    "id": 13998,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event requires Paper.",
+        "Called when an item is about to be composted by a hopper.",
+        "To prevent hoppers from moving items into composters, cancel the Inventory move event from SkBee."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13999": {
+    "id": 13999,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an equipable item is dispensed from a block and equipped on a nearby entity."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14000": {
+    "id": 14000,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a block tries to dispense an item, but its inventory is empty."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14001": {
+    "id": 14001,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a block is about to dispense an item."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14002": {
+    "id": 14002,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an ElderGuardian appears in front of a Player."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14003": {
+    "id": 14003,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an EnderDragon changes phase."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14004": {
+    "id": 14004,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fired when an Enderman determines if it should attack a player or not.",
+        "Starts off cancelled if the player is wearing a pumpkin head or is not looking at the Enderman, according to Vanilla rules."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14005": {
+    "id": 14005,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an enderman escapes.",
+        "CRITICAL_HIT: The enderman has teleported away due to a critical hit",
+        "DROWN: Specific case for CRITICAL_HIT where the enderman is taking rain damage",
+        "INDIRECT: The enderman has teleported away due to indirect damage (ranged)",
+        "RUNAWAY: The enderman has stopped attacking and ran away",
+        "STARE: The enderman has teleported away due to the player staring at it during combat"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14006": {
+    "id": 14006,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an entity enters the hitbox of a block. Only called for blocks that react when an entity is inside. If cancelled, any action that would have resulted from that entity being in the block will not happen (such as extinguishing an entity in a cauldron).",
+        "Blocks this is currently called for:",
+        "Big dripleaf",
+        "Bubble column",
+        "Buttons",
+        "Cactus",
+        "Campfire",
+        "Cauldron",
+        "Crops",
+        "Ender Portal",
+        "Fires",
+        "Frogspawn",
+        "Honey",
+        "Hopper",
+        "Detector rails",
+        "Nether portals",
+        "Powdered snow",
+        "Pressure plates",
+        "Sweet berry bush",
+        "Tripwire",
+        "Waterlily",
+        "Web",
+        "Wither rose"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14007": {
+    "id": 14007,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an entity receives knockback."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14008": {
+    "id": 14008,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fired when an Entity is knocked back by the hit of another Entity.",
+        "The acceleration vector can be modified. If this event is cancelled, the entity is not knocked back."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14009": {
+    "id": 14009,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an entity enters love mode.",
+        "This can be cancelled but the used item will still be consumed."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14010": {
+    "id": 14010,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Triggered when an entity is created in the world by a player \"placing\" an item on a block.",
+        "Note that this event is currently only fired for four specific placements: armor stands, boats, minecarts, and end crystals."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14011": {
+    "id": 14011,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an entity changes its pose.",
+        "Note: **`past event-pose` is the same as `pose of event-entity`, due to this it's not guaranteed that it will always work correctly.**"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14012": {
+    "id": 14012,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fired when an entity is pushed by another entity's attack.",
+        "The acceleration vector can be modified. If this event is cancelled, the entity will not get pushed.",
+        "Note: Some entities might trigger this multiple times on the same entity as multiple acceleration calculations are done."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14013": {
+    "id": 14013,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a LivingEntity shoots a bow firing an arrow."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14014": {
+    "id": 14014,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called when a player takes items out of the furnace.",
+        "event-integer -> item amount being retrieved"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14015": {
+    "id": 14015,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Furnace starts smelting, or cooking for that matter."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14016": {
+    "id": 14016,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an item is put in a slot for repair or unenchanting in a grindstone."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14017": {
+    "id": 14017,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called whenever a player harvests a block.",
+        "A 'harvest' is when a block drops an item (usually some sort of crop) and changes state, but is not broken in order to drop the item.",
+        "This event is not called for when a block is broken."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12568": {
+    "id": 12568,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player interacts with a block or entity by clicking.",
+        "This event is always called unlike Skript's click event, meaning that it can be called for both hands.",
+        "You can use `main hand` and `off hand` to make it per hand.",
+        "`event-equipmentslot` = the slot of the used hand",
+        "`event-blockaction` = the action of this event",
+        "`event-vector` = the vector from the player to the interaction point",
+        "`event-location` = the location of the interaction point"
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14018": {
+    "id": 14018,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player drops an item from an inventory (or their own)."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14019": {
+    "id": 14019,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player changes their main hand in the client settings."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14020": {
+    "id": 14020,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player attempts to pick an item up from the ground."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14021": {
+    "id": 14021,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fired after a player has respawned."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14022": {
+    "id": 14022,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the player tries to attack an entity. This occurs before any of the damage logic, so cancelling this event will prevent any sort of sounds from being played when attacking. This event will fire as cancelled for certain entities, use the \"will be damaged\" condition to check if the entity will not actually be attacked.",
+        "Note: there may be other factors (invulnerability, etc) that will prevent this entity from being attacked that this event will not cover."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14023": {
+    "id": 14023,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player attempts to sleep but fails.."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14024": {
+    "id": 14024,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the velocity of a player changes due to outside circumstances."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14025": {
+    "id": 14025,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when someone uses a skript effect through the chat, also known as effect command, this can be enabled through skript's config."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14026": {
+    "id": 14026,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the recipe of an Item is completed inside a smithing table."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14027": {
+    "id": 14027,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Tameable dies and sends a death message."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14028": {
+    "id": 14028,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Warden's anger level has changed due to another entity.",
+        "If the event is cancelled, the warden's anger level will not change."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14029": {
+    "id": 14029,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when the server needs to verify if a player is whitelisted. Plugins may override/control the servers whitelist with this event, and dynamically change the kick message."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14030": {
+    "id": 14030,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An anvil gui."
+      ],
+      "ko": [
+        "[Lusk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "syntax_262": {
+    "id": 262,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Spawns a villager or zombie villager(1.9) allowing you to choose the profession",
+        "Professions:",
+        "https://skripthub.net/docs/?search=id:142"
+      ],
+      "ko": [
+        "[skProfession] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_142": {
+    "id": 142,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All Professions for Villagers/Zombie Villagers (Profession skUtilities)"
+      ],
+      "ko": [
+        "[skProfession] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

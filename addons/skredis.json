@@ -1,0 +1,373 @@
+{
+  "syntax_13217": {
+    "id": 13217,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the string stored in Redis."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13198": {
+    "id": 13198,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the message is from the proxy.",
+        "This will only return true if the message is from RediVelocity if you have the integration enabled.",
+        "This can only be used in the Redis Message Event."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13199": {
+    "id": 13199,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes the given hash from Redis."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13202": {
+    "id": 13202,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds a value to a specific list stored in Redis"
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13203": {
+    "id": 13203,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes the entry with the given index from the list stored in Redis."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13204": {
+    "id": 13204,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes the entry with the given value from the list stored in Redis."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13205": {
+    "id": 13205,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes the given list from Redis."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13206": {
+    "id": 13206,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets a specific index in a Redis list to a new value.",
+        "It will overwrite the value at the given index.",
+        "NOTE: If the index does not already exist, it will fail."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13207": {
+    "id": 13207,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends a message to a specific channel in Redis."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13208": {
+    "id": 13208,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes the given string from Redis."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13209": {
+    "id": 13209,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all field names of a hash stored in Redis."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13210": {
+    "id": 13210,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all field values of a hash stored in Redis."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13211": {
+    "id": 13211,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all field names of a hash stored in Redis that have the given value."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13212": {
+    "id": 13212,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the value of a field stored in a hash that is stored Redis."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13213": {
+    "id": 13213,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all values of a list stored in Redis."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13214": {
+    "id": 13214,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the channel name of the Redis message event.",
+        "This can only be used in the Redis Message Event."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13215": {
+    "id": 13215,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the message of the Redis message event.",
+        "This can only be used in the Redis Message Event."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13216": {
+    "id": 13216,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the date of the Redis message event as unix timestamp.",
+        "This can only be used in the Redis Message Event."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13200": {
+    "id": 13200,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes the given hash field from a hash stored in Redis."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13741": {
+    "id": 13741,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stops an async run that was started with `run async`."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13742": {
+    "id": 13742,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Runs the following code asynchronously on another thread. Useful for long-running operations."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13940": {
+    "id": 13940,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when any message is received from Redis. The message is a JSON string that can be parsed by SkJson for example."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13197": {
+    "id": 13197,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a message is received from Redis. This event only fires when the message is sent by SkRedis."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13941": {
+    "id": 13941,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a given key of any type exists in Redis."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13201": {
+    "id": 13201,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the given hash field to a value in a hash stored in Redis."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13942": {
+    "id": 13942,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends a custom message to a specific channel in Redis. The message has to be a valid JSON string. If not, the message will not be sent and a warning will be printed in the console."
+      ],
+      "ko": [
+        "[SkRedis] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

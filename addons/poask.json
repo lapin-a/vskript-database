@@ -1,0 +1,1139 @@
+{
+  "syntax_8541": {
+    "id": 8541,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make a player see their XP level as something that it is not"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13306": {
+    "id": 13306,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the bukkit Item Stack class version of an item"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8545": {
+    "id": 8545,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Remove a created guardian beam"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11949": {
+    "id": 11949,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Changes the vision to either **Creeper, Enderman, Spider or Player**",
+        "These are the only supported options.",
+        "*note*",
+        "This effect is based on a Minecraft bug (https://bugs.mojang.com/browse/MC-46503)",
+        "The support for this depends on how long it takes Minecraft to fix this :D"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8549": {
+    "id": 8549,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Turn the client glow off"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8536": {
+    "id": 8536,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the server brand in the player's f3 page"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8537": {
+    "id": 8537,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the player's IP address"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8547": {
+    "id": 8547,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Spawn a client side entity.",
+        "### note",
+        "These entities do NOT exist on the server. So using normal syntax's will not work on them. You cannot set variables to them. You must use packets for ever kind of manipulation on them. See the metadata packet syntax."
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8539": {
+    "id": 8539,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Change what the player sees for their health. Not to confuse this with health scaling, this is purely packet based"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8544": {
+    "id": 8544,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a guardian beam for the player.",
+        "The colour is a string because I am lazy :D",
+        "*Do note, that if a colour is used, the guardian itself will glow. This sucks but cannot be made without an actual guardian. It does defeat the purpose of it but thought I would add the option anyways.*",
+        "*These are not persistent between reboots*"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8542": {
+    "id": 8542,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Similar to Skript's *send block change* effect, this can do multiple blocks within a single packet. More efficient for larger scaled faking"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8554": {
+    "id": 8554,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Similar to skript's hostname expression however, this works outside the player connect event. Making it easier to use."
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8548": {
+    "id": 8548,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes an entity from a client",
+        "This works for both fake and real entities"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8546": {
+    "id": 8546,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the locations for specific blocks within a chunk",
+        "Faster than looping all blocks with Skript",
+        "*see https://pastebin.com/Fnt1xkNA for a test skript to show the performance differences*"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11264": {
+    "id": 11264,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set a player's skin",
+        "### only use the signature when the `skin of` is a texture value"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8852": {
+    "id": 8852,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Change the overhead name of the player. Not the prefix or suffix the **ACTUAL** username of the player. This is limited by the clients 16 character max characters. But it does support colour (&) *(it does use characters up though)*",
+        "You can make it so different players see different names per person. As all packets this is not persistent.",
+        "*As of now this is only supported on* **1.19.3/4** *servers due to Mojang's mapping and ClientboundInfo packets*"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8540": {
+    "id": 8540,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make a player see your armour and holding items as different to what they are. This works for mobs too.",
+        "You can use an entity id instead of an entity for fake entities",
+        "For the string use any of the following:",
+        "**HAND**",
+        "**OFF_HAND**",
+        "**HEAD**",
+        "**CHEST**",
+        "**LEGS**",
+        "**FEET**"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9245": {
+    "id": 9245,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the entity id of an entity"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9247": {
+    "id": 9247,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "# As of PoaSK 4.16.11 this has been removed. Use SkBee's `on player track entity`",
+        "Called when a player loads an entity, not when an entity is added to a world. This is a packet event.",
+        "Useful for sending packets for things like metadata and ect."
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11562": {
+    "id": 11562,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Turn entities into BaeFell"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9345": {
+    "id": 9345,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the camera to another entity or fake entity.",
+        "Player can rotate while looking at themselves.",
+        "They cannot move unless riding an entity"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9335": {
+    "id": 9335,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send the head rotation packet.",
+        "https://wiki.vg/Protocol#Set_Head_Rotation"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9356": {
+    "id": 9356,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Spawn a fake dropped item"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9337": {
+    "id": 9337,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send the rotation packet for fake entities",
+        "https://wiki.vg/Protocol#Update_Entity_Rotation"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9336": {
+    "id": 9336,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Move a fake entity packet.",
+        "https://wiki.vg/Protocol#Update_Entity_Position",
+        "(The amounts are not in blocks. Please read the wiki above)",
+        "# 4096 is 1 block"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9880": {
+    "id": 9880,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set a variable to a custom raw metadata used"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9899": {
+    "id": 9899,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make entities ride another entity but all client side. Works with fake entities"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11564": {
+    "id": 11564,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Give the riptide spin effect"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9882": {
+    "id": 9882,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends a raw packet to players"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9334": {
+    "id": 9334,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fake an entities name per player."
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10884": {
+    "id": 10884,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends an action bar packet. Similar to Skript's one however, this one won't be cancelled by the `on action bar send` event"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11978": {
+    "id": 11978,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send arm swing and critical hits animation packets",
+        "### Animation ID's",
+        "0 - Arm Swing",
+        "1 - Unused by Mojang",
+        "2 - Leave Bed",
+        "3 - OffHand Swing",
+        "4 - Critical Hit",
+        "5 - Magic Critical Hit"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10966": {
+    "id": 10966,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Spawn client sided falling blocks"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10969": {
+    "id": 10969,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the connected blocks from a location that is not air"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11979": {
+    "id": 11979,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**On 1.21.3 this event is called at any input. Below this version it is only called when mounted on an entity.**",
+        "event-vector  - gives the x and z outputs of the packet. (not in 1.21.3)",
+        "event-boolean - gives whether jumping ocured (not in 1.21.3)",
+        "#### event-string - returns \"W\" \"A\" \"S\" \"D\" \"SPACE\" \"SHIFT\", \"SPRINT\" (note: shift will dismount, so cancel that event if needed)",
+        "*note* cancelling this event is kind of pointless since it just cancels the server from receiving the packet, but possible regardless. This will cause desync"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11988": {
+    "id": 11988,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called whenever the block update packet is sent",
+        "### WARNING",
+        "this event is fired for placing blocks, natural updates like leaves, dirt changing to grass, plant growth ect...",
+        "DO NOT CANCEL WITHOUT CHECKS",
+        "This is useful for checking custom send block changes using Skript's `make player see %block% as %block%`"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11220": {
+    "id": 11220,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Remove a fake player"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11221": {
+    "id": 11221,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the entity id of a fake player sent to a player"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14500": {
+    "id": 14500,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get a string list of all guardian beams"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11633": {
+    "id": 11633,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Change the player's name and skin for each player.",
+        "## Note: There is a tick delay, so if the player is coming out of spectator for example, they will see the original player for a tick before it can update. This is planned on being fixed :D"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11646": {
+    "id": 11646,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Spawn fake lightning for a player, client side lightning bolt :D"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11671": {
+    "id": 11671,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Teleporting a fake entity more than 8 blocks (if less use move packet) (don't have to but is advised)",
+        "**NOTE**",
+        "*If the fake entity is out of view you have to respawn it and set all it's data again, this only works if the fake entity is within player view*"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11714": {
+    "id": 11714,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Packet fired when chat messages are sent to a player incoming from the system. EG: broadcasts from plugins ect.",
+        "### This is also fired on action bar",
+        "#### Note",
+        "The event-string value returns the minimessage format of the string, use `uncolored mini message from event-string` to get the raw text"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11715": {
+    "id": 11715,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Packet fired when chat messages are sent to a player incoming from another player.",
+        "#### Do not use instead of `on chat`, rather this is to stop certain people seeing messages.",
+        "#### Note",
+        "The event-string value returns the minimessage format of the string, use `uncolored mini message from event-string` to get the raw text"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11716": {
+    "id": 11716,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends the death packet and the other packets required"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11806": {
+    "id": 11806,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fakes the scale attribute to resize entities or player",
+        "## This only works on 1.20.6+"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12991": {
+    "id": 12991,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Add any name and any skin with any ping to tablist.",
+        "Uses?",
+        "`hide {_target} from {_player}` removes the player from the tablist. What if you want to add them back? Now you can",
+        "#### You can use skin textures by inputting the texture into the skin name option",
+        "### BIG NOTE!!",
+        "The `with username` part is if you plan on using teams packets to sort the tablist. **DO NOT** use real player names. just make them up. This value is not shown and is used behind the scenes. For sorting only alphabetically. Example below",
+        "### Do not use real UUID's",
+        "This method spawns a fake player information without spawning the actual player entity. Using real uuids will mess things up",
+        "Keep a note of the uuid used otherwise you cannot remove them, adding 2 with the same uuid means you can only remove 1. This on the client"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12992": {
+    "id": 12992,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Remove a player from tablist using UUID. Don't use this for real players *I mean you can but I would recommend the syntax from SkBee*. Use this for fake ones spawned"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11647": {
+    "id": 11647,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "If you need more than the skript provides use reflect.",
+        "Reflect Syntax's:",
+        "event.getParticle()",
+        "event.getParticle().name()",
+        "event.setCancelled(true/false)",
+        "event.getPlayer()",
+        "event.getX()",
+        "event.getY()",
+        "event.getZ()",
+        "event.getXOffset()",
+        "event.getYOffset()",
+        "event.getZOffset()",
+        "event.getWorld()",
+        "event.getMaxSpeed()",
+        "event.getCount()",
+        "The event when a particle is sent :D",
+        "[Git Link](https://github.com/Ekpoa/PoaSkRewritev2/blob/master/nms121/src/main/java/poa/packets/packetListener/events/ParticleEvent121.java)"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13245": {
+    "id": 13245,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates the *ghost* like effect with invisible entities",
+        "*you must have scoreboard-team anti override set to false in TAB config, if you have TAB*"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9246": {
+    "id": 9246,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send a scoreboard team packet to player",
+        "if using players in teams, you must disable TAB anti-override.",
+        "### 1 entity/player can only be in 1 team at a time.",
+        "### If adding a player to a team, use their name and not their uuid for the uuid section",
+        "for the nametag visibility use one of the following strings (case sensitive):",
+        "always",
+        "hideForOtherTeams",
+        "hideForOwnTeam",
+        "never",
+        "for collision use one of the following strings (case sensitive):",
+        "always",
+        "pushOtherTeams",
+        "pushOwnTeam",
+        "never"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13247": {
+    "id": 13247,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "If you have a chunk full of chests, this method grabs all those items",
+        "I'm adding this because the same code performed in skript froze the server for 10 seconds. In java it is a lot more performant",
+        "*note* uses for this is very little, I personally needed it, so I added it here"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13304": {
+    "id": 13304,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fakes the cooldown of the item.",
+        "The item cooldown is similar to that used by vanilla enderpearls",
+        "This is different to the Skript's syntax because Skript's (Bukkit's) prevents the client from using the item. This does not"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13286": {
+    "id": 13286,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Uses NMS methods to set blocks fast",
+        "*just for information*",
+        "Skript crashed server trying to fill 4 million blocks",
+        "Java crashed server trying to fill 4 million blocks",
+        "This method took 0.42 seconds to fill 4 million blocks"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13307": {
+    "id": 13307,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Replaces blocks within 2 locations extremely fast",
+        "Bukkit and Skript crashes the server when attempted to do 4 million blocks within a single tick",
+        "This effect takes 0.42 seconds to execute"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12392": {
+    "id": 12392,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is purely accessible via reflect. Examples are below",
+        "This is for 1.20.6+",
+        "[GitHub Link](https://github.com/Ekpoa/PoaSkRewritev2/blob/master/nms1213/src/main/java/poa/packets/packetListener/events/SoundEvent1214.java)"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13712": {
+    "id": 13712,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Turn item stacks into a base 64 expression for better storage"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13776": {
+    "id": 13776,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the world guard region object. This is used for reflect only"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13913": {
+    "id": 13913,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Convert any number to roman numerals and back again",
+        "anything above 3999 will just have a ton of M's as roman numerals have no letter for higher than this number. Minecraft doesn't support overline characters"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9881": {
+    "id": 9881,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "##OLD METHOD",
+        "The String options are as followed: *(capitals do not matter)*",
+        "\"fire %boolean%\"",
+        "\"invisible %boolean%\"",
+        "\"glowing %boolean%\"",
+        "\"silent %boolean%\"",
+        "\"gravity %boolean%\"",
+        "\"name visible %boolean%\"",
+        "\"name %string%\" *(this should follow minimessage format)*",
+        "\"pose %string%\" *(look at the metadata packet for list of poses)*",
+        "\"health %number%\"",
+        "\"air %number%\" (this is the remaining air, 300 is default and it is in ticks, setting it to 150 will show 5/10 bubbles that increase as you are out of the water)",
+        "**Below is armor stand data**",
+        "\"stand small %boolean%\"",
+        "\"stand arms %boolean%\"",
+        "\"stand NoBasePlate %boolean%\"",
+        "\"stand marker %boolean%\"",
+        "\"stand left arm %number% %number% %number%\" *(no commas)*",
+        "\"stand left leg %number% %number% %number%\" *(no commas)*",
+        "\"stand right arm %number% %number% %number%\" *(no commas)*",
+        "\"stand right leg %number% %number% %number%\" *(no commas)*",
+        "\"stand head %number% %number% %number%\" *(no commas)*",
+        "\"stand body %number% %number% %number%\" *(no commas)*",
+        "\"display item\" with %item%",
+        "\"display block\" with %item%",
+        "\"display interpolation delay %number%\"",
+        "\"display transformation duration %number%\"",
+        "\"display posrot %number%\" *position and rotation*",
+        "\"display translation %number% %number% %number%\"",
+        "\"display scale %number% %number% %number%\"",
+        "\"display left rotation %number% %number% %number% %number%\"",
+        "\"display right rotation %number% %number% %number% %number%\"",
+        "\"display billboard %string%\" *fixed/vertical/horizontal/center*",
+        "\"display brightness %number% %number%\" *(block light, sky light)*",
+        "\"display view range %number%\"",
+        "\"display shadow radius %number%\"",
+        "\"display shadow strength %number%\"",
+        "\"display width %number%\"",
+        "\"display height %number%\"",
+        "\"display glow override %number% %number% %number%\" *(no commas)*",
+        "\"display line width %integer%\"",
+        "\"display background color %integer% %integer% %integer% %integer%\" *ARGB (no commas)*",
+        "\"display text %text%\"",
+        "\"interaction width %number%\"",
+        "\"interaction height%number%\""
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13921": {
+    "id": 13921,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Metadata for entities, both for real and fake. Note that if a real entity changes pose or anything the metadata is overwritten by the server",
+        "View Example for all options"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13986": {
+    "id": 13986,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send fake biomes. The string must be a namespace key. eg `minecraft:plains` this also works for custom biomes too",
+        "### Only for 1.12.3+",
+        "Note: sometimes you may need to send twice. send once, wait a tick and send again. Seems to be a client thing. All the code is done async."
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14204": {
+    "id": 14204,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player runs an action",
+        "The `event-string` will return one of the following:",
+        "DROP_ITEM",
+        "ABORT_DESTROY_BLOCK",
+        "DROP_ALL_ITEMS",
+        "RELEASE_USE_ITEM",
+        "START_DESTROY_BLOCK",
+        "STOP_DESTROY_BLOCK",
+        "SWAP_ITEM_WITH_OFFHAND"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11219": {
+    "id": 11219,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Spawns a fake player in the world.",
+        "They do vanish on world change so run events and respawn them",
+        "### If using skin textures, change the skin name to the format of `texture,signature` or just `texture` examples below.",
+        "### If using a custom skin you just need `texture`! DO NOT USE SIGNATURE",
+        "#### Side Note: In the PoaSK config change `SaveSkinCacheToDisk: false` to `SaveSkinCacheToDisk: true` cache textures signature to disk when using just texture. Recommended for constant placing of fake characters. *If the config option is not there. Just add the line*",
+        "#### Further Note: When using just `texture` there first spawned fake entity (unless disk cached) will show no skin until the skin is fetched. Then it is cached and will be instant."
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14321": {
+    "id": 14321,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This is an advanced feature and is **not** enabled by default. Enable it in the PoaSK config",
+        "This event is designed to be used with reflect for any packet management",
+        "This event is triggered by every packet sent to and from the client.",
+        "Heavy code under this event is not advised as it is ran on the Netty thread and could disconnect players.",
+        "### I will not give help for this event if you do not have a fundamental understanding of packets or NMS"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8543": {
+    "id": 8543,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to make an entity or player glow for a player and not glow for another. Or different colours. Useful for things such as teams.",
+        "Do note: for entities (maybe players) un rendering the entity will make the player stop seeing them glow.",
+        "### If you have TAB make sure you turn `team anti-overide` to `false`",
+        "### If you do not have this option (due to TAB's newer versions) change `DisableTabTeamHandling` to `true` in PoaSK config. DO NOT CHANGE IF YOU ARE NOT USING TAB"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8535": {
+    "id": 8535,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a Minecraft debug marker. Due to Mojang shader change at 1.16 only the green channel functions correctly upto 1.20.2",
+        "all colours work on 1.20.4 - 1.21.8",
+        "## NOTE: 1.21.9+ only green shows. Color cannot be changed, text cannot be changed it ONLY lasts for 10 seconds.",
+        "### Further note: If using via versions:",
+        "server versions lower than 1.21.9 will not show the marker to clients 1.21.9+",
+        "server versions 1.21.9+ will not show markers to clients below 1.21.9",
+        "This is all due to minecraft's changes. These packets are designed for minecraft's developers, thus not updated"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14334": {
+    "id": 14334,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is fired when a player loads a chunk.",
+        "## NOTE: do not make real world changes with this event. If you want to use [this](https://skripthub.net/docs/?id=10460)",
+        "This event is used when faking blocks in a chunk when they load them. This is faster than using the `Player Chunk Load` and then faking blocks",
+        "Check examples of how to use",
+        "If you cancel this event, player will just see void"
+      ],
+      "ko": [
+        "[PoaSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

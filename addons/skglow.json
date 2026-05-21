@@ -1,0 +1,129 @@
+{
+  "syntax_8444": {
+    "id": 8444,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "See if a player is glowing"
+      ],
+      "ko": [
+        "[skGlow] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8448": {
+    "id": 8448,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stop a player from glowing"
+      ],
+      "ko": [
+        "[skGlow] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8449": {
+    "id": 8449,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or delete a player's current or last glow a color. Last glow color cannot be set."
+      ],
+      "ko": [
+        "[skGlow] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8451": {
+    "id": 8451,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a glow color that players can glow",
+        "**NOTE: You need to either prefix or suffix the color with \"glow\"**. See examples for an example of this"
+      ],
+      "ko": [
+        "[skGlow] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8450": {
+    "id": 8450,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an effect speed (fast or slow)"
+      ],
+      "ko": [
+        "[skGlow] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6090": {
+    "id": 6090,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make a player glow a certain color"
+      ],
+      "ko": [
+        "[skGlow] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8452": {
+    "id": 8452,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make a player glow in a rainbow"
+      ],
+      "ko": [
+        "[skGlow] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8454": {
+    "id": 8454,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make a player glow a color"
+      ],
+      "ko": [
+        "[skGlow] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8453": {
+    "id": 8453,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make a player blink a color"
+      ],
+      "ko": [
+        "[skGlow] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

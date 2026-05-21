@@ -1,0 +1,2116 @@
+{
+  "syntax_6194": {
+    "id": 6194,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a player completes an advancement."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6229": {
+    "id": 6229,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates an npc with the specified name and spawns it at the specified location as the specified type if it is set (default type is a player)."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6457": {
+    "id": 6457,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when an elder guardian appears in front of a player. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6458": {
+    "id": 6458,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when an animal enters love mode."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6218": {
+    "id": 6218,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes the npc start pathfinding to the specified livingentity & start attacking when they get close enough.",
+        "NOTE: You can stop this from occurring by using the CancelNPCPath effect."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6460": {
+    "id": 6460,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when an NPC is right-clicked."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6459": {
+    "id": 6459,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when an entity is teleported through an end gateway. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6461": {
+    "id": 6461,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a piglin is bartered with."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6462": {
+    "id": 6462,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a player is teleported through an end gateway. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6463": {
+    "id": 6463,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a raid is completed by players."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6467": {
+    "id": 6467,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when the time in a world is skipped."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6469": {
+    "id": 6469,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the specified entity/entities can join a raid."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6470": {
+    "id": 6470,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an animal is in breeding mode."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6471": {
+    "id": 6471,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the specified entity/entities is/are in a bubble column."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6200": {
+    "id": 6200,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when an NPC is spawned."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6464": {
+    "id": 6464,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a raid spawns a new wave."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6465": {
+    "id": 6465,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a raid ends and is not finished."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6466": {
+    "id": 6466,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a raid is triggered by a player."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6468": {
+    "id": 6468,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when an unknown command is executed."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6199": {
+    "id": 6199,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when an NPC looks at a player with the lookclose trait."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6472": {
+    "id": 6472,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the respawn location of a player is a respawn anchor."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6473": {
+    "id": 6473,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the specified entity/entities is/are a patrol leader."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6474": {
+    "id": 6474,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Loads the saved data of a player."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6478": {
+    "id": 6478,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Saves the data of a player."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6479": {
+    "id": 6479,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the entity/entities ability to join a raid to true/false."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6480": {
+    "id": 6480,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the entity/entities ability to be a patrol leader to be true/false."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6482": {
+    "id": 6482,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the entity that's caught from the fishing event. (get)",
+        "May only be used in the PlayerFishEvent."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6477": {
+    "id": 6477,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a villager sleep at a location."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6476": {
+    "id": 6476,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes the specified horse do the kicking animation for the specified players (through packets).",
+        "NOTE: You can stop this from occurring by using the StopHorseKick effect."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6481": {
+    "id": 6481,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes the specified horse stop doing any animation (even if they're not currently doing the kick animation) for the specified players (through packets)."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6475": {
+    "id": 6475,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes the specified horse do the kicking animation for the specified players (through packets).",
+        "NOTE: You can stop this from occurring by using the StopHorseKick effect."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6195": {
+    "id": 6195,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when an NPC is clicked."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6483": {
+    "id": 6483,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the delay of a block. (Must be a spawner)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6484": {
+    "id": 6484,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the domestication (temper) of a horse, skeleton horse, or zombie horse."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6485": {
+    "id": 6485,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skream] No official English guide provided."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6486": {
+    "id": 6486,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skream] No official English guide provided."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6487": {
+    "id": 6487,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the fishing state from the fishing event. (get)",
+        "May only be used in the PlayerFishEvent.",
+        "Fishing States: BITE, CAUGHT_ENTITY, CAUGHT_FISH, FAILED_ATTEMPT, FISHING, IN_GROUND, and REEL_IN"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6488": {
+    "id": 6488,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the experience gained from the fishing event. (get & set)",
+        "May only be used in the PlayerFishEvent."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6489": {
+    "id": 6489,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the fishing hook (entity) from the fishing event. (get)",
+        "May only be used in the PlayerFishEvent."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6490": {
+    "id": 6490,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the specified hook's max wait time. (get & set)",
+        "Entity may only be a fishing hook (see Fishing Hook expression)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6491": {
+    "id": 6491,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the specified hook's min wait time. (get & set)",
+        "Entity may only be a fishing hook (see Fishing Hook expression)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6492": {
+    "id": 6492,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the specified hook's state. (get)",
+        "Entity may only be a fishing hook (see Fishing Hook expression)",
+        "Hook States: BOBBING, HOOKED_ENTITY, and UNHOOKED"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6493": {
+    "id": 6493,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the hooked entity of the specified fishing hook. (get & set)",
+        "Entity may only be a fishing hook (see Fishing Hook expression)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6494": {
+    "id": 6494,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the domestication (temper) of a horse, skeleton horse, or zombie horse."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6495": {
+    "id": 6495,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get the team type via an expression."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6498": {
+    "id": 6498,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a beacon activates. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6499": {
+    "id": 6499,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a beacon deactivates. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6500": {
+    "id": 6500,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a bell reveals a raider. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6501": {
+    "id": 6501,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a bell is rung. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6502": {
+    "id": 6502,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a player changes the effect of a beacon. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6503": {
+    "id": 6503,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a player edits their client settings. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6504": {
+    "id": 6504,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when an entity loads a crossbow. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6452": {
+    "id": 6452,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a dragon changes phases. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6453": {
+    "id": 6453,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a dragon egg is formed after the dragon is defeated. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6454": {
+    "id": 6454,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a dragon's fireball hits something. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6455": {
+    "id": 6455,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a dragon shoots a fireball. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6456": {
+    "id": 6456,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a dragon shoots flames. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6505": {
+    "id": 6505,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a player enters deep sleep. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6506": {
+    "id": 6506,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when an entity moves. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6507": {
+    "id": 6507,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a dispenser fails at dispensing. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6508": {
+    "id": 6508,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a player manipulates a flower pot. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6509": {
+    "id": 6509,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a gamerule is changed. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6510": {
+    "id": 6510,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a player turns a page on a lectern. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6511": {
+    "id": 6511,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a player takes a book from a lectern. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6512": {
+    "id": 6512,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a player selects a pattern from a loom. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6513": {
+    "id": 6513,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a player renames an entity. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6514": {
+    "id": 6514,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a player receives an item cooldown. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6515": {
+    "id": 6515,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a player trades with a villager or wandering trader. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6516": {
+    "id": 6516,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a dispenser is about to dispense. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6517": {
+    "id": 6517,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a puffer fish changes it's state. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6518": {
+    "id": 6518,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a player purchases an item from a merchant. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6519": {
+    "id": 6519,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a player uses shears on a block. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6520": {
+    "id": 6520,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a slime changes direction. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6521": {
+    "id": 6521,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a slime pathfinds. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6522": {
+    "id": 6522,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a slime swims. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6523": {
+    "id": 6523,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a slime targets a living entity. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6524": {
+    "id": 6524,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a slime starts to wander. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6525": {
+    "id": 6525,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a player selects a recipe from a stonecutter. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6526": {
+    "id": 6526,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a structure is located. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6527": {
+    "id": 6527,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a target block is hit. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6528": {
+    "id": 6528,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a thrown egg hatches. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6529": {
+    "id": 6529,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a turtle starts to dig. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6530": {
+    "id": 6530,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a turtle goes home. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6531": {
+    "id": 6531,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a turtle goes home. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6532": {
+    "id": 6532,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a witch consumes a potion. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6533": {
+    "id": 6533,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a witch readies a potion. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6534": {
+    "id": 6534,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a witch throws a potion. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6535": {
+    "id": 6535,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when the bounds of a world border change. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6536": {
+    "id": 6536,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when the bounds of a world border are done changing. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6537": {
+    "id": 6537,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when the center of a world border change. (Paper)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6538": {
+    "id": 6538,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the jump strength of a horse, skeleton horse, or zombie horse."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6201": {
+    "id": 6201,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a player rightclicks an npc."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6203": {
+    "id": 6203,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is from a spawner."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6202": {
+    "id": 6202,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when a player's velocity shifts."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6198": {
+    "id": 6198,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when an NPC is left-clicked."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6197": {
+    "id": 6197,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when an NPC is despawned."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6196": {
+    "id": 6196,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks when an NPC is created."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6204": {
+    "id": 6204,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player an advancement."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6205": {
+    "id": 6205,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the specified entity/entities is/are in lava."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6206": {
+    "id": 6206,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the specified entity/entities is/are in rain."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6207": {
+    "id": 6207,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the specified entity/entities is/are in water."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6216": {
+    "id": 6216,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gives a player an advancement."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6225": {
+    "id": 6225,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes/deletes all potion effects from an entity."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6228": {
+    "id": 6228,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gives a player an advancement."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6227": {
+    "id": 6227,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Respawns an npc at the specified location if it has been despawned (see Despawn NPC effect)."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6223": {
+    "id": 6223,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Temporarily pauses the NPC from completing any pathfinding tasks."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6221": {
+    "id": 6221,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to set the flight mode of the specified npc to false/true"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6222": {
+    "id": 6222,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to set the skin of the specified npc to the specified player's name (the string value).",
+        "NOTE: This only works if the npc's type is a player!"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6220": {
+    "id": 6220,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes the specified NPC start pathfinding to the specified location.",
+        "NOTE: If the NPC is unable to naturally walk to the location, it will teleport!"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6217": {
+    "id": 6217,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to set the lookclose trait of the specified npc to true/false"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6215": {
+    "id": 6215,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to equip an npc with an itemstack. This is used for armor."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6212": {
+    "id": 6212,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes an NPC's data and completely removes it from the server."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6214": {
+    "id": 6214,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes the specified NPC from the world (doesn't delete data completely) but allows it to be respawned if needed (See Respawn NPC effect)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6208": {
+    "id": 6208,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the specified entity is an NPC."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6213": {
+    "id": 6213,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Unregisters/Deletes a team"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6209": {
+    "id": 6209,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an npc is pathfinding/navigating."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6210": {
+    "id": 6210,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Assigns an entity to a team.",
+        "NOTE: Entities are added to the team via their ID and players are added via their name."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6211": {
+    "id": 6211,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stops the NPC from completing its pathfinding goal.",
+        "NOTE: This can also be used to stop an NPC from attacking."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6219": {
+    "id": 6219,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes the npc continuously pathfind (follow) to the specified livingentity.",
+        "NOTE: You can stop this from occurring by using the CancelNPCPath effect."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6226": {
+    "id": 6226,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes an entity from a team.",
+        "NOTE: Entities are removed from the team via their ID and players are removed via their name."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6224": {
+    "id": 6224,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Registers/creates a team"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6246": {
+    "id": 6246,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the name of the plugin that created the specified command."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6248": {
+    "id": 6248,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a random server idea"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6257": {
+    "id": 6257,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Vanilla team"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6231": {
+    "id": 6231,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list containing the id of all npcs. (Loop-able)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6232": {
+    "id": 6232,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list containing the teams. (Loop-able)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6255": {
+    "id": 6255,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the npc's held item (main hand)."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6250": {
+    "id": 6250,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the integer value of the size of the specified team."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6245": {
+    "id": 6245,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the item in the npc's offhand."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6247": {
+    "id": 6247,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the prefix of the specified team."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6243": {
+    "id": 6243,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the id of the specified entity if they are an npc."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6242": {
+    "id": 6242,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the id of the last spawned npc (that was spawned via this addon)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6244": {
+    "id": 6244,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the name of the specified npc."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6241": {
+    "id": 6241,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the hurt sound of the specified NPC",
+        "NOTE: Can only be used if the NPC's type is not a player. Additionally, this value will return <none> if it has not been set."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6240": {
+    "id": 6240,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the glowing state of the specified npc."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6237": {
+    "id": 6237,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the display-name of the specified team shown in /team list.",
+        "NOTE: The original name of the team will still need to be used when modifying the team in any way."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6235": {
+    "id": 6235,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the color of the specified team.",
+        "With 2.0, colors are no longer strings.",
+        "1.0 COLORS: red, dark_red, blue, dark_blue, aqua, dark_aqua, dark_purple, light_purple, black, white, yellow, gold, gray, dark_gray, green and dark_green"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6234": {
+    "id": 6234,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the collidability of the specified npc."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6230": {
+    "id": 6230,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Unpauses the NPC and allows them to complete any previously assigned pathfinding tasks."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6233": {
+    "id": 6233,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the ambient sound of the specified NPC",
+        "NOTE: Can only be used if the NPC's type is not a player. Additionally, this value will return <none> if it has not been set."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6236": {
+    "id": 6236,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the death sound of the specified NPC",
+        "NOTE: Can only be used if the NPC's type is not a player. Additionally, this value will return <none> if it has not been set."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6254": {
+    "id": 6254,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the team of the specified entity."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6239": {
+    "id": 6239,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the glow color of the specified NPC.",
+        "With 2.0, colors are no longer strings.",
+        "1.0 COLORS: red, dark_red, blue, dark_blue, aqua, dark_aqua, dark_purple, light_purple, black, white, yellow, gold, gray, dark_gray, green and dark_green"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6249": {
+    "id": 6249,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the silent state of the specified NPC."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6251": {
+    "id": 6251,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the sneak state of the specified player(s)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6252": {
+    "id": 6252,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the sprint state of the specified player(s)"
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6253": {
+    "id": 6253,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the prefix of the specified team."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6256": {
+    "id": 6256,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the vulnerability state (whether they can be damaged or not) of the specified NPC."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6238": {
+    "id": 6238,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list containing the entries in the specified team. (Loop-able)",
+        "Note: If the server restarts or the entity is despawned for some reason, a non-player entity will most likely not be returned."
+      ],
+      "ko": [
+        "[Skream] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

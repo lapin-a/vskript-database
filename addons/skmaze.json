@@ -1,0 +1,143 @@
+{
+  "syntax_9352": {
+    "id": 9352,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the cells that make up the route from entrance to exit of a maze."
+      ],
+      "ko": [
+        "[SkMaze] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9353": {
+    "id": 9353,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the type of a cell."
+      ],
+      "ko": [
+        "[SkMaze] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9354": {
+    "id": 9354,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a cell in a maze."
+      ],
+      "ko": [
+        "[SkMaze] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9355": {
+    "id": 9355,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a maze object."
+      ],
+      "ko": [
+        "[SkMaze] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9348": {
+    "id": 9348,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the type of a cell."
+      ],
+      "ko": [
+        "[SkMaze] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9346": {
+    "id": 9346,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the column/row of a cell (essentially the offset from the base)."
+      ],
+      "ko": [
+        "[SkMaze] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9347": {
+    "id": 9347,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the offset of a cell in Vector form."
+      ],
+      "ko": [
+        "[SkMaze] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9349": {
+    "id": 9349,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get a list of cells of a maze."
+      ],
+      "ko": [
+        "[SkMaze] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9350": {
+    "id": 9350,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a new maze. Height/Width needs to be greater than 3 and should be odd numbers.",
+        "The first pattern (just size) will create a maze with the same height/width."
+      ],
+      "ko": [
+        "[SkMaze] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9351": {
+    "id": 9351,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the entrance/exit cells of a maze."
+      ],
+      "ko": [
+        "[SkMaze] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

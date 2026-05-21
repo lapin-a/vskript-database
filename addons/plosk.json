@@ -1,0 +1,388 @@
+{
+  "syntax_6278": {
+    "id": 6278,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get all plot flags that have a value in a plot"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6279": {
+    "id": 6279,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Set the home of a plot"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6280": {
+    "id": 6280,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the average rating of a plot"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6281": {
+    "id": 6281,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the biome of a plot"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6283": {
+    "id": 6283,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a location is in a road"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6284": {
+    "id": 6284,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a player is owner or trusted in a plot"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6258": {
+    "id": 6258,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player enters a plot"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6259": {
+    "id": 6259,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a plot leaves a plot"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6260": {
+    "id": 6260,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player claims a plot"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6261": {
+    "id": 6261,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player deletes a plot"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6262": {
+    "id": 6262,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player merges a plot",
+        "Has event value \"merge direction\" to get what direction the player merged"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6263": {
+    "id": 6263,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player clears a plot"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6264": {
+    "id": 6264,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player rates a plot"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6265": {
+    "id": 6265,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player is denied from a plot",
+        "Has \"denied player\" for the denied player"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6266": {
+    "id": 6266,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player is undenied from a plot"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6267": {
+    "id": 6267,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player is trusted on a plot",
+        "Has \"trusted player\" to get the trusted player"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6268": {
+    "id": 6268,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player is untrusted from a plot",
+        "Has \"untrusted player\" to get the untrusted player"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6269": {
+    "id": 6269,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player teleports to a plot"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6270": {
+    "id": 6270,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the plot at a location"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6271": {
+    "id": 6271,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get a players owned plot id's"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6272": {
+    "id": 6272,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the owner of a plot"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6273": {
+    "id": 6273,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the trusted players in a plot",
+        "(null represents \"*\", most of the time)"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6274": {
+    "id": 6274,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the members of a plot",
+        "(null represents \"*\", most of the time)"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6275": {
+    "id": 6275,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the denied players in a plot",
+        "(null represents \"*\", most of the time)"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6276": {
+    "id": 6276,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get all plot ids and optionally get all plot ids in a world"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6277": {
+    "id": 6277,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Set a plot's flag value"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6282": {
+    "id": 6282,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the inner border blocks of a plot at a specified height",
+        "!! NO LONGER WORKS ON 1.1+ !!"
+      ],
+      "ko": [
+        "[Plosk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

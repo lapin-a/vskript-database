@@ -1,0 +1,270 @@
+{
+  "syntax_6676": {
+    "id": 6676,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Text] - Text to display on hologram (support colors - &)",
+        "[Parent Hologram Name] - Create hologram below parent hologram"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6677": {
+    "id": 6677,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Text] - Return line in page (from url)  if line contains this text",
+        "[Url] - Url to page"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6119": {
+    "id": 6119,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Enable/Dispable plugin by name or file"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6118": {
+    "id": 6118,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Load script from file"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6120": {
+    "id": 6120,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Load script from string"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6121": {
+    "id": 6121,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Load content of url as script"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6123": {
+    "id": 6123,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Remove hologram by name"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6122": {
+    "id": 6122,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create simple hologram (supported color text), if You not set time, default is 20 ticks (1s)"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6124": {
+    "id": 6124,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Update hologram"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6337": {
+    "id": 6337,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create YAML file (& directory if not exist)"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6091": {
+    "id": 6091,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Display bossbar, if You not set time, default is 20 ticks (1s)"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6338": {
+    "id": 6338,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Delete YAML file"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6092": {
+    "id": 6092,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Remove bossbar"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6339": {
+    "id": 6339,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set value (plugin detect if number or text)"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6093": {
+    "id": 6093,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Display actionbar"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6340": {
+    "id": 6340,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Remove specific value"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6341": {
+    "id": 6341,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return text value"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6342": {
+    "id": 6342,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return number value"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6343": {
+    "id": 6343,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Display title for player (and subtitle if set)"
+      ],
+      "ko": [
+        "[WolfSk2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "syntax_205": {
+    "id": 205,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Lists whitelisted player, add/removes a player or reset/reload the whitelist and toggle the whitelist on/off."
+      ],
+      "ko": [
+        "[skWhitelist] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

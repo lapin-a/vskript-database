@@ -1,0 +1,174 @@
+{
+  "syntax_6060": {
+    "id": 6060,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds an entity to a team.",
+        "NOTE: Entities are added to the team via their ID and players are added via their name."
+      ],
+      "ko": [
+        "[skript-teams] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6061": {
+    "id": 6061,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Unregisters/Deletes a team"
+      ],
+      "ko": [
+        "[skript-teams] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6062": {
+    "id": 6062,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Registers/creates a team"
+      ],
+      "ko": [
+        "[skript-teams] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6063": {
+    "id": 6063,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes/deletes all potion effects from an entity."
+      ],
+      "ko": [
+        "[skript-teams] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6064": {
+    "id": 6064,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes an entity from a team.",
+        "NOTE: Entities are removed from the team via their ID and players are removed via their name."
+      ],
+      "ko": [
+        "[skript-teams] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6065": {
+    "id": 6065,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the color of the specified team.",
+        "COLORS: red, dark_red, blue, dark_blue, aqua, dark_aqua, dark_purple, light_purple, black, white, yellow, gold, gray, dark_gray, green and dark_green"
+      ],
+      "ko": [
+        "[skript-teams] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6066": {
+    "id": 6066,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the display-name of the specified team shown in /team list.",
+        "NOTE: The original name of the team will still need to be used when modifying the team in any way."
+      ],
+      "ko": [
+        "[skript-teams] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6067": {
+    "id": 6067,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets all of the entries in the specified team."
+      ],
+      "ko": [
+        "[skript-teams] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6068": {
+    "id": 6068,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the prefix of the specified team."
+      ],
+      "ko": [
+        "[skript-teams] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6069": {
+    "id": 6069,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the size of the specified team."
+      ],
+      "ko": [
+        "[skript-teams] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6070": {
+    "id": 6070,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets/gets the prefix of the specified team."
+      ],
+      "ko": [
+        "[skript-teams] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6071": {
+    "id": 6071,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the team of the specified entity."
+      ],
+      "ko": [
+        "[skript-teams] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

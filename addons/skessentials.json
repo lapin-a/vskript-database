@@ -1,0 +1,441 @@
+{
+  "syntax_14885": {
+    "id": 14885,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fired when a player's jail status changes"
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14886": {
+    "id": 14886,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fired when a player's AFK status changes"
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14887": {
+    "id": 14887,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fired when a player's balance changes with Essentials."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14888": {
+    "id": 14888,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called just before a private message is sent to its recipient.",
+        "NOTE: This event CAN be cancelled."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14889": {
+    "id": 14889,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called after a private message has been sent to its recipient.",
+        "NOTE: This event CANNOT be cancelled."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14890": {
+    "id": 14890,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fired when a /tpa, /tpaall or /tpahere request is made."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14891": {
+    "id": 14891,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether or not a player is AFK."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14892": {
+    "id": 14892,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether or not a player is in god mode."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14893": {
+    "id": 14893,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether or not a player is in jail."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14894": {
+    "id": 14894,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether or not a player is vanished."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14895": {
+    "id": 14895,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Change a player's AFK status."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14896": {
+    "id": 14896,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a jail with a name at a location"
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14897": {
+    "id": 14897,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Enable or disable a player's god mode."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14898": {
+    "id": 14898,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Jail a player at a certain jail at a location"
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14899": {
+    "id": 14899,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make a player send a private message to another player."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14900": {
+    "id": 14900,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Vanish or unvanish a player."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14901": {
+    "id": 14901,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets all the players who are AFK on the server."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14902": {
+    "id": 14902,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of created jails."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14903": {
+    "id": 14903,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEssentials] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14904": {
+    "id": 14904,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the player who is at a certain baltop!",
+        "NOTE: This requires /baltop to be ran. This depends on Essentialx's cache. I will not code a way to force the cache to update."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14905": {
+    "id": 14905,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets all the players in god mode on the server."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14906": {
+    "id": 14906,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a number of created jails."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14907": {
+    "id": 14907,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the location of a created jail."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14908": {
+    "id": 14908,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the Essentials nickname of a player.",
+        "NOTE: You MUST specify 'essentials' for it to work through SkEssentials and not Skript.",
+        "NOTE: You cannot set the 'full' nickname of a player."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14909": {
+    "id": 14909,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The person sending the private message."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14910": {
+    "id": 14910,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The person receiving the private message."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14911": {
+    "id": 14911,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The person sending the TPA request"
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14912": {
+    "id": 14912,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The TPA Target"
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14913": {
+    "id": 14913,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets all the vanished players on the server."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14914": {
+    "id": 14914,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All of the supported Essentials AFK causes."
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14915": {
+    "id": 14915,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All of the supported Essentials Private Message Responses"
+      ],
+      "ko": [
+        "[SkEssentials] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

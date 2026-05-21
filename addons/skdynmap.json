@@ -1,0 +1,744 @@
+{
+  "syntax_4996": {
+    "id": 4996,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkDynmap] No official English guide provided."
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4997": {
+    "id": 4997,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a player is visible on the map"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4998": {
+    "id": 4998,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the locations from a list of chunks, to be used with locations of areas"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4999": {
+    "id": 4999,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the visibility of a player on the map.",
+        "It can be set or reset."
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4415": {
+    "id": 4415,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the line-opacity property of the provided style."
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4409": {
+    "id": 4409,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This effect allow you to render an area on the map. This can be used when auto-rendering is disabled"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4411": {
+    "id": 4411,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This expression will search, and return the requested area. (Return a %dynmaparea%)"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4412": {
+    "id": 4412,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the fill-color property of the provided style."
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4413": {
+    "id": 4413,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the fill-opacity property of the provided style."
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4414": {
+    "id": 4414,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the line-color property of the provided style."
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4408": {
+    "id": 4408,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Delete an existent area"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4410": {
+    "id": 4410,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the default style defined in the config."
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4416": {
+    "id": 4416,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the line-weight property of the provided style."
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4419": {
+    "id": 4419,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "SkDynmap's AreaStyle object"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4418": {
+    "id": 4418,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "SkDynmap's DynmapArea object"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4417": {
+    "id": 4417,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This expression returns the style of an area or an area builder.",
+        "You can use this expression to define the style of an area or an area builder."
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4471": {
+    "id": 4471,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This expression returns the description of an area or an area builder.",
+        "You can use this expression to define the description of an area or an area builder."
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4476": {
+    "id": 4476,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "If it's inside of an area scope, this expression returns the area that belong to that scope"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4472": {
+    "id": 4472,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This expression returns the locations of an area or an area builder.",
+        "You can use this expression to define the locations of an area or an area builder."
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4473": {
+    "id": 4473,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This expression returns the world of an area or an area builder.",
+        "You can use this expression to define the world of an area or an area builder."
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4474": {
+    "id": 4474,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This expression returns the name of an area or an area builder.",
+        "You can use this expression to define the name of an area or an area builder."
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4407": {
+    "id": 4407,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create an area and show it on the map"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4475": {
+    "id": 4475,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The constructor for a future area"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4470": {
+    "id": 4470,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This is a scope that allows you to create areas easily"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4477": {
+    "id": 4477,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This expression returns the last generated area using area scope"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4478": {
+    "id": 4478,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "SkDynmap's AreaBuilder object"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4713": {
+    "id": 4713,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This is a scope that allows you to create markers easily"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4714": {
+    "id": 4714,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Clear all areas and markers on the map"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4715": {
+    "id": 4715,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a marker and show it on the map"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4716": {
+    "id": 4716,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Delete an existent marker"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4717": {
+    "id": 4717,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make the render of areas or markers or a global render"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4718": {
+    "id": 4718,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return a list with all created areas"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4719": {
+    "id": 4719,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return a list with all created markers"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4720": {
+    "id": 4720,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get an area from its id"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4721": {
+    "id": 4721,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the description of an area/areabuilder",
+        "It can be get, set, reset or removed."
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4722": {
+    "id": 4722,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the icon of a marker/markerbuilder",
+        "It can be get, set or reset.",
+        "There is a list of all default dynmap icons: https://github.com/webbukkit/dynmap/wiki/Using-markers#marker-icons"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4723": {
+    "id": 4723,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the id of a area/areabuilder/marker/markerbuilder",
+        "It can be get, or set"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4724": {
+    "id": 4724,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the location of a marker/markerbuilder",
+        "It can be get, or set."
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4725": {
+    "id": 4725,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the locations of an area/areabuilder",
+        "It can be get, and set."
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4726": {
+    "id": 4726,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The constructor for a future marker"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4727": {
+    "id": 4727,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get an marker from its id"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4728": {
+    "id": 4728,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the name of a area/areabuilder/marker/markerbuilder",
+        "It can be get, or set"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4729": {
+    "id": 4729,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the style of an area/areabuilder",
+        "It can be get, set or reset."
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4730": {
+    "id": 4730,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This expression returns the last generated marker using marker scope"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4731": {
+    "id": 4731,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "SkDynmap's DynmapMarker object"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4732": {
+    "id": 4732,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "SkDynmap's MarkerBuilder object"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5604": {
+    "id": 5604,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called each time the SkDynmap layer is rendered. Cancellable event."
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5605": {
+    "id": 5605,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "SkDynmap's DynmapArea object"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5606": {
+    "id": 5606,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "SkDynmap's AreaStyle object"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5607": {
+    "id": 5607,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "SkDynmap's AreaBuilder object"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5608": {
+    "id": 5608,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "SkDynmap's MarkerBuilder object"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5609": {
+    "id": 5609,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "SkDynmap's DynmapMarker object"
+      ],
+      "ko": [
+        "[SkDynmap] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

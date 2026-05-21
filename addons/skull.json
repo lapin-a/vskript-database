@@ -1,0 +1,44 @@
+{
+  "syntax_7873": {
+    "id": 7873,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Use Value of skin for loading textures in the custom skull."
+      ],
+      "ko": [
+        "[SKull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7872": {
+    "id": 7872,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Use URL of skin for loading textures in the custom skull."
+      ],
+      "ko": [
+        "[SKull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8326": {
+    "id": 8326,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Use Nickname of player for loading his textures in the custom skull."
+      ],
+      "ko": [
+        "[SKull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

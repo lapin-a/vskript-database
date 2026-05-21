@@ -1,0 +1,62 @@
+{
+  "syntax_2803": {
+    "id": 2803,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes a statement on a database and optionally stores the result in a variable. Expressions embedded in the query will be escaped to avoid SQL injection.",
+        "If a single variable, such as `{test}`, is passed, the variable will be set to the number of affected rows.",
+        "If a list variable, such as `{test::*}`, is passed, the query result will be mapped to the list variable in the form `{test::<column name>::<row number>}`",
+        "Specifying `synchronously` will make skript-db execute the query on the event thread, which is useful for async events. Note that skript-db will ignore this flag if you attempt to run this on the main thread."
+      ],
+      "ko": [
+        "[skript-db] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2804": {
+    "id": 2804,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stores the error from the last [executed statement](https://skripthub.net/docs/?id=2803), if there was one."
+      ],
+      "ko": [
+        "[skript-db] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2805": {
+    "id": 2805,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stores the connection information for a data source. This should be saved to a variable in a script load event or manually through an effect command.",
+        "The url format for your database may vary! The example provided uses a MySQL database."
+      ],
+      "ko": [
+        "[skript-db] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2806": {
+    "id": 2806,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Opts out of automatic SQL injection protection for a specific expression in a statement."
+      ],
+      "ko": [
+        "[skript-db] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

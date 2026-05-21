@@ -1,0 +1,2013 @@
+{
+  "syntax_14523": {
+    "id": 14523,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an animation camera has a player removed from it."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14524": {
+    "id": 14524,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an animation camera begins for players."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14525": {
+    "id": 14525,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an animation camera stops for all of its players."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14526": {
+    "id": 14526,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called at the completion of an animation. This is not called for looping animations/animators"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14527": {
+    "id": 14527,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a frame ends animating on an active group.",
+        "Ignores frame delay and is called after translation of parts"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14528": {
+    "id": 14528,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a frame begins animating on an active group"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14529": {
+    "id": 14529,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a display animator begins a new animation loop"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14530": {
+    "id": 14530,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a display animator starts playing an animation"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14531": {
+    "id": 14531,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a chunk loads a spawned group and registers it"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14532": {
+    "id": 14532,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an entity is mounted on a spawned group"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14533": {
+    "id": 14533,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a spawned group is registered by when automatically detected, nearby selection, or spawned from a saved group"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14534": {
+    "id": 14534,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a spawned group is mounted on an entity"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14535": {
+    "id": 14535,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a spawned group is spawned from a saved group"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14536": {
+    "id": 14536,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a spawned based group is unregistered"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14537": {
+    "id": 14537,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an interaction entity is clicked. Interaction commands can only be retrieved AFTER version 2.7.7"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14538": {
+    "id": 14538,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player places a packet-based using an item"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14539": {
+    "id": 14539,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called at the completion of a packet-based animation. This is not called for looping animations/animators.",
+        "If players are not specified, the animation is shown to all players who can see the group."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14540": {
+    "id": 14540,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a frame ends animating on an active group.",
+        "Ignores frame delay and is called after translation of parts.",
+        "If players are not specified, the animation is shown to all players who can see the group."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14541": {
+    "id": 14541,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a frame begins animating on a spawned group using packets.",
+        "If players are not specified, the animation is shown to all players who can see the group."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14542": {
+    "id": 14542,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a display animator begins a new animation loop using packets.",
+        "If players are not specified, the animation is shown to all players who can see the group."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14543": {
+    "id": 14543,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a display animator starts playing an animation using packets.",
+        "If players are not specified, the animation is shown to all players who can see the group"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14544": {
+    "id": 14544,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a packet-based group is hidden from players"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14545": {
+    "id": 14545,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a packet-based group is sent to players"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14546": {
+    "id": 14546,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called before a spawned group is spawned and created"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14547": {
+    "id": 14547,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an interaction entity is clicked before the Interaction Click Event, but does not load commands"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14548": {
+    "id": 14548,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called before a player places a packet-based using an item"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14549": {
+    "id": 14549,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called before a packet-based group is created"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14550": {
+    "id": 14550,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if an active group is animating"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14551": {
+    "id": 14551,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a spawned group is persistent"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14552": {
+    "id": 14552,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if an active group is registered and usable"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14553": {
+    "id": 14553,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if an active group/part/filter is packet-based"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14554": {
+    "id": 14554,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a displayanimator is animating an active group"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14555": {
+    "id": 14555,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a saved or spawned group/animation has a tag"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14556": {
+    "id": 14556,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a saved or spawned group has a tag"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14557": {
+    "id": 14557,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if an interaction part/entity has commands that will run when clicked"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14558": {
+    "id": 14558,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if an animator is looping"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14559": {
+    "id": 14559,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if an interaction part/entity is responsive"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14560": {
+    "id": 14560,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if an active part or a display entity is the master/parent part of an active group"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14561": {
+    "id": 14561,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if an active part is of a display entity type (block, item, text)"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14562": {
+    "id": 14562,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a player is in an animation camera"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14563": {
+    "id": 14563,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a player can see an active group or active part"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14564": {
+    "id": 14564,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a spawned group is in a loaded chunk"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14565": {
+    "id": 14565,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a spawned group is present in the game world"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14566": {
+    "id": 14566,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a spawned group is visible by default"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14567": {
+    "id": 14567,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a spawned group allows chunk loading to override its persistence"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14568": {
+    "id": 14568,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if an text display part's text has shadows"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14569": {
+    "id": 14569,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if an text display part is visible through blocks"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14570": {
+    "id": 14570,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Change the persistence state of a active group.",
+        "Persisting a packet-based group causes it to be saved in chunk data and it cannot ride entities.",
+        "Any changes made to a persistent packet-based group must be applied using \"\""
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14571": {
+    "id": 14571,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make an active group respect an entity's looking direction, matching its body yaw, pitch and/or yaw.",
+        "IN VERSIONS BELOW v3.3.5, EACH TYPE IS PREFIXED WITH \"ft\": \"ft_body\", \"ft_pitch\", \"ft_yaw\", and \"ft_pitch_and_yaw\"!",
+        "3.4.2+ replaces \"pitch_and_yaw\" with \"pitch and yaw\""
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14572": {
+    "id": 14572,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make an active group ride an entity or vice versa"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14573": {
+    "id": 14573,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make an active group stop respecting an entity's looking direction"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14574": {
+    "id": 14574,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Show an animation frame on an active group, optionally with custom duration and delay."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14575": {
+    "id": 14575,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Add/Remove a part tag from an active part"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14577": {
+    "id": 14577,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a clone of an active group"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14578": {
+    "id": 14578,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make an active group stop riding an entity"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14579": {
+    "id": 14579,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the glowing of an active group/part/filter"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14580": {
+    "id": 14580,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set whether a interaction part should be visible through walls"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14581": {
+    "id": 14581,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Merge two non-packet based groups as a single group"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14582": {
+    "id": 14582,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Override the possible despawning of part entities when a non-packet group is unregistered"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14583": {
+    "id": 14583,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Determine if a Packet Group should automatically reveal itself to players"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14584": {
+    "id": 14584,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the items/blocks that should be filtered in a partfilter"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14585": {
+    "id": 14585,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Filter parts by part tags in a partfilter"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14576": {
+    "id": 14576,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Spawn a BDEngine Model, from a file, at a location, with specified options",
+        "**Entries**",
+        "`packet` = whether the group should be packet-based. False by default",
+        "`teleport-duration` = the teleport-duration of display entities in the group. 0 by default",
+        "`billboard` = the billboard of display entities in the group. FIXED by default",
+        "`persistent` = the persistence of **all** entities in the group. True by default",
+        "`visible` = whether the group should be visible. True by default",
+        "`brightness` = the brightness of display entities in the group. Use `-1 and -1` for default brightness",
+        "`spawnanimation` = whether the group should play its spawn animation. True by default",
+        "If a group is packet-based it's persistence cannot be set within the section and must be set afterwards."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14586": {
+    "id": 14586,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the part types of parts that should be filtered in a partfilter"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14587": {
+    "id": 14587,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Reset, refresh, or remove a partfilter"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14588": {
+    "id": 14588,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Play an animation on an active group with a display animator"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14589": {
+    "id": 14589,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make players follow an animation's camera on an active group using a display animator or animation"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14590": {
+    "id": 14590,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Update the axis rotation of an active group/part, in degrees.",
+        "This only applies to display entity parts and display entities in groups"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14591": {
+    "id": 14591,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Change the scale multiplier of an active group"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14592": {
+    "id": 14592,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Show or hide an active group/part/filter to/from a player"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14593": {
+    "id": 14593,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stop all animations playing on an active group"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14594": {
+    "id": 14594,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stop an animation playing on an active group"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14595": {
+    "id": 14595,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stop players from viewing an animation camera"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14596": {
+    "id": 14596,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stop all packet animations playing on an active group for a player"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14597": {
+    "id": 14597,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Teleport an Active Group to a location"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14598": {
+    "id": 14598,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set whether a text display part should be visible through walls"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14599": {
+    "id": 14599,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set whether a text display part's text should have a shadow"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14600": {
+    "id": 14600,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Toggle whether textures should be updated during an animation. (Player Head Changes during animation, etc.)"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14601": {
+    "id": 14601,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Change the translation of an active group/filter's parts, or of an active part"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14602": {
+    "id": 14602,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Unregister an active group, making the group unusable. Packet based groups do not require forced chunk loading, and will always despawn."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14603": {
+    "id": 14603,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Confirm any changes made to a persistent packet group, making them persist in future game sessions.",
+        "This does nothing if the packet group is not persistent."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14604": {
+    "id": 14604,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the active group of a active part, part filter, or an eligible part entity"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14605": {
+    "id": 14605,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the active group manually placed down at a block by a player. A player must have been holding a placeable group block item for the group at the specified block location to return the appropriate group."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14606": {
+    "id": 14606,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the location of an active group"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14607": {
+    "id": 14607,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a selection of parts from an active group, which can later be filtered"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14608": {
+    "id": 14608,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or set the translation offset to apply to a group when its riding an entity. This should be used before making a group ride any entities"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14609": {
+    "id": 14609,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Set the interpolation duration/delay of an active group/part/filter"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14610": {
+    "id": 14610,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Set the teleportation duration of an active group, part or parts in a part filter. Get the duration on an active group/part."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14611": {
+    "id": 14611,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Set the view range of an active group/part/filter"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14612": {
+    "id": 14612,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the part uuid of an active part, used to identify the part in its group and for animations.",
+        "This is different than the uuid of the entity a part represents.",
+        "Part UUIDs are typically used to identify which part is which internally for animations"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14613": {
+    "id": 14613,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get all the tags of a part"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14614": {
+    "id": 14614,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the active part's type"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14615": {
+    "id": 14615,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the parts of a group or part filter"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14616": {
+    "id": 14616,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the animation set for a display animator."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14617": {
+    "id": 14617,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Set the billboard of an active group/part/filter"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14618": {
+    "id": 14618,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the block of a block display part."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14619": {
+    "id": 14619,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a display animator to play animations on an active group"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14620": {
+    "id": 14620,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Set the pitch and yaw of an active group/part/filter. Optionally pivot interactions"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14621": {
+    "id": 14621,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the entity id of an active part. This can be used in packet operations."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14622": {
+    "id": 14622,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the Display or Interaction entity that a part represents.",
+        "This should only be done on non-packet based parts"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14623": {
+    "id": 14623,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the location of a Frame Point relative to a group or location.",
+        "The provided location is more accurate when used on an Active Group since group scale is included in calculation."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14624": {
+    "id": 14624,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get a Frame Point, of a given tag, from an Animation Frame"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14625": {
+    "id": 14625,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the Frame Points of an animation frame"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14626": {
+    "id": 14626,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get a saved group/animation from a load method (local, mongodb, mysql)"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14627": {
+    "id": 14627,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the glow color of a active or packet-based group, part, or part filter. Or get the glow color of a active group"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14628": {
+    "id": 14628,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the non-packet based groups riding an entity"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14629": {
+    "id": 14629,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or set the tag of a group/animation. Only the tag of a active group/animation can be changed"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14630": {
+    "id": 14630,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Set the height or width of an interaction part."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14631": {
+    "id": 14631,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the item of a item display part."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14632": {
+    "id": 14632,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the item display transform of a part, if it's of a item display type."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14633": {
+    "id": 14633,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the master/parent part of an active group, which all other parts are passengers of"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14634": {
+    "id": 14634,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get a persistent packet-based Group from its ID"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14635": {
+    "id": 14635,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the id of a persistent packet-based group, which can be used to get the group at the later time, even in different sessions."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14636": {
+    "id": 14636,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Set the selected animation of a player"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14637": {
+    "id": 14637,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get/Set the selected active group of a player"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14638": {
+    "id": 14638,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the selected active part of a player"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14639": {
+    "id": 14639,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get an unmodifiable version of an Active Group"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14640": {
+    "id": 14640,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get, and optionally register, the nearest or all nearby non-packet groups within a location"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14641": {
+    "id": 14641,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the spawned part that represents a part-eligible entity"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14642": {
+    "id": 14642,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the line width of a text display part."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14643": {
+    "id": 14643,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the opacity of a text display part."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14644": {
+    "id": 14644,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the text of a text display part."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14645": {
+    "id": 14645,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the location relative to a active part's true location, based off of its translation."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14646": {
+    "id": 14646,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An ambiguous representation of a Spawned Group or Packet Group"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14647": {
+    "id": 14647,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an entity from an active Display Entity Group/Model.",
+        "This can be packet-based."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14648": {
+    "id": 14648,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an animation that can be played on an activegroup"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14649": {
+    "id": 14649,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an Animation Frame from an Animation"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14650": {
+    "id": 14650,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Used to play an animation on activegroups"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14651": {
+    "id": 14651,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the frame id of ab Animation Frame"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14652": {
+    "id": 14652,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a Frame Point from an Animation Frame"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14653": {
+    "id": 14653,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a spawn reason when a saved Group/Model is spawned."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14654": {
+    "id": 14654,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a interaction click type of LEFT or RIGHT"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14655": {
+    "id": 14655,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an Interaction Command stored on an Interaction Entity"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14656": {
+    "id": 14656,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a packet-based Display Entity Group/Model"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14657": {
+    "id": 14657,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an individual entity from a packet-based active group."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14658": {
+    "id": 14658,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a selection of filtered parts from an Active Group. This may be packet based."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14659": {
+    "id": 14659,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a part's (display, interaction, etc.) type"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14660": {
+    "id": 14660,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a saved Display Entity Group/Model"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14661": {
+    "id": 14661,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a Display Entity Group/Model spawned in the game world"
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14662": {
+    "id": 14662,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an individual entity from an active Display Entity Group/Model.",
+        "A spawned part can be used as an entity in other expressions, effects, etc."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14663": {
+    "id": 14663,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Spawn a DEU Group/Model at a location, with specified options",
+        "**Entries**",
+        "`packet` = whether the group should be packet-based. False by default",
+        "`teleport-duration` = the teleport-duration of display entities in the group. 0 by default",
+        "`billboard` = the billboard of display entities in the group. FIXED by default",
+        "`persistent` = the persistence of **all** entities in the group. True by default",
+        "`visible` = whether the group should be visible. True by default",
+        "`brightness` = the brightness of display entities in the group. Use `-1 and -1` for default brightness",
+        "`spawnanimation` = whether the group should play its spawn animation. True by default",
+        "If a group is packet-based it's persistence cannot be set within the section and must be set afterwards."
+      ],
+      "ko": [
+        "[DisplayEntityUtils] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

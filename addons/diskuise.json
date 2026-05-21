@@ -1,0 +1,1510 @@
+{
+  "syntax_7868": {
+    "id": 7868,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A customizable disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7869": {
+    "id": 7869,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Change the notify bar of a disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7782": {
+    "id": 7782,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the disguise is an adult or a baby"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7783": {
+    "id": 7783,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the arrow disguise is a critical arrow"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7784": {
+    "id": 7784,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the axolotl disguise is playing dead"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7780": {
+    "id": 7780,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event gets called when an entity disguises",
+        "(Cancellable)"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7781": {
+    "id": 7781,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event gets called when an entity undisguises",
+        "(Cancellable)"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7785": {
+    "id": 7785,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the bat disguise is hanging upside down"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7786": {
+    "id": 7786,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the disguise has a custom name"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7787": {
+    "id": 7787,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the disguise is burning"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7788": {
+    "id": 7788,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the custom name of a disguise is visible"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7789": {
+    "id": 7789,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the disguise is glowing"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7790": {
+    "id": 7790,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether a disguise is invisible"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7791": {
+    "id": 7791,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the disguise's yaw or pitch axis are locked'"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7792": {
+    "id": 7792,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the disguise is sleeping"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7793": {
+    "id": 7793,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the disguise is sneaking"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7794": {
+    "id": 7794,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the disguise is sprinting"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7795": {
+    "id": 7795,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the disguise is swimming"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7796": {
+    "id": 7796,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the disguise is upside down"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7797": {
+    "id": 7797,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether an ender crystal disguise has the bottom shown"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7798": {
+    "id": 7798,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether a falling block disguise is locked to a grid."
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7799": {
+    "id": 7799,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether a hostile disguise is aggressive."
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7800": {
+    "id": 7800,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether a hostile disguise is enraged."
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7801": {
+    "id": 7801,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is disguised"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7802": {
+    "id": 7802,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the disguise is spinning"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7803": {
+    "id": 7803,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether a player disguise is displayed in tab"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7804": {
+    "id": 7804,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks the dominant hand of a player disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7805": {
+    "id": 7805,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the wither skull disguise is a blue skull"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7806": {
+    "id": 7806,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the age of a disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7807": {
+    "id": 7807,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set whether the arrow disguise is a critical arrow"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7808": {
+    "id": 7808,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets whether the axolotl disguise is playing dead"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7809": {
+    "id": 7809,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets whether the bat disguise is hanging upside down"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7810": {
+    "id": 7810,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets whether the disguise is burning"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7866": {
+    "id": 7866,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The age of a disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7811": {
+    "id": 7811,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets whether the custom name of a disguise is visible"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7812": {
+    "id": 7812,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets whether the disguise is glowing"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7814": {
+    "id": 7814,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets whether the disguise is sleeping"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7815": {
+    "id": 7815,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets whether the disguise is sneaking"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7816": {
+    "id": 7816,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets whether the disguise is swimming"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7817": {
+    "id": 7817,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets whether the disguise is upside down"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7818": {
+    "id": 7818,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Disguises the specified entity into another entity"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7819": {
+    "id": 7819,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set whether an ender crystal disguise has the bottom shown"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7820": {
+    "id": 7820,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets whether a falling block disguise is locked to a grid."
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7821": {
+    "id": 7821,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets whether a hostile disguise is aggressive."
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7822": {
+    "id": 7822,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets whether a hostile disguise is enraged."
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7823": {
+    "id": 7823,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets whether the disguise is spinning"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7824": {
+    "id": 7824,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set whether a player disguise is displayed in tab"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7825": {
+    "id": 7825,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the dominant hand of a player disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7826": {
+    "id": 7826,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the displayed skin of a player disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7827": {
+    "id": 7827,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Undisguises an entity"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7828": {
+    "id": 7828,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set whether the wither skull disguise is a blue skull"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7829": {
+    "id": 7829,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get the age of a disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7831": {
+    "id": 7831,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get the tip particle color of an arrow disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7833": {
+    "id": 7833,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get the variant of an axolotl disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7835": {
+    "id": 7835,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Clones an already existing disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7838": {
+    "id": 7838,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get the custom name of a disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7830": {
+    "id": 7830,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get whether the arrow disguise is a critical arrow"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7832": {
+    "id": 7832,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get whether the axolotl disguise is playing dead"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7837": {
+    "id": 7837,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get whether the disguise is burning"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7839": {
+    "id": 7839,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get whether the custom name of a disguise is visible"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7840": {
+    "id": 7840,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or set the item in a disguise's equipment slot."
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7842": {
+    "id": 7842,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get the glow color of a disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7843": {
+    "id": 7843,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get the item of a disguise.",
+        "For Dropped Item Disguises, it returns the item of it.",
+        "For Item Frame Disguises, it returns the item inside the frame.",
+        "For throwable projectiles (eggs, snowballs, enderpearls, etc.), it returns the displayed item.",
+        "Other disguises don't have items associated with them."
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7848": {
+    "id": 7848,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or set the target location of an ender crystal disguise's beam"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7849": {
+    "id": 7849,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the entities of a disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7850": {
+    "id": 7850,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the entity type of a disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7851": {
+    "id": 7851,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Diskuise] No official English guide provided."
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7852": {
+    "id": 7852,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get the block of a falling block disguise.",
+        "NOTE: This expression also supports block data."
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7853": {
+    "id": 7853,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get the block data of a falling block disguise."
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7854": {
+    "id": 7854,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get the targeted entity of a guardian disguise laser beam"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7857": {
+    "id": 7857,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get the cracks in an iron golem disguise",
+        "The stages go from 1-4 (1 being no cracks and 4 being full of cracks)"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7858": {
+    "id": 7858,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get the rotation of an item frame disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7859": {
+    "id": 7859,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or set if a player keeps their disguise on death"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7860": {
+    "id": 7860,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last created disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7862": {
+    "id": 7862,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get the 'art' of a painting disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7864": {
+    "id": 7864,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or set whether a player sees their own disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7844": {
+    "id": 7844,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get whether the disguise is sleeping"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7846": {
+    "id": 7846,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get whether the disguise is visible"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7847": {
+    "id": 7847,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the disguise of an entity"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7855": {
+    "id": 7855,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get whether a hostile disguise is aggressive."
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7856": {
+    "id": 7856,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get whether a hostile disguise is enraged."
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7861": {
+    "id": 7861,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get whether the disguise is spinning"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7863": {
+    "id": 7863,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get whether the cape of a player disguise is enabled"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7865": {
+    "id": 7865,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get whether the wither skull disguise is a blue skull"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7870": {
+    "id": 7870,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the art of a painting"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7977": {
+    "id": 7977,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether an armor stand disguise has its arms shown"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7978": {
+    "id": 7978,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether an armor stand disguise has its base plate shown"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7979": {
+    "id": 7979,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether an armor stand disguise is a marker"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7980": {
+    "id": 7980,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether an armor stand disguise is small"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7981": {
+    "id": 7981,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check whether a pillager disguise is aiming a bow"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7982": {
+    "id": 7982,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set whether an armor stand disguise has its arms shown"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7983": {
+    "id": 7983,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set whether an armor stand disguise has its base plate shown"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7984": {
+    "id": 7984,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set whether an armor stand disguise is a marker"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7985": {
+    "id": 7985,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set whether an armor stand disguise is small"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7813": {
+    "id": 7813,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets whether the disguise is invisible"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7986": {
+    "id": 7986,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set whether a pillager disguise is aiming a bow"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7987": {
+    "id": 7987,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get whether an armor stand disguise is a marker"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7988": {
+    "id": 7988,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get the pose of an armor stand disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7834": {
+    "id": 7834,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get whether the bat disguise is hanging upside down"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7841": {
+    "id": 7841,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get whether the disguise is glowing"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7989": {
+    "id": 7989,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get the size of a disguise.",
+        "This only works on a phantom or slime disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7845": {
+    "id": 7845,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get whether the disguise is swimming"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7991": {
+    "id": 7991,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get whether a pillager disguise is aiming a bow"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7992": {
+    "id": 7992,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get the puff state of a puffer fish disguise (how infalted it is)",
+        "The stages go from 1-3"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7867": {
+    "id": 7867,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the variant of an axolotl"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7990": {
+    "id": 7990,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new customizable disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7993": {
+    "id": 7993,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new customizable disguise"
+      ],
+      "ko": [
+        "[Diskuise] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

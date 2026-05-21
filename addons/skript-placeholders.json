@@ -1,0 +1,73 @@
+{
+  "syntax_11942": {
+    "id": 11942,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression to obtain the placeholder (or part of it) in a placeholder request event."
+      ],
+      "ko": [
+        "[skript-placeholders] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11943": {
+    "id": 11943,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of a placeholder in a placeholder event. Can be set, reset, or deleted."
+      ],
+      "ko": [
+        "[skript-placeholders] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11944": {
+    "id": 11944,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression to obtain the value of a placeholder from a supported plugin."
+      ],
+      "ko": [
+        "[skript-placeholders] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11945": {
+    "id": 11945,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The two players involved in a relational placeholder request."
+      ],
+      "ko": [
+        "[skript-placeholders] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11946": {
+    "id": 11946,
+    "type": "structure",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A structure for creating custom placeholders.",
+        "The code will be executed every time the placeholder plugin requests a value for the placeholder."
+      ],
+      "ko": [
+        "[skript-placeholders] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

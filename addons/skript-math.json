@@ -1,0 +1,287 @@
+{
+  "syntax_1572": {
+    "id": 1572,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Computes the pi-notation product of a given expression. For more details, read the [extended description](https://github.com/Syst3ms/Skuared/wiki/Computational-Effects])"
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1569": {
+    "id": 1569,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Computes the derivative of a given expression. For more details, read the [extended description](https://github.com/Syst3ms/Skuared/wiki/Computational-Effects])"
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1570": {
+    "id": 1570,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Computes the integral of a given expression. For more details, read the [extended description](https://github.com/Syst3ms/Skuared/wiki/Computational-Effects])"
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1571": {
+    "id": 1571,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Computes the limit of a given expression. For more details, read the [extended description](https://github.com/Syst3ms/Skuared/wiki/Computational-Effects])"
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1573": {
+    "id": 1573,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Registers a constant (duh), which can be used in the evaluate expression (described in [Evaluating Expressions](https://github.com/Syst3ms/Skuared/wiki/Evaluating-Expressions)).",
+        "A constant name must consist of one letter optionally followed by one or more letters or digits",
+        "If that's any clearer to you, the regex Skuared uses is '[A-Za-z][A-Za-z\\\\d]*.'"
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1574": {
+    "id": 1574,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Computes the summation of a given expression. For more details, read the [extended description](https://github.com/Syst3ms/Skuared/wiki/Computational-Effects])"
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1575": {
+    "id": 1575,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Evaluates a mathematical expression.",
+        "Check out [the advanced description](TUTORIAL_URL#evaluate-expression) for WAYYY more information !"
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1576": {
+    "id": 1576,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Evaluates a mathematical expression with a provided number. The number can be referred to in the expression using 'x'",
+        "Check out [the advanced description](TUTORIAL_URL#evaluate-expression) for WAYYY more information !"
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1577": {
+    "id": 1577,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the result computed by a [computational effect](TUTORIAL_URL#computational_effects)"
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1578": {
+    "id": 1578,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "If something has gone wrong in nearly any of Skuared's syntaxes, will contain a descriptive error."
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1579": {
+    "id": 1579,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the number of edits from one string to another. An edit can be adding, removing or replacing a letter.",
+        "Adding 'ignor(e|ing) case' makes it so uppercase and lowercase letters don't count as an edit."
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1580": {
+    "id": 1580,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the [Soundex](https://en.wikipedia.org/wiki/Soundex) code of a given string"
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1581": {
+    "id": 1581,
+    "type": "function",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skript-math] No official English guide provided."
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1582": {
+    "id": 1582,
+    "type": "function",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skript-math] No official English guide provided."
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1583": {
+    "id": 1583,
+    "type": "function",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skript-math] No official English guide provided."
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1584": {
+    "id": 1584,
+    "type": "function",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skript-math] No official English guide provided."
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1585": {
+    "id": 1585,
+    "type": "function",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skript-math] No official English guide provided."
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1586": {
+    "id": 1586,
+    "type": "function",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skript-math] No official English guide provided."
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1587": {
+    "id": 1587,
+    "type": "function",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skript-math] No official English guide provided."
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1588": {
+    "id": 1588,
+    "type": "function",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skript-math] No official English guide provided."
+      ],
+      "ko": [
+        "[skript-math] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

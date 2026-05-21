@@ -1,0 +1,86 @@
+{
+  "syntax_4024": {
+    "id": 4024,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a test. The string is the name of the test."
+      ],
+      "ko": [
+        "[Skester] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4025": {
+    "id": 4025,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if condition is respected. Fails if it is not."
+      ],
+      "ko": [
+        "[Skester] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4026": {
+    "id": 4026,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a value is equal to another. Fails if it is not."
+      ],
+      "ko": [
+        "[Skester] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4027": {
+    "id": 4027,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a value is null. Throw an error if it is not."
+      ],
+      "ko": [
+        "[Skester] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4028": {
+    "id": 4028,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a value is true/false. Fails if it is not."
+      ],
+      "ko": [
+        "[Skester] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4029": {
+    "id": 4029,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes the test fail if a condition is respected (or just force to fail the test)."
+      ],
+      "ko": [
+        "[Skester] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

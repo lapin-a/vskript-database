@@ -1,0 +1,325 @@
+{
+  "syntax_9514": {
+    "id": 9514,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an NPC is left-clicked by a player."
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9515": {
+    "id": 9515,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an NPC is right-clicked by a player."
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9516": {
+    "id": 9516,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an NPC is selected by a player."
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9517": {
+    "id": 9517,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an NPC spawns."
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9519": {
+    "id": 9519,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Despawning a citizen will remove it from the world, but won't deregister it.",
+        "Respawning a citizen will spawn it back into the world."
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9518": {
+    "id": 9518,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a citizen is currently navigating"
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9520": {
+    "id": 9520,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a Citizen move/pathfind to a set location"
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9521": {
+    "id": 9521,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Spawns a customized Citizen"
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9522": {
+    "id": 9522,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the entity of a citizen."
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9523": {
+    "id": 9523,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or set the entity type of a citizen."
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9524": {
+    "id": 9524,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the ID of a citizen."
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9525": {
+    "id": 9525,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents whether the citizen should use vanilla Minecraft AI."
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9511": {
+    "id": 9511,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an NPC is clicked by a player."
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9512": {
+    "id": 9512,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an NPC has been created"
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9513": {
+    "id": 9513,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an NPC despawns."
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9526": {
+    "id": 9526,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the name of a citizen. Full name is the name of the citizen, non-full is the name without colors."
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9527": {
+    "id": 9527,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents whether the citizen is protected from damage/entity target events. True by default."
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9528": {
+    "id": 9528,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get a citizen from ID."
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9530": {
+    "id": 9530,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the last spawned citizen."
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9531": {
+    "id": 9531,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the reasons a Citizen will despawn."
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9532": {
+    "id": 9532,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a Citizens NPC."
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9533": {
+    "id": 9533,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the reasons a Citizen will spawn."
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9529": {
+    "id": 9529,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The held item of a citizen"
+      ],
+      "ko": [
+        "[Skript-Citizens] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

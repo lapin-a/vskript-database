@@ -1,0 +1,344 @@
+{
+  "syntax_10060": {
+    "id": 10060,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when web request response received"
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10061": {
+    "id": 10061,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when HTTP request received"
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10062": {
+    "id": 10062,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes header value from web request"
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10063": {
+    "id": 10063,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes header value from HTTP request."
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10064": {
+    "id": 10064,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Responses request with custom body and response code.",
+        "If not specify the response code, It will response with a 500."
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10065": {
+    "id": 10065,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send a async web request to specified URL.",
+        "Response can be obtain from HttpResponseEvent."
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10066": {
+    "id": 10066,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set HTTP response header to as you specified."
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10067": {
+    "id": 10067,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set web request URL as you specified."
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10068": {
+    "id": 10068,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set web request body to specified string"
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10069": {
+    "id": 10069,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the web request header to specified key and value"
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10070": {
+    "id": 10070,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set web request method as you specified.",
+        "Supported basic methods and custom methods"
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10071": {
+    "id": 10071,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Start http server with custom port and context"
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10072": {
+    "id": 10072,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stops http server"
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10073": {
+    "id": 10073,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Retrieves body from HTTP request"
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10074": {
+    "id": 10074,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Retrieves context path from HTTP request"
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10075": {
+    "id": 10075,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Retrieves header value from HTTP request"
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10076": {
+    "id": 10076,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Retrieves request method from HTTP request"
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10077": {
+    "id": 10077,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get header value from web request/response"
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10078": {
+    "id": 10078,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get request method of web request/response"
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10079": {
+    "id": 10079,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Retrieve body from web request response"
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10080": {
+    "id": 10080,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Retrieve body from web request response"
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10082": {
+    "id": 10082,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send a normal web request.",
+        "This method will cause lag spike.",
+        "If you encountered the lag spike, please use async web request instead."
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10081": {
+    "id": 10081,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Retrieve the new web request instance.",
+        "You can specify request method. If you don't specified It will use GET as default method"
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11218": {
+    "id": 11218,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a client ip of http request."
+      ],
+      "ko": [
+        "[SkriptWebAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

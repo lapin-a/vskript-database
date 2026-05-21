@@ -1,0 +1,338 @@
+{
+  "syntax_9338": {
+    "id": 9338,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player gets a group added."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9175": {
+    "id": 9175,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if string matches a specific regex."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9179": {
+    "id": 9179,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called upon Essentials balance change."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9186": {
+    "id": 9186,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Reverses the elements of a list"
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9177": {
+    "id": 9177,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Restores the players full inventory (including armor) to the player."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9176": {
+    "id": 9176,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send an action bar to the specified player(s)."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9178": {
+    "id": 9178,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Caches an object making it retrievable by the specified key. Will remain in cache until server is stopped or the cache has been deleted."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9180": {
+    "id": 9180,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of all the players inventory and armor (full equipment)."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9181": {
+    "id": 9181,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Caches an object to be retrieved at a later time."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9183": {
+    "id": 9183,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Finds the index by value in a variable."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9184": {
+    "id": 9184,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Regex replaces in the specified string"
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9185": {
+    "id": 9185,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Splits a string by the specified regex-pattern."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9187": {
+    "id": 9187,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sorts a list variable. Can be passed a helper function to sort better."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9182": {
+    "id": 9182,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Retrieves data from the nodes that the sorted-syntax (https://skripthub.net/docs/?id=9187) makes."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9339": {
+    "id": 9339,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player gets a group removed."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9340": {
+    "id": 9340,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player gets a group added or removed."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9341": {
+    "id": 9341,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player or group gets a permission added."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9342": {
+    "id": 9342,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player or group gets a permission removed."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9343": {
+    "id": 9343,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Expression that returns the permission added or removed in a Permission add/remove event."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9344": {
+    "id": 9344,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Expression that returns the name of a group in a group change/add/remove event."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10006": {
+    "id": 10006,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Plays a chest open or close animation for the specified players, at the specified location."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10007": {
+    "id": 10007,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Opens a sign inventory to the specified player."
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10009": {
+    "id": 10009,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the lines of the sign that has been updated through a custom sign created through SkEssentials (See https://skripthub.net/docs/?id=10008 and https://skripthub.net/docs/?id=10007)"
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10008": {
+    "id": 10008,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a custom sign inventory (created by SkEssentials) is closed"
+      ],
+      "ko": [
+        "[SkEssentials (Legacy)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

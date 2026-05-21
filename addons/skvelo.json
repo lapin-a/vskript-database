@@ -1,0 +1,19 @@
+{
+  "syntax_14237": {
+    "id": 14237,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This Adds the Velocity Effect.",
+        "The First %entity% expression is to call out, who will the Velocity apply to.",
+        "the Second %entity% or %location% can be used towards/away from an entity or any location.",
+        "Vector is simple 0, 1, 0 is to push up"
+      ],
+      "ko": [
+        "[SkVelo] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

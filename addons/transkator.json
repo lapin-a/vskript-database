@@ -1,0 +1,39 @@
+{
+  "syntax_4010": {
+    "id": 4010,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends a complex translated message to players.",
+        "- This message can be a default one from the Minecraft lang file.",
+        "- It can also be a custom one included via mod or resource pack.",
+        "- Inside the language files, you can use § to colour messages.",
+        "- Complex messages can include placeholder values using '%s' in the lang file.",
+        "- These %s's are filled in with your inputs. To use normal percents, double the %%.",
+        "- You are also able to specify the order using '%1$s' and '%2$s'."
+      ],
+      "ko": [
+        "[TranSKator] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4011": {
+    "id": 4011,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends a simple translated message to players.",
+        "- This message can be a default one from the Minecraft lang file.",
+        "- It can also be a custom one included via mod or resource pack.",
+        "- Inside the language files, you can use § to colour messages."
+      ],
+      "ko": [
+        "[TranSKator] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

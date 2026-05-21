@@ -1,0 +1,213 @@
+{
+  "syntax_6166": {
+    "id": 6166,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A plugin type used for plugin enable and disable events"
+      ],
+      "ko": [
+        "[SkMore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6167": {
+    "id": 6167,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a certain plugin is enabled"
+      ],
+      "ko": [
+        "[SkMore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6168": {
+    "id": 6168,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Disable a certain plugin"
+      ],
+      "ko": [
+        "[SkMore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6169": {
+    "id": 6169,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Enable a certain plugin"
+      ],
+      "ko": [
+        "[SkMore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6170": {
+    "id": 6170,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Reloads config of certain plugin"
+      ],
+      "ko": [
+        "[SkMore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6171": {
+    "id": 6171,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a plugin enables"
+      ],
+      "ko": [
+        "[SkMore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6172": {
+    "id": 6172,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a plugin disables"
+      ],
+      "ko": [
+        "[SkMore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6173": {
+    "id": 6173,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of server plugins"
+      ],
+      "ko": [
+        "[SkMore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6174": {
+    "id": 6174,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is an owner",
+        "Set server owners in the SkMore config"
+      ],
+      "ko": [
+        "[SkMore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6175": {
+    "id": 6175,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Reloads the server"
+      ],
+      "ko": [
+        "[SkMore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6176": {
+    "id": 6176,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send message to players with a certain permission"
+      ],
+      "ko": [
+        "[SkMore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6177": {
+    "id": 6177,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a player from a certain UUID"
+      ],
+      "ko": [
+        "[SkMore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6178": {
+    "id": 6178,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a world exists"
+      ],
+      "ko": [
+        "[SkMore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6179": {
+    "id": 6179,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the average of a list of numbers"
+      ],
+      "ko": [
+        "[SkMore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6180": {
+    "id": 6180,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the mode of a list of numbers"
+      ],
+      "ko": [
+        "[SkMore] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

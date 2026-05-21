@@ -1,0 +1,325 @@
+{
+  "syntax_2280": {
+    "id": 2280,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a citizen is created."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2281": {
+    "id": 2281,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a citizen is despawned."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2282": {
+    "id": 2282,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a citizen is spawned."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2283": {
+    "id": 2283,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a citizen is navigating."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2284": {
+    "id": 2284,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a citizen is paused."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2285": {
+    "id": 2285,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is a citizen."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2287": {
+    "id": 2287,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Cancels/Stops the navigation of a citizen."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2286": {
+    "id": 2286,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a citizen do the given animation.",
+        "arm swing, arm swing offhand, crit, eat food, hurt, magic crit, sit, sleep, sneak, start elytra, start use mainhand item, start use offhand item, stop sitting, stop sleeping, stop sneaking and stop use item"
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2288": {
+    "id": 2288,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a citizen attack or follow an entity."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2289": {
+    "id": 2289,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a citizen with name, type and optional location."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2290": {
+    "id": 2290,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Despawns a spawned citizen."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2291": {
+    "id": 2291,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Destroys a citizen."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2292": {
+    "id": 2292,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a citizen move to a specific location with optional speed."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2293": {
+    "id": 2293,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Pauses/Continues the navigation of a citizen."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2294": {
+    "id": 2294,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Spawns a citizen at specific location."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2295": {
+    "id": 2295,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all citizens."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2296": {
+    "id": 2296,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the ID of a citizen. Cannot be changed."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2297": {
+    "id": 2297,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the name of a citizen. Can be set and reset to its ID."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2298": {
+    "id": 2298,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the skin name of a citizen. Can be set and reset to \"Steve\" skin."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2299": {
+    "id": 2299,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the vulnerability of a citizen. Can be set and reset to true."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2300": {
+    "id": 2300,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a citizen from its ID."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2301": {
+    "id": 2301,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the citizen of an entity. Cannot be changed."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2302": {
+    "id": 2302,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last created citizen."
+      ],
+      "ko": [
+        "[skript-npc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

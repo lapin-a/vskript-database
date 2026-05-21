@@ -1,0 +1,493 @@
+{
+  "syntax_9217": {
+    "id": 9217,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The sender of a Telegram Message."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9192": {
+    "id": 9192,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a session and authenticate to a telegram bot, given its username and its token."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9193": {
+    "id": 9193,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Close all the telegram sessions that are active. Stops any running bot. You should use this in case you get an api error 409 saying multiple instances are running a single bot. Please note that closing a session may take up to 50 seconds, as it is delayed by the Telegram API itself."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9197": {
+    "id": 9197,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This type holds all the information about a message. You can either get this object in a telegram event (event-telegram message) or by creating a new one (new telegram message with text %string%)"
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9198": {
+    "id": 9198,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This type holds all the information about a telegram chat."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9200": {
+    "id": 9200,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This type represents a Telegram Inline Keyboard. A keyboard is a matrix of buttons (double list). You can access the rows of the keyboard with the row expression."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9201": {
+    "id": 9201,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This type represents a Telegram Inline Button. You can't add simply the button to a message, but you need first to add it into a keyboard. You can then add the keyboard to the message. (Otherwise, how would Telegram know which position the button would have to be?)",
+        "Of a button, you can define its text (the displayed button itself) and its action. If you set its URL, it will open automatically a link when clicked. If you set its callback data, you can specify the data that is sent to the bot when clicked. You can listen to such data with the EvtCallbackQuery"
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9202": {
+    "id": 9202,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires whenever a message (or command) is received. You can access the received message with event-telegram message"
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9203": {
+    "id": 9203,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires whenever a button with a callback data is fired. You can specify for which data to listen or leave it blank to listen for any button press"
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9204": {
+    "id": 9204,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This type represents a Callback Query. A callback query is what the bot receives when an inline button is pressed. You can see for example the callback data of the button with callback data of %callbackquery%"
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9205": {
+    "id": 9205,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a new empty telegram message. You can use other expressions to change its properties, such as text, keyboard, etc. You may use this outside of a Telegram Event, but in order to send it you'll have to specify bot you are using."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9206": {
+    "id": 9206,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last sent message. Use this exclusively and immediately after sending a message."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9207": {
+    "id": 9207,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a Telegram Chat type. The chat in which a message has been sent. Can not be set."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9208": {
+    "id": 9208,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the text of a telegram message. Can be changed to edit the message."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9195": {
+    "id": 9195,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send a telegram message. The message can be a string or can be an existing message. The target chat ID can be used to specify the destination of the message. If used inside of a Telegram Event, the bot to use is automatically detected. To use it outside of a Telegram Event, specify the username of the bot. If a session exists for that bot, the message will be sent."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9196": {
+    "id": 9196,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send a telegram message, as a reply to another message. The reply message can be a string or can be an existing message. If used inside of a Telegram Event, the bot to use is automatically detected. To use it outside of a Telegram Event, specify the username of the bot. If a session exists for that bot, the message will be sent."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9209": {
+    "id": 9209,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Numeric ID of a telegram object. Each user has an unique ID. The ID of a chat is identic to a user ID if it's its private chat with the bot. (It is different if it's a group or supergroup etc.). Each message has an unique ID inside of a chat. Can't be set."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9210": {
+    "id": 9210,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the type of a telegram chat. It can be \"PRIVATE\", \"BOT\", \"GROUP\", \"SUPERGROUP\" or \"CHANNEL\". Can't be set."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9211": {
+    "id": 9211,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The callback data of an Inline Button. This is the text that is sent to the bot on a button press, and it can be listened for with the On Callback Query event."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9212": {
+    "id": 9212,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The callback data of a Callback Query. You can use this to check what telegram button was pressed, based on the callback data you had set."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9213": {
+    "id": 9213,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The Displayed text of an Inline Button. This is the actual message a button has in the chat."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9214": {
+    "id": 9214,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The URL of an Inline Button. Note that a button can't have both a callback data and an URL. The link will be opened on button press."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9215": {
+    "id": 9215,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The row of an existing InlineKeyboard. You can add, remove, set and clear rows. Setting a row that doesn't exist on the keyboard will simply append it to the bottom."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9216": {
+    "id": 9216,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The Inline Keyboard of a Telegram Message. You can use this to add a keyboard to existing messages, before sending them."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9199": {
+    "id": 9199,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This type represents a Telegram User."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9194": {
+    "id": 9194,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Closes the telegram session of a specific bot. Please note that closing a session may take up to 50 seconds, as it is delayed by the Telegram API itself."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9219": {
+    "id": 9219,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This type represents a telegram bot. It holds information about the bot that fired a spefific event. You can view its username (to check if the bot is the one you're creating in skript) with \"%username of event-telegram bot%\" or with \"%event-telegram bot%\" Since Telegram Events are fired by all bots ran on a server, you should always filter that the received event is fired by the bot you're programming."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9220": {
+    "id": 9220,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Show a little notification to a user after they pressed a button. This will also complete a button press, removing the little clock that shows on the button when it gets pressed. Adding \"with popup\" will show the callback query answer in a popup window, and the user will have to press OK to hide it."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9221": {
+    "id": 9221,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Forward an existing telegram message, and send it to a user. The final message will have information about who sent it in the first place. It will show \"forwarded from\" to its top."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9222": {
+    "id": 9222,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Copy an existing telegram message, and send it to a user. This is useful for storing messages sent by the bot, eg. media or other. A copied message will not have \"forwarded from\" to its top."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9223": {
+    "id": 9223,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The username (mention) of a telegram user, a chat, or a bot. The username is returned without the @. If no username is set, null is returned."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9224": {
+    "id": 9224,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The full name of a Telegram User or, if a Chat, the title of the chat."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9225": {
+    "id": 9225,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The language code (IT, EN, FR ... ) of a telegram user, as set in the settings by them."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9218": {
+    "id": 9218,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Edit an existing, sent telegram message to a new one or to a string."
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9226": {
+    "id": 9226,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a Message object containing another message, the one that the original was in reply to. Cannot be set (to send messages as a reply, use the proper effect)"
+      ],
+      "ko": [
+        "[Skelegram] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

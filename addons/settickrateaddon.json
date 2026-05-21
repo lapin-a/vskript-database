@@ -1,0 +1,16 @@
+{
+  "syntax_13166": {
+    "id": 13166,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the tick rate of a player and optionally freeze / unfreeze their animations"
+      ],
+      "ko": [
+        "[SetTickRateAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

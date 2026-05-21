@@ -1,0 +1,712 @@
+{
+  "syntax_14258": {
+    "id": 14258,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the given player(s) has/have a GUI open.",
+        "Deprecated: Use ExprGetPlayerSession and check for null instead."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14259": {
+    "id": 14259,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the given menu is destroyed.",
+        "A destroyed menu cannot be opened or interacted with.",
+        "Menus are usually destroyed when a new menu with the same ID is created, or when the server shuts down."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14260": {
+    "id": 14260,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Clears the menu session of the given player(s).",
+        "This will remove the content of the gui they have open, but will not close the gui itself.",
+        "If 'refresh' is specified, the player's gui will be refreshed to reflect the cleared session."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14261": {
+    "id": 14261,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Close the menu for a player (if opened)."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14262": {
+    "id": 14262,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Closes a menu session, effectively closing the menu for the player."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14263": {
+    "id": 14263,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Destroy the given menu.",
+        "A destroyed menu cannot be opened or interacted with.",
+        "If a menu is destroyed while players have it open, their menus will be forcibly closed.",
+        "If the menu has been destroyed already, this effect does nothing."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14257": {
+    "id": 14257,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[xiaojie-gui] No official English guide provided."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14254": {
+    "id": 14254,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[xiaojie-gui] No official English guide provided."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14256": {
+    "id": 14256,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "None"
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14264": {
+    "id": 14264,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Insert a new page into a menu.",
+        "You can optionally specify the page index, layout, player inventory layout, and title for the new page.",
+        "If the page index is not provided, the new page will be added at the end of the menu."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14265": {
+    "id": 14265,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Open a menu for a player.",
+        "You can optionally specify a page number to open a specific page of the menu."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14266": {
+    "id": 14266,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Refresh the menu session, updating the inventory view.",
+        "If a slot number is provided, only that slot will be refreshed.",
+        "If no slot number is provided, the entire inventory will be refreshed.",
+        "Does nothing if the menu receptacle mode is static or the session is not active."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14267": {
+    "id": 14267,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Turn the page of the currently open menu for a player.",
+        "You can optionally specify a new title for the menu."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14268": {
+    "id": 14268,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Update the title of a menu session.",
+        "If 'and refresh' is included, the inventory view will be refreshed to reflect the new title immediately."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14270": {
+    "id": 14270,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The default layout of a menu."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14271": {
+    "id": 14271,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The default page to show a menu when opened."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14272": {
+    "id": 14272,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The default title of a menu (when add a new page).",
+        "It can be a string or a text component in skbee(if exists)."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14278": {
+    "id": 14278,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get all menu IDs.",
+        "This expression returns a list of all menu IDs that have been created.",
+        "Tips: This expression only returns the ids of menus have ids."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14279": {
+    "id": 14279,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get all menus.",
+        "This expression returns a list of all menus that have been created.",
+        "Tips: This expression only returns the menus have ids."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14280": {
+    "id": 14280,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get a menu by its ID.",
+        "The ID is the one defined when creating the menu."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14281": {
+    "id": 14281,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the menu session of a player.",
+        "Returns null if the player does not have an active menu session."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14282": {
+    "id": 14282,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether to hide the player's inventory when the menu is opened."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14283": {
+    "id": 14283,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the ID of a menu."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14284": {
+    "id": 14284,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The inventory type of a menu."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14285": {
+    "id": 14285,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The mode of a menu, either `PHANTOM` or `STATIC`."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14286": {
+    "id": 14286,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or set the icon(s) in specific slot(s) of a menu session.",
+        "Returns null if the session is invalid or the slot is empty.",
+        "When setting icons, all existing icons in the specified slots will be replaced.",
+        "When deleting icons, all existing icons in the specified slots will be removed."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14287": {
+    "id": 14287,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or set the title of a menu session.",
+        "Returns null if the session is invalid."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14288": {
+    "id": 14288,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the viewer (player) of a menu session.",
+        "Returns null if the session is invalid."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14289": {
+    "id": 14289,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All players currently viewing a menu."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14290": {
+    "id": 14290,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The minimum click delay (in ms) between two clicks in a menu."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14291": {
+    "id": 14291,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The total number of pages in a menu."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14277": {
+    "id": 14277,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The GUI that the player currently has open."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14292": {
+    "id": 14292,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or set the title of a specific page in a menu."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14293": {
+    "id": 14293,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the menu of a menu session.",
+        "Returns null if the session is invalid."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14294": {
+    "id": 14294,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The key of a specific slot in a specific page of a menu.",
+        "This expression returns the key associated with the specified slot in the specified page of the given menu.",
+        "If the slot does not have an associated key, it returns nothing."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14295": {
+    "id": 14295,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The slot(s) of a specific key in a specific page of a menu.",
+        "This expression returns the slot(s) associated with the specified key in the specified page of the given menu.",
+        "If the key does not have any associated slots, it returns nothing."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14296": {
+    "id": 14296,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The base of creating and editing GUIs.",
+        "Tips: This is a deprecated section, consider using EffSecCreateMenu and SecEditMenu instead."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14297": {
+    "id": 14297,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a menu.",
+        "You can define the menu's properties, such as its inventory type, title, id, layout, page, click delay, and whether to hide the player's inventory.",
+        "You can also define the menu's contents and behavior in the section below this effect.",
+        "Tips: If you do not specify a default page, the menu will insert a page 0 with the given layout and title.",
+        "If you create a menu with a id that already exists, the old one will be destroyed."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14298": {
+    "id": 14298,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Edit an existing menu.",
+        "You can define the menu's contents and behavior in the section below this effect."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14300": {
+    "id": 14300,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Override a specific slot in a specific page of a menu with a new item.",
+        "You can optionally provide a section to handle click events on the overridden slot.",
+        "Tips: If you didn't provide a section, the slot will simply be overridden without changing previous click behavior."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14269": {
+    "id": 14269,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Update the title of a specific page in a menu.",
+        "You can optionally refresh the menu for all viewers to see the updated title immediately."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14306": {
+    "id": 14306,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Build a menu with specified properties.",
+        "You can specify the menu type (phantom or static), inventory type, title, layout, id, default page, click delay, and whether to hide the player inventory.",
+        "You can also provide an edit section to define additional properties or behaviors for the menu.",
+        "The created menu is stored in the specified variable."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14307": {
+    "id": 14307,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Insert a new page into a menu.",
+        "You can optionally specify the page index, layout, player inventory layout, and title for the new page.",
+        "If the page index is not provided, the new page will be added at the end of the menu."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14299": {
+    "id": 14299,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Map a string key to an icon (item) in a menu.",
+        "You can optionally provide a section to handle click events on the icon.",
+        "Tips: If you didn't provide a section, the slot will simply be overridden without changing previous click behavior."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14301": {
+    "id": 14301,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set a callback for a specific slot in a specific page of a menu.",
+        "You must provide a section to handle click events on the specified slot."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14255": {
+    "id": 14255,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[xiaojie-gui] No official English guide provided."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14308": {
+    "id": 14308,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Defines a button with the specified ID and icon.",
+        "You must provide a 'when clicked' section to handle button click events.",
+        "If a button with the same ID already exists, the new definition will overwrite the previous one."
+      ],
+      "ko": [
+        "[xiaojie-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

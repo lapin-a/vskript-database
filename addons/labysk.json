@@ -1,0 +1,565 @@
+{
+  "syntax_11810": {
+    "id": 11810,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds the addon to the list which then can be sent to the player via another syntax"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11811": {
+    "id": 11811,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send the disabled addons to the player which can be added via another syntax"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12288": {
+    "id": 12288,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all blocked addons that have been added via the block addons syntax."
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12289": {
+    "id": 12289,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the remaining mute time (Integer) in minutes. If the player isn't muted, the variable will return <none>"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12290": {
+    "id": 12290,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the given reason when the player got muted via the Voicechat mute Syntax. Will return <none> if the player isn't muted."
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11947": {
+    "id": 11947,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Mutes the player from the voicechat for the given reason and time (Only works if the player isn't already muted)"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11948": {
+    "id": 11948,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Unmutes the player from voice chat  (Only works if the player is muted)"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11460": {
+    "id": 11460,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends a request to the player which shows optimal or required addons to play on the server. This works only for offical published LabyMod Addons"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12914": {
+    "id": 12914,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Edits the default LabyMod Discord RPC with custom Title"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12915": {
+    "id": 12915,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Edits the default LabyMod Discord RPC with custom Title and an end time"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12916": {
+    "id": 12916,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Edits the default LabyMod Discord RPC with custom Title and a new timer"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12917": {
+    "id": 12917,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Resets the Discord RPC to laby default"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11464": {
+    "id": 11464,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes the subtitle of the player if one is present."
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11466": {
+    "id": 11466,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "With this event you can check if the player is using labymod and use all kind of related labymod stuff like the playing gamemode expression"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12539": {
+    "id": 12539,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets how the markers (when the player sends one) will be handled on the server.",
+        "Valid types:",
+        "FRIENDS",
+        "BLOCKED",
+        "FRIENDS -> Normal behavior, the markers will be sent to all labymod friends of the player.",
+        "BLOCKED -> No one on the server will recieve the marker even when they are friends with the player."
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12540": {
+    "id": 12540,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This Effect \"summons\" an marker at the given location on the server for everyone that has markers active in their options.",
+        "Parameters:",
+        "%player% - The player that will recieve the summoned marker (Can also be loop-players)",
+        "1st %integer% - The x-Position of the marker",
+        "2nd %integer% - The y-Position of the marker",
+        "3rd %integer% - The z-Position of the marker"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11989": {
+    "id": 11989,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a LabyMod input prompt. This effect only creates the prompt and does not automatically open it for the player.",
+        "If another input prompt with the same ID is created the old one gets deleted.",
+        "Valid Colornames: BLACK, DARK\\_BLUE, DARK\\_GREEN, DARK\\_AQUA, DARK\\_RED, DARK\\_PURPLE, GOLD, GRAY, DARK\\_GRAY, BLUE, GREEN, AQUA, RED, LIGHT\\_PURPLE, YELLOW; WHITE",
+        "Valid Decoration: OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINED, ITALIC"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11990": {
+    "id": 11990,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Opens the input prompt with the specific id for the player if it was created before."
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11991": {
+    "id": 11991,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the input value after clicking the submit button of the input prompt. The value will be saved internally until the player sends another input or the server restarts / reloads."
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11461": {
+    "id": 11461,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends the player to another server. The preview shows additional Informations like the Server's Server Icon and MOTD"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11463": {
+    "id": 11463,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the subtitle of the player to the given text and size.",
+        "Accepted Sizes: 0.8 - 1.6 (0.8 Is Minecraft Default Size)"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11459": {
+    "id": 11459,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Shows the playing gamemode to all LabyMod friends in the top right corner if activated in the player's profile settings."
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11462": {
+    "id": 11462,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends a Server Banner to the player which is displayed over the Tablist.",
+        "Recommended Resolution: 5:1 // 1280x256",
+        "Note: You need to copy the picture address (which mostly ends with .png oder .jpeg)"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11465": {
+    "id": 11465,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the cash and bank display in the top right corner of the screen with a smooth transition for the player."
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11487": {
+    "id": 11487,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a valid NPC for playing LabyMod Emotes.",
+        "The created NPC is created via Citizens which means that it can be used with the features of the Citizens Plugin.",
+        "Note: Every NPC needs to have an other ID!"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11488": {
+    "id": 11488,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Plays a random LabyMod Emote for the NPC with given ID.",
+        "NPC needs to be created via the Create NPC Effect and also needs a valid ID."
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11563": {
+    "id": 11563,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send the actions which can be added with the add action syntax to the given player",
+        "Important: If the server is getting restarted / Stopped or the player is getting kicked / leaves then all actions which have been added to the player will be deleted."
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11561": {
+    "id": 11561,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds / Removes actions from the action menu for the player.",
+        "This Syntax ONLY ADDS actions. TO send actions to the player you need to use another syntax!!",
+        "It is important to use one of the following action types, otherwise it won't work:",
+        "CLIPBOARD",
+        "RUN\\_COMMAND",
+        "SUGGEST\\_COMMAND",
+        "OPEN\\_BROWSER",
+        "This Action also has an inbuilt detection for duplication of elements",
+        "(Remove feature doesn't work for version 1.8 Sorry!)"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11560": {
+    "id": 11560,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends the country flag from the given player to the other player(s). Will show in tablist and at above player's head the flag of their country.",
+        "!! Doesn't work on localhost server !!"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11489": {
+    "id": 11489,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Plays the given LabyMod Emote for the NPC with given ID.",
+        "NPC needs to be created via the Create NPC Effect and also needs a valid ID.",
+        "List of valid Emotes: https://docs.labymod.net/pages/server/labymod/emote_api/"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14318": {
+    "id": 14318,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends the badge with the given id for the player"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13899": {
+    "id": 13899,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets if the given player is allowed to unlock his camera or not"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14031": {
+    "id": 14031,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Opens voicechat channels for the given player. Only works if the player is using the voicechat addon"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14032": {
+    "id": 14032,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows / denies specific permissions for the player. Currently only autotext is implemented by the labymod server api"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14033": {
+    "id": 14033,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the current labymod version of the player."
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14034": {
+    "id": 14034,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets all current installed labymod addons of the player. The namespace and the version will be displayed"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14316": {
+    "id": 14316,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets if the badges should be displayed right next of the name of the player"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14319": {
+    "id": 14319,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new badge. The Id needs to be a number. The Color needs to be a String with a hex color in it for example \"#FFFFFF\".  The Image needs to be a image link  with a .png or .jpg ending"
+      ],
+      "ko": [
+        "[LabySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1644 @@
+{
+  "syntax_3860": {
+    "id": 3860,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3862": {
+    "id": 3862,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3863": {
+    "id": 3863,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3864": {
+    "id": 3864,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3865": {
+    "id": 3865,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3867": {
+    "id": 3867,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3868": {
+    "id": 3868,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3869": {
+    "id": 3869,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3870": {
+    "id": 3870,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3871": {
+    "id": 3871,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3872": {
+    "id": 3872,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether a living entity has the given potion effects."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3873": {
+    "id": 3873,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether an item type is a block."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3874": {
+    "id": 3874,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether a number is divisible by the given number."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3875": {
+    "id": 3875,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the given number is prime."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3876": {
+    "id": 3876,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the given location is between two locations."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3877": {
+    "id": 3877,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether a midi with the given ID is playing."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3878": {
+    "id": 3878,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the given locations are in the given world border."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3879": {
+    "id": 3879,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether a file exists."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3880": {
+    "id": 3880,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes the lines below X times."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3881": {
+    "id": 3881,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Clears all recipes for the given items."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3882": {
+    "id": 3882,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Clears all recipes."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3883": {
+    "id": 3883,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a player see a block as another type of block (e.g. client side). Any update from the server will change it back."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3884": {
+    "id": 3884,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a player see lines of a sign as the given texts (e.g. client side)."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3885": {
+    "id": 3885,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Skip the execution of a number of lines."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3886": {
+    "id": 3886,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes the given dynamic Skript effect code."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3887": {
+    "id": 3887,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes the given lambda, optionally X of times."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3888": {
+    "id": 3888,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes an entity go back to the given location. Using 'normally' reduces some bugs caused by varying distances, but makes it less accurate."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3889": {
+    "id": 3889,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Leash living entities to other entities."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3890": {
+    "id": 3890,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Plays a midi from a file or an URL to the specified players optionally with specified tempo and ID."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3891": {
+    "id": 3891,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stops the midi with the ID."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3892": {
+    "id": 3892,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a living entity damage another."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3893": {
+    "id": 3893,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Forces a player to send a message to the chat. If the message starts with a slash it will force the player to use command."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3895": {
+    "id": 3895,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes the script automatically reload if a change have been made."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3896": {
+    "id": 3896,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes SkQuery a permissions manager on the server. You will then be able to access the expressions that represent player permissions and change them."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3897": {
+    "id": 3897,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes the next line run on a different thread. The code below the next line will be delayed until the thread finishes. Please note that Bukkit stuff aren't thread safe."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3898": {
+    "id": 3898,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a living entity pathfind to the given location with the specified speed."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3899": {
+    "id": 3899,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Change visibility of a player for the given players. If a player was hidden and relogs, this player will be visible again."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3900": {
+    "id": 3900,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Instantly detonates a firework effect at the given location. Having multiple effects will cause them to stack."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3901": {
+    "id": 3901,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set blocks to another type of blocks without causing surrounding blocks to update."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3902": {
+    "id": 3902,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Shoots an item from a living entity with the specified speed."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3903": {
+    "id": 3903,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Shows the end credists to the given player."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3904": {
+    "id": 3904,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Shutdowns the server."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3905": {
+    "id": 3905,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Tames given entities to a player."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3906": {
+    "id": 3906,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends a resource pack from an URL to the specified players."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3907": {
+    "id": 3907,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes trail of particles for the projectile in a shoot event."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3908": {
+    "id": 3908,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the value at the given index of a list."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3911": {
+    "id": 3911,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The art of a painting. Can be set or reset."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3912": {
+    "id": 3912,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The explosion strength of an explosive entity (like primed TNT, fireballs and wither skull). Can be set or reset."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3913": {
+    "id": 3913,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the blocks in a chunk. Can be changed."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3914": {
+    "id": 3914,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the blocks between two locations as a cube. Can be changed."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3915": {
+    "id": 3915,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The block at the given coordinates in a chunk. Can be changed."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3916": {
+    "id": 3916,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The world border of a world. Can be deleted or reset."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3909": {
+    "id": 3909,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The critical state of an arrow. Can be set or reset."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3917": {
+    "id": 3917,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The center location of a world border. Can be set."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3918": {
+    "id": 3918,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The damage amount of a world border. Can be set."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3919": {
+    "id": 3919,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The damage buffer (amount of blocks a player may safely be outside the border before taking damage) of a world border. Can be set. Default is 5."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3920": {
+    "id": 3920,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The size of a world border. Can be changed."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3921": {
+    "id": 3921,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The warning distance of a world border. Can be set."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3922": {
+    "id": 3922,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The warning time of a world border. Can be changed."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3923": {
+    "id": 3923,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the character at the given index of a text."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3924": {
+    "id": 3924,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the result of a predicate."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3925": {
+    "id": 3925,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3926": {
+    "id": 3926,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the direction from a location to another location."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3927": {
+    "id": 3927,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the enchantment cost in an enchant event."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3928": {
+    "id": 3928,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all entities in a chunk. Can be added to or remove from."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3929": {
+    "id": 3929,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the exploded blocks in an explode event."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3930": {
+    "id": 3930,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The fake maximum player count in a server list ping event. Can be set."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3931": {
+    "id": 3931,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether the given players are allowed to fly."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3932": {
+    "id": 3932,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The former location in a player move event."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3933": {
+    "id": 3933,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns glowing items."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3936": {
+    "id": 3936,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The selected hotbar slot index of a player (0-9). Can be changed!"
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3940": {
+    "id": 3940,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the title of the viewed inventory in an inventory click event."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3941": {
+    "id": 3941,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Can be changed."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3942": {
+    "id": 3942,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a random text generated from the given regex."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3944": {
+    "id": 3944,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether a boat can work on land. Might not work as expected on some Minecraft versions."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3945": {
+    "id": 3945,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the loaded chunks of the given worlds."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3935": {
+    "id": 3935,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether the player should see their health as scaled. See the [Health Scale](https://skripthub.net/docs/?id=3934) expression."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3943": {
+    "id": 3943,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3938": {
+    "id": 3938,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the image from a direct image link."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3937": {
+    "id": 3937,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the image of a local PNG file. See examples."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3946": {
+    "id": 3946,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3947": {
+    "id": 3947,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The maximum speed of a minecart. Can be set. The default is 0.4."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3948": {
+    "id": 3948,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the modulo of the given numbers, i.e. the remainder of the division of them."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3949": {
+    "id": 3949,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the current moon phase of a world."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3950": {
+    "id": 3950,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A line break (LF). Can be used in so many places like messages, books, MOTD, files..."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3951": {
+    "id": 3951,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a random UUID."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3952": {
+    "id": 3952,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3953": {
+    "id": 3953,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the nth prime number."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3954": {
+    "id": 3954,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3955": {
+    "id": 3955,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the version of a plugin."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3956": {
+    "id": 3956,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The entity that primed the given tNT."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3957": {
+    "id": 3957,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3958": {
+    "id": 3958,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The regen cause in a heal event."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3959": {
+    "id": 3959,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3963": {
+    "id": 3963,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3964": {
+    "id": 3964,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3965": {
+    "id": 3965,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The owner of a tameable animal. Can be set or reset."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3966": {
+    "id": 3966,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all tile entities in a chunk. Can be changed."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3967": {
+    "id": 3967,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Client side time of a player. Can be set or reset."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3969": {
+    "id": 3969,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3970": {
+    "id": 3970,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The profession of a villager. Can be set or reset."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3971": {
+    "id": 3971,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3972": {
+    "id": 3972,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3973": {
+    "id": 3973,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3974": {
+    "id": 3974,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3975": {
+    "id": 3975,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3976": {
+    "id": 3976,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkQuery] No official English guide provided."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3961": {
+    "id": 3961,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a number converted to roman numeral."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3960": {
+    "id": 3960,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a roman numeral converted to number."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3910": {
+    "id": 3910,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The knockback strength of an arrow. Can be set or reset."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3934": {
+    "id": 3934,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The number to scale the health the player sees. Can be changed and changing this will also enable [scaled health mode](https://skripthub.net/docs/?id=3935).",
+        "The formula to display the health is: `health / max health * health scale`"
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3939": {
+    "id": 3939,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether an explosive entity (primed TNT, fireballs and wither skull) should cause fire."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3962": {
+    "id": 3962,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The server icon in a server list ping event. Will always return nothing, can be set to an image.",
+        "See also: [Local Image](https://skripthub.net/docs/?id=3937) and [Image from URL](https://skripthub.net/docs/?id=3938) expressions"
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3866": {
+    "id": 3866,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a server list ping is coming in, generally when a Minecraft client pings the server to show its information in the server list.",
+        "See also: [MOTD](https://skripthub.net/docs/?id=3946), [Server Icon](https://skripthub.net/docs/?id=3962) and [Fake Max Players](https://skripthub.net/docs/?id=3930) expressions"
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3861": {
+    "id": 3861,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a falling block lands. The `event-block` will be the block that the falling block will land to, waiting a tick would give the landed block."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3968": {
+    "id": 3968,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Client side time of a player. If 'relative', the time will be relative to the world (so it will be changing and the `doDaylightCycle` gamerule affects it), otherwise the time will stay fixed.",
+        "Can be set or reset."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3894": {
+    "id": 3894,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Registers a new crafting recipe. All 9 slots must be present, use `air` to indicate the slot is not used."
+      ],
+      "ko": [
+        "[SkQuery] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

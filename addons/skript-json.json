@@ -1,0 +1,54 @@
+{
+  "syntax_2802": {
+    "id": 2802,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a JSON (as list variable) into JSON form."
+      ],
+      "ko": [
+        "[skript-json] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2801": {
+    "id": 2801,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Copies JSON formatted text into a list variable. Existing entries in the list variable are not deleted.",
+        "If the following JSON were mapped to variable `{json::*}`",
+        "```json",
+        "{",
+        "\"foo\": 15,",
+        "\"bar\": \"test\",",
+        "\"baz\": {",
+        "\"foobar\": [",
+        "{",
+        "\"quux\": false",
+        "}",
+        "]",
+        "}",
+        "}",
+        "```",
+        "the following assertions would be true:",
+        "```",
+        "{json::foo} is 15",
+        "{json::bar} is \"test\"",
+        "{json::baz} is true                    # special case",
+        "{json::baz::foobar} is true            # special case",
+        "{json::baz::foobar::1} is true         # special case",
+        "{json::baz::foobar::1::quux} is false",
+        "```",
+        "The variables marked `# special case` contain nested JSON objects and are true so Skript can properly loop through the variable. These variables (like `{json::baz}`, not list variables like `{json::baz::*}`) can be deleted and the structure will still properly serialize into JSON."
+      ],
+      "ko": [
+        "[skript-json] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

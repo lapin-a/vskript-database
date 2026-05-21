@@ -1,0 +1,399 @@
+{
+  "syntax_13895": {
+    "id": 13895,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the MOTD from the last ping of a pinged server"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13889": {
+    "id": 13889,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A server which can be pinged for information"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13890": {
+    "id": 13890,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get a server's information by address."
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13779": {
+    "id": 13779,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the thunder state of a world changes"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13787": {
+    "id": 13787,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The thickness of a dripstone block"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13781": {
+    "id": 13781,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets or sets the thunder state of a world"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13780": {
+    "id": 13780,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player crafts in their 2x2 crafting grid in their inventory"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13784": {
+    "id": 13784,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the eye height of an entity (the distance between the bottom of their hitbox and the point of eyesight)"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13783": {
+    "id": 13783,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets and sets the item pickup state of a player",
+        "Setting this to false will prevent their ability to pick up items"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13778": {
+    "id": 13778,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the display item inside a vault block changes"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13786": {
+    "id": 13786,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the thickness of a dripstone block",
+        "See Dripstone Thickness (Type) for more information"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13777": {
+    "id": 13777,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the player's hitbox is within the hitbox of a solid block"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13785": {
+    "id": 13785,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets and sets the maximum air of a living entity in ticks",
+        "While this sets the maximum air, it does not set the amount of air the player already has, so the entity's air supply will slowly climb up to maximum"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13782": {
+    "id": 13782,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the swimming state of a player",
+        "While this value can be changed, nothing noticeable happens in game"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13892": {
+    "id": 13892,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the online status of a pinged server"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13834": {
+    "id": 13834,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the player's actively thrown ender pearls"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13835": {
+    "id": 13835,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Forces a player to immediately break a block using what they are holding. Triggers Skript's On Break Event"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13836": {
+    "id": 13836,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the player is in virtual reality (ViveCraft/QuestCraft) mode"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13837": {
+    "id": 13837,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the player is playing ViveCraft/QuestCraft in seated mode"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13838": {
+    "id": 13838,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the player's calibrated height. (Note: The default height is 1, even though the player's normal height in non-VR is ~1.8)"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13839": {
+    "id": 13839,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the player's left hand, right hand or head position when in ViveCraft/QuestCraft as a Location (Note: For rotation, refer to vr rotation of player)"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13840": {
+    "id": 13840,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the player's left hand, right hand or head rotation when in ViveCraft/QuestCraft as a vector"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13891": {
+    "id": 13891,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Initializes server pings for an address, useful for getting information about a server without getting null values on the first call. It's best to wait a second before getting any data from the server, as retrieving data on the first mention of a new address will return incorrect/invalid values."
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13893": {
+    "id": 13893,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the player count from the last ping of a pinged server"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13894": {
+    "id": 13894,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the maximum player count from the last ping of a pinged server"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13896": {
+    "id": 13896,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the server version from the last ping of a pinged server"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13897": {
+    "id": 13897,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the ping time from the last ping of a pinged server"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13898": {
+    "id": 13898,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns true if the item will make the block drop an item.",
+        "(NOTE: Will only sometimes activate on blocks with chances of dropping items, like leaves; will fix when I switch to loottables)"
+      ],
+      "ko": [
+        "[PriSKm] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

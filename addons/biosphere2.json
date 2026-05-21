@@ -1,0 +1,716 @@
+{
+  "syntax_2174": {
+    "id": 2174,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of locations in the shape of a box (only the corners!)."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2175": {
+    "id": 2175,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of vectors in the shape of a box including corners and edges. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2176": {
+    "id": 2176,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of vectors in the shape of a box (only the corners!)."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2177": {
+    "id": 2177,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of vectors in the shape of a box including corners and edges. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1330": {
+    "id": 1330,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gives the reference frame of an entity. The reference frame is used to get locations with respect to the entities orientation."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1332": {
+    "id": 1332,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of locations in the shape of a cube (only the corners!). To get a list of locations including the cube edges use cube outline."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1333": {
+    "id": 1333,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of locations in the shape of a cube, including the corners and vertices of the cube. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1338": {
+    "id": 1338,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of locations linking multiple locations with lines. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1339": {
+    "id": 1339,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gives the midpoint between locations."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1340": {
+    "id": 1340,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Moves a list of locations from one location to another."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1341": {
+    "id": 1341,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Calculates the offset of locations from vectors."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1342": {
+    "id": 1342,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of locations in the shape of a polygon (only the corners!). If you want a polygon with edges use polygon outline."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1343": {
+    "id": 1343,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of locations in the shape of a polygon including corners and edges. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1327": {
+    "id": 1327,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts degree to radian"
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1328": {
+    "id": 1328,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Yaw and pitch of a frame. Mainly used to rotate or incline reference frames"
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1334": {
+    "id": 1334,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gives locations in a cylindrical coordinate system."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1335": {
+    "id": 1335,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of locations in the shape of a helix. The step parameter determines how many blocks the helix will go upwards in one rotation. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1336": {
+    "id": 1336,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of locations in the shape of a line. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1337": {
+    "id": 1337,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gives a location on the line between two locations. The number parameter describes how far the point is from the first location. A value of 0 corresponds the the start (first location). A value of 1 corresponds to the end (location 2). 0.5 is the midpoint between the two locations."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1329": {
+    "id": 1329,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a reference frame from a yaw and a pitch."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1346": {
+    "id": 1346,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Rotates locations around a rotation center and a rotation axis by an angle."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1347": {
+    "id": 1347,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Rotates locations around a rotation center and rotation axis by an angle."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1348": {
+    "id": 1348,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Scales locations from a center by a scaling factor. The direction parameter adds an additional scaling along the x-, y- and z-axis."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1354": {
+    "id": 1354,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of vectors in the shape of a polygon including corners and edges. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1356": {
+    "id": 1356,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of vectors in the shape of a line. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1357": {
+    "id": 1357,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of vectors in the shape of a line between the two given vectors. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1358": {
+    "id": 1358,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of vectors linking multiple vectors with lines. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1359": {
+    "id": 1359,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gives the midpoint between vectors."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1361": {
+    "id": 1361,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of vectors in the shape of a polygon (only the corners!). If you want a polygon with edges use polygon outline."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1362": {
+    "id": 1362,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of vectors in the shape of a polygon including corners and edges. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1363": {
+    "id": 1363,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of vectors in the shape of a sphere. The locations are randomly distributed on the sphere surface."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1364": {
+    "id": 1364,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Mirrors vectors in another vector. The direction parameter applies an additional scaling for each axis."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1365": {
+    "id": 1365,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Rotates vectors around a rotation center and a rotation axis by an angle."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1366": {
+    "id": 1366,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Rotates vectors around a rotation center and rotation axis by an angle."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1367": {
+    "id": 1367,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Scales vectors by a scaling factor and an optional direction. The direction parameter adds an additional scaling along the x-, y- and z-axis."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1345": {
+    "id": 1345,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Mirrors locations in another location. The direction parameter applies an additional scaling for each axis."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1349": {
+    "id": 1349,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of locations in the shape of a sphere. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1350": {
+    "id": 1350,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gives locations in a spherical coordinate system."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1351": {
+    "id": 1351,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts radian to degree"
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1353": {
+    "id": 1353,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of vectors in the shape of a cube (only the corners!). To get a list of locations including the cube edges use cube outline."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1360": {
+    "id": 1360,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Offset vectors by other vectors."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1352": {
+    "id": 1352,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of vectors in the shape of a circle"
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1370": {
+    "id": 1370,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Reference frame that can be used to get vectors relative to some direction."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1369": {
+    "id": 1369,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a vector in a reference frame to the standard Minecraft coordinates."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1344": {
+    "id": 1344,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of locations in the shape of a sphere. The locations are randomly distributed on the sphere surface."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1531": {
+    "id": 1531,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a path between the locations. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1368": {
+    "id": 1368,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of vectors in the shape of a sphere. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1331": {
+    "id": 1331,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of locations in the shape of a circle. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1532": {
+    "id": 1532,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds each offset to all vectors"
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1533": {
+    "id": 1533,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a path between vectors. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1355": {
+    "id": 1355,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a list of vectors in the shape of a helix. The step parameter determines how many blocks the helix will go upwards in one rotation. The density value controls the amount of points. A higher number increases the amount of points. A density of 1 corresponds to 1 point per block."
+      ],
+      "ko": [
+        "[Biosphere2] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

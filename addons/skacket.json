@@ -1,0 +1,507 @@
+{
+  "syntax_7622": {
+    "id": 7622,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7623": {
+    "id": 7623,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a sound is to be played to the client."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7624": {
+    "id": 7624,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a sound is to be played to the client."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7625": {
+    "id": 7625,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the server sends a sign change event to a player.",
+        "Useful for sending lines on a sign to exact players, or permission based to see text on a sign."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7626": {
+    "id": 7626,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player attempts to move the entity they're riding."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7627": {
+    "id": 7627,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7628": {
+    "id": 7628,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7629": {
+    "id": 7629,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7630": {
+    "id": 7630,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7631": {
+    "id": 7631,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7632": {
+    "id": 7632,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7633": {
+    "id": 7633,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7634": {
+    "id": 7634,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7635": {
+    "id": 7635,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7636": {
+    "id": 7636,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7637": {
+    "id": 7637,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7638": {
+    "id": 7638,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7639": {
+    "id": 7639,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7640": {
+    "id": 7640,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7641": {
+    "id": 7641,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7642": {
+    "id": 7642,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7643": {
+    "id": 7643,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7644": {
+    "id": 7644,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7645": {
+    "id": 7645,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7646": {
+    "id": 7646,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7647": {
+    "id": 7647,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7648": {
+    "id": 7648,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7649": {
+    "id": 7649,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7650": {
+    "id": 7650,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7651": {
+    "id": 7651,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7652": {
+    "id": 7652,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7653": {
+    "id": 7653,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7654": {
+    "id": 7654,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7655": {
+    "id": 7655,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The different types that trigger a player block dig event."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7656": {
+    "id": 7656,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skacket] No official English guide provided."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7657": {
+    "id": 7657,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Movements define direction in the steer vehicle event."
+      ],
+      "ko": [
+        "[Skacket] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

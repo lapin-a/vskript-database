@@ -1,0 +1,79 @@
+{
+  "syntax_1222": {
+    "id": 1222,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Grabs the identifier from a placeholder request event"
+      ],
+      "ko": [
+        "[Ersatz] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1224": {
+    "id": 1224,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Grabs the value of a PlaceholderAPI prefix"
+      ],
+      "ko": [
+        "[Ersatz] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1223": {
+    "id": 1223,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the prefix in a placeholder request event"
+      ],
+      "ko": [
+        "[Ersatz] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1220": {
+    "id": 1220,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a placeholder is requested. This can be used to make your own placeholders like this:",
+        "```",
+        "on placeholder request with prefix \"custom\":",
+        "if the identifier is \"hey\": # %custom_hey%",
+        "set the result to \"hi there %player%!\"",
+        "else if the identifier is \"bye\": # %custom_bye%",
+        "set the result to \"bye bye %player%\"",
+        "```"
+      ],
+      "ko": [
+        "[Ersatz] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1221": {
+    "id": 1221,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Grabs the result from a placeholder request event"
+      ],
+      "ko": [
+        "[Ersatz] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

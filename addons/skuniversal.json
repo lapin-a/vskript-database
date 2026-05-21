@@ -1,0 +1,4321 @@
+{
+  "syntax_2194": {
+    "id": 2194,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player is demoted."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2199": {
+    "id": 2199,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes suffix from player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2200": {
+    "id": 2200,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the names of all groups."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2205": {
+    "id": 2205,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the suffix of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2204": {
+    "id": 2204,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the prefix of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2938": {
+    "id": 2938,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player's group changes."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2195": {
+    "id": 2195,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player is promoted."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2192": {
+    "id": 2192,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the points of a player changes."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2939": {
+    "id": 2939,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player enters a plot."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2940": {
+    "id": 2940,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player enters a plot."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2499": {
+    "id": 2499,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a shop is created."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2941": {
+    "id": 2941,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player dies while playing skywars.",
+        "**Event Expressions:**",
+        "`[the] skywars (attacker|killer)`",
+        "`[the] skywars victim`"
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2942": {
+    "id": 2942,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player joins an arena."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2943": {
+    "id": 2943,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player leaves an arena."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1845": {
+    "id": 1845,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player has a teammate."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1975": {
+    "id": 1975,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all plot IDs."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1978": {
+    "id": 1978,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the border blocks of a plot."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2357": {
+    "id": 2357,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the value of a flag in a plot."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2448": {
+    "id": 2448,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player unlocks a Slimefun research."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1847": {
+    "id": 1847,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a Bedwars game with given name exists."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1849": {
+    "id": 1849,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a game is able to start."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2944": {
+    "id": 2944,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is spectating a Bedwars game."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1855": {
+    "id": 1855,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a projectile is loaded in a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1862": {
+    "id": 1862,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a block is lockable."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1868": {
+    "id": 1868,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a mine has a teleport location."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1871": {
+    "id": 1871,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is a shopkeeper."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2945": {
+    "id": 2945,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player has a kit."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2946": {
+    "id": 2946,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is in an arena."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1872": {
+    "id": 1872,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is in the game queue."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1878": {
+    "id": 1878,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Destroys a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2196": {
+    "id": 2196,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds prefix to player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2197": {
+    "id": 2197,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds suffix to player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2198": {
+    "id": 2198,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes prefix to player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4151": {
+    "id": 4151,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes a party."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2356": {
+    "id": 2356,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets flag in a plot."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2947": {
+    "id": 2947,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates Slimefun category (it will not show up in the guide unless you create at least 1 item for it)"
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2359": {
+    "id": 2359,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the names of all Slimefun items"
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2360": {
+    "id": 2360,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a Slimefun item."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2451": {
+    "id": 2451,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates Slimefun item - Categories: https://pastebin.com/HF63gBBj | Recipe Types: https://pastebin.com/G5thupbG"
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2948": {
+    "id": 2948,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates Slimefun locked category (it will not show up in the guide unless you create at least 1 item for it)"
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2450": {
+    "id": 2450,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds Slimefun research to an item."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2449": {
+    "id": 2449,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player has a research unlocked."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2949": {
+    "id": 2949,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the current playing arena world name."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1920": {
+    "id": 1920,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns list of the failed requirements of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2950": {
+    "id": 2950,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the IDs of all cannons."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2951": {
+    "id": 2951,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the design of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2952": {
+    "id": 2952,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the fuse length of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2953": {
+    "id": 2953,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the IDs of all cannons in a sphere."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2954": {
+    "id": 2954,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all cannon IDs within a box."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2955": {
+    "id": 2955,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the cannon limit of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2956": {
+    "id": 2956,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the time a cannon takes to load."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2957": {
+    "id": 2957,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the location of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2958": {
+    "id": 2958,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the mass of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2959": {
+    "id": 2959,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the name of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2960": {
+    "id": 2960,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the owner of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2961": {
+    "id": 2961,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the pitch of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2962": {
+    "id": 2962,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of soot in a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2963": {
+    "id": 2963,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the temperature of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2964": {
+    "id": 2964,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the yaw of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2965": {
+    "id": 2965,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the ID of a cannon at a location."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2966": {
+    "id": 2966,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the IDs of the cannons a player has created."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2967": {
+    "id": 2967,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the critical temperature of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2201": {
+    "id": 2201,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the group of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2968": {
+    "id": 2968,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the new group of a player in the group change event."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2969": {
+    "id": 2969,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the old group of a player in the group change event."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2202": {
+    "id": 2202,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the permissions of a group."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2203": {
+    "id": 2203,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the permissions of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2206": {
+    "id": 2206,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the weight of a group."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2358": {
+    "id": 2358,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the set flags in a plot."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1987": {
+    "id": 1987,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of blocks mined in a mine."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2970": {
+    "id": 2970,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the number of deaths of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2971": {
+    "id": 2971,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the XP of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2502": {
+    "id": 2502,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the IDs of all shops."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2507": {
+    "id": 2507,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the location of a shop."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2972": {
+    "id": 2972,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the shopkeeper ID of an entity."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2973": {
+    "id": 2973,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the ID of the shopkeeper at a location."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2974": {
+    "id": 2974,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the IDs of the shopkeepers of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2975": {
+    "id": 2975,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the names of all skywars arenas."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2976": {
+    "id": 2976,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the state of a skywars arena."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2977": {
+    "id": 2977,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the skywars arena of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2978": {
+    "id": 2978,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the attacker on SkyWars Death event."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2979": {
+    "id": 2979,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of skywars coins of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2980": {
+    "id": 2980,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of skywars kills of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2981": {
+    "id": 2981,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the skywars kit of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2982": {
+    "id": 2982,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of skywars wins of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2983": {
+    "id": 2983,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the alive players in a skywars arena."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2984": {
+    "id": 2984,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the victim on SkyWars Death event."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4152": {
+    "id": 4152,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes a player from a party."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4153": {
+    "id": 4153,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the description of a party."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1972": {
+    "id": 1972,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the members of a party."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4154": {
+    "id": 4154,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the motd of a party."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1832": {
+    "id": 1832,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a trapped player is saved."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2500": {
+    "id": 2500,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a shop is removed."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2501": {
+    "id": 2501,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player buys/sells something from a shop."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2503": {
+    "id": 2503,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the IDs of all shops of a  Player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2504": {
+    "id": 2504,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the id of the shop at a location."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2505": {
+    "id": 2505,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the buy price of a shop."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2506": {
+    "id": 2506,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the shop limit of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1809": {
+    "id": 1809,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a game ends."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1810": {
+    "id": 1810,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a game starts."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1811": {
+    "id": 1811,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player buys an item."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1812": {
+    "id": 1812,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player buys a kit."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1813": {
+    "id": 1813,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player dies.",
+        "**Event Expressions:**",
+        "`[the] [advanced] (survival games|sg) victim`",
+        "`[the] [advanced] (survival games|sg) (attacker|killer)`"
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1814": {
+    "id": 1814,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player completes a requirement."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1815": {
+    "id": 1815,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a cannon is created."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1816": {
+    "id": 1816,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when someone dies from a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1817": {
+    "id": 1817,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a cannon is destroyed."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1818": {
+    "id": 1818,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a cannon shoots."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1819": {
+    "id": 1819,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called right before a cannon is created."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1820": {
+    "id": 1820,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player interacts with a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1821": {
+    "id": 1821,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a cannon projectile lands."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1824": {
+    "id": 1824,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player combat logs."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1822": {
+    "id": 1822,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when ClearLagg cleared entities.",
+        "**Event Expressions:**",
+        "`[the] entities (cleared|removed|deleted) [by ClearLag[g]]`"
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1823": {
+    "id": 1823,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when ClearLagg TPS is updated."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1825": {
+    "id": 1825,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player enters combat.**Event Expressions:**",
+        "`[the] [CombatLog] tagged [player]`",
+        "`[the] [CombatLog] tagger`"
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1826": {
+    "id": 1826,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player leaves combat."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1828": {
+    "id": 1828,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a claim expires."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1827": {
+    "id": 1827,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a claim is deleted."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1835": {
+    "id": 1835,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a mine is done resetting."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1869": {
+    "id": 1869,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a mine is currently resetting."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1836": {
+    "id": 1836,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a mine begins to reset."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1837": {
+    "id": 1837,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a shopkeeper is created."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1838": {
+    "id": 1838,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a shopkeeper is deleted."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1839": {
+    "id": 1839,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a shopkeeper trade is completed."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1840": {
+    "id": 1840,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a game ends.",
+        "**Event Expressions:**",
+        "`[the] (last|alive|remaining) players [in [the] [SkyWars] game]`"
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1841": {
+    "id": 1841,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a game starts.",
+        "**Event Expressions:**",
+        "`[the] start[ing] players [in [the] [SkyWars] game]`"
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1842": {
+    "id": 1842,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player leaves a game queue."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1843": {
+    "id": 1843,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is banned."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1844": {
+    "id": 1844,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is muted."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1846": {
+    "id": 1846,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is spectating a game."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1848": {
+    "id": 1848,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a Bedwars game is running."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1850": {
+    "id": 1850,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is in a Bedwars game."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1852": {
+    "id": 1852,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a cannon is clean."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1853": {
+    "id": 1853,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a cannon is overheated."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1854": {
+    "id": 1854,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a cannon is ready to fire."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1856": {
+    "id": 1856,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the projectile in a cannon has been pushed."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1857": {
+    "id": 1857,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is combat tagged."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1858": {
+    "id": 1858,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a block is protectable."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1859": {
+    "id": 1859,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a block is protected."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1860": {
+    "id": 1860,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player has access to a block."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1864": {
+    "id": 1864,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player can use a locked block."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1865": {
+    "id": 1865,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is in a party."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1866": {
+    "id": 1866,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a party exists."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1867": {
+    "id": 1867,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is in a plot."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1851": {
+    "id": 1851,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is spectating."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1873": {
+    "id": 1873,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the game queue is full."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1874": {
+    "id": 1874,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Forces a player to join a Bedwars game."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1875": {
+    "id": 1875,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Forces a player to leave a Bedwars game."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1876": {
+    "id": 1876,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Starts a Bedwars game."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1877": {
+    "id": 1877,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stops a Bedwars game."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1879": {
+    "id": 1879,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1881": {
+    "id": 1881,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes protection from a block."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1882": {
+    "id": 1882,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Locks a block by placing a sign on it."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1883": {
+    "id": 1883,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds item to backpack of player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1885": {
+    "id": 1885,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes item from backpack of player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1886": {
+    "id": 1886,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds a player to a party."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1887": {
+    "id": 1887,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a party."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1889": {
+    "id": 1889,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Resets a mine."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1890": {
+    "id": 1890,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Delete a shopkeeper."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1891": {
+    "id": 1891,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds a player to the game queue."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1892": {
+    "id": 1892,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes a player from the game queue."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1893": {
+    "id": 1893,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the ban reason of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1894": {
+    "id": 1894,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the banner of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1895": {
+    "id": 1895,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the mute reason of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1896": {
+    "id": 1896,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the mute time of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1897": {
+    "id": 1897,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the muter of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1898": {
+    "id": 1898,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the punish duration on Punishment event."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1899": {
+    "id": 1899,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the punished player on Punishment event."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1900": {
+    "id": 1900,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the punisher on Punishment event.",
+        "**Note:** Return type of this expression is string because the punisher can be console."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1901": {
+    "id": 1901,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the punish reason on Punishment event."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1902": {
+    "id": 1902,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the punish type on Punishment event."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1903": {
+    "id": 1903,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the active punishments of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1904": {
+    "id": 1904,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the remaining ban time of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1880": {
+    "id": 1880,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes claim(s)."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1905": {
+    "id": 1905,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns number of the warns of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1907": {
+    "id": 1907,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the attacker on SG Player Death event."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1908": {
+    "id": 1908,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the bounty of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1909": {
+    "id": 1909,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the current playing arena name."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1910": {
+    "id": 1910,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the current stage name."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1911": {
+    "id": 1911,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns list of all game spectators."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1912": {
+    "id": 1912,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the teammate of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1913": {
+    "id": 1913,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns names of the top players."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1914": {
+    "id": 1914,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the victim on SG Player Death event."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1915": {
+    "id": 1915,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns list of all requirements of player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1917": {
+    "id": 1917,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns list of completed requirements of player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1918": {
+    "id": 1918,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the current path of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1919": {
+    "id": 1919,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns list of the eligible paths of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1921": {
+    "id": 1921,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the global play time of a player in minutes."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1922": {
+    "id": 1922,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the local play time of a player in minutes."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1923": {
+    "id": 1923,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of all Bedwars games."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1924": {
+    "id": 1924,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the current game of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1925": {
+    "id": 1925,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of all players in a Bedwars game."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1926": {
+    "id": 1926,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the IDs of all cannons."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1927": {
+    "id": 1927,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of cannons a player has built."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1928": {
+    "id": 1928,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the design of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1929": {
+    "id": 1929,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the fuse length of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1930": {
+    "id": 1930,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the IDs of all cannons in a sphere."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1931": {
+    "id": 1931,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all cannon IDs within a box."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1932": {
+    "id": 1932,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the cannon limit of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1933": {
+    "id": 1933,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the time a cannon takes to load."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1934": {
+    "id": 1934,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the location of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1935": {
+    "id": 1935,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the mass of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1936": {
+    "id": 1936,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the name of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1937": {
+    "id": 1937,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the owner of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1945": {
+    "id": 1945,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the currently tagged players."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1938": {
+    "id": 1938,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the pitch of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1939": {
+    "id": 1939,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of soot in a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1940": {
+    "id": 1940,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the temperature of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1941": {
+    "id": 1941,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the yaw of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1942": {
+    "id": 1942,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the ID of a cannon at a location."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1943": {
+    "id": 1943,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the critical temperature of a cannon."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1944": {
+    "id": 1944,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns list of the cleared entities on Removed Entities event."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1946": {
+    "id": 1946,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the tagged player on Tag event."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1947": {
+    "id": 1947,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the tagger on Tag event."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1949": {
+    "id": 1949,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the bonus claim blocks of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1950": {
+    "id": 1950,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the claim block limit of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1951": {
+    "id": 1951,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the height of a claim."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1953": {
+    "id": 1953,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the owner of a claim."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1954": {
+    "id": 1954,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the type of a claim."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1955": {
+    "id": 1955,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the width of a claim."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1956": {
+    "id": 1956,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the world of a claim."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1957": {
+    "id": 1957,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the explosion status of a claim."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1958": {
+    "id": 1958,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the greater corner of a claim."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1959": {
+    "id": 1959,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the lesser corner of a claim."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1961": {
+    "id": 1961,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the trusted players of a claim."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1963": {
+    "id": 1963,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the number of protections a player has."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1966": {
+    "id": 1966,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the items in a backpack."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1967": {
+    "id": 1967,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the item in a backpack slot."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1968": {
+    "id": 1968,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the size of a backpack."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2001": {
+    "id": 2001,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of shopkeepers a player has."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1948": {
+    "id": 1948,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the accrued claim blocks of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1971": {
+    "id": 1971,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the leader of a party."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1977": {
+    "id": 1977,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the biome of a plot."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1973": {
+    "id": 1973,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the online members of a party."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1974": {
+    "id": 1974,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the party of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1976": {
+    "id": 1976,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the denied players of a plot."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1979": {
+    "id": 1979,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the home location of a plot."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1981": {
+    "id": 1981,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the plot IDs of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1982": {
+    "id": 1982,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the members of a plot."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1983": {
+    "id": 1983,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the owner of a plot."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1984": {
+    "id": 1984,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the rating of a plot."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1985": {
+    "id": 1985,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the trusted players of a plot."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1986": {
+    "id": 1986,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the names of all mines."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1988": {
+    "id": 1988,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the name of a mine at a location."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1989": {
+    "id": 1989,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the percentage of blocks left in a mine."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1990": {
+    "id": 1990,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the percentage of a mine that has been mined."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1991": {
+    "id": 1991,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the teleport location of a mine."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1992": {
+    "id": 1992,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the time left until a mine resets."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1994": {
+    "id": 1994,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the kill-death ratio of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1996": {
+    "id": 1996,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the level of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1998": {
+    "id": 1998,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the XP progress of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2000": {
+    "id": 2000,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the names of all shopkeepers."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1993": {
+    "id": 1993,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of skywars deaths of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1980": {
+    "id": 1980,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the ID of a plot at a location."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1997": {
+    "id": 1997,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the XP needed for a player to level up."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1999": {
+    "id": 1999,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the XP of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2008": {
+    "id": 2008,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a block is locked."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2003": {
+    "id": 2003,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the name of a shopkeeper."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2004": {
+    "id": 2004,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the name of the next arena."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2005": {
+    "id": 2005,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the players in the game queue."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2016": {
+    "id": 2016,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the remaining players on SkyWars Game End event."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1808": {
+    "id": 1808,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player is punished.",
+        "**Event Expressions:**",
+        "`[the] [AdvancedBan] punished player`",
+        "`[the] [AdvancedBan] punisher`",
+        "`[the] [AdvancedBan] punish[ment] type`",
+        "`[the] [AdvancedBan] punish[ment] reason`",
+        "`[the] [AdvancedBan] punish[ment] (length|duration)`"
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1831": {
+    "id": 1831,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when death drops are protected."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1833": {
+    "id": 1833,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a plot is claimed."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2009": {
+    "id": 2009,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a block is locked."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1870": {
+    "id": 1870,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a shopkeeper with a certain ID exists."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1884": {
+    "id": 1884,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Open backpack to player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2010": {
+    "id": 2010,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns list of the alive players."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1916": {
+    "id": 1916,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns list of the completed paths of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2011": {
+    "id": 2011,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the owner of a block."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2012": {
+    "id": 2012,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the owner of a block."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2013": {
+    "id": 2013,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the owner of a block."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2014": {
+    "id": 2014,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of kills of a party."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2015": {
+    "id": 2015,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of kills of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2002": {
+    "id": 2002,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the location of a shopkeeper."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2007": {
+    "id": 2007,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the stating players on SkyWars Game Start event."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1830": {
+    "id": 1830,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when PvP is prevented."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2508": {
+    "id": 2508,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the product of a shop."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1834": {
+    "id": 1834,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a plot is deleted."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2179": {
+    "id": 2179,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Opens the bitcoin menu to a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2180": {
+    "id": 2180,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Opens the bitcoin mining menu to a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2181": {
+    "id": 2181,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes the bitcoin value fluctuate."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2355": {
+    "id": 2355,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes flag from plot."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2182": {
+    "id": 2182,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of bitcoins in the bank."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2183": {
+    "id": 2183,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of bitcoins in circulation."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2184": {
+    "id": 2184,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of bitcoins mined by a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2185": {
+    "id": 2185,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the bitcoin balance of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2186": {
+    "id": 2186,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the bitcoin circulation limit."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2188": {
+    "id": 2188,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of bitcoin mining puzzles solved by a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2189": {
+    "id": 2189,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the players in order of highest balance."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2190": {
+    "id": 2190,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the current bitcoin value."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2191": {
+    "id": 2191,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the PlayerPoints balance of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2193": {
+    "id": 2193,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the points of a player resets."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2456": {
+    "id": 2456,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the cost of a Slimefun research"
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2454": {
+    "id": 2454,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Unlocks Slimefun research."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2457": {
+    "id": 2457,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the name of a Slimefun research"
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2455": {
+    "id": 2455,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the ids of all Slimefun researches"
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2509": {
+    "id": 2509,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the sell price of a shop."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2510": {
+    "id": 2510,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the type of a shop."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2511": {
+    "id": 2511,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the vendor of a shop."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1829": {
+    "id": 1829,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player tries to break a block."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3745": {
+    "id": 3745,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the all claim IDs"
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3746": {
+    "id": 3746,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the claim IDs of claims at a location."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_3747": {
+    "id": 3747,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the claim IDs of the claims of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1960": {
+    "id": 1960,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the remaining claim blocks of a player."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1969": {
+    "id": 1969,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the home locations of a party."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2452": {
+    "id": 2452,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates Slimefun research."
+      ],
+      "ko": [
+        "[SkUniversal] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

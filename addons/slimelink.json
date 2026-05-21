@@ -1,0 +1,349 @@
+{
+  "syntax_14413": {
+    "id": 14413,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This condition checks if a SlimeWorld is loaded or not",
+        "Internally this just checks if a Bukkit world can be found."
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14417": {
+    "id": 14417,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Imports a vanilla Minecraft world into a Slime world using the provided loader.",
+        "This saves and loads the imported world."
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14419": {
+    "id": 14419,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Loads an existing SlimeWorld from the specified loader onto the server"
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14421": {
+    "id": 14421,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the value of a specific SlimeWorld property on a SlimePropertyMap.",
+        "The provided value must match the expected type for the property, mismatched types will produce an error."
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14416": {
+    "id": 14416,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes a Slime world from the specified loader, removing it from storage permanently."
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14418": {
+    "id": 14418,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Loads a SlimeWorld object onto the server"
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14424": {
+    "id": 14424,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new SlimeLoader instance for the specified loader type (file, MySQL, or MongoDB)."
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14425": {
+    "id": 14425,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new SlimePropertyMap populated with the default values for all SlimeWorld properties."
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14414": {
+    "id": 14414,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This effect clones a SlimeWorld to another with the provided loader",
+        "You can specify if you want the clone to be readonly or pass in a new set of properties"
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14415": {
+    "id": 14415,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new empty SlimeWorld and saves it to the specified loader.",
+        "You are required to load the world manually afterwards"
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14420": {
+    "id": 14420,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Saves the current state of a loaded SlimeWorld to its configured loader."
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14428": {
+    "id": 14428,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Retrieves the value of a specific SlimeWorld property from a SlimePropertyMap."
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14429": {
+    "id": 14429,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the names of all SlimeWorlds from the specified loader that are currently loaded on the server."
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14430": {
+    "id": 14430,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A Slime loader instance used to read/write worlds."
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14431": {
+    "id": 14431,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A Slime World instance"
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14432": {
+    "id": 14432,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SlimeLink] No official English guide provided."
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14426": {
+    "id": 14426,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new empty SlimeWorld and returns the SlimeWorld object.",
+        "The created world is not saved to its loader or loaded into Bukkit; it exists only in memory.",
+        "Use save or load effects when you need persistence or to make the world on the server."
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14427": {
+    "id": 14427,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Bukkit World for a loaded SlimeWorld by name.",
+        "The world must be loaded on the server, an empty result is returned if not found or not loaded."
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14475": {
+    "id": 14475,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether a SlimeWorld is stored in the provided SlimeLoader."
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14476": {
+    "id": 14476,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Asserts whether a SlimeWorld exists in a SlimeLoader.",
+        "If the assertion fails, a Skript runtime error is reported."
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14422": {
+    "id": 14422,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Unloads a loaded SlimeWorld from the server"
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14423": {
+    "id": 14423,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Clones an existing Slime World and returns the cloned SlimeWorld object.",
+        "The clone is saved to the loader by default.",
+        "Use the 'not stored' option to prevent saving, the cloned world is also not loaded automatically."
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14477": {
+    "id": 14477,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all world names currently stored in the specified SlimeLoader."
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14478": {
+    "id": 14478,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether a SlimeWorld exists in the specified SlimeLoader."
+      ],
+      "ko": [
+        "[SlimeLink] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

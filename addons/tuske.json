@@ -1,43 +1,1898 @@
 {
-  "TuSKe:open_virtual_chest": {
-    "name": "open virtual chest",
-    "added": ["2.5.2"],
-    "addon": "TuSKe",
-    "type": "effect",
-    "patterns": [
-      "open virtual [chest] [inventory] [with] size %number% [named %string%] to %players%",
-      "open virtual [chest] [inventory] [with] %number% row[s] [named %string%] to %players%"
-    ],
-    "description": {
-      "en": ["Opens a virtual chest inventory that does not exist physically."],
-      "ko": "플레이어에게 물리적으로 존재하지 않는 안전한 가상 상자 인벤토리(GUI) 창을 오픈합니다."
+  "syntax_2514": {
+    "id": 2514,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
     }
   },
-  "TuSKe:format_gui_slot": {
-    "name": "format gui slot",
-    "added": ["2.5.2"],
-    "addon": "TuSKe",
-    "type": "effect",
-    "patterns": [
-      "format gui slot %number% of %player% with %itemstack% to [run|close|keep]",
-      "format gui slot %number% of %player% with %itemstack% to run %string%/command[s] [by %string%]"
-    ],
-    "description": {
-      "en": ["Formats an advanced virtual GUI slot using TuSKe advanced matrix engine."],
-      "ko": "가상 상자의 특정 슬롯을 아이템으로 지정하고, 클릭 시 실행할 람다 액션(Run/Close/Keep)이나 명령어를 바인딩합니다."
+  "syntax_2515": {
+    "id": 2515,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
     }
   },
-  "TuSKe:unformat_gui_slot": {
-    "name": "unformat gui slot",
-    "added": ["2.5.2"],
-    "addon": "TuSKe",
+  "syntax_2516": {
+    "id": 2516,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2517": {
+    "id": 2517,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2518": {
+    "id": 2518,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2519": {
+    "id": 2519,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2520": {
+    "id": 2520,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2521": {
+    "id": 2521,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1227": {
+    "id": 1227,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1225": {
+    "id": 1225,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1226": {
+    "id": 1226,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1228": {
+    "id": 1228,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1229": {
+    "id": 1229,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1231": {
+    "id": 1231,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1232": {
+    "id": 1232,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1233": {
+    "id": 1233,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1234": {
+    "id": 1234,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1235": {
+    "id": 1235,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1236": {
+    "id": 1236,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1237": {
+    "id": 1237,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1238": {
+    "id": 1238,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1239": {
+    "id": 1239,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1240": {
+    "id": 1240,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1241": {
+    "id": 1241,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1244": {
+    "id": 1244,
     "type": "effect",
-    "patterns": [
-      "unformat gui slot %number% of %player%"
-    ],
-    "description": {
-      "en": ["Removes all formatted actions and items from a specific virtual slot."],
-      "ko": "지정된 가상 슬롯에 걸려있는 모든 아이템 포맷과 클릭 이벤트 링크를 초기화하여 해제합니다."
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make the player execute a command with a temporary permission, when the player finishes executing the command, the permission is removed."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1246": {
+    "id": 1246,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1247": {
+    "id": 1247,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1249": {
+    "id": 1249,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1250": {
+    "id": 1250,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1251": {
+    "id": 1251,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1252": {
+    "id": 1252,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1253": {
+    "id": 1253,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1254": {
+    "id": 1254,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1255": {
+    "id": 1255,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1256": {
+    "id": 1256,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1257": {
+    "id": 1257,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1293": {
+    "id": 1293,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1243": {
+    "id": 1243,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It should be used in [creating or editting a gui](https://skripthub.net/docs/?search=id:1245), it is just an extra option to run a code before it closes. This is optinal."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1260": {
+    "id": 1260,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all server recipes. You can get the [ingredients](https://skripthub.net/docs/?search=id:1285) and the [result item](https://skripthub.net/docs/?search=id:1305)."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1261": {
+    "id": 1261,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list containing all registered commands or scripts commands only."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1262": {
+    "id": 1262,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Will return a list of [objects](https://skripthub.net/docs/?search=id:2158) organized in alphabetic order."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1263": {
+    "id": 1263,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get informations about a command."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1264": {
+    "id": 1264,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1265": {
+    "id": 1265,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1266": {
+    "id": 1266,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1267": {
+    "id": 1267,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1268": {
+    "id": 1268,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1269": {
+    "id": 1269,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1270": {
+    "id": 1270,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1271": {
+    "id": 1271,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1272": {
+    "id": 1272,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1273": {
+    "id": 1273,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1274": {
+    "id": 1274,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1275": {
+    "id": 1275,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1276": {
+    "id": 1276,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1277": {
+    "id": 1277,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1278": {
+    "id": 1278,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1279": {
+    "id": 1279,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1280": {
+    "id": 1280,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1281": {
+    "id": 1281,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1282": {
+    "id": 1282,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1283": {
+    "id": 1283,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1284": {
+    "id": 1284,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1285": {
+    "id": 1285,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1286": {
+    "id": 1286,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1287": {
+    "id": 1287,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1288": {
+    "id": 1288,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1289": {
+    "id": 1289,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1290": {
+    "id": 1290,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1291": {
+    "id": 1291,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1292": {
+    "id": 1292,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1295": {
+    "id": 1295,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1296": {
+    "id": 1296,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1297": {
+    "id": 1297,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1298": {
+    "id": 1298,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1299": {
+    "id": 1299,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1300": {
+    "id": 1300,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1302": {
+    "id": 1302,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1303": {
+    "id": 1303,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1304": {
+    "id": 1304,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1305": {
+    "id": 1305,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1306": {
+    "id": 1306,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1308": {
+    "id": 1308,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It returns a knowledge book (1.12+ only) with given recipes."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1309": {
+    "id": 1309,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It returns a list of recipes of a knowledge book. You can either set, add and remove recipes, and clear/delete them all."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1310": {
+    "id": 1310,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It is used to return the last created gui or a gui from a string id."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1312": {
+    "id": 1312,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It get a player from a UUID. If you have Bensku's fork dev23+, you can just use [parse expression](https://skripthub.net/docs/?search=id:901) using the uuid.",
+        "Also, the uuid needs to be from a player that already played on your server, else it will return null value."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1313": {
+    "id": 1313,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a [timespan](https://skripthub.net/docs/?search=id:2167) of online time of [player](https://skripthub.net/docs/?search=id:2160) or of the server. Only the online time of player can be edited."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1314": {
+    "id": 1314,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a [offline player](https://skripthub.net/docs/?search=id:2159) as it was a player, which means that you can get some values like money, inventory, enderchest,etc. Maybe all values doesn't work. If you want to change these values, you will have to [save player data](https://skripthub.net/docs/?search=id:1255)."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1315": {
+    "id": 1315,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the rgb color of [item stack](https://skripthub.net/docs/?search=id:2152) or [color](https://skripthub.net/docs/?search=id:2138). You can set these values only for item stacks, in this case, leather armors.",
+        "The RGB color returns a list with 3 numbers and the other expressions returns which one separated."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1316": {
+    "id": 1316,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the type of rabbit. e.g. `black`, `black and white`, `brown`, `gold`, `salt and pepper`, `the killer bunny` and `white`."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1317": {
+    "id": 1317,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Starting from minecraft 1.12, the recipes now has a unique id. Recipes registered by minecraft will have a id `minecraft:%the result item's name%`, an old recipe plugin will be `bukkit:%random uuid%`, while TuSKe will have its id as `tuske:%last recipe id + 1%`. Other plugins may have a different format, but always following `<plugin>:<key>`.**Only for Shaped and Shapeless recipes**"
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1318": {
+    "id": 1318,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Starting from minecraft 1.12, recipes have now the register plugin. If it is a minecraft recipe, it will return as `Minecraft`, if it is an old recipe plugin, it will return as `Bukkit` and everything else will return the plugin's name. **Only for Shaped and Shapeless recipes**"
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1319": {
+    "id": 1319,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It contains the last error of a regex. It is setted when there is a error while parsing a string as regex, [replacing](https://skripthub.net/docs/?search=id:1303)/[spliting](https://skripthub.net/docs/?search=id:1304) a string or checking in the [condition](https://skripthub.net/docs/?search=id:1241)"
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1320": {
+    "id": 1320,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This expression returns some regex patterns that Skript or Bukkit uses most."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1321": {
+    "id": 1321,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Split a text with [number](https://skripthub.net/docs/?search=id:2157) amount of characters. It is used to split the message in chat (the default is 60) and to item's lore."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1322": {
+    "id": 1322,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It represents a custom enchantment. The values depends of the id name of [registered enchantment](https://skripthub.net/docs/?search=id:1252)."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1323": {
+    "id": 1323,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It represents a gui inventory, where the player can take items away from the inventory. It can be created only with [advanced gui effect](https://skripthub.net/docs/?search=id:1259)."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1324": {
+    "id": 1324,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A recipe contains the the ingredients list and the result item."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1325": {
+    "id": 1325,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a regex object. For now, it won't have any usage but only for test the pattern. It will have more usage in future versions."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1326": {
+    "id": 1326,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It represents a type of a inventory slot"
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1259": {
+    "id": 1259,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Used to format a GUI slot inside of GUI creation/editing section.",
+        "See also: https://github.com/Tuke-Nuke/TuSKe/wiki/GUI-Manager (Advanced GUI)"
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1230": {
+    "id": 1230,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2522": {
+    "id": 2522,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2523": {
+    "id": 2523,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2524": {
+    "id": 2524,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2525": {
+    "id": 2525,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2526": {
+    "id": 2526,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1242": {
+    "id": 1242,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Cancels the drops of items, experiences or both in death events, where it won't drop the **player** items (like gamerule KeepInventory), or cancel the item drop of break block event (for minecraft 1.12+ only)."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2527": {
+    "id": 2527,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2528": {
+    "id": 2528,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2529": {
+    "id": 2529,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2530": {
+    "id": 2530,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2531": {
+    "id": 2531,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2532": {
+    "id": 2532,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2533": {
+    "id": 2533,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2534": {
+    "id": 2534,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2535": {
+    "id": 2535,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1258": {
+    "id": 1258,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This effect will run any Skript effect/condition from a given string or piece of code. The difference between SkQuery's evaluate effect and this is basically it returns all syntaxes errors instead of send them to the console, It can evaluate a long amount of code and see them easily instead of beeing in one line.",
+        "For example, you can run a effect from a string, from a piece of code (without beeing quoted) or the entiry section of code.",
+        "Starting from 1.8, you can disallow some syntaxes when evaluating. Read more about it at config file (`TuSKe/config.yml`)."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2536": {
+    "id": 2536,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2537": {
+    "id": 2537,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2538": {
+    "id": 2538,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2539": {
+    "id": 2539,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2540": {
+    "id": 2540,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2541": {
+    "id": 2541,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2542": {
+    "id": 2542,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2543": {
+    "id": 2543,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1294": {
+    "id": 1294,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2544": {
+    "id": 2544,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2545": {
+    "id": 2545,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1301": {
+    "id": 1301,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1307": {
+    "id": 1307,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[TuSKe] No official English guide provided."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2546": {
+    "id": 2546,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the minecraft version of [player](https://skripthub.net/docs/?search=id:2160)."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1248": {
+    "id": 1248,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "See also: https://github.com/Tuke-Nuke/TuSKe/wiki/GUI-Manager (Simple GUI)"
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1311": {
+    "id": 1311,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the max durability of [item stack](https://skripthub.net/docs/?id=2152). i.e. 1561 for diamond sword. You can cancel it."
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1245": {
+    "id": 1245,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It creates a new gui with a given id (optional), using a base inventory, and a shape (optional)",
+        "For more info, read [this](https://github.com/Tuke-Nuke/TuSKe/wiki/GUI-Manager)"
+      ],
+      "ko": [
+        "[TuSKe] 한국어 가이드팩 준비 중"
+      ]
     }
   }
 }

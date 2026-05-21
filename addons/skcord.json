@@ -1,0 +1,155 @@
+{
+  "syntax_13434": {
+    "id": 13434,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a new author for an embed."
+      ],
+      "ko": [
+        "[skCord] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13435": {
+    "id": 13435,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a new field for an embed."
+      ],
+      "ko": [
+        "[skCord] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13436": {
+    "id": 13436,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a new footer for an embed."
+      ],
+      "ko": [
+        "[skCord] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13433": {
+    "id": 13433,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send a message as a webhook to a Discord channel."
+      ],
+      "ko": [
+        "[skCord] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13438": {
+    "id": 13438,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This section allows you to create new embeds for your discord webhook.",
+        "`title` = The title of the embed.",
+        "`description` = The description of the embed.",
+        "`color` = The color of the embed. (Hex code like #FFFFFF) (In some skript versions, you need to use a double hashtag like ##FFFFFF)",
+        "`timestamp` = If the embed should have a timestamp or not. (true/false)",
+        "`footer` = The footer of the embed.",
+        "`thumbnail` = The url of the thumbnail.",
+        "`image` = The url of the image.",
+        "`author` = The author of the embed.",
+        "`fields` = The fields of the embed.",
+        "`saveInto` = The variable to save the embed into. (required)"
+      ],
+      "ko": [
+        "[skCord] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13793": {
+    "id": 13793,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Delete a message that was sent by a webhook."
+      ],
+      "ko": [
+        "[skCord] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13794": {
+    "id": 13794,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Edit a previously sent webhook message.",
+        "`webhook` = The URL of the Discord webhook (required).",
+        "`message_id` = The ID of the message to edit (required).",
+        "`message` = The new text content of the message.",
+        "`avatar` = The new URL of the avatar to use for the webhook.",
+        "`embed` = A new embed object to include in the message.",
+        "`thread_id` = The ID of the thread the message is in.",
+        "Note: All parameters except webhook and message_id are optional. Null values will clear the field."
+      ],
+      "ko": [
+        "[skCord] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13795": {
+    "id": 13795,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Edit the content of a webhook message quickly."
+      ],
+      "ko": [
+        "[skCord] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13437": {
+    "id": 13437,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Build a message to send as a webhook.",
+        "`webhook` = The URL of the Discord webhook (required).",
+        "`message` = The text content of the message.",
+        "`avatar` = The URL of the avatar to use for the webhook.",
+        "`embed` = A single embed object to include in the message.",
+        "`embeds` = Multiple embed objects to include in the message (up to 10 embeds).",
+        "`username` = The username to use for the webhook.",
+        "`thread_id` = The ID of the thread to send the message to.",
+        "`thread_name` = The name of a new thread to create and send the message to.",
+        "`saveMessageIdInto` = The message id used to editing the message later.",
+        "**Note:** You must provide either a message or an embed. You cannot specify both thread_id and thread_name."
+      ],
+      "ko": [
+        "[skCord] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

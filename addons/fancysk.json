@@ -1,0 +1,200 @@
+{
+  "syntax_13067": {
+    "id": 13067,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates an NPC at a location."
+      ],
+      "ko": [
+        "[FancySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13070": {
+    "id": 13070,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes a NPC from the server. Yes, this is permanent."
+      ],
+      "ko": [
+        "[FancySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13073": {
+    "id": 13073,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the display name of an NPC. You cannot use newlines in the display name."
+      ],
+      "ko": [
+        "[FancySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13078": {
+    "id": 13078,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Teleports the specified NPC to the target location."
+      ],
+      "ko": [
+        "[FancySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13079": {
+    "id": 13079,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Forces the selected NPC to turn towards the player always."
+      ],
+      "ko": [
+        "[FancySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13077": {
+    "id": 13077,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Teleports the specified Hologram to a location."
+      ],
+      "ko": [
+        "[FancySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13074": {
+    "id": 13074,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the scale of a specified NPC."
+      ],
+      "ko": [
+        "[FancySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13071": {
+    "id": 13071,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the scale of a hologram."
+      ],
+      "ko": [
+        "[FancySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13069": {
+    "id": 13069,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes the specified line from the hologram."
+      ],
+      "ko": [
+        "[FancySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13068": {
+    "id": 13068,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Refreshes an NPC. Useful for changing skins with placeholders (AJLB)."
+      ],
+      "ko": [
+        "[FancySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13066": {
+    "id": 13066,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds a line to the hologram."
+      ],
+      "ko": [
+        "[FancySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13076": {
+    "id": 13076,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the **ENTIRE** list of text in a hologram",
+        "*\"Hello!%nl%Whats up?\"*"
+      ],
+      "ko": [
+        "[FancySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13075": {
+    "id": 13075,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the skin of an NPC to a URL or a username.",
+        "I'd suggest using NameMC skin urls: ``https://s.namemc.com/i/xxxxxx.png``."
+      ],
+      "ko": [
+        "[FancySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13072": {
+    "id": 13072,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the attribute of an NPC, this is still a work in progress but should be finished soon!"
+      ],
+      "ko": [
+        "[FancySK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

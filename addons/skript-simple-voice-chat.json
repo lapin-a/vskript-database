@@ -1,0 +1,494 @@
+{
+  "syntax_13219": {
+    "id": 13219,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns true if the incoming microphone use event is whispering."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13220": {
+    "id": 13220,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns true if the player disabled their voice chat in an 'player change state event'"
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13221": {
+    "id": 13221,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns true if a voice chat connection group will persist over server restart. Must create a new group to change value."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13222": {
+    "id": 13222,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns true if a voice chat connection group has a password required. Must create a new group to change value."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13224": {
+    "id": 13224,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the radius the audio packets are broadcasted at."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13225": {
+    "id": 13225,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the group that a voice chat connection is within."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13226": {
+    "id": 13226,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the registered voice chat groups."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13227": {
+    "id": 13227,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the voice host of the voice chat. Can also be set in a 'voice chat send host' event."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13229": {
+    "id": 13229,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new volume category. This allows players to turn the volume up or down in the adjust volumes menu."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13230": {
+    "id": 13230,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the voice chat server port of the voice chat."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13231": {
+    "id": 13231,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the voice chat volume categories."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13233": {
+    "id": 13233,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Voice chat connections can be involved in a group. This type collects the name, id, password and if it persists. The parse must be the UUID of the group."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13234": {
+    "id": 13234,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Voice chat volume category."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13235": {
+    "id": 13235,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skript-simple-voice-chat] No official English guide provided."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13218": {
+    "id": 13218,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "called when a player disables their voice chat"
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13223": {
+    "id": 13223,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The receiving connection of any voice chat packet. AKA who it's being sent to"
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13228": {
+    "id": 13228,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new group."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13232": {
+    "id": 13232,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The name or UUID of a voice chat connection group from voice chat connections. Must create a new group to change value."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14712": {
+    "id": 14712,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This returns either the default distance that's set on the server or the modified distance if another subscriber changed it already."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14713": {
+    "id": 14713,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is emitted when a microphone packet arrives at the server.",
+        "WARNING: This event only runs async, so don't place sync syntaxes inside this event!"
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14714": {
+    "id": 14714,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is emitted after a microphone packet arrives at the server and the distance is processed.",
+        "This can be used to modify the distance at which other players can hear this packet."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14715": {
+    "id": 14715,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called when a player creates a voice chat group."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14716": {
+    "id": 14716,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called when a player or server removes a voice chat group."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14717": {
+    "id": 14717,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called when a player leaves a voice chat group."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14718": {
+    "id": 14718,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called when a player joins a voice chat group."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14719": {
+    "id": 14719,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called when a player disconnects from the voice chat. You can only use 'event-string' to get the UUID of the player for this event."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14720": {
+    "id": 14720,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called when a player connects to the voice chat."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14721": {
+    "id": 14721,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called when a player's state changes in a voice chat."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14722": {
+    "id": 14722,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called when the server registers a volume category."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14723": {
+    "id": 14723,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called when the server unregisters a volume category."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14724": {
+    "id": 14724,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called when the server sends the voice host to the server."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14725": {
+    "id": 14725,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called before the voice chat server is started."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14726": {
+    "id": 14726,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called when the voice chat server has started."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14727": {
+    "id": 14727,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called as the voice chat server stops."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14728": {
+    "id": 14728,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is emitted when a static sound packet is about to get sent to a client."
+      ],
+      "ko": [
+        "[skript-simple-voice-chat] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

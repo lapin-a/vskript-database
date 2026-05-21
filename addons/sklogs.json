@@ -1,0 +1,86 @@
+{
+  "syntax_13001": {
+    "id": 13001,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This is called when a message is sent in console. Note that using broadcast on the on log event will infinitely loop."
+      ],
+      "ko": [
+        "[SkLogs] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13003": {
+    "id": 13003,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last logged message"
+      ],
+      "ko": [
+        "[SkLogs] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13004": {
+    "id": 13004,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the level of the message in a log event."
+      ],
+      "ko": [
+        "[SkLogs] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13005": {
+    "id": 13005,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the logged message in a log event."
+      ],
+      "ko": [
+        "[SkLogs] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13006": {
+    "id": 13006,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkLogs] No official English guide provided."
+      ],
+      "ko": [
+        "[SkLogs] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13002": {
+    "id": 13002,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Logs a message with the given log level. The last pattern uses 'info' level."
+      ],
+      "ko": [
+        "[SkLogs] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "syntax_11637": {
+    "id": 11637,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Animate an armor stand pose to match a rotation with duration of time to animate, optionally from zero"
+      ],
+      "ko": [
+        "[SkAnimation] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11638": {
+    "id": 11638,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Applies a previously created animation onto an existing armor stand entity"
+      ],
+      "ko": [
+        "[SkAnimation] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11640": {
+    "id": 11640,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get an animation from an id that it was saved to"
+      ],
+      "ko": [
+        "[SkAnimation] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11641": {
+    "id": 11641,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get/change an armor stand's limb positions"
+      ],
+      "ko": [
+        "[SkAnimation] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11642": {
+    "id": 11642,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an animation class that was registered via the structure"
+      ],
+      "ko": [
+        "[SkAnimation] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11643": {
+    "id": 11643,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a rotation angle of a armor stand limb, these values are between 0-360 and match how minecraft do poses"
+      ],
+      "ko": [
+        "[SkAnimation] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11644": {
+    "id": 11644,
+    "type": "function",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new rotation"
+      ],
+      "ko": [
+        "[SkAnimation] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11645": {
+    "id": 11645,
+    "type": "structure",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create an animation base that can be applied to entities at a later date"
+      ],
+      "ko": [
+        "[SkAnimation] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11639": {
+    "id": 11639,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Retrieve all the animations or animation keys"
+      ],
+      "ko": [
+        "[SkAnimation] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

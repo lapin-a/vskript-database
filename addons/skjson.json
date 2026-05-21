@@ -1,0 +1,769 @@
+{
+  "syntax_13733": {
+    "id": 13733,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "You can get file name, path, size and content"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13732": {
+    "id": 13732,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Loops over json entries/keys/indices"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13473": {
+    "id": 13473,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "will return last http response"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13475": {
+    "id": 13475,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skJson] No official English guide provided."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13490": {
+    "id": 13490,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Formats the skript variable to json. This is used to format the skript variable to json."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13476": {
+    "id": 13476,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skJson] No official English guide provided."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13477": {
+    "id": 13477,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skJson] No official English guide provided."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13478": {
+    "id": 13478,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skJson] No official English guide provided."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13496": {
+    "id": 13496,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the value of the json at the given path. If the path is not provided, it will return all values from the json.",
+        "If the path is a number, it will return the value at that index in the array.",
+        "If the path is a string, it will return the value at that key in the object.",
+        "If the path is empty, it will return all values from the json."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13486": {
+    "id": 13486,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Unbinds the storage for the given id. This is used to unbind the storage from the file."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13481": {
+    "id": 13481,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you create an simply string if for bound json file"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13484": {
+    "id": 13484,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Saves the cached json to a file. This is used to save the cache to a file."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13485": {
+    "id": 13485,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends a previously created HTTP request to the specified URL",
+        "The request must be created using request creation commands (e.g. 'create request').",
+        "Supports both synchronous and asynchronous sending using the 'non' or 'not' tag."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13487": {
+    "id": 13487,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a virtual json storage. This is used to create a virtual json storage that can be used to store data in memory."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13488": {
+    "id": 13488,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Maps the json to a skript list variable. This is used to map the json to a skript list variable."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13489": {
+    "id": 13489,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Counts the number of keys or values in the json. This is used to count the number of keys or values in the json."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13474": {
+    "id": 13474,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "will only run when the json watcher notices a change in the file"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13492": {
+    "id": 13492,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all json files from the given directory. The directory must be a valid path."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13494": {
+    "id": 13494,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get cached json storage. This is used to get the cached json storage. If the id is not provided, it will return all json storages."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13495": {
+    "id": 13495,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "That will allow loop through json, and get key/index or value",
+        "**json-value**, **json-key**"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13479": {
+    "id": 13479,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "You can check if the inserted keys or values already in your specified json"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13480": {
+    "id": 13480,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "You can get type of given Json."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13493": {
+    "id": 13493,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all keys from the given json object. If the path is provided, it will return all keys from the object at that path."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13506": {
+    "id": 13506,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represent response of http request",
+        "You can get those values (status, status code, body, headers)"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13507": {
+    "id": 13507,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get last response from request"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13511": {
+    "id": 13511,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the size of the json object or array.",
+        "If the json is null or primitive, it will return null.",
+        "If the json is an object, it will return the number of keys.",
+        "If the json is an array, it will return the number of elements."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13514": {
+    "id": 13514,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "value-expression for getting uuid from current watcher event",
+        "Returns the uuid of the watcher"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13515": {
+    "id": 13515,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "value-expression for getting json content from current watcher event",
+        "Returns json element (content) of the watched|changed file"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13517": {
+    "id": 13517,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Json element representation"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13519": {
+    "id": 13519,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Representation instance of Response"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13520": {
+    "id": 13520,
+    "type": "function",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create new Attachment for the web request from path to file, when the file starts with */ the file will be found automatically."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13499": {
+    "id": 13499,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you print out the json with formatted format, 4 tab padding and colored for some elements"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13512": {
+    "id": 13512,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the first, second, third, last, random or custom value of the json. This is used to get the first, second, third, last, random or custom value of the json."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13500": {
+    "id": 13500,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "set/add/reset or get the current request attachment"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13503": {
+    "id": 13503,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "set/add/reset or get the current request query params"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13508": {
+    "id": 13508,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Receive response status",
+        "That could be OK, UNKNOWN or FAILED"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13509": {
+    "id": 13509,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Receive response status code",
+        "That could be anything from 100 to 504"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13518": {
+    "id": 13518,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Representation instance of Request"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13513": {
+    "id": 13513,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "value-expression for getting file/link from current watcher event",
+        "Returns path of changed|watched file"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13482": {
+    "id": 13482,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Binds or unbinds a storage watcher to a file. This is used to watch for changes in the file and update the cache accordingly."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13483": {
+    "id": 13483,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a JSON file with the given name and content. If the file already exists, it will be replaced if the configuration is set to replace=true.",
+        "If the content is not provided, an empty JSON object will be created.",
+        "The configuration can be used to set the encoding and other options."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13497": {
+    "id": 13497,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new json element from any object, file or website.",
+        "This is used to create a new json element from any object, file or website."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13498": {
+    "id": 13498,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "allowed methods are [GET, POST, PUT, HEAD, MOCK, DELETE, PATCH]",
+        "allowed value type of content is Json or stringify json (Json as String) e.g. \"{\"\"Test\"\": true}\"",
+        "allowed value type of header is Json or (Pairs e.g. \"Content-Type: application/Json\", \"Allow: restrict\")",
+        "You can execute the request by 'send prepared {_request}', otherwise the request will be not sent, but the request will be still stored",
+        "And you can get response status/content/headers like in the examples"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13713": {
+    "id": 13713,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "set/reset or get the current request body",
+        "get response body"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13714": {
+    "id": 13714,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "set or get the current request headers",
+        "get response headers"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13735": {
+    "id": 13735,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "set/get or set requests configuration for follow redirects"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13736": {
+    "id": 13736,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "set/get or reset the current http version of request"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13737": {
+    "id": 13737,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "set/get or reset the current timeout of request"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13734": {
+    "id": 13734,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets, sets, removes values/keys etc.. of JSON"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13728": {
+    "id": 13728,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Changer.",
+        "You can SET/ADD/REMOVE/RESET/DELETE/REMOVE_ALL"
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13729": {
+    "id": 13729,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sorts the JSON element in descending/ascending order by key/value.",
+        "The JSON element can be a JSON object or an array.",
+        "The sort type can be specified as a string in the format of 'by key ascending' or 'by value descending'.",
+        "The sort type can also be specified as a SortType enum value."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13510": {
+    "id": 13510,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Explanatory notes",
+        "* - This expression is used to get a values (list) from a json object|array.",
+        "- Need to be at the end of the path.",
+        "This syntax is a simplification for json path, and shortening the notation and getting closer to the form (jq or other popular tools)",
+        "**RECOMMENDATION**: Use this syntax exclusively for paths that are a maximum of 2 keys deep. - for Creating",
+        "- Use rather value/key path expression",
+        "Can handle strict (get/set/remove)",
+        "all variables or expressions must be in “% ... %”",
+        "This syntax is strictly limited to its intended use; it does allow other expressions or variables to be used.",
+        "**RECOMMENDATION**: Use this syntax exclusively for paths that are a maximum of 2 keys deep.",
+        "Can handle strict (get/set/remove)",
+        "* at the end means you want to return a skript list."
+      ],
+      "ko": [
+        "[skJson] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

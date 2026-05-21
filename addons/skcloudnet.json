@@ -1,0 +1,595 @@
+{
+  "syntax_11524": {
+    "id": 11524,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stops all CloudNet Services"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11526": {
+    "id": 11526,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stops a CloudNet Service"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11540": {
+    "id": 11540,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all CloudNet Tasks"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11527": {
+    "id": 11527,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Restarts **all** CloudNet Services"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11531": {
+    "id": 11531,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all online CloudNet Players"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11535": {
+    "id": 11535,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all CloudNet Services"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11536": {
+    "id": 11536,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all prepared CloudNet Services"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11541": {
+    "id": 11541,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all CloudNet Services on a Task"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11545": {
+    "id": 11545,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the MinServiceCount of a CloudNet Task"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11516": {
+    "id": 11516,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Delete a CloudNet Service"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11537": {
+    "id": 11537,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all running CloudNet services"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11520": {
+    "id": 11520,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Restart a CloudNet Service"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11521": {
+    "id": 11521,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Starts all CloudNet Services"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11538": {
+    "id": 11538,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all players on a given CloudNet Service"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11543": {
+    "id": 11543,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all running services on a CloudNet Task"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11542": {
+    "id": 11542,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all prepared services on a CloudNet Task",
+        "In the current release (1.7.3) you have to use prepapred instead of prepared because I'm a bit dumb"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11523": {
+    "id": 11523,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Starts a CloudNet Service"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11539": {
+    "id": 11539,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all players on a given CloudNet Task"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11544": {
+    "id": 11544,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all players on a CloudNet Task"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11504": {
+    "id": 11504,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is currently on the Network"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11505": {
+    "id": 11505,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a CloudNet Service is deleted or not"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11506": {
+    "id": 11506,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a CloudNet Service is prepared or not"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11507": {
+    "id": 11507,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a CloudNet Service is running or not"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11508": {
+    "id": 11508,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a CloudNet Service is stopping or not"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11509": {
+    "id": 11509,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a CloudNet Task is under maintenance or not"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11510": {
+    "id": 11510,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Kicks a player from the Cloud. It is not important on wich Proxy the player is",
+        "# IMPORTANT",
+        "You have to do `kick %a uuid parsed as a string% from cloud`, because the CloudNet API is a bit weird sometimes."
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11511": {
+    "id": 11511,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends a message from the Cloud to a online player. It is not important on wich Proxy the player is",
+        "# IMPORTANT",
+        "You have to do `send cloud msg \"Example\" to player %a uuid parsed as a string%`, because the CloudNet API is a bit weird sometimes."
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11512": {
+    "id": 11512,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a prepared CloudNet Service"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11513": {
+    "id": 11513,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a prepared CloudNet Service with a specific ID"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11514": {
+    "id": 11514,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a started CloudNet Service"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11515": {
+    "id": 11515,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a started CloudNet Service with a specific ID"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11517": {
+    "id": 11517,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Execute a command on all running CloudNet Services"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11518": {
+    "id": 11518,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Execute a command on a specific CloudNet Service"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11519": {
+    "id": 11519,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Execute a command on all services of a CloudNet Task"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11522": {
+    "id": 11522,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Starts all services on a CloudNet Task"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11525": {
+    "id": 11525,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stops all services running on a CloudNet Task"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11528": {
+    "id": 11528,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Restarts all running services on a CloudNet Task"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11529": {
+    "id": 11529,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the MinServiceCount of a CloudNet Task"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11530": {
+    "id": 11530,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the maintenance mode of a CloudNet Task"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11532": {
+    "id": 11532,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the proxy the player is connected to"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11533": {
+    "id": 11533,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Service of a CloudNet Player"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11534": {
+    "id": 11534,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the task of a CloudNet Player"
+      ],
+      "ko": [
+        "[SkCloudnet] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

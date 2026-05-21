@@ -1,0 +1,3118 @@
+{
+  "syntax_9673": {
+    "id": 9673,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Causes villagers to wake up if they're currently sleeping."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9674": {
+    "id": 9674,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get if a wolfie is angry."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9707": {
+    "id": 9707,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the thickness of a dripstone."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9704": {
+    "id": 9704,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the combuster of the event, either a block or an entity."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9705": {
+    "id": 9705,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the current boost time of a steerable entity such as a pig or strider. This can be added, set or removed."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9706": {
+    "id": 9706,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the directions of a dripstone."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9766": {
+    "id": 9766,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the age of tadpole."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9767": {
+    "id": 9767,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Grab the body colour of tropical fishes."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9768": {
+    "id": 9768,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Grab the pattern of tropical fishes."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9580": {
+    "id": 9580,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if armour stands have base plates."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9581": {
+    "id": 9581,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if armour stands have a marker. A marker means it has a small hitbox."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9582": {
+    "id": 9582,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a axolotl is playing dead."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9583": {
+    "id": 9583,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the bee(s) have a flower location set."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9572": {
+    "id": 9572,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9573": {
+    "id": 9573,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9574": {
+    "id": 9574,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9575": {
+    "id": 9575,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9576": {
+    "id": 9576,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether an entity has AI."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9577": {
+    "id": 9577,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if armour stands are small."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9578": {
+    "id": 9578,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if armour stands are visible."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9579": {
+    "id": 9579,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if armour stands have arms."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9584": {
+    "id": 9584,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the bee(s) have a hive location set."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9585": {
+    "id": 9585,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the bee(s) have nectar."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9586": {
+    "id": 9586,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the bee(s) have stung before."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9587": {
+    "id": 9587,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the beehives(s) are sedated from a nearby campfire."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9588": {
+    "id": 9588,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the camel(s) are dashing."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9589": {
+    "id": 9589,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the campfire is in signal fire state."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9590": {
+    "id": 9590,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the berry state of a CaveVines exists."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9591": {
+    "id": 9591,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a horse is carrying a chest."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9592": {
+    "id": 9592,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if living entities have their collidable state enabled."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9593": {
+    "id": 9593,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the gateways will teleport entities directly to the exit location instead of finding a nearby location."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9594": {
+    "id": 9594,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns if the ender portal frame has an eye of ender in it."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9595": {
+    "id": 9595,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if ender crystals are showing the bottom frame."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9596": {
+    "id": 9596,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if an entity block storage is full, such as beehives."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9597": {
+    "id": 9597,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if entities are climbing."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9598": {
+    "id": 9598,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if entities are frozen."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9599": {
+    "id": 9599,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the entities are in a vehicle."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9600": {
+    "id": 9600,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if entities are inside a vehicle."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9601": {
+    "id": 9601,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns false if the entity has died or been despawned for some other reason."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9602": {
+    "id": 9602,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if entities are swimming."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9603": {
+    "id": 9603,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the goat(s) have a left horn."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9604": {
+    "id": 9604,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the goat(s) have a right horn."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9605": {
+    "id": 9605,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the goat(s) are screaming."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9606": {
+    "id": 9606,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if an itemframe outline is visible."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9607": {
+    "id": 9607,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a jukebox has a record inside currently."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9608": {
+    "id": 9608,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a jukebox is playing a record."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9609": {
+    "id": 9609,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether an entity is leashed."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9610": {
+    "id": 9610,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the livingentities can pickup items."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9611": {
+    "id": 9611,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether to reward experience to the player within a trade of this merchant recipe."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9612": {
+    "id": 9612,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the villager is currently trading with someone."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9613": {
+    "id": 9613,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a minecart will be slow when it's empty."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9614": {
+    "id": 9614,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "whether this mob is aware of it's surroundings."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9615": {
+    "id": 9615,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the lock state of a repeater. Redstone."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9616": {
+    "id": 9616,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks to see if an entity is currently using the Riptide enchantment."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9617": {
+    "id": 9617,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a schulk catalyst is in bloom."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9618": {
+    "id": 9618,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a schulk shrieker can summon."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9619": {
+    "id": 9619,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a schulk shrieker is shrieking."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9620": {
+    "id": 9620,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Marks whether signs can be edited by players."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9621": {
+    "id": 9621,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets whether the signs have glowing text."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9622": {
+    "id": 9622,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a steerable entity like a pig of strider have a saddle."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9623": {
+    "id": 9623,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a strider is shivering."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9624": {
+    "id": 9624,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a vex is charging."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9625": {
+    "id": 9625,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if entities are displaying that they're on fire."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9626": {
+    "id": 9626,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a wolfie is angry."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9627": {
+    "id": 9627,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the zombie is a baby."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9628": {
+    "id": 9628,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if this entity is in the process of converting to a Drowned as a result of being underwater."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9629": {
+    "id": 9629,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if this entity is in the process of converting to a Villager as a result of being cured."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9630": {
+    "id": 9630,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether an entity has AI."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9631": {
+    "id": 9631,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Applies the block state of a block to an item.",
+        "This is how you apply a banner pattern to a shield. See examples"
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9632": {
+    "id": 9632,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set if the armour stands should have arms."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9633": {
+    "id": 9633,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set if the armour stands should have base plates."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9634": {
+    "id": 9634,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set it the armour stands should have a marker. A marker means the armour stands have a small hitbox."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9635": {
+    "id": 9635,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set if the armour stands are small."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9636": {
+    "id": 9636,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set if the armour stands are visible."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9637": {
+    "id": 9637,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the playing dead state of a axolotl. The entity must be underwater and damaged."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9638": {
+    "id": 9638,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set if bookshelfs slots are occupied by books or not."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9639": {
+    "id": 9639,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the collidable state of entities."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9640": {
+    "id": 9640,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Attempts to dispense the contents of the dispensers."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9641": {
+    "id": 9641,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Tries to drop a randomly selected item from the dropper's inventory, following the normal behavior of a dropper.."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9642": {
+    "id": 9642,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set if an ender portal frame has an eye of ender in it."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9643": {
+    "id": 9643,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the rotation of entities."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9644": {
+    "id": 9644,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the swimming state of entities."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9645": {
+    "id": 9645,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the left horn property of a goat."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9646": {
+    "id": 9646,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the right horn property of a goat."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9647": {
+    "id": 9647,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the item frame visible state."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9648": {
+    "id": 9648,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stop a jukebox from playing a record."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9649": {
+    "id": 9649,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether to reward experience to the player within a trade of this merchant recipe."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9650": {
+    "id": 9650,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set/removes the spot the recipe should be at."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9651": {
+    "id": 9651,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set whether this mob is aware of its surroundings."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9652": {
+    "id": 9652,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "set/remove the position of a banner pattern."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9653": {
+    "id": 9653,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set to open or close a lidded block. (Chest, Barrel, Shulker, Etc)"
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9654": {
+    "id": 9654,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether an entity can pickup items."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9655": {
+    "id": 9655,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Release all entities from an Entity Block Storage."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9656": {
+    "id": 9656,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the bloom property of a sculk catalyst."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9657": {
+    "id": 9657,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the can summon property of a sculk shrieker."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9658": {
+    "id": 9658,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the shrieking property of a sculk shrieker."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9659": {
+    "id": 9659,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set if the camel(s) are dashing."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9660": {
+    "id": 9660,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the value of the 'signal_fire' property."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9661": {
+    "id": 9661,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the berry state of a CaveVines."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9662": {
+    "id": 9662,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set if end gateways will teleport entities to the exact location or a nearby location."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9663": {
+    "id": 9663,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set if ender crystals have a base showing."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9664": {
+    "id": 9664,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set if a horse is carrying a chest."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9665": {
+    "id": 9665,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set if minecarts are to be slow when they're empty."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9666": {
+    "id": 9666,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set if a steerable entity like a pig or strider have a saddle."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9667": {
+    "id": 9667,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set if striders are to be shivering."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9668": {
+    "id": 9668,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the visual fire state of entities."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9669": {
+    "id": 9669,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets whether the signs can be edited by players."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9670": {
+    "id": 9670,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets whether the signs have glowing text."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9671": {
+    "id": 9671,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set if vexes are to be charging."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9672": {
+    "id": 9672,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Attempts to make villagers sleep at a given location."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9675": {
+    "id": 9675,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the maximum power state for analogue powerable blocks."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9676": {
+    "id": 9676,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the power state for analogue powerable blocks."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9677": {
+    "id": 9677,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the variant of a axolotl."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9678": {
+    "id": 9678,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a banner pattern."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9679": {
+    "id": 9679,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get banner patterns on a banner."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9680": {
+    "id": 9680,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the base color of a banner."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9681": {
+    "id": 9681,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get all the enities in range of a beacon."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9682": {
+    "id": 9682,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the primary potion effect of a beacon."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9683": {
+    "id": 9683,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the secondary potion effect of a beacon."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9684": {
+    "id": 9684,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the secondary potion effect of a beacon."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9685": {
+    "id": 9685,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the tier of a beacon."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9686": {
+    "id": 9686,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the anger level of bee(s)."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9687": {
+    "id": 9687,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the ticks of how long bee(s) cannot enter hives."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9688": {
+    "id": 9688,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the flower location of bee(s)."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9689": {
+    "id": 9689,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the hive location of bee(s)."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9690": {
+    "id": 9690,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets if the bee(s) have nectar. Can be set."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9691": {
+    "id": 9691,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets if the bee(s) has stung. Can be set."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9692": {
+    "id": 9692,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the hive's flower location."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9693": {
+    "id": 9693,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the tilt of a Big Dripleaf."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9694": {
+    "id": 9694,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get block direction of a Directional block."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9695": {
+    "id": 9695,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the BossBar of a Boss. Use this syntax in conjunction with Skellett."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9696": {
+    "id": 9696,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or change the items inside a bundle. The bundle must start off as an ItemType."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9697": {
+    "id": 9697,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Collect the total or current cooking time for a slot on the campfires. Not including the word 'total' is the current cooking time."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9698": {
+    "id": 9698,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Collect the item on a slot of the campfires."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9699": {
+    "id": 9699,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of items on the campfire."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9700": {
+    "id": 9700,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the candle count of a candle."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9701": {
+    "id": 9701,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The slots that are occupied by books in a chiseled bookshelf.",
+        "If the maxiumum of the syntax is used, it'll be the max amount of slots that can be occupied, can't be set."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9702": {
+    "id": 9702,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a mutable set of UUIDs of the entities which are exempt from the entity's collidable rule and which's collision with this entity will behave the opposite of it.",
+        "For example if collidable is true and an entity is in the exemptions set then it will not collide with it.",
+        "Similarly if collidable is false and an entity is in this set then it will still collide with it."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9703": {
+    "id": 9703,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the combuster of the event, either a block or an entity."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9708": {
+    "id": 9708,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The age of the end gateway.",
+        "This is used to determine when the beam is rendered."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9709": {
+    "id": 9709,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The exit location of the end gateways."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9710": {
+    "id": 9710,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The location ender crystal beams are pointing at.",
+        "Resetting this expression will make it not beam."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9711": {
+    "id": 9711,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9712": {
+    "id": 9712,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the moisture of a farmland block."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9713": {
+    "id": 9713,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of time an entity has been frozen in powdered snow."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9714": {
+    "id": 9714,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the tongue target of a frog."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9715": {
+    "id": 9715,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the variant of a frog."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9716": {
+    "id": 9716,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the goat screaming state."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9717": {
+    "id": 9717,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or change the item flags of an item. The item must be an ItemType"
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9718": {
+    "id": 9718,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the item frame drop chance, can also be modified."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9719": {
+    "id": 9719,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the item of an item frame."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9720": {
+    "id": 9720,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the rotation of an item frame."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9721": {
+    "id": 9721,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the record that is currently playing in a jukebox."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9722": {
+    "id": 9722,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the current actual item inside the jukebox."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9723": {
+    "id": 9723,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the color of a llama."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9724": {
+    "id": 9724,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the inventory of a llama."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9725": {
+    "id": 9725,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the color of a llama."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9726": {
+    "id": 9726,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the strength of a llama."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9727": {
+    "id": 9727,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the max candle count of a candle."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9728": {
+    "id": 9728,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the max amount of time an entity has been frozen in powdered snow."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9729": {
+    "id": 9729,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the maximum amount of air the living entity can have in ticks."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9730": {
+    "id": 9730,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get maximum delay of a repeater. Redstone."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9731": {
+    "id": 9731,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the merchant version of an entity, assuming it's a merchant. Useful for getting their inventory."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9732": {
+    "id": 9732,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a new merchant recipe for villagers."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9733": {
+    "id": 9733,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the amount of experience the villager earns from the merchant recipe in trades."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9734": {
+    "id": 9734,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9735": {
+    "id": 9735,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the maximum number of uses this trade has."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9736": {
+    "id": 9736,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the additive price multiplier for the cost of the recipe."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9737": {
+    "id": 9737,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9738": {
+    "id": 9738,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the number of times a merchant recipe trade has been used."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9739": {
+    "id": 9739,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the villagers recipes."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9740": {
+    "id": 9740,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the player a villager is trading with. Returns nothing if they're not trading."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9741": {
+    "id": 9741,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The block data that is displayed inside a minecart."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9742": {
+    "id": 9742,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The damage a minecart deals when getting hit by one."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9743": {
+    "id": 9743,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The velocity at which the minecart derails at."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9744": {
+    "id": 9744,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "How much to offset the minecart block display by.",
+        "A value of 16 moves the block up by exactly one multiple of its height.",
+        "Positive values move the block upwards, while negative values move it downwards."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9745": {
+    "id": 9745,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The velocity at which the minecart's flying velocity will be."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9746": {
+    "id": 9746,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "How fast the max minecraft speeds will be."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9747": {
+    "id": 9747,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get minimum delay of a repeater. Redstone."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9748": {
+    "id": 9748,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The amount of flowers a pink petals patch has"
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9749": {
+    "id": 9749,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of air that the living entity has remaining in ticks."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9750": {
+    "id": 9750,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get delay of a repeater. Redstone."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9751": {
+    "id": 9751,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the last sculk sensor vibration frequency."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9752": {
+    "id": 9752,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the current phase of the sculk sensor."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9753": {
+    "id": 9753,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get warning level of a Sculk Shrieker block."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9754": {
+    "id": 9754,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get skull owner of a Skull block."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9755": {
+    "id": 9755,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the size of a slime."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9756": {
+    "id": 9756,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get all the explored locations of the sniffer(s)."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9757": {
+    "id": 9757,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get delay of a spawner."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9758": {
+    "id": 9758,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the max nearby entities allowed for a spawner to spawn entities."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9759": {
+    "id": 9759,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the max spawn delay of a spawner."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9760": {
+    "id": 9760,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the min spawn delay of a spawner."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9761": {
+    "id": 9761,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the spawner spawn count of a spawner."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9762": {
+    "id": 9762,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the required nearby players for a spawner to spawn."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9763": {
+    "id": 9763,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the spawner spawn count of a spawner."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9764": {
+    "id": 9764,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the boost time of a steerable entity such as a pig or strider. This can be added, set or removed."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9765": {
+    "id": 9765,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the item used to steer a steerable entity such as a pig or strider."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9769": {
+    "id": 9769,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Grab the pattern colour of tropical fishes."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9770": {
+    "id": 9770,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the trading experience of villagers."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9771": {
+    "id": 9771,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the level of villagers."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9772": {
+    "id": 9772,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the profession of villagers."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9773": {
+    "id": 9773,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the type of villagers. Plains, Snow etc."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9774": {
+    "id": 9774,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the anger level of warden towards the entities."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9775": {
+    "id": 9775,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the collar color of wolfs."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9776": {
+    "id": 9776,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the amount of ticks until this entity will be converted to a Drowned as a result of being underwater."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9777": {
+    "id": 9777,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the player who initiated the conversion."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9778": {
+    "id": 9778,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the amount of ticks until this entity will be converted to a Villager as a result of being cured."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9779": {
+    "id": 9779,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the profession of zombie villagers."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9780": {
+    "id": 9780,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9781": {
+    "id": 9781,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9782": {
+    "id": 9782,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A configuration of effects that defines the firework when exploded."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9783": {
+    "id": 9783,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9784": {
+    "id": 9784,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9785": {
+    "id": 9785,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9786": {
+    "id": 9786,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9787": {
+    "id": 9787,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9788": {
+    "id": 9788,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9789": {
+    "id": 9789,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9790": {
+    "id": 9790,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9791": {
+    "id": 9791,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9792": {
+    "id": 9792,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9793": {
+    "id": 9793,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Khoryl] No official English guide provided."
+      ],
+      "ko": [
+        "[Khoryl] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

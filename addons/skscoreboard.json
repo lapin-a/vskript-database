@@ -1,0 +1,198 @@
+{
+  "syntax_4166": {
+    "id": 4166,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if lines of an scoreboard are created."
+      ],
+      "ko": [
+        "[SkScoreboard] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4164": {
+    "id": 4164,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if an scoreboard is created in a file."
+      ],
+      "ko": [
+        "[SkScoreboard] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4165": {
+    "id": 4165,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the title of an scoreboard is created"
+      ],
+      "ko": [
+        "[SkScoreboard] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4162": {
+    "id": 4162,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "You can delete and hide Scoreboard of a player with this syntax"
+      ],
+      "ko": [
+        "[SkScoreboard] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4160": {
+    "id": 4160,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Add a new line to your Scoreboard."
+      ],
+      "ko": [
+        "[SkScoreboard] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4801": {
+    "id": 4801,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send a scoreboard to the player"
+      ],
+      "ko": [
+        "[SkScoreboard] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5499": {
+    "id": 5499,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Change specific scoreboard slot"
+      ],
+      "ko": [
+        "[SkScoreboard] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5500": {
+    "id": 5500,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Change Scoreboard title of player's scoreboard"
+      ],
+      "ko": [
+        "[SkScoreboard] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5501": {
+    "id": 5501,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Change Scoreboard Lines"
+      ],
+      "ko": [
+        "[SkScoreboard] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5502": {
+    "id": 5502,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Remove player's scoreboard (using Packets)"
+      ],
+      "ko": [
+        "[SkScoreboard] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5503": {
+    "id": 5503,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Change Scoreboard title of player's scoreboard (using packets)"
+      ],
+      "ko": [
+        "[SkScoreboard] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5504": {
+    "id": 5504,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Change specific scoreboard slot (using packets)"
+      ],
+      "ko": [
+        "[SkScoreboard] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5505": {
+    "id": 5505,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Change player's scoreboard lines (using Packets)"
+      ],
+      "ko": [
+        "[SkScoreboard] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5506": {
+    "id": 5506,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send a packet-scoreboard to the player"
+      ],
+      "ko": [
+        "[SkScoreboard] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

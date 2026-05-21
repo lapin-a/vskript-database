@@ -1,0 +1,30 @@
+{
+  "syntax_6496": {
+    "id": 6496,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Loads a file that was obfuscated with Wildfuskator as if it was a regular Skript file. The power number should be the same as when it was obfuscated."
+      ],
+      "ko": [
+        "[Wildfuskator] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6497": {
+    "id": 6497,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Obfuscates a script into another file that's loadable via the Load Obfuscated File effect. Keep in mind that the power you obfuscate the file by will also be the one you need to input when you load that file."
+      ],
+      "ko": [
+        "[Wildfuskator] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

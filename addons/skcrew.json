@@ -1,0 +1,2672 @@
+{
+  "syntax_13629": {
+    "id": 13629,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13672": {
+    "id": 13672,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of objects"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13543": {
+    "id": 13543,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The file will be overwritten if it already exists."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13630": {
+    "id": 13630,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13673": {
+    "id": 13673,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to send a signal to any connected server"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13637": {
+    "id": 13637,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new request header in the **key:meaning**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13638": {
+    "id": 13638,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13639": {
+    "id": 13639,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13674": {
+    "id": 13674,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It also allows you to track signals by key."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13550": {
+    "id": 13550,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13642": {
+    "id": 13642,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "in bytes"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13678": {
+    "id": 13678,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13691": {
+    "id": 13691,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the main world of the server, without which the server operation is impossible."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13687": {
+    "id": 13687,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Unload the chunk. It also allows you not to save changes when unloading."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13534": {
+    "id": 13534,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13540": {
+    "id": 13540,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13541": {
+    "id": 13541,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13542": {
+    "id": 13542,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13679": {
+    "id": 13679,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13551": {
+    "id": 13551,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to redefine interactive elements inside an already created GUI"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13644": {
+    "id": 13644,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "in bytes"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13692": {
+    "id": 13692,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13703": {
+    "id": 13703,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13556": {
+    "id": 13556,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last GUI created/modified"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13645": {
+    "id": 13645,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13680": {
+    "id": 13680,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13693": {
+    "id": 13693,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13704": {
+    "id": 13704,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13709": {
+    "id": 13709,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13702": {
+    "id": 13702,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13710": {
+    "id": 13710,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "can be changed with SET"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13557": {
+    "id": 13557,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the currently open GUI of the player"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13705": {
+    "id": 13705,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13646": {
+    "id": 13646,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13681": {
+    "id": 13681,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13558": {
+    "id": 13558,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13682": {
+    "id": 13682,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13564": {
+    "id": 13564,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**WARNING: Expression can only be used in the closing GUI section**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13648": {
+    "id": 13648,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13684": {
+    "id": 13684,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Loads the world by its name. The world must be located in the root directory of the server."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13694": {
+    "id": 13694,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13706": {
+    "id": 13706,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13565": {
+    "id": 13565,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**WARNING: Expression can only be used in the closing GUI section**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13649": {
+    "id": 13649,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13685": {
+    "id": 13685,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13695": {
+    "id": 13695,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13537": {
+    "id": 13537,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13566": {
+    "id": 13566,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**WARNING: Expression can only be used in the GUI creation sections and creating an interactive element**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13707": {
+    "id": 13707,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13572": {
+    "id": 13572,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**WARNING: Expression can only be used in the GUI creation sections and creating an interactive element**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13650": {
+    "id": 13650,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13545": {
+    "id": 13545,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13652": {
+    "id": 13652,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13698": {
+    "id": 13698,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13578": {
+    "id": 13578,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to pass a list of lines of code to execute them"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13699": {
+    "id": 13699,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13700": {
+    "id": 13700,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13547": {
+    "id": 13547,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13548": {
+    "id": 13548,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13701": {
+    "id": 13701,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13647": {
+    "id": 13647,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13708": {
+    "id": 13708,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13580": {
+    "id": 13580,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13587": {
+    "id": 13587,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13588": {
+    "id": 13588,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13597": {
+    "id": 13597,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13600": {
+    "id": 13600,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13532": {
+    "id": 13532,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "can be changed with SET"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13601": {
+    "id": 13601,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Accepts canvas as an argument, returns a game item - a map"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13612": {
+    "id": 13612,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13526": {
+    "id": 13526,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13533": {
+    "id": 13533,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "can be changed with SET"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13527": {
+    "id": 13527,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13535": {
+    "id": 13535,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "can be changed with SET"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13656": {
+    "id": 13656,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13689": {
+    "id": 13689,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13536": {
+    "id": 13536,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13690": {
+    "id": 13690,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13616": {
+    "id": 13616,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "convert the hexadecimal packet to text"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13657": {
+    "id": 13657,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13617": {
+    "id": 13617,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13623": {
+    "id": 13623,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13665": {
+    "id": 13665,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13538": {
+    "id": 13538,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13539": {
+    "id": 13539,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13525": {
+    "id": 13525,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13528": {
+    "id": 13528,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13546": {
+    "id": 13546,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The file will be overwritten if it already exists."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13529": {
+    "id": 13529,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "In fact, you get either a real file, if there is one, or an abstract file that can then be created."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13544": {
+    "id": 13544,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It also allows you to specify the text content of the file being created"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13530": {
+    "id": 13530,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Absolute - that is, the one with the path starting from the root of the file system"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13531": {
+    "id": 13531,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "can be looped"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13553": {
+    "id": 13553,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13554": {
+    "id": 13554,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The code inside this section will be executed after opening the GUI to the player."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13555": {
+    "id": 13555,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The code inside this section will be executed after the GUI is closed by the player"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13552": {
+    "id": 13552,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When you click on this element, the code inside the section will be executed"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13559": {
+    "id": 13559,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the number or letter of the template of the next GUI slot"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13583": {
+    "id": 13583,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13584": {
+    "id": 13584,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It is the simplest form, which has only two buttons and a description block. The buttons are a conditional choice of ‘yes’ or ’no’.",
+        "The created form will be placed in the expression `last created form`"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13585": {
+    "id": 13585,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It is a form with buttons. There can be an unlimited number of buttons, in addition, the buttons can have images from the Internet.",
+        "The created form will be placed in the expression `last created form `"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13561": {
+    "id": 13561,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**WARNING: Expression can only be used in the GUI creation sections and creating an interactive element**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13560": {
+    "id": 13560,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**WARNING: Expression can only be used in the GUI creation sections and creating an interactive element**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13562": {
+    "id": 13562,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**WARNING: Expression can only be used in the GUI creation sections and creating an interactive element**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13563": {
+    "id": 13563,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**WARNING: Expression can only be used in the GUI creation sections and creating an interactive element**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13567": {
+    "id": 13567,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**WARNING: Expression can only be used in the GUI creation sections and creating an interactive element**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13568": {
+    "id": 13568,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**WARNING: Expression can only be used in the GUI creation sections and creating an interactive element**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13569": {
+    "id": 13569,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**WARNING: Expression can only be used in the GUI creation sections and creating an interactive element**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13570": {
+    "id": 13570,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For example, a player made a double click, which caused things to gather in the cursor slot.",
+        "**WARNING: Expression can only be used in the GUI creation sections and creating an interactive element**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13571": {
+    "id": 13571,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**WARNING: Can only be used in the GUI creation sections and creating an interactive element**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13573": {
+    "id": 13573,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**WARNING: Expression can only be used in the GUI creation sections and creating an interactive element**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13574": {
+    "id": 13574,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**WARNING: Expression can only be used in the GUI creation sections and creating an interactive element**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13575": {
+    "id": 13575,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**Be sure to use this expression inside the GUI or interactive element creation section instead of player, otherwise your code will not work as you expect it to.**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13576": {
+    "id": 13576,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**WARNING: Expression can only be used in the GUI creation sections and creating an interactive element**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13577": {
+    "id": 13577,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "**WARNING: Expression can only be used in the GUI creation sections and creating an interactive element**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13579": {
+    "id": 13579,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to execute independent lines of code (works faster, but not as functional)"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13581": {
+    "id": 13581,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13582": {
+    "id": 13582,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13627": {
+    "id": 13627,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the unique identifier of the entity"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13666": {
+    "id": 13666,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called after any server has connected to the proxy"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13549": {
+    "id": 13549,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13586": {
+    "id": 13586,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It is a form with any elements except buttons. This type of forms allows you to use sliders, switches, input fields, selection fields, etc.",
+        "The processing of the form elements is carried out in the section on form result",
+        "The created form will be placed in the expression `last created form `"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13589": {
+    "id": 13589,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The button is a section, the code inside of which will be executed when you click on it. After clicking on the button, the form will be automatically closed (a feature of Bedrock forms).",
+        "**Can only be used in ``Modal form``  and ``Simple form``",
+        "The button with the image can only be used in ``Simple form``**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13590": {
+    "id": 13590,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to specify or get a text description in ``Modal form``. Allows you to specify both in an already created form and in the creation section ``Modal form ``"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13591": {
+    "id": 13591,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the value of the **Custom form Elements** after closing, it is possible only in the section **run on form result**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13592": {
+    "id": 13592,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Use this expression to get the player inside the form, instead of the usual player or any variables."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13593": {
+    "id": 13593,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "### Available types of forms for comparison:",
+        "- custom form",
+        "- modal form",
+        "- simple form"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13594": {
+    "id": 13594,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13595": {
+    "id": 13595,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "By default, closing the form is allowed. If you disable it, the form will be reopened after the selection"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13596": {
+    "id": 13596,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This expression can only be used in the section when closing the form",
+        "### Available reasons for closing for comparison:",
+        "- close",
+        "- (submit|success)",
+        "- invalid[ response]"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13598": {
+    "id": 13598,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This expression can only be used in the section when the form is successfully closed",
+        "For button processing ``Modal form``  and ``Simple form``  use the ``button creation section ``"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13599": {
+    "id": 13599,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns an object from which, later, you can get a map in the form of an object",
+        "**When creating a map in a folder A map image file will be created. The file name will match the ID of the game map. ``/skcrew/maps/``**"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13602": {
+    "id": 13602,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Accepts a map item as an argument, returns a canvas for drawing"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13603": {
+    "id": 13603,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "NOTE: Maps are not loaded on their own, so that they do not disappear - put the canvases of these maps in global variables.",
+        "The addon supports automatic serialization of data associated with canvases."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13604": {
+    "id": 13604,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "WARNING: It does not allow you to change the color of a pixel, use the expression ``paint over a pixel``"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13605": {
+    "id": 13605,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to set a specific color for a pixel based on its coordinates. The first two arguments point to the coordinates on the canvas, the subsequent ones are in RGB or RGBA format, and the last one is the canvas."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13606": {
+    "id": 13606,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to set a specific color for pixels in the range.",
+        "The first four arguments point to the coordinates on the canvas, the next color is in RGB or RGBA format, and the last one is the canvas."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13607": {
+    "id": 13607,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Accepts similar arguments with pixel coloring."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13628": {
+    "id": 13628,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13671": {
+    "id": 13671,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13608": {
+    "id": 13608,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The first four arguments are the points between which the main part of the curve will be. The following four arguments allow you to optionally specify control points for the curve offset. The following arguments are similar to drawing a line or coloring pixels."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13609": {
+    "id": 13609,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The first two arguments are the center of the circle, the next one is the radius of the circle. The other arguments are color and canvas."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13610": {
+    "id": 13610,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The image should be in the images/ folder of the addon. Takes the name of the image file as the first argument."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13611": {
+    "id": 13611,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The first argument is the text to be written, the next two arguments describe the font name and font size."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13624": {
+    "id": 13624,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "NOTE: To read utf-8 you must also specify the length of the text in bytes"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13625": {
+    "id": 13625,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Each reading of the buffer shifts its , this is the number of bytes read inside the buffer.",
+        "you can find out or change it using the following expression"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13614": {
+    "id": 13614,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "## Relating types of damage:",
+        "(Environmental - All type of damage)",
+        "(Fire - Fire, lava, and blaze fireballs)",
+        "(Explosion - Explosions)",
+        "(Projectile - Arrows, thrown tridents, ghast and blaze fireballs)",
+        "(Fall - Fall damage (including ender pearls))"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13615": {
+    "id": 13615,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An event triggered when a player presses the mouse button to distribute items in the inventory"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13618": {
+    "id": 13618,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13619": {
+    "id": 13619,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Each write to the buffer shifts its , which is the number of bytes written inside the buffer.",
+        "you can find out or change it using the following expression: ``Writer index``"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13620": {
+    "id": 13620,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The expression below allows you to create a packet based on the packet name and the filled buffer for subsequent sending."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13626": {
+    "id": 13626,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "For any player, you can enable or disable tracking of incoming or outgoing packets."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13622": {
+    "id": 13622,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "`<packet name>` - allows you to specify the name of the tracking packet.",
+        "note: `event-packet` it can be replaced with `set event-packet to %packet%`, provided that no execution delay was used"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13631": {
+    "id": 13631,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of bytes.",
+        "It is also possible to specify the required encoding. Default is `UTF-8`"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13632": {
+    "id": 13632,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This is a packet that allows you to create a sequence of packets and send them to the client at once, which provides greater speed and stability.",
+        "If you are sending many packets at once, put them in a Bundle."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13635": {
+    "id": 13635,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes a request with the specified method to the specified site using the specified headers and the specified request body. Returns the code and the body of the response."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13634": {
+    "id": 13634,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13633": {
+    "id": 13633,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to delete, view, add permissions to the user without additional plugins"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13613": {
+    "id": 13613,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The [damage type category](https://skripthub.net/docs/?id=13614) is an optional parameter that defines the type of damage affecting the armor. If this parameter is not specified, the environmental damage type will be used by default."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13636": {
+    "id": 13636,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes a request with the specified method to the specified site using the specified headers and the specified request body. Returns the code and the body of the response.",
+        "WARNING: Block the main thread for the duration of the request, use wisely."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13641": {
+    "id": 13641,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "in bytes"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13640": {
+    "id": 13640,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes a command in the console/terminal of the operating system."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13643": {
+    "id": 13643,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "in bytes"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13621": {
+    "id": 13621,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13651": {
+    "id": 13651,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the server by the name under which it is written in the proxy server configuration.",
+        "If this server is not listed in the proxy server configuration, <none> will be returned"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13653": {
+    "id": 13653,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The expression below returns a list of all servers described in the proxy server configuration."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13654": {
+    "id": 13654,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of players in the form of online players."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13655": {
+    "id": 13655,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Accepts the player’s nickname or UUID, returns the online player, or <none> if the player is not online"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13658": {
+    "id": 13658,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13659": {
+    "id": 13659,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to specify the reason. The reason may be plain text, or an AdventureAPI component ( Velocity  ) or ChatComponentAPI ( Bungeecord  ) in JSON format."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13660": {
+    "id": 13660,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to change the player’s server if it is located on a server that is connected to a proxy server"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13661": {
+    "id": 13661,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the player has not yet connected to any server",
+        "The event has built-in data, using the event-player you can get the connected player in the form of an OfflinePlayer"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13662": {
+    "id": 13662,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The event has built-in data, using the event-player you can get the connected player in the form of an OfflinePlayer"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13663": {
+    "id": 13663,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called after the server has been connected to the proxy."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13664": {
+    "id": 13664,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called after the server has been disconnected from the proxy."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13668": {
+    "id": 13668,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It is called after the player is connected to the game server, which is connected to the proxy."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13667": {
+    "id": 13667,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called after any server has disconnected from the proxy",
+        "The event has embedded data, using the event-server you can get a disconnected server"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13669": {
+    "id": 13669,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13670": {
+    "id": 13670,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Signals allow you to transfer the information you need between servers.",
+        "The signal has the form key : values, which allows you to transfer any data that can be serialized."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13675": {
+    "id": 13675,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Initializes the connection to the DBMS and returns this connection. Returns an object of the type datasource (com.zaxxer.hikari.HikariDataSource class). You can also optionally specify a driver for interaction with the DBMS.",
+        "If the driver is not specified, the addon will try to select a driver from the list of available ones (mysql, mssql, oraclesql, sqllite, postgres)"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13711": {
+    "id": 13711,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13688": {
+    "id": 13688,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13677": {
+    "id": 13677,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "WARNING: Block the main thread for the duration of the request, use wisely."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13683": {
+    "id": 13683,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skcrew] No official English guide provided."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13686": {
+    "id": 13686,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It also allows you not to generate a world in a chunk if this chunk has not been generated."
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13696": {
+    "id": 13696,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This expression supports changing the state"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13697": {
+    "id": 13697,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This expression supports changing the state. When changing, it is possible to specify the time in ticks for how long the barrier should change its size"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13676": {
+    "id": 13676,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The first parameter - is the query being executed.",
+        "The second parameter - is the insertion of values for escaping. The first character is ? will be replaced by the first value from the passed list in the second argument, the second ? to the second from the list, etc.",
+        "The third parameter - connecting to a DBMS, an object of type datasource from a previous expression.",
+        "The last parameter - where the query result will be placed, you must specify the list variable. After the query, the column names will become indexes of this list, the column values will be stored in a new sub-list with the column name.",
+        "WARNING: An asynchronous request cannot be used in functions where a value is returned. The result of an asynchronous request will be none"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13731": {
+    "id": 13731,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Variable that is synchronized with all servers connected to the proxy. works as a regular variable in Skript"
+      ],
+      "ko": [
+        "[Skcrew] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

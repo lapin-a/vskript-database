@@ -1,0 +1,464 @@
+{
+  "syntax_10010": {
+    "id": 10010,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fired when a CoreProtect logger is about to log an action.",
+        "Cancellable."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10011": {
+    "id": 10011,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the server has the CoreProtect API enabled, and false if it does not."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10012": {
+    "id": 10012,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a user has already removed a block at the location within the specified time limit."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10013": {
+    "id": 10013,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a user has already placed a block at the location within the specified time limit."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10014": {
+    "id": 10014,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks If the block is currently rolled back or not."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10015": {
+    "id": 10015,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the log said/executed/placed/broke/container transaction/interaction effect lastly ran was successful."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10016": {
+    "id": 10016,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Logs a block as being removed/broken, and log the block's inventory (if applicable)."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10017": {
+    "id": 10017,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Logs any transactions made to a block's inventory immediately after calling the method."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10018": {
+    "id": 10018,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Logs a command as having been executed by a player."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10019": {
+    "id": 10019,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Logs a block as having been interacted with."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10020": {
+    "id": 10020,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Logs a block as being placed."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10021": {
+    "id": 10021,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Logs a message as having been send by a player."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10022": {
+    "id": 10022,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Performs a purge on the CoreProtect database."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10023": {
+    "id": 10023,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Prints out \"[CoreProtect] API Test Successful.\" in the server console."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10024": {
+    "id": 10024,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the action ID. (0=removed, 1=placed, 2=interaction)"
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10025": {
+    "id": 10025,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the action as a string. (Removal, Placement, Interaction)"
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10026": {
+    "id": 10026,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The location of the block."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10027": {
+    "id": 10027,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The Material of the block."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10028": {
+    "id": 10028,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The version of CoreProtect API."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10029": {
+    "id": 10029,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The time of the action."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10030": {
+    "id": 10030,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The BlockData of the block."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10031": {
+    "id": 10031,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The name of the world the block is located in."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10032": {
+    "id": 10032,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Performs a full lookup on a single block."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10033": {
+    "id": 10033,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Searches the consumer queue for changes on a block not yet saved in the database."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10034": {
+    "id": 10034,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Performs a session lookup on a single player."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10035": {
+    "id": 10035,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Usable only in lookup / rollback / restore effect sections.",
+        "Returns the result of the lookup."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10036": {
+    "id": 10036,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Usable only in CoreProtect logging event.",
+        "The name of the user under which this action will be logged.",
+        "This value can be changed.",
+        "This can be referred as 'event-string', which only the getter is provided."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10037": {
+    "id": 10037,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The username as a string."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10038": {
+    "id": 10038,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A result of lookup on CoreProtect logs."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10039": {
+    "id": 10039,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Performs a lookup.",
+        "This effect causes a delay of the script execution.",
+        "Objects specified with 'on' and 'expect on' can be Entity Data, Entity Types, Item Types or Block Data.",
+        "Use 'results' in this section to get the results of the lookup."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10040": {
+    "id": 10040,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Performs a restore.",
+        "This effect causes a delay of the script execution.",
+        "Objects specified with 'on' and 'expect on' can be Entity Data, Entity Types, Item Types or Block Data.",
+        "Use 'results' in this section to get the results of the restore."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10041": {
+    "id": 10041,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Performs a rollback.",
+        "This effect causes a delay of the script execution.",
+        "Objects specified with 'on' and 'expect on' can be Entity Types, Item Types or Block Data.",
+        "Use 'results' in this section to get the results of the rollback."
+      ],
+      "ko": [
+        "[SkCoAPI] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

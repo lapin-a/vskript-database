@@ -1,0 +1,100 @@
+{
+  "syntax_1173": {
+    "id": 1173,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a vote from Votifier."
+      ],
+      "ko": [
+        "[skript-votifier-hook] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1178": {
+    "id": 1178,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The IP address used when the voter submitted their vote."
+      ],
+      "ko": [
+        "[skript-votifier-hook] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1176": {
+    "id": 1176,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The name of the server list website from where the vote was cast."
+      ],
+      "ko": [
+        "[skript-votifier-hook] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1177": {
+    "id": 1177,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The voter's submitted username."
+      ],
+      "ko": [
+        "[skript-votifier-hook] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1174": {
+    "id": 1174,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an online player votes for the server."
+      ],
+      "ko": [
+        "[skript-votifier-hook] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1175": {
+    "id": 1175,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called whenever Votifier receives a vote (regardless of whether or not the player is online)."
+      ],
+      "ko": [
+        "[skript-votifier-hook] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1179": {
+    "id": 1179,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The timestamp from when the vote was cast."
+      ],
+      "ko": [
+        "[skript-votifier-hook] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

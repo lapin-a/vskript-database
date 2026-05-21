@@ -1,0 +1,562 @@
+{
+  "syntax_4675": {
+    "id": 4675,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player has created a party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4677": {
+    "id": 4677,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player renamed a party. \"event-partyplayer\" can be null if executed by console."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4673": {
+    "id": 4673,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a party gets experience."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4674": {
+    "id": 4674,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a party levels up."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4685": {
+    "id": 4685,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a party exists."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4676": {
+    "id": 4676,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player has deleted a party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4678": {
+    "id": 4678,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player is creating a party. Cancellable."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4679": {
+    "id": 4679,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player is deleting a party. Cancellable."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4680": {
+    "id": 4680,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player is renaming a party. \"event-partyplayer\" can be null if executed by console. Cancellable."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4681": {
+    "id": 4681,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player joined a party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4682": {
+    "id": 4682,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player left a party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4683": {
+    "id": 4683,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player is joining a party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4684": {
+    "id": 4684,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player is leaving a party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4686": {
+    "id": 4686,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the partyplayer is leader."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4687": {
+    "id": 4687,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a party is fixed."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4688": {
+    "id": 4688,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a party is friendly fire protected."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4689": {
+    "id": 4689,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a party is full."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4690": {
+    "id": 4690,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is in party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4691": {
+    "id": 4691,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Add the player to the party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4692": {
+    "id": 4692,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a party with the given name and player as leader."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4694": {
+    "id": 4694,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Remove the player from the party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4695": {
+    "id": 4695,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the party with the given name/id."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4696": {
+    "id": 4696,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the party of the given player."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4697": {
+    "id": 4697,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the partyplayer of the given player."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4698": {
+    "id": 4698,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the description of the given party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4699": {
+    "id": 4699,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the experience of the given party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4700": {
+    "id": 4700,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the id of the given party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4701": {
+    "id": 4701,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the kills number of the given party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4702": {
+    "id": 4702,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the leader as partyplayer of the given party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4703": {
+    "id": 4703,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the level number of the given party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4704": {
+    "id": 4704,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the motd of the given party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4705": {
+    "id": 4705,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the member list of the given party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4706": {
+    "id": 4706,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the name of the given party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4707": {
+    "id": 4707,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the password of the given party. The password is hashed, if you set one you must insert a plain password."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4708": {
+    "id": 4708,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the name of the given partyplayer."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4709": {
+    "id": 4709,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the rank of the given partyplayer."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4710": {
+    "id": 4710,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the tag of the given party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4711": {
+    "id": 4711,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a party entity handled by Parties plugin."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4712": {
+    "id": 4712,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a party-player entity handled by Parties plugin."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4693": {
+    "id": 4693,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Delete the party."
+      ],
+      "ko": [
+        "[Parties] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

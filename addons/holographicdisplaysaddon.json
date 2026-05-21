@@ -1,0 +1,240 @@
+{
+  "syntax_2030": {
+    "id": 2030,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the height(s) of the hologram(s). This is determined by how many lines it has. It's overall height."
+      ],
+      "ko": [
+        "[HolographicDisplaysAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2031": {
+    "id": 2031,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the location(s) of the hologram(s)."
+      ],
+      "ko": [
+        "[HolographicDisplaysAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2019": {
+    "id": 2019,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if an entity is a hologram."
+      ],
+      "ko": [
+        "[HolographicDisplaysAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2020": {
+    "id": 2020,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a hologram is deleted."
+      ],
+      "ko": [
+        "[HolographicDisplaysAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2021": {
+    "id": 2021,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Clears the lines of hologram(s)."
+      ],
+      "ko": [
+        "[HolographicDisplaysAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2022": {
+    "id": 2022,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Add a hologram line of an item to the hologram(s)."
+      ],
+      "ko": [
+        "[HolographicDisplaysAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2023": {
+    "id": 2023,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Add a line of text to the hologram(s)."
+      ],
+      "ko": [
+        "[HolographicDisplaysAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2024": {
+    "id": 2024,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set a line of text in the hologram(s)."
+      ],
+      "ko": [
+        "[HolographicDisplaysAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2025": {
+    "id": 2025,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes specific line(s) from hologram(s)."
+      ],
+      "ko": [
+        "[HolographicDisplaysAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2026": {
+    "id": 2026,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Hide or show hologram(s) to player(s)."
+      ],
+      "ko": [
+        "[HolographicDisplaysAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2027": {
+    "id": 2027,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Unregister/Delete hologram(s) from existance."
+      ],
+      "ko": [
+        "[HolographicDisplaysAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2028": {
+    "id": 2028,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a hologram at a location. It is returned as an expression."
+      ],
+      "ko": [
+        "[HolographicDisplaysAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2029": {
+    "id": 2029,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the date(s) hologram(s) were created at. Can be used in difference between syntax."
+      ],
+      "ko": [
+        "[HolographicDisplaysAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2032": {
+    "id": 2032,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a boolean that sets if the hologram(s) should support placeholders or not."
+      ],
+      "ko": [
+        "[HolographicDisplaysAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2033": {
+    "id": 2033,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A modifiable list of players that can view the hologram."
+      ],
+      "ko": [
+        "[HolographicDisplaysAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2034": {
+    "id": 2034,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Boolean to determine if hologram(s) are visible by default."
+      ],
+      "ko": [
+        "[HolographicDisplaysAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2035": {
+    "id": 2035,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Grabs all the holograms currently registered. If the plugins string is not set, it will grab all the holograms registered under HolographicDisplaysAddon"
+      ],
+      "ko": [
+        "[HolographicDisplaysAddon] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

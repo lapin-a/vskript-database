@@ -1,0 +1,450 @@
+{
+  "syntax_10179": {
+    "id": 10179,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a condition doesn't pass."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11055": {
+    "id": 11055,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Unwraps a wrapped list inside a list variable."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11056": {
+    "id": 11056,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Converts a list variable to a wrapped list."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11057": {
+    "id": 11057,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a wrapped list."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11972": {
+    "id": 11972,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Runs Skript code from a string as if you used effect commands. This shouldn't be used in production."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11973": {
+    "id": 11973,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the bit at index in a number."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11974": {
+    "id": 11974,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkCheese] No official English guide provided."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11975": {
+    "id": 11975,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkCheese] No official English guide provided."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11976": {
+    "id": 11976,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows the use of hexadecimal and binary formats to represent literal numbers."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10098": {
+    "id": 10098,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Jumps to a label."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10099": {
+    "id": 10099,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a label that you can jump to later on."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10085": {
+    "id": 10085,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Parse a string as a type. The type can be a non-literal unlike vanilla Skript."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10086": {
+    "id": 10086,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the opposite of a boolean."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10084": {
+    "id": 10084,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all indices of a list variable. In vanilla Skript, if you set \"{_var::a::b}\" and loop {_var::*} nothing would be looped but this expression recursively gets all indices."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10087": {
+    "id": 10087,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Executes a function using a section. Pass parameters by doing 'parameter name as value'"
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10178": {
+    "id": 10178,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a list of booleans are all true."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10180": {
+    "id": 10180,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Completes a future with the given value."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10181": {
+    "id": 10181,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Waits for a future until it is completed or it timeouts."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10183": {
+    "id": 10183,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the last string created by the string builder, if it wasn't stored anywhere."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10184": {
+    "id": 10184,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a completable future."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10185": {
+    "id": 10185,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new string that is joined by a new line by default."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_10182": {
+    "id": 10182,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new future that can be waited for."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11467": {
+    "id": 11467,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the first/second value of a pair."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11468": {
+    "id": 11468,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A pair is a single value that can hold 2 objects at once."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11469": {
+    "id": 11469,
+    "type": "function",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new pair."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11059": {
+    "id": 11059,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The switch case executes one statement from multiple ones. Thus, it is like an if-else-if ladder statement. The switch statement is used to test the equality of a variable against several values specified in the tests cases."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14472": {
+    "id": 14472,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the opposite of a boolean."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14473": {
+    "id": 14473,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Runs a function with the specified arguments."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14474": {
+    "id": 14474,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkCheese] No official English guide provided."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14469": {
+    "id": 14469,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a condition is true, otherwise throws an error or a warning with a custom message and stops the code."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14470": {
+    "id": 14470,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Throws a runtime error or warning."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14471": {
+    "id": 14471,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkCheese] No official English guide provided."
+      ],
+      "ko": [
+        "[SkCheese] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

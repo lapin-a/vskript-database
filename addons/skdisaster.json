@@ -1,0 +1,479 @@
+{
+  "syntax_13740": {
+    "id": 13740,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a colour from a read image"
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12300": {
+    "id": 12300,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws a line on a map between 2 positions."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12295": {
+    "id": 12295,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Maps will only update every ~5 ticks. This will make them update whenever called, up to 20 times a second (once a tick)."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12299": {
+    "id": 12299,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets a pixel on a custom map."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12302": {
+    "id": 12302,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Compiles code from a string. Returns the class."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12306": {
+    "id": 12306,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns an image from a File/URL."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12297": {
+    "id": 12297,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Runs a java method (static or non-static)."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12298": {
+    "id": 12298,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets all the pixels of a map to a certain colour."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12313": {
+    "id": 12313,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Should NOT be ran on the main thread. Will get a variable async without concurrency issues."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12311": {
+    "id": 12311,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Red, Green or Blue of a colour."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12307": {
+    "id": 12307,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of strings with the lines of a file."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12308": {
+    "id": 12308,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new custom map that you can use to set pixels on or draw images."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12304": {
+    "id": 12304,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns an ItemStack with the map, this can be used to give the map to the player such as `give player map of {_map}`"
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12296": {
+    "id": 12296,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Runs a function from a string, can also be ran async (off the main thread). Check https://skripthub.net/tutorials/92 for more info on async."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12303": {
+    "id": 12303,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns an instance of a java class. Does not currently support constructors."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12312": {
+    "id": 12312,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Runs a java method (static or non-static) and returns the value."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12310": {
+    "id": 12310,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the colour of an image. Can be used with the colour of expression and pixel at to do things such as image maps (see examples)"
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12294": {
+    "id": 12294,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draws a square on a map."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14667": {
+    "id": 14667,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fetches the current server name and stores it in a variable."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14668": {
+    "id": 14668,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkDisaster] No official English guide provided."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14669": {
+    "id": 14669,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkDisaster] No official English guide provided."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14670": {
+    "id": 14670,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkDisaster] No official English guide provided."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14671": {
+    "id": 14671,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkDisaster] No official English guide provided."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14672": {
+    "id": 14672,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkDisaster] No official English guide provided."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14673": {
+    "id": 14673,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkDisaster] No official English guide provided."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14674": {
+    "id": 14674,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkDisaster] No official English guide provided."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14675": {
+    "id": 14675,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkDisaster] No official English guide provided."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14676": {
+    "id": 14676,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkDisaster] No official English guide provided."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14677": {
+    "id": 14677,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkDisaster] No official English guide provided."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14678": {
+    "id": 14678,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkDisaster] No official English guide provided."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12293": {
+    "id": 12293,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds a listener to a reactive variable that runs a function when that value is changed. (See below example)",
+        "If you don't specify an id it will default to 0."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12309": {
+    "id": 12309,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A reactive variable can be used to call a function whenever it updates."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14239": {
+    "id": 14239,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of all listeners on a reactive variable. See below example."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14238": {
+    "id": 14238,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns information of a binding listener. See examples for more info."
+      ],
+      "ko": [
+        "[SkDisaster] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

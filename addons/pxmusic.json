@@ -1,0 +1,100 @@
+{
+  "syntax_14463": {
+    "id": 14463,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stops a song from playing."
+      ],
+      "ko": [
+        "[PxMusic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14465": {
+    "id": 14465,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a song loop when finished"
+      ],
+      "ko": [
+        "[PxMusic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14467": {
+    "id": 14467,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A single note. It has 3 values: sound, pitch and volume"
+      ],
+      "ko": [
+        "[PxMusic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14468": {
+    "id": 14468,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The volume of a specific note"
+      ],
+      "ko": [
+        "[PxMusic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14462": {
+    "id": 14462,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When the song is complete. This does not include when the song loops."
+      ],
+      "ko": [
+        "[PxMusic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14464": {
+    "id": 14464,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A song that is currently playing. It can be modified easily and is linked to a song"
+      ],
+      "ko": [
+        "[PxMusic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14466": {
+    "id": 14466,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This is the people who are actively listening to the music that is being played. This property is modifiable and is a list of players"
+      ],
+      "ko": [
+        "[PxMusic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

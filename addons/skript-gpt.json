@@ -1,0 +1,101 @@
+{
+  "syntax_8963": {
+    "id": 8963,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Generate a completion of an input string using the OpenAI ChatGPT API, based on an input prompt.",
+        "ATTENTION! This syntax does not use the ChatGPT endpoint. You won't receive back a conversation from the AI, just a chat completion. It will try to predict what the message is, it won't respond as an assistant."
+      ],
+      "ko": [
+        "[Skript-GPT] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8962": {
+    "id": 8962,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Generate a response to a prompt string using the OpenAI ChatGPT API, based on an input prompt."
+      ],
+      "ko": [
+        "[Skript-GPT] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8966": {
+    "id": 8966,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the content of a conversation message."
+      ],
+      "ko": [
+        "[Skript-GPT] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8967": {
+    "id": 8967,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a string, which indicates the sender of the message. The role can only be either \"system\", \"user\" or \"assistant\"."
+      ],
+      "ko": [
+        "[Skript-GPT] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8968": {
+    "id": 8968,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last generated response from a Chat Completion request. Call this immediately after sending a new chatgpt prompt, and save it into a variable."
+      ],
+      "ko": [
+        "[Skript-GPT] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8969": {
+    "id": 8969,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a conversation message type with a role and an empty content. if the [with role] part of the syntax is not specified, defaults to user."
+      ],
+      "ko": [
+        "[Skript-GPT] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8965": {
+    "id": 8965,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This type holds information about a message in a conversation with ChatGPT. It has two main parts, the role (which can only be set to \"assistant\", \"system\" or \"user\") and the content, which is basically whatever string the user or the AI want to send."
+      ],
+      "ko": [
+        "[Skript-GPT] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

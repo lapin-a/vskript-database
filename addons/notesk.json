@@ -1,0 +1,226 @@
+{
+  "syntax_13924": {
+    "id": 13924,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a song exists in the plugin folder."
+      ],
+      "ko": [
+        "[NoteSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13925": {
+    "id": 13925,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Broadcast a note block song to all players on the server."
+      ],
+      "ko": [
+        "[NoteSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13926": {
+    "id": 13926,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Pause the currently playing note block song for a player."
+      ],
+      "ko": [
+        "[NoteSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13927": {
+    "id": 13927,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Play a note block song to a specific player."
+      ],
+      "ko": [
+        "[NoteSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13928": {
+    "id": 13928,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Play a note block song to all players in a specific radius around a location."
+      ],
+      "ko": [
+        "[NoteSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13929": {
+    "id": 13929,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Resume the currently paused note block song for a player."
+      ],
+      "ko": [
+        "[NoteSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13930": {
+    "id": 13930,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the fade duration of any note block songs for a player."
+      ],
+      "ko": [
+        "[NoteSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13931": {
+    "id": 13931,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the volume for any note block songs for a player."
+      ],
+      "ko": [
+        "[NoteSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13932": {
+    "id": 13932,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stop all songs from being broadcasting to all players on the server."
+      ],
+      "ko": [
+        "[NoteSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13933": {
+    "id": 13933,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stop the currently playing note block song from playing to a specific player."
+      ],
+      "ko": [
+        "[NoteSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13934": {
+    "id": 13934,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the fade duration of any note block songs for a player."
+      ],
+      "ko": [
+        "[NoteSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13935": {
+    "id": 13935,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the author of any note block songs for a player."
+      ],
+      "ko": [
+        "[NoteSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13936": {
+    "id": 13936,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the current song lenght of a player"
+      ],
+      "ko": [
+        "[NoteSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13937": {
+    "id": 13937,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the current song speed of a player"
+      ],
+      "ko": [
+        "[NoteSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13938": {
+    "id": 13938,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the title of any note block songs for a player."
+      ],
+      "ko": [
+        "[NoteSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13939": {
+    "id": 13939,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get players note block songs volume."
+      ],
+      "ko": [
+        "[NoteSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

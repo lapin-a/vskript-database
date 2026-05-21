@@ -1,0 +1,58 @@
+{
+  "syntax_14221": {
+    "id": 14221,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the player count of a server on the proxy"
+      ],
+      "ko": [
+        "[SkProxy] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14222": {
+    "id": 14222,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the status of a server on the proxy"
+      ],
+      "ko": [
+        "[SkProxy] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14223": {
+    "id": 14223,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the total player count across the whole proxy"
+      ],
+      "ko": [
+        "[SkProxy] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14220": {
+    "id": 14220,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Connects a player to a server on the proxy"
+      ],
+      "ko": [
+        "[SkProxy] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "syntax_6325": {
+    "id": 6325,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the specific data file contains a node or not.",
+        "This special condition will also convert the input string as possible shortcut."
+      ],
+      "ko": [
+        "[skript-storage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6326": {
+    "id": 6326,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if the specific file exist or not.",
+        "This special condition will also convert the input string as possible shortcut."
+      ],
+      "ko": [
+        "[skript-storage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6327": {
+    "id": 6327,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Reset the specified file by deleting every comments (if YAML case) and possible nodes values.",
+        "It will basically reset the file to an emtpy one."
+      ],
+      "ko": [
+        "[skript-storage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6328": {
+    "id": 6328,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Convert (and check) JSON string to a flat file data.",
+        "This will create the desired path, and if exist, will override it.",
+        "If the inputted JSON is not valid, no exception will be thrown instead of a whole stack trace.",
+        "The specified variable will be clear if no error was found, else it will contains the error message."
+      ],
+      "ko": [
+        "[skript-storage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6329": {
+    "id": 6329,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Shortcut are completely optional and here to help you gain time while coding.",
+        "Instead of specifying the whole file path every time, simple load a shortcut key, which will be replaced by the desired file.",
+        "If you create a shortcut for an already existing one, it will be overed.",
+        "The private mark will make the shortcut only available in the current script only, to avoid conflict with other potential scripts."
+      ],
+      "ko": [
+        "[skript-storage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6330": {
+    "id": 6330,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Start a new queue for a specific file path.",
+        "Every change made with that path will be queued, and not saved directly.",
+        "You will either need to save the queue (make every save) or clear it (cancel every changes) to return to a normal state.",
+        "This system is recommended when you are managing a huge quantity of data in a single time."
+      ],
+      "ko": [
+        "[skript-storage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6331": {
+    "id": 6331,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stop or clear the queue for a specific path.",
+        "Of course a queue should be started before this effect in order to work.",
+        "Restarting-it (or stopping it) will make every changes happen in one time only (one time file save)",
+        "You can also clear the queue, and therefore every changes will be lost."
+      ],
+      "ko": [
+        "[skript-storage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6332": {
+    "id": 6332,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represent the header at the top of an YAML file.",
+        "This property can only work with YAML files, and will simply do nothing if used with JSON or TOML",
+        "The comment # are already included, means you should not add them yourself!",
+        "The framed mark will simply make the header text between a frame, looking more professional."
+      ],
+      "ko": [
+        "[skript-storage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6333": {
+    "id": 6333,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represent a node value.",
+        "You can get the value from its key, shortcut file are allowed here.",
+        "You can set, remove and remove all keys on that property.",
+        "In order to keep the comments, for Yaml files, only header & first-layer nodes comments are allowed. Every other will be deleted!",
+        "The default mark is only used in set changer (when you set a value).",
+        "If the specified node is already set to something, then it'll not override it and do nothing.",
+        "Useful when generating default tree for configuration files, and / or updating it while keeping old values."
+      ],
+      "ko": [
+        "[skript-storage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6334": {
+    "id": 6334,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return the string list of every nodes the files have, with a specific layer of not.",
+        "Imagine a second you have this file (YAML file for example, but works with other types too):",
+        "First:",
+        "Second: Hello World!",
+        "Third:",
+        "Fourth: 50",
+        "Lastly: 30",
+        "SecondMain: Welcome!",
+        "Then, the following code will returns:",
+        "node section \"First\" of \"config\" # [Second, Third.Fourth, Lastly]",
+        "node section \"First\" of \"config\" as one layer # [Second, Third, Lastly]",
+        "node section \"\" of \"config\" # [First.Lastly, First.Third.Fourth, First.Second, SecondMain]",
+        "node section \"\" of \"config\" as one layer # [First, SecondMain]"
+      ],
+      "ko": [
+        "[skript-storage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6335": {
+    "id": 6335,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It only works with getter, so you can't set that to anything. Use the 'value XX of XX' property to change them.",
+        "This expression will try to get the desired node, and will if the value is not set:",
+        "- If the 'set' mark is specified, set the default value provided and return it",
+        "- Else, only return the default value provided without changing the file"
+      ],
+      "ko": [
+        "[skript-storage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6336": {
+    "id": 6336,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represent the comment linked to a node in an YAML file.",
+        "This property can only work with YAML files, and will simply do nothing if used with JSON or TOML",
+        "The comment # are already included, means you should not add them yourself!"
+      ],
+      "ko": [
+        "[skript-storage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

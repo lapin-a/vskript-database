@@ -1,0 +1,720 @@
+{
+  "syntax_8149": {
+    "id": 8149,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an advancement frame. (Challenge, Goal, Task)"
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8150": {
+    "id": 8150,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an advancement made with skript-advancements."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8151": {
+    "id": 8151,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a custom advancement."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8152": {
+    "id": 8152,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a custom advancement tab."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8105": {
+    "id": 8105,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an advancement is completed by a player."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8106": {
+    "id": 8106,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when an advancement's progression is changed for a player."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8107": {
+    "id": 8107,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an advancement announces to the chat."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8108": {
+    "id": 8108,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an advancement shows toast."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8110": {
+    "id": 8110,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an advancement is hidden."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8111": {
+    "id": 8111,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a custom advancement is not shown to a player."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8112": {
+    "id": 8112,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Builds the last created advancement.",
+        "This can only be used inside of the advancement section."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8113": {
+    "id": 8113,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Builds the last created advancement tab.",
+        "This can only be used inside of the advancement tab section."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8114": {
+    "id": 8114,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Disables all of the vanilla advancements. This can be undone by restarting the server by turning it off and back on, just so no one gets confused.",
+        "WARNING: This quite literally disables ALL vanilla advancements, including recipes! It will spam your console with warnings as well."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8115": {
+    "id": 8115,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Displays the toast of an advancement."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8116": {
+    "id": 8116,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Displays the toast of a custom advancement."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8117": {
+    "id": 8117,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Displays a custom toast message."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8118": {
+    "id": 8118,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get a vanilla advancement or an advancement created by a plugin or datapack."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8119": {
+    "id": 8119,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get and set the advancement message in the advancement event."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8120": {
+    "id": 8120,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get and set the custom advancement progression for a player."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8109": {
+    "id": 8109,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a custom advancement announces to the chat"
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8121": {
+    "id": 8121,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get all of the custom advancements."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8122": {
+    "id": 8122,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get all of the vanilla advancements."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8123": {
+    "id": 8123,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the announcement message of a custom advancement to true or false."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8124": {
+    "id": 8124,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the background of a custom advancement to any solid block."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8125": {
+    "id": 8125,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the column of a custom advancement to an integer."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8126": {
+    "id": 8126,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the description of a custom advancement to a string."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8127": {
+    "id": 8127,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the frame of a custom advancement to any advancement frame."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8128": {
+    "id": 8128,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the icon of a custom advancement to any item."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8129": {
+    "id": 8129,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the max progression of a custom advancement to an integer."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8130": {
+    "id": 8130,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the parent of a custom advancement to any custom advancement represented as a string.",
+        "Remember to NOT use the custom advancement expression, use a string instead!"
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8131": {
+    "id": 8131,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the root of a custom advancement to true or false."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8132": {
+    "id": 8132,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the row of a custom advancement to an integer."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8133": {
+    "id": 8133,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the title of a custom advancement to a string."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8134": {
+    "id": 8134,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the toast of a custom advancement to true or false."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8135": {
+    "id": 8135,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get a custom advancement."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8136": {
+    "id": 8136,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a custom advancement."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8137": {
+    "id": 8137,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get the date awarded of a player's advancement."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8138": {
+    "id": 8138,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get the displayed frame of an advancement"
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8139": {
+    "id": 8139,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get the displayed icon of an advancement"
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8140": {
+    "id": 8140,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get the displayed title of an advancement"
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8141": {
+    "id": 8141,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get the displayed description of a custom advancement"
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8142": {
+    "id": 8142,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get the displayed frame of a custom advancement"
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8143": {
+    "id": 8143,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get the displayed icon of a custom advancement"
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8144": {
+    "id": 8144,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get the displayed title of a custom advancement"
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8147": {
+    "id": 8147,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get and change the vanilla advancements of a player."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8148": {
+    "id": 8148,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an advancement."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8146": {
+    "id": 8146,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get the max progression of an existing custom advancement."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8145": {
+    "id": 8145,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows you to get the displayed description of an advancement."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8329": {
+    "id": 8329,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Disables an advancement tab. This can be useful when a tab is registered after you remove an advancement tab creation section from a script."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8484": {
+    "id": 8484,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the visibility of a custom advancement to visible, hidden, or visible when the parent is granted."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8485": {
+    "id": 8485,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the visibility of a custom advancement."
+      ],
+      "ko": [
+        "[skript-advancements] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

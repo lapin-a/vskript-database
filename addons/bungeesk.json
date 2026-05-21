@@ -1,0 +1,1066 @@
+{
+  "syntax_7907": {
+    "id": 7907,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[BungeeSK] No official English guide provided."
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5675": {
+    "id": 5675,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When a bungee message is received"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5676": {
+    "id": 5676,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When a bungee player joins the network"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5677": {
+    "id": 5677,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When a bungee player leaves the network"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5678": {
+    "id": 5678,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When the client connects to a server"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5679": {
+    "id": 5679,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When the client disconnects from the server"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5680": {
+    "id": 5680,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When the player switches between 2 servers"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5681": {
+    "id": 5681,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a bungee player is connected"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5682": {
+    "id": 5682,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the server and the bungeecord are linked"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5683": {
+    "id": 5683,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This scope allows you to connect to your bungeecord server easily !"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5684": {
+    "id": 5684,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Broadcast message to the network, like the /alert command does but with more personalization (the messages will not appear in the spigot consoles)"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5685": {
+    "id": 5685,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Broadcasts a message to a server in the network"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5686": {
+    "id": 5686,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make bungee or spigot execute command"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5687": {
+    "id": 5687,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Kicks a player on the network from the network"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5689": {
+    "id": 5689,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Retrieve every script from the bungee"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5690": {
+    "id": 5690,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send a player on the network to a specific server"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5691": {
+    "id": 5691,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends a custom bungee message in string form to one or more servers"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5692": {
+    "id": 5692,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send a message to a bungee player on the network"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5693": {
+    "id": 5693,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Start a new connection to bungeecord"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5694": {
+    "id": 5694,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the server where the player was from in a server switch event"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5695": {
+    "id": 5695,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last created connection inside of a scope"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5696": {
+    "id": 5696,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get bungee server from its name"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5697": {
+    "id": 5697,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get one of the servers precised in the Bungeecord config whose address and port match"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5698": {
+    "id": 5698,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns every server in the bungeecord config"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5699": {
+    "id": 5699,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get bungee player from his uuid"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5700": {
+    "id": 5700,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get bungee player from his name"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5701": {
+    "id": 5701,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns every bungee player on a specific server"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5702": {
+    "id": 5702,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns every bungee player on the network"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5704": {
+    "id": 5704,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the password to connect to a bungeecord server."
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5706": {
+    "id": 5706,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the port of a server precised in the Bungeecord config"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5703": {
+    "id": 5703,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the port of a connection"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5707": {
+    "id": 5707,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the name of a server precised in the Bungeecord config"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5708": {
+    "id": 5708,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the MOTD of a server precised in the Bungeecord config"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5709": {
+    "id": 5709,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the address of a server precised in the Bungeecord config"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5711": {
+    "id": 5711,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the server of a player on the network. NOTE: Server can be get only 2 ticks or more after the bungee player join event"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5712": {
+    "id": 5712,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the IP address of a BungeePlayer"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5713": {
+    "id": 5713,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a new bungee connection"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5714": {
+    "id": 5714,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a player on the network"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5715": {
+    "id": 5715,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a player on the network"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7908": {
+    "id": 7908,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last created bungee server builder inside of a scope"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7909": {
+    "id": 7909,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the MOTD of a bungee server builder"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7910": {
+    "id": 7910,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the name of a bungee server builder"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7941": {
+    "id": 7941,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When a bungee server is started / connected to BungeeSK"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7942": {
+    "id": 7942,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When a bungee server is stop / disconnected from BungeeSK"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7911": {
+    "id": 7911,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a bungee server builder"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7943": {
+    "id": 7943,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When a global script is received"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7944": {
+    "id": 7944,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a bungee server is started"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7945": {
+    "id": 7945,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the bungee server associated to the Spigot server"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8018": {
+    "id": 8018,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When a custom request is asked from another BungeeServer"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8019": {
+    "id": 8019,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send a custom request to another Bungee server, and get the response. This can be any value, as long as it could be stored in a variable"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8020": {
+    "id": 8020,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the response of a custom request"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6035": {
+    "id": 6035,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send an action bar message to a player on the bungeecord network"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6036": {
+    "id": 6036,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send a Bungeecord title to a player on the network"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6037": {
+    "id": 6037,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set, get and delete a global variable stored on the Bungeecord. Value can be boolean, number or string."
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6038": {
+    "id": 6038,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a bungee player has a specific permission on the bungeecord"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6040": {
+    "id": 6040,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Delete a dynamic server from Bungeecord."
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6039": {
+    "id": 6039,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[BungeeSK] No official English guide provided."
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6041": {
+    "id": 6041,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Disconnect client from the Bungeecord server"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7974": {
+    "id": 7974,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When a command is executed on the network, this could be a Spigot command or a Bungee command"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7996": {
+    "id": 7996,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[BungeeSK] No official English guide provided."
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7906": {
+    "id": 7906,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the name of a BungeePlayer"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5710": {
+    "id": 5710,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the UUID of a player on the network"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5705": {
+    "id": 5705,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set the address of a connection"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7975": {
+    "id": 7975,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make a player on the bungeecord execute a specific bungeecord-sided command"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5688": {
+    "id": 5688,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make a player on the bungeecord execute a specific command"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7976": {
+    "id": 7976,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stop a bungee server remotely"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7997": {
+    "id": 7997,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "When the proxy is being ping by a player. Need to inform the proxy that this server is listening to this event with the 'Listen to proxy ping' effect"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7998": {
+    "id": 7998,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Inform the Bungeecord server that this bungee server is listening to the proxy ping event"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7999": {
+    "id": 7999,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The size of the connected players in a proxy ping event"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8000": {
+    "id": 8000,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The favicon URL displayed in a proxy ping event"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8001": {
+    "id": 8001,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The hover list displayed when hovering the player's size in the ping's list."
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8002": {
+    "id": 8002,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The maximum size of the connected players in a proxy ping event"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8003": {
+    "id": 8003,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the IP address of the player pinging the proxy"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8004": {
+    "id": 8004,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The MOTD displayed when a player pings the proxy"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8005": {
+    "id": 8005,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The protocol message displayed if the protocol version number doesn't match the client's one."
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8006": {
+    "id": 8006,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The protocol version number in a proxy ping event. For further informations, see https://wiki.vg/Protocol_version_numbers"
+      ],
+      "ko": [
+        "[BungeeSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

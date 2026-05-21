@@ -1,0 +1,730 @@
+{
+  "syntax_4133": {
+    "id": 4133,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A email service like Gmail. Store smtp and imap, port and address."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4134": {
+    "id": 4134,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4135": {
+    "id": 4135,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4136": {
+    "id": 4136,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4137": {
+    "id": 4137,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4138": {
+    "id": 4138,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4124": {
+    "id": 4124,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the name of an email service. Can be set in a email service scope"
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8909": {
+    "id": 8909,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8910": {
+    "id": 8910,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4103": {
+    "id": 4103,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4104": {
+    "id": 4104,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4105": {
+    "id": 4105,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4106": {
+    "id": 4106,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4107": {
+    "id": 4107,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4108": {
+    "id": 4108,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4109": {
+    "id": 4109,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Scope for mail creation"
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4111": {
+    "id": 4111,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Disconnection from one of your connected account."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4112": {
+    "id": 4112,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send an email"
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4113": {
+    "id": 4113,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns attach files of an email. Can be set in a email scope"
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4114": {
+    "id": 4114,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the author/from part of an email. Can be set in a email scope"
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4115": {
+    "id": 4115,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the body of an email. Can be set in a email scope"
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4116": {
+    "id": 4116,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "If it isn't inside an email scope, this expression returns a new Email. If it is inside of an email scope, it returns the email that belongs to that scope."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4117": {
+    "id": 4117,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a internet address from a string."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4118": {
+    "id": 4118,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the imap address of an email service. Can be set in a email service scope"
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4119": {
+    "id": 4119,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the imap port of an email service. Can be set in a email service scope"
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4120": {
+    "id": 4120,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the last account connected."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4121": {
+    "id": 4121,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the email that was last made in a email scope"
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4122": {
+    "id": 4122,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the email that was last sent."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4125": {
+    "id": 4125,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the object of an email. Can be set in a email scope"
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4126": {
+    "id": 4126,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the receivers/recipients of an email. Can be set in a email scope"
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4127": {
+    "id": 4127,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the smtp address of an email service. Can be set in a email service scope"
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4128": {
+    "id": 4128,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the smtp port of an email service. Can be set in a email service scope"
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4129": {
+    "id": 4129,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the sent date of an email. Can be set in a email scope"
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4130": {
+    "id": 4130,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the specified mail service. This service must to be loaded before use it."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4131": {
+    "id": 4131,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4132": {
+    "id": 4132,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8903": {
+    "id": 8903,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8904": {
+    "id": 8904,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8905": {
+    "id": 8905,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8906": {
+    "id": 8906,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8907": {
+    "id": 8907,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8908": {
+    "id": 8908,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4110": {
+    "id": 4110,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Connect to your email account."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4123": {
+    "id": 4123,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return last received mails in a box."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8911": {
+    "id": 8911,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8912": {
+    "id": 8912,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8913": {
+    "id": 8913,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8914": {
+    "id": 8914,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8915": {
+    "id": 8915,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8916": {
+    "id": 8916,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8917": {
+    "id": 8917,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A email service like Gmail. Store smtp and imap, port and address."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8918": {
+    "id": 8918,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkEmail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkEmail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

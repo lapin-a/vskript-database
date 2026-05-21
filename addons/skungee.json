@@ -1,0 +1,254 @@
+{
+  "syntax_6043": {
+    "id": 6043,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a server is online."
+      ],
+      "ko": [
+        "[Skungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6042": {
+    "id": 6042,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skungee] No official English guide provided."
+      ],
+      "ko": [
+        "[Skungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2556": {
+    "id": 2556,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Force a player to chat or execute a command, add a slash / to make it a command."
+      ],
+      "ko": [
+        "[Skungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6044": {
+    "id": 6044,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send a player to another server on the proxy."
+      ],
+      "ko": [
+        "[Skungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6045": {
+    "id": 6045,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send an actionbar to any player on the proxy."
+      ],
+      "ko": [
+        "[Skungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6046": {
+    "id": 6046,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send a message to any players on the proxy."
+      ],
+      "ko": [
+        "[Skungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6047": {
+    "id": 6047,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Execute a command on another server."
+      ],
+      "ko": [
+        "[Skungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6048": {
+    "id": 6048,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send a signal to another server. Signals act like a messaging system to talk between servers. Use the signal event to listen to the signal for the other servers."
+      ],
+      "ko": [
+        "[Skungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2378": {
+    "id": 2378,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A variable that is shared between all proxy servers on the network, can be set, added, removed etc. Acts just like a normal variable."
+      ],
+      "ko": [
+        "[Skungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6049": {
+    "id": 6049,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Grabs the name of the server the defined players are on."
+      ],
+      "ko": [
+        "[Skungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6050": {
+    "id": 6050,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Grab a SkungeePlayer instance of players from the network."
+      ],
+      "ko": [
+        "[Skungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6051": {
+    "id": 6051,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Grab all the proxy servers."
+      ],
+      "ko": [
+        "[Skungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6052": {
+    "id": 6052,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Grab a server by name or none if not present."
+      ],
+      "ko": [
+        "[Skungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6053": {
+    "id": 6053,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Grabs the motd of servers on the proxy."
+      ],
+      "ko": [
+        "[Skungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6054": {
+    "id": 6054,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Grabs the max players of servers on the proxy."
+      ],
+      "ko": [
+        "[Skungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6055": {
+    "id": 6055,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Grabs the version of servers on the proxy."
+      ],
+      "ko": [
+        "[Skungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6056": {
+    "id": 6056,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Grabs the whitelisted players of servers on the proxy."
+      ],
+      "ko": [
+        "[Skungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6057": {
+    "id": 6057,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression that contains a list of the signal messages used in the on signal receive event."
+      ],
+      "ko": [
+        "[Skungee] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

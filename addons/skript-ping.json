@@ -1,0 +1,100 @@
+{
+  "syntax_2794": {
+    "id": 2794,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Reset's the server's icon. (This does not delete your default icon, this just stops skript-ping from touching it."
+      ],
+      "ko": [
+        "[skript-ping] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2795": {
+    "id": 2795,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set's the server's icon from base 64 code."
+      ],
+      "ko": [
+        "[skript-ping] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2796": {
+    "id": 2796,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set's the server's icon"
+      ],
+      "ko": [
+        "[skript-ping] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2800": {
+    "id": 2800,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The name of the server version."
+      ],
+      "ko": [
+        "[skript-ping] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2797": {
+    "id": 2797,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The hover list. Can be changed."
+      ],
+      "ko": [
+        "[skript-ping] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2799": {
+    "id": 2799,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Count of the online players."
+      ],
+      "ko": [
+        "[skript-ping] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2798": {
+    "id": 2798,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The MOTD (message of the day). Can be set."
+      ],
+      "ko": [
+        "[skript-ping] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

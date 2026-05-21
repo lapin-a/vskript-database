@@ -1,0 +1,710 @@
+{
+  "syntax_11275": {
+    "id": 11275,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called when a furniture is successfully placed into the world, use this event instead if you would like to know the location."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11950": {
+    "id": 11950,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a player begins to perform an emote."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11951": {
+    "id": 11951,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when a Resource pack from ItemsAdder gets sent to the player."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11952": {
+    "id": 11952,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skript-itemsadder] No official English guide provided."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11953": {
+    "id": 11953,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skript-itemsadder] No official English guide provided."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11954": {
+    "id": 11954,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Determines whether players can see a hud/if a hud is active."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11955": {
+    "id": 11955,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skript-itemsadder] No official English guide provided."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11956": {
+    "id": 11956,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Places a custom block or crop at a location."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11957": {
+    "id": 11957,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Update the player's currently enabled HUD."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11958": {
+    "id": 11958,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skript-itemsadder] No official English guide provided."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11959": {
+    "id": 11959,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skript-itemsadder] No official English guide provided."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11960": {
+    "id": 11960,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a custom item type using aliases."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11268": {
+    "id": 11268,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when a ItemsAdder block gets broken."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11269": {
+    "id": 11269,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when a ItemsAdder block gets interacted with."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11276": {
+    "id": 11276,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skript-itemsadder] No official English guide provided."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11277": {
+    "id": 11277,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This condition checks if the player has interacted with a custom block with either a left or a right click."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11278": {
+    "id": 11278,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This condition checks what block the player clicked."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11279": {
+    "id": 11279,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This condition checks what face of a block the player has interacted with."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11286": {
+    "id": 11286,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Places a custom block at a location."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11270": {
+    "id": 11270,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when a ItemsAdder block gets placed."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11271": {
+    "id": 11271,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when a ItemsAdder Entity dies."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11272": {
+    "id": 11272,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when a ItemsAdder furniture gets broken."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11273": {
+    "id": 11273,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when a ItemsAdder furniture gets interacted with."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11274": {
+    "id": 11274,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fires when a ItemsAdder furniture gets placed."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11280": {
+    "id": 11280,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the block is an ItemsAdder block."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11281": {
+    "id": 11281,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the entity is an ItemsAdder entity."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11282": {
+    "id": 11282,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the item is an ItemsAdder item."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11283": {
+    "id": 11283,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes an ItemsAdder entity play an animation."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11284": {
+    "id": 11284,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Force player to emote/stop emoting"
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11285": {
+    "id": 11285,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Opens an ItemsAdder inventory to a player(s), made using the ItemsAdder inventory section."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11292": {
+    "id": 11292,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "If there is furniture at a location, this effect will remove it and place the one you specify."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11297": {
+    "id": 11297,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the block clicked."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11298": {
+    "id": 11298,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the item associated with the custom block."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11299": {
+    "id": 11299,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the hash of a resource pack."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11301": {
+    "id": 11301,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the URL of a resource pack."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11304": {
+    "id": 11304,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a Custom/ItemsAdder Block"
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11305": {
+    "id": 11305,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a TexturedInventoryWrapper."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11287": {
+    "id": 11287,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Place a custom furniture at a location.",
+        "If there is a furniture at the same location, this effect will replace it."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11288": {
+    "id": 11288,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Plays the breaking effect on an ItemsAdder block, (not the cracking in case you were wondering.)"
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11289": {
+    "id": 11289,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Play a custom Totem Animation to players."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11290": {
+    "id": 11290,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "If there is furniture at a location, this effect will remove it."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11291": {
+    "id": 11291,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "If there is a custom block at a location, this effect will remove it and place the one you specify."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11293": {
+    "id": 11293,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends the most recently generated ItemsAdder resource pack to players."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11294": {
+    "id": 11294,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the blocks within 2 locations to ItemsAdder custom blocks."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11295": {
+    "id": 11295,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set a slot of an ItemsAdder custom inventory, works like the regular Skript syntax."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11296": {
+    "id": 11296,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Spawns an ItemsAdder entity."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11300": {
+    "id": 11300,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets ItemsAdder font image(s) with optional offset"
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11302": {
+    "id": 11302,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets an ItemsAdder item, or items."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11303": {
+    "id": 11303,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the last created ItemsAdder inventory by the Create ItemsAdder Inventory section."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11306": {
+    "id": 11306,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new ItemsAdder inventory with the following properties:",
+        "- Title: The title of the inventory. This will be displayed at the top of the inventory GUI.",
+        "- Rows: The number of rows in the inventory. Each row corresponds to 9 slots, so an inventory with 3 rows would have 26 slots. You start at slot 0, so thats why its 26, not 27.)",
+        "- Texture: The texture of the inventory. This should be the name of a texture defined in your ItemsAdder configuration. You may also have multple strings/textures here.",
+        "- Title Offset: The horizontal offset of the title in pixels. This can be used to adjust the position of the title relative to the top of the inventory GUI.",
+        "- Texture Offset: The horizontal offset of the texture in pixels. This can be used to adjust the position of the texture relative to the top of the inventory GUI.",
+        "The last created inventory can be accessed using the 'Last Created Gui' expression.",
+        "To create an Inventory, you need a Texture, everything else is optional. See Examples for a demonstration."
+      ],
+      "ko": [
+        "[skript-itemsadder] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

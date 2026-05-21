@@ -1,0 +1,312 @@
+{
+  "syntax_4075": {
+    "id": 4075,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if locations are within the islands bounds."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4076": {
+    "id": 4076,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the islands found at locations."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4077": {
+    "id": 4077,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the biomes of the islands."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4078": {
+    "id": 4078,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the leader of the islands."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4079": {
+    "id": 4079,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the username of the leader."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4080": {
+    "id": 4080,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the level of the islands."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4081": {
+    "id": 4081,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the locations of the islands."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4082": {
+    "id": 4082,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the online members of the islands."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4083": {
+    "id": 4083,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the spawnpoints of the islands."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4084": {
+    "id": 4084,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the islands of the players."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4085": {
+    "id": 4085,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all the islands the players are trusted on."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8420": {
+    "id": 8420,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if locations are within the islands bounds."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8421": {
+    "id": 8421,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if islands have purge protection.",
+        "BentoBox or ASkyBlock exclusive"
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8422": {
+    "id": 8422,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the amount of completions a challenge has been done."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8423": {
+    "id": 8423,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the name of the challenge."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8424": {
+    "id": 8424,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the owner of the challenge."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8425": {
+    "id": 8425,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the creation date of the islands.",
+        "ASkyBlock exclusive"
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8426": {
+    "id": 8426,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the members of the islands."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8427": {
+    "id": 8427,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the names of the islands."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8428": {
+    "id": 8428,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the island homes of the players."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8429": {
+    "id": 8429,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the challenges of a player."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8511": {
+    "id": 8511,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the islands of the defined worlds."
+      ],
+      "ko": [
+        "[Sky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

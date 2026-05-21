@@ -1,0 +1,198 @@
+{
+  "syntax_1539": {
+    "id": 1539,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[LiteBansSk] No official English guide provided."
+      ],
+      "ko": [
+        "[LiteBansSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1540": {
+    "id": 1540,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[LiteBansSk] No official English guide provided."
+      ],
+      "ko": [
+        "[LiteBansSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1541": {
+    "id": 1541,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[LiteBansSk] No official English guide provided."
+      ],
+      "ko": [
+        "[LiteBansSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1542": {
+    "id": 1542,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[LiteBansSk] No official English guide provided."
+      ],
+      "ko": [
+        "[LiteBansSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1543": {
+    "id": 1543,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[LiteBansSk] No official English guide provided."
+      ],
+      "ko": [
+        "[LiteBansSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1544": {
+    "id": 1544,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[LiteBansSk] No official English guide provided."
+      ],
+      "ko": [
+        "[LiteBansSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1545": {
+    "id": 1545,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[LiteBansSk] No official English guide provided."
+      ],
+      "ko": [
+        "[LiteBansSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1546": {
+    "id": 1546,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[LiteBansSk] No official English guide provided."
+      ],
+      "ko": [
+        "[LiteBansSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1547": {
+    "id": 1547,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[LiteBansSk] No official English guide provided."
+      ],
+      "ko": [
+        "[LiteBansSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1548": {
+    "id": 1548,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[LiteBansSk] No official English guide provided."
+      ],
+      "ko": [
+        "[LiteBansSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1549": {
+    "id": 1549,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[LiteBansSk] No official English guide provided."
+      ],
+      "ko": [
+        "[LiteBansSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1550": {
+    "id": 1550,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A broadcast from LiteBans"
+      ],
+      "ko": [
+        "[LiteBansSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1551": {
+    "id": 1551,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The entry from a LiteBans New Entry event"
+      ],
+      "ko": [
+        "[LiteBansSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1538": {
+    "id": 1538,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a new entry."
+      ],
+      "ko": [
+        "[LiteBansSk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

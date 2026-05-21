@@ -1,0 +1,352 @@
+{
+  "syntax_6149": {
+    "id": 6149,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skript-Towny] No official English guide provided."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6150": {
+    "id": 6150,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skript-Towny] No official English guide provided."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6154": {
+    "id": 6154,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skript-Towny] No official English guide provided."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6155": {
+    "id": 6155,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skript-Towny] No official English guide provided."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6156": {
+    "id": 6156,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the friends of a Resident."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6157": {
+    "id": 6157,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the nation ranks of a Resident."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6158": {
+    "id": 6158,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the town ranks of a Resident."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6159": {
+    "id": 6159,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the town blocks of a Town. TownBlocks are not item blocks."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6160": {
+    "id": 6160,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the nation of a Town."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6161": {
+    "id": 6161,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skript-Towny] No official English guide provided."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6162": {
+    "id": 6162,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skript-Towny] No official English guide provided."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6163": {
+    "id": 6163,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skript-Towny] No official English guide provided."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6164": {
+    "id": 6164,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skript-Towny] No official English guide provided."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6165": {
+    "id": 6165,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skript-Towny] No official English guide provided."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7224": {
+    "id": 7224,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skript-Towny] No official English guide provided."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7225": {
+    "id": 7225,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skript-Towny] No official English guide provided."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6147": {
+    "id": 6147,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skript-Towny] No official English guide provided."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6148": {
+    "id": 6148,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skript-Towny] No official English guide provided."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7226": {
+    "id": 7226,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skript-Towny] No official English guide provided."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7227": {
+    "id": 7227,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skript-Towny] No official English guide provided."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6151": {
+    "id": 6151,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skript-Towny] No official English guide provided."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6152": {
+    "id": 6152,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skript-Towny] No official English guide provided."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6153": {
+    "id": 6153,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skript-Towny] No official English guide provided."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7228": {
+    "id": 7228,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the level of a Town."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7229": {
+    "id": 7229,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the town mayor of a Town."
+      ],
+      "ko": [
+        "[Skript-Towny] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "syntax_13167": {
+    "id": 13167,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Obfuscates a file with a specified power"
+      ],
+      "ko": [
+        "[Skriptor] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13168": {
+    "id": 13168,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Loads the obfuscated file into Skript"
+      ],
+      "ko": [
+        "[Skriptor] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

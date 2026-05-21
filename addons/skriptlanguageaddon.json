@@ -1,0 +1,62 @@
+{
+  "syntax_8185": {
+    "id": 8185,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the synonyms of a word and stores them.",
+        "Can get multiple results, storing in a non-list variable/metadata tag will store only 1 of the results."
+      ],
+      "ko": [
+        "[SkriptLanguage (Addon)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8184": {
+    "id": 8184,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the definition of a word and stores it."
+      ],
+      "ko": [
+        "[SkriptLanguage (Addon)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8186": {
+    "id": 8186,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the antonyms (or opposites) of a word and stores them.",
+        "Can get multiple results, storing in a non-list variable/metadata tag will store only 1 of the results."
+      ],
+      "ko": [
+        "[SkriptLanguage (Addon)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_8514": {
+    "id": 8514,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get a random word.",
+        "Due to api limitations you cannot retrieve a set amount of non english words, non english words with a set length or specify both amount and length.",
+        "Will send a warning if used to inform about this limitation, to disable the warning simply go to 'plugins/SkriptLanguage/config.yml', set 'randomWordWarning' to false, save and run /skriptlanguage (which is the config reload command as of 1.2.0)."
+      ],
+      "ko": [
+        "[SkriptLanguage (Addon)] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

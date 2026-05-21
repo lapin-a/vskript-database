@@ -1,0 +1,1536 @@
+{
+  "syntax_12720": {
+    "id": 12720,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Citizens NPC is clicked by a player."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12744": {
+    "id": 12744,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a forcefield around the NPCs with the specified width, height, strength and vertical strength."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12725": {
+    "id": 12725,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Citizens NPC is damaged by a block.",
+        "Example: Lava, Fire"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12728": {
+    "id": 12728,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Citizens NPC despawns."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12729": {
+    "id": 12729,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Citizens NPC is left clicked by a player.",
+        "Only is called if NPC is not vulnerable."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12730": {
+    "id": 12730,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Citizens NPC is removed."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12731": {
+    "id": 12731,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Citizens NPC is right clicked by a player"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12735": {
+    "id": 12735,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether the navigator of a Citizens NPC is paused."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12736": {
+    "id": 12736,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make a Citizens NPC targetable by other mobs."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12742": {
+    "id": 12742,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Changes the skin of a player."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12743": {
+    "id": 12743,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make a citizen attack an entityWill also stop any pathfinding."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12746": {
+    "id": 12746,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Destroy a citizen by id."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12747": {
+    "id": 12747,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Despawn or respawn a citizen."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12748": {
+    "id": 12748,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Downloads a skin"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12751": {
+    "id": 12751,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Changes whether a Citizens NPC can be collided with by entities or fluids."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12756": {
+    "id": 12756,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Pauses or unpauses the citizens if they are navigating."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12761": {
+    "id": 12761,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Expression of all citizens."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12760": {
+    "id": 12760,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Spawn a customisable citizen with:",
+        "* Name",
+        "* Direction",
+        "* Location",
+        "* Entity Type"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12758": {
+    "id": 12758,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the skin of the npc to the given skin."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12759": {
+    "id": 12759,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the citizen with the id specified to the skin linked on the url."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12763": {
+    "id": 12763,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The height of a forcefield."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12767": {
+    "id": 12767,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the ID of a citizen"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12768": {
+    "id": 12768,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The look close trait of the citizen.",
+        "Whether the citizen should or should not look at the closest player."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12769": {
+    "id": 12769,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the name of a citizen"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12770": {
+    "id": 12770,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The pose of a Citizens NPC"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12771": {
+    "id": 12771,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the citizen with the given ID"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12773": {
+    "id": 12773,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a head by player name"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12774": {
+    "id": 12774,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a head by player"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12775": {
+    "id": 12775,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a head by skin."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12745": {
+    "id": 12745,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes the citizen attempt to pathfind to the given location.If that location is linked to an entity, it will not move with the entity."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12776": {
+    "id": 12776,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a head by URL"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12777": {
+    "id": 12777,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a head by player UUID"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12778": {
+    "id": 12778,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a head by value."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12779": {
+    "id": 12779,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The last created citizen.Only applicable if the citizen is created via this addon. Will not save when server restarts."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12780": {
+    "id": 12780,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the owner of a player head.Will only work if the head is from a player."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12781": {
+    "id": 12781,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the player's skin.Cannot be set, to set, use 'Change Player Skin' effect."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12782": {
+    "id": 12782,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the signature of a skin."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12784": {
+    "id": 12784,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Used to create a skin."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12785": {
+    "id": 12785,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a skin from a url.URL must link directly to an image."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12786": {
+    "id": 12786,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a skin from player's uuid."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12787": {
+    "id": 12787,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Retrieves the url within a skin value"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12788": {
+    "id": 12788,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the URL of a head"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12789": {
+    "id": 12789,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the value of a head"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12790": {
+    "id": 12790,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the reasons a Citizen will despawn."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12791": {
+    "id": 12791,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the 'pose' of a Citizens NPC.",
+        "Essentially different animations, depending on the entity type of the NPC."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12792": {
+    "id": 12792,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a Citizens NPC."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12793": {
+    "id": 12793,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the reasons a Citizen will spawn."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12794": {
+    "id": 12794,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a Skin."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12765": {
+    "id": 12765,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The vertical strength of a Citizen NPC's forcefield."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12766": {
+    "id": 12766,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The width of a Citizen NPC's forcefield."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12988": {
+    "id": 12988,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns an enchanted book with the given enchantments."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12741": {
+    "id": 12741,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether a Citizens NPC is flyable."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12858": {
+    "id": 12858,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represesnts a Citizens Forcefield"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12857": {
+    "id": 12857,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether an entity is a Citizens NPC."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12750": {
+    "id": 12750,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make a Citizens NPC break a block in a radius.",
+        "Radius is how close the npc has to be to break the block."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12754": {
+    "id": 12754,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make a citizen targetable to other mobs.",
+        "Or you can stop this process."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12755": {
+    "id": 12755,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Changes whether a Citizens NPC can be attacked or not."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12989": {
+    "id": 12989,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the smelted form of an itemtype.",
+        "If it cannot be smelted, it will return the same itemtype."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12764": {
+    "id": 12764,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The strength of a forcefield"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13042": {
+    "id": 13042,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The gamemode of a Citizens NPC. Only applicable if the Citizen's entity type is a Player."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13043": {
+    "id": 13043,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The glow color of a Citizens NPC, in the Chat Color class."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13044": {
+    "id": 13044,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether the Citizens NPC is affected by gravity"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13045": {
+    "id": 13045,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The hitbox of a Citizens NPC"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13046": {
+    "id": 13046,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The height of a Citizen hitbox."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13047": {
+    "id": 13047,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The scale/multiplier of a Citizen Hitbox."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13048": {
+    "id": 13048,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The width of a Citizen Hitbox."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13049": {
+    "id": 13049,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the skin of a Citizen."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14878": {
+    "id": 14878,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns if a Citizens NPC is owned by a specific player."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14879": {
+    "id": 14879,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Enable/Disable a Citizens NPC's Mirror Trait"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12772": {
+    "id": 12772,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Expression to create a Citizens Forcefield. Default values are 1."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13050": {
+    "id": 13050,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A Citizen Hitbox with the given components.",
+        "Scale is a multiplier for the hitbox. For example, if the width was 1 and the height was 2, then if the scale was 2, the hitbox's effective dimenstions would be 2 width and 4 height.",
+        "Default values are:",
+        "- Scale: 1",
+        "- Width: 1",
+        "- Height: 2"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13052": {
+    "id": 13052,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represesnts a Citizens Forcefield"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13053": {
+    "id": 13053,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represesnts a Citizens Hitbox"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13051": {
+    "id": 13051,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a Chat Color, different from Skript's Color class.",
+        "Although not a Citizens type, the only current use is in the Citizen Glow effect."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14880": {
+    "id": 14880,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The 'owner' of a Citizens NPC, if null, then it is owned by the server, else a player."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12783": {
+    "id": 12783,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the texture value of a skin"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13080": {
+    "id": 13080,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The target of a Citizens NPC. Setting is done via the Citizen Attack effect."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12740": {
+    "id": 12740,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether a Citizens NPC is collidable. By entities or fluids."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12749": {
+    "id": 12749,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make a Citizens NPC aggressive."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12752": {
+    "id": 12752,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a Citizens NPC flyable.",
+        "Some entity types are always flyable (e.g bat), therefore will always be flyable."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12753": {
+    "id": 12753,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Changes whether a citizen will load chunks.",
+        "Temporarily means that it won't continue after server is restarted."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14697": {
+    "id": 14697,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Modify the metadata of a Citizens NPC"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14698": {
+    "id": 14698,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The value of a Citizen's metadata."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14312": {
+    "id": 14312,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the different Metadata keys of a Citizens"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12721": {
+    "id": 12721,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Citizens NPC is created by the server or an external service (Such as this plugin)."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12722": {
+    "id": 12722,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Citizens NPC is created via a command."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12723": {
+    "id": 12723,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Citizens NPC is created by a player."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12724": {
+    "id": 12724,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Citizens NPC is damaged",
+        "Does not include damage by entity or damage by block, use their respective events for that."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12726": {
+    "id": 12726,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Citizens NPC is damaged by an entity."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12727": {
+    "id": 12727,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Citizens NPC dies."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12732": {
+    "id": 12732,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a Citizens NPC is spawned."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13759": {
+    "id": 13759,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stops the aging process of a Citizens NPC"
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13760": {
+    "id": 13760,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The activation range of a citizen."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13761": {
+    "id": 13761,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The age of a citizen.",
+        "- Ordered between -24000 and 0. Any negative integer being a baby, and 0 being an adult."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13764": {
+    "id": 13764,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Changes whether a Citizens NPC uses Minecraft's built-in AI or Citizens AI."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13763": {
+    "id": 13763,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether a Citizens NPC is using Minecraft's built-in AI or Citizens AI."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12762": {
+    "id": 12762,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the entity type of a citizen",
+        "For most entitytypes, you have to put 'minecraft:' in front of it for it to work."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13041": {
+    "id": 13041,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a Citizens NPC start or stop glowing, with color."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12738": {
+    "id": 12738,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether a Citizens NPC can load chunks."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12739": {
+    "id": 12739,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether a Citizens NPC has a forcefield."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12733": {
+    "id": 12733,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the bool of whether the citizen is aggressive."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13040": {
+    "id": 13040,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether a Citizens NPC is glowing."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12734": {
+    "id": 12734,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the bool of whether the citizen is pathfinding."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12737": {
+    "id": 12737,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns whether the Citizen can be attacked or not."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_12757": {
+    "id": 12757,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set a citizen's skin by name.Only works if citizen is a player."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14309": {
+    "id": 14309,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Clones a citizen and spawns a copy at the given location."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14310": {
+    "id": 14310,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Whether a Citizens NPC's nameplate is visible."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14311": {
+    "id": 14311,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a skin instance from an image file stored in the skins/ folder within the plugin folder."
+      ],
+      "ko": [
+        "[Skonic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

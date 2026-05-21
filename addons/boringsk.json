@@ -1,0 +1,16 @@
+{
+  "syntax_5616": {
+    "id": 5616,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Add or remove permissions from a player."
+      ],
+      "ko": [
+        "[BoringSK] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "syntax_11619": {
+    "id": 11619,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[Skematic] No official English guide provided."
+      ],
+      "ko": [
+        "[Skematic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11622": {
+    "id": 11622,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The name of the schematic involved in a schematic paste event."
+      ],
+      "ko": [
+        "[Skematic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11621": {
+    "id": 11621,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Asynchronously saves the specified area to a schematic with the specified name."
+      ],
+      "ko": [
+        "[Skematic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11623": {
+    "id": 11623,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The integer iteration of the schematic format."
+      ],
+      "ko": [
+        "[Skematic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11624": {
+    "id": 11624,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The vector dimensions of a schematic."
+      ],
+      "ko": [
+        "[Skematic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11625": {
+    "id": 11625,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The Minecraft version in which a schematic was saved."
+      ],
+      "ko": [
+        "[Skematic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11620": {
+    "id": 11620,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Asynchronously pastes specified schematic at specified location, possibly ignoring air. If centered is used, will paste the schematic such that the location is the center of the schematic."
+      ],
+      "ko": [
+        "[Skematic] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,680 @@
+{
+  "syntax_11812": {
+    "id": 11812,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a region larger or smaller in a given direction by a given amount. Optionally takes an opposite amount to expand the region in the other direction.",
+        "Regions can also be expanded vertically, which makes them span from the min to the max of the world they're in."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11813": {
+    "id": 11813,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Insets or outsets a region by a given number of blocks. Can optionally only perform the operation vertically (up and down) or horizontally (north, south, east, and west)."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11814": {
+    "id": 11814,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the number of a certain type of block in a region. Can use a mask to specify more than one kind of block."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11826": {
+    "id": 11826,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Pastes a schematic, with a bunch of configurable options (see below for a list of them).",
+        "Note that the name of the schematic shouldn't include any path, as skript-worldedit will always start at WorldEdit's schematics directory.",
+        "Entries:",
+        "* paste entities: whether the schematic should copy entities",
+        "* paste biomes: whether the schematic should copy biomes",
+        "* ignore air: whether the schematic should paste air blocks",
+        "* rotation: the number of degrees that the pasted schematic should be rotated by (around the y-axis)",
+        "* mask: a mask which will only let matching blocks be pasted"
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11827": {
+    "id": 11827,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Saves a region as a schematic, with a bunch of configurable options (see below for a list of them).",
+        "Note that the name of the schematic shouldn't include any path, as skript-worldedit will always start at WorldEdit's schematics directory.",
+        "Entries:",
+        "* copy entities: whether the schematic should copy entities",
+        "* copy biomes: whether the schematic should copy biomes",
+        "* remove entities: whether the schematic should remove entities",
+        "* overwrite: whether the schematic should overwrite any schematics of the same name (if false, the schematic won't save if a schematic is found with the same name)",
+        "* origin: where the origin of the saved schematic should be",
+        "* mask: a mask which will only let matching blocks be copied"
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11961": {
+    "id": 11961,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Generates a forest of a specific tree type in a given region, with a given density. The default density is 5.",
+        "Note that this effect uses a new tree type, not the Skript one."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11962": {
+    "id": 11962,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes a schematic. Nothing too fancy."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11824": {
+    "id": 11824,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Pastes a schematic at a location(s). Can be rotated, and can choose whether it should ignore air or not.",
+        "There is also a section for pasting schematics, which features more options."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11764": {
+    "id": 11764,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Places a block in the centre of a given region using a given pattern."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11758": {
+    "id": 11758,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates the walls of a given region using a given pattern."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11759": {
+    "id": 11759,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Generates flora in a given region, with a given density. The default density is 5."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11760": {
+    "id": 11760,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Hollows out objects in a given region, using a given thickness and leaving behind a given pattern.",
+        "The default thickness is 1, and the default pattern is just air."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11772": {
+    "id": 11772,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a WorldEdit mask from a string or itemtype."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11773": {
+    "id": 11773,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a WorldEdit pattern from a string or itemtype."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11774": {
+    "id": 11774,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the centre of a given region."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11775": {
+    "id": 11775,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a convex polyhedral region, which can be used for operations."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11776": {
+    "id": 11776,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a cuboid region, which can be used for operations."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11777": {
+    "id": 11777,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a cylindrical region, which can be used for operations."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11778": {
+    "id": 11778,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates an ellipsoid region, which can be used for operations."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11779": {
+    "id": 11779,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the faces of a given region. This expression only works on cuboid regions.",
+        "This returns another region, which can be used in other operations."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11780": {
+    "id": 11780,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the vertices of a given region. This expression can only be used on convex polyhedral regions."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11781": {
+    "id": 11781,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the volume of a given region."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11782": {
+    "id": 11782,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the walls of a given region. This expression only works on cuboid regions.",
+        "This returns another region, which can be used in other operations."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11783": {
+    "id": 11783,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a mask that can be used for WorldEdit operations."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11784": {
+    "id": 11784,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a pattern that can be used for WorldEdit operations."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11785": {
+    "id": 11785,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a region that can be used for WorldEdit operations."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11786": {
+    "id": 11786,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the supported creatable shapes using WorldEdit."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11766": {
+    "id": 11766,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Smooths the area within a given region a certain number of times. The default number of times is 1.",
+        "You can choose to only smooth blocks that match a certain mask."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11768": {
+    "id": 11768,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the blocks in a region with a given pattern."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11769": {
+    "id": 11769,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a cylinder using a given pattern at a certain location.",
+        "You can choose for the cylinder to be hollow, and it can take a set of radii and a height.",
+        "By default, the radius is 5, the height is 1, and the cylinder will not be hollow."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11770": {
+    "id": 11770,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a pyramid using a given pattern at a certain location.",
+        "You can choose for the pyramid to be hollow, and it can take a size.",
+        "By default, the size is 5, and the pyramid will not be hollow."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11771": {
+    "id": 11771,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a sphere using a given pattern at a certain location.",
+        "You can choose for the sphere to be hollow, and it can take a set of radii.",
+        "By default, the radius is 5, and the sphere will not be hollow."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11787": {
+    "id": 11787,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a shape at a given location. Depending on which shape is being created, a different set of entries can be used.",
+        "Entries that can be used with any shape:",
+        "* pattern (pattern): the pattern that the shape will be made out of (no default, and this has to be a pattern object (via the pattern expression))",
+        "* hollow (boolean): whether the shape will be hollow (default is true)",
+        "Entries that can be used with a pyramid:",
+        "* size (integer): the size of the pyramid (no default)",
+        "Entries that can be used with both a sphere and cylinder:",
+        "* radius (number): the radius (on the x-axis) of the shape (no default)",
+        "* radiusZ (number): the radius (on the z-axis) of the shape (this is optional, and if not provided, will default to the radius)",
+        "Entries that can be used only with a sphere:",
+        "* radiusY (number): the radius (on the y-axis) of the shape (this is optional, and if not provided, will default to the radius)",
+        "Entries that can be used only with a cylinder:",
+        "* height (number): the height of the cylinder (no default)",
+        "This section is effectively the same as just using the shape effects, but might be preferable."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11808": {
+    "id": 11808,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the biome of given region."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11757": {
+    "id": 11757,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates the faces (walls + ceiling + floor) of a given region using a given pattern."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11761": {
+    "id": 11761,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Moves the blocks in a given region in a given direction a given distance.",
+        "You can choose to only move the blocks that match a given mask too, as well as filling the left-behind area using a certain pattern.",
+        "Additionally, air can be ignored, and entities and biomes can be copied.",
+        "By default, the distance will be 1, all blocks will be moved, no pattern will be left behind, air will not be ignored, and entities and biomes will not be copied."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11762": {
+    "id": 11762,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Naturalizes a given region. This just changes the top 3 layers of blocks into grass/dirt, and the bottom layers into stone."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11763": {
+    "id": 11763,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Overlays the top level of blocks in a given region using a given pattern."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11765": {
+    "id": 11765,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Regenerates the area within a given region while optionally regenerating biomes, using a given seed.",
+        "The default seed is just the seed of the region's world, and biomes will not be regenerated by default."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11767": {
+    "id": 11767,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Replaces blocks in a region that match a certain mask with a given pattern."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11809": {
+    "id": 11809,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the dimensions of a given region."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11807": {
+    "id": 11807,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create a spline using a set of locations. The order of the locations in this effect matter.",
+        "A rigid spline will create straight lines from location to location, whereas a non-rigid spline will createa curved line which goes through all the locations."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13985": {
+    "id": 13985,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether a schematic with a given name exists."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11825": {
+    "id": 11825,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Saves a region as a schematic.",
+        "The name of the schematic shouldn't include any path, as skript-worldedit will always start at WorldEdit's schematics directory.",
+        "The centre of the schematic can be set, as well as whether or not it should overwrite an existing schematic of the same name."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11963": {
+    "id": 11963,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "All the supported tree types that WorldEdit can use."
+      ],
+      "ko": [
+        "[skript-worldedit] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

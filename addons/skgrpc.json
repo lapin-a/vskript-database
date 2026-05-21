@@ -1,0 +1,520 @@
+{
+  "syntax_13454": {
+    "id": 13454,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13455": {
+    "id": 13455,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13456": {
+    "id": 13456,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13457": {
+    "id": 13457,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13458": {
+    "id": 13458,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13257": {
+    "id": 13257,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13258": {
+    "id": 13258,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13259": {
+    "id": 13259,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13260": {
+    "id": 13260,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13261": {
+    "id": 13261,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13262": {
+    "id": 13262,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13264": {
+    "id": 13264,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13265": {
+    "id": 13265,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13268": {
+    "id": 13268,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13269": {
+    "id": 13269,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13271": {
+    "id": 13271,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13272": {
+    "id": 13272,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13273": {
+    "id": 13273,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13263": {
+    "id": 13263,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13266": {
+    "id": 13266,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13267": {
+    "id": 13267,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13270": {
+    "id": 13270,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13274": {
+    "id": 13274,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13275": {
+    "id": 13275,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13450": {
+    "id": 13450,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13451": {
+    "id": 13451,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13441": {
+    "id": 13441,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13442": {
+    "id": 13442,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13443": {
+    "id": 13443,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13444": {
+    "id": 13444,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13445": {
+    "id": 13445,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13446": {
+    "id": 13446,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13447": {
+    "id": 13447,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13448": {
+    "id": 13448,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13449": {
+    "id": 13449,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13452": {
+    "id": 13452,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13453": {
+    "id": 13453,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkGrpc] No official English guide provided."
+      ],
+      "ko": [
+        "[SkGrpc] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,492 @@
+{
+  "syntax_4625": {
+    "id": 4625,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draw a line on a specific image (with color, location and size)"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4629": {
+    "id": 4629,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Save an image to the directory specified"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4630": {
+    "id": 4630,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fill the entire image with unique color"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4631": {
+    "id": 4631,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return a color from RGB (Red, Green, Blue)"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4632": {
+    "id": 4632,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return the height size of an image"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4633": {
+    "id": 4633,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return the width size of an image"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4634": {
+    "id": 4634,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get and return an image from locale File"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4635": {
+    "id": 4635,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get and return an image from web URL"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4636": {
+    "id": 4636,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create an return a new Font"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4637": {
+    "id": 4637,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Create an return a new Image"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4638": {
+    "id": 4638,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Resize and return an Image with new width, height and with specific algorithm (Bytes, so 1, 2, 4, 8 and 16)"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4639": {
+    "id": 4639,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make an return the rounded version of the input Image"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4640": {
+    "id": 4640,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an Image"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4641": {
+    "id": 4641,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an Image Font"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4642": {
+    "id": 4642,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an Image Color"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4627": {
+    "id": 4627,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draw a rectangle with rounded arc on a specific image (with color, location and size)"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4628": {
+    "id": 4628,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draw text at specific pixel location and with specific color on image. Use `with align center` at the end to make the text center."
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4806": {
+    "id": 4806,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Register new font from file or whole folder"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4807": {
+    "id": 4807,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns list of all active and enabled font"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4808": {
+    "id": 4808,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get and return the Base64 string of an Image"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4809": {
+    "id": 4809,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make the image without any other color than gray level, and return it."
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4810": {
+    "id": 4810,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make the image blurred and return it. Can't remove black border, expect by resizing the image."
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4811": {
+    "id": 4811,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Re-color each pixel of the image, by adding both image and color chose RGB value, and return it."
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4812": {
+    "id": 4812,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make any image with darker pixel and return it"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4813": {
+    "id": 4813,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get and return an image from Base64 encoding"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4814": {
+    "id": 4814,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Invert (Positive / Negative) each pixel of the image, and return it."
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4815": {
+    "id": 4815,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Make any image with lighter pixel and return it"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4624": {
+    "id": 4624,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draw an Image on another Image"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4626": {
+    "id": 4626,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Draw a rectangle on a specific image (with color, location and size)"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5610": {
+    "id": 5610,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return the same image, with same pixel and data, but not the same instance."
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5611": {
+    "id": 5611,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return the distance between two java.awt colors"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5612": {
+    "id": 5612,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the average (main) color of an image."
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5613": {
+    "id": 5613,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an Image"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5614": {
+    "id": 5614,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an Image Color"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_5615": {
+    "id": 5615,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents an Image Font"
+      ],
+      "ko": [
+        "[SkImage] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

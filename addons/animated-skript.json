@@ -1,0 +1,1059 @@
+{
+  "syntax_13298": {
+    "id": 13298,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns the last spawned active-model..........."
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13283": {
+    "id": 13283,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns a list of the names of loaded-models"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13310": {
+    "id": 13310,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "called when the frame of a animation has been manually set to something"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13284": {
+    "id": 13284,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns all active models"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13309": {
+    "id": 13309,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "called when a animation ends"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13287": {
+    "id": 13287,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns a active-model from a uuid"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13419": {
+    "id": 13419,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "control animation state"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13313": {
+    "id": 13313,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "called when an animation is stated"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13314": {
+    "id": 13314,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "called when a active model is removed/deleted from the server"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13421": {
+    "id": 13421,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "reloads all active-models/model configs"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13316": {
+    "id": 13316,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "called when the plugin is reloaded"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13308": {
+    "id": 13308,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "gets the active models root/origin item display"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13422": {
+    "id": 13422,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "removes a active-model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13289": {
+    "id": 13289,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns the location of root of the model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13423": {
+    "id": 13423,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "set the persistence of a active-model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13974": {
+    "id": 13974,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "get name of variant"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13975": {
+    "id": 13975,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "get a variants uuid"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13292": {
+    "id": 13292,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns the type of model it is as a string (name of model config)"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13978": {
+    "id": 13978,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "represents an animation a active-model has"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14501": {
+    "id": 14501,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "gets a animation from a active-model using a string if the model has an animation called that"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13293": {
+    "id": 13293,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "get the uuid of a active model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13424": {
+    "id": 13424,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "spawns a loaded-model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13425": {
+    "id": 13425,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "stops a current animation of a active-model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13294": {
+    "id": 13294,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "get all active-models"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13295": {
+    "id": 13295,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "get all loaded-models (returns there names)"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13426": {
+    "id": 13426,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "teleports a active-model to a location"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13296": {
+    "id": 13296,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns the frame an active-models animation is on, for example if you have a animation being played called \"test1\" and it lasts 100 ticks (5 seconds) it will return some value in ticks up to but not passing 100 ticks"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13288": {
+    "id": 13288,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns a list of all the names of animations an active-model has"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13290": {
+    "id": 13290,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns the node of the active-model as a display entity from a uuid that can be found in the config file of a model (model_name.json)"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13299": {
+    "id": 13299,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns true or false depending if the model is persistent or not (persistent = will not be saved)"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13291": {
+    "id": 13291,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "gets all the nodes (the displays that make up the model) of a active-model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13418": {
+    "id": 13418,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "checks if a loaded-model exists"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13315": {
+    "id": 13315,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "called when a active model is spawned"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13743": {
+    "id": 13743,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "allows you to set who can see this model, assuming you set the default visibility to false"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13744": {
+    "id": 13744,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "sets the default visibility of a model, i.e if you can see it by default"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13420": {
+    "id": 13420,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "pause/resume a current animation"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13943": {
+    "id": 13943,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "stops all current animations of a model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13945": {
+    "id": 13945,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "checks if a active model has a variant"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13946": {
+    "id": 13946,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "resets the scale of a active-model pack to normal I.e. a scale of 1.0"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13947": {
+    "id": 13947,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "sets the scale of a active-model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13948": {
+    "id": 13948,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "sets the tint of a active-model.",
+        "see here (doc link) to see how to enable tint on a model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13949": {
+    "id": 13949,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "sets the tint colour of a active-model",
+        "see here (doc link) to see how to enable tint on a model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13951": {
+    "id": 13951,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "sets the active variant of a model to something"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13952": {
+    "id": 13952,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "triggered when a hitbox is attacked"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13953": {
+    "id": 13953,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "called when a player interacts with a hitbox (right-clicks on it)"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13954": {
+    "id": 13954,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns a list of all animations actively running on a model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13955": {
+    "id": 13955,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns a list of all animations a model has"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13956": {
+    "id": 13956,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns the maximum frame time of a animation I.e. when the animation ends"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13957": {
+    "id": 13957,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns how many ticks a model will wait before playing a animation"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13958": {
+    "id": 13958,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns the loop mode of a animation, there are 3 types:",
+        "- \"hold\": it just holds the last frame for ever",
+        "- \"loop\": animation will loop instead of stopping",
+        "- \"once\": will play once then stop"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13959": {
+    "id": 13959,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "gets how long the animation will last in ticks"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13950": {
+    "id": 13950,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "resets the active variant of a active-model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13961": {
+    "id": 13961,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns the uuid of the active-model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13963": {
+    "id": 13963,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns true if the active-animation is paused"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13964": {
+    "id": 13964,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns a display entity representing a node in a active-model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13965": {
+    "id": 13965,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns all display entities representing nodes in a active-model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13944": {
+    "id": 13944,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns true or false depending if a active-model has an animation."
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13967": {
+    "id": 13967,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "get all the data nodes of a active-model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13968": {
+    "id": 13968,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "get the active-nodes name"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13969": {
+    "id": 13969,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "get the transform of the active-node"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13970": {
+    "id": 13970,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns what type of node it is"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13971": {
+    "id": 13971,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns the uuid of a node"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13972": {
+    "id": 13972,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "get the active texture variant of an active-model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13973": {
+    "id": 13973,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "get all texture variants of an active-model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13976": {
+    "id": 13976,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "get the location of an active-model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13966": {
+    "id": 13966,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "get a data nodes of a active-model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13962": {
+    "id": 13962,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns the current time of an active-animation in ticks"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13980": {
+    "id": 13980,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "a texture variant"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13960": {
+    "id": 13960,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "returns the name of the model (the file name of the model)"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13977": {
+    "id": 13977,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "a active-model I.e a model that is spawned in on the server"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13311": {
+    "id": 13311,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "called when a animation is paused"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13312": {
+    "id": 13312,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "called when an animation is resumed"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14212": {
+    "id": 14212,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "checks if a active-model with a specific uuid exits"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13979": {
+    "id": 13979,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "there are 2 types of nodes in animated-skript 1 a display-node thats just a item/block display then there is the data node (this type),",
+        "the data node just has some info like uuid, transform etc.",
+        "each display-node will have a data-node with the same uuid and info"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14217": {
+    "id": 14217,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "sets the teleport duration of a acative-model"
+      ],
+      "ko": [
+        "[Animated-Skript] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

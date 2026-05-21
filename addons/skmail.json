@@ -1,0 +1,486 @@
+{
+  "syntax_11023": {
+    "id": 11023,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkMail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11024": {
+    "id": 11024,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkMail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11025": {
+    "id": 11025,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkMail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11026": {
+    "id": 11026,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkMail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11027": {
+    "id": 11027,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkMail] No official English guide provided."
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11028": {
+    "id": 11028,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Try register new email service for given Account or either Account id string from your configuration 'config.yml'"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11029": {
+    "id": 11029,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "That will send the email to the recipients in asynchronous mode."
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11030": {
+    "id": 11030,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Try unregister email service for given Id"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11031": {
+    "id": 11031,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get address of Account what is saved in your accounts section in 'config.yml'",
+        "the address under which the email will be sent"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11032": {
+    "id": 11032,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get authentication of Account what is saved in your accounts section in 'config.yml'",
+        "Allow to enable either disable authentication for service server"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11033": {
+    "id": 11033,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "You can get all of your pre-configured email templates or one of them"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11034": {
+    "id": 11034,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "# get all of them",
+        "set {_accounts::*} to configured emails accounts",
+        "# get single of them",
+        "set {_account} to configured email account \"id of your account\"",
+        "**Your config.yml**",
+        "# accounts:",
+        "#  example: -> id of the account",
+        "#     ... accounts details",
+        "#   example1:",
+        "#     ... accounts details"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11035": {
+    "id": 11035,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "you can create an email form using multiple configurations",
+        "1. using an account",
+        "2. using an registered service",
+        "3. using credential string",
+        "4. using a predefined host"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11036": {
+    "id": 11036,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the email object"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11037": {
+    "id": 11037,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets message from that event"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11038": {
+    "id": 11038,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the received date of email from that event"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11039": {
+    "id": 11039,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets recipient from that event"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11040": {
+    "id": 11040,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the sender of that email from event"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11041": {
+    "id": 11041,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets subject from that event"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11042": {
+    "id": 11042,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get host of Account what is saved in your accounts section in 'config.yml'",
+        "host service through which it will be sent for example 'smtp.gmail.com'"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11043": {
+    "id": 11043,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get id of Account what is saved in your accounts section in 'config.yml'"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11044": {
+    "id": 11044,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get emails from the inbox"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11045": {
+    "id": 11045,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get port of Account what is saved in your accounts section in 'config.yml'"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11046": {
+    "id": 11046,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "You can set/get/reset/add the recipient to the email form"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11047": {
+    "id": 11047,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets id of service from that event"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11048": {
+    "id": 11048,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get Starttls fields of Account of Account what is saved in your accounts section in 'config.yml'",
+        "Its allowed you enable or either disable TLS/SSL security flag"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11049": {
+    "id": 11049,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "You can set/get/reset subject to the email form"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11050": {
+    "id": 11050,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "You can set/get/reset body/template to the email form"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11051": {
+    "id": 11051,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get type field of Account what is saved in your accounts section in 'config.yml'",
+        "SMTP / POP3(Not implemented yet) / IMAP(Not implemented yet)"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11052": {
+    "id": 11052,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The message (email) object from IMAP"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11053": {
+    "id": 11053,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Representing new email form",
+        "```applescript",
+        "set {_email} to new email using {_account}",
+        "send {_email} to console",
+        "set {_email} to new email using credential string \"smtp:gmail.com:587@auth=true&starttls=true\" with address \"test@gmail.com\"",
+        "send {_email} to console",
+        "set {_email} to new email using predefined service OUTLOOK with address \"test2@gmail.com\"",
+        "send {_email} to console",
+        "````"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_11054": {
+    "id": 11054,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Representing of Email configuration/account",
+        "```applescript",
+        "set {_email} to configured email account \"example\"",
+        "send address of {_email}",
+        "send type of {_email}",
+        "send host of {_email}",
+        "send port of {_email}",
+        "send auth of {_email}",
+        "send starttls of {_email}",
+        "send service of {_email}",
+        "```"
+      ],
+      "ko": [
+        "[SkMail] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

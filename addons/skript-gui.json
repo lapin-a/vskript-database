@@ -1,0 +1,244 @@
+{
+  "syntax_7914": {
+    "id": 7914,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether the given player(s) has/have a GUI open."
+      ],
+      "ko": [
+        "[skript-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7915": {
+    "id": 7915,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Cancels or uncancels the closing of a GUI.",
+        "This effect can be used within a GUI close section.",
+        "A 1 tick delay is applied by this effect after the code has run."
+      ],
+      "ko": [
+        "[skript-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7916": {
+    "id": 7916,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skript-gui] No official English guide provided."
+      ],
+      "ko": [
+        "[skript-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7918": {
+    "id": 7918,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Different utility values for a GUI. Some are available in vanilla Skript. Not all values are available for the GUI close section."
+      ],
+      "ko": [
+        "[skript-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7919": {
+    "id": 7919,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The GUI that the player currently has open."
+      ],
+      "ko": [
+        "[skript-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7920": {
+    "id": 7920,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A list of the identifiers of all registered global GUIs."
+      ],
+      "ko": [
+        "[skript-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7921": {
+    "id": 7921,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression that returns the ID of a GUI if the GUI is a global GUI.",
+        "This expression may be used to change the ID of a global GUI.",
+        "It may also be used to register a GUI as a global GUI."
+      ],
+      "ko": [
+        "[skript-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7922": {
+    "id": 7922,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "It is used to return the last created/edited gui or a gui from a string id."
+      ],
+      "ko": [
+        "[skript-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7923": {
+    "id": 7923,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression that returns the number/character of the next open slot in a GUI."
+      ],
+      "ko": [
+        "[skript-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7924": {
+    "id": 7924,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the \"pages\" of a list based on the given number of lines per page."
+      ],
+      "ko": [
+        "[skript-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7925": {
+    "id": 7925,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "An expression to create inventories that can be used with GUIs."
+      ],
+      "ko": [
+        "[skript-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7926": {
+    "id": 7926,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a skript-gui GUI"
+      ],
+      "ko": [
+        "[skript-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7927": {
+    "id": 7927,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents the slot type in an Inventory Click Event."
+      ],
+      "ko": [
+        "[skript-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7928": {
+    "id": 7928,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "The base of creating and editing GUIs."
+      ],
+      "ko": [
+        "[skript-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7929": {
+    "id": 7929,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sections that will run when a user opens or closes the GUI. This section is optional."
+      ],
+      "ko": [
+        "[skript-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7930": {
+    "id": 7930,
+    "type": "section",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or clear GUI slots."
+      ],
+      "ko": [
+        "[skript-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_7917": {
+    "id": 7917,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Different properties of a GUI. They can be modified."
+      ],
+      "ko": [
+        "[skript-gui] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "syntax_4608": {
+    "id": 4608,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Broadcast given message to all players on BungeeCord network."
+      ],
+      "ko": [
+        "[skScraft] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4611": {
+    "id": 4611,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Execute gicen command on BungeeCord network as given player."
+      ],
+      "ko": [
+        "[skScraft] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4610": {
+    "id": 4610,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Execute command on BungeeCord proxy server."
+      ],
+      "ko": [
+        "[skScraft] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4617": {
+    "id": 4617,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return name of server of given player."
+      ],
+      "ko": [
+        "[skScraft] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4618": {
+    "id": 4618,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return number of players connected to given server."
+      ],
+      "ko": [
+        "[skScraft] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4607": {
+    "id": 4607,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Connect given player to given BungeeCord Network."
+      ],
+      "ko": [
+        "[skScraft] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4612": {
+    "id": 4612,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Kick all players from BungeeCord network. If you don't provide message, the default one from the config will be used."
+      ],
+      "ko": [
+        "[skScraft] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4609": {
+    "id": 4609,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Send message to given player connected to BungeeCord network."
+      ],
+      "ko": [
+        "[skScraft] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4620": {
+    "id": 4620,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return number of max slots on given server."
+      ],
+      "ko": [
+        "[skScraft] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4614": {
+    "id": 4614,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if player is connected to BungeeCord network. Example if \"%player%\" is connected to bungeecord network"
+      ],
+      "ko": [
+        "[skScraft] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4616": {
+    "id": 4616,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if given server is offline."
+      ],
+      "ko": [
+        "[skScraft] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4619": {
+    "id": 4619,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return number of players connected to network."
+      ],
+      "ko": [
+        "[skScraft] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4621": {
+    "id": 4621,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return UUID of given player."
+      ],
+      "ko": [
+        "[skScraft] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4622": {
+    "id": 4622,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Return IP of given player."
+      ],
+      "ko": [
+        "[skScraft] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4613": {
+    "id": 4613,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stop BungeeCord proxy server. If you don't provide message, the default one from the config will be used."
+      ],
+      "ko": [
+        "[skScraft] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4615": {
+    "id": 4615,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if given server is online."
+      ],
+      "ko": [
+        "[skScraft] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

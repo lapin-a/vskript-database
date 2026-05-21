@@ -1,0 +1,1148 @@
+{
+  "syntax_4485": {
+    "id": 4485,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes a team"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4486": {
+    "id": 4486,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes an entity from a team"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4488": {
+    "id": 4488,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the team of an entity"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4653": {
+    "id": 4653,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Provides a list of all the banned players"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4489": {
+    "id": 4489,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the color of a Team"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4656": {
+    "id": 4656,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets or sets the idle timeout (minutes) for the server."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4661": {
+    "id": 4661,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the animal spawn rate, in ticks, of the server."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4664": {
+    "id": 4664,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the water spawn rate, in ticks, of the server."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4666": {
+    "id": 4666,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the limit of water animal spawns."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4492": {
+    "id": 4492,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the name of a team"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4493": {
+    "id": 4493,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the prefix of a team"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4657": {
+    "id": 4657,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the server implementation name of Bukkit."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4426": {
+    "id": 4426,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the tier level of the beacon depending on how many layers it has"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4454": {
+    "id": 4454,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the entity has stung before if the entity is a Bee"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4483": {
+    "id": 4483,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds an entity to a team"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4495": {
+    "id": 4495,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the suffix of a team"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4425": {
+    "id": 4425,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the flower location of a block if it is a Beehive"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4420": {
+    "id": 4420,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the anger level of an entity if the entity is a Bee."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4422": {
+    "id": 4422,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the location of an entity's hive if they are a Bee"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4424": {
+    "id": 4424,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether or not a block is sedated via smoke if the block is a Beehive"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4427": {
+    "id": 4427,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the primary effect of a block if the block is a Beacon"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4428": {
+    "id": 4428,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the secondary potion effect of a block if the block is a Beacon"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4429": {
+    "id": 4429,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the value of the puffstate of an entity if the entity is a Pufferfish",
+        "[0-2, 0 being deflated, 2 being inflated]"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4430": {
+    "id": 4430,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the color of the pattern of an entity if that entity is a Tropical Fish"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4431": {
+    "id": 4431,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the body color of an entity if the entity is a Tropical Fish"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4432": {
+    "id": 4432,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is converting into a drowned if the entity is a Zombie"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4433": {
+    "id": 4433,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the executor (or name) that is used to run commands in a block if the block is a Command Block"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4421": {
+    "id": 4421,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the location of an entity's flower if they are a Bee"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4434": {
+    "id": 4434,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the command from a block if the block is a Command Block"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4435": {
+    "id": 4435,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the number of ticks that an entity has to wait before returning to their Beehive if the entity is a Bee"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4437": {
+    "id": 4437,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the color of a Shulker Box Block",
+        "<Added this because \"color of block\" where the block was a shulker box was not working for me, if that works for you in vanilla, great. If not, you can use this>"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4455": {
+    "id": 4455,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether or not an entity is shivering, meaning they are a Strider and are not in a \"warm\" environment"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4456": {
+    "id": 4456,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the entities that are in range, meaning they acquire the effects of a Beacon. These values are only Players as only players are affected by a Beacon."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4458": {
+    "id": 4458,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether an entity is awake, that entity is a Bat."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4457": {
+    "id": 4457,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the Has Stung value of a Bee, this will return a boolean (yes/no) dependant on if they have or have not stung before. Refer to the Has Stung syntax"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4484": {
+    "id": 4484,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Makes a new team"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4496": {
+    "id": 4496,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a team, these are the same as the vanilla teams system."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4659": {
+    "id": 4659,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets or sets the spawn radius, in blocks, of the server."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4662": {
+    "id": 4662,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the monster spawn rate, in ticks, of the server."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4423": {
+    "id": 4423,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity has nectar/pollen if the entity is a Bee"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4459": {
+    "id": 4459,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the fluid level of a block changes due to changes in adjacent blocks."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4461": {
+    "id": 4461,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when a bat attempts to sleep or wake up from its slumber.",
+        "If a Bat Toggle Sleep event is cancelled, the Bat will not toggle its sleep state."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4462": {
+    "id": 4462,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called when a player clicks the button to take a book of a Lectern. If this event is cancelled the book remains on the lectern."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4460": {
+    "id": 4460,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the moisture level of a soil block changes."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4463": {
+    "id": 4463,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether this snowman is in \"derp mode\", meaning it is not wearing a pumpkin."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4464": {
+    "id": 4464,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether this Endermite was spawned by a player."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4465": {
+    "id": 4465,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This event is called whenever a player clicks a new trade on the trades sidebar."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4466": {
+    "id": 4466,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the data of the block that the Enderman is carrying."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4467": {
+    "id": 4467,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets whether this Endermite was spawned by a player.",
+        "(See condition)"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4469": {
+    "id": 4469,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets whether this snowman is in \"derp mode\", meaning it is not wearing a pumpkin.",
+        "(See condition)"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4436": {
+    "id": 4436,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a boolean (yes/no true/false) of the entity's nectar / pollen <refer to the pollination condition> if the entity is a Bee"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4468": {
+    "id": 4468,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the type of an object, an object being a variable or something else. If the variable/object is a String, it will return \"String\", and so on."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4480": {
+    "id": 4480,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks wether an Iron Golem is player created (as in they built it)"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4481": {
+    "id": 4481,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a team allows friendly fire"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4482": {
+    "id": 4482,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a team member can see friendly invisibles"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4487": {
+    "id": 4487,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the value of player created condition of an Iron Golem",
+        "(See condition)"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4490": {
+    "id": 4490,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the display name of a Team"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4491": {
+    "id": 4491,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets a list of entries of a team, the list is a list of Strings because they are based on entity name."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4494": {
+    "id": 4494,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the size of a team, which is how many entries a team has."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4479": {
+    "id": 4479,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This expression returns the opposite value of a boolean, useful for toggling true/false values."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4660": {
+    "id": 4660,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the ambient spawn rate, in ticks, of the server."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4652": {
+    "id": 4652,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether or not a chunk is force loaded"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4651": {
+    "id": 4651,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a location is outside of the world border"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4654": {
+    "id": 4654,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Provides a list of entities located in the provided chunk"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4655": {
+    "id": 4655,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Provides the value of the Is Force Loaded condition, can be set to a boolean (yes/no)."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4658": {
+    "id": 4658,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the shutdown message, message sent when the server stops, of the server."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4663": {
+    "id": 4663,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the water ambient spawn rate, in ticks, of the server."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4665": {
+    "id": 4665,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the limit of water ambient spawns."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4849": {
+    "id": 4849,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets or sets the collar color of an entity, if that entity is a wolf"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4850": {
+    "id": 4850,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the state of an entity's crouching, if that entity is a wolf.",
+        "Can be set, but note that the entity will override it setting it back to standing."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4851": {
+    "id": 4851,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the sleep state of an entity",
+        "Can be set if the entity is a fox, but note that the entity will override this causing it to go back to standing."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4852": {
+    "id": 4852,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets the amount of times a villager has restocked during that day"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4853": {
+    "id": 4853,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called just prior to when a player leashes an entity",
+        "`event-player` is the player who leashed",
+        "`event-entity` is the entity being leashed"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4854": {
+    "id": 4854,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Called when the whitelist is toggled on or off",
+        "[ `/whitelist on` or `/whitelist off` ]",
+        "`event-boolean` is the value of if the whitelist is now on or off"
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4855": {
+    "id": 4855,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Attempts  to make a villager sleep at a certain location. The location has to be a bed or else nothing will happen."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4856": {
+    "id": 4856,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Plays the open animation for the container block [chest, barrel, shulker box] without there being a player to receive the inventory. The chest will stay in the open position until it is closed using the `Close Lid` effect."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4857": {
+    "id": 4857,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Plays the closing animation for a container block [chest, barrel, shulker box] without there being a player to receive the inventory."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4858": {
+    "id": 4858,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows a connection from the `on connect` event, this means that the player attempting to join will be able to join the server. This will mean that they can bypass the whitelist and any other connections that end with them being disconnected."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4859": {
+    "id": 4859,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "This is the opposite of the `Allow` effect. This will kick the player attempting to join, and give them a message."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4860": {
+    "id": 4860,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is sleeping, this applies to all living entities, although not all entities can sleep."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_4861": {
+    "id": 4861,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a fox is in the crouching position, as in they are sitting down."
+      ],
+      "ko": [
+        "[Pesk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "syntax_14513": {
+    "id": 14513,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skGull] No official English guide provided."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14515": {
+    "id": 14515,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends a prompt to the Groq LPU API using a specific model (Llama 3.3). This is an asynchronous effect, meaning it won't lag the server while waiting for the AI to respond."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14518": {
+    "id": 14518,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a virtual world border that is only visible and active for specific players. This does not affect the actual global world border."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14519": {
+    "id": 14519,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Forcefully resets the click-hold timer for a player. Useful for 'cancelling' a charge-up action or resetting state after a specific game event."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14521": {
+    "id": 14521,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the current time in milliseconds that a player has been holding down a click (Left or Right)."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14514": {
+    "id": 14514,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player is currently holding down a specific mouse button. This relies on the ClickManager's tracked state."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14516": {
+    "id": 14516,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Shows or removes a 'fake' world border effect for specific players. When shown, this typically creates a red vignette/warning effect on the player's screen without actually restricting their movement based on the global world border."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14517": {
+    "id": 14517,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Opens a sophisticated paged GUI for a player. Automatically handles pagination, navigation buttons, and custom row sizes."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14520": {
+    "id": 14520,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets a specific slot in a player's currently open skGull PagedMenu to a given item. This updates both the internal menu state and the live inventory."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14664": {
+    "id": 14664,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Spawns ENTITY_EFFECT particles with precise RGB color control. Compatible with Minecraft 1.21+."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14665": {
+    "id": 14665,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Launches an entity that bounces off walls, floors, and ceilings with configurable energy retention."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14666": {
+    "id": 14666,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets the player's sorting priority in the tab list. Lower numbers appear higher up."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14404": {
+    "id": 14404,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Adds an enchantment glint (shiny effect) to an item. Uses the 1.21+ glint override with a legacy fallback (Enchantment + Hide Flags)."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14390": {
+    "id": 14390,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[skGull] No official English guide provided."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14394": {
+    "id": 14394,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if an entity is within a cuboid region defined by two locations."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14395": {
+    "id": 14395,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a player has a clear line of sight to an entity (not blocked by walls)."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14396": {
+    "id": 14396,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Enable or disable the AI (awareness) of one or more mobs. Disabled mobs will not move or target players."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14397": {
+    "id": 14397,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Smoothly animates a specific part of an armor stand to a new rotation over a period of ticks.",
+        "Indices: 0:head, 1:body, 2:left arm, 3:right arm, 4:left leg, 5:right leg"
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14400": {
+    "id": 14400,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Causes an entity to emit a specific sound at regular intervals. If a sound is already being emitted, starting a new one will replace it."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14401": {
+    "id": 14401,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Allows or disallows an entity from opening and passing through doors.",
+        "This increases the mob's follow range and updates their pathfinding flags.",
+        "It also enables a physical door-opening task if the 'allow' syntax is used."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14402": {
+    "id": 14402,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Forces a mob to indefinitely patrol a list of locations. If the mob acquires a target, it will pause the patrol to fight, then resume once the target is lost."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14403": {
+    "id": 14403,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes the enchantment glint (shiny effect) from an item, including the 1.21+ glint override."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14399": {
+    "id": 14399,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes an existing zone by its name."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14392": {
+    "id": 14392,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Triggers the exact moment an entity enters a player's field of view and is not obstructed by blocks. (Works best with default FOV)"
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14393": {
+    "id": 14393,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Triggers once an entity enters/exit a set zone."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14405": {
+    "id": 14405,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Calculates and executes a path for an entity to a specific location using the built-in Minecraft pathfinder."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14406": {
+    "id": 14406,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Forces a mob to follow a list of locations sequentially. The pathing will pause if the mob acquires a combat target and resume once the target is cleared."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14407": {
+    "id": 14407,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Performs a 'thick' raycast (sphere-based) from a location to detect entities and blocks, with an optional result storage."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14409": {
+    "id": 14409,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the specific part of an entity (head, body, or feet) that was hit/looked at in a look event."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14398": {
+    "id": 14398,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates and registers a new zone using two locations as the corners of a cuboid."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14408": {
+    "id": 14408,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of all currently active zones."
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14391": {
+    "id": 14391,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Is a continuous state check that triggers repeatedly as long as the player keeps an entity in their sight"
+      ],
+      "ko": [
+        "[skGull] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

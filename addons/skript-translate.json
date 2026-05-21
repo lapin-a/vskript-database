@@ -1,0 +1,87 @@
+{
+  "syntax_13062": {
+    "id": 13062,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Translates a given text into a different language."
+      ],
+      "ko": [
+        "[Skript-Translate] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13065": {
+    "id": 13065,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Transliterates the given Cyrillic text into english."
+      ],
+      "ko": [
+        "[Skript-Translate] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14973": {
+    "id": 14973,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the translated text of a string as a language."
+      ],
+      "ko": [
+        "[Skript-Translate] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13063": {
+    "id": 13063,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Different from the Translate effect in that it specifies the current language of the string",
+        "This can help to reduce misunderstandings caused by the auto-detect language."
+      ],
+      "ko": [
+        "[Skript-Translate] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13064": {
+    "id": 13064,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Represents a Language for Translation"
+      ],
+      "ko": [
+        "[Skript-Translate] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13765": {
+    "id": 13765,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the language from a language code. Language codes can be viewed here: https://cloud.google.com/translate/docs/languages"
+      ],
+      "ko": [
+        "[Skript-Translate] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "syntax_14228": {
+    "id": 14228,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes all PDC tags from an object."
+      ],
+      "ko": [
+        "[SkriptPDC] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14229": {
+    "id": 14229,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Removes one or more specific PDC tags from an object."
+      ],
+      "ko": [
+        "[SkriptPDC] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14225": {
+    "id": 14225,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a list of all PDC tag keys present on an object."
+      ],
+      "ko": [
+        "[SkriptPDC] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14224": {
+    "id": 14224,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Gets, sets, or deletes a PDC tag value with automatic type detection. Supports GET, SET, DELETE, ADD, and REMOVE operations."
+      ],
+      "ko": [
+        "[SkriptPDC] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_14236": {
+    "id": 14236,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "check tag is set"
+      ],
+      "ko": [
+        "[SkriptPDC] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

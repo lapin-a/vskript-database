@@ -1,0 +1,72 @@
+{
+  "syntax_9259": {
+    "id": 9259,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check whether or not a player has linked their Discord account."
+      ],
+      "ko": [
+        "[Linky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9261": {
+    "id": 9261,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Forcefully unlinks a players Discord"
+      ],
+      "ko": [
+        "[Linky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9262": {
+    "id": 9262,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fired when a Player successfully links."
+      ],
+      "ko": [
+        "[Linky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9260": {
+    "id": 9260,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks whether or not a player is in the Discord server."
+      ],
+      "ko": [
+        "[Linky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_9258": {
+    "id": 9258,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Fetches the Discord ID of a player, as long as they're linked. If they're not, this returns nothing."
+      ],
+      "ko": [
+        "[Linky] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

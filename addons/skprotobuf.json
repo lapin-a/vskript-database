@@ -1,0 +1,184 @@
+{
+  "syntax_13281": {
+    "id": 13281,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkProtobuf] No official English guide provided."
+      ],
+      "ko": [
+        "[SkProtobuf] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13282": {
+    "id": 13282,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkProtobuf] No official English guide provided."
+      ],
+      "ko": [
+        "[SkProtobuf] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13251": {
+    "id": 13251,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkProtobuf] No official English guide provided."
+      ],
+      "ko": [
+        "[SkProtobuf] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13252": {
+    "id": 13252,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkProtobuf] No official English guide provided."
+      ],
+      "ko": [
+        "[SkProtobuf] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13254": {
+    "id": 13254,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkProtobuf] No official English guide provided."
+      ],
+      "ko": [
+        "[SkProtobuf] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13255": {
+    "id": 13255,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkProtobuf] No official English guide provided."
+      ],
+      "ko": [
+        "[SkProtobuf] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13256": {
+    "id": 13256,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkProtobuf] No official English guide provided."
+      ],
+      "ko": [
+        "[SkProtobuf] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13249": {
+    "id": 13249,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkProtobuf] No official English guide provided."
+      ],
+      "ko": [
+        "[SkProtobuf] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13250": {
+    "id": 13250,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkProtobuf] No official English guide provided."
+      ],
+      "ko": [
+        "[SkProtobuf] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13248": {
+    "id": 13248,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkProtobuf] No official English guide provided."
+      ],
+      "ko": [
+        "[SkProtobuf] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13253": {
+    "id": 13253,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkProtobuf] No official English guide provided."
+      ],
+      "ko": [
+        "[SkProtobuf] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13439": {
+    "id": 13439,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkProtobuf] No official English guide provided."
+      ],
+      "ko": [
+        "[SkProtobuf] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_13440": {
+    "id": 13440,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[SkProtobuf] No official English guide provided."
+      ],
+      "ko": [
+        "[SkProtobuf] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

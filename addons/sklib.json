@@ -1,0 +1,366 @@
+{
+  "syntax_1182": {
+    "id": 1182,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes a redis key."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1183": {
+    "id": 1183,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes all of the redis variables."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1184": {
+    "id": 1184,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Relights the targeted chunk."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1185": {
+    "id": 1185,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sends a redis message over the target channel."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1186": {
+    "id": 1186,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Sets a redis key to picked value."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1202": {
+    "id": 1202,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the IP of your redis instance."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1203": {
+    "id": 1203,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the port of your redis instance."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1204": {
+    "id": 1204,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the value of the provided redis key."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1189": {
+    "id": 1189,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the item you clicked on (Inventory Click Event)"
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1180": {
+    "id": 1180,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Run every time a redis message is received from a subscribed channel"
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1181": {
+    "id": 1181,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if the supplied IP address is a proxy or VPN."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1190": {
+    "id": 1190,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the row you clicked on (Inventory Click Event)."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1191": {
+    "id": 1191,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the slot you clicked on (Inventory Click Event)."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1193": {
+    "id": 1193,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the description of a command."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1187": {
+    "id": 1187,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Triggers a fake redis event (does not actually send a redis message)."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1188": {
+    "id": 1188,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns (URL) QR code of a two-factor secret."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1192": {
+    "id": 1192,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the current two-factor code of the client secret."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1194": {
+    "id": 1194,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the formatted date of a player based on the player's timezone."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1195": {
+    "id": 1195,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Generates a new two-factor client secret."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1196": {
+    "id": 1196,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the permission needed for a command."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1197": {
+    "id": 1197,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the Timezone of a player."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1198": {
+    "id": 1198,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the plugin of a command."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1199": {
+    "id": 1199,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new public pastebin paste."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1200": {
+    "id": 1200,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the subscribed channel(s) of your redis instance."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1201": {
+    "id": 1201,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a boolean if you have an active redis connection."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_1205": {
+    "id": 1205,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new unlisted pastebin paste, returns the url."
+      ],
+      "ko": [
+        "[skLib] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

@@ -1,0 +1,758 @@
+{
+  "syntax_2394": {
+    "id": 2394,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[FunkySk] No official English guide provided."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2395": {
+    "id": 2395,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[FunkySk] No official English guide provided."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2396": {
+    "id": 2396,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[FunkySk] No official English guide provided."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2397": {
+    "id": 2397,
+    "type": "event",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "[FunkySk] No official English guide provided."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2398": {
+    "id": 2398,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a song with an ID is playing."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2399": {
+    "id": 2399,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a song is playing for a user."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2400": {
+    "id": 2400,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a minecraft player is in range of the position song player."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2401": {
+    "id": 2401,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a song is playing for a user."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2402": {
+    "id": 2402,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Play a tick of a song to the user(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2403": {
+    "id": 2403,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Stops a song from being played to the minecraft player(s). Doesn't seem to work well, use the player list of a song player."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2404": {
+    "id": 2404,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Pause a song with an ID."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2405": {
+    "id": 2405,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Play a song with an ID."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2406": {
+    "id": 2406,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Destory/Remove the song player(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2407": {
+    "id": 2407,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Plays a new song for a user with an optional ID system to be able to easily manage the song being played."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2408": {
+    "id": 2408,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the ID's of all songs currently playing."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2409": {
+    "id": 2409,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns new position song player(s) from the given song(s). A position song player is a song player that is locked on a location."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2410": {
+    "id": 2410,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the players currently listening to a song with an ID. Returns as a string because that's what NoteBlockAPI does."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2411": {
+    "id": 2411,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A temporary setup for multiple slots while Bensku updates Skript with my pull request to add this."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2412": {
+    "id": 2412,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns new song player(s) from the given song(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2413": {
+    "id": 2413,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns new noteblock song player(s) from the given song(s). A noteblock song player is a song player that is locked on a block which is a noteblock."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2414": {
+    "id": 2414,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns songs based from the file strings. Can accept a file path string or a url link."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2415": {
+    "id": 2415,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the song's music player(s) of string(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2416": {
+    "id": 2416,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns a note at the defined tick of the song."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2417": {
+    "id": 2417,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns all the .nbs songs in a file location."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2418": {
+    "id": 2418,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the distance that the position song player(s) can be heard from. The default distance is 16."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2419": {
+    "id": 2419,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the volume of the user(s). This is like a preference system for each minecraft user."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2420": {
+    "id": 2420,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the description of the song(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2421": {
+    "id": 2421,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the height of the song(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2422": {
+    "id": 2422,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the volume of the song player(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2423": {
+    "id": 2423,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the tick that the song player(s) are currently on."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2424": {
+    "id": 2424,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the song currently playing in the song player(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2425": {
+    "id": 2425,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the fade target of the song player(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2426": {
+    "id": 2426,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the delay of the song(s) if they have a delay."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2427": {
+    "id": 2427,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the fade duration time of the song player(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2428": {
+    "id": 2428,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the distance that the noteblock song player(s) can be heard from. The default distance is 16."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2429": {
+    "id": 2429,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the speed/tempo of the song(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2430": {
+    "id": 2430,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the fade type of the song player(s). The fade type is how the song fades. Currently there is only linear"
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2431": {
+    "id": 2431,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the song currently playing in the song player(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2432": {
+    "id": 2432,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the title of the song(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2433": {
+    "id": 2433,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the author of the song(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2434": {
+    "id": 2434,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the fade finishing time of the song player(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2435": {
+    "id": 2435,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the location of the position song player(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2436": {
+    "id": 2436,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the actual noteblock block of the noteblock song player(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2437": {
+    "id": 2437,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the length of the song(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2438": {
+    "id": 2438,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the listeners of the song player(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2439": {
+    "id": 2439,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns if the song player(s) are playing or not."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2440": {
+    "id": 2440,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns if the song player(s) should destroy on finish."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2441": {
+    "id": 2441,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the fade starting time of the song player(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2442": {
+    "id": 2442,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the layers of the song(s). The layers are like a chart of all the notes."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2443": {
+    "id": 2443,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the name of the layer(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2444": {
+    "id": 2444,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the volume of the layer(s)."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2445": {
+    "id": 2445,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the pitch(s) of the Note(s). The return number is from a byte."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2446": {
+    "id": 2446,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the instrument(s) of the Note(s). The return number is from a byte."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_2447": {
+    "id": 2447,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Returns the key(s) of the Note(s). The return number is from a byte. Key is what can be used to get the pitch. Subtract it by 33 or just use the pitch from note syntax."
+      ],
+      "ko": [
+        "[FunkySk] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}

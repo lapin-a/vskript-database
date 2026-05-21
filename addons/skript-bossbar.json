@@ -1,0 +1,254 @@
+{
+  "syntax_6685": {
+    "id": 6685,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Check if a bossbar has a flag"
+      ],
+      "ko": [
+        "[skript-bossbar] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6686": {
+    "id": 6686,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Deletes an existing Bossbar"
+      ],
+      "ko": [
+        "[skript-bossbar] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6684": {
+    "id": 6684,
+    "type": "condition",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Checks if a Bossbar is visible or not"
+      ],
+      "ko": [
+        "[skript-bossbar] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6687": {
+    "id": 6687,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Remove players from a Bossbar"
+      ],
+      "ko": [
+        "[skript-bossbar] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6689": {
+    "id": 6689,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Add players to a bossbar (Players can be added to multiple Bossbars at once)"
+      ],
+      "ko": [
+        "[skript-bossbar] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6701": {
+    "id": 6701,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Change properties of an existing bossbar"
+      ],
+      "ko": [
+        "[skript-bossbar] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6698": {
+    "id": 6698,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A boss bar color"
+      ],
+      "ko": [
+        "[skript-bossbar] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6699": {
+    "id": 6699,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A boss bar flag"
+      ],
+      "ko": [
+        "[skript-bossbar] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6700": {
+    "id": 6700,
+    "type": "type",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "A boss bar style"
+      ],
+      "ko": [
+        "[skript-bossbar] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6691": {
+    "id": 6691,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get the color of a Bossbar"
+      ],
+      "ko": [
+        "[skript-bossbar] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6692": {
+    "id": 6692,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Creates a new Bossbar! (you should set a variable to the bossbar e.g. `set {bossbar} to new bossbar` so you can edit its properties and add players to it)"
+      ],
+      "ko": [
+        "[skript-bossbar] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6693": {
+    "id": 6693,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get the players of a Bossbar"
+      ],
+      "ko": [
+        "[skript-bossbar] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6694": {
+    "id": 6694,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Get or change the progress (value) of a Bossbar"
+      ],
+      "ko": [
+        "[skript-bossbar] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6695": {
+    "id": 6695,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get a Bossbar's style"
+      ],
+      "ko": [
+        "[skript-bossbar] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6696": {
+    "id": 6696,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get the title/name of a Bossbar"
+      ],
+      "ko": [
+        "[skript-bossbar] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6697": {
+    "id": 6697,
+    "type": "expression",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Set or get the visibility of a Bossbar"
+      ],
+      "ko": [
+        "[skript-bossbar] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6688": {
+    "id": 6688,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Add a flag to bossbars!"
+      ],
+      "ko": [
+        "[skript-bossbar] 한국어 가이드팩 준비 중"
+      ]
+    }
+  },
+  "syntax_6690": {
+    "id": 6690,
+    "type": "effect",
+    "patterns": [],
+    "added": "2.0",
+    "guide": {
+      "en": [
+        "Remove flags from a Bossbar"
+      ],
+      "ko": [
+        "[skript-bossbar] 한국어 가이드팩 준비 중"
+      ]
+    }
+  }
+}
